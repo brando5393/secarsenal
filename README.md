@@ -9,10 +9,19 @@ see [`/disclaimer`](./src/pages/disclaimer.astro).
 ## Stack
 
 - **Astro** (static output, no server runtime — see `astro.config.mjs`)
+- **Tailwind CSS v3** + **Material Tailwind**'s HTML/utility-class
+  patterns for styling (`tailwind.config.cjs`, `postcss.config.cjs`,
+  `src/styles/global.css`) — no React; Material Tailwind's HTML flavor
+  is just documented Tailwind class conventions, which keeps the site
+  framework-free
 - **Content collections** (`src/content.config.ts`) for the `os` and
   `tools` datasets, validated with Zod at build time
 - **Pagefind** for static, client-side full-text search (indexed as a
   `postbuild` step — only available after `npm run build`, not in `dev`)
+- All client-side interactivity lives in one plain-JS file,
+  `public/scripts/site.js` — see the "Client-side scripts and CSP"
+  section of `SECURITY.md` for why (short version: our CSP blocks
+  Astro's default inline-script bundling)
 
 ## Getting started
 

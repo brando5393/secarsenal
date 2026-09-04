@@ -1,4 +1,6 @@
 ---
+import '../styles/global.css';
+
 interface Props {
   title: string;
   description?: string;
@@ -8,7 +10,7 @@ const { title, description = 'A reference catalog of pentesting operating system
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -23,37 +25,38 @@ const { title, description = 'A reference catalog of pentesting operating system
       content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none';"
     />
     <title>{title} · SecArsenal</title>
-    <link rel="stylesheet" href="/styles/global.css" />
   </head>
-  <body>
-    <header class="site-header">
-      <a class="brand" href="/">SecArsenal</a>
-      <nav>
-        <a href="/os">Operating Systems</a>
-        <a href="/tools">Tools</a>
-        <a href="/disclaimer">Disclaimer</a>
+  <body class="bg-gray-950 text-gray-100">
+    <header class="flex items-center justify-between border-b border-gray-800 bg-gray-900 px-6 py-4">
+      <a class="text-lg font-bold text-white no-underline" href="/">SecArsenal</a>
+      <nav class="flex gap-6 text-sm">
+        <a class="text-gray-400 no-underline transition-colors hover:text-white" href="/os">Operating Systems</a>
+        <a class="text-gray-400 no-underline transition-colors hover:text-white" href="/tools">Tools</a>
+        <a class="text-gray-400 no-underline transition-colors hover:text-white" href="/disclaimer">Disclaimer</a>
       </nav>
     </header>
 
-    <div class="ethics-banner" role="note">
+    <div class="border-b border-amber-800 bg-amber-950/60 px-6 py-2 text-center text-sm text-amber-200" role="note">
       Educational and ethical use only. Only test systems you own or are
-      explicitly authorized to test. Full <a href="/disclaimer">disclaimer</a>.
+      explicitly authorized to test. Full <a class="text-amber-200 underline hover:text-amber-100" href="/disclaimer">disclaimer</a>.
     </div>
 
-    <main>
+    <main class="mx-auto max-w-4xl px-6 py-8 pb-16">
       <slot />
     </main>
 
-    <footer class="site-footer">
+    <footer class="border-t border-gray-800 px-6 py-6 text-center text-xs text-gray-500">
       <p>
         SecArsenal is an independent, educational reference. It is not
         affiliated with the projects it documents. All external links go to
         the official, authoritative sources for each tool or distribution.
       </p>
-      <p>
-        Code licensed <a href="https://opensource.org/licenses/MIT" rel="noopener noreferrer">MIT</a>,
-        content licensed <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener noreferrer">CC BY 4.0</a>.
+      <p class="mt-2">
+        Code licensed <a class="text-emerald-400 hover:text-emerald-300" href="https://opensource.org/licenses/MIT" rel="noopener noreferrer">MIT</a>,
+        content licensed <a class="text-emerald-400 hover:text-emerald-300" href="https://creativecommons.org/licenses/by/4.0/" rel="noopener noreferrer">CC BY 4.0</a>.
       </p>
     </footer>
+
+    <script is:inline src="/scripts/site.js"></script>
   </body>
 </html>

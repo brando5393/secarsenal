@@ -26,6 +26,31 @@ the authoritative version and should be set at the hosting layer
 (e.g. a `public/_headers` file for Cloudflare Pages, or a CloudFront
 response headers policy on AWS).
 
+## Client-side scripts and CSP
+
+`script-src` is `'self'` with **no** `'unsafe-inline'`, deliberately —
+we'd rather keep that protection against inline-script injection than
+make CSP configuration easier for ourselves. That has one consequence
+to know about: Astro's default `<script>` processing inlines small,
+page-local scripts directly into that page's HTML for performance,
+which our CSP then silently blocks from running at all (no error is
+thrown; the listener just never attaches).
+
+All interactive client-side behavior therefore lives in one file,
+`public/scripts/site.js`, referenced from `BaseLayout.astro` via
+`<script is:inline src="/scripts/site.js">`. Because it's in `public/`
+and marked `is:inline`, Astro serves it byte-for-byte as a real
+external same-origin file instead of running it through its bundler —
+guaranteeing it's never inlined, so `script-src 'self'` covers it. Each
+feature in that file feature-detects its own markup (e.g. checks for
+`#filter-bar` before wiring up filter behavior) and no-ops on pages
+that don't have it, rather than each page shipping its own script.
+
+**If you add new client-side interactivity:** add it to
+`public/scripts/site.js` (plain JS, not processed by Astro/TypeScript)
+rather than an inline `<script>` in a page/layout — the latter will
+silently fail under this CSP.
+
 ## Dependency hygiene
 
 - Lockfile (`package-lock.json`) is committed.
