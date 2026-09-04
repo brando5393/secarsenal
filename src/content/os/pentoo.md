@@ -8,9 +8,9 @@ docsUrl: https://www.pentoo.ch/docs/
 downloadUrl: https://www.pentoo.ch/downloads/
 repoUrl: https://github.com/pentoo/pentoo-overlay
 notableTools:
-  - Aircrack-ng
-  - Nmap
-  - Metasploit Framework
+  - aircrack-ng
+  - nmap
+  - metasploit-framework
 gettingStarted: |
   Pentoo is distributed as a bootable/installable ISO built on Gentoo's
   source-based package system (Portage). It can run as a live USB or be

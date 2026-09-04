@@ -6,20 +6,20 @@ basedOn: Debian
 lastVerified: 2026-09-04
 docsUrl: https://www.kali.org/docs/
 downloadUrl: https://www.kali.org/get-kali/
-repoUrl: https://gitlab.com/kalilinux
+repoUrl: https://gitlab.com/kalilinux/build-scripts/kali-live
 notableTools:
-  - Nmap
-  - Metasploit Framework
-  - Wireshark
-  - Burp Suite
-  - John the Ripper
-  - Aircrack-ng
-  - Hydra (THC-Hydra)
-  - Nikto
-  - Ettercap
-  - Impacket
-  - Autopsy
-  - Social-Engineer Toolkit (SET)
+  - nmap
+  - metasploit-framework
+  - wireshark
+  - burpsuite
+  - john
+  - aircrack-ng
+  - hydra
+  - nikto
+  - ettercap
+  - impacket
+  - autopsy
+  - set
 gettingStarted: |
   Kali ships as installer ISOs, a live image, ARM images, WSL, and pre-built
   virtual machine images for VMware/VirtualBox. For most newcomers, the

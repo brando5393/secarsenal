@@ -8,11 +8,11 @@ docsUrl: https://parrotsec.org/docs/
 downloadUrl: https://parrotsec.org/download/
 repoUrl: https://github.com/ParrotSec
 notableTools:
-  - Nmap
-  - Metasploit
-  - Wireshark
-  - Burp Suite
-  - John the Ripper
+  - nmap
+  - metasploit-framework
+  - wireshark
+  - burpsuite
+  - john
 gettingStarted: |
   Parrot offers several editions: Security (full pentest tool set), Home
   (everyday use with privacy tooling), and a small HTC edge/IoT edition.

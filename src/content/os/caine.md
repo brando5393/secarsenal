@@ -7,8 +7,9 @@ lastVerified: 2026-09-04
 docsUrl: https://www.caine-live.net/page5/page5.html
 downloadUrl: https://www.caine-live.net/page8/page8.html
 notableTools:
-  - Volatility
-  - Autopsy
+  - autopsy
+  - sleuthkit
+  - testdisk
 gettingStarted: |
   CAINE ("Computer Aided INvestigative Environment") ships as a bootable
   ISO. It's built around forensic soundness by default — write-blocking

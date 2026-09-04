@@ -8,9 +8,9 @@ docsUrl: https://blackarch.org/guide.html
 downloadUrl: https://blackarch.org/downloads.html
 repoUrl: https://github.com/BlackArch/blackarch
 notableTools:
-  - Nmap
-  - Aircrack-ng
-  - John the Ripper
+  - nmap
+  - aircrack-ng
+  - john
 gettingStarted: |
   BlackArch is available as a standalone live/installer ISO, a NetInstall
   image, or as a repository overlay you can add to an existing Arch Linux
