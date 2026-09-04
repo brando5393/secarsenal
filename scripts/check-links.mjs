@@ -1,0 +1,74 @@
+// Shared freshness/link-check logic, run locally via `npm run check-links`
+// and by .github/workflows/freshness-check.yml on a schedule. Flags dead
+// links and stale entries for human review — never writes content itself.
+import { readdirSync, readFileSync } from 'node:fs';
+import { join } from 'node:path';
+import matter from 'gray-matter';
+
+const COLLECTIONS = ['os', 'tools'];
+const STALE_AFTER_DAYS = 180;
+const URL_FIELDS = ['docsUrl', 'downloadUrl', 'repoUrl'];
+
+// A real browser UA: some sites (e.g. portswigger.net) return 403/404 to
+// requests with no User-Agent at all, which would otherwise read as dead
+// links here.
+const HEADERS = {
+  'User-Agent':
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) SecArsenal-freshness-check',
+};
+
+async function checkUrl(url) {
+  try {
+    const res = await fetch(url, { method: 'HEAD', redirect: 'follow', headers: HEADERS });
+    if (res.ok) return { ok: true };
+    if (res.status === 405 || res.status === 501 || res.status === 403 || res.status === 404) {
+      const getRes = await fetch(url, { method: 'GET', redirect: 'follow', headers: HEADERS });
+      return { ok: getRes.ok, status: getRes.status };
+    }
+    return { ok: false, status: res.status };
+  } catch (err) {
+    return { ok: false, error: err.message };
+  }
+}
+
+function loadEntries(collection) {
+  const dir = join('src', 'content', collection);
+  return readdirSync(dir)
+    .filter((f) => f.endsWith('.md'))
+    .map((f) => {
+      const { data } = matter(readFileSync(join(dir, f), 'utf8'));
+      return { file: `${collection}/${f}`, data };
+    });
+}
+
+function isStale(lastVerified) {
+  const ageDays = (Date.now() - new Date(lastVerified).getTime()) / 86_400_000;
+  return ageDays > STALE_AFTER_DAYS;
+}
+
+const findings = [];
+
+for (const collection of COLLECTIONS) {
+  for (const entry of loadEntries(collection)) {
+    if (isStale(entry.data.lastVerified)) {
+      findings.push(`STALE  ${entry.file}: not verified in over ${STALE_AFTER_DAYS} days (last: ${entry.data.lastVerified})`);
+    }
+    for (const field of URL_FIELDS) {
+      const url = entry.data[field];
+      if (!url) continue;
+      const result = await checkUrl(url);
+      if (!result.ok) {
+        findings.push(`BROKEN ${entry.file}: ${field} (${url}) — ${result.status ?? result.error}`);
+      }
+    }
+  }
+}
+
+if (findings.length === 0) {
+  console.log('All content entries verified: links reachable, none stale.');
+  process.exit(0);
+}
+
+console.log(`Found ${findings.length} issue(s):\n`);
+for (const line of findings) console.log(' -', line);
+process.exit(1);

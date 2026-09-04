@@ -1,0 +1,58 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('tools');
+  return entries.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { data } = entry;
+const { Content } = await render(entry);
+
+const osEntries = await getCollection('os');
+const hostOs = osEntries.filter((o) => data.commonlyOn.includes(o.data.name));
+---
+
+<BaseLayout title={data.name} description={data.tagline}>
+  <p><a href="/tools">← All tools</a></p>
+  <h1>{data.name}</h1>
+  <p>{data.tagline}</p>
+  {data.categories.map((c) => <span class="tag">{c}</span>)}
+
+  <div class="source-links">
+    <a href={data.docsUrl} rel="noopener noreferrer" target="_blank">Official docs ↗</a>
+    {data.downloadUrl && (
+      <a href={data.downloadUrl} rel="noopener noreferrer" target="_blank">Download ↗</a>
+    )}
+    {data.repoUrl && (
+      <a href={data.repoUrl} rel="noopener noreferrer" target="_blank">Source repo ↗</a>
+    )}
+  </div>
+  <p class="last-verified">
+    Platforms: {data.platforms.join(', ')} · License: {data.license} · Last verified {data.lastVerified.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })}
+  </p>
+
+  <Content />
+
+  <h2>Getting started</h2>
+  <p class="getting-started">{data.gettingStarted}</p>
+
+  {hostOs.length > 0 && (
+    <>
+      <h2>Commonly preinstalled on</h2>
+      <div class="card-grid">
+        {hostOs.map((os) => (
+          <a class="card" href={`/os/${os.id}`}>
+            <h3>{os.data.name}</h3>
+            <p>{os.data.tagline}</p>
+          </a>
+        ))}
+      </div>
+    </>
+  )}
+</BaseLayout>

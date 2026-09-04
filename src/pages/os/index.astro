@@ -1,0 +1,46 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const entries = await getCollection('os');
+const categories = [...new Set(entries.map((e) => e.data.category))].sort();
+---
+
+<BaseLayout title="Operating Systems">
+  <h1>Operating Systems</h1>
+  <p>Pentesting-focused Linux distributions, with what they're built on and how to get started.</p>
+
+  <div class="filter-bar" id="filter-bar" data-default="all">
+    <button type="button" aria-pressed="true" data-category="all">All</button>
+    {categories.map((c) => (
+      <button type="button" aria-pressed="false" data-category={c}>{c}</button>
+    ))}
+  </div>
+
+  <div class="card-grid" id="card-grid">
+    {entries.map((entry) => (
+      <a class="card" href={`/os/${entry.id}`} data-category={entry.data.category}>
+        <h3>{entry.data.name}</h3>
+        <p>{entry.data.tagline}</p>
+        <span class="tag">{entry.data.category}</span>
+      </a>
+    ))}
+  </div>
+</BaseLayout>
+
+<script>
+  const buttons = document.querySelectorAll<HTMLButtonElement>('#filter-bar button');
+  const cards = document.querySelectorAll<HTMLAnchorElement>('#card-grid .card');
+
+  buttons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      buttons.forEach((b) => b.setAttribute('aria-pressed', 'false'));
+      btn.setAttribute('aria-pressed', 'true');
+      const category = btn.dataset.category;
+      cards.forEach((card) => {
+        const show = category === 'all' || card.dataset.category === category;
+        card.style.display = show ? '' : 'none';
+      });
+    });
+  });
+</script>

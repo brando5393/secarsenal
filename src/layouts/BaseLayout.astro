@@ -1,0 +1,59 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = 'A reference catalog of pentesting operating systems and tools for infosec professionals.' } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content={description} />
+    <!--
+      Defense-in-depth CSP while running locally with no server to send
+      real headers. The authoritative CSP + other security headers ship
+      via the hosting platform config (see SECURITY.md) once deployed.
+    -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none';"
+    />
+    <title>{title} · SecArsenal</title>
+    <link rel="stylesheet" href="/styles/global.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="/">SecArsenal</a>
+      <nav>
+        <a href="/os">Operating Systems</a>
+        <a href="/tools">Tools</a>
+        <a href="/disclaimer">Disclaimer</a>
+      </nav>
+    </header>
+
+    <div class="ethics-banner" role="note">
+      Educational and ethical use only. Only test systems you own or are
+      explicitly authorized to test. Full <a href="/disclaimer">disclaimer</a>.
+    </div>
+
+    <main>
+      <slot />
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        SecArsenal is an independent, educational reference. It is not
+        affiliated with the projects it documents. All external links go to
+        the official, authoritative sources for each tool or distribution.
+      </p>
+      <p>
+        Code licensed <a href="https://opensource.org/licenses/MIT" rel="noopener noreferrer">MIT</a>,
+        content licensed <a href="https://creativecommons.org/licenses/by/4.0/" rel="noopener noreferrer">CC BY 4.0</a>.
+      </p>
+    </footer>
+  </body>
+</html>

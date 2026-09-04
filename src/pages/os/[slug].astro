@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, getEntry, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('os');
+  return entries.map((entry) => ({
+    params: { slug: entry.id },
+    props: { entry },
+  }));
+}
+
+const { entry } = Astro.props;
+const { data } = entry;
+const { Content } = await render(entry);
+
+const toolEntries = await getCollection('tools');
+const bundledTools = toolEntries.filter((t) => data.notableTools.includes(t.data.name));
+---
+
+<BaseLayout title={data.name} description={data.tagline}>
+  <p><a href="/os">← All operating systems</a></p>
+  <h1>{data.name}</h1>
+  <p>{data.tagline}</p>
+  <span class="tag">{data.category}</span>
+  <span class="tag">based on {data.basedOn}</span>
+
+  <div class="source-links">
+    <a href={data.docsUrl} rel="noopener noreferrer" target="_blank">Official docs ↗</a>
+    {data.downloadUrl && (
+      <a href={data.downloadUrl} rel="noopener noreferrer" target="_blank">Download ↗</a>
+    )}
+    {data.repoUrl && (
+      <a href={data.repoUrl} rel="noopener noreferrer" target="_blank">Source repo ↗</a>
+    )}
+  </div>
+  <p class="last-verified">Last verified {data.lastVerified.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })}</p>
+
+  <Content />
+
+  {bundledTools.length > 0 && (
+    <>
+      <h2>Notable bundled tools</h2>
+      <div class="card-grid">
+        {bundledTools.map((tool) => (
+          <a class="card" href={`/tools/${tool.id}`}>
+            <h3>{tool.data.name}</h3>
+            <p>{tool.data.tagline}</p>
+          </a>
+        ))}
+      </div>
+    </>
+  )}
+
+  <h2>Getting started</h2>
+  <p class="getting-started">{data.gettingStarted}</p>
+</BaseLayout>

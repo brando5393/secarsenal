@@ -1,0 +1,64 @@
+name: Content freshness check
+
+# Runs the same check.js logic as `npm run check-links` on a schedule:
+# flags broken links / stale entries by opening a GitHub issue. It never
+# edits or publishes content changes itself — a human always reviews.
+on:
+  schedule:
+    - cron: "0 6 * * 1" # every Monday 06:00 UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - run: npm ci
+
+      - name: Run freshness check
+        id: check
+        run: npm run check-links > check-output.txt 2>&1 || echo "failed=true" >> "$GITHUB_OUTPUT"
+
+      - name: Show output
+        run: cat check-output.txt
+
+      - name: Open issue on failure
+        if: steps.check.outputs.failed == 'true'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const body = fs.readFileSync('check-output.txt', 'utf8');
+            const title = 'Content freshness check found issues';
+            const { data: existing } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              labels: 'freshness-check',
+            });
+            if (existing.length > 0) {
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing[0].number,
+                body: '```\n' + body + '\n```',
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title,
+                body: '```\n' + body + '\n```',
+                labels: ['freshness-check'],
+              });
+            }

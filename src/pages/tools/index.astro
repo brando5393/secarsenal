@@ -1,0 +1,47 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const entries = await getCollection('tools');
+const categories = [...new Set(entries.flatMap((e) => e.data.categories))].sort();
+---
+
+<BaseLayout title="Tools">
+  <h1>Tools</h1>
+  <p>Individual pentesting tools, searchable by category/purpose.</p>
+
+  <div class="filter-bar" id="filter-bar">
+    <button type="button" aria-pressed="true" data-category="all">All</button>
+    {categories.map((c) => (
+      <button type="button" aria-pressed="false" data-category={c}>{c}</button>
+    ))}
+  </div>
+
+  <div class="card-grid" id="card-grid">
+    {entries.map((entry) => (
+      <a class="card" href={`/tools/${entry.id}`} data-categories={entry.data.categories.join(',')}>
+        <h3>{entry.data.name}</h3>
+        <p>{entry.data.tagline}</p>
+        {entry.data.categories.map((c) => <span class="tag">{c}</span>)}
+      </a>
+    ))}
+  </div>
+</BaseLayout>
+
+<script>
+  const buttons = document.querySelectorAll<HTMLButtonElement>('#filter-bar button');
+  const cards = document.querySelectorAll<HTMLAnchorElement>('#card-grid .card');
+
+  buttons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      buttons.forEach((b) => b.setAttribute('aria-pressed', 'false'));
+      btn.setAttribute('aria-pressed', 'true');
+      const category = btn.dataset.category;
+      cards.forEach((card) => {
+        const cardCategories = (card.dataset.categories ?? '').split(',');
+        const show = category === 'all' || cardCategories.includes(category ?? '');
+        card.style.display = show ? '' : 'none';
+      });
+    });
+  });
+</script>
