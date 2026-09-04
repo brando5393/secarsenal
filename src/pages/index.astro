@@ -4,6 +4,21 @@ import { getCollection } from 'astro:content';
 
 const osEntries = await getCollection('os');
 const toolEntries = await getCollection('tools');
+
+// The tools collection has ~780 entries (synced from Kali's full tool
+// list) — far too many to render on the homepage. Show a small,
+// well-known sample here and send everyone else to /tools.
+const FEATURED_SLUGS = [
+  'nmap',
+  'metasploit-framework',
+  'wireshark',
+  'burpsuite',
+  'hashcat',
+  'aircrack-ng',
+];
+const featuredTools = FEATURED_SLUGS.map((slug) => toolEntries.find((e) => e.id === slug)).filter(
+  (e) => e !== undefined
+);
 ---
 
 <BaseLayout title="Home">
@@ -35,15 +50,16 @@ const toolEntries = await getCollection('tools');
   <p><a href="/os">Browse all operating systems →</a></p>
 
   <h2>Tools ({toolEntries.length})</h2>
+  <p>Synced from Kali's own official tool list. A few well-known examples:</p>
   <div class="card-grid">
-    {toolEntries.map((entry) => (
+    {featuredTools.map((entry) => (
       <a class="card" href={`/tools/${entry.id}`}>
         <h3>{entry.data.name}</h3>
         <p>{entry.data.tagline}</p>
       </a>
     ))}
   </div>
-  <p><a href="/tools">Browse all tools →</a></p>
+  <p><a href="/tools">Browse all {toolEntries.length} tools →</a></p>
 </BaseLayout>
 
 <script>

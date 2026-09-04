@@ -1,27 +1,16 @@
 ---
-name: sqlmap
-tagline: Automated SQL injection detection and exploitation tool
-categories: [web-app, exploitation]
-platforms: [Linux, Windows, macOS]
-license: GPL-2.0
+name: "sqlmap"
+tagline: "Automatic SQL injection tool"
+categories: ["initial-access"]
+platforms: ["Linux"]
 lastVerified: 2026-09-04
-docsUrl: https://github.com/sqlmapproject/sqlmap/wiki
-downloadUrl: https://github.com/sqlmapproject/sqlmap
-repoUrl: https://github.com/sqlmapproject/sqlmap
-commonlyOn: [Kali Linux, Parrot Security OS, BlackArch]
-gettingStarted: |
-  Clone the repository or install via your package manager (preinstalled
-  on Kali/Parrot). Basic usage against an authorized target:
-  `sqlmap -u "<url>" --dbs` to enumerate databases behind a vulnerable
-  parameter. The project wiki covers detection techniques, tamper
-  scripts for evading filtering, and options for extracting data once
-  injection is confirmed.
+docsUrl: "https://www.kali.org/tools/sqlmap/"
+downloadUrl: "https://sqlmap.org/"
+repoUrl: "https://salsa.debian.org/pkg-security-team/sqlmap"
+commonlyOn: ["Kali Linux"]
+gettingStarted: "Install on Kali Linux with `sudo apt install sqlmap`. See the official Kali tool page and upstream homepage linked above for full usage and configuration details."
 ---
 
-sqlmap is an open-source penetration testing tool that automates
-detecting and exploiting SQL injection vulnerabilities, including
-database fingerprinting, data extraction, and in some cases
-underlying OS access via the database connection.
+sqlmap goal is to detect and take advantage of SQL injection vulnerabilities in web applications. Once it detects one or more SQL injections on the target host, the user can choose among a variety of options to perform an extensive back-end database management system fingerprint, retrieve DBMS session user and database, enumerate users, password hashes, privileges, databases, dump entire or user’s specific DBMS tables/columns, run his own SQL statement, read specific files on the file system and more.
 
-Only use it against applications/databases you own or are explicitly
-authorized to test — see the [disclaimer](/disclaimer).
+Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

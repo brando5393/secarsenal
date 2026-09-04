@@ -27,40 +27,46 @@ npm run check-links   # verify every content entry's URLs are reachable
 
 Requires Node >= 22.12 (see `engines` in `package.json`).
 
-## Adding an OS or tool entry
+## Content model
 
-Add a Markdown file under `src/content/os/` or `src/content/tools/`. The
-frontmatter schema is defined in `src/content.config.ts` — the build
-fails if a required field is missing or malformed. Every entry needs:
+The two collections are sourced very differently:
 
-- `lastVerified` — the date you personally confirmed the URLs/details
-  below are accurate
-- `docsUrl` — the official documentation
-- `downloadUrl` / `repoUrl` — where applicable
-
-The Markdown body becomes the page's main description; `gettingStarted`
-in the frontmatter is a short plain-text getting-started blurb.
-
-**Scope:** the catalog aims to cover Kali Linux's major tool categories
-well (info gathering, vulnerability analysis, web app, password
-attacks, wireless, reverse engineering, sniffing/spoofing,
-exploitation, post-exploitation, forensics, social engineering) with
-solid representative entries per category, not to enumerate every one
-of Kali's 600+ packages — a reference that deep would be mostly
-redundant with `apt list --installed` and harder to keep accurate than
-useful. New entries should fill a category gap or replace a
-stale/superseded tool, not just add volume.
+- **`src/content/tools/`** is entirely **generated** by
+  `scripts/sync-kali-tools.mjs` from
+  [Kali's own official tool pages](https://www.kali.org/tools/all-tools/)
+  (779 tools as of the last sync) — name, description, categories,
+  homepage, and package/source links all come straight from kali.org,
+  which is the canonical source for "what tools does Kali ship and what
+  do they do." **Don't hand-edit files in `src/content/tools/`** — they
+  get overwritten by the next sync. To fix a bad entry, fix the parser
+  in `scripts/sync-kali-tools.mjs` instead. Categories are free-form
+  strings taken directly from Kali's own category taxonomy (see
+  `src/content.config.ts`), not a hardcoded enum, so this collection
+  never needs manual updates to stay in sync with Kali's tool set.
+- **`src/content/os/`** stays **hand-curated** — there's no single
+  official index of "all pentest operating systems" the way Kali
+  indexes its own tools, so someone has to decide which distros belong
+  here. Add a Markdown file under `src/content/os/` matching the schema
+  in `src/content.config.ts`; every entry needs `lastVerified` (the
+  date you personally confirmed the URLs/details), `docsUrl`, and
+  `downloadUrl`/`repoUrl` where applicable. The Markdown body is the
+  page's main description; `gettingStarted` is a short plain-text blurb.
 
 ## Content freshness
 
-There is no live scraping backend. Instead:
+- **Tools:** `npm run sync-tools` re-fetches and regenerates the entire
+  tools collection from kali.org. `.github/workflows/sync-kali-tools.yml`
+  runs this monthly and opens a PR with the diff — it never pushes
+  straight to `main`, so a parsing bug or an unannounced page-structure
+  change on kali.org gets caught in review, not published.
+- **OS entries:** `npm run check-links` (`scripts/check-links.mjs`)
+  checks every OS entry's URLs for reachability and flags anything not
+  verified in the last 180 days. `.github/workflows/freshness-check.yml`
+  runs this weekly and opens an issue for a human to look at.
 
-- `npm run check-links` (also `scripts/check-links.mjs`) checks every
-  entry's URLs for reachability and flags anything not verified in the
-  last 180 days.
-- `.github/workflows/freshness-check.yml` runs the same check on a
-  weekly schedule once this repo has a GitHub remote, and opens an issue
-  listing anything that needs a human look. It never auto-edits content.
+Neither workflow runs a live backend — both are scheduled, one-shot
+jobs that commit/PR static files, keeping the deployed site itself
+100% static.
 
 ## Security
 

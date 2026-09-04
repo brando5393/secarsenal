@@ -1,27 +1,16 @@
 ---
-name: Ettercap
-tagline: Man-in-the-middle attack suite for network sniffing and spoofing
-categories: [sniffing-spoofing, network-analysis]
-platforms: [Linux, Windows, macOS]
-license: GPL-2.0
+name: "ettercap"
+tagline: "Multipurpose sniffer/interceptor/logger for switched LAN"
+categories: ["collection"]
+platforms: ["Linux"]
 lastVerified: 2026-09-04
-docsUrl: https://github.com/Ettercap/ettercap/wiki
-downloadUrl: https://www.ettercap-project.org/downloads.html
-repoUrl: https://github.com/Ettercap/ettercap
-commonlyOn: [Kali Linux, Parrot Security OS, BlackArch]
-gettingStarted: |
-  Install via your package manager (preinstalled on Kali). The graphical
-  mode (`ettercap -G`) is the easiest way to start: select a network
-  interface, scan for hosts, and use ARP poisoning to position between
-  two hosts for traffic interception. The official docs cover the
-  plugin system and using Ettercap's filters to modify traffic in
-  transit.
+docsUrl: "https://www.kali.org/tools/ettercap/"
+downloadUrl: "https://ettercap.github.io/ettercap/"
+repoUrl: "https://salsa.debian.org/pkg-security-team/ettercap"
+commonlyOn: ["Kali Linux"]
+gettingStarted: "See the official Kali tool page and upstream homepage linked above for installation and usage details."
 ---
 
-Ettercap is a comprehensive suite for man-in-the-middle attacks on a
-LAN: ARP poisoning, traffic sniffing/filtering, and protocol
-dissectors for inspecting intercepted traffic — used to demonstrate and
-test exposure to local network interception attacks.
+Ettercap supports active and passive dissection of many protocols (even encrypted ones) and includes many feature for network and host analysis.
 
-Only use it on networks you own or are explicitly authorized to test —
-see the [disclaimer](/disclaimer).
+Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

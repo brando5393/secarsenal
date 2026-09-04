@@ -1,0 +1,16 @@
+---
+name: "jsp-file-browser"
+tagline: "File browser java server page"
+categories: ["uncategorized"]
+platforms: ["Linux"]
+lastVerified: 2026-09-04
+docsUrl: "https://www.kali.org/tools/jsp-file-browser/"
+downloadUrl: "https://www.vonloesch.de/filebrowser.html"
+repoUrl: "https://gitlab.com/kalilinux/packages/jsp-file-browser"
+commonlyOn: ["Kali Linux"]
+gettingStarted: "Install on Kali Linux with `sudo apt install jsp-file-browser`. See the official Kali tool page and upstream homepage linked above for full usage and configuration details."
+---
+
+This package contains an easy to use and easy to install file browser java server page. This JSP program allows remote web-based file access and manipulation. Features: - Create, copy, move, rename and delete files and directories - Shortkeys - View Files (pictures, movies, pdf, html,…) - Javascript filename filter - Edit textfiles - Upload files to the server (Status via Upload monitor) - Download files from the server - Download groups of files and folders as a single zip file that is created on the fly - Execute native commands on the server (e.g ls, tar, chmod,…) - View entries and unpack zip, jar, war and gz files on the server - Just one file, very easy to install (in fact, just copy it to the server) - Customizable layout via css file - Restrict file access via black or whitelist - Changeable to a read-only (with or without upload) solution Jsp file browser should work on any JSP1.1 compatible server (e.g. Tomcat>=3.0). It has been tested on Tomcat 4.0 and 5.5, Resin 2.1.7 and Jetty.
+
+Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

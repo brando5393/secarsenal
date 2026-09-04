@@ -1,29 +1,16 @@
 ---
-name: Social-Engineer Toolkit (SET)
-tagline: Framework for simulating phishing and other social-engineering attack vectors
-categories: [social-engineering, exploitation]
-platforms: [Linux, macOS]
-license: BSD-3-Clause
+name: "set"
+tagline: "Social-Engineer Toolkit"
+categories: ["initial-access"]
+platforms: ["Linux"]
 lastVerified: 2026-09-04
-docsUrl: https://github.com/trustedsec/social-engineer-toolkit#readme
-downloadUrl: https://github.com/trustedsec/social-engineer-toolkit
-repoUrl: https://github.com/trustedsec/social-engineer-toolkit
-commonlyOn: [Kali Linux, Parrot Security OS]
-gettingStarted: |
-  Install via the setup script in the repo or use the copy preinstalled
-  on Kali (`setoolkit`). The interactive menu walks through attack
-  vectors such as cloning a login page for a credential-harvesting demo
-  or generating a payload for a spear-phishing simulation. The README
-  and TrustedSec's documentation cover each module and required
-  configuration.
+docsUrl: "https://www.kali.org/tools/set/"
+downloadUrl: "https://www.trustedsec.com/downloads/social-engineer-toolkit/"
+repoUrl: "https://gitlab.com/kalilinux/packages/set"
+commonlyOn: ["Kali Linux"]
+gettingStarted: "Install on Kali Linux with `sudo apt install set`. See the official Kali tool page and upstream homepage linked above for full usage and configuration details."
 ---
 
-SET is a menu-driven framework for simulating social-engineering attack
-vectors — phishing pages, malicious file/USB payload generation, and
-similar techniques — used by authorized red teams to test an
-organization's human and process defenses, not just its technical
-controls.
+The Social-Engineer Toolkit (SET) is an open-source Python-driven tool aimed at penetration testing around Social-Engineering.
 
-Only use it as part of an authorized, scoped engagement with informed
-consent from the organization being tested — see the
-[disclaimer](/disclaimer).
+Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

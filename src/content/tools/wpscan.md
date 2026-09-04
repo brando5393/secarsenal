@@ -1,28 +1,16 @@
 ---
-name: WPScan
-tagline: WordPress-specific vulnerability and enumeration scanner
-categories: [web-app, vulnerability-scanning]
-platforms: [Linux, macOS]
-license: GPL-3.0 (vulnerability database has separate terms)
+name: "wpscan"
+tagline: "Black box WordPress vulnerability scanner"
+categories: ["web-vulnerability-scanning"]
+platforms: ["Linux"]
 lastVerified: 2026-09-04
-docsUrl: https://github.com/wpscanteam/wpscan/wiki
-downloadUrl: https://github.com/wpscanteam/wpscan
-repoUrl: https://github.com/wpscanteam/wpscan
-commonlyOn: [Kali Linux, Parrot Security OS]
-gettingStarted: |
-  Install via the `gem install wpscan` Ruby gem or use the copy
-  preinstalled on Kali. A free WPScan API token (from wpscan.com)
-  enables vulnerability-database lookups. Basic usage:
-  `wpscan --url <target> --api-token <token>` enumerates the WordPress
-  version, plugins, themes, and users, and cross-references known
-  vulnerabilities. The wiki covers enumeration options and brute-force
-  modules for login pages.
+docsUrl: "https://www.kali.org/tools/wpscan/"
+downloadUrl: "https://wpscan.com/wordpress-security-scanner"
+repoUrl: "https://gitlab.com/kalilinux/packages/wpscan"
+commonlyOn: ["Kali Linux"]
+gettingStarted: "Install on Kali Linux with `sudo apt install wpscan`. See the official Kali tool page and upstream homepage linked above for full usage and configuration details."
 ---
 
-WPScan is a black-box vulnerability scanner purpose-built for
-WordPress sites: it identifies the WordPress core version, installed
-plugins/themes, and usernames, then checks them against a maintained
-vulnerability database.
+WPScan scans remote WordPress installations to find security issues.
 
-Only use it against WordPress sites you own or are explicitly
-authorized to test — see the [disclaimer](/disclaimer).
+Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

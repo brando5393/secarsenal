@@ -1,28 +1,16 @@
 ---
-name: Steghide
-tagline: Steganography tool for hiding/extracting data in image and audio files
-categories: [forensics]
-platforms: [Linux, Windows]
-license: GPL-2.0
+name: "steghide"
+tagline: "Steganography hiding tool"
+categories: ["defense-evasion"]
+platforms: ["Linux"]
 lastVerified: 2026-09-04
-docsUrl: https://github.com/StefanoDeVuono/steghide#readme
-downloadUrl: https://github.com/StefanoDeVuono/steghide
-repoUrl: https://github.com/StefanoDeVuono/steghide
-commonlyOn: [Kali Linux, Parrot Security OS, BlackArch]
-gettingStarted: |
-  Install via your package manager (preinstalled on Kali) or build from
-  source. Basic usage: `steghide embed -cf <cover-file> -ef <secret-
-  file>` hides data inside a JPEG/BMP/WAV/AU cover file, and
-  `steghide extract -sf <stego-file>` pulls it back out (optionally
-  passphrase-protected). The README covers supported formats and
-  options for adjusting the embedding algorithm.
+docsUrl: "https://www.kali.org/tools/steghide/"
+downloadUrl: "https://steghide.sourceforge.net/"
+repoUrl: "https://salsa.debian.org/pkg-security-team/steghide"
+commonlyOn: ["Kali Linux"]
+gettingStarted: "See the official Kali tool page and upstream homepage linked above for installation and usage details."
 ---
 
-Steghide embeds and extracts data within common image and audio file
-formats using steganography, and is frequently encountered from the
-other direction too — as a tool for extracting hidden data during
-forensic analysis or CTF challenges, using tools like `stegcracker` to
-brute-force a passphrase.
+Steghide is steganography program which hides bits of a data file in some of the least significant bits of another file in such a way that the existence of the data file is not visible and cannot be proven.
 
-Only use it on files you own or are explicitly authorized to examine —
-see the [disclaimer](/disclaimer).
+Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

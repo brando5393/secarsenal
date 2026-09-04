@@ -1,27 +1,16 @@
 ---
-name: Responder
-tagline: LLMNR/NBT-NS/mDNS poisoner for capturing Windows network credentials
-categories: [sniffing-spoofing, post-exploitation]
-platforms: [Linux, Windows]
-license: GPL-3.0
+name: "responder"
+tagline: "LLMNR/NBT-NS/mDNS Poisoner"
+categories: ["credential-access"]
+platforms: ["Linux"]
 lastVerified: 2026-09-04
-docsUrl: https://github.com/lgandx/Responder#readme
-downloadUrl: https://github.com/lgandx/Responder
-repoUrl: https://github.com/lgandx/Responder
-commonlyOn: [Kali Linux, Parrot Security OS]
-gettingStarted: |
-  Install via your package manager (preinstalled on Kali) or clone the
-  repo (Python 3). Basic usage: `responder -I <interface>` listens on
-  the local network and answers LLMNR/NBT-NS/mDNS name-resolution
-  requests, capturing NTLM authentication attempts from Windows hosts
-  in the process. The README covers analysis mode (passive-only) versus
-  poisoning mode and integration with cracking the captured hashes.
+docsUrl: "https://www.kali.org/tools/responder/"
+downloadUrl: "https://github.com/lgandx/Responder"
+repoUrl: "https://gitlab.com/kalilinux/packages/responder"
+commonlyOn: ["Kali Linux"]
+gettingStarted: "See the official Kali tool page and upstream homepage linked above for installation and usage details."
 ---
 
-Responder poisons common Windows name-resolution protocols (LLMNR,
-NBT-NS, mDNS) on a local network to intercept authentication attempts,
-capturing NTLM password hashes for offline cracking — a staple
-technique in internal network penetration tests.
+This package contains Responder/MultiRelay, an LLMNR, NBT-NS and MDNS poisoner. It will answer to specific NBT-NS (NetBIOS Name Service) queries based on their name suffix (see: http://support.microsoft.com/kb/163409). By default, the tool will only answer to File Server Service request, which is for SMB.
 
-Only use it on networks you own or are explicitly authorized to test —
-see the [disclaimer](/disclaimer).
+Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

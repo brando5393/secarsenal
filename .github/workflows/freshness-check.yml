@@ -1,8 +1,10 @@
-name: Content freshness check
+name: OS entries freshness check
 
-# Runs the same check.js logic as `npm run check-links` on a schedule:
-# flags broken links / stale entries by opening a GitHub issue. It never
-# edits or publishes content changes itself — a human always reviews.
+# Runs `npm run check-links` (scripts/check-links.mjs) on a schedule,
+# scoped to the hand-curated src/content/os/ entries: flags broken
+# links / stale entries by opening a GitHub issue. It never edits or
+# publishes content changes itself — a human always reviews. The
+# tools/ collection is covered separately by sync-kali-tools.yml.
 on:
   schedule:
     - cron: "0 6 * * 1" # every Monday 06:00 UTC

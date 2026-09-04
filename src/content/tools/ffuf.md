@@ -1,27 +1,16 @@
 ---
-name: ffuf
-tagline: Fast web fuzzer for directories, parameters, and virtual hosts
-categories: [web-app, recon]
-platforms: [Linux, Windows, macOS]
-license: MIT
+name: "ffuf"
+tagline: "Fast web fuzzer written in Go (program)"
+categories: ["web-scanning","reconnaissance"]
+platforms: ["Linux"]
 lastVerified: 2026-09-04
-docsUrl: https://github.com/ffuf/ffuf#readme
-downloadUrl: https://github.com/ffuf/ffuf/releases
-repoUrl: https://github.com/ffuf/ffuf
-commonlyOn: [Kali Linux, Parrot Security OS, BlackArch]
-gettingStarted: |
-  Install via `go install`, a release binary, or the copy preinstalled
-  on Kali. Basic usage fuzzes any part of a request by replacing it with
-  `FUZZ`: `ffuf -u https://target/FUZZ -w <wordlist>` for directory
-  discovery, or `-H "Host: FUZZ.target"` for vhost fuzzing. The README
-  covers filtering responses by size/status/words, which is essential
-  for cutting down false positives on noisy targets.
+docsUrl: "https://www.kali.org/tools/ffuf/"
+downloadUrl: "https://github.com/ffuf/ffuf"
+repoUrl: "https://salsa.debian.org/debian/ffuf/"
+commonlyOn: ["Kali Linux"]
+gettingStarted: "See the official Kali tool page and upstream homepage linked above for installation and usage details."
 ---
 
-ffuf ("Fuzz Faster U Fool") is a fast, flexible web fuzzer that can
-substitute a `FUZZ` keyword into any part of an HTTP request — URL
-path, headers, POST body — making it useful well beyond directory
-brute-forcing, including parameter discovery and vhost enumeration.
+ffuf is a fast web fuzzer written in Go that allows typical directory discovery, virtual host discovery (without DNS records) and GET and POST parameter fuzzing.
 
-Only use it against applications you own or are explicitly authorized
-to test — see the [disclaimer](/disclaimer).
+Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

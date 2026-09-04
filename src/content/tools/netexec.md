@@ -1,29 +1,16 @@
 ---
-name: NetExec
-tagline: Network service exploitation and Active Directory post-exploitation tool (CrackMapExec successor)
-categories: [post-exploitation, password-attacks]
-platforms: [Linux, Windows, macOS]
-license: BSD-2-Clause
+name: "netexec"
+tagline: "Network Execution Tool"
+categories: ["pass-the-hash","brute-force","credential-access","network-share-discovery","lateral-movement","application-layer-protocol"]
+platforms: ["Linux"]
 lastVerified: 2026-09-04
-docsUrl: https://www.netexec.wiki/
-downloadUrl: https://github.com/Pennyw0rth/NetExec/releases
-repoUrl: https://github.com/Pennyw0rth/NetExec
-commonlyOn: [Kali Linux]
-gettingStarted: |
-  Install via `pipx install netexec` or use the copy preinstalled on
-  recent Kali releases. Basic usage against SMB:
-  `netexec smb <target-range> -u <user> -p <password>` checks
-  credentials across a range of hosts and reports admin access, then
-  further modules support command execution, credential dumping, and
-  Active Directory enumeration. The wiki covers protocol support (SMB,
-  WinRM, LDAP, SSH, and more) and its module system.
+docsUrl: "https://www.kali.org/tools/netexec/"
+downloadUrl: "https://github.com/Pennyw0rth/NetExec"
+repoUrl: "https://gitlab.com/kalilinux/packages/netexec"
+commonlyOn: ["Kali Linux"]
+gettingStarted: "See the official Kali tool page and upstream homepage linked above for installation and usage details."
 ---
 
-NetExec (the actively maintained successor to CrackMapExec) is a
-network service exploitation tool built for large Windows/Active
-Directory environments: validating credentials across many hosts at
-once, then enumerating and exploiting what those credentials grant
-access to.
+NetExec (AKA nxc) is a network service exploitation tool that helps automate assessing the security of large networks.
 
-Only use it against networks/accounts you own or are explicitly
-authorized to test — see the [disclaimer](/disclaimer).
+Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

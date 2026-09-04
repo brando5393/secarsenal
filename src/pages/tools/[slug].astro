@@ -34,7 +34,7 @@ const hostOs = osEntries.filter((o) => data.commonlyOn.includes(o.data.name));
     )}
   </div>
   <p class="last-verified">
-    Platforms: {data.platforms.join(', ')} · License: {data.license} · Last verified {data.lastVerified.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })}
+    Platforms: {data.platforms.join(', ')}{data.license && <> · License: {data.license}</>} · Last verified {data.lastVerified.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' })}
   </p>
 
   <Content />

@@ -1,28 +1,16 @@
 ---
-name: Maltego
-tagline: Link-analysis and OSINT graphing tool for mapping relationships between entities
-categories: [osint, recon]
-platforms: [Linux, Windows, macOS]
-license: Proprietary (free Community Edition available)
+name: "maltego"
+tagline: "Open source intelligence and forensics application"
+categories: ["reconnaissance","reporting-tools"]
+platforms: ["Linux"]
 lastVerified: 2026-09-04
-docsUrl: https://docs.maltego.com/
-downloadUrl: https://www.maltego.com/downloads/
-repoUrl: https://www.maltego.com/
-commonlyOn: [Kali Linux, Parrot Security OS]
-gettingStarted: |
-  Install the Community Edition (CE) from the official downloads page —
-  it requires a free registration and has a lookup-limited version of
-  each "transform." After installing, start a new graph and run
-  transforms on a seed entity (a domain, email, or person) to
-  automatically pull and visualize related infrastructure and identities
-  from configured data sources. The official docs cover installing
-  additional transform packs and building custom transforms.
+docsUrl: "https://www.kali.org/tools/maltego/"
+downloadUrl: "https://www.maltego.com"
+repoUrl: "https://gitlab.com/kalilinux/packages/maltego"
+commonlyOn: ["Kali Linux"]
+gettingStarted: "See the official Kali tool page and upstream homepage linked above for installation and usage details."
 ---
 
-Maltego is a link-analysis platform for OSINT and reconnaissance: it
-visualizes relationships between people, domains, infrastructure, and
-other entities as an interactive graph, pulled automatically via
-pluggable "transforms" against public and commercial data sources.
+Maltego is an open source intelligence and forensics application. It will offer you timous mining and gathering of information as well as the representation of this information in a easy to understand format.
 
-Only use it as part of an authorized engagement or on entities you have
-the right to investigate — see the [disclaimer](/disclaimer).
+Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

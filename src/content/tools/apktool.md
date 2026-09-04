@@ -1,27 +1,16 @@
 ---
-name: Apktool
-tagline: Reverse engineering tool for decoding and rebuilding Android APK files
-categories: [reverse-engineering]
-platforms: [Linux, Windows, macOS]
-license: Apache-2.0
+name: "apktool"
+tagline: "Tool for reverse engineering Android apk files"
+categories: ["resource-development"]
+platforms: ["Linux"]
 lastVerified: 2026-09-04
-docsUrl: https://apktool.org/documentation/
-downloadUrl: https://apktool.org/
-repoUrl: https://github.com/iBotPeaches/Apktool
-commonlyOn: [Kali Linux, Parrot Security OS]
-gettingStarted: |
-  Install via your package manager (preinstalled on Kali) or download
-  the wrapper script and JAR from the official site (requires a JDK).
-  Basic usage: `apktool d <app.apk>` decodes an APK into readable
-  resources and Smali bytecode you can inspect or modify, and
-  `apktool b <folder>` rebuilds it. The official docs cover framework
-  resource handling and common decode/build issues.
+docsUrl: "https://www.kali.org/tools/apktool/"
+downloadUrl: "https://ibotpeaches.github.io/Apktool/"
+repoUrl: "https://salsa.debian.org/android-tools-team/apktool"
+commonlyOn: ["Kali Linux"]
+gettingStarted: "Install on Kali Linux with `sudo apt install apktool`. See the official Kali tool page and upstream homepage linked above for full usage and configuration details."
 ---
 
-Apktool decodes Android APK files into near-original resources and
-Smali (disassembled Dalvik bytecode), lets you edit them, and rebuilds
-a working APK — a core tool for Android app reverse engineering and
-mobile security assessments.
+A tool for reverse engineering 3rd party, closed, binary Android apps. It can decode resources to nearly original form and rebuild them after making some modifications; it makes possible to debug smali code step by step. Also it makes working with an app easier because of project-like file structure and automation of some repetitive tasks like building apk.
 
-Use it only on applications you own, have rights to analyze, or are
-explicitly authorized to examine — see the [disclaimer](/disclaimer).
+Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

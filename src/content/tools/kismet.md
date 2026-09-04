@@ -1,27 +1,16 @@
 ---
-name: Kismet
-tagline: Wireless network and device detector, sniffer, and intrusion detection tool
-categories: [wireless, network-analysis]
-platforms: [Linux, macOS]
-license: GPL-2.0
+name: "kismet"
+tagline: "Wireless network and device detector (metapackage)"
+categories: ["wifi"]
+platforms: ["Linux"]
 lastVerified: 2026-09-04
-docsUrl: https://www.kismetwireless.net/docs/
-downloadUrl: https://www.kismetwireless.net/download/
-repoUrl: https://github.com/kismetwireless/kismet
-commonlyOn: [Kali Linux, Parrot Security OS]
-gettingStarted: |
-  Install via your package manager (preinstalled on Kali) or build from
-  source; requires a wireless adapter supporting monitor mode for Wi-Fi
-  capture (also supports Bluetooth, SDR, and other capture sources).
-  Run `kismet` to start the capture engine and web UI (default
-  http://localhost:2501), which shows discovered networks and devices
-  in real time. The docs cover data sources, alerts, and the REST API.
+docsUrl: "https://www.kali.org/tools/kismet/"
+downloadUrl: "https://www.kismetwireless.net/"
+repoUrl: "https://gitlab.com/kalilinux/packages/kismet"
+commonlyOn: ["Kali Linux"]
+gettingStarted: "See the official Kali tool page and upstream homepage linked above for installation and usage details."
 ---
 
-Kismet is a passive wireless detector, sniffer, and WIDS (wireless
-intrusion detection system) that identifies networks and devices across
-Wi-Fi, Bluetooth, and other RF protocols without actively transmitting,
-making it useful for wireless site surveys and monitoring.
+Kismet is a wireless network and device detector, sniffer, wardriving tool, and WIDS (wireless intrusion detection) framework.
 
-Only use it on networks you own or are explicitly authorized to survey
-— see the [disclaimer](/disclaimer).
+Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

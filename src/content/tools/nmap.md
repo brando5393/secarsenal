@@ -1,28 +1,16 @@
 ---
-name: Nmap
-tagline: Network discovery and port scanning utility
-categories: [recon, network-analysis]
-platforms: [Linux, Windows, macOS]
-license: GPL-2.0
+name: "nmap"
+tagline: "The Network Mapper"
+categories: ["network-information","vulnerability-scanning","reconnaissance","network-service-discovery","discovery","non-application-layer-protocol"]
+platforms: ["Linux"]
 lastVerified: 2026-09-04
-docsUrl: https://nmap.org/docs.html
-downloadUrl: https://nmap.org/download.html
-repoUrl: https://github.com/nmap/nmap
-commonlyOn: [Kali Linux, Parrot Security OS, BlackArch]
-gettingStarted: |
-  Install via your distro's package manager (`apt install nmap`,
-  `pacman -S nmap`) or grab an installer from the official downloads page.
-  A basic scan of a host you're authorized to test:
-  `nmap -sV -sC <target>` runs service/version detection plus default
-  scripts. The official reference guide and `nmap -h` cover scan types
-  (SYN, connect, UDP), timing templates, and the Nmap Scripting Engine
-  (NSE) for more advanced enumeration.
+docsUrl: "https://www.kali.org/tools/nmap/"
+downloadUrl: "https://nmap.org/"
+repoUrl: "https://gitlab.com/kalilinux/packages/nmap"
+commonlyOn: ["Kali Linux"]
+gettingStarted: "Install on Kali Linux with `sudo apt install nmap`. See the official Kali tool page and upstream homepage linked above for full usage and configuration details."
 ---
 
-Nmap ("Network Mapper") is the standard open-source tool for host
-discovery and port scanning, widely used in the reconnaissance phase of
-an authorized penetration test to map what services are reachable on a
-target network.
+Nmap is a utility for network exploration or security auditing. It supports ping scanning (determine which hosts are up), many port scanning techniques, version detection (determine service protocols and application versions listening behind ports), and TCP/IP fingerprinting (remote host OS or device identification). Nmap also offers flexible target and port specification, decoy/stealth scanning, sunRPC scanning, and more. Most Unix and Windows platforms are supported in both GUI and commandline modes. Several popular handheld devices are also supported, including the Sharp Zaurus and the iPAQ.
 
-Only scan systems you own or have explicit written authorization to
-test — see the [disclaimer](/disclaimer).
+Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

@@ -1,26 +1,16 @@
 ---
-name: Ghidra
-tagline: Software reverse engineering suite with an interactive disassembler/decompiler
-categories: [reverse-engineering]
-platforms: [Linux, Windows, macOS]
-license: Apache-2.0
+name: "ghidra"
+tagline: "Software Reverse Engineering Framework"
+categories: ["resource-development"]
+platforms: ["Linux"]
 lastVerified: 2026-09-04
-docsUrl: https://ghidra-sre.org/InstallationGuide.html
-downloadUrl: https://ghidra-sre.org/
-repoUrl: https://github.com/NationalSecurityAgency/ghidra
-gettingStarted: |
-  Download the release build (requires a JDK) or build from source.
-  Launch via the `ghidraRun` script, create a project, and import a
-  binary to start analysis — Ghidra's auto-analysis pass produces an
-  initial disassembly and decompilation you can then explore and
-  annotate. The bundled Installation Guide and Ghidra help system cover
-  the UI, scripting API, and the decompiler in depth.
+docsUrl: "https://www.kali.org/tools/ghidra/"
+downloadUrl: "https://github.com/NationalSecurityAgency/ghidra"
+repoUrl: "https://gitlab.com/kalilinux/packages/ghidra"
+commonlyOn: ["Kali Linux"]
+gettingStarted: "See the official Kali tool page and upstream homepage linked above for installation and usage details."
 ---
 
-Ghidra is a free, open-source software reverse engineering suite
-originally developed by the NSA, providing disassembly, decompilation,
-and scripting for analyzing compiled binaries — widely used in malware
-analysis, vulnerability research, and CTF work.
+This package contains a software reverse engineering (SRE) framework created and maintained by the National Security Agency Research Directorate. This framework includes a suite of full-featured, high-end software analysis tools that enable users to analyze compiled code on a variety of platforms including Windows, macOS, and Linux. Capabilities include disassembly, assembly, decompilation, graphing, and scripting, along with hundreds of other features. Ghidra supports a wide variety of processor instruction sets and executable formats and can be run in both user-interactive and automated modes. Users may also develop their own Ghidra extension components and/or scripts using Java or Python.
 
-Use it only on binaries you own, have rights to analyze, or are
-explicitly authorized to examine — see the [disclaimer](/disclaimer).
+Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

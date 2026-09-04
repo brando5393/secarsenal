@@ -1,26 +1,16 @@
 ---
-name: Medusa
-tagline: Speedy, parallel, modular login brute-forcing tool
-categories: [password-attacks]
-platforms: [Linux, macOS]
-license: GPL-2.0
+name: "medusa"
+tagline: "Fast, parallel, modular, login brute-forcer for network services"
+categories: ["brute-force","credential-access"]
+platforms: ["Linux"]
 lastVerified: 2026-09-04
-docsUrl: https://github.com/jmk-foofus/medusa#readme
-downloadUrl: https://github.com/jmk-foofus/medusa
-repoUrl: https://github.com/jmk-foofus/medusa
-commonlyOn: [Kali Linux, BlackArch]
-gettingStarted: |
-  Install via your package manager (preinstalled on Kali) or build from
-  source. Basic usage against SSH:
-  `medusa -h <target> -u <user> -P <wordlist> -M ssh`. Medusa's module
-  system (`-M`) covers a wide range of services similar to Hydra; the
-  README documents available modules and options for parallel host/user
-  brute-forcing.
+docsUrl: "https://www.kali.org/tools/medusa/"
+downloadUrl: "http://foofus.net/?page_id=51"
+repoUrl: "https://salsa.debian.org/pkg-security-team/medusa"
+commonlyOn: ["Kali Linux"]
+gettingStarted: "Install on Kali Linux with `sudo apt install medusa`. See the official Kali tool page and upstream homepage linked above for full usage and configuration details."
 ---
 
-Medusa is a fast, modular, parallel network login brute-forcer, often
-mentioned alongside Hydra as an alternative with a different module
-architecture and threading model.
+Medusa is intended to be a speedy, massively parallel, modular, login brute-forcer. The goal is to support as many services which allow remote authentication as possible. The author considers following items as some of the key features of this application: * Thread-based parallel testing. Brute-force testing can be performed against multiple hosts, users or passwords concurrently. * Flexible user input. Target information (host/user/password) can be specified in a variety of ways. For example, each item can be either a single entry or a file containing multiple entries. Additionally, a combination file format allows the user to refine their target listing. * Modular design. Each service module exists as an independent .mod file. This means that no modifications are necessary to the core application in order to extend the supported list of services for brute-forcing.
 
-Only use it against systems/accounts you own or are explicitly
-authorized to test — see the [disclaimer](/disclaimer).
+Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

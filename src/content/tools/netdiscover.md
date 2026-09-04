@@ -1,26 +1,16 @@
 ---
-name: Netdiscover
-tagline: Active/passive ARP-based network host discovery tool
-categories: [recon, network-analysis]
-platforms: [Linux]
-license: GPL-3.0
+name: "netdiscover"
+tagline: "Active/passive network address scanner using ARP requests"
+categories: ["system-network-configuration-discovery","discovery"]
+platforms: ["Linux"]
 lastVerified: 2026-09-04
-docsUrl: https://github.com/netdiscover-scanner/netdiscover#readme
-downloadUrl: https://github.com/netdiscover-scanner/netdiscover
-repoUrl: https://github.com/netdiscover-scanner/netdiscover
-commonlyOn: [Kali Linux, Parrot Security OS, BlackArch]
-gettingStarted: |
-  Install via your package manager (preinstalled on Kali). Basic usage:
-  `netdiscover -r <ip-range>` actively ARP-scans a range to list live
-  hosts and their MAC vendor, or run with no arguments for passive mode
-  to just listen for ARP traffic on the local network. The README
-  covers its scan modes and output options.
+docsUrl: "https://www.kali.org/tools/netdiscover/"
+downloadUrl: "https://github.com/netdiscover-scanner/netdiscover"
+repoUrl: "https://salsa.debian.org/debian/netdiscover"
+commonlyOn: ["Kali Linux"]
+gettingStarted: "See the official Kali tool page and upstream homepage linked above for installation and usage details."
 ---
 
-Netdiscover is a lightweight tool for discovering live hosts on a local
-network segment via ARP requests/replies, useful as a fast first step
-on an internal network engagement before more detailed scanning with
-Nmap.
+Netdiscover is an active/passive address reconnaissance tool, mainly developed for those wireless networks without dhcp server, when you are wardriving. It can be also used on hub/switched networks.
 
-Only use it on networks you own or are explicitly authorized to scan —
-see the [disclaimer](/disclaimer).
+Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

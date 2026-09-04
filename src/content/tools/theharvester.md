@@ -1,27 +1,16 @@
 ---
-name: theHarvester
-tagline: OSINT tool for gathering emails, subdomains, and hosts from public sources
-categories: [osint, recon]
-platforms: [Linux, Windows, macOS]
-license: GPL-2.0
+name: "theharvester"
+tagline: "Tool for gathering e-mail accounts and subdomain names from public sources"
+categories: ["network-information"]
+platforms: ["Linux"]
 lastVerified: 2026-09-04
-docsUrl: https://github.com/laramies/theHarvester#readme
-downloadUrl: https://github.com/laramies/theHarvester
-repoUrl: https://github.com/laramies/theHarvester
-commonlyOn: [Kali Linux, Parrot Security OS]
-gettingStarted: |
-  Install via pip (`pip install theHarvester`) or use the copy
-  preinstalled on Kali/Parrot. Basic usage:
-  `theHarvester -d <domain> -b all` queries a range of public sources
-  (search engines, certificate transparency logs, etc.) for emails,
-  subdomains, and hosts tied to a domain. Some sources require API keys,
-  configured per the README.
+docsUrl: "https://www.kali.org/tools/theharvester/"
+downloadUrl: "https://github.com/laramies/theHarvester"
+repoUrl: "https://gitlab.com/kalilinux/packages/theharvester"
+commonlyOn: ["Kali Linux"]
+gettingStarted: "Install on Kali Linux with `sudo apt install theharvester`. See the official Kali tool page and upstream homepage linked above for full usage and configuration details."
 ---
 
-theHarvester is an OSINT reconnaissance tool that aggregates publicly
-available information — emails, subdomains, hostnames, open ports — for
-a target domain from search engines and other public data sources,
-commonly used in the early reconnaissance phase of an assessment.
+The package contains a tool for gathering subdomain names, e-mail addresses, virtual hosts, open ports/ banners, and employee names from different public sources (search engines, pgp key servers).
 
-Only use it as part of an authorized engagement or against domains you
-own — see the [disclaimer](/disclaimer).
+Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

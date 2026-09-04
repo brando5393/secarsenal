@@ -39,9 +39,14 @@ response headers policy on AWS).
 - All content lives in version-controlled Markdown files reviewed via
   pull request — there is no CMS or admin panel that could be
   compromised to alter published content.
-- The freshness-check workflow (`.github/workflows/freshness-check.yml`)
-  only ever opens an issue/PR for human review; it never publishes
+- The freshness-check (`.github/workflows/freshness-check.yml`) and
+  Kali tools sync (`.github/workflows/sync-kali-tools.yml`) workflows
+  both only ever open an issue/PR for human review; neither publishes
   content changes automatically.
+- The Kali tools sync script only reads kali.org's own published pages
+  over HTTPS and writes local Markdown files — it has no credentials,
+  makes no writes to any third-party system, and runs read-only against
+  a site whose `robots.txt` explicitly permits crawling.
 - Outbound links to third-party tool/OS sites use
   `rel="noopener noreferrer"`.
 

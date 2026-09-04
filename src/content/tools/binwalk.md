@@ -1,27 +1,16 @@
 ---
-name: Binwalk
-tagline: Firmware analysis tool for identifying and extracting embedded files/filesystems
-categories: [reverse-engineering, forensics]
-platforms: [Linux, macOS]
-license: MIT
+name: "binwalk"
+tagline: "Tool library for analyzing binary blobs and executable code"
+categories: ["forensics"]
+platforms: ["Linux"]
 lastVerified: 2026-09-04
-docsUrl: https://github.com/ReFirmLabs/binwalk/wiki
-downloadUrl: https://github.com/ReFirmLabs/binwalk/releases
-repoUrl: https://github.com/ReFirmLabs/binwalk
-commonlyOn: [Kali Linux, Parrot Security OS, BlackArch]
-gettingStarted: |
-  Install via your package manager (preinstalled on Kali) or a release
-  binary. Basic usage: `binwalk <firmware-image>` scans the file for
-  signatures of known file types and filesystems embedded inside it;
-  add `-e` to extract everything it finds. The wiki covers signature
-  scanning options, entropy analysis for finding compressed/encrypted
-  regions, and the extraction module system.
+docsUrl: "https://www.kali.org/tools/binwalk/"
+downloadUrl: "https://github.com/ReFirmLabs/binwalk"
+repoUrl: "https://salsa.debian.org/pkg-security-team/binwalk"
+commonlyOn: ["Kali Linux"]
+gettingStarted: "See the official Kali tool page and upstream homepage linked above for installation and usage details."
 ---
 
-Binwalk analyzes firmware images and other binary blobs to identify and
-extract embedded files, compressed data, and filesystems packed inside
-them — a starting point for firmware reverse engineering and IoT
-security research.
+Binwalk is a tool for searching a given binary image for embedded files and executable code. Specifically, it is designed for identifying files and code embedded inside of firmware images. Binwalk uses the libmagic library, so it is compatible with magic signatures created for the Unix file utility.
 
-Use it only on firmware/binaries you own or are explicitly authorized
-to analyze — see the [disclaimer](/disclaimer).
+Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

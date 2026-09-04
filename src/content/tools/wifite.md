@@ -1,28 +1,16 @@
 ---
-name: Wifite
-tagline: Automated wireless network auditing tool built on Aircrack-ng and related tools
-categories: [wireless]
-platforms: [Linux]
-license: GPL-2.0
+name: "wifite"
+tagline: "Python script to automate wireless auditing using aircrack-ng tools"
+categories: ["wifi-credential-access"]
+platforms: ["Linux"]
 lastVerified: 2026-09-04
-docsUrl: https://github.com/derv82/wifite2#readme
-downloadUrl: https://github.com/derv82/wifite2
-repoUrl: https://github.com/derv82/wifite2
-commonlyOn: [Kali Linux, Parrot Security OS, BlackArch]
-gettingStarted: |
-  Install via your package manager (preinstalled on Kali) or clone the
-  repo; requires a wireless adapter supporting monitor mode, plus
-  Aircrack-ng and related tools it wraps. Running `wifite` with no
-  arguments scans for nearby networks and walks through attacking each
-  selected target automatically (handshake capture, PMKID, WEP attacks
-  as applicable). The README covers command-line flags for narrowing
-  scope and attack types.
+docsUrl: "https://www.kali.org/tools/wifite/"
+downloadUrl: "https://github.com/kimocoder/wifite2"
+repoUrl: "https://salsa.debian.org/pkg-security-team/wifite"
+commonlyOn: ["Kali Linux"]
+gettingStarted: "See the official Kali tool page and upstream homepage linked above for installation and usage details."
 ---
 
-Wifite automates the wireless auditing workflow — scanning for
-networks, capturing handshakes/PMKIDs, and attempting cracks — by
-orchestrating Aircrack-ng, Reaver, and other underlying tools so an
-operator doesn't have to run each step by hand.
+Wifite is a tool to audit WEP or WPA encrypted wireless networks. It uses aircrack-ng, pyrit, reaver, tshark tools to perform the audit.
 
-Only use it against wireless networks you own or are explicitly
-authorized to test — see the [disclaimer](/disclaimer).
+Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

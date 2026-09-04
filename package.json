@@ -6,12 +6,13 @@
     "node": ">=22.12.0"
   },
   "scripts": {
-    "dev": "astro dev",
-    "build": "astro build",
+    "dev": "cross-env NODE_OPTIONS=--max-old-space-size=4096 astro dev",
+    "build": "cross-env NODE_OPTIONS=--max-old-space-size=4096 astro build",
     "postbuild": "pagefind --site dist",
     "preview": "astro preview",
     "astro": "astro",
-    "check-links": "node scripts/check-links.mjs"
+    "check-links": "node scripts/check-links.mjs",
+    "sync-tools": "node scripts/sync-kali-tools.mjs"
   },
   "dependencies": {
     "astro": "^7.3.1"
@@ -20,6 +21,8 @@
     "esbuild": true
   },
   "devDependencies": {
+    "cheerio": "^1.2.0",
+    "cross-env": "^10.1.0",
     "gray-matter": "^4.0.3",
     "pagefind": "^1.5.2"
   }

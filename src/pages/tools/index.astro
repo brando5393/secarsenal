@@ -3,23 +3,49 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
 
 const entries = await getCollection('tools');
-const categories = [...new Set(entries.flatMap((e) => e.data.categories))].sort();
+const categoryCounts = new Map<string, number>();
+for (const entry of entries) {
+  for (const c of entry.data.categories) {
+    categoryCounts.set(c, (categoryCounts.get(c) ?? 0) + 1);
+  }
+}
+const categories = [...categoryCounts.keys()].sort();
 ---
 
 <BaseLayout title="Tools">
-  <h1>Tools</h1>
-  <p>Individual pentesting tools, searchable by category/purpose.</p>
+  <h1>Tools ({entries.length})</h1>
+  <p>
+    Individual pentesting tools, synced from{' '}
+    <a href="https://www.kali.org/tools/all-tools/" rel="noopener noreferrer" target="_blank">Kali's official tool list</a>{' '}
+    — searchable by name and filterable by category/purpose.
+  </p>
 
-  <div class="filter-bar" id="filter-bar">
-    <button type="button" aria-pressed="true" data-category="all">All</button>
+  <input
+    id="name-filter"
+    class="search-input"
+    type="search"
+    placeholder="Filter by name…"
+    aria-label="Filter tools by name"
+  />
+
+  <label for="category-filter" class="filter-label">Category</label>
+  <select id="category-filter" class="filter-select">
+    <option value="all">All categories ({entries.length})</option>
     {categories.map((c) => (
-      <button type="button" aria-pressed="false" data-category={c}>{c}</button>
+      <option value={c}>{c} ({categoryCounts.get(c)})</option>
     ))}
-  </div>
+  </select>
+
+  <p id="result-count" class="last-verified"></p>
 
   <div class="card-grid" id="card-grid">
     {entries.map((entry) => (
-      <a class="card" href={`/tools/${entry.id}`} data-categories={entry.data.categories.join(',')}>
+      <a
+        class="card"
+        href={`/tools/${entry.id}`}
+        data-categories={entry.data.categories.join(',')}
+        data-name={entry.data.name.toLowerCase()}
+      >
         <h3>{entry.data.name}</h3>
         <p>{entry.data.tagline}</p>
         {entry.data.categories.map((c) => <span class="tag">{c}</span>)}
@@ -29,19 +55,27 @@ const categories = [...new Set(entries.flatMap((e) => e.data.categories))].sort(
 </BaseLayout>
 
 <script>
-  const buttons = document.querySelectorAll<HTMLButtonElement>('#filter-bar button');
-  const cards = document.querySelectorAll<HTMLAnchorElement>('#card-grid .card');
+  const nameFilter = document.getElementById('name-filter') as HTMLInputElement;
+  const categoryFilter = document.getElementById('category-filter') as HTMLSelectElement;
+  const resultCount = document.getElementById('result-count') as HTMLParagraphElement;
+  const cards = [...document.querySelectorAll<HTMLAnchorElement>('#card-grid .card')];
 
-  buttons.forEach((btn) => {
-    btn.addEventListener('click', () => {
-      buttons.forEach((b) => b.setAttribute('aria-pressed', 'false'));
-      btn.setAttribute('aria-pressed', 'true');
-      const category = btn.dataset.category;
-      cards.forEach((card) => {
-        const cardCategories = (card.dataset.categories ?? '').split(',');
-        const show = category === 'all' || cardCategories.includes(category ?? '');
-        card.style.display = show ? '' : 'none';
-      });
-    });
-  });
+  function applyFilters() {
+    const name = nameFilter.value.trim().toLowerCase();
+    const category = categoryFilter.value;
+    let visible = 0;
+    for (const card of cards) {
+      const matchesName = !name || (card.dataset.name ?? '').includes(name);
+      const cardCategories = (card.dataset.categories ?? '').split(',');
+      const matchesCategory = category === 'all' || cardCategories.includes(category);
+      const show = matchesName && matchesCategory;
+      card.style.display = show ? '' : 'none';
+      if (show) visible++;
+    }
+    resultCount.textContent = `Showing ${visible} of ${cards.length} tools`;
+  }
+
+  nameFilter.addEventListener('input', applyFilters);
+  categoryFilter.addEventListener('change', applyFilters);
+  applyFilters();
 </script>

@@ -1,28 +1,16 @@
 ---
-name: Mimikatz
-tagline: Windows credential extraction tool for post-exploitation
-categories: [post-exploitation, password-attacks]
-platforms: [Windows]
-license: CC BY 4.0 (mixed; see project license notes)
+name: "mimikatz"
+tagline: "Uses admin rights on Windows to display passwords in plaintext"
+categories: ["pass-the-hash","os-credential-dumping"]
+platforms: ["Linux"]
 lastVerified: 2026-09-04
-docsUrl: https://github.com/gentilkiwi/mimikatz/wiki
-downloadUrl: https://github.com/gentilkiwi/mimikatz/releases
-repoUrl: https://github.com/gentilkiwi/mimikatz
-commonlyOn: [Kali Linux]
-gettingStarted: |
-  Mimikatz runs on the Windows target itself (it's typically staged
-  there from Kali as part of a post-exploitation workflow, not run on
-  Kali directly). Basic usage from an elevated prompt:
-  `privilege::debug` then `sekurlsa::logonpasswords` dumps credentials
-  held in memory by LSASS on supported Windows versions/patch levels.
-  The wiki documents its many other modules (Kerberos ticket abuse,
-  DPAPI, and more).
+docsUrl: "https://www.kali.org/tools/mimikatz/"
+downloadUrl: "https://blog.gentilkiwi.com/mimikatz"
+repoUrl: "https://gitlab.com/kalilinux/packages/mimikatz"
+commonlyOn: ["Kali Linux"]
+gettingStarted: "Install on Kali Linux with `sudo apt install mimikatz`. See the official Kali tool page and upstream homepage linked above for full usage and configuration details."
 ---
 
-Mimikatz is a Windows post-exploitation tool for extracting plaintext
-passwords, hashes, and Kerberos tickets from memory, widely used (and
-just as widely detected/mitigated by modern EDR) in authorized
-Active Directory penetration tests to demonstrate credential exposure.
+Mimikatz uses admin rights on Windows to display passwords of currently logged in users in plaintext.
 
-Only use it on systems you own or are explicitly authorized to test —
-see the [disclaimer](/disclaimer).
+Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).
