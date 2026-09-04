@@ -17,17 +17,29 @@ const HEADERS = {
     'Mozilla/5.0 (Windows NT 10.0; Win64; x64) SecArsenal-freshness-check',
 };
 
+const REQUEST_TIMEOUT_MS = 15_000;
+
 async function checkUrl(url) {
   try {
-    const res = await fetch(url, { method: 'HEAD', redirect: 'follow', headers: HEADERS });
+    const res = await fetch(url, {
+      method: 'HEAD',
+      redirect: 'follow',
+      headers: HEADERS,
+      signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
+    });
     if (res.ok) return { ok: true };
     if (res.status === 405 || res.status === 501 || res.status === 403 || res.status === 404) {
-      const getRes = await fetch(url, { method: 'GET', redirect: 'follow', headers: HEADERS });
+      const getRes = await fetch(url, {
+        method: 'GET',
+        redirect: 'follow',
+        headers: HEADERS,
+        signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
+      });
       return { ok: getRes.ok, status: getRes.status };
     }
     return { ok: false, status: res.status };
   } catch (err) {
-    return { ok: false, error: err.message };
+    return { ok: false, error: err.name === 'TimeoutError' ? 'timed out' : err.message };
   }
 }
 

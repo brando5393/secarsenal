@@ -9,11 +9,17 @@ downloadUrl: https://www.kali.org/get-kali/
 repoUrl: https://gitlab.com/kalilinux
 notableTools:
   - Nmap
-  - Metasploit
+  - Metasploit Framework
   - Wireshark
   - Burp Suite
   - John the Ripper
   - Aircrack-ng
+  - Hydra (THC-Hydra)
+  - Nikto
+  - Ettercap
+  - Impacket
+  - Autopsy
+  - Social-Engineer Toolkit (SET)
 gettingStarted: |
   Kali ships as installer ISOs, a live image, ARM images, WSL, and pre-built
   virtual machine images for VMware/VirtualBox. For most newcomers, the

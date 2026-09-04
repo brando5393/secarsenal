@@ -46,6 +46,9 @@ const tools = defineCollection({
         'web-app',
         'reverse-engineering',
         'network-analysis',
+        'vulnerability-scanning',
+        'sniffing-spoofing',
+        'social-engineering',
       ])
     ),
     platforms: z.array(z.string()),

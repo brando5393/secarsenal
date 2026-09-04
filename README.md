@@ -41,6 +41,16 @@ fails if a required field is missing or malformed. Every entry needs:
 The Markdown body becomes the page's main description; `gettingStarted`
 in the frontmatter is a short plain-text getting-started blurb.
 
+**Scope:** the catalog aims to cover Kali Linux's major tool categories
+well (info gathering, vulnerability analysis, web app, password
+attacks, wireless, reverse engineering, sniffing/spoofing,
+exploitation, post-exploitation, forensics, social engineering) with
+solid representative entries per category, not to enumerate every one
+of Kali's 600+ packages — a reference that deep would be mostly
+redundant with `apt list --installed` and harder to keep accurate than
+useful. New entries should fill a category gap or replace a
+stale/superseded tool, not just add volume.
+
 ## Content freshness
 
 There is no live scraping backend. Instead:
