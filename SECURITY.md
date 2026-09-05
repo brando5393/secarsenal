@@ -93,9 +93,11 @@ blocking the page. Clearing browser data for the site resets both.
 - The sync scripts (`scripts/sync-kali-tools.mjs`,
   `scripts/sync-blackarch-tools.mjs`, `scripts/sync-remnux-tools.mjs`,
   `scripts/sync-tails-tools.mjs`, `scripts/sync-security-onion-tools.mjs`,
-  `scripts/sync-archstrike-tools.mjs`) only read each source's own
+  `scripts/sync-archstrike-tools.mjs`, `scripts/sync-flare-vm-tools.mjs`)
+  only read each source's own
   published pages (plus, for ArchStrike, each package's own `PKGBUILD`
-  on its GitHub repo) over HTTPS and write
+  on its GitHub repo, and for FLARE VM, each package's own nuspec on
+  `mandiant/VM-Packages`) over HTTPS and write
   local Markdown files — no credentials, no writes to any third-party
   system, and each runs read-only against a site whose `robots.txt`
   explicitly permits

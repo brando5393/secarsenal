@@ -78,10 +78,22 @@ The two collections are sourced very differently:
     skips ArchStrike's own `archstrike-*` infrastructure/branding
     packages (installer, keyring, desktop configs) rather than
     cataloging them as tools.
+  - `scripts/sync-flare-vm-tools.mjs` — [FLARE VM's own package list](https://github.com/mandiant/flare-vm/blob/main/config.xml)
+    (~90 additional tools not already covered). 135 of the list's 137
+    entries live in Mandiant's own `.vm`-namespaced package repo
+    (`mandiant/VM-Packages`, exclusive to FLARE VM/CommandoVM, not
+    shared with the public Chocolatey feed) — unlike CommandoVM's
+    install profile, which mixes that namespace with unfilterable
+    generic Chocolatey packages and was rejected as a sync source, this
+    list is cleanly separable by its `.vm` suffix. This sync fetches
+    each package's nuspec from that repo for its description, category
+    (`tags`), and homepage (`projectUrl`, optional), and excludes both
+    the 2 non-`.vm` runtime prerequisites and a small denylist of
+    generic desktop utilities riding in the same namespace.
 
   Earlier sources are treated as authoritative over later ones wherever
   they list the same tool (Kali > BlackArch > REMnux > Tails >
-  Security Onion > ArchStrike): each
+  Security Onion > ArchStrike > FLARE VM): each
   sync skips any slug already owned by an earlier one (tracked via
   `scripts/manifests/*.json`) rather than overwriting richer existing
   data. Each sync script only ever deletes
@@ -113,9 +125,10 @@ The two collections are sourced very differently:
 - **Tools:** `npm run sync-tools` (Kali), `npm run sync-tools:blackarch`
   (BlackArch), `npm run sync-tools:remnux` (REMnux),
   `npm run sync-tools:tails` (Tails), `npm run sync-tools:security-onion`
-  (Security Onion), and `npm run sync-tools:archstrike` (ArchStrike) each
+  (Security Onion), `npm run sync-tools:archstrike` (ArchStrike), and
+  `npm run sync-tools:flare-vm` (FLARE VM) each
   re-fetch and regenerate their respective share of the tools collection.
-  `.github/workflows/sync-tools.yml` runs all six, in that order, monthly
+  `.github/workflows/sync-tools.yml` runs all seven, in that order, monthly
   and opens a PR with the diff — it never pushes straight to `main`, so
   a parsing bug or an unannounced page-structure change on any site gets
   caught in review, not published.

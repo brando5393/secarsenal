@@ -5,7 +5,8 @@ name: Sync tools collection
 # scripts/sync-blackarch-tools.mjs, REMnux: scripts/sync-remnux-tools.mjs,
 # Tails: scripts/sync-tails-tools.mjs, Security Onion:
 # scripts/sync-security-onion-tools.mjs, ArchStrike:
-# scripts/sync-archstrike-tools.mjs) and opens a PR with the diff for
+# scripts/sync-archstrike-tools.mjs, FLARE VM:
+# scripts/sync-flare-vm-tools.mjs) and opens a PR with the diff for
 # human review. Never pushes straight to main — a bad parse or an
 # unexpected page-structure change on any site should be caught by a
 # reviewer, not published automatically.
@@ -60,13 +61,16 @@ jobs:
       - name: Run ArchStrike tools sync
         run: npm run sync-tools:archstrike
 
+      - name: Run FLARE VM tools sync
+        run: npm run sync-tools:flare-vm
+
       - name: Build to validate generated content
         run: npm run build
 
       - name: Open PR with regenerated tool entries
         uses: peter-evans/create-pull-request@v6
         with:
-          commit-message: "Sync tools collection from kali.org, blackarch.org, docs.remnux.org, tails.net, docs.securityonion.net, and archstrike.org"
+          commit-message: "Sync tools collection from kali.org, blackarch.org, docs.remnux.org, tails.net, docs.securityonion.net, archstrike.org, and mandiant/flare-vm"
           title: "Scheduled sync: tools collection"
           body: |
             Automated monthly sync of `src/content/tools/` from
@@ -75,10 +79,12 @@ jobs:
             [REMnux's official "Discover the Tools" docs](https://docs.remnux.org/discover-the-tools/analyze+documents),
             [Tails' official included-software page](https://tails.net/doc/about/features/index.en.html),
             [Security Onion's official tools docs](https://docs.securityonion.net/en/2.4/tools.html),
-            and [ArchStrike's official package table](https://archstrike.org/packages),
+            [ArchStrike's official package table](https://archstrike.org/packages),
+            and [FLARE VM's own package list](https://github.com/mandiant/flare-vm/blob/main/config.xml),
             via `scripts/sync-kali-tools.mjs`, `scripts/sync-blackarch-tools.mjs`,
             `scripts/sync-remnux-tools.mjs`, `scripts/sync-tails-tools.mjs`,
-            `scripts/sync-security-onion-tools.mjs`, and `scripts/sync-archstrike-tools.mjs`.
+            `scripts/sync-security-onion-tools.mjs`, `scripts/sync-archstrike-tools.mjs`,
+            and `scripts/sync-flare-vm-tools.mjs`.
 
             Review the diff before merging — check for unexpected mass
             deletions/changes that would indicate the page structure on
