@@ -6,6 +6,7 @@ basedOn: Ubuntu
 lastVerified: 2026-09-04
 docsUrl: https://www.caine-live.net/page5/page5.html
 downloadUrl: https://www.caine-live.net/page8/page8.html
+toolListMaintenance: manual
 notableTools:
   - autopsy
   - sleuthkit

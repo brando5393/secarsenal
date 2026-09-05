@@ -3,6 +3,7 @@ name: Kali Linux
 tagline: Debian-based distribution built for penetration testing and security auditing
 category: general-purpose
 basedOn: Debian
+toolListMaintenance: auto-synced
 lastVerified: 2026-09-04
 docsUrl: https://www.kali.org/docs/
 downloadUrl: https://www.kali.org/get-kali/

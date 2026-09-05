@@ -7,6 +7,7 @@ lastVerified: 2026-09-04
 docsUrl: https://www.pentoo.ch/docs/
 downloadUrl: https://www.pentoo.ch/downloads/
 repoUrl: https://github.com/pentoo/pentoo-overlay
+toolListMaintenance: manual
 notableTools:
   - aircrack-ng
   - nmap

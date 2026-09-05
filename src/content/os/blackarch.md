@@ -3,6 +3,7 @@ name: BlackArch
 tagline: Arch Linux-based distribution with one of the largest pentest tool repositories
 category: specialized
 basedOn: Arch Linux
+toolListMaintenance: auto-synced
 lastVerified: 2026-09-04
 docsUrl: https://blackarch.org/guide.html
 downloadUrl: https://blackarch.org/downloads.html

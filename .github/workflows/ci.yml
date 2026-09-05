@@ -1,0 +1,35 @@
+name: CI
+
+# Fast validation on every push/PR: does the site actually build? This
+# is what catches a malformed content entry (Zod schema failure), a
+# broken Astro component, or a newly vulnerable dependency before
+# merge — separate from sync-tools.yml and freshness-check.yml, which
+# run on a schedule and open their own PRs/issues rather than gate
+# other people's changes.
+on:
+  push:
+    branches: [master]
+  pull_request: {}
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - run: npm ci
+
+      - name: Build (validates content collection schemas + components)
+        run: npm run build
+
+      - name: Audit dependencies
+        run: npm audit --audit-level=high

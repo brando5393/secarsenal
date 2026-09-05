@@ -25,6 +25,23 @@ const os = defineCollection({
     basedOn: z.string(),
     gettingStarted: z.string(),
     notableTools: z.array(z.string()).default([]),
+    // 'auto-synced' distros (Kali, BlackArch, REMnux, Tails) have a
+    // scripts/sync-*.mjs pulling their full tools/ collection from an
+    // official, structured, per-tool listing; each of those scripts
+    // stamps this field itself (see ensureAutoSyncedTag in
+    // sync-utils.mjs) at the end of every run, so it self-corrects on
+    // the next sync rather than relying on a human to remember it.
+    // Defaults to 'manual' (fail closed) so a newly added OS entry is
+    // never silently presented as auto-verified when no sync script
+    // actually covers it — that only happens when a real sync script
+    // claims it. 'manual' means no official structured per-tool
+    // listing exists upstream (Parrot has none at all; CAINE's is
+    // unstructured prose with no per-tool links; Pentoo's overlay repo
+    // mixes real tools with generic Gentoo build plumbing with no
+    // authoritative way to tell them apart) — notableTools above is
+    // hand-maintained and won't be caught by the freshness-check bot,
+    // so the UI flags it for readers to verify independently.
+    toolListMaintenance: z.enum(['auto-synced', 'manual']).default('manual'),
     ...sourceTracking,
   }),
 });

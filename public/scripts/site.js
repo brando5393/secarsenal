@@ -173,9 +173,18 @@ function initAckModal() {
   }
   if (acknowledged) return;
 
+  // `flex` is applied here (not baked into the static class list) so it's
+  // never present at the same time as the `hidden` attribute — Tailwind's
+  // `.flex{display:flex}` is an author-origin rule and beats the browser's
+  // default `[hidden]{display:none}` in the cascade regardless of
+  // specificity, so having both at once leaves the full-viewport backdrop
+  // visually shown (and swallowing every click on the page under it) even
+  // while `.hidden` reads `true` in the DOM.
   modal.hidden = false;
+  modal.classList.add('flex');
   button.addEventListener('click', () => {
     modal.hidden = true;
+    modal.classList.remove('flex');
     try {
       localStorage.setItem(ACK_KEY, '1');
     } catch {

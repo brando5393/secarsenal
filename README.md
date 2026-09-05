@@ -106,10 +106,25 @@ The two collections are sourced very differently:
   checks every OS entry's URLs for reachability and flags anything not
   verified in the last 180 days. `.github/workflows/freshness-check.yml`
   runs this weekly and opens an issue for a human to look at.
+- **Distros without a syncable tool list:** Parrot, CAINE, and Pentoo
+  have no official, structured, per-tool listing upstream (unlike Kali/
+  BlackArch/REMnux/Tails), so their `notableTools` are hand-maintained
+  and can't be freshness-checked automatically. Their `os/*.md` entries
+  are marked `toolListMaintenance: manual`, which the site surfaces as
+  a visible warning on their pages — this is also the default for any
+  newly added OS entry, so a new distro is never silently presented as
+  auto-verified. `scripts/sync-utils.mjs`'s `ensureAutoSyncedTag()` is
+  called by each `sync-*.mjs` script to stamp its own OS entry
+  `auto-synced` on every run — adding a new sync script for a new
+  distro (see the pattern in any existing `scripts/sync-*.mjs`) is what
+  flips that distro's tag automatically, no separate edit needed.
 
-Neither workflow runs a live backend — both are scheduled, one-shot
-jobs that commit/PR static files, keeping the deployed site itself
-100% static.
+Neither of the above workflows runs a live backend — both are
+scheduled, one-shot jobs that commit/PR static files, keeping the
+deployed site itself 100% static. `.github/workflows/ci.yml` runs on
+every push/PR (build + `npm audit`) so a broken build or a malformed
+content entry is caught before merge rather than by a monthly/weekly
+schedule.
 
 ## Security
 

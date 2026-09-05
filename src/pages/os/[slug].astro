@@ -39,6 +39,19 @@ const SOURCE_LINK_CLASS =
     <span class={TAG_CLASS}>based on {data.basedOn}</span>
   </div>
 
+  {data.toolListMaintenance === 'manual' && (
+    <div class="mt-4 flex items-start gap-2 rounded-lg border border-amber-800/60 bg-amber-950/40 px-4 py-3 text-sm text-amber-200" role="note">
+      <span aria-hidden="true">⚠</span>
+      <p>
+        {data.name} has no official, structured tool listing we can auto-sync
+        (unlike Kali, BlackArch, REMnux, and Tails). The tools below are
+        maintained by hand and may be incomplete or outdated — check the{' '}
+        <a class="underline hover:text-amber-100" href={data.docsUrl} rel="noopener noreferrer" target="_blank">official docs</a>{' '}
+        for the current tool set.
+      </p>
+    </div>
+  )}
+
   <div class="mt-5 flex flex-wrap gap-3">
     <a class={SOURCE_LINK_CLASS} href={data.docsUrl} rel="noopener noreferrer" target="_blank">Official docs ↗</a>
     {data.downloadUrl && (
@@ -56,7 +69,9 @@ const SOURCE_LINK_CLASS =
 
   {bundledTools.length > 0 && (
     <>
-      <h2 class="mt-8 text-xl font-semibold text-white">Notable bundled tools</h2>
+      <h2 class="mt-8 text-xl font-semibold text-white">
+        Notable bundled tools{data.toolListMaintenance === 'manual' && <span class="ml-2 align-middle text-xs font-normal uppercase tracking-wide text-amber-400">manually maintained</span>}
+      </h2>
       <div class="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
         {bundledTools.map((tool) => (
           <a

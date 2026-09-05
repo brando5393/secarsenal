@@ -13,7 +13,7 @@
 // one of them only ever deletes files it previously created itself.
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { readManifest, writeManifest, pruneStale, mapWithConcurrency, isUrlReachable } from './sync-utils.mjs';
+import { readManifest, writeManifest, pruneStale, mapWithConcurrency, isUrlReachable, ensureAutoSyncedTag } from './sync-utils.mjs';
 
 const DOCS_BASE = 'https://docs.remnux.org';
 const CONTENT_DIR = join('src', 'content', 'tools');
@@ -195,6 +195,7 @@ async function main() {
 
   const removed = pruneStale(CONTENT_DIR, oldSlugs, written);
   writeManifest(MANIFEST_PATH, written);
+  ensureAutoSyncedTag(join('src', 'content', 'os', 'remnux.md'));
 
   console.log(
     `\nWrote ${written.length} REMnux-exclusive tool entries to ${CONTENT_DIR}` +

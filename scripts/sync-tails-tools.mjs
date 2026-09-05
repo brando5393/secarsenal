@@ -12,7 +12,7 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import * as cheerio from 'cheerio';
-import { readManifest, writeManifest, pruneStale, mapWithConcurrency, isUrlReachable } from './sync-utils.mjs';
+import { readManifest, writeManifest, pruneStale, mapWithConcurrency, isUrlReachable, ensureAutoSyncedTag } from './sync-utils.mjs';
 
 const PAGE_URL = 'https://tails.net/doc/about/features/index.en.html';
 const CONTENT_DIR = join('src', 'content', 'tools');
@@ -143,6 +143,7 @@ async function main() {
 
   const removed = pruneStale(CONTENT_DIR, oldSlugs, written);
   writeManifest(MANIFEST_PATH, written);
+  ensureAutoSyncedTag(join('src', 'content', 'os', 'tails.md'));
 
   console.log(
     `\nWrote ${written.length} Tails-exclusive tool entries to ${CONTENT_DIR}` +

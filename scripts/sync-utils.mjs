@@ -77,6 +77,31 @@ async function attempt(url, timeoutMs) {
   return { ok: false, status: head.status };
 }
 
+// Every sync-*.mjs script owns exactly one OS entry's tools coverage.
+// Called at the end of each run so the OS's `toolListMaintenance` flag
+// in src/content/os/<slug>.md self-corrects every time the sync runs,
+// instead of relying on whoever writes a future sync script to also
+// remember to hand-edit that frontmatter field. A surgical line
+// insert/replace (not a full YAML re-stringify) so it never disturbs
+// unrelated formatting in a file that's otherwise hand-curated prose.
+export function ensureAutoSyncedTag(osFilePath) {
+  if (!existsSync(osFilePath)) return;
+  const original = readFileSync(osFilePath, 'utf8');
+  const frontmatterEnd = original.indexOf('\n---', 4);
+  if (!original.startsWith('---\n') || frontmatterEnd === -1) return;
+
+  const line = 'toolListMaintenance: auto-synced';
+  let frontmatter = original.slice(4, frontmatterEnd);
+  if (/^toolListMaintenance:.*$/m.test(frontmatter)) {
+    frontmatter = frontmatter.replace(/^toolListMaintenance:.*$/m, line);
+  } else {
+    frontmatter = `${frontmatter}${frontmatter.endsWith('\n') ? '' : '\n'}${line}\n`;
+  }
+
+  const updated = `---\n${frontmatter}${original.slice(frontmatterEnd + 1)}`;
+  if (updated !== original) writeFileSync(osFilePath, updated, 'utf8');
+}
+
 export async function isUrlReachable(url, timeoutMs = 8_000) {
   try {
     const result = await attempt(url, timeoutMs);

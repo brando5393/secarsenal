@@ -7,6 +7,7 @@ lastVerified: 2026-09-04
 docsUrl: https://parrotsec.org/docs/
 downloadUrl: https://parrotsec.org/download/
 repoUrl: https://github.com/ParrotSec
+toolListMaintenance: manual
 notableTools:
   - nmap
   - metasploit-framework

@@ -3,6 +3,7 @@ name: REMnux
 tagline: Ubuntu-based toolkit for reverse-engineering and analyzing malicious software
 category: specialized
 basedOn: Ubuntu
+toolListMaintenance: auto-synced
 lastVerified: 2026-09-04
 docsUrl: https://docs.remnux.org/
 downloadUrl: https://docs.remnux.org/install-distro/get-virtual-appliance

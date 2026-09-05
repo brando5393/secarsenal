@@ -8,7 +8,7 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import * as cheerio from 'cheerio';
-import { readManifest, writeManifest, pruneStale, mapWithConcurrency } from './sync-utils.mjs';
+import { readManifest, writeManifest, pruneStale, mapWithConcurrency, ensureAutoSyncedTag } from './sync-utils.mjs';
 
 const BASE = 'https://www.kali.org';
 const CONTENT_DIR = join('src', 'content', 'tools');
@@ -162,6 +162,7 @@ async function main() {
   // (e.g. BlackArch's sync) that happen to live in the same directory.
   const removed = pruneStale(CONTENT_DIR, oldSlugs, written);
   writeManifest(MANIFEST_PATH, written);
+  ensureAutoSyncedTag(join('src', 'content', 'os', 'kali-linux.md'));
 
   console.log(`\nWrote ${written.length} tool entries to ${CONTENT_DIR}${removed ? `, removed ${removed} stale entr${removed === 1 ? 'y' : 'ies'}` : ''}.`);
   if (failures.length > 0) {

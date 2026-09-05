@@ -45,6 +45,9 @@ const categories = [...new Set(entries.map((e) => e.data.category))].sort();
         </div>
         <p class="text-sm text-gray-400">{entry.data.tagline}</p>
         <span class="mt-2 inline-block rounded-full bg-gray-800 px-3 py-1 text-xs text-gray-300">{entry.data.category}</span>
+        {entry.data.toolListMaintenance === 'manual' && (
+          <span class="mt-2 ml-2 inline-block rounded-full bg-amber-950/60 px-3 py-1 text-xs text-amber-300" title="No official structured tool listing to auto-sync — tools are hand-maintained">⚠ manual tools</span>
+        )}
       </a>
     ))}
   </div>

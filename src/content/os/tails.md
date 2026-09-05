@@ -3,6 +3,7 @@ name: Tails
 tagline: Amnesic live OS focused on privacy and anonymity, routing all traffic through Tor
 category: specialized
 basedOn: Debian
+toolListMaintenance: auto-synced
 lastVerified: 2026-09-04
 docsUrl: https://tails.net/doc/index.en.html
 downloadUrl: https://tails.net/install/index.en.html
