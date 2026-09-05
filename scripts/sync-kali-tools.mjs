@@ -3,14 +3,16 @@
 // truth for the tools collection — do not hand-edit files in
 // src/content/tools/, they get overwritten on the next sync. Run via
 // `npm run sync-tools`; also run on a schedule by
-// .github/workflows/sync-kali-tools.yml, which opens a PR for review
+// .github/workflows/sync-tools.yml, which opens a PR for review
 // rather than publishing unreviewed changes directly.
-import { mkdirSync, rmSync, writeFileSync } from 'node:fs';
+import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import * as cheerio from 'cheerio';
+import { readManifest, writeManifest, pruneStale, mapWithConcurrency } from './sync-utils.mjs';
 
 const BASE = 'https://www.kali.org';
 const CONTENT_DIR = join('src', 'content', 'tools');
+const MANIFEST_PATH = join('scripts', 'manifests', 'kali.json');
 const CONCURRENCY = 6;
 const REQUEST_TIMEOUT_MS = 20_000;
 const HEADERS = {
@@ -128,34 +130,23 @@ function toMarkdown(tool) {
   return `---\n${toFrontmatterYaml(tool)}\n---\n\n${body}\n\nOnly use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).\n`;
 }
 
-async function mapWithConcurrency(items, limit, fn) {
-  const results = [];
-  let i = 0;
-  async function worker() {
-    while (i < items.length) {
-      const idx = i++;
-      results[idx] = await fn(items[idx], idx);
-    }
-  }
-  await Promise.all(Array.from({ length: limit }, worker));
-  return results;
-}
-
 async function main() {
   console.log('Fetching Kali tool sitemap...');
   const slugs = await getToolSlugs();
   console.log(`Found ${slugs.length} tool pages to sync.`);
 
-  rmSync(CONTENT_DIR, { recursive: true, force: true });
   mkdirSync(CONTENT_DIR, { recursive: true });
+  const oldSlugs = readManifest(MANIFEST_PATH);
 
   let done = 0;
   const failures = [];
+  const written = [];
 
   await mapWithConcurrency(slugs, CONCURRENCY, async (slug) => {
     try {
       const tool = await parseTool(slug);
       writeFileSync(join(CONTENT_DIR, `${slug}.md`), toMarkdown(tool), 'utf8');
+      written.push(slug);
     } catch (err) {
       failures.push({ slug, error: err.message });
     } finally {
@@ -166,7 +157,13 @@ async function main() {
     }
   });
 
-  console.log(`\nWrote ${slugs.length - failures.length} tool entries to ${CONTENT_DIR}`);
+  // Only remove files this script previously created and no longer
+  // finds on kali.org — never touches files owned by another source
+  // (e.g. BlackArch's sync) that happen to live in the same directory.
+  const removed = pruneStale(CONTENT_DIR, oldSlugs, written);
+  writeManifest(MANIFEST_PATH, written);
+
+  console.log(`\nWrote ${written.length} tool entries to ${CONTENT_DIR}${removed ? `, removed ${removed} stale entr${removed === 1 ? 'y' : 'ies'}` : ''}.`);
   if (failures.length > 0) {
     console.log(`${failures.length} tool page(s) failed to sync:`);
     for (const f of failures) console.log(`  - ${f.slug}: ${f.error}`);

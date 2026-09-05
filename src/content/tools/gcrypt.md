@@ -1,0 +1,15 @@
+---
+name: "gcrypt"
+tagline: "Simple, secure and performance file encryption tool written in C"
+categories: ["crypto"]
+platforms: ["Linux"]
+lastVerified: 2026-09-05
+docsUrl: "https://blackarch.org/crypto.html"
+downloadUrl: "https://gitlab.com/GasparVardanyan/gcrypt"
+commonlyOn: ["BlackArch"]
+gettingStarted: "Install on BlackArch with `pacman -S gcrypt` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
+---
+
+Simple, secure and performance file encryption tool written in C
+
+Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

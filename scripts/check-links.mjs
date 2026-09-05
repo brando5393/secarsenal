@@ -25,25 +25,42 @@ const HEADERS = {
 
 const REQUEST_TIMEOUT_MS = 15_000;
 
-async function checkUrl(url) {
-  try {
-    const res = await fetch(url, {
-      method: 'HEAD',
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function attempt(url) {
+  const res = await fetch(url, {
+    method: 'HEAD',
+    redirect: 'follow',
+    headers: HEADERS,
+    signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
+  });
+  if (res.ok) return { ok: true };
+  if (res.status === 405 || res.status === 501 || res.status === 403 || res.status === 404) {
+    const getRes = await fetch(url, {
+      method: 'GET',
       redirect: 'follow',
       headers: HEADERS,
       signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
     });
-    if (res.ok) return { ok: true };
-    if (res.status === 405 || res.status === 501 || res.status === 403 || res.status === 404) {
-      const getRes = await fetch(url, {
-        method: 'GET',
-        redirect: 'follow',
-        headers: HEADERS,
-        signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
-      });
-      return { ok: getRes.ok, status: getRes.status };
+    return { ok: getRes.ok, status: getRes.status };
+  }
+  return { ok: false, status: res.status };
+}
+
+// A 429 gets one retry after a short backoff before being reported as
+// broken — a burst of checks against the same host (e.g. several
+// github.com-hosted repos in a row) can trip transient rate limits
+// that have nothing to do with whether the link is actually dead.
+async function checkUrl(url) {
+  try {
+    const result = await attempt(url);
+    if (!result.ok && result.status === 429) {
+      await sleep(3_000 + Math.random() * 2_000);
+      return await attempt(url);
     }
-    return { ok: false, status: res.status };
+    return result;
   } catch (err) {
     return { ok: false, error: err.name === 'TimeoutError' ? 'timed out' : err.message };
   }

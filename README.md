@@ -40,18 +40,32 @@ Requires Node >= 22.12 (see `engines` in `package.json`).
 
 The two collections are sourced very differently:
 
-- **`src/content/tools/`** is entirely **generated** by
-  `scripts/sync-kali-tools.mjs` from
-  [Kali's own official tool pages](https://www.kali.org/tools/all-tools/)
-  (779 tools as of the last sync) — name, description, categories,
-  homepage, and package/source links all come straight from kali.org,
-  which is the canonical source for "what tools does Kali ship and what
-  do they do." **Don't hand-edit files in `src/content/tools/`** — they
-  get overwritten by the next sync. To fix a bad entry, fix the parser
-  in `scripts/sync-kali-tools.mjs` instead. Categories are free-form
-  strings taken directly from Kali's own category taxonomy (see
-  `src/content.config.ts`), not a hardcoded enum, so this collection
-  never needs manual updates to stay in sync with Kali's tool set.
+- **`src/content/tools/`** is entirely **generated**, from two
+  official sources:
+  - `scripts/sync-kali-tools.mjs` — [Kali's own tool pages](https://www.kali.org/tools/all-tools/)
+    (779 tools), one fetch per tool page.
+  - `scripts/sync-blackarch-tools.mjs` — [BlackArch's own tool table](https://blackarch.org/tools.html)
+    (~2,500 additional tools not already covered by Kali, out of ~2,858
+    total — one single-page fetch). BlackArch's own data has a
+    non-trivial amount of link rot in its homepage column (~10-15%
+    dead on a full check), so this sync verifies each homepage URL and
+    omits `downloadUrl` rather than publish a dead link — the entry's
+    `docsUrl` (BlackArch's own category page) is unaffected either way.
+
+  Kali is treated as authoritative wherever both sources list the same
+  tool: the BlackArch sync skips any slug already owned by Kali's sync
+  (tracked via `scripts/manifests/kali.json`) rather than overwriting
+  its richer per-tool page data. Each sync script only ever deletes
+  files *it* previously created (tracked in its own
+  `scripts/manifests/*.json`), so running one never clobbers the
+  other's entries. **Don't hand-edit files in `src/content/tools/`** —
+  they get overwritten by the next sync. To fix a bad entry, fix the
+  relevant sync script instead. Categories are free-form strings taken
+  directly from each source's own taxonomy (see `src/content.config.ts`),
+  not a hardcoded enum, so this collection never needs manual updates
+  to stay in sync with either distro's tool set.
+  Adding a third source (Parrot, etc.) means writing a new
+  `scripts/sync-<name>-tools.mjs` following the same manifest pattern.
 - **`src/content/os/`** stays **hand-curated** — there's no single
   official index of "all pentest operating systems" the way Kali
   indexes its own tools, so someone has to decide which distros belong
@@ -63,11 +77,13 @@ The two collections are sourced very differently:
 
 ## Content freshness
 
-- **Tools:** `npm run sync-tools` re-fetches and regenerates the entire
-  tools collection from kali.org. `.github/workflows/sync-kali-tools.yml`
-  runs this monthly and opens a PR with the diff — it never pushes
-  straight to `main`, so a parsing bug or an unannounced page-structure
-  change on kali.org gets caught in review, not published.
+- **Tools:** `npm run sync-tools` (Kali) and
+  `npm run sync-tools:blackarch` (BlackArch) re-fetch and regenerate
+  their respective share of the tools collection.
+  `.github/workflows/sync-kali-tools.yml` runs both, in that order,
+  monthly and opens a PR with the diff — it never pushes straight to
+  `main`, so a parsing bug or an unannounced page-structure change on
+  either site gets caught in review, not published.
 - **OS entries:** `npm run check-links` (`scripts/check-links.mjs`)
   checks every OS entry's URLs for reachability and flags anything not
   verified in the last 180 days. `.github/workflows/freshness-check.yml`

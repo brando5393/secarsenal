@@ -1,0 +1,15 @@
+---
+name: "python-cymruwhois"
+tagline: "Python client for the whois.cymru.com service"
+categories: ["networking"]
+platforms: ["Linux"]
+lastVerified: 2026-09-05
+docsUrl: "https://blackarch.org/networking.html"
+downloadUrl: "https://pypi.org/project/cymruwhois/#files"
+commonlyOn: ["BlackArch"]
+gettingStarted: "Install on BlackArch with `pacman -S python-cymruwhois` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
+---
+
+Python client for the whois.cymru.com service
+
+Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

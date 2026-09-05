@@ -6,13 +6,14 @@
     "node": ">=22.12.0"
   },
   "scripts": {
-    "dev": "cross-env NODE_OPTIONS=--max-old-space-size=4096 astro dev",
-    "build": "cross-env NODE_OPTIONS=--max-old-space-size=4096 astro build",
+    "dev": "cross-env NODE_OPTIONS=--max-old-space-size=8192 astro dev",
+    "build": "cross-env NODE_OPTIONS=--max-old-space-size=8192 astro build",
     "postbuild": "pagefind --site dist",
     "preview": "astro preview",
     "astro": "astro",
     "check-links": "node scripts/check-links.mjs",
-    "sync-tools": "node scripts/sync-kali-tools.mjs"
+    "sync-tools": "node scripts/sync-kali-tools.mjs",
+    "sync-tools:blackarch": "node scripts/sync-blackarch-tools.mjs"
   },
   "dependencies": {
     "astro": "^7.3.1"

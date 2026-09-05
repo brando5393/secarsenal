@@ -11,6 +11,9 @@ notableTools:
   - nmap
   - aircrack-ng
   - john
+  - zarp
+  - fimap
+  - wafp
 gettingStarted: |
   BlackArch is available as a standalone live/installer ISO, a NetInstall
   image, or as a repository overlay you can add to an existing Arch Linux
