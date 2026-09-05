@@ -1,0 +1,24 @@
+---
+import CategoryBadge from './CategoryBadge.astro';
+import { OS_LOGOS } from '../lib/osLogos';
+
+interface Props {
+  slug: string;
+  category: string;
+  size?: 'sm' | 'md' | 'lg';
+}
+
+const { slug, category, size = 'md' } = Astro.props;
+const logo = OS_LOGOS[slug];
+
+const sizeClasses = { sm: 'h-6 w-6', md: 'h-9 w-9', lg: 'h-14 w-14' }[size];
+const bgClass = logo?.needsLightBg ? 'bg-white/95 p-1' : '';
+---
+
+{logo ? (
+  <span class={`inline-flex shrink-0 items-center justify-center rounded-lg ${bgClass} ${sizeClasses}`}>
+    <img src={logo.path} alt="" class="h-full w-full object-contain" loading="lazy" />
+  </span>
+) : (
+  <CategoryBadge category={category} size={size} />
+)}

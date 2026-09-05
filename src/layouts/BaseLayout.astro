@@ -24,19 +24,25 @@ const { title, description = 'A reference catalog of pentesting operating system
       http-equiv="Content-Security-Policy"
       content="default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none';"
     />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <title>{title} · SecArsenal</title>
   </head>
-  <body class="bg-gray-950 text-gray-100">
-    <header class="flex items-center justify-between border-b border-gray-800 bg-gray-900 px-6 py-4">
-      <a class="text-lg font-bold text-white no-underline" href="/">SecArsenal</a>
-      <nav class="flex gap-6 text-sm">
-        <a class="text-gray-400 no-underline transition-colors hover:text-white" href="/os">Operating Systems</a>
-        <a class="text-gray-400 no-underline transition-colors hover:text-white" href="/tools">Tools</a>
-        <a class="text-gray-400 no-underline transition-colors hover:text-white" href="/disclaimer">Disclaimer</a>
+  <body class="bg-gray-950 text-gray-100 [background-image:radial-gradient(circle_at_1px_1px,theme(colors.gray.800)_1px,transparent_0)] [background-size:28px_28px]">
+    <header class="sticky top-0 z-10 flex items-center justify-between border-b border-emerald-500/10 bg-gray-950/80 px-6 py-4 backdrop-blur-md">
+      <a class="flex items-center gap-2.5 no-underline" href="/">
+        <img src="/logo.svg" alt="" width="28" height="28" class="drop-shadow-[0_0_6px_rgba(52,211,153,0.35)]" />
+        <span class="font-heading text-lg font-bold tracking-tight text-white">SecArsenal</span>
+      </a>
+      <nav class="flex gap-6 font-mono text-xs uppercase tracking-wider">
+        <a class="text-gray-400 no-underline transition-colors hover:text-emerald-400" href="/os">Operating Systems</a>
+        <a class="text-gray-400 no-underline transition-colors hover:text-emerald-400" href="/tools">Tools</a>
+        <a class="text-gray-400 no-underline transition-colors hover:text-emerald-400" href="/disclaimer">Disclaimer</a>
       </nav>
     </header>
 
-    <div class="border-b border-amber-800 bg-amber-950/60 px-6 py-2 text-center text-sm text-amber-200" role="note">
+    <div class="border-b border-amber-800/60 bg-amber-950/40 px-6 py-2 text-center text-sm text-amber-200" role="note">
       Educational and ethical use only. Only test systems you own or are
       explicitly authorized to test. Full <a class="text-amber-200 underline hover:text-amber-100" href="/disclaimer">disclaimer</a>.
     </div>
@@ -56,6 +62,44 @@ const { title, description = 'A reference catalog of pentesting operating system
         content licensed <a class="text-emerald-400 hover:text-emerald-300" href="https://creativecommons.org/licenses/by/4.0/" rel="noopener noreferrer">CC BY 4.0</a>.
       </p>
     </footer>
+
+    <div
+      id="ack-modal"
+      hidden
+      role="alertdialog"
+      aria-modal="true"
+      aria-labelledby="ack-modal-title"
+      class="fixed inset-0 z-50 flex items-center justify-center bg-black/70 p-4 backdrop-blur-sm"
+    >
+      <div class="max-w-lg rounded-lg border border-gray-800 bg-gray-900 p-6 shadow-2xl">
+        <h2 id="ack-modal-title" class="font-heading text-lg font-bold text-white">Before you continue</h2>
+        <p class="mt-3 text-sm leading-relaxed text-gray-300">
+          SecArsenal is an independent, educational reference. It does not
+          host, distribute, or provide exploit code — only descriptions of,
+          and links to, publicly available third-party tools and operating
+          systems.
+        </p>
+        <p class="mt-3 text-sm leading-relaxed text-gray-300">
+          By continuing, you acknowledge that you will only use the tools
+          and techniques referenced on this site against systems, networks,
+          or accounts you own or are explicitly authorized to test; that
+          unauthorized access to computer systems may be illegal in your
+          jurisdiction; and that all information is provided "as is," with
+          SecArsenal and its contributors assuming no liability for how it
+          is used.
+        </p>
+        <div class="mt-5 flex flex-wrap items-center gap-4">
+          <button
+            id="ack-modal-accept"
+            type="button"
+            class="rounded-md bg-emerald-500 px-4 py-2 text-sm font-semibold text-gray-950 transition-colors hover:bg-emerald-400"
+          >
+            I understand — continue
+          </button>
+          <a class="text-sm text-gray-400 underline hover:text-gray-200" href="/disclaimer">Read the full disclaimer</a>
+        </div>
+      </div>
+    </div>
 
     <script is:inline src="/scripts/site.js"></script>
   </body>

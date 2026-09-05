@@ -1,9 +1,26 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import OsIcon from '../components/OsIcon.astro';
+import ToolIcon from '../components/ToolIcon.astro';
+import CategoryBadge from '../components/CategoryBadge.astro';
 import { getCollection } from 'astro:content';
 
 const osEntries = await getCollection('os');
 const toolEntries = await getCollection('tools');
+
+// Global "top categories" ranking, used as the default for first-time
+// visitors and as the pool that client-side personalization (see
+// public/scripts/site.js) reorders based on the visitor's own browsing
+// history in localStorage. "uncategorized" is excluded since it's a
+// parsing artifact, not a real category someone would browse by.
+const categoryCounts = new Map<string, number>();
+for (const entry of toolEntries) {
+  for (const c of entry.data.categories) {
+    if (c === 'uncategorized') continue;
+    categoryCounts.set(c, (categoryCounts.get(c) ?? 0) + 1);
+  }
+}
+const topCategories = [...categoryCounts.entries()].sort((a, b) => b[1] - a[1]).slice(0, 12);
 
 // The tools collection has ~780 entries (synced from Kali's full tool
 // list) — far too many to render on the homepage. Show a small,
@@ -41,11 +58,33 @@ const CARD_CLASS =
   />
   <div id="search-results" class="mt-3 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3"></div>
 
+  <h2 class="mt-10 text-xl font-semibold text-white">Top categories</h2>
+  <p id="top-categories-subtitle" class="mt-1 text-sm text-gray-400">Most-represented categories across the tools collection.</p>
+  <div id="top-categories-widget" class="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-3 md:grid-cols-5">
+    {topCategories.map(([category, count], i) => (
+      <a
+        href={`/tools?category=${encodeURIComponent(category)}`}
+        data-category={category}
+        data-count={count}
+        class:list={['card flex items-center gap-3 rounded-lg border border-gray-800 bg-gray-900 p-3 no-underline transition-colors hover:border-emerald-500', { hidden: i >= 5 }]}
+      >
+        <CategoryBadge category={category} size="sm" />
+        <span class="min-w-0">
+          <span class="block truncate text-sm font-medium text-white">{category}</span>
+          <span class="block text-xs text-gray-500">{count} tools</span>
+        </span>
+      </a>
+    ))}
+  </div>
+
   <h2 class="mt-10 text-xl font-semibold text-white">Operating Systems ({osEntries.length})</h2>
   <div class="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
     {osEntries.map((entry) => (
       <a class={CARD_CLASS} href={`/os/${entry.id}`}>
-        <h3 class="mb-1 font-semibold text-white">{entry.data.name}</h3>
+        <div class="mb-3 flex items-center gap-3">
+          <OsIcon slug={entry.id} category={entry.data.category} />
+          <h3 class="font-semibold text-white">{entry.data.name}</h3>
+        </div>
         <p class="text-sm text-gray-400">{entry.data.tagline}</p>
       </a>
     ))}
@@ -57,7 +96,10 @@ const CARD_CLASS =
   <div class="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3">
     {featuredTools.map((entry) => (
       <a class={CARD_CLASS} href={`/tools/${entry.id}`}>
-        <h3 class="mb-1 font-semibold text-white">{entry.data.name}</h3>
+        <div class="mb-3 flex items-center gap-3">
+          <ToolIcon slug={entry.id} category={entry.data.categories} />
+          <h3 class="font-semibold text-white">{entry.data.name}</h3>
+        </div>
         <p class="text-sm text-gray-400">{entry.data.tagline}</p>
       </a>
     ))}

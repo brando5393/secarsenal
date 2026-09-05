@@ -71,6 +71,13 @@ function initToolsFilter() {
 
   const cards = [...document.querySelectorAll('#card-grid .card')];
 
+  // Pre-select a category when arriving from the homepage's "top
+  // categories" widget (/tools?category=webapp) or any other link.
+  const requestedCategory = new URLSearchParams(location.search).get('category');
+  if (requestedCategory && [...categoryFilter.options].some((o) => o.value === requestedCategory)) {
+    categoryFilter.value = requestedCategory;
+  }
+
   function applyFilters() {
     const name = nameFilter.value.trim().toLowerCase();
     const category = categoryFilter.value;
@@ -91,6 +98,96 @@ function initToolsFilter() {
   applyFilters();
 }
 
+// --- "Top categories" personalization -------------------------------
+// Static-site-friendly personalization: we track which tool categories
+// a visitor looks at in their own browser's localStorage (never sent
+// anywhere — there's no backend to send it to), then reorder the
+// homepage's pre-rendered top-categories pool to surface whichever of
+// those categories the visitor has actually shown interest in. New
+// visitors with no history simply see the global default ranking that
+// was computed at build time.
+const CATEGORY_VISITS_KEY = 'sa_category_visits';
+
+function trackCategoryVisit() {
+  const meta = document.getElementById('page-meta');
+  const categories = meta?.dataset.categories?.split(',').filter(Boolean);
+  if (!categories || categories.length === 0) return;
+
+  try {
+    const raw = localStorage.getItem(CATEGORY_VISITS_KEY);
+    const counts = raw ? JSON.parse(raw) : {};
+    for (const c of categories) counts[c] = (counts[c] ?? 0) + 1;
+    localStorage.setItem(CATEGORY_VISITS_KEY, JSON.stringify(counts));
+  } catch {
+    // localStorage unavailable (private browsing, disabled, etc.) —
+    // personalization just won't happen for this visitor, no big deal.
+  }
+}
+
+function initTopCategories() {
+  const widget = document.getElementById('top-categories-widget');
+  if (!widget) return;
+
+  const items = [...widget.querySelectorAll('[data-category]')];
+
+  let visits = {};
+  try {
+    visits = JSON.parse(localStorage.getItem(CATEGORY_VISITS_KEY) ?? '{}');
+  } catch {
+    visits = {};
+  }
+
+  const hasHistory = Object.keys(visits).length > 0;
+  if (!hasHistory) return; // keep the server-rendered global default as-is
+
+  // Re-rank the pre-rendered pool (not just the visible top 5) by
+  // personal visit count, falling back to the original global order
+  // (its index in `items`) as a tiebreaker so categories the visitor
+  // hasn't seen yet still fill out the list sensibly.
+  const ranked = items
+    .map((el, originalIndex) => ({ el, originalIndex, visits: visits[el.dataset.category] ?? 0 }))
+    .sort((a, b) => b.visits - a.visits || a.originalIndex - b.originalIndex);
+
+  ranked.forEach(({ el }, i) => {
+    widget.appendChild(el); // re-append in ranked order
+    el.classList.toggle('hidden', i >= 5);
+  });
+
+  const subtitle = document.getElementById('top-categories-subtitle');
+  if (subtitle) subtitle.textContent = 'Based on the categories you’ve been browsing.';
+}
+
+// --- First-visit acknowledgment ---------------------------------------
+const ACK_KEY = 'sa_disclaimer_ack_v1';
+
+function initAckModal() {
+  const modal = document.getElementById('ack-modal');
+  const button = document.getElementById('ack-modal-accept');
+  if (!modal || !button) return;
+
+  let acknowledged = false;
+  try {
+    acknowledged = localStorage.getItem(ACK_KEY) === '1';
+  } catch {
+    acknowledged = false; // if storage is unavailable, don't block usage on it
+  }
+  if (acknowledged) return;
+
+  modal.hidden = false;
+  button.addEventListener('click', () => {
+    modal.hidden = true;
+    try {
+      localStorage.setItem(ACK_KEY, '1');
+    } catch {
+      // Nothing we can do if storage is blocked — just let them through
+      // for this session rather than trap them behind the modal.
+    }
+  });
+}
+
 initHomeSearch();
 initOsFilter();
 initToolsFilter();
+trackCategoryVisit();
+initTopCategories();
+initAckModal();

@@ -1,5 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import OsIcon from '../../components/OsIcon.astro';
 import { getCollection } from 'astro:content';
 
 const entries = await getCollection('os');
@@ -7,6 +9,7 @@ const categories = [...new Set(entries.map((e) => e.data.category))].sort();
 ---
 
 <BaseLayout title="Operating Systems">
+  <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Operating Systems' }]} />
   <h1 class="text-3xl font-bold text-white">Operating Systems</h1>
   <p class="mt-3 text-gray-300">Pentesting-focused Linux distributions, with what they're built on and how to get started.</p>
 
@@ -36,7 +39,10 @@ const categories = [...new Set(entries.map((e) => e.data.category))].sort();
         href={`/os/${entry.id}`}
         data-category={entry.data.category}
       >
-        <h3 class="mb-1 font-semibold text-white">{entry.data.name}</h3>
+        <div class="mb-3 flex items-center gap-3">
+          <OsIcon slug={entry.id} category={entry.data.category} />
+          <h3 class="font-semibold text-white">{entry.data.name}</h3>
+        </div>
         <p class="text-sm text-gray-400">{entry.data.tagline}</p>
         <span class="mt-2 inline-block rounded-full bg-gray-800 px-3 py-1 text-xs text-gray-300">{entry.data.category}</span>
       </a>

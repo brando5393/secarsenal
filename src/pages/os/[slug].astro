@@ -1,5 +1,8 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import OsIcon from '../../components/OsIcon.astro';
+import ToolIcon from '../../components/ToolIcon.astro';
 import { getCollection, getEntry, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -23,9 +26,14 @@ const SOURCE_LINK_CLASS =
 ---
 
 <BaseLayout title={data.name} description={data.tagline}>
-  <p><a class="text-emerald-400 hover:text-emerald-300" href="/os">← All operating systems</a></p>
-  <h1 class="mt-2 text-3xl font-bold text-white">{data.name}</h1>
-  <p class="mt-2 text-gray-300">{data.tagline}</p>
+  <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Operating Systems', href: '/os' }, { label: data.name }]} />
+  <div class="flex items-center gap-4">
+    <OsIcon slug={entry.id} category={data.category} size="lg" />
+    <div>
+      <h1 class="text-3xl font-bold text-white">{data.name}</h1>
+      <p class="mt-1 text-gray-300">{data.tagline}</p>
+    </div>
+  </div>
   <div class="mt-3">
     <span class={TAG_CLASS}>{data.category}</span>
     <span class={TAG_CLASS}>based on {data.basedOn}</span>
@@ -55,7 +63,10 @@ const SOURCE_LINK_CLASS =
             class="card block rounded-lg border border-gray-800 bg-gray-900 p-5 no-underline transition-colors hover:border-emerald-500"
             href={`/tools/${tool.id}`}
           >
-            <h3 class="mb-1 font-semibold text-white">{tool.data.name}</h3>
+            <div class="mb-3 flex items-center gap-3">
+              <ToolIcon slug={tool.id} category={tool.data.categories} />
+              <h3 class="font-semibold text-white">{tool.data.name}</h3>
+            </div>
             <p class="text-sm text-gray-400">{tool.data.tagline}</p>
           </a>
         ))}
