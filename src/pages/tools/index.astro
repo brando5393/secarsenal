@@ -74,16 +74,17 @@ const TEAM_BADGE_CLASSES: Record<string, string> = {
     ))}
   </div>
   <p class="mt-1 text-xs text-gray-400">
-    Team is guessed from each tool's category tags, not sourced from Kali/BlackArch/etc.'s own
-    taxonomy (none of them tag tools by team) — many tools are genuinely dual-use and are left
-    unclassified rather than guessed.
+    Team is guessed from each tool's category tags (falling back to the team of the OS it's
+    bundled with) — not sourced from Kali/BlackArch/etc.'s own taxonomy, since none of them tag
+    tools by team. A handful of generic desktop apps bundled with privacy-focused OSes like Tails
+    (GIMP, LibreOffice) aren't team tools at all and are left unclassified rather than guessed.
   </p>
 
   <p id="result-count" class="mt-3 text-sm text-gray-400"></p>
 
   <div class="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3" id="card-grid">
     {entries.map((entry) => {
-      const team = getToolTeam(entry.data.categories);
+      const team = getToolTeam(entry.data.categories, entry.data.commonlyOn);
       return (
         <a
           class="card block rounded-lg border border-gray-800 bg-gray-900 p-5 no-underline transition-colors hover:border-emerald-500"
