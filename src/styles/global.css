@@ -12,6 +12,15 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    /* Reserves the vertical scrollbar's width up front instead of
+       toggling it in/out as page height settles (e.g. web fonts
+       swapping in after their fallback, or JS reordering content) —
+       without this, a page-height change that crosses the scrollbar
+       threshold shifts all centered content sideways for a frame. */
+    scrollbar-gutter: stable;
+  }
+
   body {
     @apply bg-gray-950 text-gray-100;
     font-family: 'Inter', system-ui, -apple-system, sans-serif;
