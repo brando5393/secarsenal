@@ -19,6 +19,7 @@
     "sync-tools:security-onion": "node scripts/sync-security-onion-tools.mjs",
     "sync-tools:archstrike": "node scripts/sync-archstrike-tools.mjs",
     "sync-tools:flare-vm": "node scripts/sync-flare-vm-tools.mjs",
+    "sync-tools:tpot": "node scripts/sync-tpot-tools.mjs",
     "discover-os": "node scripts/discover-os.mjs"
   },
   "dependencies": {

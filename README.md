@@ -90,10 +90,19 @@ The two collections are sourced very differently:
     (`tags`), and homepage (`projectUrl`, optional), and excludes both
     the 2 non-`.vm` runtime prerequisites and a small denylist of
     generic desktop utilities riding in the same namespace.
+  - `scripts/sync-tpot-tools.mjs` — [T-Pot's own "Honeypots and Tools"
+    README section](https://github.com/telekom-security/tpotce#honeypots-and-tools)
+    (~30 additional tools not already covered). Unlike most single-purpose
+    security appliances in this catalog (Wazuh, MISP, TheHive, and
+    similar are all `manual` — see below — because they're one product,
+    not a tool bundle), T-Pot's README lists ~40 honeypots/tools as
+    plain markdown links straight to each one's own upstream repo or
+    homepage — genuinely structured and official, so it gets a real
+    sync script instead.
 
   Earlier sources are treated as authoritative over later ones wherever
   they list the same tool (Kali > BlackArch > REMnux > Tails >
-  Security Onion > ArchStrike > FLARE VM): each
+  Security Onion > ArchStrike > FLARE VM > T-Pot): each
   sync skips any slug already owned by an earlier one (tracked via
   `scripts/manifests/*.json`) rather than overwriting richer existing
   data. Each sync script only ever deletes
@@ -126,9 +135,10 @@ The two collections are sourced very differently:
   (BlackArch), `npm run sync-tools:remnux` (REMnux),
   `npm run sync-tools:tails` (Tails), `npm run sync-tools:security-onion`
   (Security Onion), `npm run sync-tools:archstrike` (ArchStrike), and
-  `npm run sync-tools:flare-vm` (FLARE VM) each
+  `npm run sync-tools:flare-vm` (FLARE VM), and `npm run sync-tools:tpot`
+  (T-Pot) each
   re-fetch and regenerate their respective share of the tools collection.
-  `.github/workflows/sync-tools.yml` runs all seven, in that order, monthly
+  `.github/workflows/sync-tools.yml` runs all eight, in that order, monthly
   and opens a PR with the diff — it never pushes straight to `main`, so
   a parsing bug or an unannounced page-structure change on any site gets
   caught in review, not published.

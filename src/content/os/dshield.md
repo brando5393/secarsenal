@@ -8,7 +8,8 @@ docsUrl: https://isc.sans.edu/honeypot.html
 repoUrl: https://github.com/DShield-ISC/dshield
 downloadUrl: https://github.com/bruneaug/DShield-SIEM
 toolListMaintenance: manual
-notableTools: []
+notableTools:
+  - cowrie
 gettingStarted: |
   DShield Sensor installs via the official script onto a Raspberry Pi
   (running Raspberry Pi OS) or an Ubuntu 24.04/26.04 LTS host. It runs

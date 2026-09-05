@@ -6,7 +6,7 @@ basedOn: Debian
 lastVerified: 2026-09-05
 docsUrl: https://github.com/telekom-security/tpotce
 downloadUrl: https://github.com/telekom-security/tpotce/releases
-toolListMaintenance: manual
+toolListMaintenance: auto-synced
 notableTools: []
 gettingStarted: |
   T-Pot installs onto a dedicated Debian host (bare metal or VM,

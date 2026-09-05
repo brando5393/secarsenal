@@ -23,6 +23,8 @@ tool already covered by an earlier one, in this order):
    [ArchStrike's official package table](https://archstrike.org/packages).
 7. `scripts/sync-flare-vm-tools.mjs` — from
    [FLARE VM's own package list](https://github.com/mandiant/flare-vm/blob/main/config.xml).
+8. `scripts/sync-tpot-tools.mjs` — from
+   [T-Pot's own "Honeypots and Tools" README section](https://github.com/telekom-security/tpotce#honeypots-and-tools).
 
 If a tool entry is wrong:
 
