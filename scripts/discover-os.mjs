@@ -42,12 +42,17 @@ function slugify(name) {
 
 // Best-effort only — Rawsec's data doesn't carry our category enum, so
 // this is a keyword guess flagged with a TODO comment in the drafted
-// file rather than trusted outright.
+// file rather than trusted outright. The wireless/specialized keyword
+// lists were widened after a review of the first real run caught
+// several narrow-focus tools (SDR distros, network-monitoring/threat-
+// hunting platforms, VM-compartmentalization OSs) falling through to
+// the general-purpose fallback, which overstates them as broad pentest
+// toolkits like Kali.
 function guessCategory(description, base) {
   const text = `${description} ${base}`.toLowerCase();
   if (/forensic|incident response|evidence/.test(text)) return 'forensics';
-  if (/wireless|wifi|wi-fi/.test(text)) return 'wireless';
-  if (/anonymit|privacy|malware|revers|hardened|minimalist|container/.test(text)) return 'specialized';
+  if (/wireless|wifi|wi-fi|\bsdr\b|software defined radio|radio frequency/.test(text)) return 'wireless';
+  if (/anonymit|privacy|malware|revers|hardened|minimalist|container|compartmentaliz|isolation|network security monitoring|threat hunting|\bsiem\b|\bids\b|\bnsm\b/.test(text)) return 'specialized';
   return 'general-purpose';
 }
 
