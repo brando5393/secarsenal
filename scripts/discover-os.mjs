@@ -113,7 +113,7 @@ tagline: ${yamlString(rawTagline)}
 category: ${category} # TODO: guessed from Rawsec's description — verify against the docs
 basedOn: ${yamlString(candidate.base ?? 'unknown')}
 lastVerified: ${today}
-docsUrl: ${candidate.website}
+docsUrl: ${yamlString(candidate.website)}
 toolListMaintenance: manual
 notableTools: []
 gettingStarted: |

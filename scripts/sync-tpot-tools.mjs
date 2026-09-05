@@ -94,7 +94,11 @@ function toFrontmatterYaml(item) {
 }
 
 function toMarkdown(item) {
-  return `---\n${toFrontmatterYaml(item)}\n---\n\n${item.tagline}\n\nOnly use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).\n`;
+  // A body line that's exactly `---` would prematurely close the YAML
+  // frontmatter fence below — escape it, same as every other sync
+  // script in this project does for scraped body text.
+  const body = item.tagline.replace(/^---$/gm, '\\-\\-\\-');
+  return `---\n${toFrontmatterYaml(item)}\n---\n\n${body}\n\nOnly use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).\n`;
 }
 
 async function main() {
