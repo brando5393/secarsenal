@@ -69,8 +69,9 @@ silently fail under this CSP.
   ever open an issue/PR for human review; neither publishes content
   changes automatically.
 - The sync scripts (`scripts/sync-kali-tools.mjs`,
-  `scripts/sync-blackarch-tools.mjs`, `scripts/sync-remnux-tools.mjs`)
-  only read each source's own published pages over HTTPS and write
+  `scripts/sync-blackarch-tools.mjs`, `scripts/sync-remnux-tools.mjs`,
+  `scripts/sync-tails-tools.mjs`) only read each source's own
+  published pages over HTTPS and write
   local Markdown files — no credentials, no writes to any third-party
   system, and each runs read-only against a site whose `robots.txt`
   explicitly permits

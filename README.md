@@ -40,7 +40,7 @@ Requires Node >= 22.12 (see `engines` in `package.json`).
 
 The two collections are sourced very differently:
 
-- **`src/content/tools/`** is entirely **generated**, from three
+- **`src/content/tools/`** is entirely **generated**, from four
   official sources:
   - `scripts/sync-kali-tools.mjs` — [Kali's own tool pages](https://www.kali.org/tools/all-tools/)
     (779 tools), one fetch per tool page.
@@ -58,11 +58,17 @@ The two collections are sourced very differently:
     structured Markdown fields (Website/Author/License) directly
     instead of scraping rendered HTML — REMnux's own link health is
     much better than BlackArch's (~5% dead on a full check).
+  - `scripts/sync-tails-tools.mjs` — [Tails' official included-software page](https://tails.net/doc/about/features/index.en.html)
+    (~19 additional tools not already covered). Tails ships a small,
+    fixed set of applications rather than a large tool catalog, so this
+    is a modest addition, but a genuine official source with excellent
+    link health (mainstream, actively maintained software).
 
-  Kali is treated as authoritative wherever multiple sources list the
-  same tool, then BlackArch: each sync skips any slug already owned by
-  an earlier one (tracked via `scripts/manifests/*.json`) rather than
-  overwriting richer existing data. Each sync script only ever deletes
+  Earlier sources are treated as authoritative over later ones wherever
+  they list the same tool (Kali > BlackArch > REMnux > Tails): each
+  sync skips any slug already owned by an earlier one (tracked via
+  `scripts/manifests/*.json`) rather than overwriting richer existing
+  data. Each sync script only ever deletes
   files *it* previously created (tracked in its own manifest), so
   running one never clobbers another's entries.
   **Don't hand-edit files in `src/content/tools/`** —
@@ -89,9 +95,10 @@ The two collections are sourced very differently:
 ## Content freshness
 
 - **Tools:** `npm run sync-tools` (Kali), `npm run sync-tools:blackarch`
-  (BlackArch), and `npm run sync-tools:remnux` (REMnux) each re-fetch
-  and regenerate their respective share of the tools collection.
-  `.github/workflows/sync-tools.yml` runs all three, in that order,
+  (BlackArch), `npm run sync-tools:remnux` (REMnux), and
+  `npm run sync-tools:tails` (Tails) each re-fetch and regenerate their
+  respective share of the tools collection.
+  `.github/workflows/sync-tools.yml` runs all four, in that order,
   monthly and opens a PR with the diff — it never pushes straight to
   `main`, so a parsing bug or an unannounced page-structure change on
   any site gets caught in review, not published.

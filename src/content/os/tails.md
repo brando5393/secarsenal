@@ -7,6 +7,11 @@ lastVerified: 2026-09-04
 docsUrl: https://tails.net/doc/index.en.html
 downloadUrl: https://tails.net/install/index.en.html
 repoUrl: https://gitlab.tails.boum.org/tails/tails
+notableTools:
+  - OnionShare
+  - tor-browser
+  - GnuPG
+  - Electrum
 gettingStarted: |
   Tails is designed to boot from a USB stick and leave no trace on the
   host machine — it does not install to a hard drive in normal use. The

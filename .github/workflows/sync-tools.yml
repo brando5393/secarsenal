@@ -2,12 +2,13 @@ name: Sync tools collection
 
 # Regenerates the tools collection from each source's own official
 # tool listing (Kali: scripts/sync-kali-tools.mjs, BlackArch:
-# scripts/sync-blackarch-tools.mjs, REMnux: scripts/sync-remnux-tools.mjs)
-# and opens a PR with the diff for human review. Never pushes straight
-# to main — a bad parse or an unexpected page-structure change on any
-# site should be caught by a reviewer, not published automatically.
+# scripts/sync-blackarch-tools.mjs, REMnux: scripts/sync-remnux-tools.mjs,
+# Tails: scripts/sync-tails-tools.mjs) and opens a PR with the diff for
+# human review. Never pushes straight to main — a bad parse or an
+# unexpected page-structure change on any site should be caught by a
+# reviewer, not published automatically.
 #
-# Order matters: Kali runs first, then BlackArch, so each later sync's
+# Order matters: each sync runs after the ones before it, so its
 # manifest check (scripts/manifests/*.json) sees an up-to-date picture
 # of which tools are already covered and skips them.
 on:
@@ -47,21 +48,25 @@ jobs:
       - name: Run REMnux tools sync
         run: npm run sync-tools:remnux
 
+      - name: Run Tails tools sync
+        run: npm run sync-tools:tails
+
       - name: Build to validate generated content
         run: npm run build
 
       - name: Open PR with regenerated tool entries
         uses: peter-evans/create-pull-request@v6
         with:
-          commit-message: "Sync tools collection from kali.org, blackarch.org, and docs.remnux.org"
+          commit-message: "Sync tools collection from kali.org, blackarch.org, docs.remnux.org, and tails.net"
           title: "Scheduled sync: tools collection"
           body: |
             Automated monthly sync of `src/content/tools/` from
             [kali.org's official tool pages](https://www.kali.org/tools/all-tools/),
             [blackarch.org's official tool table](https://blackarch.org/tools.html),
-            and [REMnux's official "Discover the Tools" docs](https://docs.remnux.org/discover-the-tools/analyze+documents),
+            [REMnux's official "Discover the Tools" docs](https://docs.remnux.org/discover-the-tools/analyze+documents),
+            and [Tails' official included-software page](https://tails.net/doc/about/features/index.en.html),
             via `scripts/sync-kali-tools.mjs`, `scripts/sync-blackarch-tools.mjs`,
-            and `scripts/sync-remnux-tools.mjs`.
+            `scripts/sync-remnux-tools.mjs`, and `scripts/sync-tails-tools.mjs`.
 
             Review the diff before merging — check for unexpected mass
             deletions/changes that would indicate the page structure on
