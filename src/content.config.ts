@@ -1,14 +1,24 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
+// z.string().url() only checks syntactic validity — it happily accepts
+// `javascript:alert(1)` or `data:text/html,...` as a "valid URL" since
+// those parse fine as URIs. Every one of these fields gets rendered
+// straight into an <a href>, so restrict to http(s) explicitly rather
+// than relying solely on CSP to block a javascript: URI at click time.
+const httpUrl = z
+  .string()
+  .url()
+  .refine((url) => /^https?:\/\//i.test(url), { message: 'must be an http(s) URL' });
+
 // Shared source-tracking fields used by the freshness-check workflow:
 // lastVerified + the URLs below let the scheduled Action detect stale
 // or dead-linked entries without a live scraper/backend.
 const sourceTracking = {
   lastVerified: z.coerce.date(),
-  docsUrl: z.string().url(),
-  downloadUrl: z.string().url().optional(),
-  repoUrl: z.string().url().optional(),
+  docsUrl: httpUrl,
+  downloadUrl: httpUrl.optional(),
+  repoUrl: httpUrl.optional(),
 };
 
 const os = defineCollection({

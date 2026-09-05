@@ -8,7 +8,14 @@ accounts, no comments, no file uploads. This is a deliberate choice —
 it keeps the deployed attack surface limited to static file serving
 plus the headers below.
 
-## Required response headers (apply at the hosting layer once deployed)
+## Required response headers
+
+Set at the hosting layer via `customHttp.yml` in the repo root — AWS
+Amplify Hosting reads this file automatically on every build and
+applies it to every response, no console configuration needed. This
+was a documented "once deployed" TODO here that had gone stale: the
+site went live on Amplify before this file was ever added, so every
+response was missing all of these until it was.
 
 | Header | Value |
 |---|---|
@@ -17,14 +24,19 @@ plus the headers below.
 | `X-Frame-Options` | `DENY` |
 | `Referrer-Policy` | `strict-origin-when-cross-origin` |
 | `Permissions-Policy` | `geolocation=(), microphone=(), camera=()` |
-| `Strict-Transport-Security` | `max-age=63072000; includeSubDomains; preload` (once a custom domain + TLS is in place) |
+
+`Strict-Transport-Security` (with `preload`) is deliberately not set
+yet, even though `customHttp.yml` is live — it's a hard-to-reverse
+commitment better made once the real `secarsenal.org` domain is
+attached, not on the interim `*.amplifyapp.com` hostname. Add
+`max-age=63072000; includeSubDomains; preload` to `customHttp.yml`
+once that domain is live.
 
 A baseline CSP is also set via a `<meta http-equiv>` tag in
-`src/layouts/BaseLayout.astro` for defense-in-depth while running
-locally with no server to emit real headers, but the header above is
-the authoritative version and should be set at the hosting layer
-(e.g. a `public/_headers` file for Cloudflare Pages, or a CloudFront
-response headers policy on AWS).
+`src/layouts/BaseLayout.astro`, for defense-in-depth and so it's also
+present under `astro dev`/`astro preview`, which don't read
+`customHttp.yml` (that's an Amplify-hosting-specific mechanism) — the
+header above is still the authoritative version once deployed.
 
 ## Client-side scripts and CSP
 

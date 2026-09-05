@@ -1,0 +1,17 @@
+customHeaders:
+  - pattern: '**/*'
+    headers:
+      - key: 'Content-Security-Policy'
+        value: "default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none';"
+      - key: 'X-Content-Type-Options'
+        value: 'nosniff'
+      - key: 'X-Frame-Options'
+        value: 'DENY'
+      - key: 'Referrer-Policy'
+        value: 'strict-origin-when-cross-origin'
+      - key: 'Permissions-Policy'
+        value: 'geolocation=(), microphone=(), camera=()'
+      # Strict-Transport-Security (with preload) is deliberately not set
+      # yet — see SECURITY.md. It's a hard-to-reverse commitment best
+      # made once the real secarsenal.org domain is live, not on the
+      # interim *.amplifyapp.com hostname.

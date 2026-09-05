@@ -20,6 +20,26 @@ function loadPagefind() {
   return pagefindPromise;
 }
 
+// Escapes text for safe insertion into innerHTML. Pagefind's search
+// results come from this site's own indexed content, but that content
+// ultimately originates from external sources synced from 8 upstream
+// projects (Kali, BlackArch, GitHub READMEs, etc.) — Astro escapes it
+// once at build time, but Pagefind's excerpt generation works from the
+// page's rendered *text* (post-unescaping), so a tool/OS name
+// containing HTML-special characters would otherwise reach innerHTML
+// here unescaped a second time. Always escape untrusted text before
+// building HTML strings by hand instead of using real DOM APIs.
+function escapeHtml(str) {
+  return str.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c]);
+}
+
+// Same as escapeHtml, but re-allows Pagefind's own <mark>/</mark> match
+// highlighting (the only markup Pagefind itself ever adds to an
+// excerpt) after escaping everything else.
+function escapeExcerpt(str) {
+  return escapeHtml(str).replace(/&lt;(\/?)mark&gt;/g, '<$1mark>');
+}
+
 function initHomeSearch() {
   const input = document.getElementById('site-search');
   const results = document.getElementById('search-results');
@@ -46,9 +66,11 @@ function initHomeSearch() {
       .map((item) => {
         const type = item.filters?.type?.[0];
         const badge = type
-          ? `<span class="mb-1 inline-block rounded-full bg-gray-800 px-2 py-0.5 text-[10px] uppercase tracking-wide text-gray-400">${type}</span>`
+          ? `<span class="mb-1 inline-block rounded-full bg-gray-800 px-2 py-0.5 text-[10px] uppercase tracking-wide text-gray-400">${escapeHtml(type)}</span>`
           : '';
-        return `<a class="${CARD_CLASS}" href="${item.url}">${badge}<h3 class="mb-1 font-semibold text-white">${item.meta?.title ?? item.url}</h3><p class="text-sm text-gray-400">${item.excerpt}</p></a>`;
+        const title = escapeHtml(item.meta?.title ?? item.url);
+        const href = escapeHtml(item.url);
+        return `<a class="${CARD_CLASS}" href="${href}">${badge}<h3 class="mb-1 font-semibold text-white">${title}</h3><p class="text-sm text-gray-400">${escapeExcerpt(item.excerpt)}</p></a>`;
       })
       .join('');
   });
