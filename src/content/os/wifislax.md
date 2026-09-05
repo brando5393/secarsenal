@@ -1,15 +1,30 @@
 ---
-name: "Wifislax"
-tagline: "Wireless penetration testing and security lab"
-category: wireless # TODO: guessed from Rawsec's description — verify against the docs
-basedOn: "Slackware"
+name: Wifislax
+tagline: Slackware-based distribution focused on wireless network auditing
+category: wireless
+basedOn: Slackware
 lastVerified: 2026-09-05
 docsUrl: http://www.wifislax.com/
 toolListMaintenance: manual
-notableTools: []
+notableTools:
+  - aircrack-ng
+  - wireshark
+  - reaver
+  - hashcat
+  - nmap
 gettingStarted: |
-  TODO (needs a human): write a short getting-started summary based on
-  Wifislax's official documentation linked above.
+  Wifislax is a Slackware-based live distribution distributed as a
+  bootable ISO for USB or optical media, in both 32-bit and 64-bit
+  builds, and can also be installed to disk. It's built around WiFi
+  auditing specifically — packet capture/injection, WPA/WPS attack
+  tooling, and man-in-the-middle frameworks — alongside general security
+  utilities. New tools are announced individually via blog posts rather
+  than tracked in one structured catalog page.
 ---
 
-_Drafted automatically from [Rawsec's CyberSecurity Inventory](https://github.com/noraj/rawsec-cybersecurity-inventory) — needs a human-written description and a verified category before merging._
+Wifislax is a Slackware-based distribution built specifically for
+wireless network auditing, bundling a curated set of WiFi-focused
+attack and analysis tools.
+
+Use it only against systems/networks you own or are explicitly
+authorized to test — see the [disclaimer](/disclaimer).

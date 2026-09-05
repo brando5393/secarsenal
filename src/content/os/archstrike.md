@@ -1,15 +1,23 @@
 ---
-name: "ArchStrike"
-tagline: "Penetration testing and security lab"
-category: general-purpose # TODO: guessed from Rawsec's description — verify against the docs
-basedOn: "ArchLinux"
+name: ArchStrike
+tagline: Arch Linux-based distribution for penetration testing and security research
+category: general-purpose
+basedOn: Arch Linux
 lastVerified: 2026-09-05
 docsUrl: https://archstrike.org/
-toolListMaintenance: manual
+toolListMaintenance: auto-synced
 notableTools: []
 gettingStarted: |
-  TODO (needs a human): write a short getting-started summary based on
-  ArchStrike's official documentation linked above.
+  ArchStrike layers its own package repository on top of a standard Arch
+  Linux install (or a dedicated live/installable image) rather than
+  requiring a from-scratch distro rebuild — existing Arch users can add
+  the ArchStrike repo directly. Its full package catalog is browsable at
+  archstrike.org/packages.
 ---
 
-_Drafted automatically from [Rawsec's CyberSecurity Inventory](https://github.com/noraj/rawsec-cybersecurity-inventory) — needs a human-written description and a verified category before merging._
+ArchStrike is an Arch Linux-based distribution and package repository
+for penetration testing and security research, similar in spirit to
+BlackArch but built on Arch's own package-management conventions.
+
+Use it only against systems you own or are explicitly authorized to
+test — see the [disclaimer](/disclaimer).

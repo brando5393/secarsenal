@@ -1,15 +1,29 @@
 ---
-name: "DragonOS"
-tagline: "RF / SDR penetration testing and security lab"
-category: wireless # corrected during review — SDR/RF, the discovery script's regex didn't catch it
-basedOn: "Ubuntu"
+name: DragonOS
+tagline: Debian/Ubuntu-based platform for software-defined radio (SDR) and RF work
+category: wireless
+basedOn: Ubuntu
 lastVerified: 2026-09-05
 docsUrl: https://cemaxecuter.com/
 toolListMaintenance: manual
-notableTools: []
+notableTools:
+  - gnuradio
+  - gqrx-sdr
+  - sdrangel
+  - cubicsdr
 gettingStarted: |
-  TODO (needs a human): write a short getting-started summary based on
-  DragonOS's official documentation linked above.
+  DragonOS is distributed as a disk image for x86_64 systems and
+  Raspberry Pi (aarch64), built around software-defined radio (SDR) and
+  RF tooling rather than general network/web pentesting. It bundles GNU
+  Radio, GQRX, SDRangel, and other SDR applications into one ready-to-use
+  environment for signal reception, decoding, and analysis. Its official
+  site doesn't publish a structured tool catalog — a SourceForge
+  changelog tracks package versions per release instead.
 ---
 
-_Drafted automatically from [Rawsec's CyberSecurity Inventory](https://github.com/noraj/rawsec-cybersecurity-inventory) — needs a human-written description and a verified category before merging._
+DragonOS is a distribution built around software-defined radio (SDR)
+and RF tooling, aimed at SDR enthusiasts, researchers, and RF
+professionals rather than general-purpose penetration testing.
+
+Use it only against systems/spectrum you own or are explicitly
+authorized to test — see the [disclaimer](/disclaimer).

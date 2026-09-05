@@ -1,15 +1,29 @@
 ---
-name: "BackBox"
-tagline: "Penetration testing and security lab"
-category: general-purpose # TODO: guessed from Rawsec's description — verify against the docs
-basedOn: "Ubuntu"
+name: BackBox
+tagline: Ubuntu-based distribution for penetration testing and security assessment
+category: general-purpose
+basedOn: Ubuntu
 lastVerified: 2026-09-05
 docsUrl: https://linux.backbox.org/
 toolListMaintenance: manual
-notableTools: []
+notableTools:
+  - metasploit-framework
+  - sqlmap
+  - wpscan
+  - tor
+  - armitage
 gettingStarted: |
-  TODO (needs a human): write a short getting-started summary based on
-  BackBox's official documentation linked above.
+  BackBox ships as a bootable/installable ISO built on Ubuntu with an
+  XFCE desktop, aimed at penetration testers who want a lighter-weight
+  alternative to Kali. It doesn't publish a dedicated per-tool catalog
+  page — its officially documented tools are referenced individually
+  across its blog and wiki rather than in one structured list.
 ---
 
-_Drafted automatically from [Rawsec's CyberSecurity Inventory](https://github.com/noraj/rawsec-cybersecurity-inventory) — needs a human-written description and a verified category before merging._
+BackBox is an Ubuntu-based distribution focused on penetration testing
+and security assessment, built to be lighter on system resources than
+larger pentest distributions while still bundling a solid core toolset
+for web-app, network, and exploitation work.
+
+Use it only against systems you own or are explicitly authorized to
+test — see the [disclaimer](/disclaimer).

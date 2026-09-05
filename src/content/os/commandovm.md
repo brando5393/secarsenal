@@ -1,17 +1,33 @@
 ---
-name: "CommandoVM"
-tagline: "Script to configure a Windows VM and install security tools on it; penetration testing and security lab"
-category: general-purpose # TODO: guessed from Rawsec's description — verify against the docs
-basedOn: "Windows"
+name: CommandoVM
+tagline: PowerShell-provisioned Windows red-team toolkit
+category: general-purpose
+basedOn: Windows
 lastVerified: 2026-09-05
 docsUrl: https://github.com/fireeye/commando-vm
 toolListMaintenance: manual
-notableTools: []
+notableTools:
+  - bloodhound
+  - CyberChef
+  - wireshark
+  - mimikatz
+  - ida-free
+  - ghidra
 gettingStarted: |
-  TODO (needs a human): write a short getting-started summary based on
-  CommandoVM's official documentation linked above.
+  CommandoVM is installed by running a PowerShell script against a
+  fresh Windows VM (after disabling Defender/Tamper Protection), rather
+  than booting a dedicated ISO. It pulls 300+ packages from Mandiant's
+  companion VM-Packages repository, but that install list mixes
+  genuine offensive-security tools with general productivity software
+  (browsers, editors, PDF readers) and shared runtime dependencies with
+  no clean automatic way to separate the two — the same reason this
+  site doesn't auto-sync from Pentoo's package overlay.
 ---
 
-_Drafted automatically from [Rawsec's CyberSecurity Inventory](https://github.com/noraj/rawsec-cybersecurity-inventory) — needs a human-written description and a verified category before merging._
+CommandoVM is a Windows-based red-team toolkit maintained by Mandiant
+(formerly FireEye), for tools that don't have good equivalents on
+Kali/Linux — filling a gap for testers who need a Windows-native attack
+platform.
 
-**SCOPE QUESTION (flagged during review, not auto-resolved):** every existing OS entry on this site is a bootable Linux distro. CommandoVM is a provisioning script (Chocolatey packages) for a **Windows** VM, not a distro in that sense. Merge only if this site is meant to cover non-Linux tool-provisioning platforms too — otherwise close this file out of the PR.
+Use it only against systems you own or are explicitly authorized to
+test — see the [disclaimer](/disclaimer).

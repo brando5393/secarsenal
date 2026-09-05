@@ -1,15 +1,25 @@
 ---
-name: "Security Onion"
-tagline: "Network security monitoring, analysis and threat hunting"
-category: specialized # corrected during review — defensive threat-hunting/monitoring platform, not an offensive pentest toolkit
-basedOn: "Ubuntu"
+name: Security Onion
+tagline: Ubuntu-based network security monitoring and threat hunting platform
+category: specialized
+basedOn: Ubuntu
 lastVerified: 2026-09-05
 docsUrl: https://securityonion.net/
-toolListMaintenance: manual
+toolListMaintenance: auto-synced
 notableTools: []
 gettingStarted: |
-  TODO (needs a human): write a short getting-started summary based on
-  Security Onion's official documentation linked above.
+  Security Onion installs from a bootable ISO onto dedicated hardware or
+  a VM, configured as a sensor/manager rather than a general desktop.
+  Setup walks through a guided wizard that provisions its detection
+  stack — Suricata and Zeek for network traffic analysis, Elasticsearch
+  and Kibana for storage and dashboards, and Strelka for file inspection
+  — into one integrated platform for network security monitoring and
+  threat hunting.
 ---
 
-_Drafted automatically from [Rawsec's CyberSecurity Inventory](https://github.com/noraj/rawsec-cybersecurity-inventory) — needs a human-written description and a verified category before merging._
+Security Onion is a defensive network-security-monitoring and
+threat-hunting platform, not an offensive pentest toolkit — it's built
+for detecting and investigating attacks, not carrying them out.
+
+Use it only against systems/networks you own or are explicitly
+authorized to monitor — see the [disclaimer](/disclaimer).

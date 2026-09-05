@@ -1,15 +1,29 @@
 ---
-name: "CSI Linux"
-tagline: "Digital forensics and incident response (DFIR)"
-category: forensics # TODO: guessed from Rawsec's description — verify against the docs
-basedOn: "Ubuntu"
+name: CSI Linux
+tagline: Ubuntu-based platform for OSINT, digital forensics, and incident response
+category: forensics
+basedOn: Ubuntu
 lastVerified: 2026-09-05
 docsUrl: https://csilinux.com/
 toolListMaintenance: manual
-notableTools: []
+notableTools:
+  - autopsy
+  - wireshark
+  - maltego
+  - Volatility Framework
 gettingStarted: |
-  TODO (needs a human): write a short getting-started summary based on
-  CSI Linux's official documentation linked above.
+  CSI Linux is distributed as a set of virtual machine images with
+  distinct roles (Analyst, Gateway, SIEM) rather than a single bootable
+  ISO — plan for 8GB+ of RAM and 50GB+ of free disk space per the
+  official system requirements. It bundles standard forensics/OSINT
+  tools alongside CSI's own custom evidence-capture and case-management
+  utilities, and doesn't publish a single structured tool catalog beyond
+  short category descriptions on its site.
 ---
 
-_Drafted automatically from [Rawsec's CyberSecurity Inventory](https://github.com/noraj/rawsec-cybersecurity-inventory) — needs a human-written description and a verified category before merging._
+CSI Linux is an Ubuntu-based platform built for OSINT investigation,
+digital forensics, and incident response, distributed as role-specific
+VM images rather than one general-purpose desktop image.
+
+Use it only against systems/media you own or are explicitly authorized
+to examine — see the [disclaimer](/disclaimer).

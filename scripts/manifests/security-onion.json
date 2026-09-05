@@ -1,0 +1,12 @@
+[
+  "att-ck-navigator",
+  "elastalert-2",
+  "elastic-agent",
+  "elasticsearch",
+  "influxdb",
+  "kibana",
+  "logstash",
+  "redis",
+  "salt",
+  "strelka"
+]

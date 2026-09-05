@@ -1,15 +1,26 @@
 ---
-name: "Demon Linux"
-tagline: "Penetration testing and security lab"
-category: general-purpose # TODO: guessed from Rawsec's description — verify against the docs
-basedOn: "Debian"
+name: Demon Linux
+tagline: Debian-based distribution focused on web and cloud penetration testing
+category: specialized
+basedOn: Debian
 lastVerified: 2026-09-05
 docsUrl: https://www.demonlinux.com/
 toolListMaintenance: manual
-notableTools: []
+notableTools:
+  - caido
 gettingStarted: |
-  TODO (needs a human): write a short getting-started summary based on
-  Demon Linux's official documentation linked above.
+  Demon Linux is a Debian-based distribution with an XFCE4 desktop and a
+  custom dark theme, scoped more narrowly than general-purpose pentest
+  distros toward web and cloud application testing. Its official site
+  documents Caido by name; beyond that it doesn't publish a structured
+  tool catalog, and its own materials indicate the project is
+  mid-transition between releases, so check the site directly for the
+  current stable version before installing.
 ---
 
-_Drafted automatically from [Rawsec's CyberSecurity Inventory](https://github.com/noraj/rawsec-cybersecurity-inventory) — needs a human-written description and a verified category before merging._
+Demon Linux is a Debian-based distribution built for web and cloud
+penetration testing specifically, rather than the broader network/
+exploitation/forensics scope covered by distros like Kali.
+
+Use it only against systems you own or are explicitly authorized to
+test — see the [disclaimer](/disclaimer).

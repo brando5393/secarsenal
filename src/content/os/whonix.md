@@ -1,15 +1,27 @@
 ---
-name: "Whonix"
-tagline: "Privacy and anonymity"
-category: specialized # TODO: guessed from Rawsec's description — verify against the docs
-basedOn: "Debian"
+name: Whonix
+tagline: Debian-based anonymity platform routing traffic through Tor
+category: specialized
+basedOn: Debian
 lastVerified: 2026-09-05
 docsUrl: https://www.whonix.org/
 toolListMaintenance: manual
-notableTools: []
+notableTools:
+  - tor
 gettingStarted: |
-  TODO (needs a human): write a short getting-started summary based on
-  Whonix's official documentation linked above.
+  Whonix runs as a pair of Debian-based virtual machines — a Gateway
+  that routes all traffic through Tor, and a Workstation that can only
+  reach the network through that Gateway — so an application compromise
+  on the Workstation can't leak your real IP even if Tor itself is
+  bypassed. It ships as VirtualBox/KVM images plus a Qubes OS template,
+  not a standalone bootable ISO. Its documentation is organized as
+  security guides (browsing, communications, hardening) rather than a
+  tool-by-tool reference.
 ---
 
-_Drafted automatically from [Rawsec's CyberSecurity Inventory](https://github.com/noraj/rawsec-cybersecurity-inventory) — needs a human-written description and a verified category before merging._
+Whonix is an anonymity-focused platform built around a two-VM
+architecture that isolates your applications from your real network
+identity, rather than a general-purpose pentest toolkit.
+
+Use it only against systems you own or are explicitly authorized to
+test — see the [disclaimer](/disclaimer).

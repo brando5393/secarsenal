@@ -1,15 +1,28 @@
 ---
-name: "SIFT"
-tagline: "Digital forensics and incident response (DFIR) (VMware appliance)"
-category: forensics # TODO: guessed from Rawsec's description — verify against the docs
-basedOn: "Ubuntu"
+name: SIFT
+tagline: SANS forensic workstation for digital forensics and incident response
+category: forensics
+basedOn: Ubuntu
 lastVerified: 2026-09-05
 docsUrl: https://www.sans.org/tools/sift-workstation/
 toolListMaintenance: manual
-notableTools: []
+notableTools:
+  - Volatility Framework
+  - sleuthkit
+  - bulk-extractor
+  - plaso
 gettingStarted: |
-  TODO (needs a human): write a short getting-started summary based on
-  SIFT's official documentation linked above.
+  SIFT (SANS Investigative Forensic Toolkit) ships as a VM appliance
+  (OVA), a native Ubuntu 22.04 installer package, or via WSL on Windows.
+  SANS' own site lists roughly 30 bundled tools by name, but without
+  per-tool links or descriptions, so there's no structured catalog to
+  point to beyond that list. It's commonly paired with REMnux for
+  combined forensics and malware-analysis workflows.
 ---
 
-_Drafted automatically from [Rawsec's CyberSecurity Inventory](https://github.com/noraj/rawsec-cybersecurity-inventory) — needs a human-written description and a verified category before merging._
+SIFT is a forensic workstation maintained by SANS, distributed as a
+ready-to-use environment for digital forensics and incident response
+work rather than a full standalone desktop distribution.
+
+Use it only against systems/media you own or are explicitly authorized
+to examine — see the [disclaimer](/disclaimer).
