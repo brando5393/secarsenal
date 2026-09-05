@@ -1,7 +1,7 @@
 ---
 name: "Security Onion"
 tagline: "Network security monitoring, analysis and threat hunting"
-category: general-purpose # TODO: guessed from Rawsec's description — verify against the docs
+category: specialized # corrected during review — defensive threat-hunting/monitoring platform, not an offensive pentest toolkit
 basedOn: "Ubuntu"
 lastVerified: 2026-09-05
 docsUrl: https://securityonion.net/

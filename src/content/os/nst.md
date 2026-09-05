@@ -1,7 +1,7 @@
 ---
 name: "NST"
 tagline: "Network security monitoring and analysis"
-category: general-purpose # TODO: guessed from Rawsec's description — verify against the docs
+category: specialized # corrected during review — narrow network-monitoring focus, not a broad pentest toolkit like Kali
 basedOn: "Fedora"
 lastVerified: 2026-09-05
 docsUrl: https://sourceforge.net/projects/nst/

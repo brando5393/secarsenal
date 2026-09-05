@@ -1,7 +1,7 @@
 ---
 name: "Qubes OS"
 tagline: "Security by compartmentalization (VM)"
-category: general-purpose # TODO: guessed from Rawsec's description — verify against the docs
+category: specialized # corrected during review — VM-compartmentalization security OS, not a pentest toolkit
 basedOn: "Fedora"
 lastVerified: 2026-09-05
 docsUrl: https://www.qubes-os.org/

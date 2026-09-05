@@ -1,7 +1,7 @@
 ---
 name: "DragonOS"
 tagline: "RF / SDR penetration testing and security lab"
-category: general-purpose # TODO: guessed from Rawsec's description — verify against the docs
+category: wireless # corrected during review — SDR/RF, the discovery script's regex didn't catch it
 basedOn: "Ubuntu"
 lastVerified: 2026-09-05
 docsUrl: https://cemaxecuter.com/

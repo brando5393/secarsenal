@@ -13,3 +13,5 @@ gettingStarted: |
 ---
 
 _Drafted automatically from [Rawsec's CyberSecurity Inventory](https://github.com/noraj/rawsec-cybersecurity-inventory) — needs a human-written description and a verified category before merging._
+
+**SCOPE QUESTION (flagged during review, not auto-resolved):** every existing OS entry on this site is a bootable Linux distro. CommandoVM is a provisioning script (Chocolatey packages) for a **Windows** VM, not a distro in that sense. Merge only if this site is meant to cover non-Linux tool-provisioning platforms too — otherwise close this file out of the PR.

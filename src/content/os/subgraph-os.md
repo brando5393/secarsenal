@@ -13,3 +13,5 @@ gettingStarted: |
 ---
 
 _Drafted automatically from [Rawsec's CyberSecurity Inventory](https://github.com/noraj/rawsec-cybersecurity-inventory) — needs a human-written description and a verified category before merging._
+
+**FLAGGED DURING REVIEW:** development on this project has reportedly been slow/dormant in recent years — verify current activity before trusting Rawsec's "maintained" classification and setting `lastVerified`.

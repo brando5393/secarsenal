@@ -13,3 +13,5 @@ gettingStarted: |
 ---
 
 _Drafted automatically from [Rawsec's CyberSecurity Inventory](https://github.com/noraj/rawsec-cybersecurity-inventory) — needs a human-written description and a verified category before merging._
+
+**FLAGGED DURING REVIEW:** ANSSI (its maintainer) has previously paused active development on this project — verify current activity before trusting Rawsec's "maintained" classification and setting `lastVerified`.
