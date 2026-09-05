@@ -4,13 +4,27 @@ import '../styles/global.css';
 interface Props {
   title: string;
   description?: string;
+  structuredData?: Record<string, unknown>;
 }
 
-const { title, description = 'A reference catalog of pentesting operating systems and tools for infosec professionals.' } = Astro.props;
+const {
+  title,
+  description = 'A reference catalog of pentesting operating systems and tools for infosec professionals.',
+  structuredData,
+} = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 const ogImageURL = new URL('/og-image.png', Astro.site);
 const pageTitle = `${title} · SecArsenal`;
+
+// `<script>` is an HTML "raw text" element — the parser never decodes
+// entities inside it, so Astro's normal `{expr}` text-escaping would
+// leave literal "&lt;" in the output and break JSON.parse. set:html is
+// required to emit the JSON literally, which means *we* must guard
+// against a "</script>" (or any "<") in the data breaking out of the
+// tag early — escaping every `<` to its unicode form is the standard
+// safe technique and is valid inside any JSON string.
+const structuredDataJson = structuredData ? JSON.stringify(structuredData).replace(/</g, '\\u003c') : undefined;
 ---
 
 <!doctype html>
@@ -35,6 +49,7 @@ const pageTitle = `${title} · SecArsenal`;
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <link rel="alternate" type="application/rss+xml" title="SecArsenal — Operating Systems" href="/rss.xml" />
     <title>{pageTitle}</title>
+    {structuredDataJson && <script type="application/ld+json" set:html={structuredDataJson} />}
 
     <!-- Open Graph / Twitter Card — how the link looks when shared on
          Discord, Slack, X, etc. -->

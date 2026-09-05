@@ -29,9 +29,20 @@ const TEAM_BADGE_CLASSES: Record<string, string> = {
   red: 'bg-red-950/60 text-red-400',
   blue: 'bg-blue-950/60 text-blue-400',
 };
+
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: data.name,
+  description: data.tagline,
+  applicationCategory: 'SecurityApplication',
+  operatingSystem: data.platforms.join(', '),
+  ...(data.license && { license: data.license }),
+  url: new URL(`/tools/${entry.id}/`, Astro.site).toString(),
+};
 ---
 
-<BaseLayout title={data.name} description={data.tagline}>
+<BaseLayout title={data.name} description={data.tagline} structuredData={structuredData}>
   <!-- Read by public/scripts/site.js to record a category visit for
        the homepage's "top categories" personalization (localStorage-only,
        per-visitor, never sent anywhere). -->

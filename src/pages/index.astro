@@ -37,11 +37,19 @@ const featuredTools = FEATURED_SLUGS.map((slug) => toolEntries.find((e) => e.id 
   (e) => e !== undefined
 );
 
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'WebSite',
+  name: 'SecArsenal',
+  description: 'A searchable reference for penetration-testing operating systems and tools: what they are, what they’re for, and where to get the real thing from the official source.',
+  url: Astro.site?.toString(),
+};
+
 const CARD_CLASS =
   'card block rounded-lg border border-gray-800 bg-gray-900 p-5 no-underline transition-colors hover:border-emerald-500';
 ---
 
-<BaseLayout title="Home">
+<BaseLayout title="Home" structuredData={structuredData}>
   <h1 class="text-3xl font-bold text-white">SecArsenal</h1>
   <p class="mt-3 text-gray-300">
     A searchable reference for penetration-testing operating systems and

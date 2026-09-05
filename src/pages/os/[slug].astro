@@ -30,9 +30,19 @@ const TEAM_BADGE_CLASSES: Record<string, string> = {
   blue: 'bg-blue-950/60 text-blue-400',
   purple: 'bg-purple-950/60 text-purple-400',
 };
+
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'SoftwareApplication',
+  name: data.name,
+  description: data.tagline,
+  applicationCategory: 'SecurityApplication',
+  operatingSystem: data.basedOn,
+  url: new URL(`/os/${entry.id}/`, Astro.site).toString(),
+};
 ---
 
-<BaseLayout title={data.name} description={data.tagline}>
+<BaseLayout title={data.name} description={data.tagline} structuredData={structuredData}>
   <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Operating Systems', href: '/os' }, { label: data.name }]} />
   <div class="flex items-center gap-4">
     <OsIcon slug={entry.id} category={data.category} size="lg" />
