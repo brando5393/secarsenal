@@ -43,6 +43,11 @@ const structuredData = {
   name: 'SecArsenal',
   description: 'A searchable reference for penetration-testing operating systems and tools: what they are, what they’re for, and where to get the real thing from the official source.',
   url: Astro.site?.toString(),
+  potentialAction: {
+    '@type': 'SearchAction',
+    target: `${new URL('/', Astro.site)}?q={search_term_string}`,
+    'query-input': 'required name=search_term_string',
+  },
 };
 
 const CARD_CLASS =

@@ -50,14 +50,13 @@ function initHomeSearch() {
 
   input.addEventListener('focus', () => loadPagefind());
 
-  input.addEventListener('input', async () => {
-    const query = input.value.trim();
+  async function runSearch(query) {
     results.innerHTML = '';
     if (!query) return;
     const pagefind = await loadPagefind();
     if (!pagefind) {
       results.innerHTML =
-        '<p class="text-sm text-gray-500 col-span-full">Search index only available in a production build (npm run build).</p>';
+        '<p class="text-sm text-gray-400 col-span-full">Search index only available in a production build (npm run build).</p>';
       return;
     }
     const search = await pagefind.search(query);
@@ -73,6 +72,25 @@ function initHomeSearch() {
         return `<a class="${CARD_CLASS}" href="${href}">${badge}<h3 class="mb-1 font-semibold text-white">${title}</h3><p class="text-sm text-gray-400">${escapeExcerpt(item.excerpt)}</p></a>`;
       })
       .join('');
+  }
+
+  // Deep-linkable search: a shared /?q=nmap URL pre-fills and runs the
+  // search on load, and typing updates the URL (via replaceState, no
+  // new history entries or reloads) so the current search stays
+  // shareable/bookmarkable without ever hitting a server.
+  const initialQuery = new URLSearchParams(location.search).get('q');
+  if (initialQuery) {
+    input.value = initialQuery;
+    loadPagefind().then(() => runSearch(initialQuery));
+  }
+
+  input.addEventListener('input', () => {
+    const query = input.value.trim();
+    const url = new URL(location.href);
+    if (query) url.searchParams.set('q', query);
+    else url.searchParams.delete('q');
+    history.replaceState(null, '', url);
+    runSearch(query);
   });
 }
 
