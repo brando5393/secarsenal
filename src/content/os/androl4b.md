@@ -2,6 +2,7 @@
 name: AndroL4b
 tagline: Ubuntu MATE-based VM for Android app assessment, reverse engineering, and malware analysis
 category: specialized
+team: red
 basedOn: Ubuntu MATE
 lastVerified: 2026-09-05
 docsUrl: https://github.com/sh4hin/Androl4b

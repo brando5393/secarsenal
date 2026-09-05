@@ -2,6 +2,7 @@
 name: Mobexler
 tagline: Linux Lite-based VM for combined Android and iOS application penetration testing
 category: specialized
+team: red
 basedOn: Linux Lite
 lastVerified: 2026-09-05
 docsUrl: https://www.mobexler.com/

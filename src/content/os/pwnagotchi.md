@@ -2,6 +2,7 @@
 name: Pwnagotchi
 tagline: Raspberry Pi companion that automates WPA/WPA2 handshake capture via bettercap
 category: wireless
+team: red
 basedOn: Raspberry Pi OS
 lastVerified: 2026-09-05
 docsUrl: https://github.com/jayofelony/pwnagotchi/wiki

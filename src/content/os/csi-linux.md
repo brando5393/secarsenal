@@ -2,6 +2,7 @@
 name: CSI Linux
 tagline: Ubuntu-based platform for OSINT, digital forensics, and incident response
 category: forensics
+team: blue
 basedOn: Ubuntu
 lastVerified: 2026-09-05
 docsUrl: https://csilinux.com/

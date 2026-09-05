@@ -2,6 +2,7 @@
 name: HackerOS (Cybersecurity Edition)
 tagline: Polish Debian-based distro with a dedicated red-team-focused Cybersecurity Edition
 category: specialized
+team: red
 basedOn: Debian
 lastVerified: 2026-09-05
 docsUrl: https://hackeros-linux-system.github.io/HackerOS-Website/hackeros-documentation.html

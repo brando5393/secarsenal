@@ -2,6 +2,7 @@
 name: FACT
 tagline: Fraunhofer FKIE's firmware analysis and comparison platform for routers, IoT, and UEFI images
 category: specialized
+team: blue
 basedOn: Docker Compose (any Linux host)
 lastVerified: 2026-09-05
 docsUrl: https://fkie-cad.github.io/FACT_core/

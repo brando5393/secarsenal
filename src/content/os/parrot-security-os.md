@@ -2,6 +2,7 @@
 name: Parrot Security OS
 tagline: Debian-based distribution for pentesting, digital forensics, and privacy
 category: general-purpose
+team: red
 basedOn: Debian
 lastVerified: 2026-09-04
 docsUrl: https://parrotsec.org/docs/

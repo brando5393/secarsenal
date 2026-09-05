@@ -2,6 +2,7 @@
 name: NetHydra
 tagline: Debian-based pentest distro running a real-time (PREEMPT_RT) kernel by default
 category: general-purpose
+team: red
 basedOn: Debian
 lastVerified: 2026-09-05
 docsUrl: https://github.com/NetHydra/NetHydra

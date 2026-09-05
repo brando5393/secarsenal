@@ -2,6 +2,7 @@
 name: Berserk Arch
 tagline: Rolling-release Arch-based distro for security researchers and developers
 category: general-purpose
+team: red
 basedOn: Arch Linux
 lastVerified: 2026-09-05
 docsUrl: https://berserkarch.org/

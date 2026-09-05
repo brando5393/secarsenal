@@ -2,6 +2,7 @@
 name: SamuraiWTF
 tagline: OWASP-maintained web-app pentest training environment
 category: specialized
+team: red
 basedOn: Ubuntu
 lastVerified: 2026-09-05
 docsUrl: https://owasp.org/www-project-samuraiwtf/

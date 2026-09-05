@@ -2,6 +2,7 @@
 name: T-Pot
 tagline: All-in-one multi-honeypot platform with 20+ honeypots and Elastic Stack visualization
 category: specialized
+team: blue
 basedOn: Debian
 lastVerified: 2026-09-05
 docsUrl: https://github.com/telekom-security/tpotce

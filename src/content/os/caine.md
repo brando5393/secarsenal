@@ -2,6 +2,7 @@
 name: CAINE
 tagline: Ubuntu-based digital forensics live distribution
 category: forensics
+team: blue
 basedOn: Ubuntu
 lastVerified: 2026-09-04
 docsUrl: https://www.caine-live.net/page5/page5.html

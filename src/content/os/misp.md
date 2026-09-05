@@ -2,6 +2,7 @@
 name: MISP
 tagline: Open-source threat intelligence and sharing platform, with an official test VM
 category: specialized
+team: blue
 basedOn: Ubuntu
 lastVerified: 2026-09-05
 docsUrl: https://www.misp-project.org/documentation/

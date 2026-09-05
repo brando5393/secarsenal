@@ -2,6 +2,7 @@
 name: DragonOS
 tagline: Debian/Ubuntu-based platform for software-defined radio (SDR) and RF work
 category: wireless
+team: red
 basedOn: Ubuntu
 lastVerified: 2026-09-05
 docsUrl: https://cemaxecuter.com/

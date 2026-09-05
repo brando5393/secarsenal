@@ -23,6 +23,18 @@ const os = defineCollection({
       'specialized',
     ]),
     basedOn: z.string(),
+    // Optional and hand-judged, not sourced from any upstream taxonomy
+    // (none of the 8 tool sources this site syncs from tag anything as
+    // "red/blue/purple team" — that's not a concept their own docs
+    // use). Left unset for entries that aren't a security-team tool at
+    // all (Tails, Whonix, Kodachi, Qubes, Open Secure-K OS — personal
+    // privacy/opsec tools; SystemRescue — general sysadmin rescue) so
+    // they correctly show under no team filter rather than a guessed
+    // one. Classified by the tool/technique's nature (e.g. OSINT recon
+    // is a red-team technique per MITRE ATT&CK even where a specific
+    // project's mission is investigative, like Trace Labs), not by
+    // author intent.
+    team: z.enum(['red', 'blue', 'purple']).optional(),
     gettingStarted: z.string(),
     notableTools: z.array(z.string()).default([]),
     // 'auto-synced' distros (Kali, BlackArch, REMnux, Tails) have a

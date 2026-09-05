@@ -81,14 +81,17 @@ async function matchingSlugs(query, cards, pagefindType) {
 
 function initOsIndex() {
   const filterBar = document.getElementById('filter-bar');
+  const teamFilterBar = document.getElementById('team-filter-bar');
   const searchInput = document.getElementById('os-name-filter');
   const resultCount = document.getElementById('os-result-count');
   if (!filterBar) return;
 
   const buttons = [...filterBar.querySelectorAll('button')];
+  const teamButtons = teamFilterBar ? [...teamFilterBar.querySelectorAll('button')] : [];
   const cards = [...document.querySelectorAll('#card-grid .card')];
 
   let activeCategory = 'all';
+  let activeTeam = 'all';
   let activeSlugs = null;
   let queryToken = 0;
 
@@ -97,7 +100,8 @@ function initOsIndex() {
     for (const card of cards) {
       const matchesQuery = activeSlugs === null || activeSlugs.has(urlPath(card.href));
       const matchesCategory = activeCategory === 'all' || card.dataset.category === activeCategory;
-      const show = matchesQuery && matchesCategory;
+      const matchesTeam = activeTeam === 'all' || card.dataset.team === activeTeam;
+      const show = matchesQuery && matchesCategory && matchesTeam;
       card.style.display = show ? '' : 'none';
       if (show) visible++;
     }
@@ -109,6 +113,15 @@ function initOsIndex() {
       buttons.forEach((b) => b.setAttribute('aria-pressed', 'false'));
       btn.setAttribute('aria-pressed', 'true');
       activeCategory = btn.dataset.category;
+      applyFilters();
+    });
+  });
+
+  teamButtons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      teamButtons.forEach((b) => b.setAttribute('aria-pressed', 'false'));
+      btn.setAttribute('aria-pressed', 'true');
+      activeTeam = btn.dataset.team;
       applyFilters();
     });
   });

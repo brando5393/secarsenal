@@ -2,6 +2,7 @@
 name: ArchStrike
 tagline: Arch Linux-based distribution for penetration testing and security research
 category: general-purpose
+team: red
 basedOn: Arch Linux
 lastVerified: 2026-09-05
 docsUrl: https://archstrike.org/

@@ -2,6 +2,7 @@
 name: Kali Purple
 tagline: Kali Linux's defensive/purple-team security operations platform
 category: specialized
+team: purple
 basedOn: Kali Linux
 lastVerified: 2026-09-05
 docsUrl: https://www.kali.org/get-kali/

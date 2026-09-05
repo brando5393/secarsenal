@@ -2,6 +2,7 @@
 name: DShield Sensor
 tagline: SANS Internet Storm Center's honeypot sensor for contributing threat data, with an ELK dashboard
 category: specialized
+team: blue
 basedOn: Raspberry Pi OS or Ubuntu
 lastVerified: 2026-09-05
 docsUrl: https://isc.sans.edu/honeypot.html

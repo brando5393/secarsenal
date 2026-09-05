@@ -2,6 +2,7 @@
 name: CommandoVM
 tagline: PowerShell-provisioned Windows red-team toolkit
 category: general-purpose
+team: red
 basedOn: Windows
 lastVerified: 2026-09-05
 docsUrl: https://github.com/fireeye/commando-vm

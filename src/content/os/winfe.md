@@ -2,6 +2,7 @@
 name: WinFE
 tagline: Windows Forensic Environment — a forensically sound Windows PE boot environment
 category: forensics
+team: blue
 basedOn: Windows PE
 lastVerified: 2026-09-05
 docsUrl: https://winfe.wordpress.com/

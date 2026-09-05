@@ -2,6 +2,7 @@
 name: NST
 tagline: Fedora-based network security monitoring and analysis toolkit
 category: specialized
+team: blue
 basedOn: Fedora
 lastVerified: 2026-09-05
 docsUrl: https://sourceforge.net/projects/nst/

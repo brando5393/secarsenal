@@ -2,6 +2,7 @@
 name: BlackArch
 tagline: Arch Linux-based distribution with one of the largest pentest tool repositories
 category: specialized
+team: red
 basedOn: Arch Linux
 toolListMaintenance: auto-synced
 lastVerified: 2026-09-04

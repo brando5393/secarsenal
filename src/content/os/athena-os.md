@@ -2,6 +2,7 @@
 name: Athena OS
 tagline: Arch/NixOS-based distribution built on BlackArch's package repositories
 category: general-purpose
+team: red
 basedOn: Arch Linux / NixOS
 lastVerified: 2026-09-05
 docsUrl: https://athenaos.org/

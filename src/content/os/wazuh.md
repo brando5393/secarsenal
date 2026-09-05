@@ -2,6 +2,7 @@
 name: Wazuh
 tagline: Open-source SIEM/XDR platform distributed as an official VM appliance
 category: specialized
+team: blue
 basedOn: Amazon Linux 2023
 lastVerified: 2026-09-05
 docsUrl: https://documentation.wazuh.com/current/deployment-options/virtual-machine/virtual-machine.html

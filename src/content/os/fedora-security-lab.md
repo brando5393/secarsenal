@@ -2,6 +2,7 @@
 name: Fedora Security Lab
 tagline: Fedora spin for security auditing, forensics, and teaching security testing
 category: general-purpose
+team: red
 basedOn: Fedora
 lastVerified: 2026-09-05
 docsUrl: https://labs.fedoraproject.org/security/

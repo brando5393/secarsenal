@@ -2,6 +2,7 @@
 name: Cuckoo3
 tagline: CERT-EE's Python 3 rewrite of Cuckoo Sandbox for automated malware analysis
 category: specialized
+team: blue
 basedOn: Ubuntu
 lastVerified: 2026-09-05
 docsUrl: https://cuckoo-hatch.cert.ee/static/docs/

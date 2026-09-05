@@ -2,6 +2,7 @@
 name: Kali NetHunter
 tagline: Kali Linux's penetration testing platform for Android devices
 category: general-purpose
+team: red
 basedOn: Android
 lastVerified: 2026-09-05
 docsUrl: https://www.kali.org/get-kali/#kali-mobile

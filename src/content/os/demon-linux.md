@@ -2,6 +2,7 @@
 name: Demon Linux
 tagline: Debian-based distribution focused on web and cloud penetration testing
 category: specialized
+team: red
 basedOn: Debian
 lastVerified: 2026-09-05
 docsUrl: https://www.demonlinux.com/

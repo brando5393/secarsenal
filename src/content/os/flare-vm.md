@@ -2,6 +2,7 @@
 name: FLARE VM
 tagline: Windows-based reverse-engineering and malware-analysis distribution
 category: specialized
+team: blue
 basedOn: Windows
 lastVerified: 2026-09-05
 docsUrl: https://github.com/mandiant/flare-vm

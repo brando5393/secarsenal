@@ -2,6 +2,7 @@
 name: Frieren
 tagline: Open-source WiFi Pineapple-style framework for routers and single-board computers
 category: wireless
+team: red
 basedOn: OpenWrt
 lastVerified: 2026-09-05
 docsUrl: https://github.com/xchwarze/frieren

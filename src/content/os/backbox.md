@@ -2,6 +2,7 @@
 name: BackBox
 tagline: Ubuntu-based distribution for penetration testing and security assessment
 category: general-purpose
+team: red
 basedOn: Ubuntu
 lastVerified: 2026-09-05
 docsUrl: https://linux.backbox.org/

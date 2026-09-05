@@ -2,6 +2,7 @@
 name: Exegol
 tagline: Community-driven Docker hacking environment with 100+ pre-installed offensive tools
 category: general-purpose
+team: red
 basedOn: Debian
 lastVerified: 2026-09-05
 docsUrl: https://docs.exegol.com/

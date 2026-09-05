@@ -2,6 +2,7 @@
 name: PALADIN
 tagline: SUMURI's forensic disk-imaging and write-blocking live distribution
 category: forensics
+team: blue
 basedOn: Ubuntu
 lastVerified: 2026-09-05
 docsUrl: https://sumuri.com/software/paladin/

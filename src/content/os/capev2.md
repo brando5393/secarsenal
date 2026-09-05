@@ -2,6 +2,7 @@
 name: CAPEv2
 tagline: Automated malware sandbox for dynamic analysis and config/payload extraction
 category: specialized
+team: blue
 basedOn: Ubuntu
 lastVerified: 2026-09-05
 docsUrl: https://capev2.readthedocs.io/en/latest/introduction/what.html

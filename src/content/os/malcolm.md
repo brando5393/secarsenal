@@ -2,6 +2,7 @@
 name: Malcolm
 tagline: CISA/Idaho National Laboratory network traffic analysis tool suite
 category: specialized
+team: blue
 basedOn: Docker Compose (any Linux, macOS, or Windows host)
 lastVerified: 2026-09-05
 docsUrl: https://idaholab.github.io/Malcolm/docs/

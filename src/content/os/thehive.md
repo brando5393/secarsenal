@@ -2,6 +2,7 @@
 name: TheHive
 tagline: Incident-response case management platform with an official demo VM
 category: specialized
+team: blue
 basedOn: Debian
 lastVerified: 2026-09-05
 docsUrl: https://docs.strangebee.com/resources/howto-vm-demo/

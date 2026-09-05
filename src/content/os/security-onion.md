@@ -2,6 +2,7 @@
 name: Security Onion
 tagline: Ubuntu-based network security monitoring and threat hunting platform
 category: specialized
+team: blue
 basedOn: Ubuntu
 lastVerified: 2026-09-05
 docsUrl: https://securityonion.net/

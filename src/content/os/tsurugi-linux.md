@@ -2,6 +2,7 @@
 name: Tsurugi Linux
 tagline: Ubuntu-based distribution for digital forensics, OSINT, and malware analysis
 category: forensics
+team: blue
 basedOn: Ubuntu
 lastVerified: 2026-09-05
 docsUrl: https://tsurugi-linux.org/

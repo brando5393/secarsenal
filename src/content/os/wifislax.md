@@ -2,6 +2,7 @@
 name: Wifislax
 tagline: Slackware-based distribution focused on wireless network auditing
 category: wireless
+team: red
 basedOn: Slackware
 lastVerified: 2026-09-05
 docsUrl: http://www.wifislax.com/

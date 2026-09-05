@@ -2,6 +2,7 @@
 name: REMnux
 tagline: Ubuntu-based toolkit for reverse-engineering and analyzing malicious software
 category: specialized
+team: blue
 basedOn: Ubuntu
 toolListMaintenance: auto-synced
 lastVerified: 2026-09-04

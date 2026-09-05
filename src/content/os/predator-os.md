@@ -2,6 +2,7 @@
 name: Predator-OS
 tagline: Debian-based distro bundling around 1,200 tools across offense, defense, and privacy
 category: general-purpose
+team: red
 basedOn: Debian
 lastVerified: 2026-09-05
 docsUrl: https://github.com/hosseinseilani/predator-os

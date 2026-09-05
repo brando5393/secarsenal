@@ -2,6 +2,7 @@
 name: Trace Labs OSINT VM
 tagline: Debian-based virtual machine purpose-built for OSINT investigations
 category: specialized
+team: red
 basedOn: Debian
 lastVerified: 2026-09-05
 docsUrl: https://github.com/tracelabs/tlosint-vm

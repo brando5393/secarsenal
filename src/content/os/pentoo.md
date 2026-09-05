@@ -2,6 +2,7 @@
 name: Pentoo
 tagline: Gentoo-based live distribution for penetration testing
 category: general-purpose
+team: red
 basedOn: Gentoo
 lastVerified: 2026-09-04
 docsUrl: https://www.pentoo.ch/docs/
