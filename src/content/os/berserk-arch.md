@@ -7,7 +7,13 @@ lastVerified: 2026-09-05
 docsUrl: https://berserkarch.org/
 repoUrl: https://github.com/berserkarch
 toolListMaintenance: manual
-notableTools: []
+notableTools:
+  - metasploit-framework
+  - ffuf
+  - hashcat
+  - amass
+  - seclists
+  - theharvester
 gettingStarted: |
   Berserk Arch is a rolling-release Arch derivative distributed as a
   bootable ISO, similar in mechanics to BlackArch but positioned

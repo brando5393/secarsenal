@@ -33,9 +33,9 @@ const COLOR_GROUP_LABELS: Record<string, string> = {
         <CategoryIcon icon={bucket.icon} color={bucket.color} size="md" />
         <div class="min-w-0">
           <p class="font-semibold text-white">{bucket.label}</p>
-          <p class="text-xs uppercase tracking-wide text-gray-500">{COLOR_GROUP_LABELS[bucket.color] ?? bucket.color}</p>
+          <p class="text-xs uppercase tracking-wide text-gray-400">{COLOR_GROUP_LABELS[bucket.color] ?? bucket.color}</p>
           {keywords.length > 0 && (
-            <p class="mt-1 text-xs text-gray-500">Matches categories like: {keywords.slice(0, 4).join(', ')}{keywords.length > 4 ? ', …' : ''}</p>
+            <p class="mt-1 text-xs text-gray-400">Matches categories like: {keywords.slice(0, 4).join(', ')}{keywords.length > 4 ? ', …' : ''}</p>
           )}
         </div>
       </div>

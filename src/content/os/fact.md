@@ -7,7 +7,8 @@ lastVerified: 2026-09-05
 docsUrl: https://fkie-cad.github.io/FACT_core/
 repoUrl: https://github.com/fkie-cad/FACT_core
 toolListMaintenance: manual
-notableTools: []
+notableTools:
+  - binwalk
 gettingStarted: |
   FACT (Firmware Analysis and Comparison Tool) isn't a bootable
   distro — it's deployed via Docker Compose (pre-built images, or

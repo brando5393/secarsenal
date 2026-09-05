@@ -251,11 +251,35 @@ function initAckModal() {
   // specificity, so having both at once leaves the full-viewport backdrop
   // visually shown (and swallowing every click on the page under it) even
   // while `.hidden` reads `true` in the DOM.
+  const previouslyFocused = document.activeElement;
+  const focusable = [...modal.querySelectorAll('button, a[href]')];
+
+  // A `role="alertdialog"` is only modal to a screen reader if keyboard
+  // focus is actually confined to it — without this, a keyboard user
+  // tabs straight through the visually-blocked page underneath.
+  function trapFocus(e) {
+    if (e.key !== 'Tab' || focusable.length === 0) return;
+    const first = focusable[0];
+    const last = focusable[focusable.length - 1];
+    if (e.shiftKey && document.activeElement === first) {
+      e.preventDefault();
+      last.focus();
+    } else if (!e.shiftKey && document.activeElement === last) {
+      e.preventDefault();
+      first.focus();
+    }
+  }
+
   modal.hidden = false;
   modal.classList.add('flex');
+  modal.addEventListener('keydown', trapFocus);
+  button.focus();
+
   button.addEventListener('click', () => {
     modal.hidden = true;
     modal.classList.remove('flex');
+    modal.removeEventListener('keydown', trapFocus);
+    if (previouslyFocused instanceof HTMLElement) previouslyFocused.focus();
     try {
       localStorage.setItem(ACK_KEY, '1');
     } catch {

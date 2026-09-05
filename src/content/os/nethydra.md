@@ -7,7 +7,13 @@ lastVerified: 2026-09-05
 docsUrl: https://github.com/NetHydra/NetHydra
 downloadUrl: https://nethydra.github.io
 toolListMaintenance: manual
-notableTools: []
+notableTools:
+  - ghidra
+  - wireshark
+  - autopsy
+  - radare2
+  - Volatility Framework
+  - binwalk
 gettingStarted: |
   NetHydra (formerly HydraPWK) ships as a live/installable ISO with an
   Xfce desktop. Its defining feature is running a PREEMPT_RT real-time

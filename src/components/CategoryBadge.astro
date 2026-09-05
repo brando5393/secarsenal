@@ -13,7 +13,9 @@ const bucket = Array.isArray(category) ? getCategoryBucketForList(category) : ge
 const titleText = Array.isArray(category) ? category.join(', ') : category;
 ---
 
-<span class="inline-flex items-center gap-2" title={titleText}>
-  <CategoryIcon icon={bucket.icon} color={bucket.color} size={size} />
-  {showLabel && <span class="text-sm text-gray-300">{titleText}</span>}
+<span class="inline-flex items-center gap-2" role="img" aria-label={titleText} title={titleText}>
+  <span aria-hidden="true">
+    <CategoryIcon icon={bucket.icon} color={bucket.color} size={size} />
+  </span>
+  {showLabel && <span class="text-sm text-gray-300" aria-hidden="true">{titleText}</span>}
 </span>

@@ -7,7 +7,9 @@ lastVerified: 2026-09-05
 docsUrl: https://github.com/xchwarze/frieren
 downloadUrl: https://github.com/xchwarze/frieren-release
 toolListMaintenance: manual
-notableTools: []
+notableTools:
+  - nmap
+  - tcpdump
 gettingStarted: |
   Frieren is a lightweight micro-framework (PHP backend, React web
   panel) that runs on top of OpenWrt on routers and single-board

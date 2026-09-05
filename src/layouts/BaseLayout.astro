@@ -33,6 +33,7 @@ const pageTitle = `${title} · SecArsenal`;
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="alternate icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="alternate" type="application/rss+xml" title="SecArsenal — Operating Systems" href="/rss.xml" />
     <title>{pageTitle}</title>
 
     <!-- Open Graph / Twitter Card — how the link looks when shared on
@@ -51,6 +52,12 @@ const pageTitle = `${title} · SecArsenal`;
     <meta name="twitter:image" content={ogImageURL} />
   </head>
   <body class="bg-gray-950 text-gray-100 [background-image:radial-gradient(circle_at_1px_1px,theme(colors.gray.800)_1px,transparent_0)] [background-size:28px_28px]">
+    <a
+      href="#main-content"
+      class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-50 focus:rounded-md focus:bg-emerald-500 focus:px-4 focus:py-2 focus:text-sm focus:font-semibold focus:text-gray-950"
+    >
+      Skip to content
+    </a>
     <header class="binary-bg sticky top-0 z-10 flex items-center justify-between border-b border-emerald-500/10 bg-gray-950/80 px-6 py-4 backdrop-blur-md">
       <a class="flex items-center gap-2.5 no-underline" href="/">
         <img src="/logo.svg" alt="" width="28" height="28" class="drop-shadow-[0_0_6px_rgba(52,211,153,0.35)]" />
@@ -68,11 +75,11 @@ const pageTitle = `${title} · SecArsenal`;
       explicitly authorized to test. Full <a class="text-amber-200 underline hover:text-amber-100" href="/disclaimer">disclaimer</a>.
     </div>
 
-    <main class="mx-auto max-w-4xl px-6 py-8 pb-16" data-pagefind-body>
+    <main id="main-content" class="mx-auto max-w-4xl px-6 py-8 pb-16" data-pagefind-body>
       <slot />
     </main>
 
-    <footer class="binary-bg border-t border-gray-800 px-6 py-8 text-center text-xs text-gray-500">
+    <footer class="binary-bg border-t border-gray-800 px-6 py-8 text-center text-xs text-gray-400">
       <p>
         SecArsenal is an independent, educational reference. It is not
         affiliated with the projects it documents. All external links go to
@@ -85,6 +92,8 @@ const pageTitle = `${title} · SecArsenal`;
         <a class="text-gray-400 no-underline transition-colors hover:text-emerald-400" href="/privacy">Privacy Policy</a>
         <span aria-hidden="true" class="text-gray-800">·</span>
         <a class="text-gray-400 no-underline transition-colors hover:text-emerald-400" href="/categories">Category Key</a>
+        <span aria-hidden="true" class="text-gray-800">·</span>
+        <a class="text-gray-400 no-underline transition-colors hover:text-emerald-400" href="/rss.xml">RSS</a>
         <span aria-hidden="true" class="text-gray-800">·</span>
         <a class="text-gray-400 no-underline transition-colors hover:text-emerald-400" href="https://github.com/brando5393/secarsenal" rel="noopener noreferrer" target="_blank">GitHub ↗</a>
         <span aria-hidden="true" class="text-gray-800">·</span>
