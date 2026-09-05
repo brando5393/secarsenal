@@ -7,6 +7,10 @@ interface Props {
 }
 
 const { title, description = 'A reference catalog of pentesting operating systems and tools for infosec professionals.' } = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const ogImageURL = new URL('/og-image.png', Astro.site);
+const pageTitle = `${title} · SecArsenal`;
 ---
 
 <!doctype html>
@@ -15,6 +19,8 @@ const { title, description = 'A reference catalog of pentesting operating system
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content={description} />
+    <meta name="theme-color" content="#030712" />
+    <link rel="canonical" href={canonicalURL} />
     <!--
       Defense-in-depth CSP while running locally with no server to send
       real headers. The authoritative CSP + other security headers ship
@@ -27,7 +33,22 @@ const { title, description = 'A reference catalog of pentesting operating system
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
     <link rel="alternate icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <title>{title} · SecArsenal</title>
+    <title>{pageTitle}</title>
+
+    <!-- Open Graph / Twitter Card — how the link looks when shared on
+         Discord, Slack, X, etc. -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="SecArsenal" />
+    <meta property="og:title" content={pageTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:image" content={ogImageURL} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImageURL} />
   </head>
   <body class="bg-gray-950 text-gray-100 [background-image:radial-gradient(circle_at_1px_1px,theme(colors.gray.800)_1px,transparent_0)] [background-size:28px_28px]">
     <header class="binary-bg sticky top-0 z-10 flex items-center justify-between border-b border-emerald-500/10 bg-gray-950/80 px-6 py-4 backdrop-blur-md">
