@@ -37,6 +37,13 @@
   code, .font-mono {
     font-family: 'JetBrains Mono', ui-monospace, monospace;
   }
+
+  /* Pagefind wraps matched query terms in <mark> inside search
+     excerpts; the browser default (yellow bg, black text) clashes with
+     the dark theme. */
+  mark {
+    @apply rounded bg-emerald-500/30 text-emerald-100;
+  }
 }
 
 @layer utilities {

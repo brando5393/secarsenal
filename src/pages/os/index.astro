@@ -13,6 +13,14 @@ const categories = [...new Set(entries.map((e) => e.data.category))].sort();
   <h1 class="text-3xl font-bold text-white">Operating Systems</h1>
   <p class="mt-3 text-gray-300">Pentesting-focused Linux distributions, with what they're built on and how to get started.</p>
 
+  <input
+    id="os-name-filter"
+    class="mt-4 w-full rounded-lg border border-gray-700 bg-gray-900 px-3 py-2.5 text-gray-100 placeholder-gray-500 focus:border-emerald-500 focus:outline-none focus:ring-1 focus:ring-emerald-500"
+    type="search"
+    placeholder="Search by name or description…"
+    aria-label="Search operating systems"
+  />
+
   <div class="mt-4 flex flex-wrap gap-2" id="filter-bar" data-default="all">
     <button
       type="button"
@@ -32,12 +40,15 @@ const categories = [...new Set(entries.map((e) => e.data.category))].sort();
     ))}
   </div>
 
+  <p id="os-result-count" class="mt-3 text-sm text-gray-500"></p>
+
   <div class="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3" id="card-grid">
     {entries.map((entry) => (
       <a
         class="card block rounded-lg border border-gray-800 bg-gray-900 p-5 no-underline transition-colors hover:border-emerald-500"
         href={`/os/${entry.id}`}
         data-category={entry.data.category}
+        data-name={entry.data.name.toLowerCase()}
       >
         <div class="mb-3 flex items-center gap-3">
           <OsIcon slug={entry.id} category={entry.data.category} />
