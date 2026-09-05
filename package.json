@@ -13,7 +13,8 @@
     "astro": "astro",
     "check-links": "node scripts/check-links.mjs",
     "sync-tools": "node scripts/sync-kali-tools.mjs",
-    "sync-tools:blackarch": "node scripts/sync-blackarch-tools.mjs"
+    "sync-tools:blackarch": "node scripts/sync-blackarch-tools.mjs",
+    "sync-tools:remnux": "node scripts/sync-remnux-tools.mjs"
   },
   "dependencies": {
     "astro": "^7.3.1"

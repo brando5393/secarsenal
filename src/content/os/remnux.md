@@ -11,6 +11,9 @@ notableTools:
   - ghidra
   - binwalk
   - yara
+  - AESKeyFinder
+  - RSAKeyFinder
+  - PolarProxy
 gettingStarted: |
   REMnux is distributed as a pre-built virtual appliance (OVA) for
   VMware/VirtualBox, or it can be layered onto an existing Ubuntu

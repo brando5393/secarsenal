@@ -69,10 +69,11 @@ silently fail under this CSP.
   ever open an issue/PR for human review; neither publishes content
   changes automatically.
 - The sync scripts (`scripts/sync-kali-tools.mjs`,
-  `scripts/sync-blackarch-tools.mjs`) only read each source's own
-  published pages over HTTPS and write local Markdown files — no
-  credentials, no writes to any third-party system, and both run
-  read-only against sites whose `robots.txt` explicitly permits
+  `scripts/sync-blackarch-tools.mjs`, `scripts/sync-remnux-tools.mjs`)
+  only read each source's own published pages over HTTPS and write
+  local Markdown files — no credentials, no writes to any third-party
+  system, and each runs read-only against a site whose `robots.txt`
+  explicitly permits
   crawling. Each tracks which files it owns in its own manifest
   (`scripts/manifests/*.json`) and only ever deletes files it
   previously created itself, so the two sources can't clobber each

@@ -40,7 +40,7 @@ Requires Node >= 22.12 (see `engines` in `package.json`).
 
 The two collections are sourced very differently:
 
-- **`src/content/tools/`** is entirely **generated**, from two
+- **`src/content/tools/`** is entirely **generated**, from three
   official sources:
   - `scripts/sync-kali-tools.mjs` — [Kali's own tool pages](https://www.kali.org/tools/all-tools/)
     (779 tools), one fetch per tool page.
@@ -51,21 +51,32 @@ The two collections are sourced very differently:
     dead on a full check), so this sync verifies each homepage URL and
     omits `downloadUrl` rather than publish a dead link — the entry's
     `docsUrl` (BlackArch's own category page) is unaffected either way.
+  - `scripts/sync-remnux-tools.mjs` — [REMnux's "Discover the Tools" docs](https://docs.remnux.org/discover-the-tools/analyze+documents)
+    (~195 additional tools not already covered by Kali/BlackArch).
+    REMnux's docs (GitBook) expose a Markdown version of every page via
+    a `.md` suffix and a page index at `/llms.txt`, so this sync reads
+    structured Markdown fields (Website/Author/License) directly
+    instead of scraping rendered HTML — REMnux's own link health is
+    much better than BlackArch's (~5% dead on a full check).
 
-  Kali is treated as authoritative wherever both sources list the same
-  tool: the BlackArch sync skips any slug already owned by Kali's sync
-  (tracked via `scripts/manifests/kali.json`) rather than overwriting
-  its richer per-tool page data. Each sync script only ever deletes
-  files *it* previously created (tracked in its own
-  `scripts/manifests/*.json`), so running one never clobbers the
-  other's entries. **Don't hand-edit files in `src/content/tools/`** —
+  Kali is treated as authoritative wherever multiple sources list the
+  same tool, then BlackArch: each sync skips any slug already owned by
+  an earlier one (tracked via `scripts/manifests/*.json`) rather than
+  overwriting richer existing data. Each sync script only ever deletes
+  files *it* previously created (tracked in its own manifest), so
+  running one never clobbers another's entries.
+  **Don't hand-edit files in `src/content/tools/`** —
   they get overwritten by the next sync. To fix a bad entry, fix the
   relevant sync script instead. Categories are free-form strings taken
   directly from each source's own taxonomy (see `src/content.config.ts`),
   not a hardcoded enum, so this collection never needs manual updates
-  to stay in sync with either distro's tool set.
-  Adding a third source (Parrot, etc.) means writing a new
-  `scripts/sync-<name>-tools.mjs` following the same manifest pattern.
+  to stay in sync with any of these distros' tool sets.
+  Adding another source means writing a new
+  `scripts/sync-<name>-tools.mjs` following the same manifest pattern —
+  but check first that one exists: Parrot Security OS was evaluated and
+  doesn't publish one (its docs explicitly say so — see
+  `www.parrotsec.org/docs/tools/` — and point to upstream `man` pages
+  instead), so there's nothing to sync there.
 - **`src/content/os/`** stays **hand-curated** — there's no single
   official index of "all pentest operating systems" the way Kali
   indexes its own tools, so someone has to decide which distros belong
@@ -77,13 +88,13 @@ The two collections are sourced very differently:
 
 ## Content freshness
 
-- **Tools:** `npm run sync-tools` (Kali) and
-  `npm run sync-tools:blackarch` (BlackArch) re-fetch and regenerate
-  their respective share of the tools collection.
-  `.github/workflows/sync-kali-tools.yml` runs both, in that order,
+- **Tools:** `npm run sync-tools` (Kali), `npm run sync-tools:blackarch`
+  (BlackArch), and `npm run sync-tools:remnux` (REMnux) each re-fetch
+  and regenerate their respective share of the tools collection.
+  `.github/workflows/sync-tools.yml` runs all three, in that order,
   monthly and opens a PR with the diff — it never pushes straight to
   `main`, so a parsing bug or an unannounced page-structure change on
-  either site gets caught in review, not published.
+  any site gets caught in review, not published.
 - **OS entries:** `npm run check-links` (`scripts/check-links.mjs`)
   checks every OS entry's URLs for reachability and flags anything not
   verified in the last 180 days. `.github/workflows/freshness-check.yml`
