@@ -15,7 +15,8 @@
     "sync-tools": "node scripts/sync-kali-tools.mjs",
     "sync-tools:blackarch": "node scripts/sync-blackarch-tools.mjs",
     "sync-tools:remnux": "node scripts/sync-remnux-tools.mjs",
-    "sync-tools:tails": "node scripts/sync-tails-tools.mjs"
+    "sync-tools:tails": "node scripts/sync-tails-tools.mjs",
+    "discover-os": "node scripts/discover-os.mjs"
   },
   "dependencies": {
     "@fontsource/inter": "^5.3.0",

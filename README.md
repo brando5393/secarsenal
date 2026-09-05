@@ -118,13 +118,25 @@ The two collections are sourced very differently:
   `auto-synced` on every run — adding a new sync script for a new
   distro (see the pattern in any existing `scripts/sync-*.mjs`) is what
   flips that distro's tag automatically, no separate edit needed.
+- **Discovering new OS candidates:** `npm run discover-os`
+  (`scripts/discover-os.mjs`) checks
+  [Rawsec's CyberSecurity Inventory](https://github.com/noraj/rawsec-cybersecurity-inventory)'s
+  maintained operating-systems list for any distro not already in
+  `src/content/os/`, and drafts a stub entry for each one found
+  (`toolListMaintenance: manual`, with a guessed `category` and a
+  placeholder `gettingStarted` clearly marked with a `# TODO`/`TODO`
+  comment). `.github/workflows/discover-os.yml` runs this monthly and
+  opens a PR — same review gate as the other workflows: a human
+  verifies the guessed fields, writes a real getting-started summary,
+  and decides whether the distro belongs on the site at all before
+  merging. This only ever adds candidate files; it never edits or
+  removes an existing OS entry.
 
-Neither of the above workflows runs a live backend — both are
-scheduled, one-shot jobs that commit/PR static files, keeping the
-deployed site itself 100% static. `.github/workflows/ci.yml` runs on
-every push/PR (build + `npm audit`) so a broken build or a malformed
-content entry is caught before merge rather than by a monthly/weekly
-schedule.
+None of the above workflows runs a live backend — they're scheduled,
+one-shot jobs that commit/PR static files, keeping the deployed site
+itself 100% static. `.github/workflows/ci.yml` runs on every push/PR
+(build + `npm audit`) so a broken build or a malformed content entry is
+caught before merge rather than by a monthly/weekly schedule.
 
 ## Security
 

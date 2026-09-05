@@ -79,10 +79,17 @@ blocking the page. Clearing browser data for the site resets both.
 - All content lives in version-controlled Markdown files reviewed via
   pull request — there is no CMS or admin panel that could be
   compromised to alter published content.
-- The freshness-check (`.github/workflows/freshness-check.yml`) and
-  tools sync (`.github/workflows/sync-tools.yml`) workflows both only
-  ever open an issue/PR for human review; neither publishes content
-  changes automatically.
+- The freshness-check (`.github/workflows/freshness-check.yml`), tools
+  sync (`.github/workflows/sync-tools.yml`), and OS discovery
+  (`.github/workflows/discover-os.yml`) workflows all only ever open an
+  issue/PR for human review; none of them publishes content changes
+  automatically.
+- `scripts/discover-os.mjs` only reads a single public JSON file from
+  [Rawsec's CyberSecurity Inventory](https://github.com/noraj/rawsec-cybersecurity-inventory)
+  over HTTPS and writes new local Markdown files — it never edits or
+  deletes an existing `src/content/os/*.md` entry, so it can't silently
+  overwrite hand-curated content, and each drafted file is clearly
+  marked with the fields it had to guess for a reviewer to verify.
 - The sync scripts (`scripts/sync-kali-tools.mjs`,
   `scripts/sync-blackarch-tools.mjs`, `scripts/sync-remnux-tools.mjs`,
   `scripts/sync-tails-tools.mjs`) only read each source's own
