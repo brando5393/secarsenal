@@ -3,7 +3,9 @@ name: Sync tools collection
 # Regenerates the tools collection from each source's own official
 # tool listing (Kali: scripts/sync-kali-tools.mjs, BlackArch:
 # scripts/sync-blackarch-tools.mjs, REMnux: scripts/sync-remnux-tools.mjs,
-# Tails: scripts/sync-tails-tools.mjs) and opens a PR with the diff for
+# Tails: scripts/sync-tails-tools.mjs, Security Onion:
+# scripts/sync-security-onion-tools.mjs, ArchStrike:
+# scripts/sync-archstrike-tools.mjs) and opens a PR with the diff for
 # human review. Never pushes straight to main — a bad parse or an
 # unexpected page-structure change on any site should be caught by a
 # reviewer, not published automatically.
@@ -23,11 +25,12 @@ permissions:
 jobs:
   sync:
     runs-on: ubuntu-latest
-    # BlackArch's sync verifies ~2,500 homepage links (network-bound,
-    # not CPU/memory-heavy) and the tools collection is now large
-    # enough that `npm run build` needs real memory headroom (already
-    # set via NODE_OPTIONS in the build script itself) — give this
-    # more room than the default job timeout assumption of "fast CI".
+    # BlackArch's sync verifies ~2,500 homepage links and ArchStrike's
+    # fetches a PKGBUILD per package (network-bound, not CPU/memory-
+    # heavy), and the tools collection is now large enough that
+    # `npm run build` needs real memory headroom (already set via
+    # NODE_OPTIONS in the build script itself) — give this more room
+    # than the default job timeout assumption of "fast CI".
     timeout-minutes: 60
     steps:
       - uses: actions/checkout@v4
@@ -51,22 +54,31 @@ jobs:
       - name: Run Tails tools sync
         run: npm run sync-tools:tails
 
+      - name: Run Security Onion tools sync
+        run: npm run sync-tools:security-onion
+
+      - name: Run ArchStrike tools sync
+        run: npm run sync-tools:archstrike
+
       - name: Build to validate generated content
         run: npm run build
 
       - name: Open PR with regenerated tool entries
         uses: peter-evans/create-pull-request@v6
         with:
-          commit-message: "Sync tools collection from kali.org, blackarch.org, docs.remnux.org, and tails.net"
+          commit-message: "Sync tools collection from kali.org, blackarch.org, docs.remnux.org, tails.net, docs.securityonion.net, and archstrike.org"
           title: "Scheduled sync: tools collection"
           body: |
             Automated monthly sync of `src/content/tools/` from
             [kali.org's official tool pages](https://www.kali.org/tools/all-tools/),
             [blackarch.org's official tool table](https://blackarch.org/tools.html),
             [REMnux's official "Discover the Tools" docs](https://docs.remnux.org/discover-the-tools/analyze+documents),
-            and [Tails' official included-software page](https://tails.net/doc/about/features/index.en.html),
+            [Tails' official included-software page](https://tails.net/doc/about/features/index.en.html),
+            [Security Onion's official tools docs](https://docs.securityonion.net/en/2.4/tools.html),
+            and [ArchStrike's official package table](https://archstrike.org/packages),
             via `scripts/sync-kali-tools.mjs`, `scripts/sync-blackarch-tools.mjs`,
-            `scripts/sync-remnux-tools.mjs`, and `scripts/sync-tails-tools.mjs`.
+            `scripts/sync-remnux-tools.mjs`, `scripts/sync-tails-tools.mjs`,
+            `scripts/sync-security-onion-tools.mjs`, and `scripts/sync-archstrike-tools.mjs`.
 
             Review the diff before merging — check for unexpected mass
             deletions/changes that would indicate the page structure on

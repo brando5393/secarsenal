@@ -92,8 +92,10 @@ blocking the page. Clearing browser data for the site resets both.
   marked with the fields it had to guess for a reviewer to verify.
 - The sync scripts (`scripts/sync-kali-tools.mjs`,
   `scripts/sync-blackarch-tools.mjs`, `scripts/sync-remnux-tools.mjs`,
-  `scripts/sync-tails-tools.mjs`) only read each source's own
-  published pages over HTTPS and write
+  `scripts/sync-tails-tools.mjs`, `scripts/sync-security-onion-tools.mjs`,
+  `scripts/sync-archstrike-tools.mjs`) only read each source's own
+  published pages (plus, for ArchStrike, each package's own `PKGBUILD`
+  on its GitHub repo) over HTTPS and write
   local Markdown files — no credentials, no writes to any third-party
   system, and each runs read-only against a site whose `robots.txt`
   explicitly permits

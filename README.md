@@ -40,7 +40,7 @@ Requires Node >= 22.12 (see `engines` in `package.json`).
 
 The two collections are sourced very differently:
 
-- **`src/content/tools/`** is entirely **generated**, from four
+- **`src/content/tools/`** is entirely **generated**, from six
   official sources:
   - `scripts/sync-kali-tools.mjs` — [Kali's own tool pages](https://www.kali.org/tools/all-tools/)
     (779 tools), one fetch per tool page.
@@ -63,9 +63,25 @@ The two collections are sourced very differently:
     fixed set of applications rather than a large tool catalog, so this
     is a modest addition, but a genuine official source with excellent
     link health (mainstream, actively maintained software).
+  - `scripts/sync-security-onion-tools.mjs` — [Security Onion's official tools docs](https://docs.securityonion.net/en/2.4/tools.html)
+    (~10 additional components not already covered). A small, fixed
+    list (15 total) — each entry links to its own doc page with a
+    consistent "From `<homepage>`:" + description pattern this sync
+    parses directly.
+  - `scripts/sync-archstrike-tools.mjs` — [ArchStrike's official package table](https://archstrike.org/packages)
+    (~400 additional tools not already covered, out of ~750 total,
+    paginated across 15 pages). Every row is tagged with ArchStrike's
+    own repo in the Repository column (not mixed with generic Arch
+    packages), but the table itself has no homepage/category columns —
+    this sync fetches each package's `PKGBUILD` from ArchStrike's GitHub
+    for its `url=` (homepage) and `groups=` (category) fields, and
+    skips ArchStrike's own `archstrike-*` infrastructure/branding
+    packages (installer, keyring, desktop configs) rather than
+    cataloging them as tools.
 
   Earlier sources are treated as authoritative over later ones wherever
-  they list the same tool (Kali > BlackArch > REMnux > Tails): each
+  they list the same tool (Kali > BlackArch > REMnux > Tails >
+  Security Onion > ArchStrike): each
   sync skips any slug already owned by an earlier one (tracked via
   `scripts/manifests/*.json`) rather than overwriting richer existing
   data. Each sync script only ever deletes
@@ -95,22 +111,30 @@ The two collections are sourced very differently:
 ## Content freshness
 
 - **Tools:** `npm run sync-tools` (Kali), `npm run sync-tools:blackarch`
-  (BlackArch), `npm run sync-tools:remnux` (REMnux), and
-  `npm run sync-tools:tails` (Tails) each re-fetch and regenerate their
-  respective share of the tools collection.
-  `.github/workflows/sync-tools.yml` runs all four, in that order,
-  monthly and opens a PR with the diff — it never pushes straight to
-  `main`, so a parsing bug or an unannounced page-structure change on
-  any site gets caught in review, not published.
+  (BlackArch), `npm run sync-tools:remnux` (REMnux),
+  `npm run sync-tools:tails` (Tails), `npm run sync-tools:security-onion`
+  (Security Onion), and `npm run sync-tools:archstrike` (ArchStrike) each
+  re-fetch and regenerate their respective share of the tools collection.
+  `.github/workflows/sync-tools.yml` runs all six, in that order, monthly
+  and opens a PR with the diff — it never pushes straight to `main`, so
+  a parsing bug or an unannounced page-structure change on any site gets
+  caught in review, not published.
 - **OS entries:** `npm run check-links` (`scripts/check-links.mjs`)
   checks every OS entry's URLs for reachability and flags anything not
   verified in the last 180 days. `.github/workflows/freshness-check.yml`
   runs this weekly and opens an issue for a human to look at.
-- **Distros without a syncable tool list:** Parrot, CAINE, and Pentoo
-  have no official, structured, per-tool listing upstream (unlike Kali/
-  BlackArch/REMnux/Tails), so their `notableTools` are hand-maintained
-  and can't be freshness-checked automatically. Their `os/*.md` entries
-  are marked `toolListMaintenance: manual`, which the site surfaces as
+- **Distros without a syncable tool list:** Parrot, CAINE, Pentoo, and
+  several distros added from the Rawsec discovery pipeline (Athena OS,
+  BackBox, Demon Linux, Fedora Security Lab, CSI Linux, SIFT, Tsurugi
+  Linux, Wifislax, DragonOS, Whonix, Linux Kodachi, Qubes OS, NST,
+  CommandoVM, Kali NetHunter) have no official, structured, per-tool
+  listing upstream — either nothing dedicated at all, a list with no
+  per-tool links (can't populate `docsUrl`), or one that mixes real
+  tools with generic OS packages/software with no reliable way to tell
+  them apart (the same reason Pentoo's overlay was rejected). Their
+  `notableTools` are hand-maintained and can't be freshness-checked
+  automatically. Their `os/*.md` entries are marked
+  `toolListMaintenance: manual`, which the site surfaces as
   a visible warning on their pages — this is also the default for any
   newly added OS entry, so a new distro is never silently presented as
   auto-verified. `scripts/sync-utils.mjs`'s `ensureAutoSyncedTag()` is

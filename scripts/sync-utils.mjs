@@ -87,18 +87,23 @@ async function attempt(url, timeoutMs) {
 export function ensureAutoSyncedTag(osFilePath) {
   if (!existsSync(osFilePath)) return;
   const original = readFileSync(osFilePath, 'utf8');
-  const frontmatterEnd = original.indexOf('\n---', 4);
-  if (!original.startsWith('---\n') || frontmatterEnd === -1) return;
+  // Git on Windows checks these files out with CRLF line endings, so
+  // the frontmatter delimiters are `---\r\n`, not `---\n` — matching
+  // only `\n` here silently no-ops on every Windows checkout without
+  // ever throwing, which is exactly what happened until this was
+  // caught by actually running a real sync end-to-end.
+  const match = original.match(/^---\r?\n([\s\S]*?)\r?\n---(?:\r?\n|$)/);
+  if (!match) return;
+  const eol = original.slice(0, match[0].length).includes('\r\n') ? '\r\n' : '\n';
 
   const line = 'toolListMaintenance: auto-synced';
-  let frontmatter = original.slice(4, frontmatterEnd);
-  if (/^toolListMaintenance:.*$/m.test(frontmatter)) {
-    frontmatter = frontmatter.replace(/^toolListMaintenance:.*$/m, line);
-  } else {
-    frontmatter = `${frontmatter}${frontmatter.endsWith('\n') ? '' : '\n'}${line}\n`;
-  }
+  const frontmatterLines = match[1].split(/\r?\n/);
+  const existingIndex = frontmatterLines.findIndex((l) => /^toolListMaintenance:/.test(l));
+  if (existingIndex >= 0) frontmatterLines[existingIndex] = line;
+  else frontmatterLines.push(line);
 
-  const updated = `---\n${frontmatter}${original.slice(frontmatterEnd + 1)}`;
+  const rest = original.slice(match[0].length);
+  const updated = `---${eol}${frontmatterLines.join(eol)}${eol}---${eol}${rest}`;
   if (updated !== original) writeFileSync(osFilePath, updated, 'utf8');
 }
 
