@@ -142,10 +142,12 @@ function initOsIndex() {
 function initToolsFilter() {
   const nameFilter = document.getElementById('name-filter');
   const categoryFilter = document.getElementById('category-filter');
+  const teamFilterBar = document.getElementById('team-filter-bar');
   const resultCount = document.getElementById('result-count');
   if (!nameFilter || !categoryFilter || !resultCount) return;
 
   const cards = [...document.querySelectorAll('#card-grid .card')];
+  const teamButtons = teamFilterBar ? [...teamFilterBar.querySelectorAll('button')] : [];
 
   // Pre-select a category when arriving from the homepage's "top
   // categories" widget (/tools?category=webapp) or any other link.
@@ -155,6 +157,7 @@ function initToolsFilter() {
   }
 
   let activeSlugs = null;
+  let activeTeam = 'all';
   let queryToken = 0;
 
   function applyFilters() {
@@ -164,7 +167,8 @@ function initToolsFilter() {
       const matchesQuery = activeSlugs === null || activeSlugs.has(urlPath(card.href));
       const cardCategories = (card.dataset.categories ?? '').split(',');
       const matchesCategory = category === 'all' || cardCategories.includes(category);
-      const show = matchesQuery && matchesCategory;
+      const matchesTeam = activeTeam === 'all' || card.dataset.team === activeTeam;
+      const show = matchesQuery && matchesCategory && matchesTeam;
       card.style.display = show ? '' : 'none';
       if (show) visible++;
     }
@@ -179,6 +183,14 @@ function initToolsFilter() {
     applyFilters();
   });
   categoryFilter.addEventListener('change', applyFilters);
+  teamButtons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      teamButtons.forEach((b) => b.setAttribute('aria-pressed', 'false'));
+      btn.setAttribute('aria-pressed', 'true');
+      activeTeam = btn.dataset.team;
+      applyFilters();
+    });
+  });
   applyFilters();
 }
 

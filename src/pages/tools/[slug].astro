@@ -4,6 +4,7 @@ import Breadcrumbs from '../../components/Breadcrumbs.astro';
 import ToolIcon from '../../components/ToolIcon.astro';
 import OsIcon from '../../components/OsIcon.astro';
 import { getCollection, render } from 'astro:content';
+import { getToolTeam } from '../../lib/toolTeam';
 
 export async function getStaticPaths() {
   const entries = await getCollection('tools');
@@ -19,9 +20,15 @@ const { Content } = await render(entry);
 
 const osEntries = await getCollection('os');
 const hostOs = osEntries.filter((o) => data.commonlyOn.includes(o.data.name));
+const team = getToolTeam(data.categories);
 
 const SOURCE_LINK_CLASS =
   'inline-flex items-center gap-1 rounded-md border border-gray-700 px-3 py-1.5 text-sm text-gray-200 no-underline transition-colors hover:border-emerald-500 hover:text-emerald-400';
+const TEAM_LABELS: Record<string, string> = { red: 'Red Team', blue: 'Blue Team' };
+const TEAM_BADGE_CLASSES: Record<string, string> = {
+  red: 'bg-red-950/60 text-red-400',
+  blue: 'bg-blue-950/60 text-blue-400',
+};
 ---
 
 <BaseLayout title={data.name} description={data.tagline}>
@@ -39,9 +46,13 @@ const SOURCE_LINK_CLASS =
   </div>
   <div class="mt-3" data-pagefind-ignore>
     {data.categories.map((c) => <span class="mr-2 mt-1 inline-block rounded-full bg-gray-800 px-3 py-1 text-xs text-gray-300">{c}</span>)}
+    {team && (
+      <span class={`mr-2 mt-1 inline-block rounded-full px-3 py-1 text-xs ${TEAM_BADGE_CLASSES[team]}`} title="Best-effort guess from category tags, not an official classification">{TEAM_LABELS[team]}</span>
+    )}
   </div>
   <span hidden data-pagefind-ignore data-pagefind-filter="type">Tool</span>
   {data.categories.map((c) => <span hidden data-pagefind-ignore data-pagefind-filter="category">{c}</span>)}
+  {team && <span hidden data-pagefind-ignore data-pagefind-filter="team">{team}</span>}
 
   <div class="mt-5 flex flex-wrap gap-3" data-pagefind-ignore>
     <a class={SOURCE_LINK_CLASS} href={data.docsUrl} rel="noopener noreferrer" target="_blank">Official docs ↗</a>
