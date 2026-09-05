@@ -1,0 +1,44 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import CategoryIcon from '../components/CategoryIcon.astro';
+import { getAllBuckets } from '../lib/categoryIcons';
+
+const buckets = getAllBuckets();
+
+const COLOR_GROUP_LABELS: Record<string, string> = {
+  rose: 'Offensive',
+  violet: 'Credentials & crypto',
+  amber: 'Forensics & defense',
+  sky: 'Recon & web',
+  emerald: 'Network, wireless & social',
+  gray: 'Platform & utility',
+};
+---
+
+<BaseLayout title="Category Key" description="What each badge icon and color means across SecArsenal's OS and tool pages.">
+  <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Category Key' }]} />
+  <h1 class="text-3xl font-bold text-white">Category Key</h1>
+  <p class="mt-3 text-gray-300">
+    Every tool and OS card shows its own logo when one is available. When
+    it isn't, we show one of these icons instead — a quick visual cue for
+    what kind of tool it is, based on that tool's category tags. The
+    color groups related categories together; the icon narrows it down
+    further.
+  </p>
+
+  <div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    {buckets.map(({ bucket, keywords }) => (
+      <div class="card flex items-start gap-3 rounded-lg border border-gray-800 bg-gray-900 p-4">
+        <CategoryIcon icon={bucket.icon} color={bucket.color} size="md" />
+        <div class="min-w-0">
+          <p class="font-semibold text-white">{bucket.label}</p>
+          <p class="text-xs uppercase tracking-wide text-gray-500">{COLOR_GROUP_LABELS[bucket.color] ?? bucket.color}</p>
+          {keywords.length > 0 && (
+            <p class="mt-1 text-xs text-gray-500">Matches categories like: {keywords.slice(0, 4).join(', ')}{keywords.length > 4 ? ', …' : ''}</p>
+          )}
+        </div>
+      </div>
+    ))}
+  </div>
+</BaseLayout>

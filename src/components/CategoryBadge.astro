@@ -1,49 +1,6 @@
 ---
-import { getCategoryBucket, getCategoryBucketForList, BADGE_COLOR_CLASSES } from '../lib/categoryIcons';
-
-import bug from '../icons/bug.svg?raw';
-import database from '../icons/database.svg?raw';
-import dices from '../icons/dices.svg?raw';
-import fileText from '../icons/file-text.svg?raw';
-import fingerprint from '../icons/fingerprint.svg?raw';
-import globe from '../icons/globe.svg?raw';
-import key from '../icons/key.svg?raw';
-import lock from '../icons/lock.svg?raw';
-import network from '../icons/network.svg?raw';
-import radar from '../icons/radar.svg?raw';
-import search from '../icons/search.svg?raw';
-import settings from '../icons/settings.svg?raw';
-import shield from '../icons/shield.svg?raw';
-import skull from '../icons/skull.svg?raw';
-import smartphone from '../icons/smartphone.svg?raw';
-import terminal from '../icons/terminal.svg?raw';
-import users from '../icons/users.svg?raw';
-import waypoints from '../icons/waypoints.svg?raw';
-import wifi from '../icons/wifi.svg?raw';
-import wrench from '../icons/wrench.svg?raw';
-
-const ICONS: Record<string, string> = {
-  bug,
-  database,
-  dices,
-  'file-text': fileText,
-  fingerprint,
-  globe,
-  key,
-  lock,
-  network,
-  radar,
-  search,
-  settings,
-  shield,
-  skull,
-  smartphone,
-  terminal,
-  users,
-  waypoints,
-  wifi,
-  wrench,
-};
+import CategoryIcon from './CategoryIcon.astro';
+import { getCategoryBucket, getCategoryBucketForList } from '../lib/categoryIcons';
 
 interface Props {
   category: string | string[];
@@ -54,17 +11,9 @@ interface Props {
 const { category, size = 'md', showLabel = false } = Astro.props;
 const bucket = Array.isArray(category) ? getCategoryBucketForList(category) : getCategoryBucket(category);
 const titleText = Array.isArray(category) ? category.join(', ') : category;
-const svg = ICONS[bucket.icon] ?? ICONS.wrench;
-const colorClass = BADGE_COLOR_CLASSES[bucket.color];
-
-const sizeClasses = {
-  sm: 'h-6 w-6 [&_svg]:h-3.5 [&_svg]:w-3.5',
-  md: 'h-9 w-9 [&_svg]:h-5 [&_svg]:w-5',
-  lg: 'h-14 w-14 [&_svg]:h-7 [&_svg]:w-7',
-}[size];
 ---
 
 <span class="inline-flex items-center gap-2" title={titleText}>
-  <span class={`inline-flex shrink-0 items-center justify-center rounded-lg ${colorClass} ${sizeClasses}`} set:html={svg} />
+  <CategoryIcon icon={bucket.icon} color={bucket.color} size={size} />
   {showLabel && <span class="text-sm text-gray-300">{titleText}</span>}
 </span>

@@ -114,6 +114,14 @@ export function getCategoryBucketForList(categories: string[]): CategoryBucket {
   return DEFAULT_BUCKET;
 }
 
+// Single source of truth for the /categories key page — every bucket a
+// badge can actually render, including the fallback, each paired with
+// the keyword(s) that produce it so the page never drifts out of sync
+// with BUCKETS above.
+export function getAllBuckets(): { bucket: CategoryBucket; keywords: string[] }[] {
+  return [...BUCKETS, { keywords: [], bucket: DEFAULT_BUCKET }];
+}
+
 export const BADGE_COLOR_CLASSES: Record<string, string> = {
   rose: 'bg-rose-500/10 text-rose-400',
   violet: 'bg-violet-500/10 text-violet-400',
