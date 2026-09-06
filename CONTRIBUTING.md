@@ -64,9 +64,16 @@ Rawsec's own classification, and known pitfalls from past runs.
    type.
 2. Set `lastVerified` to the date you personally confirmed the
    description and links below are accurate. If the distro is
-   genuinely a red/blue/purple-team tool (not a general privacy/opsec
-   OS or rescue distro), set `team` too — see `src/lib/toolTeam.ts`'s
-   header comment for the reasoning this is judged by.
+   genuinely a red- or blue-team tool (not a general privacy/opsec OS
+   or rescue distro), set `team` too — see `src/content.config.ts`'s
+   `team` field comment for the citations and reasoning this is judged
+   by, and `/categories#team-classification` for the sourced
+   definitions shown on the site. There's no `purple` option: no
+   authoritative source treats purple-teaming as a property a single
+   tool or distro can hold (it names a collaborative red+blue
+   exercise), so classify a platform like Kali Purple by what it
+   actually does — defensive tooling — rather than by the exercises it
+   can run.
 3. Link only to official sources: the project's own documentation,
    official download page, and/or its canonical source repository.
 4. Run `npm run check-links` locally before opening a PR to confirm

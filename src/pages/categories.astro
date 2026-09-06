@@ -41,4 +41,60 @@ const COLOR_GROUP_LABELS: Record<string, string> = {
       </div>
     ))}
   </div>
+
+  <h2 id="team-classification" class="mt-12 scroll-mt-20 text-2xl font-bold text-white">Team Classification</h2>
+  <p class="mt-3 max-w-3xl text-gray-300">
+    Some OS and tool cards also show a <strong>Red Team</strong> or <strong>Blue Team</strong> badge.
+    This is a separate, hand-judged axis from the category badges above — it classifies primary
+    use (offense vs. defense), not what kind of tool it is.
+  </p>
+
+  <div class="mt-6 grid grid-cols-1 gap-4 md:grid-cols-2">
+    <div class="card rounded-lg border border-gray-800 bg-gray-900 p-4">
+      <p class="inline-flex items-center gap-2 font-semibold text-red-400">
+        <span class="h-2.5 w-2.5 rounded-full bg-red-500"></span> Red Team
+      </p>
+      <p class="mt-2 text-sm text-gray-300">
+        "A group of people authorized and organized to emulate a potential adversary's attack or
+        exploitation capabilities against an enterprise's security posture." Tools that emulate,
+        perform, or support an attack — reconnaissance, exploitation, credential access, lateral
+        movement, command-and-control — are classified red here, matching how <a href="https://attack.mitre.org/" target="_blank" rel="noopener noreferrer" class="underline hover:text-red-300">MITRE ATT&amp;CK</a> names adversary tactics.
+      </p>
+      <p class="mt-2 text-xs text-gray-500">
+        Source: <a href="https://csrc.nist.gov/glossary/term/red_team" target="_blank" rel="noopener noreferrer" class="underline hover:text-gray-300">NIST CSRC Glossary, "red team"</a> (CNSSI 4009-2022)
+      </p>
+    </div>
+    <div class="card rounded-lg border border-gray-800 bg-gray-900 p-4">
+      <p class="inline-flex items-center gap-2 font-semibold text-blue-400">
+        <span class="h-2.5 w-2.5 rounded-full bg-blue-500"></span> Blue Team
+      </p>
+      <p class="mt-2 text-sm text-gray-300">
+        "The group responsible for defending an enterprise's use of information systems by
+        maintaining its security posture against a group of mock attackers." Tools that detect,
+        analyze, or respond to an attack — forensics, malware analysis, honeypots, SIEM/detection —
+        are classified blue here, the domain <a href="https://d3fend.mitre.org/" target="_blank" rel="noopener noreferrer" class="underline hover:text-blue-300">MITRE D3FEND</a> catalogs from the defensive side.
+      </p>
+      <p class="mt-2 text-xs text-gray-500">
+        Source: <a href="https://csrc.nist.gov/glossary/term/blue_team" target="_blank" rel="noopener noreferrer" class="underline hover:text-gray-300">NIST CSRC Glossary, "blue team"</a> (CNSSI 4009-2022)
+      </p>
+    </div>
+  </div>
+
+  <p class="mt-4 max-w-3xl text-gray-300">
+    <strong>There's no "Purple Team" badge, deliberately.</strong> NIST's CNSSI 4009-2022 glossary
+    formally defines Red Team, Blue Team, and White Team (a neutral referee for red-vs-blue
+    exercises) — but has no equivalent Purple Team entry. Every industry source describing purple
+    teaming (SANS, Orca Security, Cymulate) frames it the same way: a collaborative <em>exercise</em> where red and blue work together in real time, not a property a single tool
+    or OS can hold. A platform that bundles both offensive and defensive tooling to support that
+    kind of exercise is still, itself, defensive tooling — Kali Purple is tagged Blue Team here,
+    matching its own vendor description ("defensive security," built around NIST CSF's
+    Identify/Protect/Detect/Respond/Recover functions) rather than the exercises it can be used to run.
+  </p>
+  <p class="mt-3 max-w-3xl text-sm text-gray-400">
+    You may also see other roles referenced elsewhere in the industry — White Team (referees an
+    exercise), Purple Team (the red/blue collaboration itself), and an informal "color wheel"
+    extension covering Yellow (secure development), Green (dev/detection liaison), and Orange
+    (attacker-mindset training for developers). None of those describe a standalone tool the way
+    red/blue do, so this site doesn't use them as a filterable classification.
+  </p>
 </BaseLayout>

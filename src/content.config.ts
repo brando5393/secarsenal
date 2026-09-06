@@ -35,16 +35,30 @@ const os = defineCollection({
     basedOn: z.string(),
     // Optional and hand-judged, not sourced from any upstream taxonomy
     // (none of the 8 tool sources this site syncs from tag anything as
-    // "red/blue/purple team" — that's not a concept their own docs
-    // use). Left unset for entries that aren't a security-team tool at
-    // all (Tails, Whonix, Kodachi, Qubes, Open Secure-K OS — personal
-    // privacy/opsec tools; SystemRescue — general sysadmin rescue) so
-    // they correctly show under no team filter rather than a guessed
-    // one. Classified by the tool/technique's nature (e.g. OSINT recon
-    // is a red-team technique per MITRE ATT&CK even where a specific
-    // project's mission is investigative, like Trace Labs), not by
-    // author intent.
-    team: z.enum(['red', 'blue', 'purple']).optional(),
+    // "red/blue team" — that's not a concept their own docs use). Left
+    // unset for entries that aren't a security-team tool at all (Tails,
+    // Whonix, Kodachi, Qubes, Open Secure-K OS — personal privacy/opsec
+    // tools; SystemRescue — general sysadmin rescue) so they correctly
+    // show under no team filter rather than a guessed one. Classified
+    // by the tool/technique's nature (e.g. OSINT recon is a red-team
+    // technique per MITRE ATT&CK even where a specific project's
+    // mission is investigative, like Trace Labs), not by author intent.
+    //
+    // Deliberately red/blue only, no "purple": NIST's CNSSI 4009-2022
+    // glossary (csrc.nist.gov/glossary) formally defines Red Team and
+    // Blue Team but has no equivalent Purple Team entry — every
+    // authoritative and industry source describing purple teaming
+    // (SANS, Orca, Cymulate, TechTarget) frames it as a collaborative
+    // *exercise/methodology* combining red and blue, not a property a
+    // single tool or distribution can hold. A platform that bundles
+    // both offensive and defensive tooling to support that kind of
+    // exercise is still, itself, defensive tooling — see Kali Purple,
+    // tagged `blue` here (its own vendor description leads with
+    // "defensive security" and frames it around NIST CSF's
+    // Identify/Protect/Detect/Respond/Recover functions, not around
+    // being an attack tool). See `src/lib/toolTeam.ts`'s header comment
+    // for the equivalent per-tool reasoning.
+    team: z.enum(['red', 'blue']).optional(),
     gettingStarted: z.string(),
     notableTools: z.array(z.string()).default([]),
     // 'auto-synced' distros (Kali, BlackArch, REMnux, Tails) have a

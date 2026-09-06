@@ -138,18 +138,25 @@ replacing every TODO:
 - `basedOn`: verify against the current version's actual docs, not
   Rawsec's field — it can be stale (Linux Kodachi's `base` field said
   "Xubuntu" when the current release had moved to Debian).
-- `team` (optional, `red`/`blue`/`purple`): set it if the distro is
-  genuinely a security-team tool, judged by what it actually does, not
-  the project's stated mission — OSINT/recon tooling counts as `red`
-  per MITRE ATT&CK's own Reconnaissance tactic even for an
+- `team` (optional, `red`/`blue` — no `purple`): set it if the distro
+  is genuinely a security-team tool, judged by what it actually does,
+  not the project's stated mission — OSINT/recon tooling counts as
+  `red` per MITRE ATT&CK's own Reconnaissance tactic even for an
   investigative project (Trace Labs OSINT VM, whose mission is finding
   missing persons, is still `red`); malware-analysis/reverse-engineering
   tooling is `blue` (investigative/defensive), not `red`, matching this
   project's own CommandoVM-vs-FLARE-VM split. Leave it unset for
   anything that isn't a security-team tool at all — general privacy/
   opsec OSes (Tails, Whonix, Kodachi, Qubes) and general rescue distros
-  (SystemRescue) — rather than forcing a guess. See `src/lib/toolTeam.ts`'s
-  header comment for the full reasoning and the equivalent (best-effort,
+  (SystemRescue) — rather than forcing a guess. There's no `purple`:
+  no authoritative source (NIST's CNSSI 4009-2022 glossary included)
+  treats purple-teaming as a property a single distro can hold — it
+  names a collaborative red+blue exercise, not a tool. A distro built
+  to run that kind of exercise (Kali Purple) is still classified by
+  what it actually is — defensive tooling, `blue` — matching its own
+  vendor description. See `src/content.config.ts`'s `team` field
+  comment and `src/lib/toolTeam.ts`'s header comment for the full
+  citations/reasoning and the equivalent (best-effort,
   category-keyword-derived) logic used for individual tools.
 - Remove the `_Drafted automatically..._` line and any review-flag
   notes once resolved.

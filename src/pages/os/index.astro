@@ -7,11 +7,10 @@ import { getCollection } from 'astro:content';
 const entries = await getCollection('os');
 const categories = [...new Set(entries.map((e) => e.data.category))].sort();
 
-const TEAM_LABELS: Record<string, string> = { red: 'Red Team', blue: 'Blue Team', purple: 'Purple Team' };
+const TEAM_LABELS: Record<string, string> = { red: 'Red Team', blue: 'Blue Team' };
 const TEAM_BADGE_CLASSES: Record<string, string> = {
   red: 'bg-red-950/60 text-red-400',
   blue: 'bg-blue-950/60 text-blue-400',
-  purple: 'bg-purple-950/60 text-purple-400',
 };
 ---
 
@@ -56,7 +55,7 @@ const TEAM_BADGE_CLASSES: Record<string, string> = {
       class="rounded-full border border-gray-700 bg-gray-900 px-3 py-1.5 text-sm text-gray-300 transition-colors aria-pressed:border-emerald-500 aria-pressed:text-white"
       >All</button
     >
-    {(['red', 'blue', 'purple'] as const).map((t) => (
+    {(['red', 'blue'] as const).map((t) => (
       <button
         type="button"
         aria-pressed="false"
@@ -67,7 +66,7 @@ const TEAM_BADGE_CLASSES: Record<string, string> = {
     ))}
   </div>
   <p class="mt-1 text-xs text-gray-400">
-    Team is a hand-judged classification by primary use (offense/defense/both) — not every entry fits a team (privacy tools like Tails or Whonix aren't shown under any team filter).
+    Team is a hand-judged classification by primary use (offense vs. defense) — not every entry fits a team (privacy tools like Tails or Whonix aren't shown under any team filter). See the <a href="/categories#team-classification" class="underline hover:text-gray-300">Category Key</a> for how this is defined.
   </p>
 
   <p id="os-result-count" class="mt-3 text-sm text-gray-400"></p>

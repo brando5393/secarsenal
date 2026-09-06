@@ -5,6 +5,20 @@
 // verified fact the way notableTools cross-references are. The UI
 // must always label it as such.
 //
+// Definitions this classifier targets (CNSSI 4009-2022, via the NIST
+// CSRC glossary — csrc.nist.gov/glossary/term/red_team and .../blue_team):
+// Red Team = "a group ... authorized and organized to emulate a
+// potential adversary's attack or exploitation capabilities"; Blue
+// Team = "the group responsible for defending an enterprise's use of
+// information systems by maintaining its security posture." In
+// practice: red-characteristic tooling emulates/performs an attack
+// (recon, exploitation, credential access, lateral movement, C2 —
+// matching MITRE ATT&CK's adversary tactic names, which are
+// attacker-side by construction); blue-characteristic tooling detects,
+// analyzes, or responds to one (forensics, malware analysis, honeypots,
+// SIEM/detection — the domain MITRE D3FEND catalogs from the defensive
+// side).
+//
 // This is a purpose-built keyword set, not a reuse of categoryIcons.ts's
 // bucketing: that system groups categories for icon *choice*, and its
 // "defens" keyword would wrongly catch "defense-evasion" (an ATT&CK
@@ -19,9 +33,11 @@
 // dual-use tool. Genuinely ambiguous categories (crypto, general
 // networking, platform tags, automation, reporting, uncategorized) are
 // deliberately left unclassified rather than guessed. There's no
-// "purple" here at all — purple-teaming describes how tools from both
-// sides get used together in an exercise, not a property of a single
-// utility, so no category maps to it.
+// "purple" here at all, and none in `src/content.config.ts`'s OS
+// `team` field either (see that file's comment for the citations) —
+// no authoritative source treats purple-teaming as a property a single
+// tool or platform can hold; it names a collaborative red+blue
+// exercise, so no category maps to it here.
 export type ToolTeam = 'red' | 'blue';
 
 const RED_KEYWORDS = [
