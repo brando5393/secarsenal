@@ -9,8 +9,37 @@ interface Props {
 }
 
 const { items } = Astro.props;
+
+// BreadcrumbList JSON-LD, generated from the same `items` the visible
+// <nav> below renders — Google's guidance is explicit that mismatched
+// visible/structured breadcrumbs get flagged, so deriving both from one
+// source is what keeps them from drifting apart. The last crumb has no
+// `href` (it's the current page) — schema.org's `item` is optional on a
+// ListItem, so it's simply omitted there rather than pointing at itself.
+const breadcrumbList = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: items.map((item, i) => {
+    // Nav hrefs in this repo are written without a trailing slash (e.g.
+    // "/tools"), but every page's own canonical URL has one (Astro
+    // builds directory-format output, "/tools/index.html") — normalize
+    // here so a crawler doesn't see this JSON-LD pointing at a
+    // different URL than the one it just canonicalized.
+    const href = item.href && (item.href.endsWith('/') ? item.href : `${item.href}/`);
+    return {
+      '@type': 'ListItem',
+      position: i + 1,
+      name: item.label,
+      ...(href && { item: new URL(href, Astro.site).toString() }),
+    };
+  }),
+};
+// Same "</script>" break-out guard as BaseLayout's structuredDataJson —
+// see that file for why this is necessary with set:html.
+const breadcrumbListJson = JSON.stringify(breadcrumbList).replace(/</g, '\\u003c');
 ---
 
+<script type="application/ld+json" set:html={breadcrumbListJson} />
 <nav aria-label="Breadcrumb" class="mb-4 font-mono text-xs text-gray-400">
   <ol class="flex flex-wrap items-center gap-1.5">
     {items.map((item, i) => (
