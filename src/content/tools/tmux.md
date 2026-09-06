@@ -3,7 +3,7 @@ name: "tmux"
 tagline: "Terminal multiplexer"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/tmux/"
 downloadUrl: "https://github.com/tmux/tmux/wiki"
 repoUrl: "https://salsa.debian.org/debian/tmux"

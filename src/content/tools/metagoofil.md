@@ -3,7 +3,7 @@ name: "metagoofil"
 tagline: "Tool designed for extracting metadata of public documents"
 categories: ["host-information"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/metagoofil/"
 downloadUrl: "https://github.com/opsdisk/metagoofil"
 repoUrl: "https://gitlab.com/kalilinux/packages/metagoofil"

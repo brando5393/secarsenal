@@ -3,7 +3,7 @@ name: "urlview"
 tagline: "A curses URL parser for text files."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "http://packages.qa.debian.org/u/urlview.html"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "whatbreach"
 tagline: "OSINT tool to find breached emails and databases."
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://github.com/ekultek/whatbreach"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "extractusnjrnl"
 tagline: "Tool to extract the $UsnJrnl from an NTFS volume."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/jschicht/ExtractUsnJrnl"
 commonlyOn: ["BlackArch"]

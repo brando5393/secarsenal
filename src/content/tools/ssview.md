@@ -4,7 +4,7 @@ tagline: "Analyze OLE2 Structured Storage files."
 categories: ["microsoft-office"]
 platforms: ["Linux"]
 license: "Free to use for private, educational and non-commercial purposes."
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/analyze+documents/microsoft+office"
 downloadUrl: "https://www.mitec.cz/ssv.html"
 commonlyOn: ["REMnux"]

@@ -3,7 +3,7 @@ name: "rpctools"
 tagline: "Contains three separate tools for obtaining information from a system that is running RPC services"
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://packetstormsecurity.com/files/31879/rpctools.0.zip.html"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "crackmapexec-pingcastle"
 tagline: "NetExec & CrackMapExec module that execute PingCastle on a remote machine."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/TRIKKSS/CrackMapExec-PingCastle"
 commonlyOn: ["BlackArch"]

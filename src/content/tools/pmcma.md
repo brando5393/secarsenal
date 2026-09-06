@@ -3,7 +3,7 @@ name: "pmcma"
 tagline: "Automated exploitation of invalid memory writes (being them the consequences of an overflow in a writable section, of a "
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "http://packetstormsecurity.com/files/104724/Post-Memory-Corruption-Memory-Analyzer.00.html"
 commonlyOn: ["BlackArch"]

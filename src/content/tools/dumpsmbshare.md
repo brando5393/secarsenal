@@ -3,7 +3,7 @@ name: "dumpsmbshare"
 tagline: "A script to dump files and folders remotely from a Windows SMB share."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/p0dalirius/DumpSMBShare"
 commonlyOn: ["BlackArch"]

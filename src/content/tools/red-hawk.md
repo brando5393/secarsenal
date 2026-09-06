@@ -3,7 +3,7 @@ name: "red-hawk"
 tagline: "All in one tool for Information Gathering, Vulnerability Scanning and Crawling."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/Tuhinshubhra/RED_HAWK"
 commonlyOn: ["BlackArch"]

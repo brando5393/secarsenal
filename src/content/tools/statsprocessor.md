@@ -3,7 +3,7 @@ name: "statsprocessor"
 tagline: "Word generator based on per-position Markov chains"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/statsprocessor/"
 downloadUrl: "https://github.com/hashcat/statsprocessor"
 repoUrl: "https://salsa.debian.org/pkg-security-team/statsprocessor"

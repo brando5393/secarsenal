@@ -3,7 +3,7 @@ name: "gspoof"
 tagline: "A simple GTK/command line TCP/IP packet generator."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "http://gspoof.sourceforge.net/"
 commonlyOn: ["BlackArch"]

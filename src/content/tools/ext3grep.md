@@ -3,7 +3,7 @@ name: "ext3grep"
 tagline: "Tool to help recover deleted files on ext3 filesystems"
 categories: ["forensic-carving-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/ext3grep/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/ext3grep"
 commonlyOn: ["Kali Linux"]

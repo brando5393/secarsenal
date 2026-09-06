@@ -3,7 +3,7 @@ name: "blackhash"
 tagline: "Creates a filter from system hashes."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://16s.us/blackhash/"
 commonlyOn: ["BlackArch"]

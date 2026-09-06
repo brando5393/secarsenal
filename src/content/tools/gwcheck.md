@@ -3,7 +3,7 @@ name: "gwcheck"
 tagline: "A simple program that checks if a host in an ethernet network is a gateway to Internet."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "http://packetstormsecurity.com/files/62047/gwcheck.c.html"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "trid"
 tagline: "An utility designed to identify file types from their binary signatures."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "http://mark0.net/soft-trid-e.html"
 commonlyOn: ["BlackArch"]

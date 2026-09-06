@@ -3,7 +3,7 @@ name: "luksipc"
 tagline: "A tool to convert unencrypted block devices to encrypted LUKS devices in-place."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "http://www.johannes-bauer.com/linux/luksipc"
 commonlyOn: ["BlackArch"]

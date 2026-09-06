@@ -3,7 +3,7 @@ name: "wirouter-keyrec"
 tagline: "A platform independent software to recover the default WPA passphrases of the supported router models"
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "http://www.salvatorefresta.net/tools/"
 commonlyOn: ["BlackArch"]

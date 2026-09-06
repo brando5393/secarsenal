@@ -3,7 +3,7 @@ name: "plasma-git"
 tagline: "Interactive disassembler for x86/ARM/MIPS. Generates indented pseudo-code with colored syntax code."
 categories: ["analysis"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/plasma-git"
 downloadUrl: "https://github.com/plasma-disassembler/plasma"
 commonlyOn: ["ArchStrike"]

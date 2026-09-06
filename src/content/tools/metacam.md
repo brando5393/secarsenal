@@ -3,7 +3,7 @@ name: "metacam"
 tagline: "Extract EXIF information from digital camera files"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/metacam/"
 downloadUrl: "http://www.cheeseplant.org/~daniel/pages/metacam.html"
 repoUrl: "https://salsa.debian.org/pkg-security-team/metacam"

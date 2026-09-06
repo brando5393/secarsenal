@@ -3,7 +3,7 @@ name: "bloodhound"
 tagline: "Six Degrees of Domain Admin, BloodHound CE"
 categories: ["active-directory","discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/bloodhound/"
 downloadUrl: "https://github.com/SpecterOps/BloodHound"
 repoUrl: "https://gitlab.com/kalilinux/packages/bloodhound"

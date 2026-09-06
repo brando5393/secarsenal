@@ -3,7 +3,7 @@ name: "ext4magic"
 tagline: "Recover deleted files from ext3 or ext4 partitions"
 categories: ["forensic-carving-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/ext4magic/"
 downloadUrl: "http://ext4magic.sf.net/ext4magic_en.html"
 repoUrl: "https://salsa.debian.org/pkg-security-team/ext4magic"

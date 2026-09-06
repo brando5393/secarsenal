@@ -3,7 +3,7 @@ name: "python-frida"
 tagline: "Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers."
 categories: ["reversing"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/reversing.html"
 downloadUrl: "https://pypi.org/project/frida/#files"
 commonlyOn: ["BlackArch"]

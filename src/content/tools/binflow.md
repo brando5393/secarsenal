@@ -3,7 +3,7 @@ name: "binflow"
 tagline: "POSIX function tracing. Much better and faster than ftrace."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/elfmaster/binflow"
 commonlyOn: ["BlackArch"]

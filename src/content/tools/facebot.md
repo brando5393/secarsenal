@@ -3,7 +3,7 @@ name: "facebot"
 tagline: "A facebook profile and reconnaissance system."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/pun1sh3r/facebot"
 commonlyOn: ["BlackArch"]

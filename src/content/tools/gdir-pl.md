@@ -3,7 +3,7 @@ name: "gdir.pl"
 tagline: "Perl wrapper on gcrypt for directory encryption/decryption."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://gitlab.com/GasparVardanyan/gdir.pl"
 commonlyOn: ["BlackArch"]

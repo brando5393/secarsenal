@@ -3,7 +3,7 @@ name: "jpegdump"
 tagline: "Tool to analyzse JPEG images Reads binary files and parses the JPEG markers inside them."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://blog.didierstevens.com/my-software/#jpegdump"
 commonlyOn: ["BlackArch"]

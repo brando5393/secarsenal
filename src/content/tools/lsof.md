@@ -3,7 +3,7 @@ name: "lsof"
 tagline: "Utility to list open files"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/lsof/"
 downloadUrl: "https://github.com/lsof-org/lsof"
 repoUrl: "https://pkg.kali.org/pkg/lsof"

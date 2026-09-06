@@ -3,7 +3,7 @@ name: "net-reactor-slayer"
 tagline: "NETReactorSlayer is a deobfuscator and unpacker for Eziriz .NET Reactor."
 categories: ["dotnet"]
 platforms: ["Windows"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://github.com/mandiant/VM-Packages/tree/main/packages/net-reactor-slayer.vm"
 downloadUrl: "https://github.com/SychicBoy/NETReactorSlayer"
 commonlyOn: ["FLARE VM"]

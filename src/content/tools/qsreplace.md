@@ -3,7 +3,7 @@ name: "qsreplace"
 tagline: "Accept URLs on stdin, replace all query string values with a user-supplied value, only output each combination of query "
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/tomnomnom/qsreplace"
 commonlyOn: ["BlackArch"]

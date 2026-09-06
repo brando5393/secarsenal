@@ -3,7 +3,7 @@ name: "vbrute-git"
 tagline: "Virtual hosts brute forcer. Specify file containing domains and file containing IPs and will attempt to connect to IP with specific domain."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/vbrute-git"
 downloadUrl: "https://github.com/nccgroup/vbrute"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "kalibrate-rtl"
 tagline: "Calculate local oscillator frequency offset using GSM base stations"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/kalibrate-rtl/"
 downloadUrl: "https://github.com/steve-m/kalibrate-rtl"
 repoUrl: "https://gitlab.com/kalilinux/packages/kalibrate-rtl"

@@ -3,7 +3,7 @@ name: "sfuzz"
 tagline: "Black Box testing utilities"
 categories: ["resource-development"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/sfuzz/"
 downloadUrl: "http://aconole.brad-x.com/programs/sfuzz.html"
 repoUrl: "https://gitlab.com/kalilinux/packages/sfuzz"

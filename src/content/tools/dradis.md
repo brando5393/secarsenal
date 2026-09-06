@@ -3,7 +3,7 @@ name: "dradis"
 tagline: "Collaboration tools for penetration testing"
 categories: ["reporting-tools","system-services"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/dradis/"
 downloadUrl: "https://dradis.com/ce/"
 repoUrl: "https://gitlab.com/kalilinux/packages/dradis"

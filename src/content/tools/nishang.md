@@ -3,7 +3,7 @@ name: "nishang"
 tagline: "Collection of PowerShell scripts and payloads"
 categories: ["execution"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/nishang/"
 downloadUrl: "https://github.com/samratashok/nishang"
 repoUrl: "https://gitlab.com/kalilinux/packages/nishang"

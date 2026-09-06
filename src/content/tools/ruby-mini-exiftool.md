@@ -3,7 +3,7 @@ name: "ruby-mini_exiftool"
 tagline: "This library is wrapper for the Exiftool command-line application (http://www.sno.phy.queensu.ca/~phil/exiftool)."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/ruby-mini_exiftool"
 downloadUrl: "https://github.com/janfri/mini_exiftool"
 commonlyOn: ["ArchStrike"]

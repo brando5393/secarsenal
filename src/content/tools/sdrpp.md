@@ -3,7 +3,7 @@ name: "sdrpp"
 tagline: "The bloat-free SDR receiver."
 categories: ["radio"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/radio.html"
 downloadUrl: "https://www.sdrpp.org"
 commonlyOn: ["BlackArch"]

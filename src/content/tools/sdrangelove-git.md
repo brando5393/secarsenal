@@ -3,7 +3,7 @@ name: "sdrangelove-git"
 tagline: "A project that allows you to control all the process inside a GNSS receiver, from the raw bits at the output of an analog-to-digital converter to the "
 categories: ["hardware"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/sdrangelove-git"
 downloadUrl: "http://sdr.osmocom.org/trac/wiki/sdrangelove"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "cr3dov3r-git"
 tagline: "Your best friend in credential reuse attacks"
 categories: ["social-engineering"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/cr3dov3r-git"
 downloadUrl: "https://github.com/D4Vinci/Cr3dOv3r"
 commonlyOn: ["ArchStrike"]

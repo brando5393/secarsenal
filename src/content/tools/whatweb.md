@@ -3,7 +3,7 @@ name: "whatweb"
 tagline: "Next generation web scanner"
 categories: ["web-vulnerability-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/whatweb/"
 downloadUrl: "https://github.com/urbanadventurer/WhatWeb"
 repoUrl: "https://pkg.kali.org/pkg/whatweb"

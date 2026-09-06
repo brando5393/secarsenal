@@ -3,7 +3,7 @@ name: "regeorg"
 tagline: "The successor to reDuh, pwn a bastion webserver and create SOCKS proxies through the DMZ. Pivot and pwn."
 categories: ["tunnel"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/tunnel.html"
 downloadUrl: "https://github.com/sensepost/reGeorg"
 commonlyOn: ["BlackArch"]

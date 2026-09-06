@@ -3,7 +3,7 @@ name: "perl-moose"
 tagline: "A postmodern object system for Perl 5"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/perl-moose"
 downloadUrl: "https://metacpan.org/pod/Moose"
 commonlyOn: ["ArchStrike"]

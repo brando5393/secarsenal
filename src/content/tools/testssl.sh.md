@@ -3,7 +3,7 @@ name: "testssl.sh"
 tagline: "Command line tool to check TLS/SSL ciphers, protocols and cryptographic flaws"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/testssl.sh/"
 downloadUrl: "https://testssl.sh/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/testssl.sh"

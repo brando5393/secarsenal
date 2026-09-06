@@ -3,7 +3,7 @@ name: "iaxflood"
 tagline: "VoIP flooder tool"
 categories: ["impact"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/iaxflood/"
 downloadUrl: "http://www.hackingexposedvoip.com/sec_tools.html"
 repoUrl: "https://gitlab.com/kalilinux/packages/iaxflood"

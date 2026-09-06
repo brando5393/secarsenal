@@ -3,7 +3,7 @@ name: "recoverjpeg"
 tagline: "Recover JFIF (JPEG) pictures and MOV movies"
 categories: ["forensic-carving-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/recoverjpeg/"
 downloadUrl: "https://www.rfc1149.net/devel/recoverjpeg"
 repoUrl: "https://salsa.debian.org/pkg-security-team/recoverjpeg"

@@ -3,7 +3,7 @@ name: "sagan"
 tagline: "A snort-like log analysis engine."
 categories: ["ids"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/ids.html"
 downloadUrl: "https://quadrantsec.com/sagan_log_analysis_engine/"
 commonlyOn: ["BlackArch"]

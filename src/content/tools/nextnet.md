@@ -3,7 +3,7 @@ name: "nextnet"
 tagline: "Pivot point discovery tool in Go"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/nextnet/"
 downloadUrl: "https://github.com/hdm/nextnet"
 repoUrl: "https://gitlab.com/kalilinux/packages/nextnet"

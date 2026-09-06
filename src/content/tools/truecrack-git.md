@@ -3,7 +3,7 @@ name: "truecrack-git"
 tagline: "Password cracking for truecrypt(c) volumes."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/truecrack-git"
 downloadUrl: "https://github.com/lvaccaro/truecrack"
 commonlyOn: ["ArchStrike"]

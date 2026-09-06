@@ -3,7 +3,7 @@ name: "thcsmartbrute"
 tagline: "A tool that finds undocumented and secret commands implemented in a smartcard."
 categories: ["crackers"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/thcsmartbrute"
 downloadUrl: "https://github.com/vanhauser-thc/THC-Archive/"
 commonlyOn: ["ArchStrike"]

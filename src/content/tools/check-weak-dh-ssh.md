@@ -3,7 +3,7 @@ name: "check-weak-dh-ssh"
 tagline: "Debian OpenSSL weak client Diffie-Hellman Exchange checker."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://packetstormsecurity.com/files/66683/check_weak_dh_ssh.pl.bz2.html"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "mousejack"
 tagline: "Wireless mouse/keyboard attack with replay/transmit poc."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "https://github.com/iamckn/mousejack_transmit"
 commonlyOn: ["BlackArch"]

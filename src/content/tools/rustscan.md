@@ -3,7 +3,7 @@ name: "rustscan"
 tagline: "Modern Port Scanner"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/rustscan/"
 downloadUrl: "https://github.com/bee-san/RustScan"
 repoUrl: "https://gitlab.com/kalilinux/packages/rustscan"

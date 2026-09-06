@@ -3,7 +3,7 @@ name: "rizin"
 tagline: "Reverse engineering framework and command-line toolset"
 categories: ["resource-development"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/rizin/"
 downloadUrl: "https://rizin.re/"
 repoUrl: "https://gitlab.com/kalilinux/packages/rizin"

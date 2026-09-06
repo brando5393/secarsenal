@@ -3,7 +3,7 @@ name: "thc-ssl-dos"
 tagline: "Stress tester for the SSL handshake"
 categories: ["impact"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/thc-ssl-dos/"
 downloadUrl: "http://www.thc.org/thc-ssl-dos/"
 repoUrl: "https://gitlab.com/kalilinux/packages/thc-ssl-dos"

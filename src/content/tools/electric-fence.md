@@ -3,7 +3,7 @@ name: "electric-fence"
 tagline: "A malloc(3) debugger that uses virtual memory hardware to detect illegal memory accesses."
 categories: ["debugger"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/debugger.html"
 downloadUrl: "https://packages.debian.org/sid/electric-fence"
 commonlyOn: ["BlackArch"]

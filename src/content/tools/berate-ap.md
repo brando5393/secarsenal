@@ -3,7 +3,7 @@ name: "berate-ap"
 tagline: "Script for orchestrating mana rogue Wi-Fi Access Points"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/berate-ap/"
 downloadUrl: "https://github.com/sensepost/berate_ap"
 repoUrl: "https://gitlab.com/kalilinux/packages/berate-ap"

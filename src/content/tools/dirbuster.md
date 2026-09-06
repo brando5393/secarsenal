@@ -3,7 +3,7 @@ name: "dirbuster"
 tagline: "Web server directory brute-forcer"
 categories: ["web-scanning","reconnaissance"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/dirbuster/"
 downloadUrl: "https://www.owasp.org/index.php/Category:OWASP_DirBuster_Project"
 repoUrl: "https://gitlab.com/kalilinux/packages/dirbuster"

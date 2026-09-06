@@ -3,7 +3,7 @@ name: "upx-ucl"
 tagline: "Efficient live-compressor for executables"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/upx-ucl/"
 downloadUrl: "https://upx.github.io/"
 repoUrl: "https://salsa.debian.org/debian/upx-ucl/"

@@ -3,7 +3,7 @@ name: "omnihash"
 tagline: "Hash files, strings, input streams and network resources in various common algorithms simultaneously."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/Miserlou/omnihash"
 commonlyOn: ["BlackArch"]

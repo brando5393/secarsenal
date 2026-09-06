@@ -3,7 +3,7 @@ name: "libdaq-static"
 tagline: "Data Acquisition library for packet I/O."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/libdaq-static"
 downloadUrl: "http://www.snort.org/"
 commonlyOn: ["ArchStrike"]

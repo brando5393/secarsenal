@@ -3,7 +3,7 @@ name: "domi-owned"
 tagline: "A tool used for compromising IBM/Lotus Domino servers."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/coldfusion39/domi-owned"
 commonlyOn: ["BlackArch"]

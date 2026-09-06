@@ -3,7 +3,7 @@ name: "log4j-scan"
 tagline: "A fully automated, accurate, and extensive scanner for finding log4j RCE CVE-44228."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/fullhunt/log4j-scan"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "hulk"
 tagline: "A webserver DoS tool (Http Unbearable Load King) ported to Go with some additional features."
 categories: ["dos"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/dos.html"
 downloadUrl: "https://github.com/grafov/hulk"
 commonlyOn: ["BlackArch"]

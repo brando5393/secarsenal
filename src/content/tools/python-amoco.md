@@ -3,7 +3,7 @@ name: "python-amoco"
 tagline: "yet another tool for analysing binaries"
 categories: ["malware"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-amoco"
 downloadUrl: "https://github.com/bdcht/amoco"
 commonlyOn: ["ArchStrike"]

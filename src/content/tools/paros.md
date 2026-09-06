@@ -3,7 +3,7 @@ name: "paros"
 tagline: "Web application proxy"
 categories: ["web-vulnerability-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/paros/"
 downloadUrl: "http://www.parosproxy.org/index.shtml"
 repoUrl: "https://gitlab.com/kalilinux/packages/paros"

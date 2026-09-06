@@ -3,7 +3,7 @@ name: "binaryninja"
 tagline: "A new kind of reversing platform (demo version)."
 categories: ["reversing"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/reversing.html"
 downloadUrl: "https://binary.ninja/free/"
 commonlyOn: ["BlackArch"]

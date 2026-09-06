@@ -3,7 +3,7 @@ name: "backhack"
 tagline: "Tool to perform Android app analysis by backing up and extracting apps, allowing you to analyze and modify file system c"
 categories: ["mobile"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/mobile.html"
 downloadUrl: "https://github.com/l0gan/backHack"
 commonlyOn: ["BlackArch"]

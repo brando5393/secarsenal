@@ -3,7 +3,7 @@ name: "ruby-highline"
 tagline: "A high-level text user interface toolkit for Ruby"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/ruby-highline"
 downloadUrl: "http://rubygems.org/gems/highline"
 commonlyOn: ["ArchStrike"]

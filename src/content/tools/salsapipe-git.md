@@ -3,7 +3,7 @@ name: "salsapipe-git"
 tagline: "Encrypted network tunneling using salsa20 from libnettle and GPG from libgpgme"
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/salsapipe-git"
 downloadUrl: "https://github.com/prurigro/salsapipe"
 commonlyOn: ["ArchStrike"]

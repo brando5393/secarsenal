@@ -3,7 +3,7 @@ name: "exiflooter"
 tagline: "Finds geolocation on all image urls and directories"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/exiflooter/"
 downloadUrl: "https://github.com/aydinnyunus/exiflooter"
 repoUrl: "https://gitlab.com/kalilinux/packages/exiflooter"

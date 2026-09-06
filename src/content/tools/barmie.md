@@ -3,7 +3,7 @@ name: "barmie"
 tagline: "Java RMI enumeration and attack tool."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/NickstaDB/BaRMIe"
 commonlyOn: ["BlackArch"]

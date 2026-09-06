@@ -3,7 +3,7 @@ name: "Elasticsearch"
 tagline: "An index template is a way to tell Elasticsearch how to configure an index when it is created."
 categories: ["network-security-monitoring"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.securityonion.net/en/2.4/elasticsearch.html#elasticsearch"
 downloadUrl: "https://www.elastic.co/guide/en/elasticsearch/reference/current/index-templates.html"
 commonlyOn: ["Security Onion"]

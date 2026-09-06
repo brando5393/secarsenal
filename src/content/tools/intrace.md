@@ -3,7 +3,7 @@ name: "intrace"
 tagline: "Traceroute-like application piggybacking on existing TCP connections"
 categories: ["system-network-configuration-discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/intrace/"
 downloadUrl: "https://github.com/robertswiecki/intrace"
 repoUrl: "https://gitlab.com/kalilinux/packages/intrace"

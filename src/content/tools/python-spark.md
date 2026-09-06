@@ -3,7 +3,7 @@ name: "python-spark"
 tagline: "An Early-Algorithm Context-free grammar Parser"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-spark"
 downloadUrl: "https://github.com/rocky/python-spark/"
 commonlyOn: ["ArchStrike"]

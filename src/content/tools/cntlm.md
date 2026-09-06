@@ -3,7 +3,7 @@ name: "cntlm"
 tagline: "Fast NTLM authentication proxy with tunneling"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/cntlm/"
 downloadUrl: "https://github.com/versat/cntlm/"
 repoUrl: "https://salsa.debian.org/debian/cntlm"

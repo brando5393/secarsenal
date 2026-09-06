@@ -3,7 +3,7 @@ name: "zulu"
 tagline: "A light weight 802.11 wireless frame generation tool to enable fast and easy debugging and probing of 802.11 networks."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://sourceforge.net/projects/zulu-wireless/"
 commonlyOn: ["BlackArch"]

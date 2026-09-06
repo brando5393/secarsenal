@@ -3,7 +3,7 @@ name: "hashcat"
 tagline: "World’s fastest and most advanced password recovery utility"
 categories: ["password-cracking","credential-access"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/hashcat/"
 downloadUrl: "https://hashcat.net/hashcat/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/hashcat"

@@ -3,7 +3,7 @@ name: "setowner"
 tagline: "Allows you to set file ownership to any account, as long as you have the \"Restore files and directories\" user right."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://ntsecurity.nu/toolbox/setowner/"
 commonlyOn: ["BlackArch"]

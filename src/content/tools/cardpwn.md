@@ -3,7 +3,7 @@ name: "cardpwn"
 tagline: "OSINT Tool to find Breached Credit Cards Information."
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://github.com/itsmehacker/CardPwn"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "fi6s"
 tagline: "IPv6 network scanner designed to be fast."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/sfan5/fi6s"
 commonlyOn: ["BlackArch"]

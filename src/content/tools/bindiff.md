@@ -3,7 +3,7 @@ name: "bindiff"
 tagline: "A comparison tool for binary files, that assists vulnerability researchers and engineers to quickly find differences and"
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "http://www.zynamics.com/bindiff.html"
 commonlyOn: ["BlackArch"]

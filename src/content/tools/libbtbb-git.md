@@ -3,7 +3,7 @@ name: "libbtbb-git"
 tagline: "A library to decode Bluetooth baseband packets, as produced by the Ubertooth and GR-Bluetooth projects."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/libbtbb-git"
 downloadUrl: "https://github.com/greatscottgadgets/libbtbb"
 commonlyOn: ["ArchStrike"]

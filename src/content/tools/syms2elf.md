@@ -3,7 +3,7 @@ name: "syms2elf"
 tagline: "A plugin for Hex-Ray's IDA Pro and radare2 to export the symbols recognized to the ELF symbol table."
 categories: ["reversing"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/reversing.html"
 downloadUrl: "https://github.com/danigargu/syms2elf"
 commonlyOn: ["BlackArch"]

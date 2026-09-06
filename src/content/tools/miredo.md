@@ -3,7 +3,7 @@ name: "miredo"
 tagline: "Teredo IPv6 tunneling through NATs"
 categories: ["protocol-tunneling"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/miredo/"
 downloadUrl: "http://www.remlab.net/miredo/"
 repoUrl: "https://salsa.debian.org/debian/miredo"

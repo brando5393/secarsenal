@@ -3,7 +3,7 @@ name: "thc-ipv6"
 tagline: "The Hacker Choice’s IPv6 Attack Toolkit"
 categories: ["remote-system-discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/thc-ipv6/"
 downloadUrl: "http://www.thc.org/thc-ipv6/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/thc-ipv6"

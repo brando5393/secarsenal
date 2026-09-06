@@ -3,7 +3,7 @@ name: "zerowine"
 tagline: "Malware Analysis Tool - research project to dynamically analyze the behavior of malware"
 categories: ["malware"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/malware.html"
 downloadUrl: "http://zerowine.sf.net/"
 commonlyOn: ["BlackArch"]

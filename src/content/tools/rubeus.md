@@ -3,7 +3,7 @@ name: "rubeus"
 tagline: "Raw Kerberos interaction and abuses"
 categories: ["pass-the-hash","os-credential-dumping"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/rubeus/"
 downloadUrl: "https://github.com/GhostPack/Rubeus"
 repoUrl: "https://gitlab.com/kalilinux/packages/rubeus"

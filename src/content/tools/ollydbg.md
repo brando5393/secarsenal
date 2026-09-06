@@ -3,7 +3,7 @@ name: "ollydbg"
 tagline: "32-bit assembler level analysing debugger"
 categories: ["resource-development"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/ollydbg/"
 downloadUrl: "http://www.ollydbg.de/"
 repoUrl: "https://gitlab.com/kalilinux/packages/ollydbg"

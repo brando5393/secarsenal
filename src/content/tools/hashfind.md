@@ -3,7 +3,7 @@ name: "hashfind"
 tagline: "A tool to search files for matching password hash types and other interesting data."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/rurapenthe/hashfind"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "cvemap"
 tagline: "CLI tool designed to provide a structured and easily navigable interface to various vulnerability databases."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/projectdiscovery/cvemap"
 commonlyOn: ["BlackArch"]

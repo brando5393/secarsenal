@@ -3,7 +3,7 @@ name: "elettra"
 tagline: "A plausible deniable cryptography tool that supports a dynamic number of files and requires a password for each file."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://www.winstonsmith.info/julia/elettra/"
 commonlyOn: ["BlackArch"]

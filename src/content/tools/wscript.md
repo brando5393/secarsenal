@@ -3,10 +3,11 @@ name: "wscript"
 tagline: "Emulator/tracer of the Windows Script Host functionality."
 categories: ["code-audit"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/code-audit.html"
+downloadUrl: "https://github.com/mrpapercut/wscript"
 commonlyOn: ["BlackArch"]
-gettingStarted: "Install on BlackArch with `pacman -S wscript` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."
+gettingStarted: "Install on BlackArch with `pacman -S wscript` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
 ---
 
 Emulator/tracer of the Windows Script Host functionality.

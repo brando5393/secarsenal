@@ -3,7 +3,7 @@ name: "python-pypykatz-git"
 tagline: "Mimikatz implementation in pure Python"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-pypykatz-git"
 downloadUrl: "https://github.com/AlessandroZ/pypykatz"
 commonlyOn: ["ArchStrike"]

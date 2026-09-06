@@ -3,7 +3,7 @@ name: "sqldict"
 tagline: "Dictionary attack tool for SQL Server"
 categories: ["brute-force"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/sqldict/"
 downloadUrl: "https://ntsecurity.nu/toolbox/sqldict/"
 repoUrl: "https://gitlab.com/kalilinux/packages/sqldict"

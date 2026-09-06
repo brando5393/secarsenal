@@ -3,7 +3,7 @@ name: "rpak"
 tagline: "A collection of tools that can be useful for doing attacks on routing protocols."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 commonlyOn: ["BlackArch"]
 gettingStarted: "Install on BlackArch with `pacman -S rpak` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."

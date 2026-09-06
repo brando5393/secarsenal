@@ -3,7 +3,7 @@ name: "carwhisperer"
 tagline: "Sensibilise manufacturers of carkits and other Bluetooth appliances without display and keyboard for the possible securi"
 categories: ["bluetooth"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/bluetooth.html"
 downloadUrl: "https://trifinite.org/stuff/carwhisperer/"
 commonlyOn: ["BlackArch"]

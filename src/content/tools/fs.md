@@ -3,7 +3,7 @@ name: "fs"
 tagline: "Filesystem abstraction layer"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/fs"
 downloadUrl: "http://pyfilesystem.org"
 commonlyOn: ["ArchStrike"]

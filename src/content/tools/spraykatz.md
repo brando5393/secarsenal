@@ -3,7 +3,7 @@ name: "spraykatz"
 tagline: "Tool able to retrieve credentials on Windows machines"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/spraykatz/"
 downloadUrl: "https://github.com/aas-n/spraykatz"
 repoUrl: "https://gitlab.com/kalilinux/packages/spraykatz"

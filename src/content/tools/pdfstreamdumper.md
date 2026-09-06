@@ -3,7 +3,7 @@ name: "pdfstreamdumper"
 tagline: "PDFStreamDumper is a free, open source tool to analyze malicious PDF documents."
 categories: ["documents"]
 platforms: ["Windows"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://github.com/mandiant/VM-Packages/tree/main/packages/pdfstreamdumper.vm"
 downloadUrl: "https://github.com/zha0/pdfstreamdumper"
 commonlyOn: ["FLARE VM"]

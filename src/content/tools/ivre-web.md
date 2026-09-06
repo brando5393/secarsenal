@@ -3,7 +3,7 @@ name: "ivre-web"
 tagline: "Network recon framework based on Nmap, Masscan, Zeek (Bro), Argus, Netflow,... (web application)"
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://ivre.rocks/"
 commonlyOn: ["BlackArch"]

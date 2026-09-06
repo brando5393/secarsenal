@@ -3,7 +3,7 @@ name: "moloch"
 tagline: "An open source large scale IPv4 full PCAP capturing, indexing and database system."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/aol/moloch"
 commonlyOn: ["BlackArch"]

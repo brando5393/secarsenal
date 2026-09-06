@@ -3,7 +3,7 @@ name: "mc"
 tagline: "Midnight Commander - a powerful file manager"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/mc/"
 downloadUrl: "https://www.midnight-commander.org"
 repoUrl: "https://salsa.debian.org/debian/mc"

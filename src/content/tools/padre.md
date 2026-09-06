@@ -3,7 +3,7 @@ name: "padre"
 tagline: "Padding Oracle attack tool."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/glebarez/padre"
 commonlyOn: ["BlackArch"]

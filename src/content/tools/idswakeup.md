@@ -3,7 +3,7 @@ name: "idswakeup"
 tagline: "A collection of tools that allows to test network intrusion detection systems."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "http://www.hsc.fr/ressources/outils/idswakeup/index.html.en"
 commonlyOn: ["BlackArch"]

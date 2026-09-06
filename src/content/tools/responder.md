@@ -3,7 +3,7 @@ name: "responder"
 tagline: "LLMNR/NBT-NS/mDNS Poisoner"
 categories: ["credential-access"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/responder/"
 downloadUrl: "https://github.com/lgandx/Responder"
 repoUrl: "https://gitlab.com/kalilinux/packages/responder"

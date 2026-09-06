@@ -3,7 +3,7 @@ name: "cachedump"
 tagline: "A tool that demonstrates how to recover cache entry information: username and hashed password (called MSCASH)."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://packetstormsecurity.com/files/36781/cachedump.1.zip.html"
 commonlyOn: ["BlackArch"]

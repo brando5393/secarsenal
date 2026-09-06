@@ -3,7 +3,7 @@ name: "merlin"
 tagline: "Command & Control server & agent (metapackage)"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/merlin/"
 downloadUrl: "https://github.com/Ne0nd0g/merlin"
 repoUrl: "https://gitlab.com/kalilinux/packages/merlin"

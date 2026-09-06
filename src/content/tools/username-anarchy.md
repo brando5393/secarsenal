@@ -3,7 +3,7 @@ name: "username-anarchy"
 tagline: "Tools for generating usernames when penetration testing."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "http://www.morningstarsecurity.com/research/username-anarchy"
 commonlyOn: ["BlackArch"]

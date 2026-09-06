@@ -3,10 +3,11 @@ name: "juumla"
 tagline: "Python tool created to identify Joomla version, scan for vulnerabilities and search for config files."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
+downloadUrl: "https://github.com/oppsec/juumla"
 commonlyOn: ["BlackArch"]
-gettingStarted: "Install on BlackArch with `pacman -S juumla` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."
+gettingStarted: "Install on BlackArch with `pacman -S juumla` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
 ---
 
 Python tool created to identify Joomla version, scan for vulnerabilities and search for config files.

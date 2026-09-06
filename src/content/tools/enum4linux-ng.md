@@ -3,7 +3,7 @@ name: "enum4linux-ng"
 tagline: "Next generation version of enum4linux"
 categories: ["network-share-discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/enum4linux-ng/"
 downloadUrl: "https://github.com/cddmp/enum4linux-ng"
 repoUrl: "https://gitlab.com/kalilinux/packages/enum4linux-ng"

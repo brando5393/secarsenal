@@ -3,7 +3,7 @@ name: "garminplugin"
 tagline: "Garmin Communicator Plugin for Linux"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/garminplugin"
 downloadUrl: "https://adiesner.github.io/GarminPlugin/"
 commonlyOn: ["ArchStrike"]

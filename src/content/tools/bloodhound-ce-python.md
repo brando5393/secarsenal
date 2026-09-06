@@ -3,7 +3,7 @@ name: "bloodhound-ce-python"
 tagline: "Python based ingestor for BloodHound CE"
 categories: ["active-directory"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/bloodhound-ce-python/"
 downloadUrl: "https://github.com/dirkjanm/BloodHound.py/tree/bloodhound-ce"
 repoUrl: "https://gitlab.com/kalilinux/packages/bloodhound-ce-python"

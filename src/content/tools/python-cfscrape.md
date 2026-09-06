@@ -3,7 +3,7 @@ name: "python-cfscrape"
 tagline: "A Python module to bypass Cloudflare's anti-bot page"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-cfscrape"
 downloadUrl: "https://github.com/Anorov/cloudflare-scrape"
 commonlyOn: ["ArchStrike"]

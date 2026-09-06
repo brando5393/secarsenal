@@ -3,7 +3,7 @@ name: "sqlping"
 tagline: "SQL Server scanning tool that also checks for weak passwords using wordlists."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://www.sqlsecurity.com/downloads"
 commonlyOn: ["BlackArch"]

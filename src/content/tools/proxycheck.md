@@ -3,7 +3,7 @@ name: "proxycheck"
 tagline: "This is a simple proxy tool that checks for the HTTP CONNECT method and grabs verbose output from a webserver."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://packetstormsecurity.com/files/61864/proxycheck.pl.txt.html"
 commonlyOn: ["BlackArch"]

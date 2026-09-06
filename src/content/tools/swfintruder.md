@@ -3,7 +3,7 @@ name: "swfintruder"
 tagline: "First tool for testing security in Flash movies. A runtime analyzer for SWF external movies. It helps to find flaws in F"
 categories: ["reversing"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/reversing.html"
 downloadUrl: "http://code.google.com/p/swfintruder/"
 commonlyOn: ["BlackArch"]

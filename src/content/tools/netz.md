@@ -3,7 +3,7 @@ name: "netz"
 tagline: "Discover internet-wide misconfigurations while drinking coffee."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/spectralops/netz"
 commonlyOn: ["BlackArch"]

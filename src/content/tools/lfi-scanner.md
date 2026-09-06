@@ -3,7 +3,7 @@ name: "lfi-scanner"
 tagline: "This is a simple perl script that enumerates local file inclusion attempts when given a specific target."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://packetstormsecurity.com/files/102848/LFI-Scanner.0.html"
 commonlyOn: ["BlackArch"]

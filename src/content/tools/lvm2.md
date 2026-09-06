@@ -3,7 +3,7 @@ name: "lvm2"
 tagline: "Linux Logical Volume Manager"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/lvm2/"
 downloadUrl: "https://sourceware.org/lvm2/"
 repoUrl: "https://salsa.debian.org/lvm-team/lvm2"

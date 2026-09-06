@@ -4,7 +4,7 @@ tagline: "Analyze binary files using a hex editor, disassembler, and file dissec
 categories: ["general"]
 platforms: ["Linux"]
 license: "Proprietary (Lite edition free)"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/general"
 downloadUrl: "https://malcat.fr"
 commonlyOn: ["REMnux"]

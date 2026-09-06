@@ -4,7 +4,7 @@ tagline: "Query public repositories of malware data (e.g., VirusTotal, HybridAna
 categories: ["gather-and-analyze-data"]
 platforms: ["Linux"]
 license: "GNU General Public License v3"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/gather+and+analyze+data"
 downloadUrl: "https://github.com/alexandreborges/malwoverview"
 commonlyOn: ["REMnux"]

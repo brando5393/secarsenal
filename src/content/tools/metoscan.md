@@ -3,7 +3,7 @@ name: "metoscan"
 tagline: "Tool for scanning the HTTP methods supported by a webserver."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "http://www.open-labs.org/"
 commonlyOn: ["BlackArch"]

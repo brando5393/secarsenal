@@ -3,7 +3,7 @@ name: "cisco-torch"
 tagline: "Cisco device scanner"
 categories: ["cisco-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/cisco-torch/"
 repoUrl: "https://gitlab.com/kalilinux/packages/cisco-torch"
 commonlyOn: ["Kali Linux"]

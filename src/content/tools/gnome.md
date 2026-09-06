@@ -3,7 +3,7 @@ name: "GNOME"
 tagline: "an intuitive and attractive desktop environment"
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://tails.net/doc/about/features/index.en.html"
 downloadUrl: "http://www.gnome.org"
 commonlyOn: ["Tails"]

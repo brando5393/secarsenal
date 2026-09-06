@@ -3,7 +3,7 @@ name: "joplin"
 tagline: "Open source note taking and to-do application"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/joplin/"
 downloadUrl: "https://github.com/laurent22/joplin"
 repoUrl: "https://gitlab.com/kalilinux/packages/joplin"

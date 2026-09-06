@@ -3,7 +3,7 @@ name: "bkcrack"
 tagline: "Crack legacy zip encryption with Biham and Kocher known plaintext attack."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/kimci86/bkcrack"
 commonlyOn: ["BlackArch"]

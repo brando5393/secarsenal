@@ -3,7 +3,7 @@ name: "python-pluginbase"
 tagline: "A support library for building plugins sytems in Python."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-pluginbase"
 downloadUrl: "http://github.com/mitsuhiko/pluginbase"
 commonlyOn: ["ArchStrike"]

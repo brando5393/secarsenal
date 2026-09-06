@@ -3,7 +3,7 @@ name: "powerupsql-git"
 tagline: "Powershell Toolkit for Attacking SQL Server"
 categories: ["webapps"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/powerupsql-git"
 downloadUrl: "https://github.com/NetSPI/PowerUpSQL"
 commonlyOn: ["ArchStrike"]

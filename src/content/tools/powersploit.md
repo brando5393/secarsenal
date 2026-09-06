@@ -3,7 +3,7 @@ name: "powersploit"
 tagline: "PowerShell Post-Exploitation Framework"
 categories: ["execution"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/powersploit/"
 downloadUrl: "https://github.com/PowerShellMafia/PowerSploit"
 repoUrl: "https://gitlab.com/kalilinux/packages/powersploit"

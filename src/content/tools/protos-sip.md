@@ -3,7 +3,7 @@ name: "protos-sip"
 tagline: "SIP test suite"
 categories: ["voip"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/protos-sip/"
 downloadUrl: "https://www.ee.oulu.fi/research/ouspg/PROTOS_Test-Suite_c07-sip"
 repoUrl: "https://gitlab.com/kalilinux/packages/protos-sip"

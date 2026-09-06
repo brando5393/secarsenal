@@ -4,7 +4,7 @@ tagline: "Restrict outbound network access to an allowlist of domains and CIDRs 
 categories: ["general-utilities"]
 platforms: ["Linux"]
 license: "MIT"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/general+utilities"
 downloadUrl: "https://github.com/REMnux/distro/blob/master/files/restrict-egress"
 commonlyOn: ["REMnux"]

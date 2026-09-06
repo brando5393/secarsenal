@@ -3,7 +3,7 @@ name: "pth-toolkit"
 tagline: "Modified version of the passing-the-hash tool collection made to work straight out of the box."
 categories: ["sniffer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/sniffer.html"
 downloadUrl: "https://github.com/byt3bl33d3r/pth-toolkit"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "hasher"
 tagline: "A tool that allows you to quickly hash plaintext strings, or compare hashed values with a plaintext locally."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/ChrisTruncer/Hasher"
 commonlyOn: ["BlackArch"]

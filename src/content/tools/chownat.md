@@ -3,7 +3,7 @@ name: "chownat"
 tagline: "Allows two peers behind two separate NATs with no port forwarding and no DMZ setup on their routers to directly communic"
 categories: ["tunnel"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/tunnel.html"
 downloadUrl: "http://samy.pl/chownat/"
 commonlyOn: ["BlackArch"]

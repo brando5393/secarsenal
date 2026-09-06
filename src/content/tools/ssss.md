@@ -3,7 +3,7 @@ name: "ssss"
 tagline: "Split and Combine Secrets using Shamir's Secret Sharing Scheme"
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/ssss"
 downloadUrl: "http://point-at-infinity.org/ssss/"
 commonlyOn: ["ArchStrike"]

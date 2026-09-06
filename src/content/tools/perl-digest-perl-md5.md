@@ -3,7 +3,7 @@ name: "perl-digest-perl-md5"
 tagline: "Perl implementation of Ron Rivests MD5 Algorithm"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/perl-digest-perl-md5"
 downloadUrl: "https://metacpan.org/pod/Digest::Perl::MD5"
 commonlyOn: ["ArchStrike"]

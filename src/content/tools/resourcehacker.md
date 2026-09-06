@@ -3,7 +3,7 @@ name: "resourcehacker"
 tagline: "Resource compiler and decompiler for Windows® applications."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://www.angusj.com/resourcehacker/"
 commonlyOn: ["BlackArch"]

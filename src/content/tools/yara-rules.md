@@ -4,7 +4,7 @@ tagline: "Scan a file with YARA rules to identify capabilities and behaviors (pa
 categories: ["general"]
 platforms: ["Linux"]
 license: "GNU General Public License (GPL) v2"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/general"
 downloadUrl: "https://github.com/Yara-Rules/rules"
 commonlyOn: ["REMnux"]

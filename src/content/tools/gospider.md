@@ -3,7 +3,7 @@ name: "gospider"
 tagline: "Fast web spider written in Go"
 categories: ["web-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/gospider/"
 downloadUrl: "https://github.com/jaeles-project/gospider"
 repoUrl: "https://gitlab.com/kalilinux/packages/gospider"

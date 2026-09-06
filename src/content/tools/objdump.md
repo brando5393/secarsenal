@@ -4,7 +4,7 @@ tagline: "Disassemble binary files."
 categories: ["general"]
 platforms: ["Linux"]
 license: "GNU General Public License (GPL)"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/statically+analyze+code/general"
 downloadUrl: "https://en.wikipedia.org/wiki/Objdump"
 commonlyOn: ["REMnux"]

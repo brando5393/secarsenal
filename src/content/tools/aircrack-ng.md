@@ -3,7 +3,7 @@ name: "aircrack-ng"
 tagline: "Wireless WEP/WPA cracking utilities"
 categories: ["wifi-credential-access"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/aircrack-ng/"
 downloadUrl: "https://www.aircrack-ng.org/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/aircrack-ng"

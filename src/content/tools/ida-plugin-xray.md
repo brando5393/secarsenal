@@ -3,7 +3,7 @@ name: "ida.plugin.xray"
 tagline: "xray is an IDAPython plugin that filters and colorizes Hexrays decompiler output based on regular expressions to highlight interesting code patterns."
 categories: ["ida-plugins"]
 platforms: ["Windows"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://github.com/mandiant/VM-Packages/tree/main/packages/ida.plugin.xray.vm"
 downloadUrl: "https://github.com/patois/xray"
 commonlyOn: ["FLARE VM"]

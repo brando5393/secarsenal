@@ -4,7 +4,7 @@ tagline: "Examine images to identify and extract text using optical character re
 categories: ["general"]
 platforms: ["Linux"]
 license: "Apache License 2.0"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/analyze+documents/general"
 downloadUrl: "https://github.com/tesseract-ocr/tesseract"
 commonlyOn: ["REMnux"]

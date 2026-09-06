@@ -3,7 +3,7 @@ name: "quickrecon"
 tagline: "A python script for simple information gathering. It attempts to find subdomain names, perform zone transfers and gather"
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "http://packetstormsecurity.com/files/104314/QuickRecon.3.2.html"
 commonlyOn: ["BlackArch"]

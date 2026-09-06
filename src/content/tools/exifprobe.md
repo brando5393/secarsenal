@@ -3,7 +3,7 @@ name: "exifprobe"
 tagline: "Read metadata from digital pictures"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/exifprobe/"
 downloadUrl: "https://github.com/hfiguiere/exifprobe"
 repoUrl: "https://salsa.debian.org/pkg-security-team/exifprobe"

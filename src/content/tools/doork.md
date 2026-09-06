@@ -3,7 +3,7 @@ name: "doork"
 tagline: "Passive Vulnerability Auditor."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/AeonDave/doork"
 commonlyOn: ["BlackArch"]

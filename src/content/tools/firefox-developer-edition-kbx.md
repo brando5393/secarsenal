@@ -3,7 +3,7 @@ name: "firefox-developer-edition-kbx"
 tagline: "Mozilla Firefox web browser - Developer Edition - en-US"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/firefox-developer-edition-kbx/"
 downloadUrl: "https://www.mozilla.org/en-US/firefox/developer/"
 repoUrl: "https://gitlab.com/kalilinux/packages/firefox-developer-edition-kbx"

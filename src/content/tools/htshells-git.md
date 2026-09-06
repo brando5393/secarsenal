@@ -3,7 +3,7 @@ name: "htshells-git"
 tagline: "Self contained web shells and other attacks via .htaccess files."
 categories: ["exploit"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/htshells-git"
 downloadUrl: "https://github.com/wireghoul/htshells"
 commonlyOn: ["ArchStrike"]

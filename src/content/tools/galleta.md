@@ -3,7 +3,7 @@ name: "galleta"
 tagline: "Internet Explorer cookie forensic analysis tool"
 categories: ["forensics"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/galleta/"
 downloadUrl: "https://odessa.sourceforge.net/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/galleta"

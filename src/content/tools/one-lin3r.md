@@ -3,7 +3,7 @@ name: "one-lin3r"
 tagline: "Gives you one-liners that aids in penetration testing and more."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/D4Vinci/One-Lin3r"
 commonlyOn: ["BlackArch"]

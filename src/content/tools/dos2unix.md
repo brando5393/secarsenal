@@ -3,7 +3,7 @@ name: "dos2unix"
 tagline: "Convert text file line endings between CRLF and LF"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/dos2unix/"
 downloadUrl: "https://waterlan.home.xs4all.nl/dos2unix.html"
 repoUrl: "https://salsa.debian.org/debian/dos2unix"

@@ -3,7 +3,7 @@ name: "curl"
 tagline: "Command line tool for transferring data with URL syntax"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/curl/"
 downloadUrl: "https://curl.se/"
 repoUrl: "https://salsa.debian.org/debian/curl"

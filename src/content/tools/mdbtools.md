@@ -3,7 +3,7 @@ name: "mdbtools"
 tagline: "JET / MS Access database (MDB) tools"
 categories: ["databases"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/mdbtools/"
 downloadUrl: "https://github.com/mdbtools/mdbtools"
 repoUrl: "https://salsa.debian.org/debian/mdbtools"

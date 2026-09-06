@@ -3,7 +3,7 @@ name: "ghidra"
 tagline: "Software Reverse Engineering Framework"
 categories: ["resource-development"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/ghidra/"
 downloadUrl: "https://github.com/NationalSecurityAgency/ghidra"
 repoUrl: "https://gitlab.com/kalilinux/packages/ghidra"

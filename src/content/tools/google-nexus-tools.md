@@ -3,7 +3,7 @@ name: "google-nexus-tools"
 tagline: "ADB and Fastboot for use with Nexus devices"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/google-nexus-tools/"
 downloadUrl: "https://github.com/corbindavenport/nexus-tools"
 repoUrl: "https://gitlab.com/kalilinux/packages/google-nexus-tools"

@@ -3,7 +3,7 @@ name: "evil-winrm"
 tagline: "Ultimate WinRM shell for hacking/pentesting"
 categories: ["pass-the-hash","lateral-movement","application-layer-protocol"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/evil-winrm/"
 downloadUrl: "https://github.com/Hackplayers/evil-winrm"
 repoUrl: "https://gitlab.com/kalilinux/packages/evil-winrm"

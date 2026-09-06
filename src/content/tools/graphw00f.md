@@ -3,10 +3,11 @@ name: "graphw00f"
 tagline: "GraphQL endpoint detection and engine fingerprinting."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
+downloadUrl: "https://github.com/dolevf/graphw00f"
 commonlyOn: ["BlackArch"]
-gettingStarted: "Install on BlackArch with `pacman -S graphw00f` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."
+gettingStarted: "Install on BlackArch with `pacman -S graphw00f` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
 ---
 
 GraphQL endpoint detection and engine fingerprinting.

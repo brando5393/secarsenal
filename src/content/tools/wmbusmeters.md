@@ -3,7 +3,7 @@ name: "wmbusmeters"
 tagline: "Read the wired or wireless mbus protocol to acquire utility meter readings."
 categories: ["radio"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/radio.html"
 downloadUrl: "https://github.com/wmbusmeters/wmbusmeters"
 commonlyOn: ["BlackArch"]

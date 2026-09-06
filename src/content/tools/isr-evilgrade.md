@@ -3,7 +3,7 @@ name: "isr-evilgrade"
 tagline: "Evilgrade framework"
 categories: ["execution"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/isr-evilgrade/"
 downloadUrl: "https://github.com/infobyte/evilgrade"
 repoUrl: "https://gitlab.com/kalilinux/packages/isr-evilgrade"

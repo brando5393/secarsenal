@@ -3,7 +3,7 @@ name: "hotpatch"
 tagline: "Hot patches Linux executables with .so file injection"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/hotpatch/"
 downloadUrl: "https://github.com/vikasnkumar/hotpatch"
 repoUrl: "https://gitlab.com/kalilinux/packages/hotpatch"

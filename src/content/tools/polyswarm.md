@@ -3,7 +3,7 @@ name: "polyswarm"
 tagline: "An interface to the public and private PolySwarm APIs."
 categories: ["malware"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/malware.html"
 downloadUrl: "https://github.com/polyswarm/polyswarm-api"
 commonlyOn: ["BlackArch"]

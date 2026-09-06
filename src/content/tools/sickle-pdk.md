@@ -3,7 +3,7 @@ name: "sickle-pdk"
 tagline: "Payload development kit"
 categories: ["resource-development"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/sickle-pdk/"
 downloadUrl: "https://github.com/wetw0rk/sickle-pdk"
 repoUrl: "https://gitlab.com/kalilinux/packages/sickle-pdk"

@@ -3,7 +3,7 @@ name: "cloudfail"
 tagline: "Utilize misconfigured DNS and old database records to find hidden IP's behind the CloudFlare network."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/m0rtem/CloudFail"
 commonlyOn: ["BlackArch"]

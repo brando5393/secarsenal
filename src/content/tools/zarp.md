@@ -3,7 +3,7 @@ name: "zarp"
 tagline: "A network attack tool centered around the exploitation of local networks."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/hatRiot/zarp"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "axel"
 tagline: "Light command line download accelerator"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/axel/"
 downloadUrl: "https://github.com/axel-download-accelerator/axel"
 repoUrl: "https://salsa.debian.org/debian/axel"

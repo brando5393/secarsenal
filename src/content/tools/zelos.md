@@ -3,7 +3,7 @@ name: "zelos"
 tagline: "A comprehensive binary emulation and instrumentation platform."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/zeropointdynamics/zelos"
 commonlyOn: ["BlackArch"]

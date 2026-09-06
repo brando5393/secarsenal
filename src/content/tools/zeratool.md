@@ -3,7 +3,7 @@ name: "zeratool"
 tagline: "Automatic Exploit Generation (AEG) and remote flag capture for exploitable CTF problems."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/ChrisTheCoolHut/Zeratool"
 commonlyOn: ["BlackArch"]

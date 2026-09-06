@@ -3,7 +3,7 @@ name: "netattack"
 tagline: "Python script to scan and attack wireless networks."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "https://github.com/chrizator/netattack2"
 commonlyOn: ["BlackArch"]

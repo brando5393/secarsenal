@@ -3,7 +3,7 @@ name: "goldeneye-git"
 tagline: "Modular framework that takes advantage of poor upgrade implementations by injecting fake updates"
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/goldeneye-git"
 downloadUrl: "https://github.com/jseidl/GoldenEye"
 commonlyOn: ["ArchStrike"]

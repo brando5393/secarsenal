@@ -3,7 +3,7 @@ name: "perl-digest-md4"
 tagline: "Digest::MD4::Perl - Perl interface to the MD4 Algorithm"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/perl-digest-md4"
 downloadUrl: "https://metacpan.org/pod/Digest::MD4"
 commonlyOn: ["ArchStrike"]

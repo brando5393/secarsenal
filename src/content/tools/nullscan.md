@@ -3,7 +3,7 @@ name: "nullscan"
 tagline: "A modular framework designed to chain and automate security tests."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "http://www.nullsecurity.net/tools/automation.html"
 commonlyOn: ["BlackArch"]

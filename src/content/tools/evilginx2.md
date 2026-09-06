@@ -3,7 +3,7 @@ name: "evilginx2"
 tagline: "Man-in-the-middle attack framework"
 categories: ["collection"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/evilginx2/"
 downloadUrl: "https://github.com/kgretzky/evilginx2"
 repoUrl: "https://gitlab.com/kalilinux/packages/evilginx2"

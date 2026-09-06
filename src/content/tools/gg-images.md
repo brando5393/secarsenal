@@ -3,7 +3,7 @@ name: "gg-images"
 tagline: "The application was created to allow anyone to easily download profile pictures from GG."
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://codeberg.org/nanoory/gg_images"
 commonlyOn: ["BlackArch"]

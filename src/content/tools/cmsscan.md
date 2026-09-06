@@ -3,7 +3,7 @@ name: "cmsscan"
 tagline: "CMS scanner to identify and find vulnerabilities for Wordpress, Drupal, Joomla, vBulletin."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/ajinabraham/CMSScan"
 commonlyOn: ["BlackArch"]

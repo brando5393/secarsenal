@@ -3,7 +3,7 @@ name: "dumpusers"
 tagline: "Dumps account names and information even though RestrictAnonymous has been set to 1."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://vidstromlabs.com/freetools/dumpusers/"
 commonlyOn: ["BlackArch"]

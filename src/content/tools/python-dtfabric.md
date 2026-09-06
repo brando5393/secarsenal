@@ -3,7 +3,7 @@ name: "python-dtfabric"
 tagline: "Tooling for data type and structure management"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-dtfabric"
 downloadUrl: "https://github.com/libyal/dtfabric"
 commonlyOn: ["ArchStrike"]

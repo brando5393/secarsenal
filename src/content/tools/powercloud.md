@@ -3,7 +3,7 @@ name: "powercloud"
 tagline: "Deliver powershell payloads via DNS TXT via CloudFlare using PowerShell."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/mantvydasb/Invoke-PowerCloud"
 commonlyOn: ["BlackArch"]

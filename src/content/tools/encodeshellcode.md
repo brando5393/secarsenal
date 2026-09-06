@@ -3,7 +3,7 @@ name: "encodeshellcode"
 tagline: "This is an encoding tool for 32-bit x86 shellcode that assists a researcher when dealing with character filter or byte r"
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "http://packetstormsecurity.com/files/119904/Encode-Shellcode.1b.html"
 commonlyOn: ["BlackArch"]

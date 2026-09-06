@@ -3,7 +3,7 @@ name: "pixiewps"
 tagline: "Offline WPS bruteforce tool"
 categories: ["wifi-credential-access"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/pixiewps/"
 downloadUrl: "https://github.com/wiire/pixiewps"
 repoUrl: "https://salsa.debian.org/pkg-security-team/pixiewps"

@@ -3,7 +3,7 @@ name: "http-traceroute"
 tagline: "This is a python script that uses the Max-Forwards header in HTTP and SIP to perform a traceroute-like scanning function"
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "http://packetstormsecurity.com/files/107167/Traceroute-Like-HTTP-Scanner.html"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "cadaver"
 tagline: "Command-line WebDAV client"
 categories: ["application-layer-protocol"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/cadaver/"
 downloadUrl: "https://github.com/notroj/cadaver"
 repoUrl: "https://salsa.debian.org/debian/cadaver"

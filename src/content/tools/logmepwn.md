@@ -3,7 +3,7 @@ name: "logmepwn"
 tagline: "A fully automated, reliable, super-fast, mass scanning and validation toolkit for the Log4J RCE CVE-44228 vulnerability."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/0xInfection/LogMePwn"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "slowhttptest"
 tagline: "Application layer Denial of Service attacks simulation tool"
 categories: ["impact"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/slowhttptest/"
 downloadUrl: "https://github.com/shekyan/slowhttptest"
 repoUrl: "https://salsa.debian.org/debian/slowhttptest"

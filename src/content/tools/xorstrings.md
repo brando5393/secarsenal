@@ -4,7 +4,7 @@ tagline: "Search for XOR encoded strings in a file."
 categories: ["deobfuscation"]
 platforms: ["Linux"]
 license: "Free, unknown license"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/deobfuscation"
 downloadUrl: "https://blog.didierstevens.com/2013/04/15/new-tool-xorstrings/"
 commonlyOn: ["REMnux"]

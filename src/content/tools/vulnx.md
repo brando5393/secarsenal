@@ -3,7 +3,7 @@ name: "vulnx"
 tagline: "Cms and vulnerabilites detector & An intelligent bot auto shell injector."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/anouarbensaad/vulnx"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "tcgetkey"
 tagline: "A set of tools that deal with acquiring physical memory dumps via FireWire and then scan the memory dump to locate TrueC"
 categories: ["dos"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/dos.html"
 downloadUrl: "http://packetstormsecurity.com/files/119146/tcgetkey.1.html"
 commonlyOn: ["BlackArch"]

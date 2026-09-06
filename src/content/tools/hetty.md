@@ -3,7 +3,7 @@ name: "hetty"
 tagline: "HTTP toolkit for security research. Aims to become an open source alternative to commercial software like Burp Suite Pro"
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/dstotijn/hetty"
 commonlyOn: ["BlackArch"]

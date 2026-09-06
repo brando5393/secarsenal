@@ -3,7 +3,7 @@ name: "silk"
 tagline: "A collection of traffic analysis tools developed by the CERT NetSA to facilitate security analysis of large networks."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://tools.netsa.cert.org/silk/download.html"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "firstexecution-git"
 tagline: "A Collection of different ways to execute code outside of the expected entry points"
 categories: ["exploit"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/firstexecution-git"
 downloadUrl: "https://github.com/nccgroup/firstexecution"
 commonlyOn: ["ArchStrike"]

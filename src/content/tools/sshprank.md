@@ -3,7 +3,7 @@ name: "sshprank"
 tagline: "A fast SSH mass-scanner, login cracker, banner grabber and password auth checker tool using the python-masscan and shoda"
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://nullsecurity.net/tools/cracker.html"
 commonlyOn: ["BlackArch"]

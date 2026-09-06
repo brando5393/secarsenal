@@ -3,7 +3,7 @@ name: "rifiuti2"
 tagline: "Replacement for rifiuti, a MS Windows recycle bin analysis tool"
 categories: ["forensic-carving-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/rifiuti2/"
 downloadUrl: "https://abelcheung.github.io/rifiuti2"
 repoUrl: "https://salsa.debian.org/pkg-security-team/rifiuti2"

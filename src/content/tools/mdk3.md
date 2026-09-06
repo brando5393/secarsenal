@@ -3,7 +3,7 @@ name: "mdk3"
 tagline: "Wireless attack tool for IEEE 802.11 networks"
 categories: ["impact"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/mdk3/"
 downloadUrl: "https://github.com/aircrack-ng/mdk3"
 repoUrl: "https://salsa.debian.org/pkg-security-team/mdk3"

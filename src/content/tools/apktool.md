@@ -3,7 +3,7 @@ name: "apktool"
 tagline: "Tool for reverse engineering Android apk files"
 categories: ["resource-development"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/apktool/"
 downloadUrl: "https://ibotpeaches.github.io/Apktool/"
 repoUrl: "https://salsa.debian.org/android-tools-team/apktool"

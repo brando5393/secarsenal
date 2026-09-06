@@ -3,7 +3,7 @@ name: "malice"
 tagline: "VirusTotal Wanna Be - Now with 100% more Hipster."
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://github.com/maliceio/malice"
 commonlyOn: ["BlackArch"]

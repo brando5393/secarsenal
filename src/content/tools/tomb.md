@@ -3,7 +3,7 @@ name: "tomb"
 tagline: "A system for easy encryption and backup of personal files"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/tomb"
 commonlyOn: ["ArchStrike"]
 gettingStarted: "Install by adding the ArchStrike repository to an existing Arch Linux install, then `pacman -S tomb`. See the official ArchStrike package listing linked above for details."

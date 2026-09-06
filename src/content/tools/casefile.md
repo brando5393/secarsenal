@@ -3,7 +3,7 @@ name: "casefile"
 tagline: "The little brother to Maltego without transforms, but combines graph and link analysis to examine links between manually"
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "http://www.paterva.com/web6/products/casefile.php"
 commonlyOn: ["BlackArch"]

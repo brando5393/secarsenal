@@ -3,7 +3,7 @@ name: "net-tools"
 tagline: "NET-3 networking toolkit"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/net-tools/"
 downloadUrl: "http://sourceforge.net/projects/net-tools/"
 repoUrl: "https://salsa.debian.org/debian/net-tools"

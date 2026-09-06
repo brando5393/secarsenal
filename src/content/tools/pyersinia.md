@@ -3,7 +3,7 @@ name: "pyersinia"
 tagline: "Network attack tool like yersinia but written in Python."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/nottinghamprisateam/pyersinia"
 commonlyOn: ["BlackArch"]

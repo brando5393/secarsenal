@@ -3,7 +3,7 @@ name: "tomcatwardeployer"
 tagline: "Apache Tomcat auto WAR deployment & pwning penetration testing tool."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/mgeeky/tomcatWarDeployer"
 commonlyOn: ["BlackArch"]

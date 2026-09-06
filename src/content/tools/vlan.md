@@ -3,7 +3,7 @@ name: "vlan"
 tagline: "Ifupdown legacy integration for vlan configuration"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/vlan/"
 repoUrl: "https://salsa.debian.org/debian/vlan"
 commonlyOn: ["Kali Linux"]

@@ -3,7 +3,7 @@ name: "darkd0rk3r"
 tagline: "Python script that performs dork searching and searches for local file inclusion and SQL injection errors."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "http://packetstormsecurity.com/files/117403/Dark-D0rk3r.0.html"
 commonlyOn: ["BlackArch"]

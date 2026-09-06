@@ -4,7 +4,7 @@ tagline: "Generate byte-usage-histograms for all types of files with a focus on 
 categories: ["unpacking"]
 platforms: ["Linux"]
 license: "ISC License"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/statically+analyze+code/unpacking"
 downloadUrl: "https://www.cert.at/downloads/software/bytehist_en.html"
 commonlyOn: ["REMnux"]

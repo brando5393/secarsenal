@@ -3,7 +3,7 @@ name: "offsec-courses"
 tagline: "Resources for OffSec’s AWAE/WEB-300"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/offsec-courses/"
 downloadUrl: "https://www.kali.org"
 repoUrl: "https://gitlab.com/kalilinux/packages/offsec-courses"

@@ -3,7 +3,7 @@ name: "python-keylogger"
 tagline: "Simple keystroke logger."
 categories: ["keylogger"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/keylogger.html"
 downloadUrl: "https://github.com/GiacomoLaw/Keylogger"
 commonlyOn: ["BlackArch"]

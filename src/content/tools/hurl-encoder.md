@@ -3,7 +3,7 @@ name: "hurl-encoder"
 tagline: "Hexadecimal & URL (en/de)coder."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/fnord0/hURL"
 commonlyOn: ["BlackArch"]

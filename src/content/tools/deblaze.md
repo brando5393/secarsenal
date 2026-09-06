@@ -3,7 +3,7 @@ name: "deblaze"
 tagline: "Performs method enumeration and interrogation against flash remoting end points."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/SpiderLabs/deblaze"
 commonlyOn: ["BlackArch"]

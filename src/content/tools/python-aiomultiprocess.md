@@ -3,7 +3,7 @@ name: "python-aiomultiprocess"
 tagline: "asyncio version of the standard multiprocessing module"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-aiomultiprocess"
 downloadUrl: "https://github.com/jreese/aiomultiprocess"
 commonlyOn: ["ArchStrike"]

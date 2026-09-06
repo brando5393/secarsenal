@@ -3,7 +3,7 @@ name: "conn"
 tagline: "Small C library usefull to easy build ipv4/ipv6 network daemons/clients"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/conn"
 downloadUrl: "http://kernel.embedromix.ro/us/"
 commonlyOn: ["ArchStrike"]

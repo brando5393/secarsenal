@@ -3,7 +3,7 @@ name: "bfac"
 tagline: "An automated tool that checks for backup artifacts that may disclose the web-application's source code."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/mazen160/bfac"
 commonlyOn: ["BlackArch"]

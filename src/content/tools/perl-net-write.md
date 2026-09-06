@@ -3,7 +3,7 @@ name: "perl-net-write"
 tagline: "Net::Write - a portable interface to open and send raw data to network"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/perl-net-write"
 downloadUrl: "https://metacpan.org/pod/Net::Write"
 commonlyOn: ["ArchStrike"]

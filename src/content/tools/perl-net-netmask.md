@@ -3,7 +3,7 @@ name: "perl-net-netmask"
 tagline: "Parse, manipulate and lookup IP network blocks."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/perl-net-netmask"
 downloadUrl: "https://metacpan.org/pod/Net::Netmask"
 commonlyOn: ["ArchStrike"]

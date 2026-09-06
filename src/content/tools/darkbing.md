@@ -3,7 +3,7 @@ name: "darkbing"
 tagline: "A tool written in python that leverages bing for mining data on systems that may be susceptible to SQL injection."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://packetstormsecurity.com/files/111510/darkBing-SQL-Scanner.1.html"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "python-ajpy"
 tagline: "aims to craft AJP requests in order to communicate with AJP connectors"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-ajpy"
 downloadUrl: "https://pypi.org/project/ajpy/"
 commonlyOn: ["ArchStrike"]

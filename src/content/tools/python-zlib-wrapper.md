@@ -3,7 +3,7 @@ name: "python-zlib_wrapper"
 tagline: "Wrapper around zlib with custom header crc32."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-zlib_wrapper"
 downloadUrl: "https://pypi.python.org/pypi/zlib_wrapper"
 commonlyOn: ["ArchStrike"]

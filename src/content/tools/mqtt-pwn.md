@@ -3,7 +3,7 @@ name: "mqtt-pwn"
 tagline: "A one-stop-shop for IoT Broker penetration-testing and security assessment operations."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/akamai-threat-research/mqtt-pwn"
 commonlyOn: ["BlackArch"]

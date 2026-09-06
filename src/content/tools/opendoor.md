@@ -3,7 +3,7 @@ name: "opendoor"
 tagline: "OWASP WEB Directory Scanner."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/stanislav-web/OpenDoor"
 commonlyOn: ["BlackArch"]

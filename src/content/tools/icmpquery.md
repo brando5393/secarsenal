@@ -3,7 +3,7 @@ name: "icmpquery"
 tagline: "Send and receive ICMP queries for address mask and current time."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://www.angio.net/security/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "mptcp-abuse"
 tagline: "A collection of tools and resources to explore MPTCP on your network. Initially released at Black Hat USA 2014."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/Neohapsis/mptcp-abuse"
 commonlyOn: ["BlackArch"]

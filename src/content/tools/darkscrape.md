@@ -3,7 +3,7 @@ name: "darkscrape"
 tagline: "OSINT Tool For Scraping Dark Websites."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/itsmehacker/DarkScrape"
 commonlyOn: ["BlackArch"]

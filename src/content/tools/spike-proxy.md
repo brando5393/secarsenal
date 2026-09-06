@@ -3,7 +3,7 @@ name: "spike-proxy"
 tagline: "A Proxy for detecting vulnerabilities in web applications"
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "http://www.immunitysec.com/resources-freesoftware.shtml"
 commonlyOn: ["BlackArch"]

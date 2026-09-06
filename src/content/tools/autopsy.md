@@ -3,7 +3,7 @@ name: "autopsy"
 tagline: "Graphical interface to SleuthKit"
 categories: ["sleuth-kit-suite","forensics"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/autopsy/"
 downloadUrl: "https://www.sleuthkit.org/autopsy/"
 repoUrl: "https://salsa.debian.org/debian/autopsy"

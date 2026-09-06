@@ -3,7 +3,7 @@ name: "droopescan"
 tagline: "A plugin-based scanner that aids security researchers in identifying issues with several CMSs, mainly Drupal & Silverstr"
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/droope/droopescan"
 commonlyOn: ["BlackArch"]

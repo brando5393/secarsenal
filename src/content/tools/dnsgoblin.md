@@ -3,7 +3,7 @@ name: "dnsgoblin"
 tagline: "Nasty creature constantly searching for DNS servers. It uses standard dns querys and waits for the replies."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://nullsecurity.net/tools/scanner.html"
 commonlyOn: ["BlackArch"]

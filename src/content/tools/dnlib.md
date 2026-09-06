@@ -3,7 +3,7 @@ name: "dnlib"
 tagline: "dnlib is a .NET module/assembly reader/writer library."
 categories: ["dotnet"]
 platforms: ["Windows"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://github.com/mandiant/VM-Packages/tree/main/packages/dnlib.vm"
 downloadUrl: "https://github.com/0xd4d/dnlib"
 commonlyOn: ["FLARE VM"]

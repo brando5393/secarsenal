@@ -3,7 +3,7 @@ name: "h8mail"
 tagline: "Email open source intelligence and breach hunting tool"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/h8mail/"
 downloadUrl: "https://github.com/khast3x/h8mail"
 repoUrl: "https://gitlab.com/kalilinux/packages/h8mail"

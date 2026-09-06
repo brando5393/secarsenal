@@ -3,7 +3,7 @@ name: "termineter"
 tagline: "Smart meter testing framework"
 categories: ["non-application-layer-protocol"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/termineter/"
 downloadUrl: "https://github.com/rsmusllp/termineter"
 repoUrl: "https://salsa.debian.org/pkg-security-team/termineter"

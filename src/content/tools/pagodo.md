@@ -3,7 +3,7 @@ name: "pagodo"
 tagline: "Google dork script to collect potentially vulnerable web pages and applications on the Internet."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/opsdisk/pagodo"
 commonlyOn: ["BlackArch"]

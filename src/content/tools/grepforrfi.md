@@ -3,7 +3,7 @@ name: "grepforrfi"
 tagline: "Simple script for parsing web logs for RFIs and Webshells v1.2"
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://www.irongeek.com/downloads/grepforrfi.txt"
 commonlyOn: ["BlackArch"]

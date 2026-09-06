@@ -3,7 +3,7 @@ name: "ffuf-scripts"
 tagline: "Scripts and snippets for ffuf payloads."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/ffuf/ffuf-scripts"
 commonlyOn: ["BlackArch"]

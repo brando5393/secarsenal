@@ -3,7 +3,7 @@ name: "creds.py-git"
 tagline: "Harvest FTP/POP/IMAP/HTTP/IRC credentials along with interesting data from each of the protocols."
 categories: ["bruteforce"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/creds.py-git"
 downloadUrl: "https://github.com/DanMcInerney/creds.py"
 commonlyOn: ["ArchStrike"]

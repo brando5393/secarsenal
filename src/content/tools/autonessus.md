@@ -3,7 +3,7 @@ name: "autonessus"
 tagline: "This script communicates with the Nessus API in an attempt to help with automating scans."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/redteamsecurity/AutoNessus"
 commonlyOn: ["BlackArch"]

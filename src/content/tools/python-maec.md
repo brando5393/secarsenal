@@ -3,7 +3,7 @@ name: "python-maec"
 tagline: "An API for parsing and creating MAEC content."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-maec"
 downloadUrl: "https://github.com/MAECProject/python-maec"
 commonlyOn: ["ArchStrike"]

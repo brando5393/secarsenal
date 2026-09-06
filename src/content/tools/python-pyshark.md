@@ -3,7 +3,7 @@ name: "python-pyshark"
 tagline: "Python wrapper for tshark, allowing python packet parsing using wireshark dissectors"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-pyshark"
 downloadUrl: "https://github.com/KimiNewt/pyshark"
 commonlyOn: ["ArchStrike"]

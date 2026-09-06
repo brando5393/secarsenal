@@ -3,7 +3,7 @@ name: "perl-math-gmp"
 tagline: "High speed arbitrary size integer math"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/perl-math-gmp"
 downloadUrl: "https://metacpan.org/pod/Math::GMP"
 commonlyOn: ["ArchStrike"]

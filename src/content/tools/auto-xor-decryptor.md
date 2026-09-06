@@ -3,7 +3,7 @@ name: "auto-xor-decryptor"
 tagline: "Automatic XOR decryptor tool."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/MRGEffitas/scripts"
 commonlyOn: ["BlackArch"]

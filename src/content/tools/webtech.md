@@ -3,7 +3,7 @@ name: "webtech"
 tagline: "Identify technologies used on websites."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://pypi.org/project/webtech/#files"
 commonlyOn: ["BlackArch"]

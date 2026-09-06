@@ -3,7 +3,7 @@ name: "pftriage"
 tagline: "Python tool and library to help analyze files during malware triage and analysis."
 categories: ["malware"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/malware.html"
 downloadUrl: "https://github.com/idiom/pftriage"
 commonlyOn: ["BlackArch"]

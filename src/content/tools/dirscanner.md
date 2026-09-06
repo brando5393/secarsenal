@@ -3,7 +3,7 @@ name: "dirscanner"
 tagline: "This is a python script that scans webservers looking for administrative directories, php shells, and more."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://packetstormsecurity.com/files/117773/Directory-Scanner-Tool.html"
 commonlyOn: ["BlackArch"]

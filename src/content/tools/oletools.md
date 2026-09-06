@@ -3,7 +3,7 @@ name: "oletools"
 tagline: "Analyze MS OLE2 files and MS Office documents"
 categories: ["resource-development"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/oletools/"
 downloadUrl: "https://github.com/decalage2/oletools"
 repoUrl: "https://gitlab.com/kalilinux/packages/oletools"

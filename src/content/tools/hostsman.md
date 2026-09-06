@@ -3,7 +3,7 @@ name: "hostsman"
 tagline: "Cross-platform command line tool for handling hosts files"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/hostsman/"
 downloadUrl: "https://github.com/qszhuan/hostsman"
 repoUrl: "https://gitlab.com/kalilinux/packages/hostsman"

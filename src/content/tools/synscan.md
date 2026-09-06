@@ -3,7 +3,7 @@ name: "synscan"
 tagline: "fast asynchronous half-open TCP portscanner"
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://www.digit-labs.org/files/tools/synscan/"
 commonlyOn: ["BlackArch"]

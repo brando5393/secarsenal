@@ -3,7 +3,7 @@ name: "python-urllib-auth-git"
 tagline: "library that provides NTLM/SPNEGO/SSPI support"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-urllib-auth-git"
 commonlyOn: ["ArchStrike"]
 gettingStarted: "Install by adding the ArchStrike repository to an existing Arch Linux install, then `pacman -S python-urllib-auth-git`. See the official ArchStrike package listing linked above for details."

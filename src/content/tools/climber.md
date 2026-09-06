@@ -3,7 +3,7 @@ name: "climber"
 tagline: "Check UNIX/Linux systems for privilege escalation."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/raffaele-forte/climber"
 commonlyOn: ["BlackArch"]

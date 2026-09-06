@@ -3,7 +3,7 @@ name: "lotophagi"
 tagline: "a relatively compact Perl script designed to scan remote hosts for default (or common) Lotus NSF and BOX databases."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://packetstormsecurity.com/files/55250/lotophagi.rar.html"
 commonlyOn: ["BlackArch"]

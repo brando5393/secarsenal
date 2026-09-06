@@ -3,7 +3,7 @@ name: "pyadrecon"
 tagline: "Gathers information about the Active Directory and generates a report which can provide a holistic picture of the curren"
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/l4rm4nd/PyADRecon"
 commonlyOn: ["BlackArch"]

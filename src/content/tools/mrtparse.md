@@ -3,7 +3,7 @@ name: "mrtparse"
 tagline: "A module to read and analyze the MRT format data."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/YoshiyukiYamauchi/mrtparse"
 commonlyOn: ["BlackArch"]

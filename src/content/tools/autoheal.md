@@ -3,7 +3,7 @@ name: "Autoheal"
 tagline: "a tool to automatically restart containers with failed healthchecks."
 categories: ["network-monitoring"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://github.com/willfarrell/docker-autoheal"
 commonlyOn: ["T-Pot"]
 gettingStarted: "Bundled with T-Pot. See T-Pot's official README (linked above, under \"Honeypots and Tools\") and this project's own homepage for details."

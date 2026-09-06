@@ -3,7 +3,7 @@ name: "wmi"
 tagline: "DCOM/WMI client implementation"
 categories: ["resource-development"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/wmi/"
 repoUrl: "https://gitlab.com/kalilinux/packages/wmi"
 commonlyOn: ["Kali Linux"]

@@ -3,7 +3,7 @@ name: "python-pep8-naming"
 tagline: "Naming Convention checker for Python"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-pep8-naming"
 downloadUrl: "https://github.com/PyCQA/pep8-naming"
 commonlyOn: ["ArchStrike"]

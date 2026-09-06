@@ -4,7 +4,7 @@ tagline: "Web browser."
 categories: ["general-utilities"]
 platforms: ["Linux"]
 license: "Mozilla Public License (MPL)"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/general+utilities"
 downloadUrl: "https://www.mozilla.org/firefox/"
 commonlyOn: ["REMnux"]

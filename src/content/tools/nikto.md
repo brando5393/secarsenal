@@ -3,7 +3,7 @@ name: "nikto"
 tagline: "Web server security scanner"
 categories: ["web-vulnerability-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/nikto/"
 downloadUrl: "https://github.com/sullo/nikto"
 repoUrl: "https://gitlab.com/kalilinux/packages/nikto"

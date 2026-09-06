@@ -3,7 +3,7 @@ name: "enum4linux-ng-git"
 tagline: "A next generation version of enum4linux"
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/enum4linux-ng-git"
 downloadUrl: "https://github.com/cddmp/enum4linux-ng"
 commonlyOn: ["ArchStrike"]

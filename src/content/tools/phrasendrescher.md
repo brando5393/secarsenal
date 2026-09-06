@@ -3,7 +3,7 @@ name: "phrasendrescher"
 tagline: "A modular and multi processing pass phrase cracking tool."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://www.leidecker.info/projects/phrasendrescher/"
 commonlyOn: ["BlackArch"]

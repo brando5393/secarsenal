@@ -3,7 +3,7 @@ name: "kali-defaults"
 tagline: "Kali default settings"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/kali-defaults/"
 downloadUrl: "https://www.kali.org"
 repoUrl: "https://gitlab.com/kalilinux/packages/kali-defaults"

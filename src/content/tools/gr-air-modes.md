@@ -3,7 +3,7 @@ name: "gr-air-modes"
 tagline: "Gnuradio Mode-S/ADS-B radio"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/gr-air-modes/"
 downloadUrl: "https://github.com/bistromath/gr-air-modes"
 repoUrl: "https://salsa.debian.org/bottoms/pkg-gr-air-modes"

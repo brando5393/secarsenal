@@ -3,7 +3,7 @@ name: "c7decrypt"
 tagline: "Cisco password type encryptor and decryptor."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/claudijd/c7decrypt"
 commonlyOn: ["BlackArch"]

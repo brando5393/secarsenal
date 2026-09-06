@@ -3,7 +3,7 @@ name: "find-dns"
 tagline: "A tool that scans networks looking for DNS servers."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://packetstormsecurity.com/files/132449/Find-DNS-Scanner.html"
 commonlyOn: ["BlackArch"]

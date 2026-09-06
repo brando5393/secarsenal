@@ -3,10 +3,11 @@ name: "wreckuests"
 tagline: "Yet another one hard-hitting tool to run DDoS attacks with HTTP-flood."
 categories: ["dos"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/dos.html"
+downloadUrl: "https://github.com/JamesJGoodwin/wreckuests"
 commonlyOn: ["BlackArch"]
-gettingStarted: "Install on BlackArch with `pacman -S wreckuests` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."
+gettingStarted: "Install on BlackArch with `pacman -S wreckuests` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
 ---
 
 Yet another one hard-hitting tool to run DDoS attacks with HTTP-flood.

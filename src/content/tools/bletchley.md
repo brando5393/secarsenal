@@ -3,7 +3,7 @@ name: "bletchley"
 tagline: "A collection of practical application cryptanalysis tools."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://code.google.com/p/bletchley/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "meterssh"
 tagline: "A way to take shellcode, inject it into memory then tunnel whatever port you want to over SSH to mask any type of commun"
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://github.com/trustedsec/meterssh"
 commonlyOn: ["BlackArch"]

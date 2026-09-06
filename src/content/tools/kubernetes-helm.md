@@ -3,7 +3,7 @@ name: "kubernetes-helm"
 tagline: "Tool for managing Charts (helm)"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/kubernetes-helm/"
 downloadUrl: "https://github.com/helm/helm"
 repoUrl: "https://gitlab.com/kalilinux/packages/kubernetes-helm"

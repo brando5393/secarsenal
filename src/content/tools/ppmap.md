@@ -3,7 +3,7 @@ name: "ppmap"
 tagline: "A scanner/exploitation tool written in GO, which leverages client-side Prototype Pollution to XSS by exploiting known ga"
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/kleiton0x00/ppmap"
 commonlyOn: ["BlackArch"]

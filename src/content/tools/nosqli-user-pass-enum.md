@@ -3,7 +3,7 @@ name: "nosqli-user-pass-enum"
 tagline: "Script to enumerate usernames and passwords from vulnerable web applications running MongoDB."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/an0nlk/Nosql-MongoDB-injection-username-password-enumeration"
 commonlyOn: ["BlackArch"]

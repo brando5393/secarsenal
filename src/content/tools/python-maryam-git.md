@@ -3,7 +3,7 @@ name: "python-maryam-git"
 tagline: "OWASP Maryam is a modular/optional open source framework based on OSINT and data gathering."
 categories: ["intel"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-maryam-git"
 downloadUrl: "https://github.com/saeeddhqan/Maryam"
 commonlyOn: ["ArchStrike"]

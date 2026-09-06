@@ -3,7 +3,7 @@ name: "athena-ssl-scanner"
 tagline: "A SSL cipher scanner that checks all cipher codes. It can identify about 150 different ciphers."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://packetstormsecurity.com/files/93062/Athena-SSL-Cipher-Scanner.html"
 commonlyOn: ["BlackArch"]

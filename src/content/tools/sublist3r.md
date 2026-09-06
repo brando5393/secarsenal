@@ -3,7 +3,7 @@ name: "sublist3r"
 tagline: "Fast subdomains enumeration tool for penetration testers"
 categories: ["web-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/sublist3r/"
 downloadUrl: "https://github.com/aboul3la/Sublist3r"
 repoUrl: "https://salsa.debian.org/pkg-security-team/sublist3r"

@@ -3,7 +3,7 @@ name: "remot3d"
 tagline: "An Simple Exploit for PHP Language."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/KeepWannabe/Remot3d"
 commonlyOn: ["BlackArch"]

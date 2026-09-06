@@ -3,7 +3,7 @@ name: "multimac"
 tagline: "Create multiple MACs on an adapter"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/multimac/"
 downloadUrl: "https://sourceforge.net/projects/multimac/"
 repoUrl: "https://gitlab.com/kalilinux/packages/multimac"

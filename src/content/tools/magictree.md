@@ -3,7 +3,7 @@ name: "magictree"
 tagline: "A penetration tester productivity tool designed to allow easy and straightforward data consolidation, querying, external"
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "http://www.gremwell.com"
 commonlyOn: ["BlackArch"]

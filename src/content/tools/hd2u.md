@@ -3,7 +3,7 @@ name: "hd2u"
 tagline: "Dos2Unix text file converter"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/hd2u"
 downloadUrl: "http://hany.sk/~hany/software/hd2u/"
 commonlyOn: ["ArchStrike"]

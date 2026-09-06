@@ -3,7 +3,7 @@ name: "python-bacpypes"
 tagline: "BACpypes provides a BACnet application layer and network layer written in Python for daemons, scripting, and graphical interfaces."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-bacpypes"
 downloadUrl: "https://github.com/JoelBender/bacpypes"
 commonlyOn: ["ArchStrike"]

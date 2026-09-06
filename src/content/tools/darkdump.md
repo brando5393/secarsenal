@@ -3,7 +3,7 @@ name: "darkdump"
 tagline: "Open Source Intelligence interface for Deep Web scraping."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/josh0xA/darkdump"
 commonlyOn: ["BlackArch"]

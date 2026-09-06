@@ -3,7 +3,7 @@ name: "onetwopunch-git"
 tagline: "Script combining the speed of unicornscan w/ the versitility of nmap"
 categories: ["scanners"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/onetwopunch-git"
 downloadUrl: "https://github.com/superkojiman/onetwopunch"
 commonlyOn: ["ArchStrike"]

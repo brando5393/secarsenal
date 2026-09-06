@@ -3,7 +3,7 @@ name: "haystack"
 tagline: "A Python framework for finding C structures from process memory - heap analysis - Memory structures forensics."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/trolldbois/python-haystack"
 commonlyOn: ["BlackArch"]

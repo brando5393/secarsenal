@@ -3,7 +3,7 @@ name: "crypthook"
 tagline: "TCP/UDP symmetric encryption tunnel wrapper."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/chokepoint/CryptHook"
 commonlyOn: ["BlackArch"]

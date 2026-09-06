@@ -3,7 +3,7 @@ name: "inundator"
 tagline: "An ids evasion tool, used to anonymously inundate intrusion detection logs with false positives in order to obfuscate a "
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "http://inundator.sourceforge.net/"
 commonlyOn: ["BlackArch"]

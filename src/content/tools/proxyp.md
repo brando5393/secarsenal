@@ -3,7 +3,7 @@ name: "proxyp"
 tagline: "Small multithreaded Perl script written to enumerate latency, port numbers, server names, & geolocations of proxy IP add"
 categories: ["proxy"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/proxy.html"
 downloadUrl: "http://sourceforge.net/projects/proxyp/"
 commonlyOn: ["BlackArch"]

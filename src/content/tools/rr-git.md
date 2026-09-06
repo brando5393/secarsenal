@@ -3,7 +3,7 @@ name: "rr-git"
 tagline: "A Record and Replay Framework"
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/rr-git"
 downloadUrl: "https://github.com/mozilla/rr"
 commonlyOn: ["ArchStrike"]

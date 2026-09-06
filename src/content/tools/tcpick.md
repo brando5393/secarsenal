@@ -3,7 +3,7 @@ name: "tcpick"
 tagline: "TCP stream sniffer and connection tracker"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/tcpick/"
 downloadUrl: "http://tcpick.sourceforge.net"
 repoUrl: "https://salsa.debian.org/pkg-security-team/tcpick"

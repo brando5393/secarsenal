@@ -3,7 +3,7 @@ name: "detect-it-easy"
 tagline: "Program for determining types of files"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/detect-it-easy/"
 downloadUrl: "https://github.com/horsicq/Detect-It-Easy"
 repoUrl: "https://gitlab.com/kalilinux/packages/detectiteasy"

@@ -3,7 +3,7 @@ name: "nipper-ng"
 tagline: "Device security configuration review tool"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/nipper-ng/"
 repoUrl: "https://gitlab.com/kalilinux/packages/nipper-ng"
 commonlyOn: ["Kali Linux"]

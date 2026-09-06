@@ -3,7 +3,7 @@ name: "amass"
 tagline: "In-depth DNS Enumeration and Network Mapping"
 categories: ["network-information","network-service-discovery","discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/amass/"
 downloadUrl: "https://github.com/OWASP/Amass"
 repoUrl: "https://gitlab.com/kalilinux/packages/amass"

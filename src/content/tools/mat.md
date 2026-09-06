@@ -3,7 +3,7 @@ name: "mat"
 tagline: "Metadata Anonymisation Toolkit composed of a GUI application, a CLI application and a library."
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://mat.boum.org/"
 commonlyOn: ["BlackArch"]

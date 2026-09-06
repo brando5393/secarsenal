@@ -3,7 +3,7 @@ name: "netreconn"
 tagline: "A collection of network scan/recon tools that are relatively small compared to their larger cousins."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "http://packetstormsecurity.com/files/86076/NetReconn-Scanning-Tool-Collection.76.html"
 commonlyOn: ["BlackArch"]

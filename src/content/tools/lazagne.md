@@ -3,7 +3,7 @@ name: "lazagne"
 tagline: "An open source application used to retrieve lots of passwords stored on a local computer."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/AlessandroZ/LaZagne"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "dex2jar"
 tagline: "Tools to work with android .dex and java .class files"
 categories: ["resource-development"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/dex2jar/"
 downloadUrl: "https://github.com/pxb1988/dex2jar/tree/2.x"
 repoUrl: "https://gitlab.com/kalilinux/packages/dex2jar"

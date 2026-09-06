@@ -3,7 +3,7 @@ name: "pdfid"
 tagline: "Scans PDF files for certain PDF keywords"
 categories: ["pdf-forensics-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/pdfid/"
 downloadUrl: "https://blog.didierstevens.com/programs/pdf-tools/"
 repoUrl: "https://gitlab.com/kalilinux/packages/pdfid"

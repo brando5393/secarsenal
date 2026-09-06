@@ -3,7 +3,7 @@ name: "dorkbot"
 tagline: "Command-line tool to scan Google search results for vulnerabilities."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/utiso/dorkbot"
 commonlyOn: ["BlackArch"]

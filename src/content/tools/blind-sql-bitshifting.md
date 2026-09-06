@@ -3,7 +3,7 @@ name: "blind-sql-bitshifting"
 tagline: "A blind SQL injection module that uses bitshfting to calculate characters."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/libeclipse/blind-sql-bitshifting"
 commonlyOn: ["BlackArch"]

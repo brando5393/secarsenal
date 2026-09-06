@@ -3,7 +3,7 @@ name: "boost-bloom-filters-git"
 tagline: "A collection of generic, C++ Bloom Filter classes developed for the Boost C++ Libraries."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/boost-bloom-filters-git"
 downloadUrl: "https://github.com/queertypes/boost-bloom-filters"
 commonlyOn: ["ArchStrike"]

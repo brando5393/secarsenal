@@ -4,7 +4,7 @@ tagline: "Extract emails and attachments from MSG files."
 categories: ["email-messages"]
 platforms: ["Linux"]
 license: "GNU General Public License v3.0"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/analyze+documents/email+messages"
 downloadUrl: "https://github.com/TeamMsgExtractor/msg-extractor"
 commonlyOn: ["REMnux"]

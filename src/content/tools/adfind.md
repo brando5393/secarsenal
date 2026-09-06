@@ -3,7 +3,7 @@ name: "adfind"
 tagline: "Simple admin panel finder for php,js,cgi,asp and aspx admin panels."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/sahakkhotsanyan/adfind"
 commonlyOn: ["BlackArch"]

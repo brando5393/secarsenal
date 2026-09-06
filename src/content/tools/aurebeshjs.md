@@ -3,7 +3,7 @@ name: "aurebeshjs"
 tagline: "Translate JavaScript to Other Alphabets."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/aemkei/aurebesh.js"
 commonlyOn: ["BlackArch"]

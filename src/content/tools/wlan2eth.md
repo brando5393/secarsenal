@@ -3,7 +3,7 @@ name: "wlan2eth"
 tagline: "Re-writes 802.11 captures into standard Ethernet frames."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "http://www.willhackforsushi.com/?page_id=79"
 commonlyOn: ["BlackArch"]

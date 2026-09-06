@@ -3,7 +3,7 @@ name: "python-dpkt-git"
 tagline: "Python library for interacting with and creating packets."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-dpkt-git"
 downloadUrl: "https://github.com/kbandla/dpkt"
 commonlyOn: ["ArchStrike"]

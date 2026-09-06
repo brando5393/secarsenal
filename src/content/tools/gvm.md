@@ -3,7 +3,7 @@ name: "gvm"
 tagline: "Remote network security auditor - metapackage and useful scripts"
 categories: ["vulnerability-scanning","system-services"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/gvm/"
 downloadUrl: "https://www.greenbone.net/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/gvm"

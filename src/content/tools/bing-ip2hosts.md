@@ -3,7 +3,7 @@ name: "bing-ip2hosts"
 tagline: "Enumerate hostnames for an IP using bing.com"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/bing-ip2hosts/"
 downloadUrl: "https://www.morningstarsecurity.com/research/bing-ip2hosts"
 repoUrl: "https://gitlab.com/kalilinux/packages/bing-ip2hosts"

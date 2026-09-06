@@ -3,7 +3,7 @@ name: "dga-detection"
 tagline: "DGA Domain Detection using Bigram Frequency Analysis."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/philarkwright/DGA-Detection"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "Strelka"
 tagline: "Strelka is a real-time file scanning system used for threat hunting, threat detection, and incident response."
 categories: ["network-security-monitoring"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.securityonion.net/en/2.4/strelka.html#strelka"
 downloadUrl: "https://github.com/target/strelka"
 commonlyOn: ["Security Onion"]

@@ -4,7 +4,7 @@ tagline: "View documents in a variety of formats, including PDF."
 categories: ["view-or-edit-files"]
 platforms: ["Linux"]
 license: "GNU General Public License (GPL) v2"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/view+or+edit+files"
 downloadUrl: "https://wiki.gnome.org/Apps/Evince"
 commonlyOn: ["REMnux"]

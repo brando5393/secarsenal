@@ -3,7 +3,7 @@ name: "python-grandalf"
 tagline: "A graph and drawing algorithms framework"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-grandalf"
 downloadUrl: "https://github.com/bdcht/grandalf"
 commonlyOn: ["ArchStrike"]

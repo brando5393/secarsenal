@@ -3,7 +3,7 @@ name: "wcc-git"
 tagline: "The Witchcraft Compiler Collection"
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/wcc-git"
 downloadUrl: "https://github.com/endrazine/wcc"
 commonlyOn: ["ArchStrike"]

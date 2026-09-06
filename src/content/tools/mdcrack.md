@@ -3,7 +3,7 @@ name: "mdcrack"
 tagline: "MD4/MD5/NTLM1 hash cracker"
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://c3rb3r.openwall.net/mdcrack/"
 commonlyOn: ["BlackArch"]

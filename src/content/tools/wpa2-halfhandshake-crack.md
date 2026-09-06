@@ -3,7 +3,7 @@ name: "wpa2-halfhandshake-crack"
 tagline: "A POC to show it is possible to capture enough of a handshake with a user from a fake AP to crack a WPA2 network without"
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "https://github.com/dxa4481/WPA2-HalfHandshake-Crack"
 commonlyOn: ["BlackArch"]

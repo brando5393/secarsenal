@@ -3,7 +3,7 @@ name: "ppfuzz"
 tagline: "A fast tool to scan client-side prototype pollution vulnerability written in Rust."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/dwisiswant0/ppfuzz"
 commonlyOn: ["BlackArch"]

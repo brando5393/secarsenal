@@ -3,7 +3,7 @@ name: "libpfm4"
 tagline: "The hardware-based performance monitoring interface for Linux."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/libpfm4"
 downloadUrl: "http://perfmon2.sourceforge.net/"
 commonlyOn: ["ArchStrike"]

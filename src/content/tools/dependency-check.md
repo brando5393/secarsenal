@@ -3,7 +3,7 @@ name: "dependency-check"
 tagline: "A tool that attempts to detect publicly disclosed vulnerabilities contained within a project's dependencies."
 categories: ["code-audit"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/code-audit.html"
 downloadUrl: "https://github.com/jeremylong/DependencyCheck/releases/"
 commonlyOn: ["BlackArch"]

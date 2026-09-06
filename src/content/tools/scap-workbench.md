@@ -3,7 +3,7 @@ name: "scap-workbench"
 tagline: "SCAP Scanner And Tailoring Graphical User Interface."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://www.open-scap.org/tools/scap-workbench/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "openrisk"
 tagline: "Generates a risk score based on the results of a Nuclei scan using OpenAI's GPT model."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/projectdiscovery/openrisk"
 commonlyOn: ["BlackArch"]

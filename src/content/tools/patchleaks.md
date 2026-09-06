@@ -3,7 +3,7 @@ name: "patchleaks"
 tagline: "Go from a CVE number to the exact patched code and its vulnerability analysis"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/patchleaks/"
 downloadUrl: "https://github.com/hatlesswizard/PatchLeaks"
 repoUrl: "https://gitlab.com/kalilinux/packages/patchleaks"

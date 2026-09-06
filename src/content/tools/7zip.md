@@ -3,7 +3,7 @@ name: "7zip"
 tagline: "7-Zip file archiver with a high compression ratio"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/7zip/"
 downloadUrl: "https://www.7-zip.org/"
 repoUrl: "https://salsa.debian.org/debian/7zip"

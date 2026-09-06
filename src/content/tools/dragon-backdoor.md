@@ -3,7 +3,7 @@ name: "dragon-backdoor"
 tagline: "A sniffing, non binding, reverse down/exec, portknocking service Based on cd00r.c."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://github.com/Shellntel/backdoors"
 commonlyOn: ["BlackArch"]

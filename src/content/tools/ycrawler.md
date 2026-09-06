@@ -3,7 +3,7 @@ name: "ycrawler"
 tagline: "A web crawler that is useful for grabbing all user supplied input related to a given website and will save the output. I"
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "http://packetstormsecurity.com/files/98546/yCrawler-Web-Crawling-Utility.html"
 commonlyOn: ["BlackArch"]

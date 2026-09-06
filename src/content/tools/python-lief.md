@@ -3,7 +3,7 @@ name: "python-lief"
 tagline: "Library to instrument executable formats."
 categories: ["disassembler"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/disassembler.html"
 downloadUrl: "https://github.com/lief-project/lief"
 commonlyOn: ["BlackArch"]

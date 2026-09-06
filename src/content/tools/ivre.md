@@ -3,7 +3,7 @@ name: "ivre"
 tagline: "Network recon framework IVRE or DRUNK"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/ivre/"
 downloadUrl: "https://ivre.rocks"
 repoUrl: "https://gitlab.com/kalilinux/packages/ivre"

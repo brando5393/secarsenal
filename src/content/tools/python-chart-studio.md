@@ -3,7 +3,7 @@ name: "python-chart-studio"
 tagline: "An interactive, browser-based graphing library for Python"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-chart-studio"
 downloadUrl: "https://pypi.org/project/chart-studio/"
 commonlyOn: ["ArchStrike"]

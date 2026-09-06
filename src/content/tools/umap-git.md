@@ -3,7 +3,7 @@ name: "umap-git"
 tagline: "The USB host security assessment tool"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/umap-git"
 downloadUrl: "https://github.com/nccgroup/umap"
 commonlyOn: ["ArchStrike"]

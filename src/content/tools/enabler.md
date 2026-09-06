@@ -3,7 +3,7 @@ name: "enabler"
 tagline: "Attempts to find the enable password on a cisco system via brute force."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://packetstormsecurity.org/cisco/enabler.c"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "eyewitness"
 tagline: "Rapid web application triage tool"
 categories: ["reporting-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/eyewitness/"
 downloadUrl: "https://www.christophertruncer.com/eyewitness-triage-tool/"
 repoUrl: "https://gitlab.com/kalilinux/packages/eyewitness"

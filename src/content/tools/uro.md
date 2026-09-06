@@ -3,7 +3,7 @@ name: "uro"
 tagline: "Declutter URLs for crawling/pentesting"
 categories: ["web-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/uro/"
 downloadUrl: "https://github.com/s0md3v/uro"
 repoUrl: "https://gitlab.com/kalilinux/packages/uro"

@@ -3,7 +3,7 @@ name: "mysql-defaults"
 tagline: "MySQL database development files (metapackage)"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/mysql-defaults/"
 repoUrl: "https://salsa.debian.org/mariadb-team/mysql/-/tree/mysql-defaults/debian/master"
 commonlyOn: ["Kali Linux"]

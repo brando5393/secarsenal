@@ -3,7 +3,7 @@ name: "rpdscan"
 tagline: "Remmina Password Decoder and scanner."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/freakyclown/RPDscan"
 commonlyOn: ["BlackArch"]

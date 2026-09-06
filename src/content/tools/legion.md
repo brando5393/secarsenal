@@ -3,7 +3,7 @@ name: "legion"
 tagline: "Semi-automated network penetration testing tool"
 categories: ["network-information","reconnaissance"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/legion/"
 downloadUrl: "https://github.com/Hackman238/legion"
 repoUrl: "https://gitlab.com/kalilinux/packages/legion"

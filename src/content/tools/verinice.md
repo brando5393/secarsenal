@@ -3,7 +3,7 @@ name: "verinice"
 tagline: "Tool for managing information security."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/SerNet/verinice"
 commonlyOn: ["BlackArch"]

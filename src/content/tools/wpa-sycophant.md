@@ -3,7 +3,7 @@ name: "wpa-sycophant"
 tagline: "Tool to relay phase 2 authentication attempts to access corporate wireless"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/wpa-sycophant/"
 downloadUrl: "https://github.com/sensepost/wpa_sycophant"
 repoUrl: "https://gitlab.com/kalilinux/packages/wpa-sycophant"

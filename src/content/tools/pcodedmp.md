@@ -4,7 +4,7 @@ tagline: "Disassemble VBA p-code."
 categories: ["microsoft-office"]
 platforms: ["Linux"]
 license: "GNU General Public License (GPL) v3"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/analyze+documents/microsoft+office"
 downloadUrl: "https://github.com/bontchev/pcodedmp"
 commonlyOn: ["REMnux"]

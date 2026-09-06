@@ -3,7 +3,7 @@ name: "bdfproxy"
 tagline: "Patch Binaries via MITM: BackdoorFactory + mitmProxy"
 categories: ["proxy"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/proxy.html"
 downloadUrl: "https://github.com/secretsquirrel/BDFProxy"
 commonlyOn: ["BlackArch"]

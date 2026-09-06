@@ -3,7 +3,7 @@ name: "tcpcopy"
 tagline: "A TCP stream replay tool to support real testing of Internet server applications."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/session-replay-tools/tcpcopy"
 commonlyOn: ["BlackArch"]

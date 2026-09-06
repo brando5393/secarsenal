@@ -3,7 +3,7 @@ name: "ike-scan"
 tagline: "Discover and fingerprint IKE hosts (IPsec VPN Servers)"
 categories: ["network-service-discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/ike-scan/"
 downloadUrl: "https://github.com/royhills/ike-scan"
 repoUrl: "https://salsa.debian.org/pkg-security-team/ike-scan"

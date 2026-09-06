@@ -3,7 +3,7 @@ name: "fhttp"
 tagline: "This is a framework for HTTP related attacks. It is written in Perl with a GTK interface, has a proxy for debugging and "
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "http://packetstormsecurity.com/files/104315/FHTTP-Attack-Tool.3.html"
 commonlyOn: ["BlackArch"]

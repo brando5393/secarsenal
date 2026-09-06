@@ -3,7 +3,7 @@ name: "dsjs"
 tagline: "A fully functional JavaScript library vulnerability scanner written in under 100 lines of code."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/stamparm/DSJS"
 commonlyOn: ["BlackArch"]

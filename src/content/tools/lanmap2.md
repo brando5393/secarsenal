@@ -3,7 +3,7 @@ name: "lanmap2"
 tagline: "Passive network mapping tool."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "http://github.com/rflynn/lanmap2"
 commonlyOn: ["BlackArch"]

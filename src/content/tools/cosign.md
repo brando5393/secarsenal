@@ -3,7 +3,7 @@ name: "cosign"
 tagline: "Code signing/transparency for containers and binaries (program)"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/cosign/"
 downloadUrl: "https://github.com/sigstore/cosign"
 repoUrl: "https://salsa.debian.org/go-team/packages/cosign"

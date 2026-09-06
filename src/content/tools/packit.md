@@ -3,7 +3,7 @@ name: "packit"
 tagline: "A network auditing tool with the ability to customize, inject, monitor, and manipulate IP traffic."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "http://packetfactory.openwall.net/projects/packit/"
 commonlyOn: ["BlackArch"]

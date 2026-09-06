@@ -3,7 +3,7 @@ name: "python2-cymruwhois"
 tagline: "Python client for the whois.cymru.com service"
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://pypi.org/project/cymruwhois/#files"
 commonlyOn: ["BlackArch"]

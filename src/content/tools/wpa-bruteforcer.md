@@ -3,7 +3,7 @@ name: "wpa-bruteforcer"
 tagline: "Attacking WPA/WPA encrypted access point without client."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "https://github.com/SYWorks/wpa-bruteforcer"
 commonlyOn: ["BlackArch"]

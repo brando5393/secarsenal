@@ -3,7 +3,7 @@ name: "zgrab2"
 tagline: "Fast Application Layer Scanner."
 categories: ["fingerprint"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/fingerprint.html"
 downloadUrl: "https://github.com/zmap/zgrab2"
 commonlyOn: ["BlackArch"]

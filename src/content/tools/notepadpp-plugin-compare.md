@@ -3,7 +3,7 @@ name: "notepadpp.plugin.compare"
 tagline: "ComparePlus is a Notepad++ plugin to compare files."
 categories: ["productivity-tools"]
 platforms: ["Windows"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://github.com/mandiant/VM-Packages/tree/main/packages/notepadpp.plugin.compare.vm"
 downloadUrl: "https://github.com/pnedev/comparePlus"
 commonlyOn: ["FLARE VM"]

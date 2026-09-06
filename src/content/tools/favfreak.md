@@ -3,7 +3,7 @@ name: "favfreak"
 tagline: "Weaponizing favicon.ico for BugBounties , OSINT and what not."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/devanshbatham/FavFreak"
 commonlyOn: ["BlackArch"]

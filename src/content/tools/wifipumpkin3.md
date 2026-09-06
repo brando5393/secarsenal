@@ -3,7 +3,7 @@ name: "wifipumpkin3"
 tagline: "Powerful framework for rogue access point attack"
 categories: ["collection"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/wifipumpkin3/"
 downloadUrl: "https://github.com/P0cL4bs/wifipumpkin3"
 repoUrl: "https://gitlab.com/kalilinux/packages/wifipumpkin3"

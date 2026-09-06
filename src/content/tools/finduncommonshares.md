@@ -3,7 +3,7 @@ name: "finduncommonshares"
 tagline: "Python script allowing to quickly find uncommon shares in vast Windows Domains."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/p0dalirius/pyFindUncommonShares"
 commonlyOn: ["BlackArch"]

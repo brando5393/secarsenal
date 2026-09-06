@@ -3,7 +3,7 @@ name: "rawsec-cli"
 tagline: "Rawsec Inventory search CLI to find security tools and resources."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/mBouamama/rawsec_cli"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "wpforce"
 tagline: "Wordpress Attack Suite."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/n00py/WPForce"
 commonlyOn: ["BlackArch"]

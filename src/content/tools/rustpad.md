@@ -3,7 +3,7 @@ name: "rustpad"
 tagline: "Multi-threaded Padding Oracle attacks against any service."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/Kibouo/rustpad"
 commonlyOn: ["BlackArch"]

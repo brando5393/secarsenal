@@ -3,7 +3,7 @@ name: "grabbb"
 tagline: "Clean, functional, and fast banner scanner."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://packetstormsecurity.com/files/11372/grabbb.0.7.tar.gz.html"
 commonlyOn: ["BlackArch"]

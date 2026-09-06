@@ -3,7 +3,7 @@ name: "logkeys"
 tagline: "A GNU/Linux keylogger that worked."
 categories: ["keylogger"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/keylogger.html"
 downloadUrl: "https://github.com/kernc/logkeys"
 commonlyOn: ["BlackArch"]

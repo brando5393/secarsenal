@@ -3,7 +3,7 @@ name: "enum-shares"
 tagline: "Tool that enumerates shared folders across the network and under a custom user account."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/dejanlevaja/enum_shares"
 commonlyOn: ["BlackArch"]

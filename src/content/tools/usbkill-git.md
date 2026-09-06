@@ -3,7 +3,7 @@ name: "usbkill-git"
 tagline: "An anti-forensic kill-switch that waits for a change on your USB ports and then immediately shuts down your computer."
 categories: ["defense"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/usbkill-git"
 downloadUrl: "https://github.com/hephaest0s/usbkill"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "rdesktop"
 tagline: "RDP client for Windows NT/2000 Terminal Server and Windows Servers"
 categories: ["lateral-movement"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/rdesktop/"
 downloadUrl: "https://www.rdesktop.org/"
 repoUrl: "https://salsa.debian.org/debian/rdesktop"

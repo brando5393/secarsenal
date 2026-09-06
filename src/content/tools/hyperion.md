@@ -3,7 +3,7 @@ name: "hyperion"
 tagline: "Runtime encrypter for 32-bit portable executables"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/hyperion/"
 downloadUrl: "http://www.nullsecurity.net/tools/binary.html"
 repoUrl: "https://gitlab.com/kalilinux/packages/hyperion"

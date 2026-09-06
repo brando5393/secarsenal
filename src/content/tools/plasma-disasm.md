@@ -3,7 +3,7 @@ name: "plasma-disasm"
 tagline: "An interactive disassembler for x86/ARM/MIPS. It can generates indented pseudo-code with colored syntax."
 categories: ["disassembler"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/disassembler.html"
 downloadUrl: "https://github.com/joelpx/plasma"
 commonlyOn: ["BlackArch"]

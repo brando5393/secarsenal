@@ -3,7 +3,7 @@ name: "epicwebhoneypot"
 tagline: "Tool which aims to lure attackers using various types of web vulnerability scanners by tricking them into believing that"
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "http://sourceforge.net/projects/epicwebhoneypot/"
 commonlyOn: ["BlackArch"]

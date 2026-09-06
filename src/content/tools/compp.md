@@ -3,7 +3,7 @@ name: "compp"
 tagline: "Company Passwords Profiler helps making a bruteforce wordlist for a targeted company."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/sec-it/ComPP"
 commonlyOn: ["BlackArch"]

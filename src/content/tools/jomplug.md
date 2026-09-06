@@ -3,7 +3,7 @@ name: "jomplug"
 tagline: "This php script fingerprints a given Joomla system and then uses Packet Storm's archive to check for bugs related to the"
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "http://packetstormsecurity.com/files/121390/Janissaries-Joomla-Fingerprint-Tool.html"
 commonlyOn: ["BlackArch"]

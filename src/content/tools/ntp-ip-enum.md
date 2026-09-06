@@ -3,7 +3,7 @@ name: "ntp-ip-enum"
 tagline: "Script to pull addresses from a NTP server using the monlist command. Can also output Maltego resultset."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "http://www.securepla.net/"
 commonlyOn: ["BlackArch"]

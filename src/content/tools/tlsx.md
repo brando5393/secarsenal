@@ -3,7 +3,7 @@ name: "tlsx"
 tagline: "TLS grabber focused on TLS based data collection."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/projectdiscovery/tlsx"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "dvcs-ripper"
 tagline: "Rip web accessible (distributed) version control systems: SVN/GIT/BZR/CVS/HG."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/kost/dvcs-ripper"
 commonlyOn: ["BlackArch"]

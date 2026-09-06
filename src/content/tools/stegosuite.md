@@ -3,7 +3,7 @@ name: "stegosuite"
 tagline: "Steganography tool to hide information in image files"
 categories: ["defense-evasion"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/stegosuite/"
 downloadUrl: "https://codeberg.org/tob/stegosuite"
 repoUrl: "https://salsa.debian.org/java-team/stegosuite"

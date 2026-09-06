@@ -3,10 +3,11 @@ name: "websockify"
 tagline: "WebSocket to TCP proxy/bridge."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/networking.html"
+downloadUrl: "http://github.com/kanaka/websockify"
 commonlyOn: ["BlackArch"]
-gettingStarted: "Install on BlackArch with `pacman -S websockify` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."
+gettingStarted: "Install on BlackArch with `pacman -S websockify` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
 ---
 
 WebSocket to TCP proxy/bridge.

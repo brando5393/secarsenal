@@ -3,7 +3,7 @@ name: "nuclei"
 tagline: "Fast and customizable vulnerability scanner based on simple YAML based DSL"
 categories: ["web-vulnerability-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/nuclei/"
 downloadUrl: "https://github.com/projectdiscovery/nuclei"
 repoUrl: "https://gitlab.com/kalilinux/packages/nuclei"

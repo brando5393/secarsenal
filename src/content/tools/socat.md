@@ -3,7 +3,7 @@ name: "socat"
 tagline: "Multipurpose relay for bidirectional data transfer"
 categories: ["non-application-layer-protocol"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/socat/"
 downloadUrl: "http://www.dest-unreach.org/socat/"
 repoUrl: "https://pkg.kali.org/pkg/socat"

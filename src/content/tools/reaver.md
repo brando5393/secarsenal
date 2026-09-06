@@ -3,7 +3,7 @@ name: "reaver"
 tagline: "Brute force attack tool against Wi-Fi Protected Setup PIN number"
 categories: ["wifi","wifi-credential-access"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/reaver/"
 downloadUrl: "https://github.com/t6x/reaver-wps-fork-t6x"
 repoUrl: "https://salsa.debian.org/pkg-security-team/reaver"

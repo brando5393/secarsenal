@@ -3,7 +3,7 @@ name: "bbot"
 tagline: "Multipurpose scanner built to automate your Recon, Bug Bounties, and ASM."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/blacklanternsecurity/bbot"
 commonlyOn: ["BlackArch"]

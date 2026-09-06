@@ -3,7 +3,7 @@ name: "parsero-git"
 tagline: "A Robots.txt audit tool"
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/parsero-git"
 downloadUrl: "https://github.com/behindthefirewalls/Parsero"
 commonlyOn: ["ArchStrike"]

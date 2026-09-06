@@ -3,7 +3,7 @@ name: "unrar-nonfree"
 tagline: "Unarchiver for .rar files (non-free version) - development files"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/unrar-nonfree/"
 downloadUrl: "https://www.rarlab.com/"
 repoUrl: "https://github.com/debian-calibre/unrar-nonfree"

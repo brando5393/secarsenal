@@ -3,7 +3,7 @@ name: "sipp"
 tagline: "Traffic generator for the SIP protocol"
 categories: ["voip"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/sipp/"
 downloadUrl: "https://sipp.sourceforge.net/"
 repoUrl: "https://gitlab.com/kalilinux/packages/sipp"

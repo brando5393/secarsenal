@@ -3,7 +3,7 @@ name: "python-neo4j"
 tagline: "Neo4j Bolt Driver for Python"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-neo4j"
 downloadUrl: "https://pypi.org/project/neo4j/"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "winexe"
 tagline: "Remotely execute commands on Windows NT/2000/XP/2003 systems."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "http://sourceforge.net/projects/winexe/"
 commonlyOn: ["BlackArch"]

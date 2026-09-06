@@ -3,7 +3,7 @@ name: "spike"
 tagline: "Network protocol fuzzer"
 categories: ["resource-development"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/spike/"
 downloadUrl: "http://www.immunitysec.com/resources-freesoftware.shtml"
 repoUrl: "https://gitlab.com/kalilinux/packages/spike"

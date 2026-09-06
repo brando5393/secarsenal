@@ -3,7 +3,7 @@ name: "ilty"
 tagline: "An interception phone system for VoIP network."
 categories: ["voip"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/voip.html"
 downloadUrl: "http://chdir.org/~nico/ilty/"
 commonlyOn: ["BlackArch"]

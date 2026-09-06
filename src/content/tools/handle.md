@@ -3,7 +3,7 @@ name: "handle"
 tagline: "An small application designed to analyze your system searching for global objects related to running process and display"
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://www.tarasco.org/security/handle/index.html"
 commonlyOn: ["BlackArch"]

@@ -4,7 +4,7 @@ tagline: "Parsing configuration information from malware."
 categories: ["deobfuscation"]
 platforms: ["Linux"]
 license: "Some parts Public Domain, some MIT License"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/deobfuscation"
 downloadUrl: "https://github.com/Defense-Cyber-Crime-Center/DC3-mwcp"
 commonlyOn: ["REMnux"]

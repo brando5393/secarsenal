@@ -3,7 +3,7 @@ name: "mimikatz"
 tagline: "Uses admin rights on Windows to display passwords in plaintext"
 categories: ["pass-the-hash","os-credential-dumping"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/mimikatz/"
 downloadUrl: "https://blog.gentilkiwi.com/mimikatz"
 repoUrl: "https://gitlab.com/kalilinux/packages/mimikatz"

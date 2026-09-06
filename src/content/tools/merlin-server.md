@@ -3,7 +3,7 @@ name: "merlin-server"
 tagline: "Merlin is a cross-platform post-exploitation HTTP/2 Command & Control server and agent written in golang."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/Ne0nd0g/merlin"
 commonlyOn: ["BlackArch"]

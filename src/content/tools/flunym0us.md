@@ -3,7 +3,7 @@ name: "flunym0us"
 tagline: "A Vulnerability Scanner for Wordpress and Moodle."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://code.google.com/p/flunym0us/"
 commonlyOn: ["BlackArch"]

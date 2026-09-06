@@ -3,7 +3,7 @@ name: "dsniff"
 tagline: "Various tools to sniff network traffic for cleartext insecurities"
 categories: ["network-sniffing"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/dsniff/"
 downloadUrl: "https://github.com/hackerschoice/dsniff"
 repoUrl: "https://salsa.debian.org/pkg-security-team/dsniff"

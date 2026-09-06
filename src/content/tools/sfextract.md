@@ -3,7 +3,7 @@ name: "sfextract"
 tagline: "sfextract extracts contents (assemblies, configuration, etc.) from .NET single file bundles."
 categories: ["dotnet"]
 platforms: ["Windows"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://github.com/mandiant/VM-Packages/tree/main/packages/sfextract.vm"
 downloadUrl: "https://github.com/Droppers/SingleFileExtractor"
 commonlyOn: ["FLARE VM"]

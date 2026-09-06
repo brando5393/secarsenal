@@ -3,7 +3,7 @@ name: "mapcidr"
 tagline: "Utility program to perform multiple operations for a given subnet/CIDR ranges."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/projectdiscovery/mapcidr"
 commonlyOn: ["BlackArch"]

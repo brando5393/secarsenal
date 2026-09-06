@@ -3,7 +3,7 @@ name: "dripper-git"
 tagline: "A fast, asynchronous DNS scanner; it can be used for enumerating subdomains and enumerating boxes via reverse DNS"
 categories: ["scanners"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/dripper-git"
 downloadUrl: "https://github.com/krmaxwell/Dripper"
 commonlyOn: ["ArchStrike"]

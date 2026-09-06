@@ -3,7 +3,7 @@ name: "myjwt"
 tagline: "This cli is for pentesters, CTF players, or dev. You can modify your jwt, sign, inject, etc."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/mBouamama/MyJWT"
 commonlyOn: ["BlackArch"]

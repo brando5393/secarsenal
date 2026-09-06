@@ -3,7 +3,7 @@ name: "spire"
 tagline: "Toolchain of APIs for establishing trust between software systems"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/spire/"
 downloadUrl: "https://github.com/spiffe/spire"
 repoUrl: "https://gitlab.com/kalilinux/packages/spire"

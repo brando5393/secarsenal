@@ -3,7 +3,7 @@ name: "iheartxor"
 tagline: "A tool for bruteforcing encoded strings within a boundary defined by a regular expression. It will bruteforce the key va"
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://hooked-on-mnemonics.blogspot.com.es/p/iheartxor.html"
 commonlyOn: ["BlackArch"]

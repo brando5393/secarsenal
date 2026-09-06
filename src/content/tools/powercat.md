@@ -3,7 +3,7 @@ name: "powercat"
 tagline: "Netcat features all in powershell v2"
 categories: ["non-application-layer-protocol"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/powercat/"
 downloadUrl: "https://github.com/besimorhino/powercat"
 repoUrl: "https://gitlab.com/kalilinux/packages/powercat"

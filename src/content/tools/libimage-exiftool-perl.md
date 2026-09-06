@@ -3,7 +3,7 @@ name: "libimage-exiftool-perl"
 tagline: "Library and program to read and write meta information in multimedia files"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/libimage-exiftool-perl/"
 downloadUrl: "https://exiftool.org/"
 repoUrl: "https://salsa.debian.org/perl-team/modules/packages/libimage-exiftool-perl"

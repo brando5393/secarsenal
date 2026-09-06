@@ -3,7 +3,7 @@ name: "python-ishell"
 tagline: "Build Interactive Shells with Python"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-ishell"
 downloadUrl: "http://github.com/italorossi/ishell"
 commonlyOn: ["ArchStrike"]

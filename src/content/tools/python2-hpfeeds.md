@@ -3,7 +3,7 @@ name: "python2-hpfeeds"
 tagline: "Honeynet Project generic authenticated datafeed protocol."
 categories: ["honeypot"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/honeypot.html"
 downloadUrl: "https://github.com/rep/hpfeeds"
 commonlyOn: ["BlackArch"]

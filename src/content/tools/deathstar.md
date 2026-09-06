@@ -3,7 +3,7 @@ name: "deathstar"
 tagline: "Automate getting Domain Admin using Empire."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/byt3bl33d3r/DeathStar"
 commonlyOn: ["BlackArch"]

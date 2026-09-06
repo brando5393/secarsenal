@@ -3,7 +3,7 @@ name: "enyelkm"
 tagline: "Rootkit for Linux x86 kernels v2.6."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "http://www.enye-sec.org/programas.html"
 commonlyOn: ["BlackArch"]

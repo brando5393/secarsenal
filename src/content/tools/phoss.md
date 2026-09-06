@@ -3,7 +3,7 @@ name: "phoss"
 tagline: "Sniffer designed to find HTTP, FTP, LDAP, Telnet, IMAP4, VNC and POP3 logins."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://194.150.168.69/phoss"
 commonlyOn: ["BlackArch"]

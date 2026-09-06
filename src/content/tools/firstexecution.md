@@ -3,7 +3,7 @@ name: "firstexecution"
 tagline: "A Collection of different ways to execute code outside of the expected entry points."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/nccgroup/firstexecution"
 commonlyOn: ["BlackArch"]

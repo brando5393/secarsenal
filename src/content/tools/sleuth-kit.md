@@ -4,7 +4,7 @@ tagline: "Analyze disk images and recover files from them."
 categories: ["general"]
 platforms: ["Linux"]
 license: "IBM Public License, Common Public License, GNU General Public License (GPL) v2"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/general"
 downloadUrl: "https://www.sleuthkit.org/sleuthkit"
 commonlyOn: ["REMnux"]

@@ -3,10 +3,11 @@ name: "lfisuite"
 tagline: "Totally Automatic LFI Exploiter (+ Reverse Shell) and Scanner."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
+downloadUrl: "https://github.com/D35m0nd142/LFISuite"
 commonlyOn: ["BlackArch"]
-gettingStarted: "Install on BlackArch with `pacman -S lfisuite` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."
+gettingStarted: "Install on BlackArch with `pacman -S lfisuite` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
 ---
 
 Totally Automatic LFI Exploiter (+ Reverse Shell) and Scanner.

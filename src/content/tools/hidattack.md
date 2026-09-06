@@ -3,7 +3,7 @@ name: "hidattack"
 tagline: "HID Attack (attacking HID host implementations)."
 categories: ["bluetooth"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/bluetooth.html"
 downloadUrl: "http://mulliner.org/bluetooth/hidattack.php"
 commonlyOn: ["BlackArch"]

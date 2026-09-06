@@ -3,7 +3,7 @@ name: "python-dicttoxml"
 tagline: "Converts a Python dictionary or other native data type into a valid XML string"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-dicttoxml"
 downloadUrl: "https://pypi.python.org/pypi/dicttoxml"
 commonlyOn: ["ArchStrike"]

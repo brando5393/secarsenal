@@ -3,7 +3,7 @@ name: "golang-github-binject-go-donut"
 tagline: "Donut Injector in Go"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/golang-github-binject-go-donut/"
 downloadUrl: "https://github.com/Binject/go-donut"
 repoUrl: "https://gitlab.com/kalilinux/packages/golang-github-binject-go-donut"

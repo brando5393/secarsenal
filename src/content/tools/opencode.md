@@ -4,7 +4,7 @@ tagline: "Open-source AI coding agent for the terminal."
 categories: ["use-artificial-intelligence"]
 platforms: ["Linux"]
 license: "Apache License 2.0"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/use+artificial+intelligence"
 downloadUrl: "https://opencode.ai"
 commonlyOn: ["REMnux"]

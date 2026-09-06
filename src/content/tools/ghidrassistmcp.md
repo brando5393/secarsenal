@@ -4,7 +4,7 @@ tagline: "MCP server for AI-assisted reverse engineering in Ghidra."
 categories: ["use-artificial-intelligence"]
 platforms: ["Linux"]
 license: "MIT"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/use+artificial+intelligence"
 downloadUrl: "https://github.com/jtang613/GhidrAssistMCP"
 commonlyOn: ["REMnux"]

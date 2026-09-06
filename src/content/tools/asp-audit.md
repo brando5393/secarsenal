@@ -3,7 +3,7 @@ name: "asp-audit"
 tagline: "An ASP fingerprinting tool and vulnerability scanner."
 categories: ["fingerprint"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/fingerprint.html"
 downloadUrl: "http://seclists.org/basics/2006/Sep/128"
 commonlyOn: ["BlackArch"]

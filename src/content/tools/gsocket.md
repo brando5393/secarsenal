@@ -3,7 +3,7 @@ name: "gsocket"
 tagline: "Allows two machines on different networks to communicate with each other"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/gsocket/"
 downloadUrl: "https://github.com/hackerschoice/gsocket"
 repoUrl: "https://salsa.debian.org/debian/gsocket"

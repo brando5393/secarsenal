@@ -3,7 +3,7 @@ name: "cjdns-git"
 tagline: "A routing engine designed for security, scalability, speed and ease of use"
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/cjdns-git"
 downloadUrl: "https://github.com/cjdelisle/cjdns"
 commonlyOn: ["ArchStrike"]

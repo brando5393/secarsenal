@@ -3,7 +3,7 @@ name: "python-mmbot"
 tagline: "Powerful malicious file triage tool for cyber responders."
 categories: ["malware"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/malware.html"
 downloadUrl: "https://github.com/egaus/MaliciousMacroBot"
 commonlyOn: ["BlackArch"]

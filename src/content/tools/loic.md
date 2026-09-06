@@ -3,7 +3,7 @@ name: "loic"
 tagline: "An open source network stress tool for Windows."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/NewEraCracker/LOIC"
 commonlyOn: ["BlackArch"]

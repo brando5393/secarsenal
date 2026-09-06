@@ -3,7 +3,7 @@ name: "hotspotter"
 tagline: "Passively monitor the network for probe request frames to identify the preferred networks of Windows XP clients, and com"
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "http://www.remote-exploit.org/?page_id=418"
 commonlyOn: ["BlackArch"]

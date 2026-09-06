@@ -3,7 +3,7 @@ name: "plumber.py"
 tagline: "A python implementation of a grep friendly ftrace wrapper."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/cybereason/linux_plumber"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "udis86"
 tagline: "A minimalistic disassembler library."
 categories: ["reversing"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/reversing.html"
 downloadUrl: "http://udis86.sourceforge.net/"
 commonlyOn: ["BlackArch"]

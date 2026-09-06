@@ -3,7 +3,7 @@ name: "ccrypt"
 tagline: "Secure encryption and decryption of files and streams"
 categories: ["defense-evasion"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/ccrypt/"
 downloadUrl: "https://ccrypt.sourceforge.net/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/ccrypt"

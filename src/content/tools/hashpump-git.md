@@ -3,7 +3,7 @@ name: "hashpump-git"
 tagline: "A tool to exploit the hash length extension attack in various hashing algorithms"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/hashpump-git"
 commonlyOn: ["ArchStrike"]
 gettingStarted: "Install by adding the ArchStrike repository to an existing Arch Linux install, then `pacman -S hashpump-git`. See the official ArchStrike package listing linked above for details."

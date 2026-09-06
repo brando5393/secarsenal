@@ -3,7 +3,7 @@ name: "ldap-brute"
 tagline: "A semi fast tool to bruteforce values of LDAP injections over HTTP."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/droope/ldap-brute"
 commonlyOn: ["BlackArch"]

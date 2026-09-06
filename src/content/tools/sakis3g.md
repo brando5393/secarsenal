@@ -3,7 +3,7 @@ name: "sakis3g"
 tagline: "Tool for establishing 3G connections"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/sakis3g/"
 downloadUrl: "http://www.sakis3g.org"
 repoUrl: "https://gitlab.com/kalilinux/packages/sakis3g"

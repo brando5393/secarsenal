@@ -3,7 +3,7 @@ name: "metasploit-autopwn"
 tagline: "db_autopwn plugin of metasploit."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/hahwul/metasploit-autopwn"
 commonlyOn: ["BlackArch"]

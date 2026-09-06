@@ -3,7 +3,7 @@ name: "nbname"
 tagline: "Decodes and displays all NetBIOS name packets it receives on UDP port 137 and more!"
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://www.cultdeadcow.com/tools/bo.html"
 commonlyOn: ["BlackArch"]

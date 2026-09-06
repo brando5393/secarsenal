@@ -3,7 +3,7 @@ name: "preeny"
 tagline: "Some helpful preload libraries for pwning stuff."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/zardus/preeny"
 commonlyOn: ["BlackArch"]

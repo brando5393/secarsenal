@@ -3,7 +3,7 @@ name: "ld-shatner"
 tagline: "ld-linux code injector."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://github.com/sduverger/ld-shatner"
 commonlyOn: ["BlackArch"]

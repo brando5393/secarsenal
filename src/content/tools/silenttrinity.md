@@ -3,7 +3,7 @@ name: "silenttrinity"
 tagline: "Asynchronous, collaborative post-exploitation agent"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/silenttrinity/"
 downloadUrl: "https://github.com/byt3bl33d3r/SILENTTRINITY"
 repoUrl: "https://gitlab.com/kalilinux/packages/silenttrinity"

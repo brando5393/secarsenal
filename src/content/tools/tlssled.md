@@ -3,7 +3,7 @@ name: "tlssled"
 tagline: "Evaluates the security of a target SSL/TLS (HTTPS) server"
 categories: ["ssl-tls"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/tlssled/"
 downloadUrl: "http://www.taddong.com/en/lab.html"
 repoUrl: "https://gitlab.com/kalilinux/packages/tlssled"

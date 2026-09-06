@@ -3,7 +3,7 @@ name: "v3n0m"
 tagline: "Offensive Security Tool for Vulnerability Scanning & Pentesting"
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/v3n0m-Scanner/V3n0M-Scanner"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "minicom"
 tagline: "Menu-driven serial communication program"
 categories: ["application-layer-protocol"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/minicom/"
 downloadUrl: "https://salsa.debian.org/minicom-team/minicom"
 repoUrl: "https://pkg.kali.org/pkg/minicom"

@@ -3,7 +3,7 @@ name: "python-msoffcrypto-tool"
 tagline: "Python tool and library for decrypting MS Office files with passwords or other keys"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-msoffcrypto-tool"
 downloadUrl: "https://github.com/nolze/msoffcrypto-tool"
 commonlyOn: ["ArchStrike"]

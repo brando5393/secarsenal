@@ -3,7 +3,7 @@ name: "atstaketools"
 tagline: "This is an archive of various @Stake tools that help perform vulnerability scanning and analysis, information gathering,"
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://packetstormsecurity.com/files/50718/AtStakeTools.zip.html"
 commonlyOn: ["BlackArch"]

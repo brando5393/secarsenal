@@ -3,7 +3,7 @@ name: "ostinato"
 tagline: "An open-source, cross-platform packet/traffic generator and analyzer with a friendly GUI. It aims to be \"Wireshark in Re"
 categories: ["sniffer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/sniffer.html"
 downloadUrl: "https://github.com/pstavirs/ostinato/"
 commonlyOn: ["BlackArch"]

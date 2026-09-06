@@ -3,7 +3,7 @@ name: "khc"
 tagline: "A small tool designed to recover hashed known_hosts fiels back to their plain-text equivalents."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://packetstormsecurity.com/files/87003/Known-Host-Cracker.2.html"
 commonlyOn: ["BlackArch"]

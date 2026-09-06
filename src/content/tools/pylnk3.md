@@ -3,7 +3,7 @@ name: "pylnk3"
 tagline: "Python library for reading and writing Windows shortcut files"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/pylnk3"
 downloadUrl: "https://pypi.org/project/pylnk3/"
 commonlyOn: ["ArchStrike"]

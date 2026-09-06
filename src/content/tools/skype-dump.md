@@ -3,7 +3,7 @@ name: "skype-dump"
 tagline: "This is a tool that demonstrates dumping MD5 password hashes from the configuration file in Skype."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://packetstormsecurity.com/files/119155/Skype-Hash-Dumper.0.html"
 commonlyOn: ["BlackArch"]

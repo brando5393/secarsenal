@@ -3,7 +3,7 @@ name: "aranea"
 tagline: "A fast and clean dns spoofing tool."
 categories: ["spoof"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/spoof.html"
 downloadUrl: "https://github.com/TigerSecurity"
 commonlyOn: ["BlackArch"]

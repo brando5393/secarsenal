@@ -3,7 +3,7 @@ name: "rfcat"
 tagline: "Swiss army knife of sub-GHz radio"
 categories: ["radio-frequency"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/rfcat/"
 downloadUrl: "https://github.com/atlas0fd00m/rfcat"
 repoUrl: "https://gitlab.com/kalilinux/packages/rfcat"

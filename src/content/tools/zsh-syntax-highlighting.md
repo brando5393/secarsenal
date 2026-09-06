@@ -3,7 +3,7 @@ name: "zsh-syntax-highlighting"
 tagline: "Fish shell like syntax highlighting for zsh"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/zsh-syntax-highlighting/"
 downloadUrl: "https://github.com/zsh-users/zsh-syntax-highlighting/"
 repoUrl: "https://salsa.debian.org/debian/zsh-syntax-highlighting"

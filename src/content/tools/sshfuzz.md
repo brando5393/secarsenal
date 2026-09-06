@@ -3,7 +3,7 @@ name: "sshfuzz"
 tagline: "A SSH Fuzzing utility written in Perl that uses Net::SSH2."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://packetstormsecurity.com/fuzzer/sshfuzz.txt"
 commonlyOn: ["BlackArch"]

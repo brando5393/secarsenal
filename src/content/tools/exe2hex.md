@@ -3,7 +3,7 @@ name: "exe2hex"
 tagline: "Inline file transfer using in-built Windows tools (DEBUG.exe or PowerShell)."
 categories: ["disassembler"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/disassembler.html"
 downloadUrl: "https://github.com/g0tmi1k/exe2hex"
 commonlyOn: ["BlackArch"]

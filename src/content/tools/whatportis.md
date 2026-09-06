@@ -3,7 +3,7 @@ name: "whatportis"
 tagline: "A command to search port names and numbers."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/ncrocfer/whatportis"
 commonlyOn: ["BlackArch"]

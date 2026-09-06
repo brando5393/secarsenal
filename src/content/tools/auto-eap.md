@@ -3,7 +3,7 @@ name: "auto-eap"
 tagline: "Automated Brute-Force Login Attacks Against EAP Networks."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "https://github.com/Tylous/Auto_EAP"
 commonlyOn: ["BlackArch"]

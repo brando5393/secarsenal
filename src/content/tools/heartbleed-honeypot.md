@@ -3,7 +3,7 @@ name: "heartbleed-honeypot"
 tagline: "Script that listens on TCP port 443 and responds with completely bogus SSL heartbeat responses, unless it detects the st"
 categories: ["honeypot"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/honeypot.html"
 downloadUrl: "http://packetstormsecurity.com/files/126068/hb_honeypot.pl.txt"
 commonlyOn: ["BlackArch"]

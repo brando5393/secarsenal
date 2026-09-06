@@ -3,7 +3,7 @@ name: "python2-ldapdomaindump"
 tagline: "Active Directory information dumper via LDAP."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://pypi.org/project/ldapdomaindump/#files"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "windows-privesc-check"
 tagline: "Windows privilege escalation checking tool"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/windows-privesc-check/"
 downloadUrl: "https://pentestmonkey.net/tools/windows-privesc-check"
 repoUrl: "https://gitlab.com/kalilinux/packages/windows-privesc-check"

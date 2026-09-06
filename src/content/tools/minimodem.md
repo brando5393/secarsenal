@@ -3,7 +3,7 @@ name: "minimodem"
 tagline: "A command-line program which decodes (or generates) audio modem tones at any specified baud rate, using various framing "
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/kamalmostafa/minimodem"
 commonlyOn: ["BlackArch"]

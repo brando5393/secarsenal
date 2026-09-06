@@ -3,7 +3,7 @@ name: "portspoof"
 tagline: "Enhance OS security through a set of techniques"
 categories: ["system-services"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/portspoof/"
 downloadUrl: "https://github.com/drk1wi/portspoof"
 repoUrl: "https://gitlab.com/kalilinux/packages/portspoof"

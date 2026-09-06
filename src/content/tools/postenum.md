@@ -3,7 +3,7 @@ name: "postenum"
 tagline: "Clean, nice and easy tool for basic/advanced privilege escalation techniques."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/mbahadou/postenum"
 commonlyOn: ["BlackArch"]

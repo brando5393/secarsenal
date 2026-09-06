@@ -3,7 +3,7 @@ name: "arjun"
 tagline: "HTTP parameter discovery suite"
 categories: ["web-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/arjun/"
 downloadUrl: "https://github.com/s0md3v/Arjun"
 repoUrl: "https://salsa.debian.org/pkg-security-team/arjun"

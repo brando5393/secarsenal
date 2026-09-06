@@ -3,7 +3,7 @@ name: "lfi-image-helper"
 tagline: "A simple script to infect images with PHP Backdoors for local file inclusion attacks."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "http://packetstormsecurity.com/files/129871/LFI-Image-Helper.8.html"
 commonlyOn: ["BlackArch"]

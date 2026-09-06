@@ -3,7 +3,7 @@ name: "passgan"
 tagline: "A Deep Learning Approach for Password Guessing."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/D3vil0p3r/PassGAN"
 commonlyOn: ["BlackArch"]

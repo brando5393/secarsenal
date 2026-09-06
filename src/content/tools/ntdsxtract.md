@@ -3,7 +3,7 @@ name: "ntdsxtract"
 tagline: "Active Directory forensic framework."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/csababarta/ntdsxtract"
 commonlyOn: ["BlackArch"]

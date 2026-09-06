@@ -3,7 +3,7 @@ name: "fred"
 tagline: "Cross-platform M$ registry hive editor."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://www.pinguin.lu/fred"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "against"
 tagline: "A very fast ssh attacking script which includes a multithreaded port scanning module (tcp connect) for discovering possi"
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://nullsecurity.net/tools/cracker.html"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "ethtool"
 tagline: "Display or change Ethernet device settings"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/ethtool/"
 downloadUrl: "https://www.kernel.org/pub/software/network/ethtool/"
 repoUrl: "https://salsa.debian.org/kernel-team/ethtool"

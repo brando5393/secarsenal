@@ -3,7 +3,7 @@ name: "catphish"
 tagline: "For phishing and corporate espionage."
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://github.com/ring0lab/catphish"
 commonlyOn: ["BlackArch"]

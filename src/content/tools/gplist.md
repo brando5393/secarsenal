@@ -3,7 +3,7 @@ name: "gplist"
 tagline: "Lists information about the applied Group Policies."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://vidstromlabs.com/freetools/gplist/"
 commonlyOn: ["BlackArch"]

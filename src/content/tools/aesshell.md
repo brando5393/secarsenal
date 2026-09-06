@@ -3,7 +3,7 @@ name: "aesshell"
 tagline: "A backconnect shell for Windows and Unix written in python and uses AES in CBC mode in conjunction with HMAC-SHA256 for "
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://packetstormsecurity.com/files/132438/AESshell.7.html"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "nullinux"
 tagline: "Tool that can be used to enumerate OS information, domain information, shares, directories, and users through SMB null s"
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/m8r0wn/nullinux"
 commonlyOn: ["BlackArch"]

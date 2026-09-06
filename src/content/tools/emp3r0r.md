@@ -3,7 +3,7 @@ name: "emp3r0r"
 tagline: "Linux post-exploitation framework made by linux user."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/jm33-m0/emp3r0r"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "promiscdetect"
 tagline: "Checks if your network adapter(s) is running in promiscuous mode, which may be a sign that you have a sniffer running on"
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://vidstromlabs.com/freetools/promiscdetect"
 commonlyOn: ["BlackArch"]

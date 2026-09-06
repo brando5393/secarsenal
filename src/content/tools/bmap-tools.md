@@ -3,7 +3,7 @@ name: "bmap-tools"
 tagline: "Tool for copying largely sparse files using information from a block map file."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "http://git.infradead.org/users/dedekind/bmap-tools.git"
 commonlyOn: ["BlackArch"]

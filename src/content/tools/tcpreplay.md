@@ -3,7 +3,7 @@ name: "tcpreplay"
 tagline: "Tool to replay saved tcpdump files at arbitrary speeds"
 categories: ["network-security-appliances"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/tcpreplay/"
 downloadUrl: "http://tcpreplay.appneta.com/"
 repoUrl: "https://git.in-ulm.de/cbiedl/tcpreplay"

@@ -3,7 +3,7 @@ name: "snaffler-ng"
 tagline: "SMB share credential and sensitive data scanner"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/snaffler-ng/"
 downloadUrl: "https://github.com/totekuh/snaffler-ng"
 repoUrl: "https://gitlab.com/kalilinux/packages/snaffler-ng"

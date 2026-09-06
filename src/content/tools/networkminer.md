@@ -3,7 +3,7 @@ name: "networkminer"
 tagline: "A Network Forensic Analysis Tool for advanced Network Traffic Analysis, sniffer and packet analyzer."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "http://www.netresec.com/"
 commonlyOn: ["BlackArch"]

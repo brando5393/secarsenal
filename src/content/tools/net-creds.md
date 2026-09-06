@@ -3,7 +3,7 @@ name: "net-creds"
 tagline: "Sniffs sensitive data from interface or pcap."
 categories: ["sniffer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/sniffer.html"
 downloadUrl: "https://github.com/DanMcInerney/net-creds"
 commonlyOn: ["BlackArch"]

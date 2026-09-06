@@ -3,7 +3,7 @@ name: "dns-spoof"
 tagline: "Yet another DNS spoof utility."
 categories: ["spoof"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/spoof.html"
 downloadUrl: "https://github.com/maurotfilho/dns-spoof"
 commonlyOn: ["BlackArch"]

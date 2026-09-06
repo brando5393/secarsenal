@@ -3,7 +3,7 @@ name: "network-app-stress-tester"
 tagline: "Network Application Stress Testing Yammer."
 categories: ["dos"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/dos.html"
 downloadUrl: "https://github.com/PherricOxide/Network-App-Stress-Tester"
 commonlyOn: ["BlackArch"]

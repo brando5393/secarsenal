@@ -3,7 +3,7 @@ name: "cutecom"
 tagline: "Graphical serial terminal, like minicom"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/cutecom/"
 downloadUrl: "https://gitlab.com/cutecom/cutecom"
 repoUrl: "https://pkg.kali.org/pkg/cutecom"

@@ -3,7 +3,7 @@ name: "ida-free"
 tagline: "Freeware version of the world's smartest and most feature-full disassembler."
 categories: ["reversing"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/reversing.html"
 downloadUrl: "https://hex-rays.com/ida-free/"
 commonlyOn: ["BlackArch"]

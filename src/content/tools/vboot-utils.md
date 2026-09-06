@@ -3,7 +3,7 @@ name: "vboot-utils"
 tagline: "Chrome OS verified u-boot utilities"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/vboot-utils/"
 downloadUrl: "https://chromium.googlesource.com/chromiumos/platform/vboot_reference"
 repoUrl: "https://salsa.debian.org/debian/vboot-utils"

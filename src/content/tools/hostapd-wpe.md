@@ -3,7 +3,7 @@ name: "hostapd-wpe"
 tagline: "Modified hostapd to facilitate AP impersonation attacks"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/hostapd-wpe/"
 downloadUrl: "https://github.com/aircrack-ng/aircrack-ng/tree/master/patches/wpe"
 repoUrl: "https://gitlab.com/kalilinux/packages/hostapd-wpe"

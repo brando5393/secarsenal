@@ -3,7 +3,7 @@ name: "aws-extender-cli"
 tagline: "Script to test S3 buckets as well as Google Storage buckets and Azure Storage containers for common misconfiguration iss"
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/VirtueSecurity/aws-extender-cli"
 commonlyOn: ["BlackArch"]

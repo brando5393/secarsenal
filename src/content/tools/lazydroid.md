@@ -3,7 +3,7 @@ name: "lazydroid"
 tagline: "Tool written as a bash script to facilitate some aspects of an Android Assessment"
 categories: ["mobile"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/mobile.html"
 downloadUrl: "https://github.com/nccgroup/LazyDroid"
 commonlyOn: ["BlackArch"]

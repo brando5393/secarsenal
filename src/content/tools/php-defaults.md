@@ -3,7 +3,7 @@ name: "php-defaults"
 tagline: "Server-side, HTML-embedded scripting language (Apache 2 module) (default)"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/php-defaults/"
 repoUrl: "https://salsa.debian.org/php-team/php-defaults"
 commonlyOn: ["Kali Linux"]

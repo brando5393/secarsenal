@@ -3,7 +3,7 @@ name: "innounp"
 tagline: "Inno Setup Unpacker."
 categories: ["reversing"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/reversing.html"
 downloadUrl: "https://sourceforge.net/projects/innounp/files/innounp/"
 commonlyOn: ["BlackArch"]

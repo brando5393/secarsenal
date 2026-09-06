@@ -3,7 +3,7 @@ name: "hak5-wifi-coconut"
 tagline: "Userspace driver for the Hak5 Wi-Fi Coconut"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/hak5-wifi-coconut/"
 downloadUrl: "https://hak5.org"
 repoUrl: "https://gitlab.com/kalilinux/packages/hak5-wifi-coconut"

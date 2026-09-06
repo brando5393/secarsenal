@@ -3,7 +3,7 @@ name: "httpx"
 tagline: "A fast and multi-purpose HTTP toolkit allow to run multiple probers using retryablehttp library."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/projectdiscovery/httpx"
 commonlyOn: ["BlackArch"]

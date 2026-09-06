@@ -3,7 +3,7 @@ name: "pshitt-git"
 tagline: "A lightweight fake SSH server designed to collect authentication data sent by intruders."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/pshitt-git"
 downloadUrl: "https://github.com/regit/pshitt"
 commonlyOn: ["ArchStrike"]

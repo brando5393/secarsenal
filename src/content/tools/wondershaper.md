@@ -3,7 +3,7 @@ name: "wondershaper"
 tagline: "Limit the bandwidth of one or more network adapters."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/magnific0/wondershaper"
 commonlyOn: ["BlackArch"]

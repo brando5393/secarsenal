@@ -3,7 +3,7 @@ name: "featherduster"
 tagline: "An automated, modular cryptanalysis tool."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/nccgroup/featherduster"
 commonlyOn: ["BlackArch"]

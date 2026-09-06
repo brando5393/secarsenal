@@ -3,7 +3,7 @@ name: "reglookup"
 tagline: "Utility to analysis for Windows NT-based registry"
 categories: ["digital-forensics"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/reglookup/"
 downloadUrl: "https://web.archive.org/web/20240804024044/http://projects.sentinelchicken.org/reglookup/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/reglookup"

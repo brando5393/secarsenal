@@ -4,7 +4,7 @@ tagline: "Extract and analyze embedded files from OneNote documents."
 categories: ["microsoft-office"]
 platforms: ["Linux"]
 license: "Public Domain"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/analyze+documents/microsoft+office"
 downloadUrl: "https://blog.didierstevens.com/2023/01/22/new-tool-onedump-py/"
 commonlyOn: ["REMnux"]

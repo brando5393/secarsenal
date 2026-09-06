@@ -3,7 +3,7 @@ name: "shadowexplorer"
 tagline: "Browse the Shadow Copies created by the Windows Vista / 7 / 8 / 10 Volume Shadow Copy Service."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://www.shadowexplorer.com/downloads.html"
 commonlyOn: ["BlackArch"]

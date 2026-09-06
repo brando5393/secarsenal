@@ -3,7 +3,7 @@ name: "cloudflare-enum"
 tagline: "Cloudflare DNS Enumeration Tool for Pentesters."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/mandatoryprogrammer/cloudflare_enum"
 commonlyOn: ["BlackArch"]

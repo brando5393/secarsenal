@@ -3,7 +3,7 @@ name: "phantomcollect"
 tagline: "Lightweight stealth web data collection framework for ethical security testing."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/xsser01/phantomcollect"
 commonlyOn: ["BlackArch"]

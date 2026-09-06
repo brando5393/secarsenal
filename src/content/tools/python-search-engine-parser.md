@@ -3,7 +3,7 @@ name: "python-search-engine-parser"
 tagline: "Scrapes search engine pages for query titles, descriptions and links."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/.html"
 downloadUrl: "https://pypi.org/project/search-engine-parser/#files"
 commonlyOn: ["BlackArch"]

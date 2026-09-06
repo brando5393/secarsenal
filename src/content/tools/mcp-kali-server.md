@@ -3,7 +3,7 @@ name: "mcp-kali-server"
 tagline: "API bridge connecting MCP Clients to the API server"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/mcp-kali-server/"
 downloadUrl: "https://github.com/Wh0am123/MCP-Kali-Server"
 repoUrl: "https://gitlab.com/kalilinux/packages/mcp-kali-server"

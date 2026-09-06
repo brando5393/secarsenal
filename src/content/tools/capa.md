@@ -3,7 +3,7 @@ name: "capa"
 tagline: "The FLARE team's open-source tool to identify capabilities in executable files."
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://github.com/mandiant/capa"
 commonlyOn: ["BlackArch"]

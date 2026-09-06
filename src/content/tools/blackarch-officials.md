@@ -3,7 +3,7 @@ name: "blackarch-officials"
 tagline: "Meta package for installing official security tools from the Arch Linux repository."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/.html"
 downloadUrl: "https://www.blackarch.org/"
 commonlyOn: ["BlackArch"]

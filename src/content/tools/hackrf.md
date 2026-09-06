@@ -3,7 +3,7 @@ name: "hackrf"
 tagline: "Software defined radio peripheral - utilities"
 categories: ["radio-frequency"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/hackrf/"
 downloadUrl: "http://greatscottgadgets.com/hackrf/"
 repoUrl: "https://salsa.debian.org/bottoms/pkg-hackrf"

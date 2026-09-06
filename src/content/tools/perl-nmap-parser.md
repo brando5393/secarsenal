@@ -3,7 +3,7 @@ name: "perl-nmap-parser"
 tagline: "Nmap::Parser"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/perl-nmap-parser"
 downloadUrl: "https://metacpan.org/pod/Nmap::Parser"
 commonlyOn: ["ArchStrike"]

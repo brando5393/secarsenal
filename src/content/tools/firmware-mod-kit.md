@@ -3,7 +3,7 @@ name: "firmware-mod-kit"
 tagline: "Deconstruct and reconstruct firmware images"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/firmware-mod-kit/"
 downloadUrl: "https://github.com/rampageX/firmware-mod-kit"
 repoUrl: "https://gitlab.com/kalilinux/packages/firmware-mod-kit"

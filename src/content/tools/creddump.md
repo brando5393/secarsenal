@@ -3,7 +3,7 @@ name: "creddump"
 tagline: "A python tool to extract various credentials and secrets from Windows registry hives."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/moyix/creddump"
 commonlyOn: ["BlackArch"]

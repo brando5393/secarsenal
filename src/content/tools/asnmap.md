@@ -3,7 +3,7 @@ name: "asnmap"
 tagline: "Map organization network ranges using ASN information."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/projectdiscovery/asnmap"
 commonlyOn: ["BlackArch"]

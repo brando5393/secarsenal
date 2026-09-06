@@ -3,7 +3,7 @@ name: "hellcat-git"
 tagline: "netcat that takes unfair advantage of traffic shaping systems that don't initially ratelimit"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/hellcat-git"
 downloadUrl: "https://github.com/matildah/hellcat"
 commonlyOn: ["ArchStrike"]

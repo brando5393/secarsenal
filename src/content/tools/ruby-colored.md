@@ -3,7 +3,7 @@ name: "ruby-colored"
 tagline: ">> puts 'this is red'.red >> puts 'this is red with a blue background (read: ugly)'.red_on_blue..."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/ruby-colored"
 downloadUrl: "http://github.com/defunkt/colored"
 commonlyOn: ["ArchStrike"]

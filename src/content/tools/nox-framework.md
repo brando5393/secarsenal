@@ -3,7 +3,7 @@ name: "nox-framework"
 tagline: "OSINT & CTI Framework with 120+ sources, async performance, identity pivoting, and automated risk analysis."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/nox-project/nox-framework"
 commonlyOn: ["BlackArch"]

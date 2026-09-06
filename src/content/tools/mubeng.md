@@ -3,7 +3,7 @@ name: "mubeng"
 tagline: "An incredibly fast proxy checker & IP rotator with ease."
 categories: ["proxy"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/proxy.html"
 downloadUrl: "https://github.com/kitabisa/mubeng"
 commonlyOn: ["BlackArch"]

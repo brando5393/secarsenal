@@ -3,7 +3,7 @@ name: "donut"
 tagline: "Generates x86, x64 or AMD64+x86 P.I. shellcode loading .NET Assemblies from memory."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://github.com/TheWover/donut"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "detect-secrets"
 tagline: "An enterprise friendly way of detecting and preventing secrets in code."
 categories: ["code-audit"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/code-audit.html"
 downloadUrl: "https://github.com/Yelp/detect-secrets"
 commonlyOn: ["BlackArch"]

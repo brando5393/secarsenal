@@ -3,7 +3,7 @@ name: "foremost"
 tagline: "Forensic program to recover lost files"
 categories: ["forensic-carving-tools","forensics"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/foremost/"
 downloadUrl: "https://sourceforge.net/projects/foremost/"
 repoUrl: "https://salsa.debian.org/rul/foremost/tree/debian/sid"

@@ -3,7 +3,7 @@ name: "erl-matter"
 tagline: "Tool to exploit epmd related services such as rabbitmq, ejabberd and couchdb by bruteforcing the cookie and gaining RCE "
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/gteissier/erl-matter"
 commonlyOn: ["BlackArch"]

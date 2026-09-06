@@ -3,7 +3,7 @@ name: "dmitry"
 tagline: "Deepmagic Information Gathering Tool"
 categories: ["network-information"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/dmitry/"
 downloadUrl: "https://mor-pah.net/software/dmitry-deepmagic-information-gathering-tool/"
 repoUrl: "https://salsa.debian.org/debian/dmitry"

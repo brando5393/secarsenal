@@ -3,7 +3,7 @@ name: "gpart"
 tagline: "Guess PC disk partition table, find lost partitions"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/gpart/"
 downloadUrl: "https://github.com/baruch/gpart"
 repoUrl: "https://salsa.debian.org/pkg-security-team/gpart"

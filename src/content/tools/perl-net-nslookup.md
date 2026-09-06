@@ -3,7 +3,7 @@ name: "perl-net-nslookup"
 tagline: "Provide nslookup(1)-like capabilties."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/perl-net-nslookup"
 downloadUrl: "https://metacpan.org/pod/Net::Nslookup"
 commonlyOn: ["ArchStrike"]

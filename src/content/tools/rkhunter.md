@@ -3,7 +3,7 @@ name: "rkhunter"
 tagline: "Rootkit, backdoor, sniffer and exploit scanner"
 categories: ["forensics"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/rkhunter/"
 downloadUrl: "https://rkhunter.sourceforge.net"
 repoUrl: "https://salsa.debian.org/pkg-security-team/rkhunter"

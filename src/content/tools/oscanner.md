@@ -3,7 +3,7 @@ name: "oscanner"
 tagline: "Oracle assessment framework"
 categories: ["databases"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/oscanner/"
 downloadUrl: "http://www.cqure.net/wp/tools/database/oscanner/"
 repoUrl: "https://gitlab.com/kalilinux/packages/oscanner"

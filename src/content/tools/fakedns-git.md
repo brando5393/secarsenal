@@ -3,7 +3,7 @@ name: "fakedns-git"
 tagline: "A regular-expression based python MITM DNS server with correct DNS request passthrough and \"Not Found\" responses."
 categories: ["spoof"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/fakedns-git"
 downloadUrl: "https://github.com/Crypt0s/FakeDns"
 commonlyOn: ["ArchStrike"]

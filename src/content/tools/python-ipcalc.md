@@ -3,7 +3,7 @@ name: "python-ipcalc"
 tagline: "IP subnet calculator for Python."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-ipcalc"
 downloadUrl: "https://pypi.python.org/pypi/ipcalc/"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "ldapmonitor"
 tagline: "Monitor creation, deletion and changes to LDAP objects live during your pentest or system administration!"
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/p0dalirius/ldapmonitor"
 commonlyOn: ["BlackArch"]

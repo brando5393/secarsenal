@@ -3,7 +3,7 @@ name: "mibble"
 tagline: "An open-source SNMP MIB parser (or SMI parser) written in Java. It can be used to read SNMP MIB files as well as simple "
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "http://www.mibble.org/"
 commonlyOn: ["BlackArch"]

@@ -4,7 +4,7 @@ tagline: "Determine the IP address of the default network interface."
 categories: ["general-utilities"]
 platforms: ["Linux"]
 license: "Public Domain"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/general+utilities"
 downloadUrl: "https://github.com/REMnux/distro/blob/master/files/myip"
 commonlyOn: ["REMnux"]

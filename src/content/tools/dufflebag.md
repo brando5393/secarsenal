@@ -3,7 +3,7 @@ name: "dufflebag"
 tagline: "Search exposed EBS volumes for secrets (program)"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/dufflebag/"
 downloadUrl: "https://github.com/BishopFox/dufflebag"
 repoUrl: "https://gitlab.com/kalilinux/packages/dufflebag"

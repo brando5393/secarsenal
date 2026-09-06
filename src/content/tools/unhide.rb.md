@@ -3,7 +3,7 @@ name: "unhide.rb"
 tagline: "Forensics tool to find processes hidden by rootkits"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/unhide.rb/"
 downloadUrl: "https://launchpad.net/unhide.rb"
 repoUrl: "https://salsa.debian.org/pkg-security-team/unhide.rb"

@@ -3,7 +3,7 @@ name: "cloudget"
 tagline: "Python script to bypass cloudflare from command line. Built upon cfscrape module."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/eudemonics/cloudget"
 commonlyOn: ["BlackArch"]

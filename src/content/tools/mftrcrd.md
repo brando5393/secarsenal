@@ -3,7 +3,7 @@ name: "mftrcrd"
 tagline: "Command line $MFT record decoder."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/jschicht/MftRcrd"
 commonlyOn: ["BlackArch"]

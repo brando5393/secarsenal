@@ -3,7 +3,7 @@ name: "atear"
 tagline: "Wireless Hacking, WiFi Security, Vulnerability Analyzer, Pentestration."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "https://github.com/NORMA-Inc/AtEar"
 commonlyOn: ["BlackArch"]

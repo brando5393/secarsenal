@@ -3,7 +3,7 @@ name: "cariddi"
 tagline: "Take a list of domains, crawl urls and scan for endpoints, secrets, api keys, file extensions, token."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/edoardottt/cariddi"
 commonlyOn: ["BlackArch"]

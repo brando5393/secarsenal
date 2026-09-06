@@ -3,7 +3,7 @@ name: "stegosip"
 tagline: "TCP tunnel over RTP/SIP."
 categories: ["tunnel"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/tunnel.html"
 downloadUrl: "https://github.com/epinna/Stegosip"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "dirstalk"
 tagline: "Modern alternative to dirbuster/dirb."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/stefanoj3/dirstalk"
 commonlyOn: ["BlackArch"]

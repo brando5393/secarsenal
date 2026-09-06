@@ -3,7 +3,7 @@ name: "python-googletransx"
 tagline: "Free Google Translate API for Python"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-googletransx"
 downloadUrl: "https://pypi.org/project/googletransx"
 commonlyOn: ["ArchStrike"]
