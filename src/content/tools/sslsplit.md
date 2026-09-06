@@ -3,7 +3,7 @@ name: "sslsplit"
 tagline: "Transparent and scalable SSL/TLS interception"
 categories: ["collection"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/sslsplit/"
 downloadUrl: "https://www.roe.ch/SSLsplit"
 repoUrl: "https://salsa.debian.org/debian/sslsplit"

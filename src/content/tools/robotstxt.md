@@ -3,7 +3,7 @@ name: "robotstxt"
 tagline: "Robots.txt exclusion protocol implementation for Go language"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/robotstxt/"
 downloadUrl: "https://github.com/temoto/robotstxt"
 repoUrl: "https://gitlab.com/kalilinux/packages/robotstxt"

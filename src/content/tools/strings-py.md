@@ -4,7 +4,7 @@ tagline: "Extract ASCII and Unicode strings from binary files with length sortin
 categories: ["general"]
 platforms: ["Linux"]
 license: "Public Domain"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/general"
 downloadUrl: "https://blog.didierstevens.com/2020/12/19/update-strings-py-version-0-0-6/"
 commonlyOn: ["REMnux"]

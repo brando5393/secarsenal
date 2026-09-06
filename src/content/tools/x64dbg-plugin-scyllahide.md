@@ -3,7 +3,7 @@ name: "x64dbg.plugin.scyllahide"
 tagline: "ScyllaHide is an advanced open-source x64/x86 user mode Anti-Anti-Debug library."
 categories: ["debuggers"]
 platforms: ["Windows"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://github.com/mandiant/VM-Packages/tree/main/packages/x64dbg.plugin.scyllahide.vm"
 downloadUrl: "https://github.com/x64dbg/ScyllaHide"
 commonlyOn: ["FLARE VM"]

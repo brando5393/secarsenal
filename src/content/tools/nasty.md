@@ -3,7 +3,7 @@ name: "nasty"
 tagline: "Tool which helps you to recover your GPG passphrase"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/nasty/"
 downloadUrl: "https://github.com/folkertvanheusden/nasty"
 repoUrl: "https://salsa.debian.org/pkg-security-team/nasty"

@@ -3,7 +3,7 @@ name: "fang"
 tagline: "A multi service threaded MD5 cracker."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/evilsocket/fang"
 commonlyOn: ["BlackArch"]

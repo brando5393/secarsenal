@@ -3,7 +3,7 @@ name: "kustomize"
 tagline: "Customization of Kubernetes YAML configurations (program)"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/kustomize/"
 downloadUrl: "https://github.com/kubernetes-sigs/kustomize"
 repoUrl: "https://salsa.debian.org/kubernetes-team/packages/kustomize"

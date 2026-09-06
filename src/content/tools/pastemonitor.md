@@ -3,7 +3,7 @@ name: "pastemonitor"
 tagline: "Scrape Pastebin API to collect daily pastes, setup a wordlist and be alerted by email when you have a match.."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/pixelbubble/PasteMonitor"
 commonlyOn: ["BlackArch"]

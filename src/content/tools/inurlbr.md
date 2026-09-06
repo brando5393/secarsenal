@@ -3,7 +3,7 @@ name: "inurlbr"
 tagline: "Advanced search in the search engines - Inurl scanner, dorker, exploiter."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://code.google.com/p/inurlbr/"
 commonlyOn: ["BlackArch"]

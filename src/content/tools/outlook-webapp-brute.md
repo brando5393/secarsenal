@@ -3,7 +3,7 @@ name: "outlook-webapp-brute"
 tagline: "Microsoft Outlook WebAPP Brute."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/lijiejie/OutLook_WebAPP_Brute"
 commonlyOn: ["BlackArch"]

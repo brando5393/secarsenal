@@ -4,7 +4,7 @@ tagline: "Implement a XOR known plaintext attack."
 categories: ["deobfuscation"]
 platforms: ["Linux"]
 license: "Public Domain"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/deobfuscation"
 downloadUrl: "https://blog.didierstevens.com/2017/06/06/update-xor-kpa-py-version-0-0-5/"
 commonlyOn: ["REMnux"]

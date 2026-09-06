@@ -3,7 +3,7 @@ name: "cifs-utils"
 tagline: "Common Internet File System utilities"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/cifs-utils/"
 downloadUrl: "https://wiki.samba.org/index.php/LinuxCIFS_utils"
 repoUrl: "https://salsa.debian.org/samba-team/cifs-utils"

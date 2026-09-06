@@ -3,7 +3,7 @@ name: "onenoteanalyzer"
 tagline: "OneNoteAnalyzer is a C# based tool for analyzing malicious OneNote documents."
 categories: ["documents"]
 platforms: ["Windows"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://github.com/mandiant/VM-Packages/tree/main/packages/onenoteanalyzer.vm"
 downloadUrl: "https://github.com/knight0x07/OneNoteAnalyzer"
 commonlyOn: ["FLARE VM"]

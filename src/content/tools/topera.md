@@ -3,7 +3,7 @@ name: "topera"
 tagline: "An IPv6 security analysis toolkit, with the particularity that their attacks can't be detected by Snort."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/toperaproject/topera"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "commentor"
 tagline: "Extract all comments from the specified URL resource."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/D3vil0p3r/comMENTOR"
 commonlyOn: ["BlackArch"]

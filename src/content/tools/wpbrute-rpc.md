@@ -3,7 +3,7 @@ name: "wpbrute-rpc"
 tagline: "Tool for amplified bruteforce attacks on wordpress based website via xmlrcp API."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/zendoctor/wpbrute-rpc"
 commonlyOn: ["BlackArch"]

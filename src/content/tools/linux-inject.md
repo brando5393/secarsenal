@@ -3,7 +3,7 @@ name: "linux-inject"
 tagline: "Tool for injecting a shared object into a Linux process."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://github.com/gaffe23/linux-inject"
 commonlyOn: ["BlackArch"]

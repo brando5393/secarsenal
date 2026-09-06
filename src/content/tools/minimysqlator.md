@@ -3,7 +3,7 @@ name: "minimysqlator"
 tagline: "A multi-platform application used to audit web sites in order to discover and exploit SQL injection vulnerabilities."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/exploitation.html"
 commonlyOn: ["BlackArch"]
 gettingStarted: "Install on BlackArch with `pacman -S minimysqlator` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."

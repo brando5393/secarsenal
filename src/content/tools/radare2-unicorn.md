@@ -3,7 +3,7 @@ name: "radare2-unicorn"
 tagline: "Unicorn Emulator Plugin for radare2."
 categories: ["disassembler"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/disassembler.html"
 downloadUrl: "https://github.com/radare/radare2-extras/tree/master/unicorn"
 commonlyOn: ["BlackArch"]

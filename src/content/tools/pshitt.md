@@ -3,7 +3,7 @@ name: "pshitt"
 tagline: "A lightweight fake SSH server designed to collect authentication data sent by intruders."
 categories: ["honeypot"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/honeypot.html"
 downloadUrl: "https://github.com/regit/pshitt"
 commonlyOn: ["BlackArch"]

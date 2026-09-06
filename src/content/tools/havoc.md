@@ -3,7 +3,7 @@ name: "havoc"
 tagline: "Modern and malleable post-exploitation C2 framework"
 categories: ["command-and-control"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/havoc/"
 downloadUrl: "https://github.com/HavocFramework/Havoc"
 repoUrl: "https://gitlab.com/kalilinux/packages/havoc"

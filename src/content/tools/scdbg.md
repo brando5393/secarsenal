@@ -4,7 +4,7 @@ tagline: "Analyze shellcode by emulating its execution."
 categories: ["shellcode"]
 platforms: ["Linux"]
 license: "Free, unknown license"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/dynamically+reverse-engineer+code/shellcode"
 downloadUrl: "http://sandsprite.com/blogs/index.php?uid=7&pid=152"
 commonlyOn: ["REMnux"]

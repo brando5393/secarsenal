@@ -3,7 +3,7 @@ name: "python-bintrees"
 tagline: "Package provides Binary-, RedBlack- and AVL-Trees in Python and Cython."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-bintrees"
 downloadUrl: "https://github.com/mozman/bintrees"
 commonlyOn: ["ArchStrike"]

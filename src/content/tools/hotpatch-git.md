@@ -3,7 +3,7 @@ name: "hotpatch-git"
 tagline: "Hot patches executables on Linux using .so file injection"
 categories: ["backdoors"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/hotpatch-git"
 downloadUrl: "http://www.selectiveintellect.com/hotpatch.html"
 commonlyOn: ["ArchStrike"]

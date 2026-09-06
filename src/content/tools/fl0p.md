@@ -3,7 +3,7 @@ name: "fl0p"
 tagline: "A passive L7 flow fingerprinter that examines TCP/UDP/ICMP packet sequences, can peek into cryptographic tunnels, can te"
 categories: ["fingerprint"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/fingerprint.html"
 downloadUrl: "http://lcamtuf.coredump.cx/"
 commonlyOn: ["BlackArch"]

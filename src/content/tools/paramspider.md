@@ -3,7 +3,7 @@ name: "paramspider"
 tagline: "Mining URLs from dark corners of Web Archives for bug hunting/fuzzing/further probing."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/devanshbatham/ParamSpider"
 commonlyOn: ["BlackArch"]

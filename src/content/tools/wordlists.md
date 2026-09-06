@@ -3,7 +3,7 @@ name: "wordlists"
 tagline: "Contains the rockyou wordlist"
 categories: ["password-profiling-wordlists","credential-access"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/wordlists/"
 downloadUrl: "https://www.kali.org"
 repoUrl: "https://gitlab.com/kalilinux/packages/wordlists"

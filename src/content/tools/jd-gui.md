@@ -3,7 +3,7 @@ name: "jd-gui"
 tagline: "GUI Java .class decompiler"
 categories: ["resource-development"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/jd-gui/"
 downloadUrl: "http://jd.benow.ca/"
 repoUrl: "https://gitlab.com/kalilinux/packages/jd-gui"

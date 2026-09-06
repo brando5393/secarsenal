@@ -3,7 +3,7 @@ name: "dirsearch"
 tagline: "Web path scanner"
 categories: ["web-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/dirsearch/"
 downloadUrl: "https://github.com/maurosoria/dirsearch"
 repoUrl: "https://salsa.debian.org/pkg-security-team/dirsearch"

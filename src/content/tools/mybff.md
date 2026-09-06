@@ -3,7 +3,7 @@ name: "mybff"
 tagline: "A Brute Force Framework."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/MooseDojo/myBFF"
 commonlyOn: ["BlackArch"]

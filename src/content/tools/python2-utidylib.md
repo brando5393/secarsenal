@@ -3,7 +3,7 @@ name: "python2-utidylib"
 tagline: "Python bindings for Tidy HTML parser/cleaner."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "http://utidylib.berlios.de"
 commonlyOn: ["BlackArch"]

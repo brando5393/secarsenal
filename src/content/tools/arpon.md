@@ -3,7 +3,7 @@ name: "arpon"
 tagline: "A host-based solution to secure the ARP protocol and prevent MITM attacks via ARP spoofing or cache poisoning."
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://arpon.sourceforge.net/"
 commonlyOn: ["BlackArch"]

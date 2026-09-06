@@ -3,7 +3,7 @@ name: "perl-net-frame"
 tagline: "The base framework for frame crafting."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/perl-net-frame"
 downloadUrl: "https://metacpan.org/pod/Net::Frame"
 commonlyOn: ["ArchStrike"]

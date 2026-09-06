@@ -3,7 +3,7 @@ name: "pepper"
 tagline: "An open source script to perform malware static analysis on Portable Executable."
 categories: ["malware"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/malware.html"
 downloadUrl: "https://github.com/Th3Hurrican3/PEpper"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "httpforge"
 tagline: "A set of shell tools that let you manipulate, send, receive, and analyze HTTP messages. These tools can be used to test,"
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "http://packetstormsecurity.com/files/98109/HTTPForge.02.01.html"
 commonlyOn: ["BlackArch"]

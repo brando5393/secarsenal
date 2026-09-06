@@ -3,7 +3,7 @@ name: "oledump"
 tagline: "Analyze OLE files (Compound File Binary Format). These files contain streams of data. This tool allows you to analyze th"
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "http://blog.didierstevens.com/programs/oledump-py/"
 commonlyOn: ["BlackArch"]

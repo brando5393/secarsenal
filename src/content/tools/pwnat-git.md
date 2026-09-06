@@ -3,7 +3,7 @@ name: "pwnat-git"
 tagline: "Punches holes in firewalls and NATs allowing any numbers of clients behind NATs to directly connect to a server behind a different NAT with no 3rd par"
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/pwnat-git"
 downloadUrl: "http://samy.pl/pwnat/"
 commonlyOn: ["ArchStrike"]

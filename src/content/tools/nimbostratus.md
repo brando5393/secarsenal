@@ -3,7 +3,7 @@ name: "nimbostratus"
 tagline: "Tools for fingerprintinging and exploiting Amazon cloud infrastructures."
 categories: ["fingerprint"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/fingerprint.html"
 downloadUrl: "https://github.com/andresriancho/nimbostratus"
 commonlyOn: ["BlackArch"]

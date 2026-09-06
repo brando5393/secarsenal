@@ -3,7 +3,7 @@ name: "artlas"
 tagline: "Apache Real Time Logs Analyzer System."
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://github.com/mthbernardes/ARTLAS"
 commonlyOn: ["BlackArch"]

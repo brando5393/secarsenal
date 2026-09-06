@@ -3,7 +3,7 @@ name: "openssh-gssapi"
 tagline: "Secure shell (SSH) client, with GSS-API support"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/openssh-gssapi/"
 downloadUrl: "https://www.openssh.com/"
 repoUrl: "https://salsa.debian.org/ssh-team/openssh-gssapi"

@@ -3,7 +3,7 @@ name: "log4cxx-svn"
 tagline: "A C++ port of Log4j"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/log4cxx-svn"
 downloadUrl: "http://logging.apache.org/log4cxx"
 commonlyOn: ["ArchStrike"]

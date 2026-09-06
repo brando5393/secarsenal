@@ -3,7 +3,7 @@ name: "xclip"
 tagline: "Command line interface to X selections"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/xclip/"
 downloadUrl: "https://github.com/astrand/xclip"
 repoUrl: "https://salsa.debian.org/debian/xclip"

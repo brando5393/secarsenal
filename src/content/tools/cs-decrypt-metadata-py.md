@@ -4,7 +4,7 @@ tagline: "Decrypt Cobalt Strike metadata."
 categories: ["deobfuscation"]
 platforms: ["Linux"]
 license: "Public Domain"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/deobfuscation"
 downloadUrl: "https://blog.didierstevens.com/2021/11/12/update-cs-decrypt-metadata-py-version-0-0-2/"
 commonlyOn: ["REMnux"]

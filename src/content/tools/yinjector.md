@@ -3,7 +3,7 @@ name: "yinjector"
 tagline: "A MySQL injection penetration tool. It has multiple features, proxy support, and multiple exploitation methods."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "http://packetstormsecurity.com/files/98359/yInjector-MySQL-Injection-Tool.html"
 commonlyOn: ["BlackArch"]

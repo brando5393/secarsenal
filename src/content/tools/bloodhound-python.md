@@ -3,7 +3,7 @@ name: "bloodhound-python"
 tagline: "Python data collector for Bloodhound legcacy (v4)"
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/dirkjanm/BloodHound.py"
 commonlyOn: ["BlackArch"]

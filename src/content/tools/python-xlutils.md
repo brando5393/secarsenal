@@ -3,7 +3,7 @@ name: "python-xlutils"
 tagline: "Utilities for working with Excel files"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-xlutils"
 downloadUrl: "http://www.python-excel.org/"
 commonlyOn: ["ArchStrike"]

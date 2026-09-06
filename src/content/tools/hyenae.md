@@ -3,7 +3,7 @@ name: "hyenae"
 tagline: "Flexible platform independent packet generator."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "http://sourceforge.net/projects/hyenae/"
 commonlyOn: ["BlackArch"]

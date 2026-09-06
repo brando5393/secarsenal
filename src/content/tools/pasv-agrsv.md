@@ -3,7 +3,7 @@ name: "pasv-agrsv"
 tagline: "Passive recon / OSINT automation script."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/isaudits/pasv-agrsv"
 commonlyOn: ["BlackArch"]

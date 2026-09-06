@@ -3,7 +3,7 @@ name: "badkarma"
 tagline: "Advanced network reconnaissance toolkit."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/r3vn/badKarma"
 commonlyOn: ["BlackArch"]

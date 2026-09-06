@@ -3,7 +3,7 @@ name: "mutator"
 tagline: "This project aims to be a wordlist mutator with hormones, which means that some mutations will be applied to the result "
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://bitbucket.org/alone/mutator/"
 commonlyOn: ["BlackArch"]

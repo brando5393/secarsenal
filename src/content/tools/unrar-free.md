@@ -4,7 +4,7 @@ tagline: "Decompress files using a variety of algorithms."
 categories: ["general-utilities"]
 platforms: ["Linux"]
 license: "GNU General Public License (GPL) v2+"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/general+utilities"
 downloadUrl: "https://www.rarlab.com"
 commonlyOn: ["REMnux"]

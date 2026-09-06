@@ -3,7 +3,7 @@ name: "bluescan"
 tagline: "A Bluetooth Device Scanner."
 categories: ["bluetooth"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/bluetooth.html"
 downloadUrl: "http://www.darknet.org.uk/2015/01/bluescan-bluetooth-device-scanner/"
 commonlyOn: ["BlackArch"]

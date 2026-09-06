@@ -3,7 +3,7 @@ name: "python-bfac-git"
 tagline: "Advanced Backup-File Artifacts Testing for Web-Applications"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-bfac-git"
 downloadUrl: "https://github.com/mazen160/bfac"
 commonlyOn: ["ArchStrike"]

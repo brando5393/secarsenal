@@ -3,7 +3,7 @@ name: "rekono-kbx"
 tagline: "Automation platform for pentesting"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/rekono-kbx/"
 downloadUrl: "https://github.com/pablosnt/rekono"
 repoUrl: "https://gitlab.com/kalilinux/packages/rekono-kbx"

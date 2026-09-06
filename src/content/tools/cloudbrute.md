@@ -3,7 +3,7 @@ name: "cloudbrute"
 tagline: "Awesome cloud enumerator (program)"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/cloudbrute/"
 downloadUrl: "https://github.com/0xsha/cloudbrute"
 repoUrl: "https://gitlab.com/kalilinux/packages/cloudbrute"

@@ -3,7 +3,7 @@ name: "nmap"
 tagline: "The Network Mapper"
 categories: ["network-information","vulnerability-scanning","reconnaissance","network-service-discovery","discovery","non-application-layer-protocol"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/nmap/"
 downloadUrl: "https://nmap.org/"
 repoUrl: "https://gitlab.com/kalilinux/packages/nmap"

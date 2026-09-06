@@ -3,7 +3,7 @@ name: "hulk-git"
 tagline: "HULK DoS tool ported to Go with some additional features."
 categories: ["ddos"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/hulk-git"
 downloadUrl: "https://github.com/grafov/hulk"
 commonlyOn: ["ArchStrike"]

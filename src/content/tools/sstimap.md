@@ -3,7 +3,7 @@ name: "sstimap"
 tagline: "Automatic SSTI detection tool with interactive interface"
 categories: ["web-vulnerability-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/sstimap/"
 downloadUrl: "https://github.com/vladko312/SSTImap"
 repoUrl: "https://gitlab.com/kalilinux/packages/sstimap"

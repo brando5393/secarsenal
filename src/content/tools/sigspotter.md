@@ -3,7 +3,7 @@ name: "sigspotter"
 tagline: "A tool that search in your HD to find which publishers has been signed binaries in your PC."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://www.security-projects.com/?SigSpotter"
 commonlyOn: ["BlackArch"]

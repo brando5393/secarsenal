@@ -3,7 +3,7 @@ name: "archivebox"
 tagline: "The open source self-hosted web archive. Takes browser history/bookmarks/Pocket/Pinboard/etc., saves HTML, JS, PDFs, med"
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/pirate/ArchiveBox"
 commonlyOn: ["BlackArch"]

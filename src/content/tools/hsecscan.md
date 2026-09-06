@@ -3,7 +3,7 @@ name: "hsecscan"
 tagline: "A security scanner for HTTP response headers."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/riramar/hsecscan"
 commonlyOn: ["BlackArch"]

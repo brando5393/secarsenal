@@ -3,7 +3,7 @@ name: "mimipenguin"
 tagline: "A tool to dump the login password from the current linux user."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/huntergregal/mimipenguin"
 commonlyOn: ["BlackArch"]

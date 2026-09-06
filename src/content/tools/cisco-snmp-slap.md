@@ -3,7 +3,7 @@ name: "cisco-snmp-slap"
 tagline: "IP address spoofing tool in order to bypass an ACL protecting an SNMP service on Cisco IOS devices."
 categories: ["spoof"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/spoof.html"
 downloadUrl: "https://github.com/nccgroup/cisco-snmp-slap"
 commonlyOn: ["BlackArch"]

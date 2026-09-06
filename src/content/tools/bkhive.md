@@ -3,7 +3,7 @@ name: "bkhive"
 tagline: "Program for dumping the syskey bootkey from a Windows NT/2K/XP system hive."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://sourceforge.net/projects/ophcrack"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "rww-attack"
 tagline: "Performs a dictionary attack against a live Microsoft Windows Small Business Server."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "http://packetstormsecurity.com/files/79021/Remote-Web-Workplace-Attack-Tool.html"
 commonlyOn: ["BlackArch"]

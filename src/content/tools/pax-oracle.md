@@ -3,7 +3,7 @@ name: "pax-oracle"
 tagline: "CLI tool for PKCS7 padding oracle attacks."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/liamg/pax"
 commonlyOn: ["BlackArch"]

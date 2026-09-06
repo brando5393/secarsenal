@@ -3,7 +3,7 @@ name: "conpot"
 tagline: "ICS honeypot with the goal to collect intelligence about the motives and methods of adversaries targeting industrial con"
 categories: ["honeypot"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/honeypot.html"
 downloadUrl: "https://pypi.org/project/Conpot/"
 commonlyOn: ["BlackArch"]

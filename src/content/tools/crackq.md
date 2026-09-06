@@ -3,7 +3,7 @@ name: "crackq"
 tagline: "Hashcrack.org GPU-accelerated password cracker."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/vnik5287/Crackq"
 commonlyOn: ["BlackArch"]

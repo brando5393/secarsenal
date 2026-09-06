@@ -3,7 +3,7 @@ name: "godoh"
 tagline: "DNS-over-HTTPS Command & Control Proof of Concept"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/godoh/"
 downloadUrl: "https://github.com/sensepost/goDoH"
 repoUrl: "https://gitlab.com/kalilinux/packages/godoh"

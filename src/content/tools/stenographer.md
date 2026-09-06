@@ -3,7 +3,7 @@ name: "stenographer"
 tagline: "A packet capture solution which aims to quickly spool all packets to disk, then provide simple, fast access to subsets o"
 categories: ["sniffer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/sniffer.html"
 downloadUrl: "https://github.com/google/stenographer"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "halcyon-ide"
 tagline: "First IDE for Nmap Script (NSE) Development."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://halcyon-ide.org/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "ifenslave"
 tagline: "Configure network interfaces for parallel routing (bonding)"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/ifenslave/"
 repoUrl: "https://salsa.debian.org/debian/ifenslave"
 commonlyOn: ["Kali Linux"]

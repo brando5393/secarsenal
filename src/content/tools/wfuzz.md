@@ -3,7 +3,7 @@ name: "wfuzz"
 tagline: "Web application bruteforcer"
 categories: ["web-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/wfuzz/"
 downloadUrl: "http://www.edge-security.com/wfuzz.php"
 repoUrl: "https://salsa.debian.org/pkg-security-team/wfuzz"

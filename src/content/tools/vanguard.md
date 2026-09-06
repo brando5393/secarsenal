@@ -3,7 +3,7 @@ name: "vanguard"
 tagline: "A comprehensive web penetration testing tool written in Perl thatidentifies vulnerabilities in web applications."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "http://packetstormsecurity.com/files/110603/Vanguard-Pentesting-Scanner.html"
 commonlyOn: ["BlackArch"]

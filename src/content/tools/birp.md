@@ -3,7 +3,7 @@ name: "birp"
 tagline: "A tool that will assist in the security assessment of mainframe applications served over TN3270."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/sensepost/birp"
 commonlyOn: ["BlackArch"]

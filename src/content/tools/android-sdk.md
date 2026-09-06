@@ -3,7 +3,7 @@ name: "android-sdk"
 tagline: "Google Android SDK"
 categories: ["mobile"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/mobile.html"
 downloadUrl: "https://developer.android.com/studio/releases/sdk-tools.html"
 commonlyOn: ["BlackArch"]

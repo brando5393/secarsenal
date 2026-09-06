@@ -3,7 +3,7 @@ name: "elite-proxy-finder"
 tagline: "Finds public elite anonymity proxies and concurrently tests them."
 categories: ["proxy"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/proxy.html"
 downloadUrl: "https://github.com/DanMcInerney/elite-proxy-finder"
 commonlyOn: ["BlackArch"]

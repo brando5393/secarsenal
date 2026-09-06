@@ -3,7 +3,7 @@ name: "webslayer"
 tagline: "A tool designed for brute forcing Web Applications."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://code.google.com/p/webslayer/"
 commonlyOn: ["BlackArch"]

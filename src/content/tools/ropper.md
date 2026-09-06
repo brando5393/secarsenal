@@ -3,7 +3,7 @@ name: "ropper"
 tagline: "Rop gadget finder and binary information tool"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/ropper/"
 downloadUrl: "https://scoding.de/ropper/"
 repoUrl: "https://gitlab.com/kalilinux/packages/ropper"

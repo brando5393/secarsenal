@@ -3,7 +3,7 @@ name: "pompem"
 tagline: "Exploit and Vulnerability Finder"
 categories: ["resource-development"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/pompem/"
 downloadUrl: "https://github.com/rfunix/Pompem"
 repoUrl: "https://salsa.debian.org/pkg-security-team/pompem"

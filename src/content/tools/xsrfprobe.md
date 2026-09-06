@@ -3,7 +3,7 @@ name: "xsrfprobe"
 tagline: "Prime Cross Site Request Forgery Audit and Exploitation Toolkit"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/xsrfprobe/"
 downloadUrl: "https://github.com/0xInfection/XSRFProbe"
 repoUrl: "https://gitlab.com/kalilinux/packages/xsrfprobe"

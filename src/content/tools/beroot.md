@@ -3,7 +3,7 @@ name: "beroot"
 tagline: "A post exploitation tool to check common misconfigurations to find a way to escalate our privilege."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/AlessandroZ/BeRoot"
 commonlyOn: ["BlackArch"]

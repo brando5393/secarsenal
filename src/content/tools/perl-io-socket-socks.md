@@ -3,7 +3,7 @@ name: "perl-io-socket-socks"
 tagline: "Provides a way to create socks client or server both 4 and 5 version"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/perl-io-socket-socks"
 downloadUrl: "https://metacpan.org/pod/IO::Socket::Socks"
 commonlyOn: ["ArchStrike"]

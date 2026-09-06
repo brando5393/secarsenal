@@ -3,7 +3,7 @@ name: "pr0cks"
 tagline: "python script setting up a transparent proxy to forward all TCP and DNS traffic through a SOCKS / SOCKS5 or HTTP(CONNECT"
 categories: ["proxy"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/proxy.html"
 downloadUrl: "https://github.com/n1nj4sec/pr0cks"
 commonlyOn: ["BlackArch"]

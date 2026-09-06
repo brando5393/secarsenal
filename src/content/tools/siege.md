@@ -3,7 +3,7 @@ name: "siege"
 tagline: "HTTP regression testing and benchmarking utility"
 categories: ["impact"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/siege/"
 downloadUrl: "https://www.joedog.org/JoeDog/Siege"
 repoUrl: "https://salsa.debian.org/debian/siege"

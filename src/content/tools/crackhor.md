@@ -3,7 +3,7 @@ name: "crackhor"
 tagline: "A Password cracking utility."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/CoalfireLabs/crackHOR"
 commonlyOn: ["BlackArch"]

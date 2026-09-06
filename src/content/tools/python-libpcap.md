@@ -3,7 +3,7 @@ name: "python-libpcap"
 tagline: "Cython libpcap"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-libpcap"
 downloadUrl: "https://github.com/caizhengxin/python-libpcap"
 commonlyOn: ["ArchStrike"]

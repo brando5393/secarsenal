@@ -3,7 +3,7 @@ name: "python-roguehostapd-git"
 tagline: "Hostapd wrapper for hostapd"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-roguehostapd-git"
 downloadUrl: "https://github.com/wifiphisher/roguehostapd"
 commonlyOn: ["ArchStrike"]

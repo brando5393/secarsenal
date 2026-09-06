@@ -3,7 +3,7 @@ name: "python-xbee"
 tagline: "Python tools for working with XBee radios"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-xbee"
 downloadUrl: "https://pypi.python.org/pypi/XBee"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "joomlascan"
 tagline: "Joomla scanner scans for known vulnerable remote file inclusion paths and files."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "http://packetstormsecurity.com/files/62126/joomlascan.2.py.txt.html"
 commonlyOn: ["BlackArch"]

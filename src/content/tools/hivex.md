@@ -3,7 +3,7 @@ name: "hivex"
 tagline: "Utilities for reading and writing Windows Registry hives"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/hivex/"
 downloadUrl: "http://libguestfs.org/"
 repoUrl: "https://salsa.debian.org/libvirt-team/hivex"

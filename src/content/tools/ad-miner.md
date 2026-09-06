@@ -3,7 +3,7 @@ name: "ad-miner"
 tagline: "Active Directory audit tool that extract data from Bloodhound to uncover security weaknesses and generate an HTML report"
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/Mazars-Tech/AD_Miner"
 commonlyOn: ["BlackArch"]

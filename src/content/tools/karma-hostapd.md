@@ -3,7 +3,7 @@ name: "karma-hostapd"
 tagline: "a set of patches to access point software to get it to respond to probe requests not just for itself but for any ESSID requested"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/karma-hostapd"
 downloadUrl: "http://www.digininja.org/karma/"
 commonlyOn: ["ArchStrike"]

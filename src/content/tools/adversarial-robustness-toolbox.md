@@ -3,7 +3,7 @@ name: "adversarial-robustness-toolbox"
 tagline: "Python Library for Machine Learning Security."
 categories: ["ai"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/ai.html"
 downloadUrl: "https://github.com/Trusted-AI/adversarial-robustness-toolbox"
 commonlyOn: ["BlackArch"]

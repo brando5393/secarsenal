@@ -3,7 +3,7 @@ name: "llm-tools-nmap"
 tagline: "Plugin for LLM tool hat provides Nmap network scanning capabilities"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/llm-tools-nmap/"
 downloadUrl: "https://github.com/peter-hackertarget/llm-tools-nmap"
 repoUrl: "https://gitlab.com/kalilinux/packages/llm-tools-nmap"

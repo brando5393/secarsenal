@@ -3,7 +3,7 @@ name: "dns2geoip"
 tagline: "A simple python script that brute forces DNS and subsequently geolocates the found subdomains."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://packetstormsecurity.com/files/118036/DNS-GeoIP.html"
 commonlyOn: ["BlackArch"]

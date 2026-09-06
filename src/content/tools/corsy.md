@@ -3,7 +3,7 @@ name: "corsy"
 tagline: "CORS Misconfiguration Scanner."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/s0md3v/Corsy"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "metaforge"
 tagline: "Auto Scanning to SSL Vulnerability."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/chriswmorris/Metaforge"
 commonlyOn: ["BlackArch"]

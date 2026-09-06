@@ -3,7 +3,7 @@ name: "ssl-hostname-resolver"
 tagline: "CN (Common Name) grabber on X.509 Certificates over HTTPS."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "http://packetstormsecurity.com/files/120634/Common-Name-Grabber-Script.html"
 commonlyOn: ["BlackArch"]

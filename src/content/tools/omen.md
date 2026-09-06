@@ -3,7 +3,7 @@ name: "omen"
 tagline: "Ordered Markov ENumerator - Password Guesser."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/RUB-SysSec/OMEN"
 commonlyOn: ["BlackArch"]

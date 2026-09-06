@@ -3,7 +3,7 @@ name: "bind9"
 tagline: "Internet Domain Name Server"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/bind9/"
 downloadUrl: "https://www.isc.org/downloads/bind/"
 repoUrl: "https://salsa.debian.org/dns-team/bind9"

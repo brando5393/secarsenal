@@ -3,7 +3,7 @@ name: "jbrofuzz"
 tagline: "Web application protocol fuzzer that emerged from the needs of penetration testing."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "http://sourceforge.net/projects/jbrofuzz/"
 commonlyOn: ["BlackArch"]

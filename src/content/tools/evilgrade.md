@@ -3,7 +3,7 @@ name: "evilgrade"
 tagline: "Modular framework that takes advantage of poor upgrade implementations by injecting fake updates."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/infobyte/evilgrade"
 commonlyOn: ["BlackArch"]

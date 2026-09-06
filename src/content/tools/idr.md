@@ -3,7 +3,7 @@ name: "idr"
 tagline: "IDR (Interactive Delphi Reconstructor) is a decompiler for Delphi-written Windows32 EXEs and DLLs."
 categories: ["delphi"]
 platforms: ["Windows"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://github.com/mandiant/VM-Packages/tree/main/packages/idr.vm"
 downloadUrl: "https://github.com/crypto2011/IDR"
 commonlyOn: ["FLARE VM"]

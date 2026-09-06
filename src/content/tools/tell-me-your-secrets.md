@@ -3,7 +3,7 @@ name: "tell-me-your-secrets"
 tagline: "Find secrets on any machine from over 120 Different Signatures."
 categories: ["code-audit"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/code-audit.html"
 downloadUrl: "https://github.com/valayDave/tell-me-your-secrets"
 commonlyOn: ["BlackArch"]

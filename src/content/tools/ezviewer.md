@@ -3,7 +3,7 @@ name: "ezviewer"
 tagline: "Ezviewer is a standalone, zero dependency document viewer and hex editor."
 categories: ["documents"]
 platforms: ["Windows"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://github.com/mandiant/VM-Packages/tree/main/packages/ezviewer.vm"
 downloadUrl: "https://ericzimmerman.github.io"
 commonlyOn: ["FLARE VM"]

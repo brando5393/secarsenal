@@ -3,7 +3,7 @@ name: "gwtenum"
 tagline: "Enumeration of GWT-RCP method calls."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "http://www.gdssecurity.com/l/t/d.php?k=GwtEnum"
 commonlyOn: ["BlackArch"]

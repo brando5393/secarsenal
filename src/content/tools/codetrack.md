@@ -3,7 +3,7 @@ name: "codetrack"
 tagline: "CodeTrack is a free .NET Performance Profile and Execution Analyzer."
 categories: ["dotnet"]
 platforms: ["Windows"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://github.com/mandiant/VM-Packages/tree/main/packages/codetrack.vm"
 downloadUrl: "https://www.getcodetrack.com"
 commonlyOn: ["FLARE VM"]

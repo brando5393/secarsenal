@@ -3,7 +3,7 @@ name: "storm-ring"
 tagline: "This simple tool is useful to test a PABX with \"allow guest\" parameter set to \"yes\" (in this scenario an anonymous calle"
 categories: ["voip"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/voip.html"
 downloadUrl: "http://packetstormsecurity.com/files/115852/Storm-Ringing-PABX-Test-Tool.html"
 commonlyOn: ["BlackArch"]

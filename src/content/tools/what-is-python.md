@@ -3,7 +3,7 @@ name: "what-is-python"
 tagline: "Symlinks /usr/bin/python-config to python3-config"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/what-is-python/"
 repoUrl: "https://pkg.kali.org/pkg/what-is-python"
 commonlyOn: ["Kali Linux"]

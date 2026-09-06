@@ -3,7 +3,7 @@ name: "ligolo-ng-common-binaries"
 tagline: "Prebuilt binaries for Advanced ligolo-ng"
 categories: ["protocol-tunneling"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/ligolo-ng-common-binaries/"
 downloadUrl: "https://github.com/nicocha30/ligolo-ng"
 repoUrl: "https://gitlab.com/kalilinux/packages/ligolo-ng"

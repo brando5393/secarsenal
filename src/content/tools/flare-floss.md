@@ -3,7 +3,7 @@ name: "flare-floss"
 tagline: "Obfuscated String Solver - Automatically extract obfuscated strings from malware."
 categories: ["malware"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/malware.html"
 downloadUrl: "https://github.com/mandiant/flare-floss"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "beleth"
 tagline: "A Multi-threaded Dictionary based SSH cracker."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/chokepoint/Beleth"
 commonlyOn: ["BlackArch"]

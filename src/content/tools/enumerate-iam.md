@@ -3,7 +3,7 @@ name: "enumerate-iam"
 tagline: "Enumerate the permissions associated with an AWS credential set."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/andresriancho/enumerate-iam"
 commonlyOn: ["BlackArch"]

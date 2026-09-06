@@ -3,7 +3,7 @@ name: "shell-gpt"
 tagline: "Command-line productivity tool powered by AI large language models"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/shell-gpt/"
 downloadUrl: "https://github.com/TheR1D/shell_gpt"
 repoUrl: "https://gitlab.com/kalilinux/packages/shell-gpt"

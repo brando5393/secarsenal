@@ -3,7 +3,7 @@ name: "python-virtualenv"
 tagline: "Python virtual environment creator"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/python-virtualenv/"
 downloadUrl: "https://virtualenv.pypa.io/"
 repoUrl: "https://salsa.debian.org/python-team/packages/python-virtualenv"

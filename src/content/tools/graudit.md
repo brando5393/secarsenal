@@ -3,7 +3,7 @@ name: "graudit"
 tagline: "Grep rough audit - source code auditing tool"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/graudit/"
 downloadUrl: "https://github.com/wireghoul/graudit"
 repoUrl: "https://salsa.debian.org/pkg-security-team/graudit"

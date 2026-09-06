@@ -3,7 +3,7 @@ name: "wig-ng"
 tagline: "Utility for Wi-Fi device fingerprinting"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/wig-ng/"
 downloadUrl: "https://github.com/6e726d/wig-ng"
 repoUrl: "https://gitlab.com/kalilinux/packages/wig-ng"

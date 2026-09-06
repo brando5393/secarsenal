@@ -3,7 +3,7 @@ name: "find3"
 tagline: "High-precision indoor positioning framework."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/schollz/find3"
 commonlyOn: ["BlackArch"]

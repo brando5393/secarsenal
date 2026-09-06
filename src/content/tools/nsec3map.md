@@ -3,7 +3,7 @@ name: "nsec3map"
 tagline: "A tool to enumerate the resource records of a DNS zone using its DNSSEC NSEC or NSEC3 chain."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/anonion0/nsec3map"
 commonlyOn: ["BlackArch"]

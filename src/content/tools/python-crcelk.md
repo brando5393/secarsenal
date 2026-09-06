@@ -3,7 +3,7 @@ name: "python-crcelk"
 tagline: "Updated fork of CrcMoose."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-crcelk"
 downloadUrl: "https://github.com/zeroSteiner/crcelk"
 commonlyOn: ["ArchStrike"]

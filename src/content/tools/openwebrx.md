@@ -3,7 +3,7 @@ name: "openwebrx"
 tagline: "Open source, multi-user SDR receiver software with a web interface."
 categories: ["radio"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/radio.html"
 downloadUrl: "https://github.com/jketterl/openwebrx"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "johnny"
 tagline: "GUI for John the Ripper"
 categories: ["password-cracking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/johnny/"
 downloadUrl: "https://openwall.info/wiki/john/johnny"
 repoUrl: "https://gitlab.com/kalilinux/packages/johnny"

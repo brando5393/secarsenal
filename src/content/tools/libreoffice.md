@@ -3,7 +3,7 @@ name: "LibreOffice"
 tagline: "LibreOffice"
 categories: ["desktop-edition"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://tails.net/doc/about/features/index.en.html"
 downloadUrl: "https://www.libreoffice.org/"
 commonlyOn: ["Tails"]

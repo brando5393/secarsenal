@@ -3,7 +3,7 @@ name: "libfixbuf"
 tagline: "IPFIX Message Format Implementation"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/libfixbuf"
 downloadUrl: "http://tools.netsa.cert.org/fixbuf/"
 commonlyOn: ["ArchStrike"]

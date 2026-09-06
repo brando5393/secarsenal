@@ -3,7 +3,7 @@ name: "arpwatch"
 tagline: "Ethernet/FDDI station activity monitor"
 categories: ["remote-system-discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/arpwatch/"
 downloadUrl: "https://ee.lbl.gov/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/arpwatch"

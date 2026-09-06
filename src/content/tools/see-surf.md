@@ -3,10 +3,11 @@ name: "see-surf"
 tagline: "Security tool to find potential vulnerable Server Side Request Forgery (SSRF) parameters."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
+downloadUrl: "https://github.com/In3tinct/See-SURF"
 commonlyOn: ["BlackArch"]
-gettingStarted: "Install on BlackArch with `pacman -S see-surf` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."
+gettingStarted: "Install on BlackArch with `pacman -S see-surf` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
 ---
 
 Security tool to find potential vulnerable Server Side Request Forgery (SSRF) parameters.

@@ -4,7 +4,7 @@ tagline: "Execute and deobfuscate JavaScript using a patched version of Mozilla'
 categories: ["scripts"]
 platforms: ["Linux"]
 license: "Mozilla Public License 2.0"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/dynamically+reverse-engineer+code/scripts"
 downloadUrl: "https://blog.didierstevens.com/2018/04/19/update-patched-spidermonkey/"
 commonlyOn: ["REMnux"]

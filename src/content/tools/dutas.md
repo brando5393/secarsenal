@@ -3,7 +3,7 @@ name: "dutas"
 tagline: "Analysis PE file or Shellcode."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/dungtv543/Dutas"
 commonlyOn: ["BlackArch"]

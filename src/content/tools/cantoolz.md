@@ -3,7 +3,7 @@ name: "cantoolz"
 tagline: "Framework for black-box CAN network analysis."
 categories: ["automobile"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/automobile.html"
 downloadUrl: "https://github.com/CANToolz/CANToolz"
 commonlyOn: ["BlackArch"]

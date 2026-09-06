@@ -3,7 +3,7 @@ name: "airpwn"
 tagline: "A tool for generic packet injection on an 802.11 network."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "http://airpwn.sourceforge.net"
 commonlyOn: ["BlackArch"]

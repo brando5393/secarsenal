@@ -3,7 +3,7 @@ name: "memfetch"
 tagline: "Dumps any userspace process memory without affecting its execution."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "http://lcamtuf.coredump.cx/"
 commonlyOn: ["BlackArch"]

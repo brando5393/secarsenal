@@ -3,7 +3,7 @@ name: "ocs"
 tagline: "Compact mass scanner for Cisco routers with default telnet/enable passwords."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://packetstormsecurity.com/files/119462/OCS-Cisco-Scanner.2.html"
 commonlyOn: ["BlackArch"]

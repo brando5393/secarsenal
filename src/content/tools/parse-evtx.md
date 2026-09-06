@@ -3,7 +3,7 @@ name: "parse-evtx"
 tagline: "A tool to parse the Windows XML Event Log (EVTX) format."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/KasperskyLab/ForensicsTools"
 commonlyOn: ["BlackArch"]

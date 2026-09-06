@@ -3,7 +3,7 @@ name: "syft"
 tagline: "CLI tool for generating a SBOM from container images and filesystems"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/syft/"
 downloadUrl: "https://github.com/anchore/syft"
 repoUrl: "https://gitlab.com/kalilinux/packages/syft"

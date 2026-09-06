@@ -3,7 +3,7 @@ name: "analyzepesig"
 tagline: "Analyze digital signature of PE file."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://blog.didierstevens.com/my-software/#AnalyzePESig"
 commonlyOn: ["BlackArch"]

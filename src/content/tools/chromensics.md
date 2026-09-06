@@ -3,7 +3,7 @@ name: "chromensics"
 tagline: "A Google chrome forensics tool."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://sourceforge.net/projects/chromensics/"
 commonlyOn: ["BlackArch"]

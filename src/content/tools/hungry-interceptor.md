@@ -3,7 +3,7 @@ name: "hungry-interceptor"
 tagline: "Intercepts data, does something with it, stores it."
 categories: ["sniffer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/sniffer.html"
 downloadUrl: "https://github.com/nbuechler/hungry-interceptor"
 commonlyOn: ["BlackArch"]

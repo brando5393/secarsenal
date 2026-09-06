@@ -3,7 +3,7 @@ name: "python-crysp"
 tagline: "A crypto related pkg for amoco"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-crysp"
 downloadUrl: "https://github.com/bdcht/crysp"
 commonlyOn: ["ArchStrike"]

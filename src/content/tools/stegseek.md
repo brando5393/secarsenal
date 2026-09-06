@@ -3,7 +3,7 @@ name: "stegseek"
 tagline: "Lightning fast steghide cracker."
 categories: ["stego"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/stego.html"
 downloadUrl: "https://github.com/RickdeJager/stegseek"
 commonlyOn: ["BlackArch"]

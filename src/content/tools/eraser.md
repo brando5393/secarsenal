@@ -3,7 +3,7 @@ name: "eraser"
 tagline: "Windows tool which allows you to completely remove sensitive data from your hard drive by overwriting it several times w"
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://eraser.heidi.ie/download/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "pre2k"
 tagline: "Query for existence of pre-windows 2000 computer objects which can be leveraged to gain a foothold in a target domain."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/garrettfoster13/pre2k-TS"
 commonlyOn: ["BlackArch"]

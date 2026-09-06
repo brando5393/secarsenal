@@ -3,7 +3,7 @@ name: "domlink"
 tagline: "A tool to link a domain with registered organisation names and emails, to other domains."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/vysecurity/DomLink"
 commonlyOn: ["BlackArch"]

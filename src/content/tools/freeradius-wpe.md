@@ -3,7 +3,7 @@ name: "freeradius-wpe"
 tagline: "FreeRadius Wireless Pawn Edition"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/freeradius-wpe/"
 downloadUrl: "https://www.freeradius.org/"
 repoUrl: "https://gitlab.com/kalilinux/packages/freeradius-wpe"

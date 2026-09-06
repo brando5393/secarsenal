@@ -3,7 +3,7 @@ name: "videosnarf"
 tagline: "A new security assessment tool for pcap analysis"
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://ucsniff.sourceforge.net/videosnarf.html"
 commonlyOn: ["BlackArch"]

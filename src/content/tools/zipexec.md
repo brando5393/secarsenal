@@ -3,7 +3,7 @@ name: "zipexec"
 tagline: "A unique technique to execute binaries from a password protected zip."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/Tylous/ZipExec"
 commonlyOn: ["BlackArch"]

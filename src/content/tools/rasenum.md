@@ -3,7 +3,7 @@ name: "rasenum"
 tagline: "A small program which lists the information for all of the entries in any phonebook file (.pbk)."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://www.cultdeadcow.com/tools/rasenum.html"
 commonlyOn: ["BlackArch"]

@@ -3,10 +3,11 @@ name: "goop"
 tagline: "Perform google searches without being blocked by the CAPTCHA or hitting any rate limits."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
+downloadUrl: "https://github.com/s0md3v/goop"
 commonlyOn: ["BlackArch"]
-gettingStarted: "Install on BlackArch with `pacman -S goop` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."
+gettingStarted: "Install on BlackArch with `pacman -S goop` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
 ---
 
 Perform google searches without being blocked by the CAPTCHA or hitting any rate limits.

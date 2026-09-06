@@ -3,7 +3,7 @@ name: "posttester"
 tagline: "A jar file that will send POST requests to servers in order to test for the hash collision vulnerability discussed at th"
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "http://packetstormsecurity.com/files/109010/MagicHash-Collision-Testing-Tool.html"
 commonlyOn: ["BlackArch"]

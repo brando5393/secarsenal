@@ -3,7 +3,7 @@ name: "maligno"
 tagline: "An open source penetration testing tool written in python, that serves Metasploit payloads. It generates shellcode with "
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://www.encripto.no/tools/"
 commonlyOn: ["BlackArch"]

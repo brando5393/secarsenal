@@ -3,7 +3,7 @@ name: "getallurls"
 tagline: "Fetch known URLs from AlienVault’s Open Threat Exchange (gau)"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/getallurls/"
 downloadUrl: "https://github.com/lc/gau"
 repoUrl: "https://gitlab.com/kalilinux/packages/getallurls"

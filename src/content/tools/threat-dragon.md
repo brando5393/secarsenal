@@ -3,7 +3,7 @@ name: "threat-dragon"
 tagline: "Electron Threat Modelling and diagramming tool."
 categories: ["threat-model"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/threat-model.html"
 downloadUrl: "https://owasp.org/www-project-threat-dragon/"
 commonlyOn: ["BlackArch"]

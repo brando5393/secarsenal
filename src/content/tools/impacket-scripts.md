@@ -3,7 +3,7 @@ name: "impacket-scripts"
 tagline: "Links to useful impacket scripts examples"
 categories: ["databases","lateral-movement","exfiltration"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/impacket-scripts/"
 repoUrl: "https://gitlab.com/kalilinux/packages/impacket-scripts"
 commonlyOn: ["Kali Linux"]

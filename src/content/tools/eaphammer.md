@@ -3,7 +3,7 @@ name: "eaphammer"
 tagline: "Toolkit for targeted evil twin attacks against WPA2-Enterprise networks"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/eaphammer/"
 downloadUrl: "https://github.com/s0lst1c3/eaphammer"
 repoUrl: "https://gitlab.com/kalilinux/packages/eaphammer"

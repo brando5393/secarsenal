@@ -3,7 +3,7 @@ name: "massdns"
 tagline: "High-performance DNS stub resolver"
 categories: ["network-information-dns"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/massdns/"
 downloadUrl: "https://github.com/blechschmidt/massdns"
 repoUrl: "https://gitlab.com/kalilinux/packages/massdns"

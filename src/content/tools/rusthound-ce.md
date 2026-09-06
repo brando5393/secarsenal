@@ -3,7 +3,7 @@ name: "rusthound-ce"
 tagline: "Active Directory data collector for BloodHound community edition (v5)."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/g0h4n/RustHound-CE"
 commonlyOn: ["BlackArch"]

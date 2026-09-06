@@ -3,7 +3,7 @@ name: "o-saft"
 tagline: "A tool to show informations about SSL certificate and tests the SSL connection according given list of ciphers and vario"
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://www.owasp.org/index.php/O-Saft"
 commonlyOn: ["BlackArch"]

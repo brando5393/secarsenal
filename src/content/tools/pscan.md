@@ -3,7 +3,7 @@ name: "pscan"
 tagline: "A limited problem scanner for C source files"
 categories: ["code-audit"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/code-audit.html"
 downloadUrl: "http://deployingradius.com/pscan/"
 commonlyOn: ["BlackArch"]

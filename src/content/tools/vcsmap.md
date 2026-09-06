@@ -3,7 +3,7 @@ name: "vcsmap"
 tagline: "A plugin-based tool to scan public version control systems for sensitive information."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/melvinsh/vcsmap"
 commonlyOn: ["BlackArch"]

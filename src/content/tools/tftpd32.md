@@ -3,7 +3,7 @@ name: "tftpd32"
 tagline: "Open source ipv6-ready TFTP server for Windows"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/tftpd32/"
 downloadUrl: "https://tftpd32.jounin.net/tftpd32.html"
 repoUrl: "https://gitlab.com/kalilinux/packages/tftpd32"

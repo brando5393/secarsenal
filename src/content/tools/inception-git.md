@@ -3,7 +3,7 @@ name: "inception-git"
 tagline: "A FireWire physical memory manipulation and hacking tool exploiting IEEE 1394 SBP-2 DMA."
 categories: ["fuzzers"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/inception-git"
 downloadUrl: "https://github.com/carmaa/inception"
 commonlyOn: ["ArchStrike"]

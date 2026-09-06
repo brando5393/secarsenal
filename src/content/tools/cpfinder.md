@@ -3,7 +3,7 @@ name: "cpfinder"
 tagline: "Simple script that looks for administrative web interfaces."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://packetstormsecurity.com/files/118851/Control-Panel-Finder-Script.html"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "ntlmrecon-git"
 tagline: "A tool to enumerate information from NTLM authentication enabled web endpoints."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/ntlmrecon-git"
 downloadUrl: "https://github.com/pwnfoo/NTLMRecon"
 commonlyOn: ["ArchStrike"]

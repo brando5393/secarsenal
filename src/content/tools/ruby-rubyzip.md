@@ -3,7 +3,7 @@ name: "ruby-rubyzip"
 tagline: "A ruby module for reading and writing zip files."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/ruby-rubyzip"
 downloadUrl: "http://rubyzip.sourceforge.net/"
 commonlyOn: ["ArchStrike"]

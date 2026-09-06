@@ -3,7 +3,7 @@ name: "cmospwd"
 tagline: "Decrypt BIOS passwords from CMOS"
 categories: ["password-cracking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/cmospwd/"
 downloadUrl: "https://www.cgsecurity.org/wiki/CmosPwd"
 repoUrl: "https://gitlab.com/kalilinux/packages/cmospwd"

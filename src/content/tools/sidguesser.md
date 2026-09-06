@@ -3,7 +3,7 @@ name: "sidguesser"
 tagline: "Guesses sids against an Oracle database"
 categories: ["databases"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/sidguesser/"
 downloadUrl: "http://www.cqure.net/wp/tools/database/sidguesser/"
 repoUrl: "https://gitlab.com/kalilinux/packages/sidguesser"

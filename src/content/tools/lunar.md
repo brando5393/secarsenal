@@ -3,10 +3,11 @@ name: "lunar"
 tagline: "A UNIX security auditing tool based on several security frameworks."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
+downloadUrl: "https://github.com/lateralblast/lunar"
 commonlyOn: ["BlackArch"]
-gettingStarted: "Install on BlackArch with `pacman -S lunar` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."
+gettingStarted: "Install on BlackArch with `pacman -S lunar` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
 ---
 
 A UNIX security auditing tool based on several security frameworks.

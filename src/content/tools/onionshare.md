@@ -3,7 +3,7 @@ name: "OnionShare"
 tagline: "for anonymous file sharing"
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://tails.net/doc/about/features/index.en.html"
 downloadUrl: "https://onionshare.org/"
 commonlyOn: ["Tails"]

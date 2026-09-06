@@ -4,7 +4,7 @@ tagline: "Adjust input methods for the GUI."
 categories: ["general-utilities"]
 platforms: ["Linux"]
 license: "GNU Lesser General Public License (LGPL) v2.1"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/general+utilities"
 downloadUrl: "https://github.com/ibus/ibus"
 commonlyOn: ["REMnux"]

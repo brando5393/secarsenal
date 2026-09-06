@@ -3,7 +3,7 @@ name: "skypefreak"
 tagline: "A Cross Platform Forensic Framework for Skype."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "http://osandamalith.github.io/SkypeFreak/"
 commonlyOn: ["BlackArch"]

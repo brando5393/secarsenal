@@ -3,7 +3,7 @@ name: "ruby-http_configuration"
 tagline: "Gem that provides the ability to set defaults for proxies and timeouts for Net::HTTP."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/ruby-http_configuration"
 downloadUrl: "http://github.com/bdurand/http_configuration"
 commonlyOn: ["ArchStrike"]

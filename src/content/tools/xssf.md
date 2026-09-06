@@ -3,7 +3,7 @@ name: "xssf"
 tagline: "A Cross-Site Scripting Framework for metasploit"
 categories: ["webapps"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/xssf"
 downloadUrl: "https://code.google.com/p/xssf/"
 commonlyOn: ["ArchStrike"]

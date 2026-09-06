@@ -3,7 +3,7 @@ name: "cansina"
 tagline: "A python-based Web Content Discovery Tool."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/deibit/cansina"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "proxychains-ng"
 tagline: "Runtime shared library for proxychains-ng"
 categories: ["protocol-tunneling"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/proxychains-ng/"
 downloadUrl: "https://github.com/rofl0r/proxychains-ng"
 repoUrl: "https://salsa.debian.org/debian/proxychains-ng"

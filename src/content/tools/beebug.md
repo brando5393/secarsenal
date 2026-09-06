@@ -3,7 +3,7 @@ name: "beebug"
 tagline: "A tool for checking exploitability."
 categories: ["decompiler"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/decompiler.html"
 downloadUrl: "https://github.com/invictus1306/beebug"
 commonlyOn: ["BlackArch"]

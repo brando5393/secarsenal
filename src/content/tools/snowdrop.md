@@ -3,7 +3,7 @@ name: "snowdrop"
 tagline: "Plain text watermarking and watermark recovery"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/snowdrop/"
 downloadUrl: "http://lcamtuf.coredump.cx/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/snowdrop/tree/debian/master"

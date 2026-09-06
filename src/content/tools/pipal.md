@@ -3,7 +3,7 @@ name: "pipal"
 tagline: "Statistical analysis on password dumps"
 categories: ["reporting-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/pipal/"
 downloadUrl: "https://www.digininja.org/projects/pipal.php"
 repoUrl: "https://gitlab.com/kalilinux/packages/pipal"

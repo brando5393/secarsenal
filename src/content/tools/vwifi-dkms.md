@@ -3,7 +3,7 @@ name: "vwifi-dkms"
 tagline: "Simple Virtual Wireless Driver for Linux in DKMS format"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/vwifi-dkms/"
 downloadUrl: "https://github.com/sysprog21/vwifi"
 repoUrl: "https://gitlab.com/kalilinux/packages/vwifi-dkms"

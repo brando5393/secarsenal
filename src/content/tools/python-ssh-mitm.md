@@ -3,7 +3,7 @@ name: "python-ssh-mitm"
 tagline: "SSH mitm server for security audits supporting public key authentication, session hijacking and file manipulation."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://pypi.org/project/ssh-mitm/#files"
 commonlyOn: ["BlackArch"]

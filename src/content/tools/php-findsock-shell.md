@@ -3,7 +3,7 @@ name: "php-findsock-shell"
 tagline: "A Findsock Shell implementation in PHP + C."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/pentestmonkey/php-findsock-shell"
 commonlyOn: ["BlackArch"]

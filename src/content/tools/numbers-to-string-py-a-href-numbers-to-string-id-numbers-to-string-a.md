@@ -4,7 +4,7 @@ tagline: "Convert decimal numbers to strings."
 categories: ["general"]
 platforms: ["Linux"]
 license: "Public Domain"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/general"
 downloadUrl: "https://blog.didierstevens.com/2020/12/12/update-numbers-to-string-py-version-0-0-11/"
 commonlyOn: ["REMnux"]

@@ -3,7 +3,7 @@ name: "python-pypdns"
 tagline: "Python API for PDNS."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-pypdns"
 downloadUrl: "https://github.com/CIRCL/PyPDNS"
 commonlyOn: ["ArchStrike"]

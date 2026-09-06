@@ -3,7 +3,7 @@ name: "venom"
 tagline: "A Multi-hop Proxy for Penetration Testers."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/Dliv3/Venom"
 commonlyOn: ["BlackArch"]

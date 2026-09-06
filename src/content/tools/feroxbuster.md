@@ -3,7 +3,7 @@ name: "feroxbuster"
 tagline: "Fast, simple, recursive content discovery tool written in Rust"
 categories: ["web-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/feroxbuster/"
 downloadUrl: "https://github.com/epi052/feroxbuster"
 repoUrl: "https://gitlab.com/kalilinux/packages/feroxbuster"

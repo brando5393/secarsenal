@@ -3,7 +3,7 @@ name: "dirb"
 tagline: "URL bruteforcing tool"
 categories: ["web-scanning","reconnaissance"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/dirb/"
 downloadUrl: "https://dirb.sourceforge.net/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/dirb"

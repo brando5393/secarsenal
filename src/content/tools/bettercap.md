@@ -3,7 +3,7 @@ name: "bettercap"
 tagline: "Complete, modular, portable and easily extensible MITM framework"
 categories: ["bluetooth","wifi","reconnaissance"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/bettercap/"
 downloadUrl: "https://www.bettercap.org"
 repoUrl: "https://gitlab.com/kalilinux/packages/bettercap"

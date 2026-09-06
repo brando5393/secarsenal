@@ -3,7 +3,7 @@ name: "dscan"
 tagline: "Wrapper around nmap"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/dscan/"
 downloadUrl: "https://github.com/0x4E0x650x6F/dscan"
 repoUrl: "https://gitlab.com/kalilinux/packages/dscan"

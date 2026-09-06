@@ -3,7 +3,7 @@ name: "tinja"
 tagline: "CLI tool for testing web pages for template injection"
 categories: ["web-vulnerability-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/tinja/"
 downloadUrl: "https://github.com/Hackmanit/TInjA"
 repoUrl: "https://gitlab.com/kalilinux/packages/tinja"

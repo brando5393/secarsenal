@@ -3,7 +3,7 @@ name: "cmsmap"
 tagline: "A python open source Content Management System scanner that automates the process of detecting security flaws of the mos"
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://www.dionach.com/blog/cmsmap-%E2%80%93-a-simple-cms-vulnerability-scanner"
 commonlyOn: ["BlackArch"]

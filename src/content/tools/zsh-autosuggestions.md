@@ -3,7 +3,7 @@ name: "zsh-autosuggestions"
 tagline: "Fish-like fast/unobtrusive autosuggestions for zsh"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/zsh-autosuggestions/"
 downloadUrl: "https://github.com/zsh-users/zsh-autosuggestions"
 repoUrl: "https://salsa.debian.org/debian/zsh-autosuggestions"

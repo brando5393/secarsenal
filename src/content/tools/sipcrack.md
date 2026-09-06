@@ -3,7 +3,7 @@ name: "sipcrack"
 tagline: "SIP login dumper/cracker"
 categories: ["password-cracking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/sipcrack/"
 downloadUrl: "http://www.remote-exploit.org/codes_sipcrack.html"
 repoUrl: "https://salsa.debian.org/debian/sipcrack"

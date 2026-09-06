@@ -3,7 +3,7 @@ name: "pcapsipdump"
 tagline: "A tool for dumping SIP sessions (+RTP traffic, if available) to disk in a fashion similar to 'tcpdump -w' (format is exa"
 categories: ["voip"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/voip.html"
 downloadUrl: "http://pcapsipdump.sourceforge.net/"
 commonlyOn: ["BlackArch"]

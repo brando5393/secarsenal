@@ -3,7 +3,7 @@ name: "rupture"
 tagline: "A framework for BREACH and other compression-based crypto attacks."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/decrypto-org/rupture"
 commonlyOn: ["BlackArch"]

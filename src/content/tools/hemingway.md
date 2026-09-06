@@ -3,7 +3,7 @@ name: "hemingway"
 tagline: "A simple and easy to use spear phishing helper."
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://github.com/ytisf/hemingway"
 commonlyOn: ["BlackArch"]

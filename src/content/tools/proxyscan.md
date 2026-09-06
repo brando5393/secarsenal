@@ -3,7 +3,7 @@ name: "proxyscan"
 tagline: "A security penetration testing tool to scan for hosts and ports through a Web proxy server."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://packetstormsecurity.com/files/69778/proxyScan.3.tgz.html"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "ibrute"
 tagline: "An AppleID password bruteforce tool. It uses Find My Iphone service API, where bruteforce protection was not implemented"
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/hackappcom/ibrute/"
 commonlyOn: ["BlackArch"]

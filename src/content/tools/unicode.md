@@ -4,7 +4,7 @@ tagline: "Display Unicode character properties."
 categories: ["deobfuscation"]
 platforms: ["Linux"]
 license: "GNU General Public License (GPL) v3"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/deobfuscation"
 downloadUrl: "https://github.com/garabik/unicode"
 commonlyOn: ["REMnux"]

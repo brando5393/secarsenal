@@ -3,7 +3,7 @@ name: "python-backports.lzma"
 tagline: "Backport of Python 3 standard library module lzma for LZMA/XY compressed files"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-backports.lzma"
 downloadUrl: "https://github.com/peterjc/backports.lzma"
 commonlyOn: ["ArchStrike"]

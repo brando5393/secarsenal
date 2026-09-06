@@ -3,7 +3,7 @@ name: "automato"
 tagline: "Should help with automating some of the user-focused enumeration tasks during an internal penetration test."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/skahwah/automato"
 commonlyOn: ["BlackArch"]

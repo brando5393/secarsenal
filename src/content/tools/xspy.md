@@ -3,7 +3,7 @@ name: "xspy"
 tagline: "X server sniffer"
 categories: ["keylogger"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/xspy/"
 downloadUrl: "https://www.kali.org"
 repoUrl: "https://gitlab.com/kalilinux/packages/xspy"

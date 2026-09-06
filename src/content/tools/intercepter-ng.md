@@ -3,7 +3,7 @@ name: "intercepter-ng"
 tagline: "A next generation sniffer including a lot of features: capturing passwords/hashes, sniffing chat messages, performing ma"
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://sniff.su/download.html"
 commonlyOn: ["BlackArch"]

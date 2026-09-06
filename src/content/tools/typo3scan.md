@@ -3,7 +3,7 @@ name: "typo3scan"
 tagline: "Enumerate Typo3 version and extensions."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/whoot/Typo3Scan"
 commonlyOn: ["BlackArch"]

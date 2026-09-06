@@ -4,7 +4,7 @@ tagline: "Deobfuscate XLM macros (also known as Excel 4.0 macros) from Microsoft
 categories: ["microsoft-office"]
 platforms: ["Linux"]
 license: "Apache License 2.0"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/analyze+documents/microsoft+office"
 downloadUrl: "https://github.com/DissectMalware/XLMMacroDeobfuscator"
 commonlyOn: ["REMnux"]

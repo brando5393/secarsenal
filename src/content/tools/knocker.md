@@ -3,7 +3,7 @@ name: "knocker"
 tagline: "Simple and easy to use TCP security port scanner"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/knocker/"
 downloadUrl: "http://knocker.sourceforge.net/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/knocker"

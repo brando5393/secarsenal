@@ -3,7 +3,7 @@ name: "htcap"
 tagline: "A web application analysis tool for detecting communications between javascript and the server."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/segment-srl/htcap"
 commonlyOn: ["BlackArch"]

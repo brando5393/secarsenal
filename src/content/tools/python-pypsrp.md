@@ -3,7 +3,7 @@ name: "python-pypsrp"
 tagline: "Python client for the PowerShell Remoting Protocol (PSRP) and Windows Remove Management (WinRM) service"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-pypsrp"
 downloadUrl: "https://pypi.org/project/${_pkgname}/"
 commonlyOn: ["ArchStrike"]

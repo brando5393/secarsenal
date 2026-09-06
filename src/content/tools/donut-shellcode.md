@@ -3,7 +3,7 @@ name: "donut-shellcode"
 tagline: "Generates position-independent shellcode from memory and runs them"
 categories: ["resource-development","defense-evasion"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/donut-shellcode/"
 downloadUrl: "https://github.com/TheWover/donut"
 repoUrl: "https://gitlab.com/kalilinux/packages/donut-shellcode"

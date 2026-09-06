@@ -3,7 +3,7 @@ name: "tlsfuzzer"
 tagline: "SSL and TLS protocol test suite and fuzzer."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/tomato42/tlsfuzzer"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "nirsoft"
 tagline: "Unique collection of small and useful freeware utilities."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://www.nirsoft.net"
 commonlyOn: ["BlackArch"]

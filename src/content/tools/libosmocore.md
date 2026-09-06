@@ -3,7 +3,7 @@ name: "libosmocore"
 tagline: "Collection of common code used in various sub-projects inside the Osmocom family of projects."
 categories: ["radio"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/radio.html"
 downloadUrl: "https://osmocom.org/projects/libosmocore/wiki/Libosmocore"
 commonlyOn: ["BlackArch"]

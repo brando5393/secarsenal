@@ -3,7 +3,7 @@ name: "netripper"
 tagline: "Smart traffic sniffing for penetration testers."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/NytroRST/NetRipper"
 commonlyOn: ["BlackArch"]

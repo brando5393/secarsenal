@@ -3,7 +3,7 @@ name: "rcracki-mt"
 tagline: "Version of rcrack that supports hybrid and indexed tables"
 categories: ["password-cracking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/rcracki-mt/"
 downloadUrl: "https://freerainbowtables.com/"
 repoUrl: "https://gitlab.com/kalilinux/packages/rcracki-mt"

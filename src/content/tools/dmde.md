@@ -3,7 +3,7 @@ name: "dmde"
 tagline: "Disk Editor and Data Recovery Software."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://dmde.com/download.html"
 commonlyOn: ["BlackArch"]

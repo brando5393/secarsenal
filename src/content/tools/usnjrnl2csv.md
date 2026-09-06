@@ -3,7 +3,7 @@ name: "usnjrnl2csv"
 tagline: "Parser for $UsnJrnl on NTFS."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/jschicht/UsnJrnl2Csv"
 commonlyOn: ["BlackArch"]

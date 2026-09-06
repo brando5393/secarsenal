@@ -3,7 +3,7 @@ name: "pyfuscation"
 tagline: "Obfuscate powershell scripts by replacing Function names, Variables and Parameters."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/CBHue/PyFuscation"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "python-async"
 tagline: "Async aims to make writing asyncronous processing easier."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-async"
 downloadUrl: "https://pypi.org/project/async/"
 commonlyOn: ["ArchStrike"]

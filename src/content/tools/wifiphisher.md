@@ -3,7 +3,7 @@ name: "wifiphisher"
 tagline: "Automated phishing attacks against Wi-Fi networks"
 categories: ["wifi-credential-access"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/wifiphisher/"
 downloadUrl: "https://github.com/sophron/wifiphisher"
 repoUrl: "https://gitlab.com/kalilinux/packages/wifiphisher"

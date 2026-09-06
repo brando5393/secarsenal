@@ -4,7 +4,7 @@ tagline: "Analyze Java IDX files."
 categories: ["java"]
 platforms: ["Linux"]
 license: "Apache License 2.0"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/statically+analyze+code/java"
 downloadUrl: "https://github.com/digitalsleuth/Java_IDX_Parser"
 commonlyOn: ["REMnux"]

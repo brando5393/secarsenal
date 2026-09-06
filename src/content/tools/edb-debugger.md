@@ -3,7 +3,7 @@ name: "edb-debugger"
 tagline: "Cross platform x86/x86-64 debugger"
 categories: ["resource-development"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/edb-debugger/"
 downloadUrl: "https://github.com/eteran/edb-debugger"
 repoUrl: "https://salsa.debian.org/debian/edb-debugger"

@@ -3,7 +3,7 @@ name: "jcrack"
 tagline: "A utility to create dictionary files that will crack the default passwords of select wireless gateways"
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "http://www.thedrahos.net/jcrack/"
 commonlyOn: ["BlackArch"]

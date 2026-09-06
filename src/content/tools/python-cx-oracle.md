@@ -3,7 +3,7 @@ name: "python-cx_oracle"
 tagline: "Python interface to Oracle Database conforming to the Python DB API 2.0 specification"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-cx_oracle"
 downloadUrl: "https://pypi.org/project/cx-Oracle"
 commonlyOn: ["ArchStrike"]

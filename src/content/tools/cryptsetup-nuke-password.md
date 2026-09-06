@@ -3,7 +3,7 @@ name: "cryptsetup-nuke-password"
 tagline: "Erase the LUKS keys with a special password on the unlock prompt"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/cryptsetup-nuke-password/"
 downloadUrl: "https://salsa.debian.org/pkg-security-team/cryptsetup-nuke-password"
 repoUrl: "https://salsa.debian.org/pkg-security-team/cryptsetup-nuke-password"

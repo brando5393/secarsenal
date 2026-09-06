@@ -3,7 +3,7 @@ name: "theharvester-git"
 tagline: "Python tool for gathering e-mail accounts and subdomain names from different public sources (search engines, pgp key servers)"
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/theharvester-git"
 downloadUrl: "https://github.com/laramies/theHarvester"
 commonlyOn: ["ArchStrike"]

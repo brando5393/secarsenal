@@ -3,7 +3,7 @@ name: "easy-creds"
 tagline: "A bash script that leverages ettercap and other tools to obtain credentials."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/brav0hax/easy-creds"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "eazy"
 tagline: "This is a small python tool that scans websites to look for PHP shells, backups, admin panels, and more."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://packetstormsecurity.com/files/117572/EAZY-Web-Scanner.html"
 commonlyOn: ["BlackArch"]

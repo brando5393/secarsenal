@@ -3,7 +3,7 @@ name: "rdwatool"
 tagline: "A python script to extract information from a Microsoft Remote Desktop Web Access (RDWA) application."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/p0dalirius/RDWAtool"
 commonlyOn: ["BlackArch"]

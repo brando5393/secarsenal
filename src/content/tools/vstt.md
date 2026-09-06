@@ -3,7 +3,7 @@ name: "vstt"
 tagline: "VSTT is a multi-protocol tunneling tool. It accepts input by TCP stream sockets and FIFOs, and can send data via TCP, PO"
 categories: ["tunnel"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/tunnel.html"
 downloadUrl: "http://www.wendzel.de/dr.org/files/Projects/vstt/"
 commonlyOn: ["BlackArch"]

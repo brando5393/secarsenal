@@ -3,7 +3,7 @@ name: "ldeep"
 tagline: "In-depth ldap enumeration utility"
 categories: ["active-directory"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/ldeep/"
 downloadUrl: "https://github.com/franc-pentest/ldeep"
 repoUrl: "https://gitlab.com/kalilinux/packages/ldeep"

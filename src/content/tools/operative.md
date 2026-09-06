@@ -3,7 +3,7 @@ name: "operative"
 tagline: "Framework based on fingerprint action, this tool is used for get information on a website or a enterprise target with mu"
 categories: ["fingerprint"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/fingerprint.html"
 downloadUrl: "https://github.com/graniet/operative-framework"
 commonlyOn: ["BlackArch"]

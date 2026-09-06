@@ -3,7 +3,7 @@ name: "gqrx-sdr"
 tagline: "Software defined radio receiver"
 categories: ["radio-frequency"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/gqrx-sdr/"
 downloadUrl: "https://gqrx.dk/"
 repoUrl: "https://salsa.debian.org/bottoms/pkg-gqrx-sdr"

@@ -3,7 +3,7 @@ name: "Logstash"
 tagline: "By default, Logstash uses in-memory bounded queues between pipeline stages (inputs → pipeline workers) to buffer events."
 categories: ["network-security-monitoring"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.securityonion.net/en/2.4/logstash.html#logstash"
 downloadUrl: "https://www.elastic.co/guide/en/logstash/current/persistent-queues.html"
 commonlyOn: ["Security Onion"]

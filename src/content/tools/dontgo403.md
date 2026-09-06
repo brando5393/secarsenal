@@ -3,7 +3,7 @@ name: "dontgo403"
 tagline: "Tool to bypass 40X response codes.."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/devploit/dontgo403"
 commonlyOn: ["BlackArch"]

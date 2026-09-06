@@ -3,7 +3,7 @@ name: "dnsprobe"
 tagline: "Allows you to perform multiple dns queries of your choice with a list of user supplied resolvers."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/projectdiscovery/dnsprobe"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "stompy"
 tagline: "An advanced utility to test the quality of WWW session identifiers and other tokens that are meant to be unpredictable."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "http://lcamtuf.coredump.cx/"
 commonlyOn: ["BlackArch"]

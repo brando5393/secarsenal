@@ -3,7 +3,7 @@ name: "centry-git"
 tagline: "A Panic button for protection against cold boot attacks"
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/centry-git"
 downloadUrl: "https://github.com/0xPoly/Centry"
 commonlyOn: ["ArchStrike"]

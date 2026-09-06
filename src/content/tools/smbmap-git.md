@@ -3,7 +3,7 @@ name: "smbmap-git"
 tagline: "A handy SMB enumeration tool"
 categories: ["enumeration"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/smbmap-git"
 downloadUrl: "https://github.com/ShawnDEvans/smbmap"
 commonlyOn: ["ArchStrike"]

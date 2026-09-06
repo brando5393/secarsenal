@@ -3,7 +3,7 @@ name: "chaos-client"
 tagline: "Go client to communicate with Chaos dataset API."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/projectdiscovery/chaos-client"
 commonlyOn: ["BlackArch"]

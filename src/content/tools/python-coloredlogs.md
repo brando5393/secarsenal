@@ -3,7 +3,7 @@ name: "python-coloredlogs"
 tagline: "Colored stream handler for Python's logging module"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-coloredlogs"
 downloadUrl: "https://coloredlogs.readthedocs.io"
 commonlyOn: ["ArchStrike"]

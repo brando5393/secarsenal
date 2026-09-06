@@ -3,7 +3,7 @@ name: "phpggc"
 tagline: "Generate payloads that exploit unsafe object deserialization"
 categories: ["persistence"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/phpggc/"
 downloadUrl: "https://github.com/ambionics/phpggc"
 repoUrl: "https://gitlab.com/kalilinux/packages/phpggc"

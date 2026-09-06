@@ -3,7 +3,7 @@ name: "vnc-bypauth"
 tagline: "Multi-threaded bypass authentication scanner for VNC smaller than v4.1.1 servers."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://pentester.fr/resources/tools/techno/VNC/VNC_bypauth/"
 commonlyOn: ["BlackArch"]

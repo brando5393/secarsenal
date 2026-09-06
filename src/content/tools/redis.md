@@ -3,7 +3,7 @@ name: "Redis"
 tagline: "Redis is an open source (BSD licensed), in-memory data structure store, used as a database, cache and message broker."
 categories: ["network-security-monitoring"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.securityonion.net/en/2.4/redis.html#redis"
 downloadUrl: "https://redis.io/"
 commonlyOn: ["Security Onion"]

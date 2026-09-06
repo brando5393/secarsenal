@@ -3,7 +3,7 @@ name: "pupy"
 tagline: "Opensource, cross-platform (Windows, Linux, OSX, Android) remote administration and post-exploitation tool mainly writte"
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/n1nj4sec/pupy"
 commonlyOn: ["BlackArch"]

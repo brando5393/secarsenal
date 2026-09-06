@@ -4,7 +4,7 @@ tagline: "Scan files using YARA rules, the next generation of YARA written in Ru
 categories: ["gather-and-analyze-data"]
 platforms: ["Linux"]
 license: "BSD-3-Clause License"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/gather+and+analyze+data"
 downloadUrl: "https://github.com/VirusTotal/yara-x"
 commonlyOn: ["REMnux"]

@@ -3,7 +3,7 @@ name: "airflood"
 tagline: "A modification of aireplay that allows for a DoS of the AP. This program fills the table of clients of the AP with rando"
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "http://packetstormsecurity.com/files/51127/airflood.1.tar.gz.html"
 commonlyOn: ["BlackArch"]

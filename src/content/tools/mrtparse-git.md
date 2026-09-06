@@ -3,7 +3,7 @@ name: "mrtparse-git"
 tagline: "a module to read and analyze the MRT format data."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/mrtparse-git"
 downloadUrl: "https://github.com/t2mune/mrtparse"
 commonlyOn: ["ArchStrike"]

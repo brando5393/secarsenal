@@ -3,7 +3,7 @@ name: "arcane"
 tagline: "Backdoor iOS packages and create the necessary resources for APT repositories."
 categories: ["mobile"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/mobile.html"
 downloadUrl: "https://github.com/tokyoneon/Arcane"
 commonlyOn: ["BlackArch"]

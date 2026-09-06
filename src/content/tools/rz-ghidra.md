@@ -3,7 +3,7 @@ name: "rz-ghidra"
 tagline: "Ghidra decompiler and sleigh disassembler for rizin"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/rz-ghidra/"
 downloadUrl: "https://github.com/rizinorg/rz-ghidra"
 repoUrl: "https://gitlab.com/kalilinux/packages/rz-ghidra"

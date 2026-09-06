@@ -3,7 +3,7 @@ name: "python-flake8-quotes"
 tagline: "Flake8 extension for checking quotes in python"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-flake8-quotes"
 downloadUrl: "https://github.com/zheller/flake8-quotes/"
 commonlyOn: ["ArchStrike"]

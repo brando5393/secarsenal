@@ -3,7 +3,7 @@ name: "uhd"
 tagline: "Universal hardware driver for Ettus Research products - headers"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/uhd/"
 downloadUrl: "https://www.ettus.com/sdr-software/uhd-usrp-hardware-driver/"
 repoUrl: "https://salsa.debian.org/bottoms/pkg-uhd"

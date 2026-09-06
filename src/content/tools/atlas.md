@@ -3,7 +3,7 @@ name: "atlas"
 tagline: "Open source tool that can suggest sqlmap tampers to bypass WAF/IDS/IPS."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/m4ll0k/Atlas"
 commonlyOn: ["BlackArch"]

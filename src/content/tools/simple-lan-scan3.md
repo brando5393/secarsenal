@@ -3,7 +3,7 @@ name: "simple-lan-scan3"
 tagline: "A simple python3 script that leverages scapy for discovering live hosts on a network."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://codeberg.org/jahway603/Simple-LAN-Scanner3"
 commonlyOn: ["BlackArch"]

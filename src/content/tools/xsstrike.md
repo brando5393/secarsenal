@@ -3,7 +3,7 @@ name: "xsstrike"
 tagline: "Most advanced XSS scanner"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/xsstrike/"
 downloadUrl: "https://github.com/s0md3v/XSStrike"
 repoUrl: "https://gitlab.com/kalilinux/packages/xsstrike"

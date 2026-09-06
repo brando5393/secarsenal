@@ -3,7 +3,7 @@ name: "evil-winrm-py"
 tagline: "Execute commands on remote Windows machines using WinRM"
 categories: ["pass-the-hash"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/evil-winrm-py/"
 downloadUrl: "https://github.com/adityatelange/evil-winrm-py"
 repoUrl: "https://gitlab.com/kalilinux/packages/evil-winrm-py"

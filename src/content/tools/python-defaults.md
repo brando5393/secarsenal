@@ -3,7 +3,7 @@ name: "python-defaults"
 tagline: "Package depending on all supported Python2 debugging packages"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/python-defaults/"
 downloadUrl: "https://www.python.org/"
 repoUrl: "https://salsa.debian.org/cpython-team/python-defaults"

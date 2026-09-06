@@ -3,7 +3,7 @@ name: "fakedns"
 tagline: "A regular-expression based python MITM DNS server with correct DNS request passthrough and \"Not Found\" responses."
 categories: ["proxy"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/proxy.html"
 downloadUrl: "https://github.com/Crypt0s/FakeDns"
 commonlyOn: ["BlackArch"]

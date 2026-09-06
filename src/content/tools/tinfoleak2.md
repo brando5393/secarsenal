@@ -3,7 +3,7 @@ name: "tinfoleak2"
 tagline: "The most complete open-source tool for Twitter intelligence analysis."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "http://www.vicenteaguileradiaz.com/tools/"
 commonlyOn: ["BlackArch"]

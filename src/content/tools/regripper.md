@@ -3,7 +3,7 @@ name: "regripper"
 tagline: "Perform forensic analysis of registry hives"
 categories: ["digital-forensics"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/regripper/"
 downloadUrl: "https://github.com/keydet89/RegRipper3.0"
 repoUrl: "https://salsa.debian.org/pkg-security-team/regripper"

@@ -3,7 +3,7 @@ name: "sara"
 tagline: "RouterOS Security Inspector"
 categories: ["system-network-configuration-discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/sara/"
 downloadUrl: "https://github.com/caster0x00/sara"
 repoUrl: "https://gitlab.com/kalilinux/packages/sara"

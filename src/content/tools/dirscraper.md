@@ -3,7 +3,7 @@ name: "dirscraper"
 tagline: "OSINT Scanning tool which discovers and maps directories found in javascript files hosted on a website."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/Cillian-Collins/dirscraper"
 commonlyOn: ["BlackArch"]

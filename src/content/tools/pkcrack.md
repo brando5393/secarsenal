@@ -3,7 +3,7 @@ name: "pkcrack"
 tagline: "A PkZip encryption cracker."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://www.unix-ag.uni-kl.de/~conrad/krypto/pkcrack/download1.html"
 commonlyOn: ["BlackArch"]

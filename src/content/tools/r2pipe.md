@@ -4,7 +4,7 @@ tagline: "Examine binary files, including disassembling and debugging."
 categories: ["general"]
 platforms: ["Linux"]
 license: "MIT"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/dynamically+reverse-engineer+code/general"
 downloadUrl: "https://rada.re/n/r2pipe.html"
 commonlyOn: ["REMnux"]

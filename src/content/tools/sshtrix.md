@@ -3,7 +3,7 @@ name: "sshtrix"
 tagline: "A very fast multithreaded SSH login cracker."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://nullsecurity.net/tools/cracker.html"
 commonlyOn: ["BlackArch"]

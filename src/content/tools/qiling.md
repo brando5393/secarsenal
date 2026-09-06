@@ -4,7 +4,7 @@ tagline: "Emulate code execution of PE files, shellcode, etc. for a variety of O
 categories: ["general"]
 platforms: ["Linux"]
 license: "GNU General Public License (GPL) v2.0"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/statically+analyze+code/general"
 downloadUrl: "https://www.qiling.io"
 commonlyOn: ["REMnux"]

@@ -3,7 +3,7 @@ name: "blindsql"
 tagline: "Set of bash scripts for blind SQL injection attacks."
 categories: ["database"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/database.html"
 downloadUrl: "http://www.enye-sec.org/programas.html"
 commonlyOn: ["BlackArch"]

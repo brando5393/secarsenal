@@ -3,7 +3,7 @@ name: "ipv6toolkit"
 tagline: "IPv6 assessment and troubleshooting tools"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/ipv6toolkit/"
 downloadUrl: "https://www.si6networks.com/tools/ipv6toolkit/"
 repoUrl: "https://gitlab.com/kalilinux/packages/ipv6toolkit"

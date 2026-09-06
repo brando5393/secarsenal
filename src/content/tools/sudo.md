@@ -3,7 +3,7 @@ name: "sudo"
 tagline: "Provide limited super user privileges to specific users"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/sudo/"
 downloadUrl: "https://www.sudo.ws/"
 repoUrl: "https://salsa.debian.org/sudo-team/sudo"

@@ -3,7 +3,7 @@ name: "InfluxDB"
 tagline: "InfluxDB is an open source time series platform."
 categories: ["network-security-monitoring"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.securityonion.net/en/2.4/influxdb.html#influxdb"
 downloadUrl: "https://github.com/influxdata/influxdb"
 commonlyOn: ["Security Onion"]

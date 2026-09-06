@@ -3,7 +3,7 @@ name: "rekall"
 tagline: "Memory Forensic Framework."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/google/rekall"
 commonlyOn: ["BlackArch"]

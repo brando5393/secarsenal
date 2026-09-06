@@ -3,7 +3,7 @@ name: "sniffjoke"
 tagline: "Transparent TCP connection scrambler"
 categories: ["defense-evasion"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/sniffjoke/"
 downloadUrl: "https://github.com/vecna/sniffjoke"
 repoUrl: "https://gitlab.com/kalilinux/packages/sniffjoke"

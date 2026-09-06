@@ -3,7 +3,7 @@ name: "extundelete"
 tagline: "Utility to recover deleted files from ext3/ext4 partition"
 categories: ["forensic-carving-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/extundelete/"
 downloadUrl: "http://extundelete.sourceforge.net/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/extundelete"

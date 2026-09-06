@@ -3,7 +3,7 @@ name: "s3enum"
 tagline: "Amazon S3 bucket enumeration."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/koenrh/s3enum"
 commonlyOn: ["BlackArch"]

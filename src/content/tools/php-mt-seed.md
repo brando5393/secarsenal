@@ -3,7 +3,7 @@ name: "php-mt-seed"
 tagline: "PHP mt_rand() seed cracker."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://www.openwall.com/php_mt_seed/"
 commonlyOn: ["BlackArch"]

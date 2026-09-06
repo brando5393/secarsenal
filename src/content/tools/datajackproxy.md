@@ -3,7 +3,7 @@ name: "datajackproxy"
 tagline: "A proxy which allows you to intercept TLS traffic in native x86 applications across platform."
 categories: ["proxy"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/proxy.html"
 downloadUrl: "https://github.com/nccgroup/DatajackProxy"
 commonlyOn: ["BlackArch"]

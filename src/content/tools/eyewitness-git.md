@@ -3,7 +3,7 @@ name: "eyewitness-git"
 tagline: "designed to take screenshots of websites, provide some server header info, and identify default credentials is possible"
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/eyewitness-git"
 downloadUrl: "https://github.com/FortyNorthSecurity/EyeWitness"
 commonlyOn: ["ArchStrike"]

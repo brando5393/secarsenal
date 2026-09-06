@@ -3,7 +3,7 @@ name: "yaf"
 tagline: "Yet Another Flowmeter."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://tools.netsa.cert.org/yaf/download.html"
 commonlyOn: ["BlackArch"]

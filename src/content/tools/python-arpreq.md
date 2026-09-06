@@ -3,7 +3,7 @@ name: "python-arpreq"
 tagline: "Python C extension to query the Kernel ARP cache for the MAC address of a given IP address."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-arpreq"
 downloadUrl: "https://pypi.python.org/pypi/arpreq/"
 commonlyOn: ["ArchStrike"]

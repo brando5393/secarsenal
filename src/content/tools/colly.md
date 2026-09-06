@@ -3,7 +3,7 @@ name: "colly"
 tagline: "Elegant Scraper and Crawler Framework for Golang (program)"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/colly/"
 downloadUrl: "https://github.com/gocolly/colly"
 repoUrl: "https://gitlab.com/kalilinux/packages/colly"

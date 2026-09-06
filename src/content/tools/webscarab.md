@@ -3,7 +3,7 @@ name: "webscarab"
 tagline: "Web application review tool"
 categories: ["web-vulnerability-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/webscarab/"
 downloadUrl: "https://github.com/OWASP/OWASP-WebScarab"
 repoUrl: "https://gitlab.com/kalilinux/packages/webscarab"

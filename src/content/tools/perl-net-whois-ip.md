@@ -3,7 +3,7 @@ name: "perl-net-whois-ip"
 tagline: "Perl extension for looking up the whois information for ip addresses"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/perl-net-whois-ip"
 downloadUrl: "https://metacpan.org/pod/Net::Whois::IP"
 commonlyOn: ["ArchStrike"]

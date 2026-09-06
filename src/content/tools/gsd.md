@@ -3,7 +3,7 @@ name: "gsd"
 tagline: "Gives you the Discretionary Access Control List of any Windows NT service you specify as a command line option."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://vidstromlabs.com/freetools/gsd/"
 commonlyOn: ["BlackArch"]

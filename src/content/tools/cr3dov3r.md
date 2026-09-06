@@ -3,7 +3,7 @@ name: "cr3dov3r"
 tagline: "Search for public leaks for email addresses + check creds against 16 websites."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/D4Vinci/Cr3dOv3r"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "inguma"
 tagline: "A free penetration testing and vulnerability discovery toolkit entirely written in python. Framework includes modules to"
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://inguma.sourceforge.net"
 commonlyOn: ["BlackArch"]

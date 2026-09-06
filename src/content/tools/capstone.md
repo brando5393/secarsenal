@@ -3,7 +3,7 @@ name: "capstone"
 tagline: "Lightweight multi-architecture disassembly framework - command line tool"
 categories: ["resource-development"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/capstone/"
 downloadUrl: "https://www.capstone-engine.org/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/capstone"

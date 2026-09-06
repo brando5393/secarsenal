@@ -4,7 +4,7 @@ tagline: "Perform static analysis of Android applications."
 categories: ["general"]
 platforms: ["Linux"]
 license: "MIT License"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/general"
 downloadUrl: "https://github.com/cryptax/droidlysis"
 commonlyOn: ["REMnux"]

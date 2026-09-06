@@ -3,7 +3,7 @@ name: "oclhashcat"
 tagline: "Worlds fastest WPA cracker with dictionary mutation engine."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://hashcat.net/oclhashcat/"
 commonlyOn: ["BlackArch"]

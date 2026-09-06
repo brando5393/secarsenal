@@ -3,7 +3,7 @@ name: "exeinfope"
 tagline: "Exeinfo PE displays metadata for a variety of file types and identifies many executable packers."
 categories: ["file-information"]
 platforms: ["Windows"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://github.com/mandiant/VM-Packages/tree/main/packages/exeinfope.vm"
 downloadUrl: "https://github.com/ExeinfoASL/ASL"
 commonlyOn: ["FLARE VM"]

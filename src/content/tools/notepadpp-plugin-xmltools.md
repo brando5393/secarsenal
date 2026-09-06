@@ -3,7 +3,7 @@ name: "notepadpp.plugin.xmltools"
 tagline: "XMLTools is a Notepad++ plugin for editing XML."
 categories: ["productivity-tools"]
 platforms: ["Windows"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://github.com/mandiant/VM-Packages/tree/main/packages/notepadpp.plugin.xmltools.vm"
 downloadUrl: "https://github.com/morbac/xmltools"
 commonlyOn: ["FLARE VM"]

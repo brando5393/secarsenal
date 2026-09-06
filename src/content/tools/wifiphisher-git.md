@@ -3,7 +3,7 @@ name: "wifiphisher-git"
 tagline: "A tool for Fast automated phishing attacks against WPA networks"
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/wifiphisher-git"
 downloadUrl: "https://github.com/wifiphisher/wifiphisher"
 commonlyOn: ["ArchStrike"]

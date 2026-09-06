@@ -4,7 +4,7 @@ tagline: "Create, inspect and extract Windows Installer (.msi) files."
 categories: ["general"]
 platforms: ["Linux"]
 license: "GNU Lesser General Public License (LGPL) v2.1 or later"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/general"
 downloadUrl: "https://wiki.gnome.org/msitools"
 commonlyOn: ["REMnux"]

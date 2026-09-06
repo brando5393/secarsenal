@@ -3,7 +3,7 @@ name: "recollapse"
 tagline: "Tool for black-box regex fuzzing to bypass validations and discover normalizations in web applications."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/0xacb/recollapse"
 commonlyOn: ["BlackArch"]

@@ -4,7 +4,7 @@ tagline: "Bruteforce XOR'ed strings to find those that are English words."
 categories: ["deobfuscation"]
 platforms: ["Linux"]
 license: "Free, unknown license"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/deobfuscation"
 downloadUrl: "https://github.com/REMnux/distro/blob/master/files/brxor.py"
 commonlyOn: ["REMnux"]

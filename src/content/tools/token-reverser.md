@@ -3,7 +3,7 @@ name: "token-reverser"
 tagline: "Word list generator to crack security tokens."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/dariusztytko/token-reverser"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "configpush"
 tagline: "This is a tool to span /8-sized networks quickly sending snmpset requests with default or otherwise specified community "
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://packetstormsecurity.com/files/126621/Config-Push-snmpset-Utility.html"
 commonlyOn: ["BlackArch"]

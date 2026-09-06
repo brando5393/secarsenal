@@ -4,7 +4,7 @@ tagline: "Remove junk contents from bloated Windows executables."
 categories: ["pe-files"]
 platforms: ["Linux"]
 license: "BSD 3-Clause License"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/pe+files"
 downloadUrl: "https://github.com/Squiblydoo/debloat"
 commonlyOn: ["REMnux"]

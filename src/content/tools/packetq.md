@@ -3,7 +3,7 @@ name: "packetq"
 tagline: "A tool that provides a basic SQL-frontend to PCAP-files."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/DNS-OARC/PacketQ"
 commonlyOn: ["BlackArch"]

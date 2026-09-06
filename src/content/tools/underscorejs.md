@@ -3,7 +3,7 @@ name: "underscorejs"
 tagline: "Underscore is a utility-belt library for JavaScript that provides a lot of the functional programming support that you would expect in Prototype.js (o"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/underscorejs"
 downloadUrl: "http://underscorejs.org"
 commonlyOn: ["ArchStrike"]

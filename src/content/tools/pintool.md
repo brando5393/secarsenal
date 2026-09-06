@@ -3,7 +3,7 @@ name: "pintool"
 tagline: "This tool can be useful for solving some reversing challenges in CTFs events."
 categories: ["reversing"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/reversing.html"
 downloadUrl: "https://github.com/wagiro/pintool"
 commonlyOn: ["BlackArch"]

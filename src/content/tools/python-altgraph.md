@@ -3,7 +3,7 @@ name: "python-altgraph"
 tagline: "fork of graphlib: a graph (network) package for constructing graphs"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-altgraph"
 downloadUrl: "https://pypi.org/project/altgraph/"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "penelope"
 tagline: "Advanced shell handler for penetration testing and CTFs"
 categories: ["non-application-layer-protocol"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/penelope/"
 downloadUrl: "https://github.com/brightio/penelope"
 repoUrl: "https://salsa.debian.org/pkg-security-team/penelope"

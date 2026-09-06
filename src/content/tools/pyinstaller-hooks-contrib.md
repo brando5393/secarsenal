@@ -3,7 +3,7 @@ name: "pyinstaller-hooks-contrib"
 tagline: "PyInstaller community hooks."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/pyinstaller/pyinstaller-hooks-contrib"
 commonlyOn: ["BlackArch"]

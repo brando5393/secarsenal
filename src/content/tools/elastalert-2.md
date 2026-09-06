@@ -3,7 +3,7 @@ name: "ElastAlert 2"
 tagline: "ElastAlert 2 is a simple framework for alerting on anomalies, spikes, or other patterns of interest from data in Elasticsearch."
 categories: ["network-security-monitoring"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.securityonion.net/en/2.4/elastalert.html#elastalert"
 downloadUrl: "https://elastalert2.readthedocs.io/en/latest/elastalert.html#overview"
 commonlyOn: ["Security Onion"]

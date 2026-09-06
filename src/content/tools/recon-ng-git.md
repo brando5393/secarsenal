@@ -3,7 +3,7 @@ name: "recon-ng-git"
 tagline: "A full-featured Web Reconnaissance framework written in Python."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/recon-ng-git"
 downloadUrl: "https://github.com/lanmaster53/recon-ng"
 commonlyOn: ["ArchStrike"]

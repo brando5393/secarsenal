@@ -3,7 +3,7 @@ name: "de4dot-cex"
 tagline: "de4dot CEx is a de4dot fork with full support for vanilla ConfuserEx."
 categories: ["dotnet"]
 platforms: ["Windows"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://github.com/mandiant/VM-Packages/tree/main/packages/de4dot-cex.vm"
 downloadUrl: "https://github.com/ViRb3/de4dot-cex"
 commonlyOn: ["FLARE VM"]

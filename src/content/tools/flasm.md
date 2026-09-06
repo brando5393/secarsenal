@@ -3,7 +3,7 @@ name: "flasm"
 tagline: "Disassembler tool for SWF bytecode."
 categories: ["decompiler"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/decompiler.html"
 downloadUrl: "http://www.nowrap.de/flasm.html"
 commonlyOn: ["BlackArch"]

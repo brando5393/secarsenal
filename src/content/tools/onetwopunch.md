@@ -3,7 +3,7 @@ name: "onetwopunch"
 tagline: "Use unicornscan to quickly scan all open ports, and then pass the open ports to nmap for detailed scans."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/superkojiman/onetwopunch"
 commonlyOn: ["BlackArch"]

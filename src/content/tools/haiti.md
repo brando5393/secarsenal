@@ -3,7 +3,7 @@ name: "haiti"
 tagline: "Hash type identifier (CLI & lib)."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://noraj.github.io/haiti/"
 commonlyOn: ["BlackArch"]

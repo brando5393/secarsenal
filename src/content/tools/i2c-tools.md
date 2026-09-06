@@ -3,7 +3,7 @@ name: "i2c-tools"
 tagline: "Heterogeneous set of I2C tools for Linux"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/i2c-tools/"
 downloadUrl: "https://www.kernel.org/pub/software/utils/i2c-tools/"
 repoUrl: "https://salsa.debian.org/aurel32/i2c-tools"

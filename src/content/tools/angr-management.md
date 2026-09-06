@@ -3,7 +3,7 @@ name: "angr-management"
 tagline: "The official angr GUI."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/angr/angr-management"
 commonlyOn: ["BlackArch"]

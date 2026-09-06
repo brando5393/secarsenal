@@ -3,7 +3,7 @@ name: "metasploit-framework"
 tagline: "Framework for exploit development and vulnerability research"
 categories: ["resource-development","defense-evasion"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/metasploit-framework/"
 downloadUrl: "https://www.metasploit.com/"
 repoUrl: "https://gitlab.com/kalilinux/packages/metasploit-framework"

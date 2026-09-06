@@ -3,7 +3,7 @@ name: "perl-net-frame-layer-sinfp3"
 tagline: "Frame crafting made easy."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/perl-net-frame-layer-sinfp3"
 commonlyOn: ["ArchStrike"]
 gettingStarted: "Install by adding the ArchStrike repository to an existing Arch Linux install, then `pacman -S perl-net-frame-layer-sinfp3`. See the official ArchStrike package listing linked above for details."

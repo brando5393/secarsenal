@@ -3,7 +3,7 @@ name: "dsfs"
 tagline: "A fully functional File inclusion vulnerability scanner (supporting GET and POST parameters) written in under 100 lines "
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/stamparm/DSFS"
 commonlyOn: ["BlackArch"]

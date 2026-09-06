@@ -3,7 +3,7 @@ name: "cpublaster"
 tagline: "This library tries to intercept the memory allocations to skew the allocations to different offsets, so the performance penalty to disappear"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/cpublaster"
 downloadUrl: "http://kernel.embedromix.ro/us/"
 commonlyOn: ["ArchStrike"]

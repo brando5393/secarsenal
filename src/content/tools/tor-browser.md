@@ -3,7 +3,7 @@ name: "tor-browser"
 tagline: "Tor Browser Bundle: anonymous browsing using Firefox and Tor."
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://www.torproject.org/projects/torbrowser.html"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "dfwinreg"
 tagline: "Digital Forensics Windows Registry library for Python 3"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/dfwinreg/"
 downloadUrl: "https://github.com/log2timeline/dfwinreg"
 repoUrl: "https://salsa.debian.org/pkg-security-team/dfwinreg"

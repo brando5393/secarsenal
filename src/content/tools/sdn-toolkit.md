@@ -3,7 +3,7 @@ name: "sdn-toolkit"
 tagline: "Discover, Identify, and Manipulate SDN-Based Networks"
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "http://downloads.sourceforge.net/project/sdn-toolkit"
 commonlyOn: ["BlackArch"]

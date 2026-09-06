@@ -3,7 +3,7 @@ name: "punter"
 tagline: "Hunt domain names using DNSDumpster, WHOIS, Reverse WHOIS, Shodan, Crimeflare."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/nethunteros/punter"
 commonlyOn: ["BlackArch"]

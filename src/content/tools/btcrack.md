@@ -3,7 +3,7 @@ name: "btcrack"
 tagline: "The world's first Bluetooth Pass phrase (PIN) bruteforce tool. Bruteforces the Passkey and the Link key from captured Pa"
 categories: ["bluetooth"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/bluetooth.html"
 downloadUrl: "http://www.nruns.com/_en/security_tools_btcrack.php"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "ftp-spider"
 tagline: "FTP investigation tool - Scans ftp server for the following: reveal entire directory tree structures, detect anonymous a"
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://packetstormsecurity.com/files/35120/ftp-spider.pl.html"
 commonlyOn: ["BlackArch"]

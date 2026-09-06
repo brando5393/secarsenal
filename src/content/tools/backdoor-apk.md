@@ -3,7 +3,7 @@ name: "backdoor-apk"
 tagline: "Shell script that simplifies the process of adding a backdoor to any Android APK file"
 categories: ["mobile"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/mobile.html"
 downloadUrl: "https://github.com/dana-at-cp/backdoor-apk"
 commonlyOn: ["BlackArch"]

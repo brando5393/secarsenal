@@ -3,7 +3,7 @@ name: "smbmap"
 tagline: "Handy SMB enumeration tool"
 categories: ["pass-the-hash","network-share-discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/smbmap/"
 downloadUrl: "https://github.com/ShawnDEvans/smbmap"
 repoUrl: "https://salsa.debian.org/pkg-security-team/smbmap"

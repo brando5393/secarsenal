@@ -3,7 +3,7 @@ name: "driftnet"
 tagline: "Picks out and displays images from network traffic"
 categories: ["network-sniffing"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/driftnet/"
 downloadUrl: "https://github.com/deiv/driftnet"
 repoUrl: "https://github.com/deiv/driftnet"

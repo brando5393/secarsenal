@@ -3,7 +3,7 @@ name: "nbtscan-unixwiz"
 tagline: "Scanner for open NETBIOS nameservers"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/nbtscan-unixwiz/"
 downloadUrl: "http://unixwiz.net/tools/nbtscan.html"
 repoUrl: "https://gitlab.com/kalilinux/packages/nbtscan-unixwiz"

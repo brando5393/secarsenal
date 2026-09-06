@@ -3,7 +3,7 @@ name: "lapsdumper"
 tagline: "Tool that dumps LAPS passwords"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/lapsdumper/"
 downloadUrl: "https://github.com/n00py/LAPSDumper"
 repoUrl: "https://gitlab.com/kalilinux/packages/lapsdumper"

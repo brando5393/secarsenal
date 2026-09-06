@@ -3,7 +3,7 @@ name: "python-ed25519"
 tagline: "Python Bindings to the Ed25519 Digital Signature System"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-ed25519"
 downloadUrl: "https://github.com/warner/python-ed25519"
 commonlyOn: ["ArchStrike"]

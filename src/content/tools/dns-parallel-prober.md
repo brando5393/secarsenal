@@ -3,7 +3,7 @@ name: "dns-parallel-prober"
 tagline: "PoC for an adaptive parallelised DNS prober."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/lorenzog/dns-parallel-prober"
 commonlyOn: ["BlackArch"]

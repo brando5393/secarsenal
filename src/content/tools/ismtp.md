@@ -3,7 +3,7 @@ name: "ismtp"
 tagline: "SMTP user enumeration and testing tool"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/ismtp/"
 downloadUrl: "https://github.com/altjx/ipwn/"
 repoUrl: "https://gitlab.com/kalilinux/packages/ismtp"

@@ -3,7 +3,7 @@ name: "modifycerttemplate"
 tagline: "Aid operators in modifying ADCS certificate templates so that a created vulnerable state can be leveraged for privilege "
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/fortalice/modifyCertTemplate"
 commonlyOn: ["BlackArch"]

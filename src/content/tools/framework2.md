@@ -3,7 +3,7 @@ name: "framework2"
 tagline: "Metasploit Framework 2"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/framework2/"
 downloadUrl: "https://www.metasploit.com"
 repoUrl: "https://gitlab.com/kalilinux/packages/framework2"

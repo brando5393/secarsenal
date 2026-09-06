@@ -3,7 +3,7 @@ name: "libpst"
 tagline: "Library for reading Microsoft Outlook PST files (development files)"
 categories: ["digital-forensics"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/libpst/"
 downloadUrl: "https://www.five-ten-sg.com/libpst/"
 repoUrl: "https://salsa.debian.org/debian/libpst"

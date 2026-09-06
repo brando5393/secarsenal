@@ -3,7 +3,7 @@ name: "doona"
 tagline: "Network fuzzer forked from bed"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/doona/"
 downloadUrl: "https://github.com/wireghoul/doona"
 repoUrl: "https://salsa.debian.org/pkg-security-team/doona"

@@ -3,7 +3,7 @@ name: "mitm6"
 tagline: "Pwning IPv4 via IPv6"
 categories: ["collection"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/mitm6/"
 downloadUrl: "https://github.com/dirkjanm/mitm6"
 repoUrl: "https://gitlab.com/kalilinux/packages/mitm6"

@@ -3,7 +3,7 @@ name: "cacdec-git"
 tagline: "The hidden RDP client recorder"
 categories: ["exploit"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/cacdec-git"
 downloadUrl: "https://github.com/airbus-cert/cacdec"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "python-ldapdomaindump"
 tagline: "Active Directory information dumper via LDAP (Python 3)"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/python-ldapdomaindump/"
 downloadUrl: "https://github.com/dirkjanm/ldapdomaindump"
 repoUrl: "https://salsa.debian.org/python-team/packages/python-ldapdomaindump"

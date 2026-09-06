@@ -3,7 +3,7 @@ name: "rtl"
 tagline: "A generic software defined radio data receiver, mainly for the 433.92 MHz, 868 MHz (SRD), 315 MHz, 345 MHz, and 915 MHz "
 categories: ["radio"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/radio.html"
 downloadUrl: "https://github.com/merbanan/rtl_433"
 commonlyOn: ["BlackArch"]

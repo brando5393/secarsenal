@@ -3,7 +3,7 @@ name: "bytecode-viewer"
 tagline: "Java 8+ Jar & Android APK Reverse Engineering Suite"
 categories: ["resource-development"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/bytecode-viewer/"
 downloadUrl: "https://github.com/Konloch/bytecode-viewer"
 repoUrl: "https://gitlab.com/kalilinux/packages/bytecode-viewer"

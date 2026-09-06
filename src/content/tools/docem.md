@@ -3,7 +3,7 @@ name: "docem"
 tagline: "Uility to embed XXE and XSS payloads in docx,odt,pptx,etc (OXML_XEE on steroids)."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/whitel1st/docem"
 commonlyOn: ["BlackArch"]

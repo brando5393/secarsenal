@@ -3,10 +3,11 @@ name: "littleblackbox"
 tagline: "Penetration testing tool, search in a collection of thousands of private SSL keys extracted from various embedded device"
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
+downloadUrl: "http://code.google.com/p/littleblackbox/wiki/FAQ"
 commonlyOn: ["BlackArch"]
-gettingStarted: "Install on BlackArch with `pacman -S littleblackbox` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."
+gettingStarted: "Install on BlackArch with `pacman -S littleblackbox` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
 ---
 
 Penetration testing tool, search in a collection of thousands of private SSL keys extracted from various embedded devices.

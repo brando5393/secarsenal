@@ -3,7 +3,7 @@ name: "kerbrute-git"
 tagline: "A tool to quickly bruteforce and enumerate valid Active Directory accounts through Kerberos Pre-Authentication"
 categories: ["enumeration"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/kerbrute-git"
 downloadUrl: "https://github.com/ropnop/kerbrute"
 commonlyOn: ["ArchStrike"]

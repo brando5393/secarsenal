@@ -3,7 +3,7 @@ name: "evtkit"
 tagline: "Fix acquired .evt - Windows Event Log files (Forensics)."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/yarox24/evtkit"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "darkstat"
 tagline: "Network traffic analyzer"
 categories: ["network-sniffing"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/darkstat/"
 downloadUrl: "https://unix4lyfe.org/darkstat/"
 repoUrl: "https://salsa.debian.org/salvage-team/darkstat"

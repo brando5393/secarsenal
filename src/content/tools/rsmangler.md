@@ -3,7 +3,7 @@ name: "rsmangler"
 tagline: "Wordlist mangling tool"
 categories: ["password-profiling-wordlists"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/rsmangler/"
 downloadUrl: "https://digi.ninja/projects/rsmangler.php"
 repoUrl: "https://gitlab.com/kalilinux/packages/rsmangler"

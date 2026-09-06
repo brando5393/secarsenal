@@ -3,7 +3,7 @@ name: "fernflower"
 tagline: "An analytical decompiler for Java."
 categories: ["decompiler"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/decompiler.html"
 downloadUrl: "https://github.com/fesh0r/fernflower"
 commonlyOn: ["BlackArch"]

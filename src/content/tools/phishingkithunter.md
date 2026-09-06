@@ -3,7 +3,7 @@ name: "phishingkithunter"
 tagline: "Find phishing kits which use your brand/organization's files and image'."
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://github.com/t4d/PhishingKitHunter"
 commonlyOn: ["BlackArch"]

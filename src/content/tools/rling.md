@@ -3,7 +3,7 @@ name: "rling"
 tagline: "Better rli"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/rling/"
 downloadUrl: "https://github.com/Cynosureprime/rling"
 repoUrl: "https://gitlab.com/kalilinux/packages/rling"

@@ -3,7 +3,7 @@ name: "cisco7crack"
 tagline: "Crypt and decrypt the cisco type 7 passwords"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/cisco7crack/"
 downloadUrl: "https://github.com/madrisan/cisco7crack"
 repoUrl: "https://salsa.debian.org/pkg-security-team/cisco7crack"

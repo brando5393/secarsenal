@@ -3,7 +3,7 @@ name: "horusec"
 tagline: "Static code analysis to identify security flaws for many languages."
 categories: ["code-audit"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/code-audit.html"
 downloadUrl: "https://github.com/ZupIT/horusec"
 commonlyOn: ["BlackArch"]

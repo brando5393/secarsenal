@@ -3,7 +3,7 @@ name: "python-macholib"
 tagline: "Mach-O header analysis and editing"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-macholib"
 downloadUrl: "https://github.com/ronaldoussoren/macholib"
 commonlyOn: ["ArchStrike"]

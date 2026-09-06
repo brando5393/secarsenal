@@ -3,7 +3,7 @@ name: "adminpagefinder"
 tagline: "This python script looks for a large amount of possible administrative interfaces on a given site."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "http://packetstormsecurity.com/files/112855/Admin-Page-Finder-Script.html"
 commonlyOn: ["BlackArch"]

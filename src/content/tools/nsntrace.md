@@ -3,7 +3,7 @@ name: "nsntrace"
 tagline: "Perform network trace of a single process by using network namespaces."
 categories: ["sniffer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/sniffer.html"
 downloadUrl: "https://github.com/jonasdn/nsntrace"
 commonlyOn: ["BlackArch"]

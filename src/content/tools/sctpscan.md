@@ -3,7 +3,7 @@ name: "sctpscan"
 tagline: "SCTP network scanner for discovery and security"
 categories: ["network-service-discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/sctpscan/"
 downloadUrl: "https://github.com/philpraxis/sctpscan"
 repoUrl: "https://gitlab.com/kalilinux/packages/sctpscan"

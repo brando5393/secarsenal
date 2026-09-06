@@ -3,7 +3,7 @@ name: "hwk"
 tagline: "Collection of packet crafting and wireless network flooding tools"
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "http://www.nullsecurity.net/"
 commonlyOn: ["BlackArch"]

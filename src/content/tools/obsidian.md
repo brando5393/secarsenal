@@ -3,7 +3,7 @@ name: "obsidian"
 tagline: "Private and flexible writing app that adapts to the way you think"
 categories: ["reporting-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/obsidian/"
 downloadUrl: "https://obsidian.md/"
 repoUrl: "https://gitlab.com/kalilinux/packages/obsidian"

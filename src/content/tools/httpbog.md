@@ -3,7 +3,7 @@ name: "httpbog"
 tagline: "A slow HTTP denial-of-service tool that works similarly to other attacks, but rather than leveraging request headers or "
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://sourceforge.net/projects/httpbog/"
 commonlyOn: ["BlackArch"]

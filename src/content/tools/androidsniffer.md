@@ -3,7 +3,7 @@ name: "androidsniffer"
 tagline: "A perl script that lets you search for 3rd party passwords, dump the call log, dump contacts, dump wireless configuratio"
 categories: ["mobile"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/mobile.html"
 downloadUrl: "http://packetstormsecurity.com/files/97464/Andr01d-Magic-Dumper.1.html"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "checkov"
 tagline: "Prevent cloud misconfigurations and find vulnerabilities during build-time in infrastructure as code, container images a"
 categories: ["code-audit"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/code-audit.html"
 downloadUrl: "https://github.com/bridgecrewio/checkov"
 commonlyOn: ["BlackArch"]

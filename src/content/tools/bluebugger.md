@@ -3,7 +3,7 @@ name: "bluebugger"
 tagline: "An implementation of the bluebug technique which was discovered by Martin Herfurt."
 categories: ["bluetooth"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/bluetooth.html"
 downloadUrl: "http://packetstormsecurity.com/files/54024/bluebugger.1.tar.gz.html"
 commonlyOn: ["BlackArch"]

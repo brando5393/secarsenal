@@ -3,7 +3,7 @@ name: "subversion"
 tagline: "Advanced version control system"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/subversion/"
 downloadUrl: "http://subversion.apache.org/"
 repoUrl: "https://salsa.debian.org/jamessan/subversion"

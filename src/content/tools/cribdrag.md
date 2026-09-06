@@ -3,7 +3,7 @@ name: "cribdrag"
 tagline: "An interactive crib dragging tool for cryptanalysis on ciphertext generated with reused or predictable stream cipher key"
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/SpiderLabs/cribdrag"
 commonlyOn: ["BlackArch"]

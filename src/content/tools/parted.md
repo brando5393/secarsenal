@@ -3,7 +3,7 @@ name: "parted"
 tagline: "Disk partition manipulator"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/parted/"
 downloadUrl: "https://www.gnu.org/software/parted"
 repoUrl: "https://salsa.debian.org/parted-team/parted"

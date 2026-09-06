@@ -3,7 +3,7 @@ name: "xssscan-git"
 tagline: "Command line tool for detection of XSS attacks in URLs. Based on ModSecurity rules from OWASP CRS."
 categories: ["webapps"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/xssscan-git"
 downloadUrl: "https://github.com/gwroblew/detectXSSlib"
 commonlyOn: ["ArchStrike"]

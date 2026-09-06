@@ -3,7 +3,7 @@ name: "sandmap"
 tagline: "Simple CLI with the ability to run pure Nmap engine, 31 modules with 459 scan profiles."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/trimstray/sandmap"
 commonlyOn: ["BlackArch"]

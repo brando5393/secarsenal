@@ -3,7 +3,7 @@ name: "python-pygraphviz"
 tagline: "PyGraphviz is a Python interface to the Graphviz graph layout and visualization package."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-pygraphviz"
 downloadUrl: "https://pygraphviz.github.io/"
 commonlyOn: ["ArchStrike"]

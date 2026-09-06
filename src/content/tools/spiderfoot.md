@@ -3,7 +3,7 @@ name: "spiderfoot"
 tagline: "OSINT collection and reconnaissance tool"
 categories: ["host-information"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/spiderfoot/"
 downloadUrl: "https://www.spiderfoot.net"
 repoUrl: "https://gitlab.com/kalilinux/packages/spiderfoot"

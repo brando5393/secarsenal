@@ -3,7 +3,7 @@ name: "httprint"
 tagline: "Web server fingerprinting tool"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/httprint/"
 downloadUrl: "https://www.net-square.com/httprint.html"
 repoUrl: "https://gitlab.com/kalilinux/packages/httprint"

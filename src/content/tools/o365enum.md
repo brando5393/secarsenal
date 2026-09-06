@@ -3,7 +3,7 @@ name: "o365enum"
 tagline: "Username enumeration and password enuming tool aimed at Microsoft O365."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/gremwell/o365enum"
 commonlyOn: ["BlackArch"]

@@ -4,7 +4,7 @@ tagline: "Accept connections to all IPv4 and IPv6 addresses and redirect it to t
 categories: ["services"]
 platforms: ["Linux"]
 license: "GNU General Public License (GPL) v3+"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/explore+network+interactions/services"
 downloadUrl: "https://github.com/REMnux/distro/blob/master/files/accept-all-ips"
 commonlyOn: ["REMnux"]

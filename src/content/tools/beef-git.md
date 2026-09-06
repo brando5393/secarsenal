@@ -3,7 +3,7 @@ name: "beef-git"
 tagline: "Pentesting framework that focuses on web-browser exploitation"
 categories: ["exploit"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/beef-git"
 downloadUrl: "https://github.com/beefproject/beef"
 commonlyOn: ["ArchStrike"]

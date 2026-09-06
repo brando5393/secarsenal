@@ -3,7 +3,7 @@ name: "cdpsnarf"
 tagline: "Cisco discovery protocol sniffer."
 categories: ["sniffer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/sniffer.html"
 downloadUrl: "https://github.com/Zapotek/cdpsnarf"
 commonlyOn: ["BlackArch"]

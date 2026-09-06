@@ -3,7 +3,7 @@ name: "beleth-git"
 tagline: "A Multi-threaded Dictionary based SSH cracker"
 categories: ["crackers"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/beleth-git"
 downloadUrl: "https://github.com/chokepoint/Beleth"
 commonlyOn: ["ArchStrike"]

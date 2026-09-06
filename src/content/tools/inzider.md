@@ -3,7 +3,7 @@ name: "inzider"
 tagline: "This is a tool that lists processes in your Windows system and the ports each one listen on."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://vidstromlabs.com/freetools/inzider/"
 commonlyOn: ["BlackArch"]

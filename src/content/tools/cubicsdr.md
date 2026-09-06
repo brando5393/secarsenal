@@ -3,7 +3,7 @@ name: "cubicsdr"
 tagline: "Cross-Platform Software-Defined Radio Application."
 categories: ["radio"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/radio.html"
 downloadUrl: "https://github.com/cjcliffe/CubicSDR"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "libowfat"
 tagline: "GPL reimplementation of libdjb"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/libowfat"
 downloadUrl: "http://www.fefe.de/libowfat/"
 commonlyOn: ["ArchStrike"]

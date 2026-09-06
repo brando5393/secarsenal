@@ -3,7 +3,7 @@ name: "bing-lfi-rfi"
 tagline: "Python script for searching Bing for sites that may have local and remote file inclusion vulnerabilities."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "http://packetstormsecurity.com/files/121590/Bing-LFI-RFI-Scanner.html"
 commonlyOn: ["BlackArch"]

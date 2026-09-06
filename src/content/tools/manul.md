@@ -3,7 +3,7 @@ name: "manul"
 tagline: "A coverage-guided parallel fuzzer for open-source and blackbox binaries on Windows, Linux and MacOS."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://github.com/mxmssh/manul"
 commonlyOn: ["BlackArch"]

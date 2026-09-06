@@ -3,7 +3,7 @@ name: "mboxgrep"
 tagline: "A small, non-interactive utility that scans mail folders for messages matching regular expressions. It does matching aga"
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "http://mboxgrep.sourceforge.net"
 commonlyOn: ["BlackArch"]

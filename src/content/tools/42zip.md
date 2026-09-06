@@ -3,7 +3,7 @@ name: "42zip"
 tagline: "Recursive Zip archive bomb."
 categories: ["dos"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/dos.html"
 downloadUrl: "http://blog.fefe.de/?ts=b6cea88d"
 commonlyOn: ["BlackArch"]

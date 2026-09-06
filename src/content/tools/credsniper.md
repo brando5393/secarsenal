@@ -3,7 +3,7 @@ name: "credsniper"
 tagline: "Phishing framework written with the Python micro-framework Flask and Jinja2 templating which supports capturing 2FA toke"
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://github.com/ustayready/CredSniper"
 commonlyOn: ["BlackArch"]

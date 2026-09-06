@@ -3,7 +3,7 @@ name: "notspikefile"
 tagline: "A Linux based file format fuzzing tool"
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "http://packetstormsecurity.com/files/39627/notSPIKEfile.tgz.html"
 commonlyOn: ["BlackArch"]

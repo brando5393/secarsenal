@@ -3,7 +3,7 @@ name: "pcapteller"
 tagline: "A tool designed for traffic manipulation and replay."
 categories: ["sniffer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/sniffer.html"
 downloadUrl: "https://www.encripto.no/nb/downloads/tools/"
 commonlyOn: ["BlackArch"]

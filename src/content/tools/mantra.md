@@ -3,7 +3,7 @@ name: "mantra"
 tagline: "Hunt down API key leaks in JS files and pages."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/MrEmpy/mantra"
 commonlyOn: ["BlackArch"]

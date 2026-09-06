@@ -3,7 +3,7 @@ name: "sasm"
 tagline: "A simple crossplatform IDE for NASM, MASM, GAS and FASM assembly languages."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/Dman95/SASM"
 commonlyOn: ["BlackArch"]

@@ -4,7 +4,7 @@ tagline: "Python library to encode/decode DNS wire-format packets."
 categories: ["gather-and-analyze-data"]
 platforms: ["Linux"]
 license: "BSD 2-Clause \"Simplified\" License"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/gather+and+analyze+data"
 downloadUrl: "https://github.com/paulc/dnslib"
 commonlyOn: ["REMnux"]

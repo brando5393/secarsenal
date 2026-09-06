@@ -3,7 +3,7 @@ name: "wafw00f"
 tagline: "Identify and fingerprint Web Application Firewall products"
 categories: ["network-security-appliances"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/wafw00f/"
 downloadUrl: "https://github.com/EnableSecurity/wafw00f"
 repoUrl: "https://salsa.debian.org/pkg-security-team/wafw00f"

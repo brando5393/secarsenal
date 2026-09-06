@@ -3,7 +3,7 @@ name: "microsploit"
 tagline: "Fast and easy create backdoor office exploitation using module metasploit packet, Microsoft Office, Open Office, Macro a"
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://github.com/Screetsec/Microsploit"
 commonlyOn: ["BlackArch"]

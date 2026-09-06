@@ -3,7 +3,7 @@ name: "cmsscanner"
 tagline: "CMS Scanner Framework."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/wpscanteam/CMSScanner"
 commonlyOn: ["BlackArch"]

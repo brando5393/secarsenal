@@ -3,7 +3,7 @@ name: "perl-text-csv-xs"
 tagline: "comma-separated values manipulation routines"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/perl-text-csv-xs"
 downloadUrl: "https://metacpan.org/pod/Text::CSV_XS"
 commonlyOn: ["ArchStrike"]

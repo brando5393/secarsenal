@@ -3,7 +3,7 @@ name: "directorytraversalscan"
 tagline: "Detect directory traversal vulnerabilities in HTTP servers and web applications."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://sourceforge.net/projects/httpdirscan/"
 commonlyOn: ["BlackArch"]

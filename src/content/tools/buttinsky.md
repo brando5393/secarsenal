@@ -3,7 +3,7 @@ name: "buttinsky"
 tagline: "Provide an open source framework for automated botnet monitoring."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/buttinsky/buttinsky"
 commonlyOn: ["BlackArch"]

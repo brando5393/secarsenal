@@ -3,7 +3,7 @@ name: "dff-scanner"
 tagline: "Tool for finding path of predictable resource locations."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://www.security-net.biz/dff-default-files-and-folders-scanner-p77.html"
 commonlyOn: ["BlackArch"]

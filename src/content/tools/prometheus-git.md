@@ -3,7 +3,7 @@ name: "prometheus-git"
 tagline: "A Firewall analyzer written in ruby"
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/prometheus-git"
 downloadUrl: "https://github.com/averagesecurityguy/prometheus"
 commonlyOn: ["ArchStrike"]

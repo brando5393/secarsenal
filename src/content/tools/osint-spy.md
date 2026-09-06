@@ -3,7 +3,7 @@ name: "osint-spy"
 tagline: "Performs OSINT scan on email/domain/ip_address/organization."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/SharadKumar97/OSINT-SPY"
 commonlyOn: ["BlackArch"]

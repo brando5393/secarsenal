@@ -3,7 +3,7 @@ name: "proximoth"
 tagline: "Control Frame Attack Vulnerability Detection Tool"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/proximoth/"
 downloadUrl: "https://technicaluserx.gitlab.io/proximoth"
 repoUrl: "https://gitlab.com/kalilinux/packages/proximoth"

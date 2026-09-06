@@ -3,7 +3,7 @@ name: "mitm-relay"
 tagline: "Hackish way to intercept and modify non-HTTP protocols through Burp & others."
 categories: ["proxy"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/proxy.html"
 downloadUrl: "https://github.com/jrmdev/mitm_relay"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "elettra-gui"
 tagline: "Gui for the elettra crypto application."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "http://www.winstonsmith.info/julia/elettra/"
 commonlyOn: ["BlackArch"]

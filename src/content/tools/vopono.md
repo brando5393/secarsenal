@@ -3,7 +3,7 @@ name: "vopono"
 tagline: "Run applications through VPN tunnels with temporary network namespaces"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/vopono/"
 downloadUrl: "https://github.com/jamesmcm/vopono"
 repoUrl: "https://gitlab.com/kalilinux/packages/vopono"

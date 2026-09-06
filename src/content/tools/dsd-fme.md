@@ -3,7 +3,7 @@ name: "dsd-fme"
 tagline: "Digital Speech Decoder - Florida Man Edition."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/lwvmobile/dsd-fme"
 commonlyOn: ["BlackArch"]

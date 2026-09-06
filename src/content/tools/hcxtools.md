@@ -3,7 +3,7 @@ name: "hcxtools"
 tagline: "Tools for converting captures to use with hashcat or John the Ripper"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/hcxtools/"
 downloadUrl: "https://github.com/ZerBea/hcxtools"
 repoUrl: "https://salsa.debian.org/pkg-security-team/hcxtools"

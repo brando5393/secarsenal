@@ -3,7 +3,7 @@ name: "dwarf"
 tagline: "Full featured multi arch/os debugger built on top of PyQt5 and frida."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/iGio90/Dwarf"
 commonlyOn: ["BlackArch"]

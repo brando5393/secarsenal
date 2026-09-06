@@ -3,7 +3,7 @@ name: "juice-shop"
 tagline: "Insecure web application"
 categories: ["laboratories","system-services"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/juice-shop/"
 downloadUrl: "https://github.com/juice-shop/juice-shop"
 repoUrl: "https://gitlab.com/kalilinux/packages/juice-shop"

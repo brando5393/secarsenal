@@ -4,7 +4,7 @@ tagline: "Drive x64dbg on a remote Windows VM from OpenCode on REMnux, with eigh
 categories: ["general"]
 platforms: ["Linux"]
 license: "MIT License"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/dynamically+reverse-engineer+code/general"
 downloadUrl: "https://github.com/REMnux/x64dbg-skills-opencode"
 commonlyOn: ["REMnux"]

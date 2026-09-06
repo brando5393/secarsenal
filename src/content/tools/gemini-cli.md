@@ -3,7 +3,7 @@ name: "gemini-cli"
 tagline: "Open-source AI agent"
 categories: ["services-and-other-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/gemini-cli/"
 downloadUrl: "https://github.com/google-gemini/gemini-cli"
 repoUrl: "https://gitlab.com/kalilinux/packages/gemini-cli"

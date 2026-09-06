@@ -3,7 +3,7 @@ name: "billcipher"
 tagline: "Information Gathering tool for a Website or IP address."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 commonlyOn: ["BlackArch"]
 gettingStarted: "Install on BlackArch with `pacman -S billcipher` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."

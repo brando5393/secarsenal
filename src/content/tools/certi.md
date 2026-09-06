@@ -3,7 +3,7 @@ name: "certi"
 tagline: "Tool to ask certificates to ADCS and discover templates"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/certi/"
 downloadUrl: "https://github.com/zer1t0/certi"
 repoUrl: "https://gitlab.com/kalilinux/packages/certi"

@@ -3,7 +3,7 @@ name: "dumpsterdiver"
 tagline: "Tool to analyze big volumes of data in search of hardcoded secrets"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/dumpsterdiver/"
 downloadUrl: "https://github.com/securing/DumpsterDiver"
 repoUrl: "https://gitlab.com/kalilinux/packages/dumpsterdiver"

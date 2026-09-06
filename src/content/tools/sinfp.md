@@ -3,7 +3,7 @@ name: "sinfp"
 tagline: "A full operating system stack fingerprinting suite."
 categories: ["fingerprint"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/fingerprint.html"
 downloadUrl: "https://cpan.metacpan.org/authors/id/G/GO/GOMOR/"
 commonlyOn: ["BlackArch"]

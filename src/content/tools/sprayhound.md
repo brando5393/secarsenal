@@ -3,7 +3,7 @@ name: "sprayhound"
 tagline: "Password spraying tool and Bloodhound integration"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/sprayhound/"
 downloadUrl: "https://github.com/Hackndo/sprayhound"
 repoUrl: "https://gitlab.com/kalilinux/packages/sprayhound"

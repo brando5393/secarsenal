@@ -3,7 +3,7 @@ name: "sandsifter"
 tagline: "The x86 processor fuzzer."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://github.com/xoreaxeaxeax/sandsifter"
 commonlyOn: ["BlackArch"]

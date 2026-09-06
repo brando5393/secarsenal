@@ -3,7 +3,7 @@ name: "pdblaster"
 tagline: "Extract PDB file paths from large sample sets of executable files."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/SecurityRiskAdvisors/PDBlaster"
 commonlyOn: ["BlackArch"]

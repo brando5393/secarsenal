@@ -3,7 +3,7 @@ name: "wepbuster"
 tagline: "script for automating aircrack-ng"
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "http://code.google.com/p/wepbuster/"
 commonlyOn: ["BlackArch"]

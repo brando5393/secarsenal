@@ -3,7 +3,7 @@ name: "findomain"
 tagline: "Fastest and most complete solution for domain recognition"
 categories: ["web-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/findomain/"
 downloadUrl: "https://github.com/Findomain/Findomain"
 repoUrl: "https://gitlab.com/kalilinux/packages/findomain"

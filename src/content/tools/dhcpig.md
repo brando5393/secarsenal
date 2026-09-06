@@ -3,7 +3,7 @@ name: "dhcpig"
 tagline: "DHCP exhaustion script using scapy network library"
 categories: ["impact"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/dhcpig/"
 downloadUrl: "https://github.com/kamorin/DHCPig"
 repoUrl: "https://salsa.debian.org/pkg-security-team/dhcpig"

@@ -3,7 +3,7 @@ name: "ip2clue"
 tagline: "A small memory/CPU footprint daemon to lookup country (and other info) based on IP (v4 and v6)."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "http://kernel.embedromix.ro/us/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "exe2image"
 tagline: "A simple utility to convert EXE files to JPEG images and vice versa."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://github.com/OsandaMalith/Exe2Image"
 commonlyOn: ["BlackArch"]

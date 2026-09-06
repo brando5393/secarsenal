@@ -3,7 +3,7 @@ name: "enum4linux"
 tagline: "Enumerates info from Windows and Samba systems"
 categories: ["network-share-discovery","discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/enum4linux/"
 downloadUrl: "https://labs.portcullis.co.uk/tools/enum4linux/"
 repoUrl: "https://gitlab.com/kalilinux/packages/enum4linux"

@@ -3,7 +3,7 @@ name: "rtpinsertsound"
 tagline: "Inserts audio into a specified stream"
 categories: ["voip"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/rtpinsertsound/"
 downloadUrl: "http://www.hackingvoip.com/sec_tools.html"
 repoUrl: "https://gitlab.com/kalilinux/packages/rtpinsertsound"

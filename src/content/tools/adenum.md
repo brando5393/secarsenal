@@ -3,7 +3,7 @@ name: "adenum"
 tagline: "A pentesting tool that allows to find misconfiguration through the the protocol LDAP and exploit some of those weaknesse"
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/SecuProject/ADenum"
 commonlyOn: ["BlackArch"]

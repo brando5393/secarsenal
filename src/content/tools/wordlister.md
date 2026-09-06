@@ -3,7 +3,7 @@ name: "wordlister"
 tagline: "A simple wordlist generator and mangler written in python."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/4n4nk3/Wordlister"
 commonlyOn: ["BlackArch"]

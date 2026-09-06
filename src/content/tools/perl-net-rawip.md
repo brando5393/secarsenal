@@ -3,7 +3,7 @@ name: "perl-net-rawip"
 tagline: "Perl extension to manipulate raw IP packets with interface to B<libpcap>"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/perl-net-rawip"
 downloadUrl: "https://metacpan.org/pod/Net::RawIP"
 commonlyOn: ["ArchStrike"]

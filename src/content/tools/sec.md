@@ -3,7 +3,7 @@ name: "sec"
 tagline: "A logfile monitoring tool with support for event correlation, written in perl"
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/sec"
 downloadUrl: "https://simple-evcorr.github.io/"
 commonlyOn: ["ArchStrike"]

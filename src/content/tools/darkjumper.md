@@ -3,7 +3,7 @@ name: "darkjumper"
 tagline: "This tool will try to find every website that host at the same server at your target."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "http://sourceforge.net/projects/darkjumper/"
 commonlyOn: ["BlackArch"]

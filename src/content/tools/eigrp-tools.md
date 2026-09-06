@@ -3,7 +3,7 @@ name: "eigrp-tools"
 tagline: "This is a custom EIGRP packet generator and sniffer developed to test the security and overall operation quality of this"
 categories: ["sniffer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/sniffer.html"
 downloadUrl: "http://www.hackingciscoexposed.com/?link=tools"
 commonlyOn: ["BlackArch"]

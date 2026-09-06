@@ -3,7 +3,7 @@ name: "dc3dd"
 tagline: "Patched version of GNU dd with forensic features"
 categories: ["digital-forensics","forensic-imaging-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/dc3dd/"
 downloadUrl: "https://sourceforge.net/projects/dc3dd/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/dc3dd"

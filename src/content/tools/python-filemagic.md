@@ -3,7 +3,7 @@ name: "python-filemagic"
 tagline: "Provides a Python API for libmagic, the library behind Unix file command"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-filemagic"
 downloadUrl: "https://pypi.org/project/filemagic/"
 commonlyOn: ["ArchStrike"]

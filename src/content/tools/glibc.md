@@ -3,7 +3,7 @@ name: "glibc"
 tagline: "GNU C Library: Documentation"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/glibc/"
 downloadUrl: "https://www.gnu.org/software/libc/libc.html"
 repoUrl: "https://salsa.debian.org/glibc-team/glibc"

@@ -3,10 +3,11 @@ name: "webfixy"
 tagline: "On-the-fly decryption proxy for MikroTik RouterOS WebFig sessions."
 categories: ["proxy"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/proxy.html"
+downloadUrl: "https://github.com/takeshixx/webfixy"
 commonlyOn: ["BlackArch"]
-gettingStarted: "Install on BlackArch with `pacman -S webfixy` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."
+gettingStarted: "Install on BlackArch with `pacman -S webfixy` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
 ---
 
 On-the-fly decryption proxy for MikroTik RouterOS WebFig sessions.

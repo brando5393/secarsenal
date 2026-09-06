@@ -3,7 +3,7 @@ name: "sn00p"
 tagline: "A modular tool written in bourne shell and designed to chain and automate security tools and tests."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "http://www.nullsecurity.net/tools/automation.html"
 commonlyOn: ["BlackArch"]

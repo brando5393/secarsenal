@@ -3,7 +3,7 @@ name: "samesame"
 tagline: "Command line tool to generate crafty homograph strings."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://github.com/TheTarquin/samesame"
 commonlyOn: ["BlackArch"]

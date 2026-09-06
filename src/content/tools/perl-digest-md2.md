@@ -3,7 +3,7 @@ name: "perl-digest-md2"
 tagline: "Perl interface to the MD2 Algorithm"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/perl-digest-md2"
 downloadUrl: "https://metacpan.org/pod/Digest::MD2"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "httpx-toolkit"
 tagline: "Fast and multi-purpose HTTP toolkit"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/httpx-toolkit/"
 downloadUrl: "https://github.com/projectdiscovery/httpx"
 repoUrl: "https://gitlab.com/kalilinux/packages/httpx-toolkit"

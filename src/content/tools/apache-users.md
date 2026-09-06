@@ -3,7 +3,7 @@ name: "apache-users"
 tagline: "Enumerate usernames on systems with Apache UserDir module"
 categories: ["account-discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/apache-users/"
 downloadUrl: "https://labs.portcullis.co.uk/downloads/"
 repoUrl: "https://gitlab.com/kalilinux/packages/apache-users"

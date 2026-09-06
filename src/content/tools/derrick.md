@@ -3,7 +3,7 @@ name: "derrick"
 tagline: "Simple tool for recording data streams of TCP and UDP traffic."
 categories: ["logging"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/derrick"
 downloadUrl: "https://github.com/rieck/derrick"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "ccrawldns"
 tagline: "Retrieves from the CommonCrawl data set unique subdomains for a given domain name."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/lgandx/CCrawlDNS"
 commonlyOn: ["BlackArch"]

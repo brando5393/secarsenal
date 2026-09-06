@@ -3,7 +3,7 @@ name: "xcavator-git"
 tagline: "man-in-the-middle and phishing attack tool that steals the victim's credentials of some web services like Facebook"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/xcavator-git"
 downloadUrl: "https://github.com/nccgroup/xcavator"
 commonlyOn: ["ArchStrike"]

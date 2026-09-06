@@ -3,7 +3,7 @@ name: "sipvicious"
 tagline: "Tools to audit SIP based VoIP systems"
 categories: ["voip-credential-access","voip"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/sipvicious/"
 downloadUrl: "https://github.com/EnableSecurity/sipvicious"
 repoUrl: "https://salsa.debian.org/debian/sipvicious"

@@ -3,7 +3,7 @@ name: "zaproxy"
 tagline: "Testing tool for finding vulnerabilities in web applications"
 categories: ["web-vulnerability-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/zaproxy/"
 downloadUrl: "https://github.com/zaproxy/zaproxy"
 repoUrl: "https://gitlab.com/kalilinux/packages/zaproxy"

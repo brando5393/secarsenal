@@ -3,7 +3,7 @@ name: "bruteforce-salted-openssl"
 tagline: "Try to find the passphrase for files encrypted with OpenSSL"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/bruteforce-salted-openssl/"
 downloadUrl: "https://github.com/glv2/bruteforce-salted-openssl"
 repoUrl: "https://salsa.debian.org/pkg-security-team/bruteforce-salted-openssl"

@@ -3,7 +3,7 @@ name: "tsh"
 tagline: "An open-source UNIX backdoor that compiles on all variants, has full pty support, and uses strong crypto for communicati"
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "http://packetstormsecurity.com/search/?q=tsh"
 commonlyOn: ["BlackArch"]

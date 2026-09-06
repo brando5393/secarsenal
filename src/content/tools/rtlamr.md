@@ -3,7 +3,7 @@ name: "rtlamr"
 tagline: "An rtl-sdr receiver for smart meters operating in the 900MHz ISM band."
 categories: ["radio"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/radio.html"
 downloadUrl: "https://github.com/bemasher/rtlamr/"
 commonlyOn: ["BlackArch"]

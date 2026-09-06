@@ -3,7 +3,7 @@ name: "xorsearch"
 tagline: "Program to search for a given string in an XOR, ROL or ROT encoded binary file."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "http://blog.didierstevens.com/programs/xorsearch/"
 commonlyOn: ["BlackArch"]

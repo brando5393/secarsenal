@@ -3,7 +3,7 @@ name: "osslsigncode"
 tagline: "A small tool that implements part of the functionality of the Microsoft tool signtool.exe."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/mtrojnar/osslsigncode"
 commonlyOn: ["BlackArch"]

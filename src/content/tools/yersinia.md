@@ -3,7 +3,7 @@ name: "yersinia"
 tagline: "Network vulnerabilities check software"
 categories: ["system-network-configuration-discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/yersinia/"
 downloadUrl: "https://github.com/tomac/yersinia"
 repoUrl: "https://salsa.debian.org/debian/yersinia"

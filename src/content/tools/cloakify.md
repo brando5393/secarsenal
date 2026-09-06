@@ -3,7 +3,7 @@ name: "cloakify"
 tagline: "Data Exfiltration In Plain Sight; Evade DLP/MLS Devices; Social Engineering of Analysts; Evade AV Detection."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/trycatchhcf/cloakify"
 commonlyOn: ["BlackArch"]

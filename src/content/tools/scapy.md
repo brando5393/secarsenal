@@ -3,7 +3,7 @@ name: "scapy"
 tagline: "Packet generator/sniffer and network scanner/discovery (Python 3)"
 categories: ["network-sniffing","impact"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/scapy/"
 downloadUrl: "https://scapy.net/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/scapy"

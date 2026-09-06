@@ -3,7 +3,7 @@ name: "evil-ssdp"
 tagline: "Spoof SSDP replies to phish for NTLM hashes on a network"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/evil-ssdp/"
 downloadUrl: "https://github.com/initstring/evil-ssdp"
 repoUrl: "https://gitlab.com/kalilinux/packages/evil-ssdp"

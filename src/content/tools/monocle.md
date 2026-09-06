@@ -3,7 +3,7 @@ name: "monocle"
 tagline: "A local network host discovery tool. In passive mode, it will listen for ARP request and reply packets. In active mode, "
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "http://packetstormsecurity.com/files/99823/Monocle-Host-Discovery-Tool.0.html"
 commonlyOn: ["BlackArch"]

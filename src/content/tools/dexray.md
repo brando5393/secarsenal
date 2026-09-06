@@ -4,7 +4,7 @@ tagline: "Extract and decode data from antivirus quarantine files."
 categories: ["gather-and-analyze-data"]
 platforms: ["Linux"]
 license: "Free; copyright by Hexacorn.com"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/gather+and+analyze+data"
 downloadUrl: "https://www.hexacorn.com/blog/category/software-releases/dexray/"
 commonlyOn: ["REMnux"]

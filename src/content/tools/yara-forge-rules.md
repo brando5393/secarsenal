@@ -4,7 +4,7 @@ tagline: "Scan files with curated YARA rules from 45+ sources for malware family
 categories: ["general"]
 platforms: ["Linux"]
 license: "Various (see individual rules); Elastic rules excluded"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/general"
 downloadUrl: "https://yarahq.github.io/"
 commonlyOn: ["REMnux"]

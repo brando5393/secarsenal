@@ -3,7 +3,7 @@ name: "perl-string-random"
 tagline: "Perl module to generate random strings based on a pattern"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/perl-string-random"
 downloadUrl: "https://metacpan.org/pod/String::Random"
 commonlyOn: ["ArchStrike"]

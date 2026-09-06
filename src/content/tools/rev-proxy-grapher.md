@@ -3,7 +3,7 @@ name: "rev-proxy-grapher"
 tagline: "Reverse proxy grapher"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/rev-proxy-grapher/"
 downloadUrl: "https://github.com/mricon/rev-proxy-grapher"
 repoUrl: "https://gitlab.com/kalilinux/packages/rev-proxy-grapher"

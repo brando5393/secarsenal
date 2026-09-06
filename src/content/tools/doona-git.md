@@ -3,7 +3,7 @@ name: "doona-git"
 tagline: "A fork of the Bruteforce Exploit Detector Tool (BED)."
 categories: ["fuzzers"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/doona-git"
 downloadUrl: "https://github.com/wireghoul/doona"
 commonlyOn: ["ArchStrike"]

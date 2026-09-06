@@ -3,7 +3,7 @@ name: "rombuster"
 tagline: "A router exploitation tool that allows to disclosure network router admin password."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/EntySec/RomBuster"
 commonlyOn: ["BlackArch"]

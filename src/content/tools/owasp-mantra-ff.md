@@ -3,7 +3,7 @@ name: "owasp-mantra-ff"
 tagline: "Web application security testing framework built on top of Firefox"
 categories: ["vulnerability-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/owasp-mantra-ff/"
 downloadUrl: "https://www.owasp.org/index.php/OWASP_Mantra_-_Security_Framework"
 repoUrl: "https://gitlab.com/kalilinux/packages/owasp-mantra-ff"

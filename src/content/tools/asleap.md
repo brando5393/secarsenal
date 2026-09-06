@@ -3,7 +3,7 @@ name: "asleap"
 tagline: "A tool for exploiting Cisco LEAP networks"
 categories: ["wifi"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/asleap/"
 downloadUrl: "https://www.willhackforsushi.com/"
 repoUrl: "https://gitlab.com/kalilinux/packages/asleap"

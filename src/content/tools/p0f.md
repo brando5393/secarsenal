@@ -3,7 +3,7 @@ name: "p0f"
 tagline: "Passive OS fingerprinting tool"
 categories: ["remote-system-discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/p0f/"
 downloadUrl: "https://lcamtuf.coredump.cx/p0f3/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/p0f"

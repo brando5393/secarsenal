@@ -3,7 +3,7 @@ name: "scrounge-ntfs"
 tagline: "Data recovery program for NTFS filesystems"
 categories: ["forensic-carving-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/scrounge-ntfs/"
 downloadUrl: "http://thewalter.net/stef/software/scrounge/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/scrounge-ntfs"

@@ -3,7 +3,7 @@ name: "perl-class-gomor"
 tagline: "Another class and object builder"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/perl-class-gomor"
 commonlyOn: ["ArchStrike"]
 gettingStarted: "Install by adding the ArchStrike repository to an existing Arch Linux install, then `pacman -S perl-class-gomor`. See the official ArchStrike package listing linked above for details."

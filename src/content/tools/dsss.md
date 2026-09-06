@@ -3,7 +3,7 @@ name: "dsss"
 tagline: "A fully functional SQL injection vulnerability scanner (supporting GET and POST parameters) written in under 100 lines o"
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/stamparm/DSSS"
 commonlyOn: ["BlackArch"]

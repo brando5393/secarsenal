@@ -3,7 +3,7 @@ name: "python-pip"
 tagline: "Python package installer"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/python-pip/"
 downloadUrl: "https://pip.pypa.io/en/stable/"
 repoUrl: "https://salsa.debian.org/python-team/packages/python-pip"

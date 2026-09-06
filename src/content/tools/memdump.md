@@ -3,7 +3,7 @@ name: "memdump"
 tagline: "Utility to dump memory contents to standard output"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/memdump/"
 downloadUrl: "http://www.porcupine.org/forensics/tct.html"
 repoUrl: "https://salsa.debian.org/pkg-security-team/memdump"

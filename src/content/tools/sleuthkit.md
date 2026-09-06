@@ -3,7 +3,7 @@ name: "sleuthkit"
 tagline: "Tools for forensics analysis on volume and filesystem data"
 categories: ["sleuth-kit-suite"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/sleuthkit/"
 downloadUrl: "https://www.sleuthkit.org/sleuthkit"
 repoUrl: "https://gitlab.com/kalilinux/packages/sleuthkit"

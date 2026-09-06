@@ -3,7 +3,7 @@ name: "qemu"
 tagline: "Extra block backend modules for qemu-system and qemu-utils"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/qemu/"
 downloadUrl: "http://www.qemu.org/"
 repoUrl: "https://salsa.debian.org/qemu-team/qemu"

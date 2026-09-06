@@ -3,7 +3,7 @@ name: "sslscan"
 tagline: "Tests SSL/TLS enabled services to discover supported cipher suites"
 categories: ["ssl-tls"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/sslscan/"
 downloadUrl: "https://github.com/rbsec/sslscan"
 repoUrl: "https://salsa.debian.org/debian/sslscan"

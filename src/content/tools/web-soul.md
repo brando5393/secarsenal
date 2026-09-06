@@ -3,7 +3,7 @@ name: "web-soul"
 tagline: "A plugin based scanner for attacking and data mining web sites written in Perl."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "http://packetstormsecurity.com/files/122064/Web-Soul-Scanner.html"
 commonlyOn: ["BlackArch"]

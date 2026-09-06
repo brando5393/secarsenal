@@ -4,7 +4,7 @@ tagline: "Examine and decompile .NET programs."
 categories: ["net"]
 platforms: ["Linux"]
 license: "MIT License"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/statically+analyze+code/.net"
 downloadUrl: "https://github.com/icsharpcode/ILSpy"
 commonlyOn: ["REMnux"]

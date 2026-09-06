@@ -3,7 +3,7 @@ name: "chaosmap"
 tagline: "An information gathering tool and dns / whois / web server scanner"
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "http://freecode.com/projects/chaosmap"
 commonlyOn: ["BlackArch"]

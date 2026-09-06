@@ -3,10 +3,11 @@ name: "gpowned"
 tagline: "GPOs manipulation tool."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
+downloadUrl: "https://github.com/X-C3LL/gpowned"
 commonlyOn: ["BlackArch"]
-gettingStarted: "Install on BlackArch with `pacman -S gpowned` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."
+gettingStarted: "Install on BlackArch with `pacman -S gpowned` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
 ---
 
 GPOs manipulation tool.

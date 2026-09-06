@@ -3,7 +3,7 @@ name: "bss"
 tagline: "Bluetooth stack smasher / fuzzer."
 categories: ["bluetooth"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/bluetooth.html"
 downloadUrl: "http://www.secuobs.com/news/15022006-bss_0_8.shtml"
 commonlyOn: ["BlackArch"]

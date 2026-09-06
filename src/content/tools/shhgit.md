@@ -3,10 +3,11 @@ name: "shhgit"
 tagline: "Find committed secrets and sensitive files across GitHub, Gists, GitLab and BitBucket or your local repositories in real"
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/recon.html"
+downloadUrl: "https://github.com/eth0izzle/shhgit"
 commonlyOn: ["BlackArch"]
-gettingStarted: "Install on BlackArch with `pacman -S shhgit` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."
+gettingStarted: "Install on BlackArch with `pacman -S shhgit` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
 ---
 
 Find committed secrets and sensitive files across GitHub, Gists, GitLab and BitBucket or your local repositories in real time.

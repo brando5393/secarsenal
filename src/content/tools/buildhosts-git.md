@@ -3,7 +3,7 @@ name: "buildhosts-git"
 tagline: "Download and use custom hosts sources to build /etc/hosts"
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/buildhosts-git"
 downloadUrl: "https://github.com/prurigro/buildhosts"
 commonlyOn: ["ArchStrike"]

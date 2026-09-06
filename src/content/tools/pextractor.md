@@ -3,7 +3,7 @@ name: "pextractor"
 tagline: "A forensics tool that can extract all files from an executable file created by a joiner or similar."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://packetstormsecurity.com/files/62977/PExtractor_v0.18b_binary_and_src.rar.html"
 commonlyOn: ["BlackArch"]

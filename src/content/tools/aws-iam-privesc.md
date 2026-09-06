@@ -3,7 +3,7 @@ name: "aws-iam-privesc"
 tagline: "AWS IAM policy scanner that helps determine where privilege escalation can be achieved."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/cyberqueenmeg/aws_iam_privesc"
 commonlyOn: ["BlackArch"]

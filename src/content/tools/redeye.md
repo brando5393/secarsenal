@@ -3,7 +3,7 @@ name: "redeye"
 tagline: "Tool to help you manage your data during a pentest operation"
 categories: ["reporting-tools","system-services"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/redeye/"
 downloadUrl: "https://github.com/redeye-framework/Redeye"
 repoUrl: "https://gitlab.com/kalilinux/packages/redeye"

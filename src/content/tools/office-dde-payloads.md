@@ -3,7 +3,7 @@ name: "office-dde-payloads"
 tagline: "Collection of scripts and templates to generate Office documents embedded with the DDE, macro-less command execution tec"
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/0xdeadbeefJERKY/Office-DDE-Payloads"
 commonlyOn: ["BlackArch"]

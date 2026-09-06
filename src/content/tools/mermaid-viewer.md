@@ -4,7 +4,7 @@ tagline: "View Mermaid diagrams, such as AI-generated code-analysis workflow dia
 categories: ["view-or-edit-files"]
 platforms: ["Linux"]
 license: "MIT License"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/view+or+edit+files"
 downloadUrl: "https://mermaid.js.org/"
 commonlyOn: ["REMnux"]

@@ -3,7 +3,7 @@ name: "damm"
 tagline: "Differential Analysis of Malware in Memory."
 categories: ["malware"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/malware.html"
 downloadUrl: "https://github.com/504ensicsLabs/DAMM"
 commonlyOn: ["BlackArch"]

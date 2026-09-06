@@ -3,7 +3,7 @@ name: "GnuPG"
 tagline: "the GNU implementation of OpenPGP for email and data encryption and signing"
 categories: ["encryption-and-privacy"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://tails.net/doc/about/features/index.en.html"
 downloadUrl: "http://gnupg.org/"
 commonlyOn: ["Tails"]

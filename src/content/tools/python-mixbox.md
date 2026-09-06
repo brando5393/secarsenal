@@ -3,7 +3,7 @@ name: "python-mixbox"
 tagline: "Utility library for cybox, maec, and stix packages"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/python-mixbox"
 downloadUrl: "http://github.com/CybOXProject/mixbox"
 commonlyOn: ["ArchStrike"]

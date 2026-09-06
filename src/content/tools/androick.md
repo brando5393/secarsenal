@@ -3,7 +3,7 @@ name: "androick"
 tagline: "A python tool to help in forensics analysis on android."
 categories: ["mobile"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/mobile.html"
 downloadUrl: "https://github.com/Flo354/Androick"
 commonlyOn: ["BlackArch"]

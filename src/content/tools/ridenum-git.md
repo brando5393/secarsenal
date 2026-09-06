@@ -3,7 +3,7 @@ name: "ridenum-git"
 tagline: "Rid_enum is a null session RID cycle attack for brute forcing domain controllers."
 categories: ["crackers"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/ridenum-git"
 downloadUrl: "https://github.com/trustedsec/ridenum"
 commonlyOn: ["ArchStrike"]

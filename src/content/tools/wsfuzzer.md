@@ -3,7 +3,7 @@ name: "wsfuzzer"
 tagline: "A Python tool written to automate SOAP pentesting of web services."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://www.owasp.org/index.php/Category:OWASP_WSFuzzer_Project"
 commonlyOn: ["BlackArch"]

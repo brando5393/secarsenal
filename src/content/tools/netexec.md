@@ -3,7 +3,7 @@ name: "netexec"
 tagline: "Network Execution Tool"
 categories: ["pass-the-hash","brute-force","credential-access","network-share-discovery","lateral-movement","application-layer-protocol"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/netexec/"
 downloadUrl: "https://github.com/Pennyw0rth/NetExec"
 repoUrl: "https://gitlab.com/kalilinux/packages/netexec"

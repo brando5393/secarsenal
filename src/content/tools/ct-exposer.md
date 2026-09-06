@@ -3,7 +3,7 @@ name: "ct-exposer"
 tagline: "An OSINT tool that discovers sub-domains by searching Certificate Transparency logs."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/chris408/ct-exposer"
 commonlyOn: ["BlackArch"]

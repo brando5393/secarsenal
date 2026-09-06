@@ -3,7 +3,7 @@ name: "sigma-cli"
 tagline: "Sigma command line interface"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/sigma-cli/"
 downloadUrl: "https://github.com/SigmaHQ/sigma-cli"
 repoUrl: "https://gitlab.com/kalilinux/packages/sigma-cli"

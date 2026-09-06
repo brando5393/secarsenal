@@ -3,7 +3,7 @@ name: "androbugs"
 tagline: "An efficient Android vulnerability scanner that helps developers or hackers find potential security vulnerabilities in A"
 categories: ["mobile"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/mobile.html"
 downloadUrl: "https://github.com/AndroBugs/AndroBugs_Framework"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "python-pcodedmp"
 tagline: "A VBA p-code disassembler."
 categories: ["disassembler"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/disassembler.html"
 downloadUrl: "https://pypi.org/project/pcodedmp/#files"
 commonlyOn: ["BlackArch"]

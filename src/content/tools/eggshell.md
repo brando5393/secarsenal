@@ -3,7 +3,7 @@ name: "eggshell"
 tagline: "iOS/macOS/Linux Remote Administration Tool."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://github.com/neoneggplant/EggShell"
 commonlyOn: ["BlackArch"]

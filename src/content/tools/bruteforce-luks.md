@@ -3,7 +3,7 @@ name: "bruteforce-luks"
 tagline: "Try to find a password of a LUKS encrypted volume"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/bruteforce-luks/"
 downloadUrl: "https://github.com/glv2/bruteforce-luks"
 repoUrl: "https://salsa.debian.org/pkg-security-team/bruteforce-luks"

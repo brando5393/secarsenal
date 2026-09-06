@@ -3,7 +3,7 @@ name: "exescan"
 tagline: "A tool to detect anomalies in PE (Portable Executable) files."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/cysinfo/Exescan"
 commonlyOn: ["BlackArch"]

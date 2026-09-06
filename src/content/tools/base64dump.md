@@ -3,7 +3,7 @@ name: "base64dump"
 tagline: "Extract and decode base64 strings from files."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://blog.didierstevens.com/my-software/#base64dump"
 commonlyOn: ["BlackArch"]

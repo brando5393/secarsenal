@@ -3,7 +3,7 @@ name: "redasm"
 tagline: "Interactive, multiarchitecture disassembler written in C++ using Qt5 as UI Framework."
 categories: ["disassembler"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/disassembler.html"
 commonlyOn: ["BlackArch"]
 gettingStarted: "Install on BlackArch with `pacman -S redasm` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."

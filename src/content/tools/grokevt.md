@@ -3,7 +3,7 @@ name: "grokevt"
 tagline: "Scripts for reading Microsoft Windows event log files"
 categories: ["sleuth-kit-suite"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/grokevt/"
 downloadUrl: "http://projects.sentinelchicken.org/grokevt/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/grokevt"

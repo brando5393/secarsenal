@@ -3,7 +3,7 @@ name: "chankro"
 tagline: "Tool that generates a PHP capable of run a custom binary (like a meterpreter) or a bash script (p.e. reverse shell) bypa"
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/TarlogicSecurity/Chankro"
 commonlyOn: ["BlackArch"]

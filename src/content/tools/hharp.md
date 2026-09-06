@@ -3,7 +3,7 @@ name: "hharp"
 tagline: "This tool can perform man-in-the-middle and switch flooding attacks. It has 4 major functions, 3 of which attempt to man"
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "http://packetstormsecurity.com/files/81368/Hackers-Hideaway-ARP-Attack-Tool.html"
 commonlyOn: ["BlackArch"]

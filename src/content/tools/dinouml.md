@@ -3,7 +3,7 @@ name: "dinouml"
 tagline: "A network simulation tool, based on UML (User Mode Linux) that can simulate big Linux networks on a single PC"
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "http://kernel.embedromix.ro/us/"
 commonlyOn: ["BlackArch"]

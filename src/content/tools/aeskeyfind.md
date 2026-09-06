@@ -3,7 +3,7 @@ name: "aeskeyfind"
 tagline: "Tool for locating AES keys in a captured memory image"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/aeskeyfind/"
 downloadUrl: "https://citp.princeton.edu/our-work/memory/code/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/aeskeyfind"

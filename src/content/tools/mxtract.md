@@ -3,7 +3,7 @@ name: "mxtract"
 tagline: "Memory Extractor & Analyzer."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/rek7/mXtract"
 commonlyOn: ["BlackArch"]

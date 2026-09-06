@@ -3,7 +3,7 @@ name: "bfuzz"
 tagline: "Input based fuzzer tool for browsers."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://github.com/RootUp/BFuzz"
 commonlyOn: ["BlackArch"]

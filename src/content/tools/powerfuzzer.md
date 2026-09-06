@@ -3,7 +3,7 @@ name: "powerfuzzer"
 tagline: "Powerfuzzer is a highly automated web fuzzer based on many other Open Source fuzzers available (incl. cfuzzer, fuzzled, "
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "http://www.powerfuzzer.com"
 commonlyOn: ["BlackArch"]

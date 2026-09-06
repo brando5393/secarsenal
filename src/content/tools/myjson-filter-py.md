@@ -4,7 +4,7 @@ tagline: "Filter data formatted using the JSON format used by Didier Stevens' to
 categories: ["general-utilities"]
 platforms: ["Linux"]
 license: "Public Domain"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/general+utilities"
 downloadUrl: "https://blog.didierstevens.com/2022/04/09/new-tool-myjson-filter-py/"
 commonlyOn: ["REMnux"]

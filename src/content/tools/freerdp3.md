@@ -3,7 +3,7 @@ name: "freerdp3"
 tagline: "FreeRDP proxy server"
 categories: ["pass-the-hash","lateral-movement","application-layer-protocol"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/freerdp3/"
 downloadUrl: "https://www.freerdp.com/"
 repoUrl: "https://salsa.debian.org/debian-remote-team/freerdp3"

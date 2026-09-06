@@ -3,7 +3,7 @@ name: "katsnoop"
 tagline: "Utility that sniffs HTTP Basic Authentication information and prints the base64 decoded form."
 categories: ["sniffer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/sniffer.html"
 downloadUrl: "http://packetstormsecurity.com/files/52514/katsnoop.tbz2.html"
 commonlyOn: ["BlackArch"]

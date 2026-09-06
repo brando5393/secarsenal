@@ -3,7 +3,7 @@ name: "reaver-wps-fork-t6x-git"
 tagline: "Brute force attack against Wifi Protected Setup forked w/ added Pixie Dust Attack"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/reaver-wps-fork-t6x-git"
 downloadUrl: "https://github.com/t6x/reaver-wps-fork-t6x"
 commonlyOn: ["ArchStrike"]

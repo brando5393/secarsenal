@@ -3,7 +3,7 @@ name: "bruteforce-wallet"
 tagline: "Try to find the password of an encrypted wallet file"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/bruteforce-wallet/"
 downloadUrl: "https://github.com/glv2/bruteforce-wallet"
 repoUrl: "https://salsa.debian.org/pkg-security-team/bruteforce-wallet"

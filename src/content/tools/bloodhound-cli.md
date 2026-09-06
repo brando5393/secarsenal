@@ -3,7 +3,7 @@ name: "bloodhound-cli"
 tagline: "Command-line interface for BloodHound v5."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/SpecterOps/bloodhound-cli"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "pack2"
 tagline: "Password analysis and cracking kit 2"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/pack2/"
 downloadUrl: "https://github.com/hops/pack2"
 repoUrl: "https://gitlab.com/kalilinux/packages/pack2"

@@ -3,7 +3,7 @@ name: "passe-partout"
 tagline: "Tool to extract RSA and DSA private keys from any process linked with OpenSSL. The target memory is scanned to lookup sp"
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://www.hsc.fr/ressources/outils/passe-partout/index.html.en"
 commonlyOn: ["BlackArch"]

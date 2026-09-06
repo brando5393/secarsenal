@@ -3,7 +3,7 @@ name: "blisqy"
 tagline: "Exploit Time-based blind-SQL injection in HTTP-Headers (MySQL/MariaDB)."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/JohnTroony/Blisqy"
 commonlyOn: ["BlackArch"]

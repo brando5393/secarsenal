@@ -3,7 +3,7 @@ name: "isme"
 tagline: "Scans a VOIP environment, adapts to enterprise VOIP, and exploits the possibilities of being connected directly to an IP"
 categories: ["voip"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/voip.html"
 downloadUrl: "https://packetstormsecurity.com/files/123534/IP-Phone-Scanning-Made-Easy.12.html"
 commonlyOn: ["BlackArch"]

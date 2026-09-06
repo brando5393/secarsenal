@@ -3,7 +3,7 @@ name: "redress"
 tagline: "A tool for analyzing stripped Go binaries."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/goretk/redress"
 commonlyOn: ["BlackArch"]

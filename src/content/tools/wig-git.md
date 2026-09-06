@@ -3,7 +3,7 @@ name: "wig-git"
 tagline: "WebApp Information Gatherer"
 categories: ["webapps"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://archstrike.org/packages/wig-git"
 downloadUrl: "https://github.com/jekyc/wig"
 commonlyOn: ["ArchStrike"]

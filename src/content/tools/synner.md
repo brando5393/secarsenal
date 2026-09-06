@@ -3,7 +3,7 @@ name: "synner"
 tagline: "A custom eth->ip->tcp packet generator (spoofer) for testing firewalls and dos attacks."
 categories: ["spoof"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/spoof.html"
 downloadUrl: "http://packetstormsecurity.com/files/69802/synner.c.html"
 commonlyOn: ["BlackArch"]

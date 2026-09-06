@@ -3,7 +3,7 @@ name: "ruby-pedump"
 tagline: "Dump win32 PE executable files with a pure ruby"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/ruby-pedump/"
 downloadUrl: "http://github.com/zed-0xff/pedump"
 repoUrl: "https://gitlab.com/kalilinux/packages/ruby-pedump"

@@ -3,7 +3,7 @@ name: "edb"
 tagline: "A cross platform AArch32/x86/x86 debugger."
 categories: ["debugger"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/debugger.html"
 downloadUrl: "https://github.com/eteran/edb-debugger/"
 commonlyOn: ["BlackArch"]

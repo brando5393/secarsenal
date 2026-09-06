@@ -3,7 +3,7 @@ name: "name-that-hash"
 tagline: "Identify MD5, SHA256 and 300+ other hash types"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/name-that-hash/"
 downloadUrl: "https://github.com/HashPals/Name-That-Hash"
 repoUrl: "https://gitlab.com/kalilinux/packages/name-that-hash"

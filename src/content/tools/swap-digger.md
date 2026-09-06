@@ -3,7 +3,7 @@ name: "swap-digger"
 tagline: "A tool used to automate Linux swap analysis during post-exploitation or forensics."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/sevagas/swap_digger"
 commonlyOn: ["BlackArch"]

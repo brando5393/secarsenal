@@ -4,7 +4,7 @@ tagline: "Analyze Cobalt Strike beacon process dumps to detect sleep mask encodi
 categories: ["deobfuscation"]
 platforms: ["Linux"]
 license: "Public Domain"
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/deobfuscation"
 downloadUrl: "https://blog.didierstevens.com/2021/11/25/new-tool-cs-analyze-processdump-py/"
 commonlyOn: ["REMnux"]

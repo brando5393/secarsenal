@@ -3,7 +3,7 @@ name: "dissector"
 tagline: "This code dissects the internal data structures in ELF files. It supports x86 and x86_64 archs and runs under Linux."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "http://packetstormsecurity.com/files/125972/Coloured-ELF-File-Dissector.html"
 commonlyOn: ["BlackArch"]

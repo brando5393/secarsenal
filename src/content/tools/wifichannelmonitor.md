@@ -3,7 +3,7 @@ name: "wifichannelmonitor"
 tagline: "A utility for Windows that captures wifi traffic on the channel you choose, using Microsoft Network Monitor capture driv"
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://www.nirsoft.net/utils/wifi_channel_monitor.html"
 commonlyOn: ["BlackArch"]

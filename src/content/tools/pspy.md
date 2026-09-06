@@ -3,7 +3,7 @@ name: "pspy"
 tagline: "Monitor Linux processes without root permissions"
 categories: ["process-discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/pspy/"
 downloadUrl: "https://github.com/DominicBreuker/pspy"
 repoUrl: "https://gitlab.com/kalilinux/packages/pspy"

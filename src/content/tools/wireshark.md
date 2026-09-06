@@ -3,7 +3,7 @@ name: "wireshark"
 tagline: "Network traffic analyzer - graphical interface"
 categories: ["network-sniffing","discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/wireshark/"
 downloadUrl: "https://www.wireshark.org/"
 repoUrl: "https://salsa.debian.org/debian/wireshark"

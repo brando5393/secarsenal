@@ -3,7 +3,7 @@ name: "rsakeyfind"
 tagline: "Locates BER-encoded RSA private keys in memory images"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/rsakeyfind/"
 downloadUrl: "https://citp.princeton.edu/our-work/memory/code/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/rsakeyfind"

@@ -3,7 +3,7 @@ name: "dbeaver"
 tagline: "Universal Database Manager and SQL Client"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-04
+lastVerified: 2026-09-06
 docsUrl: "https://www.kali.org/tools/dbeaver/"
 downloadUrl: "http://dbeaver.jkiss.org/"
 repoUrl: "https://gitlab.com/kalilinux/packages/dbeaver"

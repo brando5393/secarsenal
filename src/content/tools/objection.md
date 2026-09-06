@@ -3,7 +3,7 @@ name: "objection"
 tagline: "Instrumented Mobile Pentest Framework."
 categories: ["mobile"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/mobile.html"
 downloadUrl: "https://pypi.org/project/objection/#files"
 commonlyOn: ["BlackArch"]

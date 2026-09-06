@@ -3,7 +3,7 @@ name: "mptcp"
 tagline: "A tool for manipulation of raw packets that allows a large number of options."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "http://packetstormsecurity.com/files/119132/Mptcp-Packet-Manipulator.9.0.html"
 commonlyOn: ["BlackArch"]

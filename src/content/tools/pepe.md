@@ -3,7 +3,7 @@ name: "pepe"
 tagline: "Collect information about email addresses from Pastebin."
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-09-05
+lastVerified: 2026-09-06
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://github.com/woj-ciech/pepe"
 commonlyOn: ["BlackArch"]
