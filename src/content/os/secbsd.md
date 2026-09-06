@@ -15,7 +15,7 @@ notableTools:
   - hydra
   - aircrack-ng
   - ffuf
-  - gnupg
+  - GnuPG
   - foremost
 gettingStarted: |
   SecBSD tracks OpenBSD's -current branch, rebuilding pre-compiled,
