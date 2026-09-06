@@ -22,9 +22,19 @@ const TEAM_BADGE_CLASSES: Record<string, string> = {
   red: 'bg-red-950/60 text-red-400',
   blue: 'bg-blue-950/60 text-blue-400',
 };
+
+const pageDescription = `${entries.length} individual pentesting tools, auto-synced from official tool listings — searchable by name and filterable by category or purpose.`;
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Tools',
+  description: pageDescription,
+  url: new URL('/tools/', Astro.site).toString(),
+  isPartOf: { '@type': 'WebSite', name: 'SecArsenal', url: Astro.site?.toString() },
+};
 ---
 
-<BaseLayout title="Tools">
+<BaseLayout title="Tools" description={pageDescription} structuredData={structuredData}>
   <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Tools' }]} />
   <h1 class="text-3xl font-bold text-white">Tools ({entries.length})</h1>
   <p class="mt-3 text-gray-300">

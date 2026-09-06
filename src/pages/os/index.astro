@@ -12,9 +12,19 @@ const TEAM_BADGE_CLASSES: Record<string, string> = {
   red: 'bg-red-950/60 text-red-400',
   blue: 'bg-blue-950/60 text-blue-400',
 };
+
+const pageDescription = `Browse ${entries.length} pentesting-focused Linux distributions — what they're built on and how to get started.`;
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Operating Systems',
+  description: pageDescription,
+  url: new URL('/os/', Astro.site).toString(),
+  isPartOf: { '@type': 'WebSite', name: 'SecArsenal', url: Astro.site?.toString() },
+};
 ---
 
-<BaseLayout title="Operating Systems">
+<BaseLayout title="Operating Systems" description={pageDescription} structuredData={structuredData}>
   <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Operating Systems' }]} />
   <h1 class="text-3xl font-bold text-white">Operating Systems</h1>
   <p class="mt-3 text-gray-300">Pentesting-focused Linux distributions, with what they're built on and how to get started.</p>
