@@ -102,6 +102,22 @@ Rawsec's own classification, and known pitfalls from past runs.
    genuine official logo undisplayed in favor of the generic
    category-badge fallback.
 
+   This applies to `src/lib/toolLogos.ts` too, for the small set of
+   flagship tools featured on the homepage — but don't add logos beyond
+   that set; sourcing one for every synced tool isn't practical (see
+   that file's own header comment).
+
+   **A real logo replaces the category badge as the main icon — it must
+   never replace the category information entirely.** `OsIcon.astro`
+   and `ToolIcon.astro` both render a small category-icon badge in the
+   corner of any entry that has a real logo, so the category signal
+   stays visible everywhere, not just on logoless entries (see
+   `/categories` for what each icon/color means). This is a design
+   ground rule: any future icon-rendering change must keep both signals
+   — the logo (or, absent one, the full-size category badge) as the
+   primary icon, and the category always visible somewhere on the card
+   — rather than letting one silently crowd out the other.
+
 ## Content scope
 
 This project is a reference catalog, not a tutorial site. "Getting

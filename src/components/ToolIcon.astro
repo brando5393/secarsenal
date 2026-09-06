@@ -1,5 +1,7 @@
 ---
 import CategoryBadge from './CategoryBadge.astro';
+import CategoryIcon from './CategoryIcon.astro';
+import { getCategoryBucket, getCategoryBucketForList } from '../lib/categoryIcons';
 import { TOOL_LOGOS } from '../lib/toolLogos';
 
 interface Props {
@@ -13,11 +15,20 @@ const logo = TOOL_LOGOS[slug];
 
 const sizeClasses = { sm: 'h-6 w-6', md: 'h-9 w-9', lg: 'h-14 w-14' }[size];
 const bgClass = logo?.needsLightBg ? 'bg-white/95 p-1' : '';
+const bucket = Array.isArray(category) ? getCategoryBucketForList(category) : getCategoryBucket(category);
 ---
 
 {logo ? (
-  <span class={`inline-flex shrink-0 items-center justify-center rounded-lg ${bgClass} ${sizeClasses}`}>
-    <img src={logo.path} alt="" class="h-full w-full object-contain" loading="lazy" />
+  <span class="relative inline-flex shrink-0">
+    <span class={`inline-flex items-center justify-center rounded-lg ${bgClass} ${sizeClasses}`}>
+      <img src={logo.path} alt="" class="h-full w-full object-contain" loading="lazy" />
+    </span>
+    {/* A real logo replaces the category badge as the main icon, but the
+    category it represents shouldn't disappear entirely — a small corner
+    badge keeps it visible everywhere, not just on logoless entries. */}
+    <span class="absolute -bottom-1 -right-1 rounded-full ring-2 ring-gray-950">
+      <CategoryIcon icon={bucket.icon} color={bucket.color} size="xs" />
+    </span>
   </span>
 ) : (
   <CategoryBadge category={category} size={size} />
