@@ -1,15 +1,33 @@
 ---
-name: "SigintOS"
-tagline: "Signal intelligence"
-category: general-purpose # TODO: guessed from Rawsec's description — verify against the docs
-basedOn: "Ubuntu"
+name: SigintOS
+tagline: Ubuntu-based distro for SDR-driven signals intelligence operations
+category: specialized
+team: red
+basedOn: Ubuntu
 lastVerified: 2026-09-06
-docsUrl: "https://www.sigintos.com/"
+docsUrl: https://www.sigintos.com/sigintos-linux/
 toolListMaintenance: manual
-notableTools: []
+notableTools:
+  - hackrf
+  - gnuradio
+  - gr-gsm
+  - wireshark
 gettingStarted: |
-  TODO (needs a human): write a short getting-started summary based on
-  SigintOS's official documentation linked above.
+  SigintOS ships as an Ubuntu-based live/installable image with a
+  built-in GUI for common SIGINT workflows against software-defined
+  radios (RTL-SDR, HackRF, BladeRF, USRP) — an FM/GPS transmitter, a
+  jammer, a GSM base station search tool, and an IMSI catcher, layered
+  on top of standard SDR tooling like GNU Radio, gr-gsm, and Wireshark.
+  Developed by SigintOS High Technology & Defence Products Corporation
+  (Teknopark Istanbul, Turkey); the official site doesn't publish a
+  structured per-tool list, so the tools above were cross-checked
+  individually from its own product pages.
 ---
 
-_Drafted automatically from [Rawsec's CyberSecurity Inventory](https://github.com/noraj/rawsec-cybersecurity-inventory) — needs a human-written description and a verified category before merging._
+SigintOS occupies the same SDR/radio-security niche as DragonOS already
+in this catalog, but is purpose-built around signals-intelligence
+operations (interception, jamming, base-station analysis) rather than
+DragonOS's broader SDR-research scope.
+
+Use it only against systems/spectrum you own or are explicitly
+authorized to test — see the [disclaimer](/disclaimer).
