@@ -120,9 +120,29 @@ blocking the page. Clearing browser data for the site resets both.
   other's entries when run independently or out of order.
 - Outbound links to third-party tool/OS sites use
   `rel="noopener noreferrer"`.
+- `docsUrl`/`downloadUrl`/`repoUrl` (`src/content.config.ts`) require
+  an explicit `http(s)://` scheme — `z.string().url()` alone accepts
+  `javascript:...` as a "valid URL" since it only checks syntax, and
+  every one of these fields renders straight into an `<a href>`.
+- The homepage search (`initHomeSearch()` in `public/scripts/site.js`)
+  builds results via `innerHTML` from Pagefind's indexed excerpt/title
+  text. Astro escapes that text once at build time, but Pagefind
+  extracts *decoded* plain text from the rendered page for its
+  excerpts — so it's escaped a second time client-side
+  (`escapeHtml`/`escapeExcerpt`) before insertion, re-allowing only
+  Pagefind's own `<mark>` match-highlighting after escaping everything
+  else.
+- JSON-LD structured data (`BaseLayout.astro`'s `structuredData` prop)
+  is inserted via `set:html` into a `<script type="application/ld+json">`
+  tag — required, since `<script>` is an HTML "raw text" element and
+  never decodes entities, so Astro's normal escaping would corrupt the
+  JSON. Every less-than sign in the serialized data is replaced with
+  its 6-character unicode escape first, which prevents a
+  closing-`</script>`-tag breakout while staying valid inside any JSON
+  string.
 
 ## Reporting a vulnerability
 
-Please open a private security advisory on the GitHub repository (once
-published) rather than a public issue, or contact the maintainer
-directly.
+Please open a [private security advisory](https://github.com/brando5393/secarsenal/security/advisories/new)
+on the GitHub repository rather than a public issue, or contact the
+maintainer directly.

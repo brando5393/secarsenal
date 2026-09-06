@@ -102,9 +102,12 @@ bar for "build a sync script" is:
   didn't fire (this bit us once already: a CRLF line-ending bug on
   Windows checkouts made it silently no-op — see git history on
   `scripts/sync-utils.mjs` for the fix if it recurs).
-- Document the new script in `README.md`'s "Content freshness" section
-  and `SECURITY.md`'s "Content integrity" section, matching the
-  existing entries' format.
+- Document the new script in `README.md`'s "Content freshness" section,
+  `SECURITY.md`'s "Content integrity" section, and `CONTRIBUTING.md`'s
+  numbered script list — including the running *total* script count
+  each of the three mentions in prose (e.g. "eight official sources");
+  it's easy to update the list itself but miss the count elsewhere,
+  which is exactly what happened after FLARE VM and T-Pot were added.
 
 **If no** — write real content directly into the drafted `.md` file,
 replacing every TODO:
@@ -135,6 +138,19 @@ replacing every TODO:
 - `basedOn`: verify against the current version's actual docs, not
   Rawsec's field — it can be stale (Linux Kodachi's `base` field said
   "Xubuntu" when the current release had moved to Debian).
+- `team` (optional, `red`/`blue`/`purple`): set it if the distro is
+  genuinely a security-team tool, judged by what it actually does, not
+  the project's stated mission — OSINT/recon tooling counts as `red`
+  per MITRE ATT&CK's own Reconnaissance tactic even for an
+  investigative project (Trace Labs OSINT VM, whose mission is finding
+  missing persons, is still `red`); malware-analysis/reverse-engineering
+  tooling is `blue` (investigative/defensive), not `red`, matching this
+  project's own CommandoVM-vs-FLARE-VM split. Leave it unset for
+  anything that isn't a security-team tool at all — general privacy/
+  opsec OSes (Tails, Whonix, Kodachi, Qubes) and general rescue distros
+  (SystemRescue) — rather than forcing a guess. See `src/lib/toolTeam.ts`'s
+  header comment for the full reasoning and the equivalent (best-effort,
+  category-keyword-derived) logic used for individual tools.
 - Remove the `_Drafted automatically..._` line and any review-flag
   notes once resolved.
 
@@ -163,6 +179,27 @@ a guess.
   (dependency-looking names, non-security software) before committing
   to a sync script (this is exactly what caught CommandoVM after an
   initial pass wrongly cleared it).
+- **Don't let a large batch erode per-candidate rigor.** When processing
+  10+ candidates at once, it's tempting to classify most of them from
+  general knowledge/search-result summaries instead of actually reading
+  each one's own README/docs page — this happened for real: T-Pot was
+  defaulted to `manual` in an 11-candidate batch without ever reading
+  its README, which turned out to have a clean, official, per-item
+  linked tool list (~40 honeypots/tools) that clearly passed step 3's
+  bar. Caught only after a direct question ("did you check the tool
+  lists the same way as before?"). Apply step 3's full research — fetch
+  and actually read the primary source — to every single candidate
+  regardless of batch size; if that's genuinely impractical for the
+  batch size, say so explicitly rather than silently doing a lighter
+  pass and reporting it as equivalent.
+- A structured, official-looking list (a YAML/JSON menu file, a
+  category taxonomy) can still fail step 3's bar if it has no per-item
+  URL field — this is the same failure mode as Tsurugi Linux's
+  link-less 500+ tool list, and caught NetHydra's `menu.yaml`
+  (structured, real, but plain application names with no homepage
+  field) and SamuraiWTF's Katana `module.yml` files (same shape).
+  Structure alone isn't sufficient — check specifically for a
+  resolvable link per item before building a sync script.
 
 ## After all candidates are resolved
 

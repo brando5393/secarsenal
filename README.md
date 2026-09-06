@@ -17,11 +17,23 @@ see [`/disclaimer`](./src/pages/disclaimer.astro).
 - **Content collections** (`src/content.config.ts`) for the `os` and
   `tools` datasets, validated with Zod at build time
 - **Pagefind** for static, client-side full-text search (indexed as a
-  `postbuild` step — only available after `npm run build`, not in `dev`)
+  `postbuild` step — only available after `npm run build`, not in
+  `dev`), scoped to real content via `data-pagefind-body`, weighted so
+  exact-name matches rank first, and filterable by `type`/`category`/
+  `team`. `/rss.xml` (`src/pages/rss.xml.ts`, via `@astrojs/rss`) is a
+  separate feed of just the OS collection (tools are bulk-synced
+  monthly — a feed entry per tool would be noise).
 - All client-side interactivity lives in one plain-JS file,
   `public/scripts/site.js` — see the "Client-side scripts and CSP"
   section of `SECURITY.md` for why (short version: our CSP blocks
   Astro's default inline-script bundling)
+- JSON-LD structured data (`SoftwareApplication` on every OS/tool page,
+  `WebSite` with a `SearchAction` on the homepage) via a `structuredData`
+  prop on `BaseLayout.astro`
+- A hand-judged `team: 'red' | 'blue' | 'purple'` field on OS entries
+  (see `src/content.config.ts`), and a best-effort equivalent for tools
+  derived at render time from each tool's categories (`src/lib/toolTeam.ts`)
+  — both are UI-only filters, not sourced from any upstream taxonomy
 
 ## Getting started
 
@@ -40,7 +52,7 @@ Requires Node >= 22.12 (see `engines` in `package.json`).
 
 The two collections are sourced very differently:
 
-- **`src/content/tools/`** is entirely **generated**, from six
+- **`src/content/tools/`** is entirely **generated**, from eight
   official sources:
   - `scripts/sync-kali-tools.mjs` — [Kali's own tool pages](https://www.kali.org/tools/all-tools/)
     (779 tools), one fetch per tool page.
@@ -128,6 +140,11 @@ The two collections are sourced very differently:
   date you personally confirmed the URLs/details), `docsUrl`, and
   `downloadUrl`/`repoUrl` where applicable. The Markdown body is the
   page's main description; `gettingStarted` is a short plain-text blurb.
+  `team` (`red`/`blue`/`purple`) is optional — a hand judgment based on
+  the distro's actual nature (see the `review-os-candidates` skill and
+  `src/lib/toolTeam.ts`'s comments for the reasoning), left unset for
+  entries that aren't a security-team tool at all (privacy/opsec OSes
+  like Tails or Whonix, general rescue distros like SystemRescue).
 
 ## Content freshness
 
@@ -197,17 +214,22 @@ Code is licensed under [MIT](./LICENSE). Content under `src/content/`
 (the OS and tool write-ups) is licensed under
 [CC BY 4.0](./LICENSE-CONTENT).
 
-## Deployment (not yet enabled)
+## Deployment
 
-This project currently only runs locally (`npm run dev` / `preview`).
-When ready to deploy:
+Live on **AWS Amplify Hosting**, connected to this repo's `master`
+branch — every push triggers an automatic build (`npm run build`,
+output directory `dist`) and deploy, no manual step. Current URL:
+`https://master.d68esdk03yoqv.amplifyapp.com` (the `secarsenal.org`
+custom domain is registered but pending — see `SECURITY.md`/project
+notes for the AWS Support case tracking a Route 53 registration
+block; once it resolves, attaching the domain is just Amplify's
+"Add custom domain" button, no other setup needed).
 
-- **Cloudflare Pages** (primary planned target, near-zero cost): connect
-  the GitHub repo, build command `npm run build`, output directory
-  `dist`. Add the headers in `SECURITY.md` via a `public/_headers` file.
-  Attach a custom domain once one is purchased.
-- **AWS alternative**: S3 (static website hosting or as a CloudFront
-  origin) + CloudFront for CDN/TLS, with the same security headers set
-  via a CloudFront response headers policy. More setup than Cloudflare
-  Pages for the same result, but noted here since AWS tooling is already
-  available if preferred later.
+Response headers (`SECURITY.md`) are set via `customHttp.yml` in the
+repo root, which Amplify reads automatically on every build — no
+console configuration to keep in sync. Redirects (the `/<*> → /404.html`
+404 fallback) are **not** git-managed: Amplify has no repo-file
+equivalent for redirects the way `customHttp.yml` covers headers, so
+that rule lives only in the Amplify console (Hosting → Rewrites and
+redirects) and would need to be re-added if the app were ever
+recreated.
