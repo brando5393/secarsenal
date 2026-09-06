@@ -107,7 +107,32 @@ export function ensureAutoSyncedTag(osFilePath) {
   if (updated !== original) writeFileSync(osFilePath, updated, 'utf8');
 }
 
+// isUrlReachable's URL always comes from a trusted, fixed upstream
+// source for 8 of its 9 callers (Kali's own pages, BlackArch's table,
+// etc.) — but discover-os.mjs passes a URL field lifted straight from
+// Rawsec's community-PR-able GitHub inventory, before it's ever
+// written into repo content. Reject anything that isn't a plain
+// http(s) URL to a public host before ever calling fetch(), so this
+// shared helper can't be pointed at an internal/link-local address
+// (including cloud metadata endpoints at 169.254.169.254) by a
+// third-party data source this project doesn't control.
+const PRIVATE_HOST_RE =
+  /^(localhost|127\.|10\.|169\.254\.|192\.168\.|172\.(1[6-9]|2\d|3[01])\.|0\.0\.0\.0|\[?::1\]?|\[?fc[0-9a-f]{2}:|\[?fe80:)/i;
+
+function isSafeToFetch(url) {
+  let parsed;
+  try {
+    parsed = new URL(url);
+  } catch {
+    return false;
+  }
+  if (parsed.protocol !== 'http:' && parsed.protocol !== 'https:') return false;
+  if (PRIVATE_HOST_RE.test(parsed.hostname)) return false;
+  return true;
+}
+
 export async function isUrlReachable(url, timeoutMs = 8_000) {
+  if (!isSafeToFetch(url)) return false;
   try {
     const result = await attempt(url, timeoutMs);
     if (result.ok) return true;
