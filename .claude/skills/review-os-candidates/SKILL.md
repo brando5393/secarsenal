@@ -154,6 +154,19 @@ replacing every TODO:
 - Remove the `_Drafted automatically..._` line and any review-flag
   notes once resolved.
 
+### 3b. Logo check (ground rule — every candidate, sync or manual)
+
+Check the distro's own site favicon, header/nav logo, and GitHub/GitLab
+org or repo avatar for a genuine, distinctive official logo. If one
+exists, add it to `src/lib/osLogos.ts` and `public/logos/os/<slug>.<ext>`
+before merging — see the "Adding or updating an OS entry" ground rule
+in `CONTRIBUTING.md` for the full how-to (cropping wordmark banners,
+`needsLightBg`, sourcing comments). Don't defer this to a follow-up PR;
+a merged entry with a discoverable logo it isn't using is exactly the
+gap this rule exists to prevent. If there's genuinely no distinctive
+logo (only a generic Tux/SourceForge/stock icon), say so in the commit
+message the same way existing `osLogos.ts` entries note it.
+
 ### 4. Flag genuine open questions instead of silently deciding
 
 If a candidate raises a real scope question — a non-Linux platform, a

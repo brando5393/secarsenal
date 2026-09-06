@@ -75,6 +75,25 @@ Rawsec's own classification, and known pitfalls from past runs.
    category it belongs to, and how to get started with it from the
    official source. No exploit code, no step-by-step attack
    walkthroughs against real/example targets.
+6. **Check for an official logo and add it if one exists — this is a
+   ground rule, not optional.** Look at the project's own site favicon,
+   header/nav logo, and GitHub/GitLab org or repo avatar. If you find a
+   genuine, distinctive mark (not a generic Tux penguin, a
+   SourceForge/Allura placeholder, or similar stock icon), add it to
+   `src/lib/osLogos.ts` following the existing entries' style: save the
+   asset under `public/logos/os/<slug>.<ext>`, add a `path` entry with a
+   sourcing comment (where you found it), and set `needsLightBg: true`
+   if the artwork is dark-on-transparent or has an opaque light
+   background baked in (it would otherwise vanish, or show a stray
+   white box, against the site's dark theme — check by eye). A wide
+   wordmark banner usually needs cropping down to just the icon/mark
+   first (Pillow or similar) rather than using the full banner, which
+   renders as an illegible sliver in the fixed-size logo box. Only skip
+   this step if you've actually checked and there's no distinctive logo
+   to find — leave a comment in `osLogos.ts` noting that, matching the
+   file's existing pattern for entries with no logo. Never leave a
+   genuine official logo undisplayed in favor of the generic
+   category-badge fallback.
 
 ## Content scope
 
