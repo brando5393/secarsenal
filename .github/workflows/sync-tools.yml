@@ -35,7 +35,15 @@ jobs:
     # than the default job timeout assumption of "fast CI".
     timeout-minutes: 60
     steps:
+      # persist-credentials: false — actions/checkout's default of true
+      # sets its own git-level auth header, which then collides with
+      # peter-evans/create-pull-request's own token setup below
+      # ("Duplicate header: Authorization", HTTP 400) at push time. This
+      # combination is a known incompatibility between the two actions;
+      # letting create-pull-request own the only auth header fixes it.
       - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
 
       - uses: actions/setup-node@v7
         with:
