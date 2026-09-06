@@ -50,6 +50,25 @@ dormant (no activity in years), or the official site is down —
 already happened for CLIP OS, Subgraph OS, and Tamer Platform, all
 listed as "maintained" by Rawsec but actually archived/dead.
 
+**After dropping a file for scope or maintenance reasons (not simple
+unreachability), add it to `scripts/manifests/discover-os-rejected.json`**
+(name → one-line reason) so `discover-os.mjs` doesn't re-draft it every
+month forever — reachability alone doesn't catch an archived project
+whose old site just stays up indefinitely. Don't add an entry there for
+a candidate that's currently unreachable/dead-domain (Subgraph OS,
+TENS) — `isUrlReachable` already skips those on its own, and a revived
+project should get a fresh look, not a permanent block.
+
+**Before trusting an "unreachable" skip, verify it yourself with a
+plain browser User-Agent** (`curl -A "Mozilla/5.0 ..." <url>`) — some
+sites (SecBSD, confirmed) hard-block `sync-utils.mjs`'s bot UA
+specifically (empty TLS reply, not even a 403) while serving a normal
+browser UA fine. A site that's actually up but bot-blocked is a real,
+addable candidate, not a dead one — check `scripts/sync-utils.mjs`'s
+`URL_CHECK_HEADERS` comment for the pattern that's already known to
+get blocked (a Googlebot-style `(+https://...)` self-identifying
+suffix) before assuming "unreachable" means "abandoned."
+
 ### 3. Tool-list research — the real decision point
 
 Check the distro's official docs/site/GitHub for a tool listing. The

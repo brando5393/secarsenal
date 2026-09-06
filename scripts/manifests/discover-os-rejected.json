@@ -1,0 +1,5 @@
+{
+  "Alpine Linux": "Out of scope — a general-purpose distro (used as a container base), not a pentest/security tool despite appearing in Rawsec's inventory.",
+  "CLIP OS": "Archived/dead — listed as maintained by Rawsec but confirmed discontinued on independent review; don't merge as if current.",
+  "Tamer Platform": "Archived/dead — listed as maintained by Rawsec but confirmed discontinued on independent review; don't merge as if current."
+}

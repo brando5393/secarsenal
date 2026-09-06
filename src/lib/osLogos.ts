@@ -50,6 +50,7 @@ export const OS_LOGOS: Record<string, OsLogo> = {
   'predator-os': { path: '/logos/os/predator-os.png' }, // github.com/hosseinseilani/predator-os banner.png (mask icon cropped from banner; repo's own logo_square.png is mislabeled/wrong)
   pwnagotchi: { path: '/logos/os/pwnagotchi.png' }, // pwnagotchi.ai/favicon.png (the project's iconic ASCII mascot face)
   'qubes-os': { path: '/logos/os/qubes-os.png' }, // qubes-os.org icon
+  secbsd: { path: '/logos/os/secbsd.png' }, // secbsd.org/img/logo.png (wordmark only — no separate icon-only mark found)
   'security-onion': { path: '/logos/os/security-onion.png' }, // securityonionsolutions.com/favicon.ico
   sigintos: { path: '/logos/os/sigintos.png' }, // sigintos.com (wifi-signal mark cropped from wordmark logo)
   systemrescue: { path: '/logos/os/systemrescue.png' }, // system-rescue.org (icon cropped from wordmark logo)

@@ -43,8 +43,15 @@ export async function mapWithConcurrency(items, limit, fn) {
   return results;
 }
 
+// The "(+https://...)" self-identifying-crawler suffix (the Googlebot-
+// style convention) is exactly what got this UA hard-blocked (empty
+// TLS reply, not even a 403) by secbsd.org's WAF while a plain
+// browser-shaped UA sailed through — confirmed by testing both
+// directly against that site. scripts/check-links.mjs's UA never had
+// this suffix and has never had this problem, so this matches that
+// working format instead of re-adding self-identification.
 const URL_CHECK_HEADERS = {
-  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) SecArsenal-sync-bot (+https://github.com/brando5393/secarsenal)',
+  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) SecArsenal-sync-bot',
 };
 
 function sleep(ms) {

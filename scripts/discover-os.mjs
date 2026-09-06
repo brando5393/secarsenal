@@ -17,6 +17,21 @@ import { isUrlReachable } from './sync-utils.mjs';
 const SOURCE_URL =
   'https://raw.githubusercontent.com/noraj/rawsec-cybersecurity-inventory/master/data/operating_systems/maintained.json';
 const CONTENT_DIR = join('src', 'content', 'os');
+const REJECTED_PATH = join('scripts', 'manifests', 'discover-os-rejected.json');
+
+// Candidates the review-os-candidates skill already investigated and
+// explicitly rejected (out of scope, or confirmed archived/dead despite
+// Rawsec still listing them as maintained) — without this, a rejected
+// candidate whose site is still technically reachable gets re-drafted
+// every single month forever, since name-matching against existing
+// content is the only other de-dup signal this script has. Reachability
+// alone doesn't catch this: an archived project's old site can stay up
+// indefinitely while genuinely never being updated again.
+function loadRejectedNormalizedNames() {
+  if (!existsSync(REJECTED_PATH)) return new Set();
+  const rejected = JSON.parse(readFileSync(REJECTED_PATH, 'utf8'));
+  return new Set(Object.keys(rejected).map(normalize));
+}
 
 // Stripped before comparing names so "BlackArch Linux" (Rawsec) matches
 // our existing "BlackArch" entry, "Parrot Security OS" matches "Parrot
@@ -77,7 +92,10 @@ async function main() {
   const { operating_systems: candidates } = await res.json();
 
   const existingNormalized = new Set(loadExistingNormalizedNames());
-  const newCandidates = candidates.filter((c) => !existingNormalized.has(normalize(c.name)));
+  const rejectedNormalized = loadRejectedNormalizedNames();
+  const newCandidates = candidates.filter(
+    (c) => !existingNormalized.has(normalize(c.name)) && !rejectedNormalized.has(normalize(c.name))
+  );
 
   if (newCandidates.length === 0) {
     console.log("No new operating systems found — every entry in Rawsec's maintained list matches an existing OS entry.");
