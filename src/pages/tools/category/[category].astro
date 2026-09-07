@@ -1,0 +1,122 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import ToolIcon from '../../../components/ToolIcon.astro';
+import { getCollection } from 'astro:content';
+import { getToolTeam } from '../../../lib/toolTeam';
+import { getLinkableToolCategories } from '../../../lib/toolCategoryPages';
+
+// One crawlable, linkable page per tool category, generated at build
+// time from the same `categories` frontmatter the index page's client-
+// side filter already reads — closes a real SEO gap: category grouping
+// previously existed only behind a <select> filter with no URL behind
+// it, so it couldn't be indexed, linked to, or shared. Tool detail
+// pages link to their own category page(s) (see tools/[slug].astro),
+// which is exactly the kind of real internal linking that helps a
+// large catalog's shorter pages rather than fabricating longer
+// descriptions to pad them out.
+//
+// Categories with exactly one tool are skipped (see
+// getLinkableToolCategories) — a "browse this category" page with a
+// single entry offers no grouping value over the tool's own page.
+export async function getStaticPaths() {
+  const entries = await getCollection('tools');
+  const linkable = getLinkableToolCategories(entries);
+  const byCategory = new Map<string, typeof entries>();
+  for (const entry of entries) {
+    for (const c of entry.data.categories) {
+      if (!linkable.has(c)) continue;
+      byCategory.set(c, [...(byCategory.get(c) ?? []), entry]);
+    }
+  }
+  return [...byCategory.entries()].map(([category, matches]) => ({
+    params: { category },
+    props: { category, matches },
+  }));
+}
+
+const { category, matches } = Astro.props;
+
+const TEAM_LABELS: Record<string, string> = { red: 'Red Team', blue: 'Blue Team' };
+const TEAM_BADGE_CLASSES: Record<string, string> = {
+  red: 'bg-red-950/60 text-red-400',
+  blue: 'bg-blue-950/60 text-blue-400',
+};
+
+const pageDescription = `${matches.length} pentesting tools tagged "${category}" — searchable by name and filterable by team.`;
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: `Tools: ${category}`,
+  description: pageDescription,
+  url: new URL(`/tools/category/${category}/`, Astro.site).toString(),
+  isPartOf: { '@type': 'WebSite', name: 'SecArsenal', url: Astro.site?.toString() },
+};
+---
+
+<BaseLayout title={`Tools: ${category}`} description={pageDescription} structuredData={structuredData}>
+  <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Tools', href: '/tools' }, { label: category }]} />
+  <h1 class="text-3xl font-bold text-white">Tools: {category} ({matches.length})</h1>
+  <p class="mt-3 text-gray-300">
+    Pentesting tools tagged <span class="text-gray-100">{category}</span>. See{' '}
+    <a class="text-emerald-400 hover:text-emerald-300" href="/tools">all tools</a>{' '}
+    or the <a class="text-emerald-400 hover:text-emerald-300" href="/categories">category key</a>.
+  </p>
+
+  <input
+    id="name-filter"
+    class="mt-4 w-full rounded-lg border border-gray-700 bg-gray-900 px-3 py-2.5 text-gray-100 placeholder-gray-500 focus:border-emerald-500 focus:outline-none focus:ring-1 focus:ring-emerald-500"
+    type="search"
+    placeholder="Filter by name…"
+    aria-label="Filter tools by name"
+  />
+
+  <div class="mt-4 flex flex-wrap items-center gap-2" id="team-filter-bar" data-default="all">
+    <span class="mr-1 text-xs uppercase tracking-wide text-gray-400">Team (best effort)</span>
+    <button
+      type="button"
+      aria-pressed="true"
+      data-team="all"
+      class="rounded-full border border-gray-700 bg-gray-900 px-3 py-1.5 text-sm text-gray-300 transition-colors aria-pressed:border-emerald-500 aria-pressed:text-white"
+      >All</button
+    >
+    {(['red', 'blue'] as const).map((t) => (
+      <button
+        type="button"
+        aria-pressed="false"
+        data-team={t}
+        class="rounded-full border border-gray-700 bg-gray-900 px-3 py-1.5 text-sm text-gray-300 transition-colors aria-pressed:border-emerald-500 aria-pressed:text-white"
+        >{TEAM_LABELS[t]}</button
+      >
+    ))}
+  </div>
+
+  <p id="result-count" class="mt-3 text-sm text-gray-400"></p>
+
+  <div class="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3" id="card-grid">
+    {matches.map((entry) => {
+      const team = getToolTeam(entry.data.categories, entry.data.commonlyOn);
+      return (
+        <a
+          class="card block rounded-lg border border-gray-800 bg-gray-900 p-5 no-underline transition-colors hover:border-emerald-500"
+          href={`/tools/${entry.id}`}
+          data-categories={entry.data.categories.join(',')}
+          data-team={team ?? ''}
+          data-name={entry.data.name.toLowerCase()}
+        >
+          <div class="mb-3 flex items-center gap-3">
+            <ToolIcon slug={entry.id} category={entry.data.categories} />
+            <h3 class="font-semibold text-white">{entry.data.name}</h3>
+          </div>
+          <p class="text-sm text-gray-400">{entry.data.tagline}</p>
+          <div class="mt-2">
+            {entry.data.categories.map((c) => (
+              <span class="mr-2 mt-1 inline-block rounded-full bg-gray-800 px-3 py-1 text-xs text-gray-300">{c}</span>
+            ))}
+            {team && <span class={`mr-2 mt-1 inline-block rounded-full px-3 py-1 text-xs ${TEAM_BADGE_CLASSES[team]}`}>{TEAM_LABELS[team]}</span>}
+          </div>
+        </a>
+      );
+    })}
+  </div>
+</BaseLayout>

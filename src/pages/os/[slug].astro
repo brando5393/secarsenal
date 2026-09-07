@@ -51,7 +51,7 @@ const structuredData = {
     </div>
   </div>
   <div class="mt-3" data-pagefind-ignore>
-    <span class={TAG_CLASS}>{data.category}</span>
+    <a href={`/os/category/${data.category}`} class={`${TAG_CLASS} no-underline hover:bg-gray-700 hover:text-white`}>{data.category}</a>
     <span class={TAG_CLASS}>based on {data.basedOn}</span>
     {data.team && (
       <span class={`inline-block rounded-full px-3 py-1 text-xs mr-2 ${TEAM_BADGE_CLASSES[data.team]}`}>{TEAM_LABELS[data.team]}</span>

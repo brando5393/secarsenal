@@ -120,13 +120,19 @@ async function matchingSlugs(query, cards, pagefindType) {
 }
 
 function initOsIndex() {
+  // filterBar (the category button row) is optional: a
+  // /os/category/<x> page is already scoped to one category and
+  // intentionally omits it, same reasoning as categoryFilter in
+  // initToolsFilter() above.
   const filterBar = document.getElementById('filter-bar');
   const teamFilterBar = document.getElementById('team-filter-bar');
   const searchInput = document.getElementById('os-name-filter');
   const resultCount = document.getElementById('os-result-count');
-  if (!filterBar) return;
+  const cardGrid = document.getElementById('card-grid');
+  if (!filterBar && !teamFilterBar && !searchInput) return;
+  if (!cardGrid) return;
 
-  const buttons = [...filterBar.querySelectorAll('button')];
+  const buttons = filterBar ? [...filterBar.querySelectorAll('button')] : [];
   const teamButtons = teamFilterBar ? [...teamFilterBar.querySelectorAll('button')] : [];
   const cards = [...document.querySelectorAll('#card-grid .card')];
 
@@ -181,10 +187,15 @@ function initOsIndex() {
 
 function initToolsFilter() {
   const nameFilter = document.getElementById('name-filter');
+  // Optional: the /tools index has a category <select>, but a
+  // /tools/category/<x> page is already scoped to one category and
+  // intentionally omits it — this function still runs there for name/
+  // team filtering, matching this file's "no-ops on missing markup"
+  // design rather than bailing out entirely for one absent control.
   const categoryFilter = document.getElementById('category-filter');
   const teamFilterBar = document.getElementById('team-filter-bar');
   const resultCount = document.getElementById('result-count');
-  if (!nameFilter || !categoryFilter || !resultCount) return;
+  if (!nameFilter || !resultCount) return;
 
   const cards = [...document.querySelectorAll('#card-grid .card')];
   const teamButtons = teamFilterBar ? [...teamFilterBar.querySelectorAll('button')] : [];
@@ -192,7 +203,7 @@ function initToolsFilter() {
   // Pre-select a category when arriving from the homepage's "top
   // categories" widget (/tools?category=webapp) or any other link.
   const requestedCategory = new URLSearchParams(location.search).get('category');
-  if (requestedCategory && [...categoryFilter.options].some((o) => o.value === requestedCategory)) {
+  if (categoryFilter && requestedCategory && [...categoryFilter.options].some((o) => o.value === requestedCategory)) {
     categoryFilter.value = requestedCategory;
   }
 
@@ -201,7 +212,7 @@ function initToolsFilter() {
   let queryToken = 0;
 
   function applyFilters() {
-    const category = categoryFilter.value;
+    const category = categoryFilter ? categoryFilter.value : 'all';
     let visible = 0;
     for (const card of cards) {
       const matchesQuery = activeSlugs === null || activeSlugs.has(urlPath(card.href));
@@ -222,7 +233,7 @@ function initToolsFilter() {
     activeSlugs = slugs;
     applyFilters();
   });
-  categoryFilter.addEventListener('change', applyFilters);
+  categoryFilter?.addEventListener('change', applyFilters);
   teamButtons.forEach((btn) => {
     btn.addEventListener('click', () => {
       teamButtons.forEach((b) => b.setAttribute('aria-pressed', 'false'));
