@@ -157,7 +157,7 @@ const structuredData = {
           </div>
           <p class="text-sm text-gray-400">{entry.data.tagline}</p>
           <div class="mt-2">
-            {entry.data.categories.map((c) => <span class="mr-2 mt-1 inline-block rounded-full bg-gray-800 px-3 py-1 text-xs text-gray-300">{c}</span>)}
+            {entry.data.categories.map((c) => <><span class="mr-2 mt-1 inline-block rounded-full bg-gray-800 px-3 py-1 text-xs text-gray-300">{c}</span>{' '}</>)}
             {team && <span class={`mr-2 mt-1 inline-block rounded-full px-3 py-1 text-xs ${TEAM_BADGE_CLASSES[team]}`}>{TEAM_LABELS[team]}</span>}
           </div>
         </a>
