@@ -22,7 +22,7 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
     <section class="mt-6">
       <h2 class="text-lg font-semibold text-white">What's stored in your browser</h2>
       <p class="mt-2 text-gray-300 leading-relaxed">
-        The site writes exactly two entries to your browser's own
+        The site writes exactly three entries to your browser's own
         <code class="font-mono text-sm text-gray-200">localStorage</code>,
         never to a server, and never anywhere we can see them:
       </p>
@@ -38,9 +38,15 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
           only to reorder the homepage's "top categories" widget toward
           what you actually browse.
         </li>
+        <li>
+          <code class="font-mono text-sm text-gray-200">sa_a11y_prefs_v1</code>
+          — which accessibility panel toggles you've turned on (larger
+          text, extra spacing, high contrast, and similar), so they stay
+          applied on your next visit.
+        </li>
       </ul>
       <p class="mt-3 text-gray-300 leading-relaxed">
-        Both are readable and erasable like any other site data in your
+        All three are readable and erasable like any other site data in your
         browser's settings, and clearing them just resets the site to its
         default, unpersonalized state. See <a class="text-emerald-400 hover:text-emerald-300" href="/disclaimer#acknowledgment">the disclaimer</a> for how the first entry is used, and <a class="text-emerald-400 hover:text-emerald-300" href="https://github.com/brando5393/secarsenal/blob/master/SECURITY.md" rel="noopener noreferrer" target="_blank">SECURITY.md</a> for the technical detail.
       </p>
