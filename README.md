@@ -62,7 +62,29 @@ see [`/disclaimer`](./src/pages/disclaimer.astro).
   contrast, always-underline links, a stronger focus outline, and
   reduced motion, each toggleable and persisted in `localStorage`. Not
   a third-party overlay-widget script; it's real CSS/JS in this
-  codebase layered on top of already-accessible markup.
+  codebase layered on top of already-accessible markup. The panel
+  itself carries an honest accessibility statement (names WCAG 2.2 AA
+  as the guidance the site's markup follows, doesn't claim a
+  compliance audit that was never done, links to report a real
+  barrier) — see the panel or `BaseLayout.astro`.
+- `/changelog` — a real, per-month added/removed digest computed from
+  git history at build time (Amplify does a full, non-shallow clone —
+  confirmed by reading an actual build log, not assumed). Tools only
+  ever get Added/Removed counts, deliberately never "Updated": every
+  monthly sync re-stamps `lastVerified` on every tool it touches
+  regardless of real change, so a raw diff count would just report the
+  whole catalog as "updated" every month.
+- Print styles (`src/styles/global.css`'s `@media print` block) — an
+  OS/tool page is genuinely useful printed: flips to a light
+  background, hides every interactive/navigational element, and
+  expands external reference links' real URLs onto the page since they
+  can't be clicked on paper.
+- `script-src` in the CSP (`customHttp.yml`, mirrored in
+  `BaseLayout.astro`'s meta tag) carries `'wasm-unsafe-eval'` —
+  Pagefind's search index runs as WebAssembly in a Worker, and without
+  it `WebAssembly.instantiate()` throws a CSP violation with no visible
+  error on the page, silently breaking full-text search sitewide. See
+  `SECURITY.md`'s "Client-side scripts and CSP" section.
 
 ## Getting started
 
