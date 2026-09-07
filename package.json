@@ -21,6 +21,7 @@
     "sync-tools:flare-vm": "node scripts/sync-flare-vm-tools.mjs",
     "sync-tools:tpot": "node scripts/sync-tpot-tools.mjs",
     "sync-tools:osint-framework": "node scripts/sync-osint-framework-tools.mjs",
+    "sync-tools:exegol": "node scripts/sync-exegol-tools.mjs",
     "discover-os": "node scripts/discover-os.mjs"
   },
   "dependencies": {

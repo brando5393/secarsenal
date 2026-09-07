@@ -103,7 +103,7 @@ Requires Node >= 22.12 (see `engines` in `package.json`).
 
 The two collections are sourced very differently:
 
-- **`src/content/tools/`** is entirely **generated**, from nine
+- **`src/content/tools/`** is entirely **generated**, from ten
   official sources:
   - `scripts/sync-kali-tools.mjs` — [Kali's own tool pages](https://www.kali.org/tools/all-tools/)
     (779 tools), one fetch per tool page.
@@ -172,10 +172,26 @@ The two collections are sourced very differently:
     inventory (the same role Rawsec plays for OS discovery), so its
     entries get `commonlyOn: []` and `platforms: ["Web"]` rather than
     an OS attribution.
+  - `scripts/sync-exegol-tools.mjs` — [Exegol's own installed-tools
+    CSVs](https://github.com/ThePorgs/Exegol) (190 additional tools not
+    already covered, out of 449 in Exegol's `full` image, skipping 258
+    already covered and 0 dead links). Exegol is a Docker-based
+    offensive-security environment, not a bootable distro, so like
+    OSINT Framework it gets `commonlyOn: []` — but its tools are real
+    installed Linux software, so `platforms: ["Linux"]`. Exegol's own
+    per-tool CSV carries no category field; this sync derives real
+    categories from which of Exegol's four narrower image variants
+    (`ad`/`web`/`osint`/`light`) each tool ships in (merging when a
+    tool appears in more than one, 73 tools this run), falling back to
+    a single `"general"` category for the 41 tools that only appear in
+    the full image. Uses Exegol's tagged `releases_amd64.csv` channel
+    rather than its `nightly.csv` dev builds, matching this project's
+    preference elsewhere for a source's stable/published state.
 
   Earlier sources are treated as authoritative over later ones wherever
   they list the same tool (Kali > BlackArch > REMnux > Tails >
-  Security Onion > ArchStrike > FLARE VM > T-Pot > OSINT Framework): each
+  Security Onion > ArchStrike > FLARE VM > T-Pot > OSINT Framework >
+  Exegol): each
   sync skips any slug already owned by an earlier one (tracked via
   `scripts/manifests/*.json`) rather than overwriting richer existing
   data. Each sync script only ever deletes
