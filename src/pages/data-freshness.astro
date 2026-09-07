@@ -1,0 +1,126 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+
+// A visible version of an operational practice that otherwise only
+// shows up as one line of text per entry ("Last verified <date>"):
+// this project already verifies every OS entry's links on a schedule
+// (see .github/workflows/freshness-check.yml, scripts/check-links.mjs)
+// and re-syncs every tool from its official source monthly — the gap
+// the competitive-analysis pass flagged was that this rigor is
+// invisible unless a reader opens one page and reads one line. Every
+// number below is derived from real content-collection data at build
+// time, not hand-maintained, so it can't drift out of sync with the
+// collections themselves.
+const STALE_AFTER_DAYS = 180; // matches scripts/check-links.mjs
+
+const osEntries = await getCollection('os');
+const toolEntries = await getCollection('tools');
+
+const now = Date.now();
+const staleOs = osEntries.filter((e) => now - e.data.lastVerified.valueOf() > STALE_AFTER_DAYS * 24 * 60 * 60 * 1000);
+const autoSyncedOs = osEntries.filter((e) => e.data.toolListMaintenance === 'auto-synced');
+const manualOs = osEntries.filter((e) => e.data.toolListMaintenance === 'manual');
+
+// Per-source breakdown: each auto-synced OS's own docsUrl is the real
+// official source its scripts/sync-*.mjs script reads from, and the
+// most recent lastVerified among tools tagged with that OS in
+// `commonlyOn` is the real signal for "when did this source's sync
+// last touch content" — sync scripts stamp lastVerified at sync time,
+// so this can't be hand-edited out of sync with what actually ran.
+const sources = autoSyncedOs
+  .map((os) => {
+    const tools = toolEntries.filter((t) => t.data.commonlyOn.includes(os.data.name));
+    const lastSynced = tools.reduce((max, t) => Math.max(max, t.data.lastVerified.valueOf()), 0);
+    return {
+      name: os.data.name,
+      slug: os.id,
+      docsUrl: os.data.docsUrl,
+      toolCount: tools.length,
+      lastSynced: lastSynced > 0 ? new Date(lastSynced) : null,
+    };
+  })
+  .sort((a, b) => b.toolCount - a.toolCount);
+
+const dateFmt = (d: Date) => d.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' });
+
+const pageDescription = `How current SecArsenal's ${osEntries.length} OS and ${toolEntries.length} tool entries actually are, broken down by source — derived live from the content itself, not hand-maintained.`;
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Data Freshness',
+  description: pageDescription,
+  url: new URL('/data-freshness/', Astro.site).toString(),
+  isPartOf: { '@type': 'WebSite', name: 'SecArsenal', url: Astro.site?.toString() },
+};
+---
+
+<BaseLayout title="Data Freshness" description={pageDescription} structuredData={structuredData}>
+  <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Data Freshness' }]} />
+  <h1 class="text-3xl font-bold text-white">Data Freshness</h1>
+  <p class="mt-3 max-w-2xl text-gray-300">
+    How current this catalog actually is, computed live from the content itself at build time —
+    not a claim, a number. See <a class="text-emerald-400 hover:text-emerald-300" href="https://github.com/brando5393/secarsenal#readme" rel="noopener noreferrer" target="_blank">the README</a> for how the sync and freshness-check automation works.
+  </p>
+
+  <div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-3">
+    <div class="card rounded-lg border border-gray-800 bg-gray-900 p-5">
+      <p class="text-3xl font-bold text-white">{osEntries.length}</p>
+      <p class="mt-1 text-sm text-gray-400">operating systems, hand-curated</p>
+    </div>
+    <div class="card rounded-lg border border-gray-800 bg-gray-900 p-5">
+      <p class="text-3xl font-bold text-white">{toolEntries.length}</p>
+      <p class="mt-1 text-sm text-gray-400">tools, auto-synced from {sources.length} official sources</p>
+    </div>
+    <div class="card rounded-lg border border-gray-800 bg-gray-900 p-5">
+      <p class={`text-3xl font-bold ${staleOs.length > 0 ? 'text-amber-400' : 'text-emerald-400'}`}>{staleOs.length}</p>
+      <p class="mt-1 text-sm text-gray-400">OS entries flagged stale (unverified &gt;{STALE_AFTER_DAYS} days)</p>
+    </div>
+  </div>
+
+  <h2 class="mt-10 text-xl font-semibold text-white">Tool sync sources</h2>
+  <p class="mt-2 text-sm text-gray-400">
+    {manualOs.length} OS entries have no official structured tool listing to sync (see each entry's
+    "manual tools" flag) and are hand-maintained instead — not counted here.
+  </p>
+  <div class="mt-4 overflow-x-auto rounded-lg border border-gray-800">
+    <table class="w-full text-left text-sm">
+      <thead class="bg-gray-900 text-xs uppercase tracking-wide text-gray-400">
+        <tr>
+          <th class="px-4 py-3">Source</th>
+          <th class="px-4 py-3">Tools</th>
+          <th class="px-4 py-3">Last synced</th>
+        </tr>
+      </thead>
+      <tbody>
+        {sources.map((s) => (
+          <tr class="border-t border-gray-800">
+            <td class="px-4 py-3">
+              <a href={`/os/${s.slug}`} class="text-gray-100 underline hover:text-emerald-400">{s.name}</a>
+            </td>
+            <td class="px-4 py-3 text-gray-300">{s.toolCount}</td>
+            <td class="px-4 py-3 text-gray-300">{s.lastSynced ? dateFmt(s.lastSynced) : '—'}</td>
+          </tr>
+        ))}
+      </tbody>
+    </table>
+  </div>
+
+  {staleOs.length > 0 && (
+    <>
+      <h2 class="mt-10 text-xl font-semibold text-white">Flagged for re-verification</h2>
+      <p class="mt-2 text-sm text-gray-400">
+        Not yet re-checked by <a class="text-emerald-400 hover:text-emerald-300" href="https://github.com/brando5393/secarsenal/blob/master/.github/workflows/freshness-check.yml" rel="noopener noreferrer" target="_blank">the weekly freshness-check workflow</a> —
+        content may be accurate but hasn't been personally re-confirmed recently.
+      </p>
+      <ul class="mt-3 flex flex-wrap gap-2">
+        {staleOs.map((e) => (
+          <li>
+            <a href={`/os/${e.id}`} class="inline-block rounded-full bg-amber-950/60 px-3 py-1 text-xs text-amber-300 no-underline hover:bg-amber-900/60">{e.data.name}</a>
+          </li>
+        ))}
+      </ul>
+    </>
+  )}
+</BaseLayout>
