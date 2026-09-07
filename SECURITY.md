@@ -24,13 +24,13 @@ response was missing all of these until it was.
 | `X-Frame-Options` | `DENY` |
 | `Referrer-Policy` | `strict-origin-when-cross-origin` |
 | `Permissions-Policy` | `geolocation=(), microphone=(), camera=()` |
+| `Strict-Transport-Security` | `max-age=63072000; includeSubDomains` |
 
-`Strict-Transport-Security` (with `preload`) is deliberately not set
-yet, even though `customHttp.yml` is live — it's a hard-to-reverse
-commitment better made once the real `secarsenal.org` domain is
-attached, not on the interim `*.amplifyapp.com` hostname. Add
-`max-age=63072000; includeSubDomains; preload` to `customHttp.yml`
-once that domain is live.
+No `preload` directive: submitting to browsers' HSTS preload list is
+effectively permanent (removal takes months even after reverting the
+header), so that stays a separate, later decision once the
+`secarsenal.org` domain/subdomain setup has proven stable long-term.
+The header as set is fully reversible — just change or remove it.
 
 A baseline CSP is also set via a `<meta http-equiv>` tag in
 `src/layouts/BaseLayout.astro`, for defense-in-depth and so it's also

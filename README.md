@@ -312,17 +312,27 @@ Code is licensed under [MIT](./LICENSE). Content under `src/content/`
 
 Live on **AWS Amplify Hosting**, connected to this repo's `master`
 branch — every push triggers an automatic build (`npm run build`,
-output directory `dist`) and deploy, no manual step. Current URL:
-`https://master.d68esdk03yoqv.amplifyapp.com`.
+output directory `dist`) and deploy, no manual step. Live at
+**https://secarsenal.org** (also reachable at
+`https://master.d68esdk03yoqv.amplifyapp.com`, Amplify's default
+domain, which stays active alongside the custom one).
 
-The `secarsenal.org` domain is not yet registered. AWS Route 53
-registration for it was blocked by an unexplained account-level
-restriction on additional domain registrations (see the closed AWS
-Support case) — rather than wait on that, the domain will be
-registered through a different registrar entirely and pointed at this
-Amplify app via a custom-domain CNAME, keeping hosting on AWS as-is.
-Once registered, attaching it is Amplify's "Add custom domain" button;
-no other setup needed. A Cloudflare Workers migration was scoped as a
+`secarsenal.org` is registered through **Cloudflare Registrar** (AWS
+Route 53 registration was blocked by an unexplained account-level
+restriction — see the closed AWS Support case referenced in git
+history — so the domain was registered elsewhere rather than waiting
+on that, and pointed at this Amplify app via CNAME, keeping hosting on
+AWS as-is). DNS is hosted on Cloudflare (not Route 53): three CNAME
+records — the apex (`@`), `www`, and Amplify's ACM certificate
+validation record — all set to **DNS only** (not proxied through
+Cloudflare), added via `Domain association` on the Amplify app
+(`d68esdk03yoqv`) using `CreateDomainAssociation`. Cloudflare can't
+literally serve a CNAME at the zone apex per DNS spec, so it flattens
+that record to the CloudFront distribution's real A/AAAA addresses at
+resolve time — Amplify's own domain-status check accepts this
+(`AVAILABLE` once verified), even though the per-subdomain detail for
+the apex can still show `verified: false` — that's cosmetic, not a
+sign anything is broken. A Cloudflare Workers migration was scoped as a
 fallback (`wrangler.jsonc` in the repo root is a real config for that
 path, following Cloudflare's current recommended static-assets-Worker
 setup, but has not yet been exercised with an actual deploy) but isn't

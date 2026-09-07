@@ -11,7 +11,11 @@ customHeaders:
         value: 'strict-origin-when-cross-origin'
       - key: 'Permissions-Policy'
         value: 'geolocation=(), microphone=(), camera=()'
-      # Strict-Transport-Security (with preload) is deliberately not set
-      # yet — see SECURITY.md. It's a hard-to-reverse commitment best
-      # made once the real secarsenal.org domain is live, not on the
-      # interim *.amplifyapp.com hostname.
+      - key: 'Strict-Transport-Security'
+        value: 'max-age=63072000; includeSubDomains'
+      # No "preload" directive — submitting to browsers' HSTS preload
+      # list is effectively permanent (removal takes months even after
+      # reverting this header), so that's a separate, later decision
+      # once the domain/subdomain setup has proven stable. This
+      # unpreloaded form is fully reversible: just change or remove the
+      # header. See SECURITY.md.
