@@ -26,8 +26,8 @@ installed using the apt package manager known from the Debian and Ubuntu Linux
 distributions. Access the built-in help by long-pressing anywhere on the
 terminal and selecting the Help menu option to learn more.
 
-Read help online: <a href="https://wiki.termux.com/">https://wiki.termux.com/</a>
+Read help online: https://wiki.termux.com/ (https://wiki.termux.com/)
 
-Reddit Community: <a href="https://termux.com/community">https://termux.com/community</a>
+Reddit Community: https://termux.com/community (https://termux.com/community)
 
 Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

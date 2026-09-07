@@ -92,15 +92,39 @@ function localized(field) {
   return field['en-US'] ?? Object.values(field)[0];
 }
 
+const HTML_ENTITIES = { amp: '&', lt: '<', gt: '>', quot: '"', '#39': "'", apos: "'", nbsp: ' ' };
+
+// F-Droid app listings are free-text HTML (an app dev's own store
+// description), unlike every other source's plain-text fields — left
+// unstripped, a literal `<a href="...">text</a>` or `<script>` would
+// land raw in the generated markdown body. This project's other 10
+// sync scripts never need this because their sources are already
+// plain text. Strips tags to plain text rather than converting to
+// markdown, since these are one-off promotional blurbs, not content
+// worth preserving link-for-link.
+function stripHtml(html) {
+  return html
+    .replace(/<a\s+[^>]*href=["']([^"']+)["'][^>]*>(.*?)<\/a>/gis, '$2 ($1)')
+    .replace(/<br\s*\/?>/gi, '\n')
+    .replace(/<\/(p|li|div)>/gi, '\n')
+    .replace(/<[^>]+>/g, '')
+    .replace(/&(#39|apos|amp|lt|gt|quot|nbsp);/g, (_, e) => HTML_ENTITIES[e])
+    .replace(/[ \t]+\n/g, '\n')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
+}
+
 function parseApps(index) {
   const apps = [];
   for (const [appId, pkg] of Object.entries(index.packages ?? {})) {
     if (EXCLUDED_APP_IDS.has(appId)) continue;
     const m = pkg.metadata ?? {};
     const name = localized(m.name);
-    const summary = localized(m.summary);
-    if (!name || !summary) continue;
-    const description = localized(m.description);
+    const rawSummary = localized(m.summary);
+    if (!name || !rawSummary) continue;
+    const summary = stripHtml(rawSummary);
+    const rawDescription = localized(m.description);
+    const description = rawDescription ? stripHtml(rawDescription) : undefined;
     // Prefer the app's own homepage, then its source repo, then its
     // issue tracker — the same "most official, most specific" fallback
     // chain FLARE VM/OSINT Framework use for a missing preferred field.

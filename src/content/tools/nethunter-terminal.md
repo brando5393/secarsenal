@@ -13,5 +13,4 @@ license: "GPL-2.0-or-later"
 A modern-designed android terminal emulator for the 21st century based
 on NeoTerm.
 
-
 Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

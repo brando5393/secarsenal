@@ -15,8 +15,6 @@ Search for specific terms or any popular queries and start browsing connected de
 
 Privacy policy: https://github.com/PaulSec/Shodan.io-mobile-app/blob/master/privacy_policy.md
 
-
 This app is built and signed by Kali NetHunter.
-
 
 Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

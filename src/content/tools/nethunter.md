@@ -13,5 +13,4 @@ license: "GPL-2.0-or-later"
 This is the next-gen Kali NetHunter application, which acts as an
 installer, updater, and interface for the Kali Linux chroot.
 
-
 Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

@@ -59,8 +59,6 @@ bVNC is a secure, open source VNC client. Its features include:
 - On-device help on available input modes in the Menu when connected
 - Hacker's Keyboard is recommended
 
-
 This app is built and signed by Kali NetHunter.
-
 
 Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).
