@@ -103,7 +103,7 @@ Requires Node >= 22.12 (see `engines` in `package.json`).
 
 The two collections are sourced very differently:
 
-- **`src/content/tools/`** is entirely **generated**, from eight
+- **`src/content/tools/`** is entirely **generated**, from nine
   official sources:
   - `scripts/sync-kali-tools.mjs` — [Kali's own tool pages](https://www.kali.org/tools/all-tools/)
     (779 tools), one fetch per tool page.
@@ -162,10 +162,20 @@ The two collections are sourced very differently:
     plain markdown links straight to each one's own upstream repo or
     homepage — genuinely structured and official, so it gets a real
     sync script instead.
+  - `scripts/sync-osint-framework-tools.mjs` — [OSINT Framework's own
+    data file](https://github.com/lockfale/OSINT-Framework) (695
+    additional tools not already covered, out of ~1,100 raw entries
+    after dropping the framework's own `deprecated`/`googleDork` flags,
+    the "Training" category, entries with no description, and 154 dead
+    links). Unlike the other eight sources, OSINT Framework isn't a
+    specific distro's bundled tool list — it's a curated third-party
+    inventory (the same role Rawsec plays for OS discovery), so its
+    entries get `commonlyOn: []` and `platforms: ["Web"]` rather than
+    an OS attribution.
 
   Earlier sources are treated as authoritative over later ones wherever
   they list the same tool (Kali > BlackArch > REMnux > Tails >
-  Security Onion > ArchStrike > FLARE VM > T-Pot): each
+  Security Onion > ArchStrike > FLARE VM > T-Pot > OSINT Framework): each
   sync skips any slug already owned by an earlier one (tracked via
   `scripts/manifests/*.json`) rather than overwriting richer existing
   data. Each sync script only ever deletes
