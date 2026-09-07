@@ -1,0 +1,77 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import CategoryIcon from '../../components/CategoryIcon.astro';
+import { getCollection } from 'astro:content';
+import { getCategoryBucket, getAllBuckets } from '../../lib/categoryIcons';
+import { getLinkableToolCategories } from '../../lib/toolCategoryPages';
+
+// The inverse entry point to /categories: that page explains what an
+// upstream category label *means* ("here's what 'webapp' is"); this
+// one leads with what a reader is trying to *do* ("I want to test a
+// web app") and links straight into the matching /tools/category/<x>
+// pages — the same navigation pattern GTFOBins/LOLBAS/D3FEND use
+// (goal/technique first, not taxonomy first).
+//
+// Deliberately reuses categoryIcons.ts's existing 19 buckets rather
+// than inventing a second, parallel taxonomy — those bucket labels
+// (Exploitation, Password attacks, Wireless, Forensics, ...) are
+// already plain-language, not upstream jargon, so grouping the site's
+// raw category strings under them is editorial curation of an
+// existing mapping, not new data to invent or keep in sync by hand.
+const entries = await getCollection('tools');
+const linkable = getLinkableToolCategories(entries);
+
+const byBucketLabel = new Map<string, { icon: string; color: string; categories: Set<string> }>();
+for (const category of linkable) {
+  const bucket = getCategoryBucket(category);
+  if (bucket.label === 'General') continue; // the fallback bucket isn't a "goal" — it's everything that didn't match one
+  if (!byBucketLabel.has(bucket.label)) {
+    byBucketLabel.set(bucket.label, { icon: bucket.icon, color: bucket.color, categories: new Set() });
+  }
+  byBucketLabel.get(bucket.label)!.categories.add(category);
+}
+// Preserve categoryIcons.ts's own declaration order (roughly offense →
+// credentials → forensics/defense → recon/web → network/wireless →
+// platform) rather than an alphabetical or count-based sort.
+const orderedLabels = getAllBuckets()
+  .map((b) => b.bucket.label)
+  .filter((label, i, arr) => arr.indexOf(label) === i && byBucketLabel.has(label));
+const goals = orderedLabels.map((label) => ({ label, ...byBucketLabel.get(label)! }));
+
+const pageDescription = `Browse SecArsenal's tool catalog by what you're trying to do, not by upstream category jargon.`;
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Browse Tools by Goal',
+  description: pageDescription,
+  url: new URL('/tools/goals/', Astro.site).toString(),
+  isPartOf: { '@type': 'WebSite', name: 'SecArsenal', url: Astro.site?.toString() },
+};
+---
+
+<BaseLayout title="Browse by Goal" description={pageDescription} structuredData={structuredData}>
+  <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Tools', href: '/tools' }, { label: 'Browse by Goal' }]} />
+  <h1 class="text-3xl font-bold text-white">Browse tools by goal</h1>
+  <p class="mt-3 max-w-2xl text-gray-300">
+    Grouped by what you're trying to do, not by which upstream project's category vocabulary a
+    tool happens to be tagged with. See the <a class="text-emerald-400 hover:text-emerald-300" href="/categories">category key</a> for
+    what each individual badge means, or <a class="text-emerald-400 hover:text-emerald-300" href="/tools">browse everything</a>.
+  </p>
+
+  <div class="mt-8 grid grid-cols-1 gap-4 sm:grid-cols-2">
+    {goals.map((goal) => (
+      <div class="card rounded-lg border border-gray-800 bg-gray-900 p-5">
+        <div class="flex items-center gap-3">
+          <CategoryIcon icon={goal.icon} color={goal.color} />
+          <h2 class="font-semibold text-white">{goal.label}</h2>
+        </div>
+        <div class="mt-3 flex flex-wrap gap-2">
+          {[...goal.categories].sort().map((c) => (
+            <a href={`/tools/category/${c}`} class="inline-block rounded-full bg-gray-800 px-3 py-1 text-xs text-gray-300 no-underline hover:bg-gray-700 hover:text-white">{c}</a>
+          ))}
+        </div>
+      </div>
+    ))}
+  </div>
+</BaseLayout>
