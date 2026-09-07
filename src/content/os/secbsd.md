@@ -6,7 +6,7 @@ team: red
 basedOn: OpenBSD
 lastVerified: 2026-09-06
 docsUrl: https://secbsd.org/
-downloadUrl: https://mirror.secbsd.org/pub/SecBSD/snapshots/amd64/install20.img
+downloadUrl: https://mirror.laylo.nl/pub/SecBSD/snapshots/amd64/install18.img
 toolListMaintenance: manual
 notableTools:
   - metasploit-framework
