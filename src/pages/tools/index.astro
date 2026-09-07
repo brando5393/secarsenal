@@ -7,12 +7,26 @@ import { getToolTeam } from '../../lib/toolTeam';
 
 const entries = await getCollection('tools');
 const categoryCounts = new Map<string, number>();
+const platformCounts = new Map<string, number>();
+const commonlyOnCounts = new Map<string, number>();
 for (const entry of entries) {
   for (const c of entry.data.categories) {
     categoryCounts.set(c, (categoryCounts.get(c) ?? 0) + 1);
   }
+  for (const p of entry.data.platforms) {
+    platformCounts.set(p, (platformCounts.get(p) ?? 0) + 1);
+  }
+  for (const o of entry.data.commonlyOn) {
+    commonlyOnCounts.set(o, (commonlyOnCounts.get(o) ?? 0) + 1);
+  }
 }
 const categories = [...categoryCounts.keys()].sort();
+// Platforms (Linux/Windows) and commonlyOn (which of the 8 synced
+// distros a tool ships on) are collected on every tool already and
+// printed on its own page, but weren't wired up as filters here the
+// way category/team are — the data existed, the connection didn't.
+const platforms = [...platformCounts.keys()].sort();
+const commonlyOnOptions = [...commonlyOnCounts.keys()].sort();
 
 const INPUT_CLASS =
   'w-full rounded-lg border border-gray-700 bg-gray-900 px-3 py-2.5 text-gray-100 placeholder-gray-500 focus:border-emerald-500 focus:outline-none focus:ring-1 focus:ring-emerald-500';
@@ -90,6 +104,37 @@ const structuredData = {
     (GIMP, LibreOffice) aren't team tools at all and are left unclassified rather than guessed.
   </p>
 
+  <div class="mt-4 flex flex-wrap items-center gap-2" id="platform-filter-bar" data-default="all">
+    <span class="mr-1 text-xs uppercase tracking-wide text-gray-400">Platform</span>
+    <button
+      type="button"
+      aria-pressed="true"
+      data-platform="all"
+      class="rounded-full border border-gray-700 bg-gray-900 px-3 py-1.5 text-sm text-gray-300 transition-colors aria-pressed:border-emerald-500 aria-pressed:text-white"
+      >All</button
+    >
+    {platforms.map((p) => (
+      <button
+        type="button"
+        aria-pressed="false"
+        data-platform={p}
+        class="rounded-full border border-gray-700 bg-gray-900 px-3 py-1.5 text-sm text-gray-300 transition-colors aria-pressed:border-emerald-500 aria-pressed:text-white"
+        >{p} ({platformCounts.get(p)})</button
+      >
+    ))}
+  </div>
+
+  <label for="commonly-on-filter" class="mt-4 block text-sm text-gray-400">Commonly on</label>
+  <select
+    id="commonly-on-filter"
+    class={`mt-1 max-w-sm ${INPUT_CLASS}`}
+  >
+    <option value="all">Any OS ({entries.length})</option>
+    {commonlyOnOptions.map((o) => (
+      <option value={o}>{o} ({commonlyOnCounts.get(o)})</option>
+    ))}
+  </select>
+
   <p id="result-count" class="mt-3 text-sm text-gray-400"></p>
 
   <div class="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3" id="card-grid">
@@ -100,6 +145,8 @@ const structuredData = {
           class="card block rounded-lg border border-gray-800 bg-gray-900 p-5 no-underline transition-colors hover:border-emerald-500"
           href={`/tools/${entry.id}`}
           data-categories={entry.data.categories.join(',')}
+          data-platforms={entry.data.platforms.join(',')}
+          data-commonly-on={entry.data.commonlyOn.join(',')}
           data-team={team ?? ''}
           data-name={entry.data.name.toLowerCase()}
         >

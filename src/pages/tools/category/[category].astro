@@ -43,6 +43,15 @@ const TEAM_BADGE_CLASSES: Record<string, string> = {
   blue: 'bg-blue-950/60 text-blue-400',
 };
 
+const platformCounts = new Map<string, number>();
+const commonlyOnCounts = new Map<string, number>();
+for (const entry of matches) {
+  for (const p of entry.data.platforms) platformCounts.set(p, (platformCounts.get(p) ?? 0) + 1);
+  for (const o of entry.data.commonlyOn) commonlyOnCounts.set(o, (commonlyOnCounts.get(o) ?? 0) + 1);
+}
+const platforms = [...platformCounts.keys()].sort();
+const commonlyOnOptions = [...commonlyOnCounts.keys()].sort();
+
 const pageDescription = `${matches.length} pentesting tools tagged "${category}" — searchable by name and filterable by team.`;
 const structuredData = {
   '@context': 'https://schema.org',
@@ -91,6 +100,43 @@ const structuredData = {
     ))}
   </div>
 
+  {platforms.length > 1 && (
+    <div class="mt-4 flex flex-wrap items-center gap-2" id="platform-filter-bar" data-default="all">
+      <span class="mr-1 text-xs uppercase tracking-wide text-gray-400">Platform</span>
+      <button
+        type="button"
+        aria-pressed="true"
+        data-platform="all"
+        class="rounded-full border border-gray-700 bg-gray-900 px-3 py-1.5 text-sm text-gray-300 transition-colors aria-pressed:border-emerald-500 aria-pressed:text-white"
+        >All</button
+      >
+      {platforms.map((p) => (
+        <button
+          type="button"
+          aria-pressed="false"
+          data-platform={p}
+          class="rounded-full border border-gray-700 bg-gray-900 px-3 py-1.5 text-sm text-gray-300 transition-colors aria-pressed:border-emerald-500 aria-pressed:text-white"
+          >{p} ({platformCounts.get(p)})</button
+        >
+      ))}
+    </div>
+  )}
+
+  {commonlyOnOptions.length > 1 && (
+    <>
+      <label for="commonly-on-filter" class="mt-4 block text-sm text-gray-400">Commonly on</label>
+      <select
+        id="commonly-on-filter"
+        class="mt-1 max-w-sm rounded-lg border border-gray-700 bg-gray-900 px-3 py-2.5 text-gray-100 focus:border-emerald-500 focus:outline-none focus:ring-1 focus:ring-emerald-500"
+      >
+        <option value="all">Any OS ({matches.length})</option>
+        {commonlyOnOptions.map((o) => (
+          <option value={o}>{o} ({commonlyOnCounts.get(o)})</option>
+        ))}
+      </select>
+    </>
+  )}
+
   <p id="result-count" class="mt-3 text-sm text-gray-400"></p>
 
   <div class="mt-4 grid grid-cols-1 gap-4 sm:grid-cols-2 md:grid-cols-3" id="card-grid">
@@ -101,6 +147,8 @@ const structuredData = {
           class="card block rounded-lg border border-gray-800 bg-gray-900 p-5 no-underline transition-colors hover:border-emerald-500"
           href={`/tools/${entry.id}`}
           data-categories={entry.data.categories.join(',')}
+          data-platforms={entry.data.platforms.join(',')}
+          data-commonly-on={entry.data.commonlyOn.join(',')}
           data-team={team ?? ''}
           data-name={entry.data.name.toLowerCase()}
         >

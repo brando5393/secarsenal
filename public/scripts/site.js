@@ -194,32 +194,61 @@ function initToolsFilter() {
   // design rather than bailing out entirely for one absent control.
   const categoryFilter = document.getElementById('category-filter');
   const teamFilterBar = document.getElementById('team-filter-bar');
+  const platformFilterBar = document.getElementById('platform-filter-bar');
+  const commonlyOnFilter = document.getElementById('commonly-on-filter');
   const resultCount = document.getElementById('result-count');
   if (!nameFilter || !resultCount) return;
 
   const cards = [...document.querySelectorAll('#card-grid .card')];
   const teamButtons = teamFilterBar ? [...teamFilterBar.querySelectorAll('button')] : [];
+  const platformButtons = platformFilterBar ? [...platformFilterBar.querySelectorAll('button')] : [];
 
-  // Pre-select a category when arriving from the homepage's "top
-  // categories" widget (/tools?category=webapp) or any other link.
-  const requestedCategory = new URLSearchParams(location.search).get('category');
+  // Every filter here is deep-linkable both ways: pre-selected from
+  // the URL on load (so a shared /tools?platform=Windows link, or the
+  // homepage's "top categories" widget, lands pre-filtered), and
+  // written back via replaceState as the visitor changes a control (no
+  // new history entries or reloads), matching the search box's own
+  // pattern above. `category` only had the read half before this.
+  const params = new URLSearchParams(location.search);
+  const requestedCategory = params.get('category');
   if (categoryFilter && requestedCategory && [...categoryFilter.options].some((o) => o.value === requestedCategory)) {
     categoryFilter.value = requestedCategory;
+  }
+  const requestedPlatform = params.get('platform');
+  if (requestedPlatform && platformButtons.some((b) => b.dataset.platform === requestedPlatform)) {
+    platformButtons.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.platform === requestedPlatform)));
+  }
+  const requestedOs = params.get('os');
+  if (commonlyOnFilter && requestedOs && [...commonlyOnFilter.options].some((o) => o.value === requestedOs)) {
+    commonlyOnFilter.value = requestedOs;
+  }
+
+  function syncUrlParam(key, value) {
+    const url = new URL(location.href);
+    if (!value || value === 'all') url.searchParams.delete(key);
+    else url.searchParams.set(key, value);
+    history.replaceState(null, '', url);
   }
 
   let activeSlugs = null;
   let activeTeam = 'all';
+  let activePlatform = requestedPlatform && platformButtons.some((b) => b.dataset.platform === requestedPlatform) ? requestedPlatform : 'all';
   let queryToken = 0;
 
   function applyFilters() {
     const category = categoryFilter ? categoryFilter.value : 'all';
+    const commonlyOn = commonlyOnFilter ? commonlyOnFilter.value : 'all';
     let visible = 0;
     for (const card of cards) {
       const matchesQuery = activeSlugs === null || activeSlugs.has(urlPath(card.href));
       const cardCategories = (card.dataset.categories ?? '').split(',');
       const matchesCategory = category === 'all' || cardCategories.includes(category);
       const matchesTeam = activeTeam === 'all' || card.dataset.team === activeTeam;
-      const show = matchesQuery && matchesCategory && matchesTeam;
+      const cardPlatforms = (card.dataset.platforms ?? '').split(',');
+      const matchesPlatform = activePlatform === 'all' || cardPlatforms.includes(activePlatform);
+      const cardCommonlyOn = (card.dataset.commonlyOn ?? '').split(',');
+      const matchesOs = commonlyOn === 'all' || cardCommonlyOn.includes(commonlyOn);
+      const show = matchesQuery && matchesCategory && matchesTeam && matchesPlatform && matchesOs;
       card.style.display = show ? '' : 'none';
       if (show) visible++;
     }
@@ -233,7 +262,23 @@ function initToolsFilter() {
     activeSlugs = slugs;
     applyFilters();
   });
-  categoryFilter?.addEventListener('change', applyFilters);
+  categoryFilter?.addEventListener('change', () => {
+    syncUrlParam('category', categoryFilter.value);
+    applyFilters();
+  });
+  commonlyOnFilter?.addEventListener('change', () => {
+    syncUrlParam('os', commonlyOnFilter.value);
+    applyFilters();
+  });
+  platformButtons.forEach((btn) => {
+    btn.addEventListener('click', () => {
+      platformButtons.forEach((b) => b.setAttribute('aria-pressed', 'false'));
+      btn.setAttribute('aria-pressed', 'true');
+      activePlatform = btn.dataset.platform;
+      syncUrlParam('platform', activePlatform);
+      applyFilters();
+    });
+  });
   teamButtons.forEach((btn) => {
     btn.addEventListener('click', () => {
       teamButtons.forEach((b) => b.setAttribute('aria-pressed', 'false'));
