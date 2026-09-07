@@ -19,7 +19,7 @@ response was missing all of these until it was.
 
 | Header | Value |
 |---|---|
-| `Content-Security-Policy` | `default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self'; object-src 'none'; base-uri 'self'; frame-ancestors 'none';` |
+| `Content-Security-Policy` | `default-src 'self'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'wasm-unsafe-eval'; object-src 'none'; base-uri 'self'; frame-ancestors 'none';` |
 | `X-Content-Type-Options` | `nosniff` |
 | `X-Frame-Options` | `DENY` |
 | `Referrer-Policy` | `strict-origin-when-cross-origin` |
@@ -57,6 +57,17 @@ guaranteeing it's never inlined, so `script-src 'self'` covers it. Each
 feature in that file feature-detects its own markup (e.g. checks for
 `#filter-bar` before wiring up filter behavior) and no-ops on pages
 that don't have it, rather than each page shipping its own script.
+
+`script-src` also carries `'wasm-unsafe-eval'` — narrower than
+`'unsafe-eval'` (which it does not otherwise grant: no string-`eval()`,
+no `Function()` constructor, no CSP bypass for either), it permits only
+WebAssembly compilation/instantiation. Pagefind's search index runs as
+WASM in a Worker, and without this, `WebAssembly.instantiate()` throws
+a CSP violation and full-text search silently stops working (the
+per-page name-based filters in `public/scripts/site.js` keep working
+regardless, since those never touch Pagefind) — caught by testing
+search on the actual deployed site with the browser console open, not
+just a local build.
 
 **If you add new client-side interactivity:** add it to
 `public/scripts/site.js` (plain JS, not processed by Astro/TypeScript)
