@@ -65,14 +65,15 @@ silently fail under this CSP.
 
 ## Client-side storage (privacy)
 
-The site has no backend, no analytics, and no cookies. Two small
-`localStorage` entries are written directly in the visitor's own
+The site has no backend, no analytics, and no cookies. A small number
+of `localStorage` entries are written directly in the visitor's own
 browser and are never transmitted anywhere:
 
 | Key | Purpose | Written by |
 |---|---|---|
 | `sa_disclaimer_ack_v1` | Remembers that the visitor dismissed the first-visit acknowledgment dialog, so it isn't shown again. The `_v1` suffix lets us force it to reappear in the future if the acknowledgment text changes materially — bump the suffix and old values stop matching. | `initAckModal()` in `public/scripts/site.js` |
 | `sa_category_visits` | Per-category visit counts used only to re-rank the homepage's "top categories" widget toward what that visitor actually browses. | `trackCategoryVisit()` in `public/scripts/site.js` |
+| `sa_a11y_prefs_v1` | The visitor's accessibility panel toggles (larger text, extra spacing, high contrast, always-underline links, strong focus outline, reduced motion), so they persist across visits. | `public/scripts/a11y.js` |
 
 Both are read/write-wrapped in `try/catch` and no-op if storage is
 unavailable (private browsing, disabled storage, etc.) rather than

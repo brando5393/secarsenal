@@ -20,20 +20,49 @@ see [`/disclaimer`](./src/pages/disclaimer.astro).
   `postbuild` step — only available after `npm run build`, not in
   `dev`), scoped to real content via `data-pagefind-body`, weighted so
   exact-name matches rank first, and filterable by `type`/`category`/
-  `team`. `/rss.xml` (`src/pages/rss.xml.ts`, via `@astrojs/rss`) is a
-  separate feed of just the OS collection (tools are bulk-synced
-  monthly — a feed entry per tool would be noise).
+  `team`/`platform`/`commonly-on`. `/rss.xml` (`src/pages/rss.xml.ts`,
+  via `@astrojs/rss`) is a separate feed of just the OS collection
+  (tools are bulk-synced monthly — a feed entry per tool would be
+  noise).
 - All client-side interactivity lives in one plain-JS file,
-  `public/scripts/site.js` — see the "Client-side scripts and CSP"
-  section of `SECURITY.md` for why (short version: our CSP blocks
+  `public/scripts/site.js` (plus `public/scripts/a11y.js` for the
+  accessibility panel, same pattern) — see the "Client-side scripts and
+  CSP" section of `SECURITY.md` for why (short version: our CSP blocks
   Astro's default inline-script bundling)
-- JSON-LD structured data (`SoftwareApplication` on every OS/tool page,
-  `WebSite` with a `SearchAction` on the homepage) via a `structuredData`
-  prop on `BaseLayout.astro`
-- A hand-judged `team: 'red' | 'blue' | 'purple'` field on OS entries
-  (see `src/content.config.ts`), and a best-effort equivalent for tools
-  derived at render time from each tool's categories (`src/lib/toolTeam.ts`)
-  — both are UI-only filters, not sourced from any upstream taxonomy
+- JSON-LD structured data via a `structuredData` prop on
+  `BaseLayout.astro`: `SoftwareApplication` on every OS/tool page,
+  `WebSite` with a `SearchAction` on the homepage, `CollectionPage` on
+  every index/category/browse page, and `BreadcrumbList` emitted
+  automatically by `Breadcrumbs.astro` everywhere it's used, generated
+  from the same `items` prop the visible breadcrumb nav renders so the
+  two can't drift apart.
+- A hand-judged `team: 'red' | 'blue'` field on OS entries (see
+  `src/content.config.ts`'s comment for why there's deliberately no
+  `purple` — no authoritative source treats purple-teaming as a
+  property a single tool/platform can hold), and a best-effort
+  equivalent for tools derived at render time from each tool's
+  categories (`src/lib/toolTeam.ts`) — both are UI-only filters, not
+  sourced from any upstream taxonomy. Sourced definitions for both
+  live at `/categories#team-classification`.
+- `src/lib/attackTactics.ts` links a tool's category to the matching
+  official MITRE ATT&CK tactic page when the category string is an
+  exact match to one of the 14 ATT&CK Enterprise tactic names (several
+  of ArchStrike's own categories are) — pure linking to an external
+  authoritative source, not a second taxonomy to maintain.
+- Crawlable, filterable pages beyond the two collection indexes:
+  `/os/category/<category>` and `/tools/category/<category>` (one per
+  category with enough entries to be worth a page — see
+  `src/lib/toolCategoryPages.ts`), `/tools/goals` (a hand-curated,
+  plain-language regrouping of the same category data for someone who
+  doesn't already know Kali/BlackArch's category vocabulary), and
+  `/data-freshness` (per-source sync counts and staleness, computed
+  live from the content collections, not hand-maintained).
+- A first-party accessibility panel (`public/scripts/a11y.js`,
+  markup in `BaseLayout.astro`) — larger text, extra spacing, high
+  contrast, always-underline links, a stronger focus outline, and
+  reduced motion, each toggleable and persisted in `localStorage`. Not
+  a third-party overlay-widget script; it's real CSS/JS in this
+  codebase layered on top of already-accessible markup.
 
 ## Getting started
 
@@ -140,11 +169,12 @@ The two collections are sourced very differently:
   date you personally confirmed the URLs/details), `docsUrl`, and
   `downloadUrl`/`repoUrl` where applicable. The Markdown body is the
   page's main description; `gettingStarted` is a short plain-text blurb.
-  `team` (`red`/`blue`/`purple`) is optional — a hand judgment based on
-  the distro's actual nature (see the `review-os-candidates` skill and
-  `src/lib/toolTeam.ts`'s comments for the reasoning), left unset for
-  entries that aren't a security-team tool at all (privacy/opsec OSes
-  like Tails or Whonix, general rescue distros like SystemRescue).
+  `team` (`red`/`blue`, no `purple` — see `src/content.config.ts`'s
+  comment) is optional — a hand judgment based on the distro's actual
+  nature (see the `review-os-candidates` skill and `src/lib/toolTeam.ts`'s
+  comments for the reasoning), left unset for entries that aren't a
+  security-team tool at all (privacy/opsec OSes like Tails or Whonix,
+  general rescue distros like SystemRescue).
 
 ## Content freshness
 
@@ -167,11 +197,11 @@ The two collections are sourced very differently:
   several distros added from the Rawsec discovery pipeline (Athena OS,
   BackBox, Demon Linux, Fedora Security Lab, CSI Linux, SIFT, Tsurugi
   Linux, Wifislax, DragonOS, Whonix, Linux Kodachi, Qubes OS, NST,
-  CommandoVM, Kali NetHunter) have no official, structured, per-tool
-  listing upstream — either nothing dedicated at all, a list with no
-  per-tool links (can't populate `docsUrl`), or one that mixes real
-  tools with generic OS packages/software with no reliable way to tell
-  them apart (the same reason Pentoo's overlay was rejected). Their
+  CommandoVM, Kali NetHunter, SecBSD) have no official, structured,
+  per-tool listing upstream — either nothing dedicated at all, a list
+  with no per-tool links (can't populate `docsUrl`), or one that mixes
+  real tools with generic OS packages/software with no reliable way to
+  tell them apart (the same reason Pentoo's overlay was rejected). Their
   `notableTools` are hand-maintained and can't be freshness-checked
   automatically. Their `os/*.md` entries are marked
   `toolListMaintenance: manual`, which the site surfaces as
@@ -194,7 +224,11 @@ The two collections are sourced very differently:
   verifies the guessed fields, writes a real getting-started summary,
   and decides whether the distro belongs on the site at all before
   merging. This only ever adds candidate files; it never edits or
-  removes an existing OS entry.
+  removes an existing OS entry. A candidate explicitly rejected during
+  review (out of scope, or confirmed archived despite Rawsec listing it
+  as maintained) gets added to `scripts/manifests/discover-os-rejected.json`
+  so it isn't re-drafted every month forever — reachability alone can't
+  tell an abandoned project's still-live old site from a real one.
 
 None of the above workflows runs a live backend — they're scheduled,
 one-shot jobs that commit/PR static files, keeping the deployed site
@@ -219,11 +253,21 @@ Code is licensed under [MIT](./LICENSE). Content under `src/content/`
 Live on **AWS Amplify Hosting**, connected to this repo's `master`
 branch — every push triggers an automatic build (`npm run build`,
 output directory `dist`) and deploy, no manual step. Current URL:
-`https://master.d68esdk03yoqv.amplifyapp.com` (the `secarsenal.org`
-custom domain is registered but pending — see `SECURITY.md`/project
-notes for the AWS Support case tracking a Route 53 registration
-block; once it resolves, attaching the domain is just Amplify's
-"Add custom domain" button, no other setup needed).
+`https://master.d68esdk03yoqv.amplifyapp.com`.
+
+The `secarsenal.org` domain is not yet registered. AWS Route 53
+registration for it was blocked by an unexplained account-level
+restriction on additional domain registrations (see the closed AWS
+Support case) — rather than wait on that, the domain will be
+registered through a different registrar entirely and pointed at this
+Amplify app via a custom-domain CNAME, keeping hosting on AWS as-is.
+Once registered, attaching it is Amplify's "Add custom domain" button;
+no other setup needed. A Cloudflare Workers migration was scoped as a
+fallback (`wrangler.jsonc` in the repo root is a real config for that
+path, following Cloudflare's current recommended static-assets-Worker
+setup, but has not yet been exercised with an actual deploy) but isn't
+the active plan — Amplify hosting stays unless a concrete reason to
+move it comes up.
 
 Response headers (`SECURITY.md`) are set via `customHttp.yml` in the
 repo root, which Amplify reads automatically on every build — no
