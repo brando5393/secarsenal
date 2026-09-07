@@ -62,4 +62,97 @@
     background-repeat: repeat;
     background-size: 200px 60px;
   }
+
+  /* --- User-controlled accessibility toggles ---------------------------
+     Applied as classes on <html> by public/scripts/a11y.js, one per
+     switch in the accessibility panel (see BaseLayout.astro). These are
+     genuine first-party CSS controls layered on top of markup that's
+     already built to be accessible on its own (semantic headings,
+     labelled controls, a keyboard-operable nav, a real focus order) —
+     the opposite of a third-party "accessibility overlay" script, which
+     disability advocates and the FTC (accessiBe, Jan 2025) have
+     criticized for papering over broken markup while claiming
+     compliance it doesn't deliver. Nothing here claims "WCAG compliant";
+     it's a readability/comfort layer the underlying site didn't need to
+     become usable in the first place. */
+
+  html.a11y-larger-text {
+    font-size: 118%;
+  }
+
+  /* Loosely inspired by WCAG 2.1/2.2 SC 1.4.12 (Text Spacing), which
+     defines the *maximum* spacing a page must still tolerate without
+     breaking (line-height >=1.5x, letter-spacing >=0.12em, word-spacing
+     >=0.16em). Those literal values read as broken on this site's dense
+     nav/badges, so this dials in a more moderate but still meaningfully
+     looser spacing for the reading content specifically, rather than
+     the exact test values everywhere. */
+  html.a11y-spacing #main-content {
+    line-height: 1.75;
+    letter-spacing: 0.02em;
+    word-spacing: 0.06em;
+  }
+  html.a11y-spacing #main-content p {
+    margin-bottom: 1.25em;
+  }
+
+  /* Strengthens the muted-text/border contrast used throughout the card
+     grids, nav, and footer, and drops the decorative dot-grid/binary
+     background textures that add visual noise without content value. */
+  html.a11y-high-contrast body {
+    background-image: none;
+  }
+  html.a11y-high-contrast .binary-bg {
+    background-image: none;
+  }
+  html.a11y-high-contrast .text-gray-400,
+  html.a11y-high-contrast .text-gray-500 {
+    color: #e5e7eb;
+  }
+  html.a11y-high-contrast .border-gray-800,
+  html.a11y-high-contrast .border-gray-700 {
+    border-color: #9ca3af;
+  }
+
+  html.a11y-underline-links a:not(.card) {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+
+  /* WCAG 2.2 SC 2.4.13 (Focus Appearance, AAA) asks for a focus
+     indicator with real size and contrast; this makes the existing
+     emerald focus treatment much harder to miss, including on the
+     search/filter inputs that otherwise rely on a subtle focus:ring. */
+  html.a11y-strong-focus *:focus-visible {
+    outline: 3px solid #34d399 !important;
+    outline-offset: 3px !important;
+    box-shadow: 0 0 0 6px rgba(52, 211, 153, 0.35) !important;
+    border-radius: 2px;
+  }
+
+  html.a11y-reduce-motion *,
+  html.a11y-reduce-motion *::before,
+  html.a11y-reduce-motion *::after {
+    transition-duration: 0.001ms !important;
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+
+  /* The site has no keyframe animations today, only hover/focus color
+     transitions — so there isn't much motion to reduce yet — but
+     prefers-reduced-motion wasn't honored at all before this, which is
+     worth fixing as a baseline independent of the manual toggle above
+     (OS-level settings aren't equally easy for every visitor to find or
+     change). */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      transition-duration: 0.001ms !important;
+      animation-duration: 0.001ms !important;
+      animation-iteration-count: 1 !important;
+      scroll-behavior: auto !important;
+    }
+  }
 }
