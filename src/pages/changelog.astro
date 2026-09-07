@@ -1,0 +1,253 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { execFileSync } from 'node:child_process';
+import { readFileSync } from 'node:fs';
+import matter from 'gray-matter';
+
+// A monthly "what changed" digest, computed from real git history at
+// build time — not a hand-maintained log, and deliberately not a feed
+// entry per tool (the README already correctly rejects that: bulk-
+// synced monthly, thousands at a time, would be pure noise). Amplify
+// does a full (non-shallow) `git clone` on every build — confirmed by
+// reading an actual build log, not assumed — so this history is really
+// there in production, not just in a local dev checkout.
+//
+// Real finding from building this: every monthly tools sync re-stamps
+// `lastVerified` on every tool it touches, whether or not anything
+// else about that tool changed (verified directly — e.g. aircrack-ng's
+// September sync commit changed nothing but that one date). A naive
+// "N files modified this month" count would therefore report ~4,000
+// false "updates" every month, recreating exactly the noise problem
+// this feature exists to avoid. So: tools only ever get real Added/
+// Removed counts here (a file's *first* appearance vs. its removal —
+// both are unambiguous from git status codes and need no content
+// comparison). "Updated" is not tracked for tools at all; it isn't a
+// meaningful signal given how the sync scripts work.
+//
+// OS entries are hand-edited, rare, and worth naming individually (the
+// existing /rss.xml is OS-only for the same reason) — for those, a
+// change is only counted as a real "updated" if the content differs
+// after stripping the `lastVerified` line, so a plain re-verification
+// pass doesn't masquerade as a content change. This costs one extra
+// `git show` diff per OS change, which is cheap at OS-entry volume
+// (~50 entries, a handful of edits a month) — the same approach would
+// be far too slow to run per-tool at ~4,000 files.
+const MONTHS_BACK = 12;
+const LAST_VERIFIED_RE = /^lastVerified:.*$/m;
+
+interface MonthBucket {
+  month: string; // YYYY-MM
+  osAdded: { name: string; slug: string }[];
+  osUpdated: { name: string; slug: string }[];
+  osRemoved: string[];
+  toolsAdded: number;
+  toolsRemoved: number;
+}
+
+function runGit(args: string[]): string | null {
+  try {
+    return execFileSync('git', args, { encoding: 'utf8', maxBuffer: 1024 * 1024 * 128 });
+  } catch {
+    return null; // no git available, or history doesn't reach this far — degrade, don't fail the build
+  }
+}
+
+function stripLastVerified(content: string | null): string | null {
+  return content === null ? null : content.replace(LAST_VERIFIED_RE, '');
+}
+
+function nameFromPath(path: string): { slug: string; name: string } {
+  const slug = path.replace(/^src\/content\/os\//, '').replace(/\.md$/, '');
+  // Prefer the file's current name field if it still exists on disk
+  // (survives renames of the display name after the slug was set);
+  // fall back to the slug itself for a file that's since been removed.
+  try {
+    const { data } = matter(readFileSyncSafe(path) ?? '');
+    return { slug, name: data.name ?? slug };
+  } catch {
+    return { slug, name: slug };
+  }
+}
+
+function readFileSyncSafe(path: string): string | null {
+  try {
+    return readFileSync(path, 'utf8');
+  } catch {
+    return null;
+  }
+}
+
+function buildDigest(): MonthBucket[] | null {
+  const raw = runGit([
+    'log',
+    `--since=${MONTHS_BACK} months ago`,
+    '--name-status',
+    '--pretty=format:COMMIT_START|%H|%ad',
+    '--date=format:%Y-%m',
+    '--',
+    'src/content/os',
+    'src/content/tools',
+  ]);
+  if (raw === null) return null;
+
+  // Parse into per-path chronological event lists (git log is newest
+  // first; reverse each list to process oldest-first below).
+  const events = new Map<string, { date: string; status: string; hash: string }[]>();
+  let currentHash = '';
+  let currentDate = '';
+  for (const line of raw.split('\n')) {
+    if (line.startsWith('COMMIT_START|')) {
+      const [, hash, date] = line.split('|');
+      currentHash = hash;
+      currentDate = date;
+      continue;
+    }
+    const match = line.match(/^([AMD])\s+(.+)$/);
+    if (!match) continue;
+    const [, status, path] = match;
+    if (!events.has(path)) events.set(path, []);
+    events.get(path)!.push({ date: currentDate, status, hash: currentHash });
+  }
+
+  const buckets = new Map<string, MonthBucket>();
+  function bucket(month: string): MonthBucket {
+    if (!buckets.has(month)) {
+      buckets.set(month, { month, osAdded: [], osUpdated: [], osRemoved: [], toolsAdded: 0, toolsRemoved: 0 });
+    }
+    return buckets.get(month)!;
+  }
+
+  // Per (month, path), the same file can genuinely appear more than
+  // once in raw git history — touched by two different commits in the
+  // same month (e.g. the logo batch and a later unrelated fix) — but
+  // should only ever show up once in that month's list. Tracked
+  // separately per bucket-kind since "added in the same month it was
+  // also edited again" should show once under Added, not twice.
+  const seenAddedFor = new Set<string>(); // `${month}|${path}`
+  const seenUpdatedFor = new Set<string>();
+  const seenRemovedFor = new Set<string>();
+
+  for (const [path, rawList] of events) {
+    const list = [...rawList].reverse(); // oldest first
+    const isOs = path.startsWith('src/content/os/');
+    let addedMonth: string | null = null;
+    for (const { date, status, hash } of list) {
+      if (status === 'A') {
+        addedMonth = date;
+        const key = `${date}|${path}`;
+        if (seenAddedFor.has(key)) continue;
+        seenAddedFor.add(key);
+        if (isOs) bucket(date).osAdded.push(nameFromPath(path));
+        else bucket(date).toolsAdded++;
+      } else if (status === 'D') {
+        const key = `${date}|${path}`;
+        if (seenRemovedFor.has(key)) continue;
+        seenRemovedFor.add(key);
+        if (isOs) bucket(date).osRemoved.push(nameFromPath(path).name);
+        else bucket(date).toolsRemoved++;
+      } else if (status === 'M' && isOs) {
+        // Skip a same-month edit right after the file was first added —
+        // it's already represented by the Added entry for that month,
+        // and would otherwise double-report a brand-new file as both
+        // added and updated in its own debut month.
+        if (date === addedMonth) continue;
+        const key = `${date}|${path}`;
+        if (seenUpdatedFor.has(key)) continue;
+        // Only counts as a real update if content differs once the
+        // lastVerified re-stamp itself is excluded from the comparison.
+        const before = stripLastVerified(runGit(['show', `${hash}^:${path}`]));
+        const after = stripLastVerified(runGit(['show', `${hash}:${path}`]));
+        if (before !== null && after !== null && before !== after) {
+          seenUpdatedFor.add(key);
+          bucket(date).osUpdated.push(nameFromPath(path));
+        }
+      }
+      // Tool 'M' events are intentionally never counted — see header comment.
+    }
+  }
+
+  return [...buckets.values()]
+    .filter((b) => b.osAdded.length + b.osUpdated.length + b.osRemoved.length + b.toolsAdded + b.toolsRemoved > 0)
+    .sort((a, b) => b.month.localeCompare(a.month));
+}
+
+const digest = buildDigest();
+
+const pageDescription = "What's changed in SecArsenal's catalog over time, computed from real git history — new and removed entries, not a feed entry per tool.";
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'Changelog',
+  description: pageDescription,
+  url: new URL('/changelog/', Astro.site).toString(),
+  isPartOf: { '@type': 'WebSite', name: 'SecArsenal', url: Astro.site?.toString() },
+};
+
+const monthFmt = (m: string) => new Date(`${m}-01T00:00:00Z`).toLocaleDateString('en-US', { year: 'numeric', month: 'long', timeZone: 'UTC' });
+---
+
+<BaseLayout title="Changelog" description={pageDescription} structuredData={structuredData}>
+  <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Changelog' }]} />
+  <h1 class="text-3xl font-bold text-white">Changelog</h1>
+  <p class="mt-3 max-w-2xl text-gray-300">
+    What's changed in the catalog, computed from real commit history — not a hand-maintained log,
+    and not one feed entry per tool (see <a class="text-emerald-400 hover:text-emerald-300" href="/rss.xml">the OS-only RSS feed</a> for that reasoning). Tool counts are additions and removals only — every monthly sync
+    re-stamps a "last verified" date on every tool it touches, so a raw "modified" count would
+    just report the entire catalog as "updated" every month.
+  </p>
+
+  {digest === null && (
+    <p class="mt-8 rounded-lg border border-amber-800/60 bg-amber-950/40 px-4 py-3 text-sm text-amber-200">
+      Commit history isn't available in this build environment, so the changelog can't be computed
+      right now.
+    </p>
+  )}
+
+  {digest !== null && digest.length === 0 && (
+    <p class="mt-8 text-gray-400">No catalog changes in the last {MONTHS_BACK} months.</p>
+  )}
+
+  {digest !== null && digest.length > 0 && (
+    <div class="mt-8 flex flex-col gap-6">
+      {digest.map((b) => (
+        <div class="card rounded-lg border border-gray-800 bg-gray-900 p-5">
+          <h2 class="text-lg font-semibold text-white">{monthFmt(b.month)}</h2>
+          <ul class="mt-3 flex flex-col gap-2 text-sm text-gray-300">
+            {b.osAdded.length > 0 && (
+              <li>
+                <span class="text-emerald-400">+</span> Added {b.osAdded.length} OS {b.osAdded.length === 1 ? 'entry' : 'entries'}:{' '}
+                {b.osAdded.map((e, i) => (
+                  <>
+                    {i > 0 && ', '}
+                    <a href={`/os/${e.slug}`} class="text-gray-100 underline hover:text-emerald-400">{e.name}</a>
+                  </>
+                ))}
+              </li>
+            )}
+            {b.osUpdated.length > 0 && (
+              <li>
+                <span class="text-sky-400">~</span> Updated {b.osUpdated.length} OS {b.osUpdated.length === 1 ? 'entry' : 'entries'}:{' '}
+                {b.osUpdated.map((e, i) => (
+                  <>
+                    {i > 0 && ', '}
+                    <a href={`/os/${e.slug}`} class="text-gray-100 underline hover:text-emerald-400">{e.name}</a>
+                  </>
+                ))}
+              </li>
+            )}
+            {b.osRemoved.length > 0 && (
+              <li><span class="text-rose-400">-</span> Removed {b.osRemoved.length} OS {b.osRemoved.length === 1 ? 'entry' : 'entries'}: {b.osRemoved.join(', ')}</li>
+            )}
+            {b.toolsAdded > 0 && (
+              <li><span class="text-emerald-400">+</span> {b.toolsAdded} {b.toolsAdded === 1 ? 'tool' : 'tools'} added</li>
+            )}
+            {b.toolsRemoved > 0 && (
+              <li><span class="text-rose-400">-</span> {b.toolsRemoved} {b.toolsRemoved === 1 ? 'tool' : 'tools'} removed</li>
+            )}
+          </ul>
+        </div>
+      ))}
+    </div>
+  )}
+</BaseLayout>

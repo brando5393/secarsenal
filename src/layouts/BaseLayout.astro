@@ -86,7 +86,7 @@ const structuredDataJson = structuredData ? JSON.stringify(structuredData).repla
       </nav>
     </header>
 
-    <div class="border-b border-amber-800/60 bg-amber-950/40 px-6 py-2 text-center text-sm text-amber-200" role="note">
+    <div id="edu-banner" class="border-b border-amber-800/60 bg-amber-950/40 px-6 py-2 text-center text-sm text-amber-200" role="note">
       Educational and ethical use only. Only test systems you own or are
       explicitly authorized to test. Full <a class="text-amber-200 underline hover:text-amber-100" href="/disclaimer">disclaimer</a>.
     </div>
@@ -110,6 +110,8 @@ const structuredDataJson = structuredData ? JSON.stringify(structuredData).repla
         <a class="text-gray-400 no-underline transition-colors hover:text-emerald-400" href="/categories">Category Key</a>
         <span aria-hidden="true" class="text-gray-800">·</span>
         <a class="text-gray-400 no-underline transition-colors hover:text-emerald-400" href="/data-freshness">Data Freshness</a>
+        <span aria-hidden="true" class="text-gray-800">·</span>
+        <a class="text-gray-400 no-underline transition-colors hover:text-emerald-400" href="/changelog">Changelog</a>
         <span aria-hidden="true" class="text-gray-800">·</span>
         <a class="text-gray-400 no-underline transition-colors hover:text-emerald-400" href="/rss.xml">RSS</a>
         <span aria-hidden="true" class="text-gray-800">·</span>
@@ -275,6 +277,13 @@ const structuredDataJson = structuredData ? JSON.stringify(structuredData).repla
         >
           Reset to defaults
         </button>
+
+        <p class="mt-6 border-t border-gray-800 pt-4 text-xs leading-relaxed text-gray-500">
+          These toggles are a first-party enhancement layered on top of markup we build to follow <a class="underline hover:text-gray-300" href="https://www.w3.org/WAI/WCAG22/quickref/" rel="noopener noreferrer" target="_blank">WCAG 2.2 Level AA</a> guidance — they are not a substitute for accessible design, and we have not undergone a
+          formal third-party compliance audit, so we don't claim full conformance. If you hit a
+          real accessibility barrier anywhere on this site, <a class="underline hover:text-gray-300" href="https://github.com/brando5393/secarsenal/issues/new" rel="noopener noreferrer" target="_blank">please open an issue</a> —
+          we'd rather hear about it than have this panel stand in for fixing it.
+        </p>
       </div>
     </div>
 

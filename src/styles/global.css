@@ -155,4 +155,87 @@
       scroll-behavior: auto !important;
     }
   }
+
+  /* --- Print ------------------------------------------------------------
+     A reference page (an OS/tool write-up, a category listing) is
+     genuinely useful printed — this makes that actually work rather
+     than printing a dark page (wastes ink, often renders as solid black
+     blocks on non-color printers) full of controls that do nothing on
+     paper. Reader-facing content and its real links are kept; anything
+     interactive, decorative, or navigational is dropped. */
+  @media print {
+    * {
+      background: white !important;
+      color: black !important;
+      box-shadow: none !important;
+      text-shadow: none !important;
+    }
+
+    header,
+    footer,
+    #edu-banner,
+    #a11y-panel-toggle,
+    #a11y-panel,
+    /* Search/filter controls across the OS/tools index and category
+       pages — all interactive, none of it does anything on paper. */
+    #name-filter,
+    #os-name-filter,
+    #category-filter,
+    #commonly-on-filter,
+    #filter-bar,
+    #team-filter-bar,
+    #platform-filter-bar,
+    #result-count,
+    #os-result-count,
+    #site-search,
+    #search-results,
+    label[for='category-filter'],
+    label[for='commonly-on-filter'] {
+      display: none !important;
+    }
+
+    a {
+      color: black !important;
+      text-decoration: underline;
+    }
+
+    /* Expands an outbound reference link's real URL onto the page, since
+       a printed page can't be clicked — scoped to genuine external
+       references (official docs/downloads/repos, MITRE links, etc.),
+       not this site's own internal navigation, which is meaningless
+       once every nav/filter control above is already hidden. */
+    main a[href^='http']:after {
+      content: ' (' attr(href) ')';
+      font-size: 0.85em;
+      color: #444 !important;
+      word-break: break-all;
+    }
+
+    /* Logo/category-icon containers (see OsIcon.astro/ToolIcon.astro/
+       CategoryIcon.astro) are built for a dark background — some are
+       light-on-transparent artwork that would otherwise vanish on
+       print's forced white background regardless of the site's own
+       needsLightBg flag, which only accounts for the dark theme. */
+    .card span[class*='rounded-lg'] {
+      background: #f3f4f6 !important;
+      border: 1px solid #d1d5db !important;
+    }
+
+    .card {
+      border: 1px solid #ccc !important;
+      break-inside: avoid;
+    }
+
+    h1, h2, h3 {
+      break-after: avoid;
+    }
+
+    /* The decorative binary-digit/dot-grid textures are pure noise on
+       paper and (being SVG background-images tinted for a dark ground)
+       would otherwise print as visible flecks. */
+    .binary-bg,
+    body {
+      background-image: none !important;
+    }
+  }
 }
