@@ -119,7 +119,7 @@ blocking the page. Clearing browser data for the site resets both.
   `scripts/sync-tails-tools.mjs`, `scripts/sync-security-onion-tools.mjs`,
   `scripts/sync-archstrike-tools.mjs`, `scripts/sync-flare-vm-tools.mjs`,
   `scripts/sync-tpot-tools.mjs`, `scripts/sync-osint-framework-tools.mjs`,
-  `scripts/sync-exegol-tools.mjs`)
+  `scripts/sync-exegol-tools.mjs`, `scripts/sync-nethunter-store-tools.mjs`)
   only read each source's own
   published pages (plus, for ArchStrike, each package's own `PKGBUILD`
   on its GitHub repo, and for FLARE VM, each package's own nuspec on

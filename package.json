@@ -22,6 +22,7 @@
     "sync-tools:tpot": "node scripts/sync-tpot-tools.mjs",
     "sync-tools:osint-framework": "node scripts/sync-osint-framework-tools.mjs",
     "sync-tools:exegol": "node scripts/sync-exegol-tools.mjs",
+    "sync-tools:nethunter-store": "node scripts/sync-nethunter-store-tools.mjs",
     "discover-os": "node scripts/discover-os.mjs"
   },
   "dependencies": {

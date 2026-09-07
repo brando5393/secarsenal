@@ -103,7 +103,7 @@ Requires Node >= 22.12 (see `engines` in `package.json`).
 
 The two collections are sourced very differently:
 
-- **`src/content/tools/`** is entirely **generated**, from ten
+- **`src/content/tools/`** is entirely **generated**, from eleven
   official sources:
   - `scripts/sync-kali-tools.mjs` — [Kali's own tool pages](https://www.kali.org/tools/all-tools/)
     (779 tools), one fetch per tool page.
@@ -187,11 +187,23 @@ The two collections are sourced very differently:
     the full image. Uses Exegol's tagged `releases_amd64.csv` channel
     rather than its `nightly.csv` dev builds, matching this project's
     preference elsewhere for a source's stable/published state.
+  - `scripts/sync-nethunter-store-tools.mjs` — [the Kali NetHunter App
+    Store's own repository index](https://store.nethunter.com/repo/)
+    (26 additional tools not already covered, out of 30 candidates
+    after excluding 9 generic Termux-customization/utility add-ons,
+    skipping 1 already covered, and 3 dead links). An official
+    F-Droid-format Android app repository — "official binaries built by
+    the original application developers" per its own about page — so
+    like OSINT Framework and Exegol it gets `commonlyOn: []`, but its
+    apps are genuinely new territory for this catalog: real Android-
+    native software, not desktop Linux/Windows tools or a browser-based
+    resource, hence the new `platforms: ["Android"]` value. Categories
+    come straight from the index's own per-app taxonomy.
 
   Earlier sources are treated as authoritative over later ones wherever
   they list the same tool (Kali > BlackArch > REMnux > Tails >
   Security Onion > ArchStrike > FLARE VM > T-Pot > OSINT Framework >
-  Exegol): each
+  Exegol > Kali NetHunter App Store): each
   sync skips any slug already owned by an earlier one (tracked via
   `scripts/manifests/*.json`) rather than overwriting richer existing
   data. Each sync script only ever deletes
