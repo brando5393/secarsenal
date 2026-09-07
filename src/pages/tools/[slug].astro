@@ -6,6 +6,7 @@ import OsIcon from '../../components/OsIcon.astro';
 import { getCollection, render } from 'astro:content';
 import { getToolTeam } from '../../lib/toolTeam';
 import { getLinkableToolCategories } from '../../lib/toolCategoryPages';
+import { getAttackTactic, attackTacticUrl } from '../../lib/attackTactics';
 
 export async function getStaticPaths() {
   const entries = await getCollection('tools');
@@ -23,6 +24,7 @@ const { Content } = await render(entry);
 const osEntries = await getCollection('os');
 const hostOs = osEntries.filter((o) => data.commonlyOn.includes(o.data.name));
 const team = getToolTeam(data.categories, data.commonlyOn);
+const attackTactics = [...new Set(data.categories.map(getAttackTactic).filter((t) => t !== undefined))];
 
 const SOURCE_LINK_CLASS =
   'inline-flex items-center gap-1 rounded-md border border-gray-700 px-3 py-1.5 text-sm text-gray-200 no-underline transition-colors hover:border-emerald-500 hover:text-emerald-400';
@@ -69,6 +71,17 @@ const structuredData = {
       <span class={`mr-2 mt-1 inline-block rounded-full px-3 py-1 text-xs ${TEAM_BADGE_CLASSES[team]}`} title="Best-effort guess from category tags, not an official classification">{TEAM_LABELS[team]}</span>
     )}
   </div>
+  {attackTactics.length > 0 && (
+    <p class="mt-2 text-xs text-gray-400" data-pagefind-ignore>
+      {attackTactics.map((tactic, i) => (
+        <>
+          {i > 0 && ' · '}
+          Matches ATT&amp;CK tactic:{' '}
+          <a href={attackTacticUrl(tactic)} rel="noopener noreferrer" target="_blank" class="text-gray-300 underline hover:text-emerald-400">{tactic.name} ↗</a>
+        </>
+      ))}
+    </p>
+  )}
   <span hidden data-pagefind-ignore data-pagefind-filter="type">Tool</span>
   {data.categories.map((c) => <span hidden data-pagefind-ignore data-pagefind-filter="category">{c}</span>)}
   {team && <span hidden data-pagefind-ignore data-pagefind-filter="team">{team}</span>}
