@@ -317,13 +317,10 @@ output directory `dist`) and deploy, no manual step. Live at
 `https://master.d68esdk03yoqv.amplifyapp.com`, Amplify's default
 domain, which stays active alongside the custom one).
 
-`secarsenal.org` is registered through **Cloudflare Registrar** (AWS
-Route 53 registration was blocked by an unexplained account-level
-restriction — see the closed AWS Support case referenced in git
-history — so the domain was registered elsewhere rather than waiting
-on that, and pointed at this Amplify app via CNAME, keeping hosting on
-AWS as-is). DNS is hosted on Cloudflare (not Route 53): three CNAME
-records — the apex (`@`), `www`, and Amplify's ACM certificate
+`secarsenal.org` is registered through **Cloudflare Registrar** and
+pointed at this Amplify app via CNAME, keeping hosting on AWS as-is.
+DNS is hosted on Cloudflare (not Route 53): three CNAME records —
+the apex (`@`), `www`, and Amplify's ACM certificate
 validation record — all set to **DNS only** (not proxied through
 Cloudflare), added via `Domain association` on the Amplify app
 (`d68esdk03yoqv`) using `CreateDomainAssociation`. Cloudflare can't
