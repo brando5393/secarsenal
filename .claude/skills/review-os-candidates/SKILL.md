@@ -190,8 +190,12 @@ in `CONTRIBUTING.md` for the full how-to (cropping wordmark banners,
 `needsLightBg`, sourcing comments). Don't defer this to a follow-up PR;
 a merged entry with a discoverable logo it isn't using is exactly the
 gap this rule exists to prevent. If there's genuinely no distinctive
-logo (only a generic Tux/SourceForge/stock icon), say so in the commit
-message the same way existing `osLogos.ts` entries note it.
+logo (only a generic Tux/SourceForge/stock icon), add the slug to
+`OS_NO_LOGO_FOUND` in `osLogos.ts` with a short comment on what you
+checked — this step is no longer optional-in-spirit: `npm run
+check-logos` (wired into `ci.yml`) fails the build if a slug is in
+neither `OS_LOGOS` nor `OS_NO_LOGO_FOUND`, so a candidate can't merge
+without this decision recorded either way.
 
 ### 4. Flag genuine open questions instead of silently deciding
 

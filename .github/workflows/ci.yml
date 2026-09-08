@@ -2,10 +2,11 @@ name: CI
 
 # Fast validation on every push/PR: does the site actually build? This
 # is what catches a malformed content entry (Zod schema failure), a
-# broken Astro component, or a newly vulnerable dependency before
-# merge — separate from sync-tools.yml and freshness-check.yml, which
-# run on a schedule and open their own PRs/issues rather than gate
-# other people's changes.
+# broken Astro component, a newly added OS entry with no logo decision
+# recorded (scripts/check-logos.mjs — see src/lib/osLogos.ts's ground
+# rule), or a newly vulnerable dependency before merge — separate from
+# sync-tools.yml and freshness-check.yml, which run on a schedule and
+# open their own PRs/issues rather than gate other people's changes.
 on:
   push:
     branches: [master]
@@ -30,6 +31,9 @@ jobs:
 
       - name: Build (validates content collection schemas + components)
         run: npm run build
+
+      - name: Check every OS entry has a logo decision recorded
+        run: npm run check-logos
 
       - name: Audit dependencies
         run: npm audit --audit-level=high
