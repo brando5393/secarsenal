@@ -53,6 +53,12 @@ export const TOOL_LOGOS: Record<string, ToolLogo> = {
   beef: { path: '/logos/tools/beef.png', needsLightBg: true }, // github.com/beefproject org avatar (bull-head mark, dark-on-transparent) — also used for beef-git and beef-xss below, same real-world tool under different distros' packaging
   'beef-git': { path: '/logos/tools/beef.png', needsLightBg: true },
   'beef-xss': { path: '/logos/tools/beef.png', needsLightBg: true },
+  binwalk: { path: '/logos/tools/binwalk.png' }, // github.com/ReFirmLabs org avatar (green hexagon/"r" mark) — ReFirmLabs is a small firmware-security shop built around binwalk, same "maintaining org whose brand is this tool" reasoning as openvas/Greenbone, not a generic large-company logo
+  rubeus: { path: '/logos/tools/rubeus.jpg' }, // github.com/GhostPack org avatar (ghost mascot + wordmark) — GhostPack is SpecterOps's specific tool-suite brand Rubeus belongs to, not SpecterOps's own corporate logo; opaque black JPEG background, self-contained on dark theme (same as t-pot.webp)
+  netexec: { path: '/logos/tools/netexec.png' }, // github.com/Pennyw0rth org avatar (spider mark) — NetExec's own maintaining org and distinct branding
+  'fern-wifi-cracker': { path: '/logos/tools/fern-wifi-cracker.png', needsLightBg: true }, // github.com/savio-code/fern-wifi-cracker Fern-Wifi-Cracker/resources/icon.png — the app's own window/taskbar icon; black signal-wave arcs need a light backing to stay visible on the dark theme
+  apktool: { path: '/logos/tools/apktool.png' }, // ibotpeaches.github.io/Apktool/img/logo.png (official project site)
+  jadx: { path: '/logos/tools/jadx.svg' }, // github.com/skylot/jadx jadx-gui/src/main/resources/logos/jadx-logo.svg — opaque black ring background, self-contained on dark theme
 };
 
 // Checked for a real official logo and found none distinct from a
@@ -65,4 +71,13 @@ export const TOOL_LOGOS: Record<string, ToolLogo> = {
 // personal account, not an org, same reasoning as CAPEv2 in
 // osLogos.ts), yara (VirusTotal's generic company logo, no
 // YARA-specific mark), impacket (Fortra's generic company logo, no
-// Impacket-specific mark).
+// Impacket-specific mark). Second pass: masscan, netcat, gobuster,
+// cewl, medusa, hydra, reaver, foremost, theharvester, recon-ng
+// (README only shows third-party sponsor logos, not its own mark),
+// crackmapexec (checked both the current mpgn/CrackMapExec and the
+// original byt3bl33d3r/CrackMapExec — personal accounts, no project
+// logo in either README; its actively-maintained successor, NetExec,
+// does have one and is included above), powersploit (PowerShellMafia's
+// GitHub avatar is a default identicon, not a real logo), wifite,
+// responder — all personal-account repos with no logo/banner in their
+// README and no dedicated project site found.
