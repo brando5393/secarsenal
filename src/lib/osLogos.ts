@@ -7,17 +7,34 @@
 // Ground rule (see CONTRIBUTING.md "Adding or updating an OS entry"):
 // every entry that has a genuine, distinctive official logo/favicon
 // must have it here — never leave a real logo undisplayed in favor of
-// the generic CategoryBadge fallback. The following entries were
-// checked and have no discoverable official logo/favicon distinct from
-// a generic platform icon (Tux, a SourceForge/Allura placeholder, etc.)
-// — they intentionally use the CategoryBadge fallback via OsIcon.astro:
-// androl4b, caine, csi-linux, demon-linux, dshield, nst,
-// open-secure-k-os, samuraiwtf, sift, tsurugi-linux. Re-check these
-// periodically — a project without a logo today may adopt one later.
+// the generic CategoryBadge fallback. `scripts/check-logos.mjs` (run in
+// CI on every push/PR) enforces that every slug in src/content/os is
+// accounted for in exactly one of OS_LOGOS or OS_NO_LOGO_FOUND below —
+// a newly added OS entry that's in neither fails the build, so this
+// stays a real gate, not a guideline someone can forget.
 export interface OsLogo {
   path: string;
   needsLightBg?: boolean;
 }
+
+// Checked and confirmed to have no discoverable official logo/favicon
+// distinct from a generic platform icon (Tux, a SourceForge/Allura
+// placeholder, etc.) — these intentionally use the CategoryBadge
+// fallback via OsIcon.astro. Re-check periodically: a project without
+// a logo today may adopt one later.
+export const OS_NO_LOGO_FOUND: string[] = [
+  'androl4b',
+  'caine',
+  'capev2', // CAPEv2: no logo in README/docs/_static; repo owner is a personal account, not an org
+  'csi-linux',
+  'demon-linux',
+  'dshield',
+  'nst',
+  'open-secure-k-os',
+  'samuraiwtf',
+  'sift',
+  'tsurugi-linux',
+];
 
 export const OS_LOGOS: Record<string, OsLogo> = {
   'kali-linux': { path: '/logos/os/kali-linux.svg' }, // kali.org/images/kali-logo.svg

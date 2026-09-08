@@ -103,15 +103,26 @@ Rawsec's own classification, and known pitfalls from past runs.
    first (Pillow or similar) rather than using the full banner, which
    renders as an illegible sliver in the fixed-size logo box. Only skip
    this step if you've actually checked and there's no distinctive logo
-   to find — leave a comment in `osLogos.ts` noting that, matching the
-   file's existing pattern for entries with no logo. Never leave a
-   genuine official logo undisplayed in favor of the generic
-   category-badge fallback.
+   to find — add the slug to `OS_NO_LOGO_FOUND` in `osLogos.ts` with a
+   short comment on what you checked. Never leave a genuine official
+   logo undisplayed in favor of the generic category-badge fallback.
+   **This is enforced in CI** (`scripts/check-logos.mjs`, run by
+   `.github/workflows/ci.yml` on every push/PR): every OS entry must be
+   in exactly one of `OS_LOGOS` or `OS_NO_LOGO_FOUND`, or the build
+   fails — a new OS entry (hand-written or drafted by
+   `discover-os.yml`) can't merge without this decision being made.
 
-   This applies to `src/lib/toolLogos.ts` too, for the small set of
-   flagship tools featured on the homepage — but don't add logos beyond
-   that set; sourcing one for every synced tool isn't practical (see
-   that file's own header comment).
+   This applies to `src/lib/toolLogos.ts` too, for well-known flagship
+   tools with genuine official branding — not limited to whichever six
+   happen to be featured on the homepage (`src/pages/index.astro`), but
+   still a real bar: don't add a logo for an obscure utility just
+   because one happens to exist, and don't try to cover every synced
+   tool (impractical at ~4,200 entries — see that file's own header
+   comment). There's no CI gate for this one given the scale, so
+   catching a gap (a tool everyone would recognize, like Armitage or
+   John the Ripper, still on the generic category badge) depends on
+   actually looking — do that check whenever you're touching a tool
+   entry for another reason, not just when explicitly asked.
 
    **A real logo replaces the category badge as the main icon — it must
    never replace the category information entirely.** `OsIcon.astro`
