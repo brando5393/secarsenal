@@ -3,7 +3,7 @@ name: "hashmyfiles"
 tagline: "HashMyFiles calculates and exports various file hashes (MD5, SHA256, etc.) to clipboard and multiple file formats."
 categories: ["file-information"]
 platforms: ["Windows"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/mandiant/VM-Packages/tree/main/packages/hashmyfiles.vm"
 downloadUrl: "https://www.nirsoft.net/utils/hash_my_files.html"
 commonlyOn: ["FLARE VM"]

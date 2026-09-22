@@ -3,7 +3,7 @@ name: "subbrute"
 tagline: "A DNS meta-query spider that enumerates DNS records, and subdomains."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/TheRook/subbrute"
 commonlyOn: ["BlackArch"]

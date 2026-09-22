@@ -3,7 +3,7 @@ name: "robotstester"
 tagline: "Utility for testing whether a website's robots.txt file is correctly configured."
 categories: ["ad","web"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/p0dalirius/robotstester"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "fern-wifi-cracker-git"
 tagline: "WEP, WPA wifi cracker for wireless penetration testing"
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/fern-wifi-cracker-git"
 downloadUrl: "https://github.com/savio-code/fern-wifi-cracker"
 commonlyOn: ["ArchStrike"]

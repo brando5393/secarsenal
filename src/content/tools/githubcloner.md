@@ -3,7 +3,7 @@ name: "githubcloner"
 tagline: "A script that clones Github repositories of users and organizations automatically."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/mazen160/GithubCloner"
 commonlyOn: ["BlackArch"]

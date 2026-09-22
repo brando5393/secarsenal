@@ -3,7 +3,7 @@ name: "wpprobe"
 tagline: "Fast WordPress plugin enumeration tool"
 categories: ["web-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/wpprobe/"
 downloadUrl: "https://github.com/Chocapikk/wpprobe"
 repoUrl: "https://gitlab.com/kalilinux/packages/wpprobe"

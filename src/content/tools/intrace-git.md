@@ -3,7 +3,7 @@ name: "intrace-git"
 tagline: "Traceroute-like application piggybacking on existing TCP connections"
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/intrace-git"
 downloadUrl: "https://github.com/robertswiecki/intrace"
 commonlyOn: ["ArchStrike"]

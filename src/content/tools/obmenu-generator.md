@@ -3,7 +3,7 @@ name: "obmenu-generator"
 tagline: "A fast pipe/static menu generator for the Openbox Window Manager (with icons support)."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/obmenu-generator"
 downloadUrl: "https://github.com/trizen/obmenu-generator"
 commonlyOn: ["ArchStrike"]

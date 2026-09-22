@@ -3,7 +3,7 @@ name: "cidr2range"
 tagline: "Script for listing the IP addresses contained in a CIDR netblock."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "http://www.cpan.org/authors/id/R/RA/RAYNERLUC"
 commonlyOn: ["BlackArch"]

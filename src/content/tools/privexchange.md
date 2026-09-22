@@ -3,7 +3,7 @@ name: "privexchange"
 tagline: "a tool to perform attacks against Microsoft Exchange server using NTLM relay techniques"
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/dirkjanm/PrivExchange"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

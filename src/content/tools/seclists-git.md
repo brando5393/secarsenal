@@ -3,7 +3,7 @@ name: "seclists-git"
 tagline: "A collection of multiple types of lists used during security assessments. List types include usernames, passwords, URLs, sensitive data grep strings, "
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/seclists-git"
 downloadUrl: "https://github.com/danielmiessler/SecLists"
 commonlyOn: ["ArchStrike"]

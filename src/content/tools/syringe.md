@@ -3,7 +3,7 @@ name: "syringe"
 tagline: "A General Purpose DLL & Code Injection Utility."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://github.com/securestate/syringe"
 commonlyOn: ["BlackArch"]

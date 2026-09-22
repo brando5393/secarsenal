@@ -3,7 +3,7 @@ name: "fastnetmon"
 tagline: "High performance DoS/DDoS load analyzer built on top of multiple packet capture engines."
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://github.com/pavel-odintsov/fastnetmon"
 commonlyOn: ["BlackArch"]

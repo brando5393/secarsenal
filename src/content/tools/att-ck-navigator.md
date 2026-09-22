@@ -3,7 +3,7 @@ name: "ATT&CK Navigator"
 tagline: "The ATT&CK Navigator is designed to provide basic navigation and annotation of ATT&CK matrices, something that people are already doing today in…"
 categories: ["network-security-monitoring"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://docs.securityonion.net/en/2.4/attack-navigator.html#attack-navigator"
 downloadUrl: "https://github.com/mitre-attack/attack-navigator"
 commonlyOn: ["Security Onion"]

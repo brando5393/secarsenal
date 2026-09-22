@@ -3,7 +3,7 @@ name: "Belati (T)"
 tagline: "Open-source OSINT data collection and automation framework for gathering information from multiple sources."
 categories: ["domain-name"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/aancw/Belati"
 commonlyOn: []
 gettingStarted: "Best for: Multi-source OSINT collection automation. See the official site linked above for details."

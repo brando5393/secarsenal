@@ -3,7 +3,7 @@ name: "gdisk"
 tagline: "GPT fdisk text-mode partitioning tool"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/gdisk/"
 downloadUrl: "http://sourceforge.net/projects/gptfdisk/"
 repoUrl: "https://salsa.debian.org/debian/gdisk"

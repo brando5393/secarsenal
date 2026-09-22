@@ -3,7 +3,7 @@ name: "tailscale"
 tagline: "Secure connectivity platform"
 categories: ["services-and-other-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/tailscale/"
 downloadUrl: "https://github.com/tailscale/tailscale"
 repoUrl: "https://gitlab.com/kalilinux/packages/tailscale"

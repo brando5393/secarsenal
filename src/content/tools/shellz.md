@@ -3,7 +3,7 @@ name: "shellz"
 tagline: "A script for generating common revshells fast and easy."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/4ndr34z/shells"
 commonlyOn: ["BlackArch"]

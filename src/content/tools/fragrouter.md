@@ -3,7 +3,7 @@ name: "fragrouter"
 tagline: "IDS evasion toolkit"
 categories: ["defense-evasion"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/fragrouter/"
 downloadUrl: "http://www.anzen.com/research/nidsbench/fragrouter.html"
 repoUrl: "https://gitlab.com/kalilinux/packages/fragrouter"

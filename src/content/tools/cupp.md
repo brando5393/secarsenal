@@ -3,7 +3,7 @@ name: "cupp"
 tagline: "Common User Password Profiler"
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://www.remote-exploit.org/?page_id=418"
 commonlyOn: ["BlackArch"]

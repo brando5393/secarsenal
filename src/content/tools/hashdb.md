@@ -3,7 +3,7 @@ name: "hashdb"
 tagline: "A block hash toolkit."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/NPS-DEEP/hashdb/"
 commonlyOn: ["BlackArch"]

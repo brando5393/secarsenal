@@ -3,7 +3,7 @@ name: "gpoParser"
 tagline: "Tool designed to extract and analyze configurations applied through Group Policy Objects (GPOs) in an Active Directory environment."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/synacktiv/gpoParser"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "analyzemft"
 tagline: "Parse the MFT file from an NTFS filesystem."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/dkovar/analyzeMFT"
 commonlyOn: ["BlackArch"]

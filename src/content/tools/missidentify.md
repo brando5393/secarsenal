@@ -3,7 +3,7 @@ name: "missidentify"
 tagline: "Find win32 applications"
 categories: ["digital-forensics"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/missidentify/"
 downloadUrl: "https://missidentify.sf.net"
 repoUrl: "https://salsa.debian.org/pkg-security-team/missidentify"

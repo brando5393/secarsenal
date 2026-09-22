@@ -3,7 +3,7 @@ name: "dns-spoof-git"
 tagline: "DNS Spoof"
 categories: ["dns"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/dns-spoof-git"
 downloadUrl: "https://github.com/maurotfilho/dns-spoof"
 commonlyOn: ["ArchStrike"]

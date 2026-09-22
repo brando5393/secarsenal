@@ -3,7 +3,7 @@ name: "csrft-git"
 tagline: "In few words, this is a simple HTTP Server in NodeJS that will communicate with the clients (victims) and send them payload that will be executed usin"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/csrft-git"
 downloadUrl: "https://github.com/PaulSec/CSRFT"
 commonlyOn: ["ArchStrike"]

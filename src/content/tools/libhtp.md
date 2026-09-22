@@ -3,7 +3,7 @@ name: "libhtp"
 tagline: "LibHTP is a security-aware parser for the HTTP protocol and the related bits and pieces"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/libhtp"
 downloadUrl: "https://github.com/OISF/libhtp"
 commonlyOn: ["ArchStrike"]

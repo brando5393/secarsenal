@@ -3,7 +3,7 @@ name: "lorg"
 tagline: "Apache Logfile Security Analyzer."
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://github.com/jensvoid/lorg"
 commonlyOn: ["BlackArch"]

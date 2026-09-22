@@ -3,7 +3,7 @@ name: "retire"
 tagline: "Scanner detecting the use of JavaScript libraries with known vulnerabilities."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://retirejs.github.io/retire.js/"
 commonlyOn: ["BlackArch"]

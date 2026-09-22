@@ -3,7 +3,7 @@ name: "webenum"
 tagline: "Tool to enumerate http responses using dynamically generated queries and more."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/sarthakpandit/webenum"
 commonlyOn: ["BlackArch"]

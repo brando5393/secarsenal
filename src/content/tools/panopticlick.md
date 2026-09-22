@@ -3,7 +3,7 @@ name: "Panopticlick"
 tagline: "EFF browser fingerprinting test (now Cover Your Tracks at coveryourtracks.eff.org) that measures how uniquely identifiable your browser is across the…"
 categories: ["opsec"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://panopticlick.eff.org/"
 commonlyOn: []
 gettingStarted: "Best for: Measuring browser fingerprint uniqueness, testing tracker blocking effectiveness. See the official site linked above for details."

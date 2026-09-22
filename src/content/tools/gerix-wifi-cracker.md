@@ -3,7 +3,7 @@ name: "gerix-wifi-cracker"
 tagline: "A graphical user interface for aircrack-ng and pyrit."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "https://github.com/TigerSecurity"
 commonlyOn: ["BlackArch"]

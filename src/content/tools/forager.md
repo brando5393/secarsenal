@@ -3,7 +3,7 @@ name: "forager"
 tagline: "Multithreaded threat Intelligence gathering utilizing."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/byt3smith/Forager"
 commonlyOn: ["BlackArch"]

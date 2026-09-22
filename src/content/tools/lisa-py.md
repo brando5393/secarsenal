@@ -3,7 +3,7 @@ name: "lisa.py"
 tagline: "An Exploit Dev Swiss Army Knife."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/ant4g0nist/lisa.py"
 commonlyOn: ["BlackArch"]

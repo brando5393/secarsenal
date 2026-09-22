@@ -3,7 +3,7 @@ name: "cmseek"
 tagline: "CMS Detection and Exploitation suite"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/cmseek/"
 downloadUrl: "https://github.com/Tuhinshubhra/CMSeeK"
 repoUrl: "https://gitlab.com/kalilinux/packages/cmseek"

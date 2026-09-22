@@ -3,7 +3,7 @@ name: "fern-wifi-cracker"
 tagline: "Automated Wi-Fi cracker"
 categories: ["wifi-credential-access"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/fern-wifi-cracker/"
 downloadUrl: "https://github.com/savio-code/fern-wifi-cracker"
 repoUrl: "https://gitlab.com/kalilinux/packages/fern-wifi-cracker"

@@ -3,7 +3,7 @@ name: "tookie-osint"
 tagline: "OSINT information gathering tool for finding social media accounts"
 categories: ["identity-information"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/tookie-osint/"
 downloadUrl: "https://github.com/Alfredredbird/tookie-osint"
 repoUrl: "https://gitlab.com/kalilinux/packages/tookie-osint"

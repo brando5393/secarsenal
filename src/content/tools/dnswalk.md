@@ -3,7 +3,7 @@ name: "dnswalk"
 tagline: "Checks dns zone information using nameserver lookups"
 categories: ["network-information-dns"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/dnswalk/"
 downloadUrl: "https://github.com/davebarr/dnswalk"
 repoUrl: "https://salsa.debian.org/debian/dnswalk"

@@ -3,7 +3,7 @@ name: "openpuff"
 tagline: "Yet not another steganography SW."
 categories: ["stego"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/stego.html"
 downloadUrl: "https://embeddedsw.net/OpenPuff_Steganography_Home.html"
 commonlyOn: ["BlackArch"]

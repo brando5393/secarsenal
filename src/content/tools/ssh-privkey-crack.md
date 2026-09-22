@@ -3,7 +3,7 @@ name: "ssh-privkey-crack"
 tagline: "A SSH private key cracker."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://code.google.com/p/lusas/"
 commonlyOn: ["BlackArch"]

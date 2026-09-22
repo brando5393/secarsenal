@@ -3,7 +3,7 @@ name: "truegaze"
 tagline: "Static analysis tool for Android/iOS apps focusing on security issues outside the source code."
 categories: ["mobile"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/mobile.html"
 downloadUrl: "https://github.com/nightwatchcybersecurity/truegaze"
 commonlyOn: ["BlackArch"]

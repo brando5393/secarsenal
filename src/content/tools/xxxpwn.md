@@ -3,7 +3,7 @@ name: "xxxpwn"
 tagline: "A tool Designed for blind optimized XPath 1 injection attacks."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/feakk/xxxpwn"
 commonlyOn: ["BlackArch"]

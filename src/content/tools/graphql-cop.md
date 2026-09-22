@@ -3,7 +3,7 @@ name: "graphql-cop"
 tagline: "GraphQL vulnerability scanner."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/dolevf/graphql-cop"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "htpwdscan"
 tagline: "A python HTTP weak pass scanner."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/lijiejie/htpwdScan"
 commonlyOn: ["BlackArch"]

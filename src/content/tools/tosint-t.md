@@ -3,7 +3,7 @@ name: "Tosint (T)"
 tagline: "Telegram OSINT script for profiling bots, extracting public metadata, and correlating related infrastructure clues."
 categories: ["instant-messaging"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/drego85/tosint"
 commonlyOn: []
 gettingStarted: "Best for: Telegram bot reconnaissance and metadata extraction. See the official site linked above for details."

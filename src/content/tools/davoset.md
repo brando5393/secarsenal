@@ -3,7 +3,7 @@ name: "davoset"
 tagline: "A tool for using Abuse of Functionality and XML External Entities vulnerabilities on some websites to attack other websi"
 categories: ["dos"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/dos.html"
 downloadUrl: "http://websecurity.com.ua/davoset/"
 commonlyOn: ["BlackArch"]

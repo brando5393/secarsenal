@@ -3,7 +3,7 @@ name: "pdf-parser"
 tagline: "Parses PDF files to identify fundamental elements"
 categories: ["pdf-forensics-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/pdf-parser/"
 downloadUrl: "https://blog.didierstevens.com/programs/pdf-tools/"
 repoUrl: "https://gitlab.com/kalilinux/packages/pdf-parser"

@@ -3,7 +3,7 @@ name: "lorsrf"
 tagline: "Find the parameters that can be used to find SSRF or Out-of-band resource load."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/knassar702/lorsrf"
 commonlyOn: ["BlackArch"]

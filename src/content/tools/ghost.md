@@ -3,7 +3,7 @@ name: "ghost"
 tagline: "Android post-exploitation framework that exploits the Android Debug Bridge to remotely access an Android device."
 categories: ["mobile"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/mobile.html"
 downloadUrl: "https://github.com/EntySec/Ghost"
 commonlyOn: ["BlackArch"]

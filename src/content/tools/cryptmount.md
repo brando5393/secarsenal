@@ -3,7 +3,7 @@ name: "cryptmount"
 tagline: "Utility which allows an ordinary user to mount an encrypted file system"
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/cryptmount"
 downloadUrl: "http://cryptmount.sourceforge.net/"
 commonlyOn: ["ArchStrike"]

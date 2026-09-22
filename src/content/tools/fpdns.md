@@ -3,7 +3,7 @@ name: "fpdns"
 tagline: "Program that remotely determines DNS server versions."
 categories: ["fingerprint"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/fingerprint.html"
 downloadUrl: "https://github.com/kirei/fpdns"
 commonlyOn: ["BlackArch"]

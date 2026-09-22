@@ -3,7 +3,7 @@ name: "blue-hydra"
 tagline: "Bluetooth device discovery service"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/blue-hydra/"
 downloadUrl: "https://github.com/ZeroChaos-/blue_hydra"
 repoUrl: "https://gitlab.com/kalilinux/packages/blue-hydra"

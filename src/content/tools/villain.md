@@ -3,7 +3,7 @@ name: "villain"
 tagline: "High level C2 framework"
 categories: ["command-and-control"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/villain/"
 downloadUrl: "https://github.com/t3l3machus/Villain"
 repoUrl: "https://gitlab.com/kalilinux/packages/villain"

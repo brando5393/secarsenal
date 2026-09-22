@@ -3,7 +3,7 @@ name: "gqrx-scanner"
 tagline: "A frequency scanner for Gqrx Software Defined Radio receiver."
 categories: ["radio"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/radio.html"
 downloadUrl: "https://github.com/neural75/gqrx-scanner"
 commonlyOn: ["BlackArch"]

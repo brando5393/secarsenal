@@ -3,7 +3,7 @@ name: "evillimiter"
 tagline: "Tool that limits bandwidth of devices on the same network without access."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/bitbrute/evillimiter"
 commonlyOn: ["BlackArch"]

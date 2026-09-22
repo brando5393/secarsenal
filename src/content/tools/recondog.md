@@ -3,7 +3,7 @@ name: "recondog"
 tagline: "a reconnaissance tool for performing information gathering on a target."
 categories: ["osint","web"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/s0md3v/ReconDog"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

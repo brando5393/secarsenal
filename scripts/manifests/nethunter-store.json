@@ -1,5 +1,4 @@
 [
-  "csploit",
   "drivedroid",
   "hash-droid",
   "hijacker",
@@ -8,7 +7,6 @@
   "nethunter-kex",
   "nethunter-terminal",
   "nethunter-vnc",
-  "nexmon",
   "ooni-probe",
   "openvpn-for-android",
   "orbot",
@@ -17,7 +15,6 @@
   "router-keygen",
   "rtl-sdr-driver",
   "rucky",
-  "shodan-io",
   "syslog",
   "termux",
   "termux-api",

@@ -3,7 +3,7 @@ name: "faraday-cli"
 tagline: "Faraday on the terminal"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/faraday-cli/"
 downloadUrl: "https://github.com/infobyte/faraday-cli"
 repoUrl: "https://gitlab.com/kalilinux/packages/faraday-cli"

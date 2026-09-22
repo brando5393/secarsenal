@@ -3,7 +3,7 @@ name: "pyfiscan"
 tagline: "Free web-application vulnerability and version scanner."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/fgeek/pyfiscan"
 commonlyOn: ["BlackArch"]

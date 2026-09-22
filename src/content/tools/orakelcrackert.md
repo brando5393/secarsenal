@@ -3,7 +3,7 @@ name: "orakelcrackert"
 tagline: "This tool can crack passwords which are encrypted using Oracle's latest SHA1 based password protection algorithm."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/vanhauser-thc/THC-Archive/blob/master/Tools/thc-orakelcrackert11g.tar.gz"
 commonlyOn: ["BlackArch"]

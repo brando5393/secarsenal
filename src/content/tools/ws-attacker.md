@@ -3,7 +3,7 @@ name: "ws-attacker"
 tagline: "A modular framework for web services penetration testing."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "http://ws-attacker.sourceforge.net/"
 commonlyOn: ["BlackArch"]

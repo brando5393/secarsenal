@@ -3,7 +3,7 @@ name: "mylg"
 tagline: "Network Diagnostic Tool."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/mehrdadrad/mylg"
 commonlyOn: ["BlackArch"]

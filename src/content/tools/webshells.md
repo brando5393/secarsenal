@@ -3,7 +3,7 @@ name: "webshells"
 tagline: "Collection of webshells"
 categories: ["persistence"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/webshells/"
 downloadUrl: "https://www.kali.org"
 repoUrl: "https://gitlab.com/kalilinux/packages/webshells"

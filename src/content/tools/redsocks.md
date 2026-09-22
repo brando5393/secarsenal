@@ -3,7 +3,7 @@ name: "redsocks"
 tagline: "Arbitrary TCP connection redirector to a SOCKS or HTTPS proxy server"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/redsocks/"
 downloadUrl: "http://darkk.net.ru/redsocks/"
 repoUrl: "https://salsa.debian.org/debian/redsocks"

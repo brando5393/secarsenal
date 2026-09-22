@@ -3,7 +3,7 @@ name: "Photon (T)"
 tagline: "Fast Python web crawler designed for OSINT that extracts URLs, emails, social media accounts, files, API keys, JavaScript endpoints, and DNS records…"
 categories: ["tools"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/s0md3v/Photon"
 commonlyOn: []
 gettingStarted: "Best for: Web reconnaissance and endpoint discovery. See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "elfparser"
 tagline: "Cross Platform ELF analysis."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/jacob-baines/elfparser"
 commonlyOn: ["BlackArch"]

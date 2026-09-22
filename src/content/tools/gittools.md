@@ -3,7 +3,7 @@ name: "gittools"
 tagline: "A repository with 3 tools for pwn'ing websites with .git repositories available'."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/internetwache/GitTools"
 commonlyOn: ["BlackArch"]

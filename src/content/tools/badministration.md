@@ -3,7 +3,7 @@ name: "badministration"
 tagline: "A tool which interfaces with management or administration applications from an offensive standpoint."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/ThunderGunExpress/BADministration"
 commonlyOn: ["BlackArch"]

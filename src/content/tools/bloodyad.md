@@ -3,7 +3,7 @@ name: "bloodyad"
 tagline: "Active Directory privilege escalation framework"
 categories: ["privilege-escalation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/bloodyad/"
 downloadUrl: "https://github.com/CravateRouge/bloodyAD"
 repoUrl: "https://gitlab.com/kalilinux/packages/bloodyAD"

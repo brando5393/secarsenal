@@ -3,7 +3,7 @@ name: "spray365"
 tagline: "Makes spraying Microsoft accounts (Office 365 / Azure AD) easy through its customizable two-step password spraying appro"
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/MarkoH17/Spray365"
 commonlyOn: ["BlackArch"]

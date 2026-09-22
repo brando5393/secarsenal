@@ -3,7 +3,7 @@ name: "wssip"
 tagline: "Application for capturing, modifying and sending custom WebSocket data from client to server and vice versa."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/nccgroup/wssip"
 commonlyOn: ["BlackArch"]

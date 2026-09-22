@@ -3,7 +3,7 @@ name: "goop"
 tagline: "Perform google searches without being blocked by the CAPTCHA or hitting any rate limits."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/s0md3v/goop"
 commonlyOn: ["BlackArch"]

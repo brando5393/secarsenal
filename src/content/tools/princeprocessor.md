@@ -3,7 +3,7 @@ name: "princeprocessor"
 tagline: "Standalone password candidate generator using the PRINCE algorithm"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/princeprocessor/"
 downloadUrl: "https://github.com/hashcat/princeprocessor"
 repoUrl: "https://salsa.debian.org/pkg-security-team/princeprocessor"

@@ -3,7 +3,7 @@ name: "jboss-autopwn"
 tagline: "JBoss script for obtaining remote shell access"
 categories: ["initial-access"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/jboss-autopwn/"
 downloadUrl: "https://github.com/SpiderLabs/jboss-autopwn"
 repoUrl: "https://gitlab.com/kalilinux/packages/jboss-autopwn"

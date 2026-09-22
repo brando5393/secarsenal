@@ -3,7 +3,7 @@ name: "thcrut"
 tagline: "Network discovery and OS Fingerprinting tool."
 categories: ["fingerprint"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/fingerprint.html"
 downloadUrl: "https://github.com/vanhauser-thc/THC-Archive/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "autorecon"
 tagline: "Multi-threaded network reconnaissance tool"
 categories: ["network-information","network-service-discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/autorecon/"
 downloadUrl: "https://github.com/Tib3rius/AutoRecon"
 repoUrl: "https://gitlab.com/kalilinux/packages/autorecon"

@@ -3,7 +3,7 @@ name: "shellfire"
 tagline: "Exploiting LFI, RFI, and command injection vulnerabilities"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/shellfire/"
 downloadUrl: "https://github.com/unix-ninja/shellfire"
 repoUrl: "https://gitlab.com/kalilinux/packages/shellfire"

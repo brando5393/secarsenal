@@ -4,7 +4,7 @@ tagline: "Powerful source code editor."
 categories: ["view-or-edit-files"]
 platforms: ["Linux"]
 license: "Custom license"
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://docs.remnux.org/discover-the-tools/view+or+edit+files"
 downloadUrl: "https://code.visualstudio.com/"
 commonlyOn: ["REMnux"]

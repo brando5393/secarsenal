@@ -3,7 +3,7 @@ name: "stoq"
 tagline: "An open source framework for enterprise level automated analysis."
 categories: ["code-audit"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/code-audit.html"
 downloadUrl: "https://github.com/PUNCH-Cyber/stoq"
 commonlyOn: ["BlackArch"]

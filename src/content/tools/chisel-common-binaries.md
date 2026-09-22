@@ -3,7 +3,7 @@ name: "chisel-common-binaries"
 tagline: "Prebuilt binaries for chisel"
 categories: ["protocol-tunneling"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/chisel-common-binaries/"
 downloadUrl: "https://github.com/jpillora/chisel"
 repoUrl: "https://gitlab.com/kalilinux/packages/chisel"

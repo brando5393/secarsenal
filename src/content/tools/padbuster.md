@@ -3,7 +3,7 @@ name: "padbuster"
 tagline: "Script for performing Padding Oracle attacks"
 categories: ["defense-evasion"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/padbuster/"
 downloadUrl: "https://github.com/GDSSecurity/PadBuster"
 repoUrl: "https://gitlab.com/kalilinux/packages/padbuster"

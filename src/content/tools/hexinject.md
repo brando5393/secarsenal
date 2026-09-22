@@ -3,7 +3,7 @@ name: "hexinject"
 tagline: "Versatile packet injector and sniffer"
 categories: ["network-sniffing"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/hexinject/"
 downloadUrl: "https://hexinject.sourceforge.net/"
 repoUrl: "https://gitlab.com/kalilinux/packages/hexinject"

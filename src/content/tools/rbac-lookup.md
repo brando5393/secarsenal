@@ -3,7 +3,7 @@ name: "rbac-lookup"
 tagline: "A CLI that allows you to easily find Kubernetes roles and cluster roles bound to any user."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/FairwindsOps/rbac-lookup"
 commonlyOn: ["BlackArch"]

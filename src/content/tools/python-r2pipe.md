@@ -3,7 +3,7 @@ name: "python-r2pipe"
 tagline: "A Pipe interface for radare2"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/python-r2pipe"
 downloadUrl: "https://pypi.python.org/pypi/r2pipe/"
 commonlyOn: ["ArchStrike"]

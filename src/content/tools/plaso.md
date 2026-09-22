@@ -3,7 +3,7 @@ name: "plaso"
 tagline: "Super timeline all the things – metapackage"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/plaso/"
 downloadUrl: "https://github.com/log2timeline/plaso"
 repoUrl: "https://salsa.debian.org/pkg-security-team/plaso"

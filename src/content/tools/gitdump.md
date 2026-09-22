@@ -3,7 +3,7 @@ name: "gitdump"
 tagline: "A pentesting tool that dumps the source code from .git even when the directory traversal is disabled."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/Ebryx/GitDump"
 commonlyOn: ["BlackArch"]

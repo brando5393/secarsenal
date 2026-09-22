@@ -3,7 +3,7 @@ name: "simplyemail"
 tagline: "Email recon made fast and easy, with a framework to build on CyberSyndicates."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/killswitch-GUI/SimplyEmail"
 commonlyOn: ["BlackArch"]

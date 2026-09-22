@@ -3,7 +3,7 @@ name: "jwt-hack"
 tagline: "A tool for hacking / security testing to JWT."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/hahwul/jwt-hack"
 commonlyOn: ["BlackArch"]

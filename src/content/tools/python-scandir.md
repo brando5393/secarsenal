@@ -3,7 +3,7 @@ name: "python-scandir"
 tagline: "A directory iteration function"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/python-scandir"
 downloadUrl: "https://pypi.org/project/${_pkgname}"
 commonlyOn: ["ArchStrike"]

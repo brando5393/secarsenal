@@ -4,11 +4,10 @@ tagline: "Monitor traffic on the first active network interface using tshark, pr
 categories: ["monitoring"]
 platforms: ["Linux"]
 license: "Public Domain"
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://docs.remnux.org/discover-the-tools/explore+network+interactions/monitoring"
-downloadUrl: "https://github.com/REMnux/distro/blob/master/files/monitor-network"
 commonlyOn: ["REMnux"]
-gettingStarted: "Preinstalled on REMnux. See the official REMnux tool listing and upstream website linked above for details."
+gettingStarted: "Preinstalled on REMnux. See the official REMnux tool listing linked above for details."
 ---
 
 Monitor traffic on the first active network interface using tshark, printing a live summary to the screen or saving it to a pcapng file.

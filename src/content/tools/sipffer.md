@@ -3,7 +3,7 @@ name: "sipffer"
 tagline: "SIP protocol command line sniffer."
 categories: ["sniffer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/sniffer.html"
 downloadUrl: "https://github.com/xenomuta/SIPffer"
 commonlyOn: ["BlackArch"]

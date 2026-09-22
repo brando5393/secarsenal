@@ -3,7 +3,7 @@ name: "striker"
 tagline: "An offensive information and vulnerability scanner."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/UltimateHackers/Striker"
 commonlyOn: ["BlackArch"]

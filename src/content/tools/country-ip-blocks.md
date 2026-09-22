@@ -3,7 +3,7 @@ name: "country-ip-blocks"
 tagline: "CIDR country-level IP data, straight from the Regional Internet Registries, updated hourly."
 categories: ["wordlist"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/wordlist.html"
 downloadUrl: "https://github.com/herrbischoff/country-ip-blocks"
 commonlyOn: ["BlackArch"]

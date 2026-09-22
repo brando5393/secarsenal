@@ -3,7 +3,7 @@ name: "antiransom"
 tagline: "A tool capable of detect and stop attacks of Ransomware using honeypots."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://www.security-projects.com/?Anti_Ransom___Download"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "wsgidav"
 tagline: "Generic and extendable WebDAV server (common documentation)"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/wsgidav/"
 downloadUrl: "https://github.com/mar10/wsgidav"
 repoUrl: "https://gitlab.com/kalilinux/packages/wsgidav"

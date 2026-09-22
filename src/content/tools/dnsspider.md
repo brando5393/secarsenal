@@ -3,7 +3,7 @@ name: "dnsspider"
 tagline: "A fast multithreaded bruteforcer of subdomains that leverages a wordlist and/or character permutation."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "http://nullsecurity.net/tools/scanner.html"
 commonlyOn: ["BlackArch"]

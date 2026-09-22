@@ -3,7 +3,7 @@ name: "ipaudit"
 tagline: "Monitors network activity on a network."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "http://ipaudit.sourceforge.net"
 commonlyOn: ["BlackArch"]

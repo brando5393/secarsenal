@@ -3,7 +3,7 @@ name: "ms-sys"
 tagline: "A tool to write Win9x- master boot records (mbr) under linux - RTM!"
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "http://ms-sys.sourceforge.net/"
 commonlyOn: ["BlackArch"]

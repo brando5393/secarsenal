@@ -3,7 +3,7 @@ name: "xssscan"
 tagline: "Command line tool for detection of XSS attacks in URLs. Based on ModSecurity rules from OWASP CRS."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/gwroblew/detectXSSlib"
 commonlyOn: ["BlackArch"]

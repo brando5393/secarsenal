@@ -4,7 +4,7 @@ tagline: "Disassemble and extract resources from .NET assemblies."
 categories: ["net"]
 platforms: ["Linux"]
 license: "MIT License"
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/.net"
 downloadUrl: "https://www.mono-project.com/docs/tools+libraries/tools/monodis/"
 commonlyOn: ["REMnux"]

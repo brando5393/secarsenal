@@ -3,7 +3,7 @@ name: "pwndb"
 tagline: "A command-line tool for searching the pwndb database of compromised credentials."
 categories: ["osint","web"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/davidtavarez/pwndb"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

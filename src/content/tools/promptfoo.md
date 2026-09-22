@@ -3,7 +3,7 @@ name: "promptfoo"
 tagline: "Test and evaluate LLM outputs - AI red teaming, pentesting, and vulnerability scanning."
 categories: ["ai"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/ai.html"
 downloadUrl: "https://github.com/promptfoo/promptfoo"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "iaxscan"
 tagline: "A Python based scanner for detecting live IAX/2 hosts and then enumerating (by bruteforce) users on those hosts."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://code.google.com/p/iaxscan/"
 commonlyOn: ["BlackArch"]

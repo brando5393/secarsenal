@@ -3,7 +3,7 @@ name: "dnstracer"
 tagline: "Trace DNS queries to the source"
 categories: ["network-information-dns"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/dnstracer/"
 downloadUrl: "http://www.mavetju.org/unix/dnstracer.php"
 repoUrl: "https://salsa.debian.org/creekorful/dnstracer"

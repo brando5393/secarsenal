@@ -3,7 +3,7 @@ name: "kubectl"
 tagline: "Command-line interface for managing Kubernetes clusters."
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://kubernetes.io/docs/reference/kubectl/overview/"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

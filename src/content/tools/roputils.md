@@ -3,7 +3,7 @@ name: "roputils"
 tagline: "A Return-oriented Programming toolkit."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/inaz2/roputils"
 commonlyOn: ["BlackArch"]

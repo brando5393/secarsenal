@@ -3,7 +3,7 @@ name: "bopscrk"
 tagline: "Generate smart and powerful wordlists"
 categories: ["password-profiling-wordlists"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/bopscrk/"
 downloadUrl: "https://github.com/r3nt0n/bopscrk/"
 repoUrl: "https://gitlab.com/kalilinux/packages/bopscrk"

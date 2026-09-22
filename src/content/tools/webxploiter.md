@@ -3,7 +3,7 @@ name: "webxploiter"
 tagline: "An OWASP Top 10 Security scanner."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/xionsec/WebXploiter"
 commonlyOn: ["BlackArch"]

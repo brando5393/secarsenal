@@ -3,7 +3,7 @@ name: "ida.plugin.flare-emu"
 tagline: "A user friendly scriptable emulation framework that supports multiple binary analysis tools."
 categories: ["ida-plugins"]
 platforms: ["Windows"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/mandiant/VM-Packages/tree/main/packages/ida.plugin.flare-emu.vm"
 downloadUrl: "https://github.com/mandiant/flare-emu"
 commonlyOn: ["FLARE VM"]

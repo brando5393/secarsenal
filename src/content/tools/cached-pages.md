@@ -3,7 +3,7 @@ name: "Cached Pages"
 tagline: "Web cache lookup utility that surfaces archived and cached versions of a target page from multiple sources."
 categories: ["archives"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://www.cachedpages.com/"
 commonlyOn: []
 gettingStarted: "Best for: Finding recent cached copies of pages that changed or disappeared. See the official site linked above for details."

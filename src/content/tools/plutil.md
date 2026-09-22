@@ -3,7 +3,7 @@ name: "plutil"
 tagline: "Converts .plist files between binary and UTF (editable) text formats."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "http://scw.us/iPhone/plutil/"
 commonlyOn: ["BlackArch"]

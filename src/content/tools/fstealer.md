@@ -3,7 +3,7 @@ name: "fstealer"
 tagline: "Automates file system mirroring through remote file disclosure vulnerabilities on Linux machines."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "http://packetstormsecurity.com/files/106450/FStealer-Filesystem-Mirroring-Tool.html"
 commonlyOn: ["BlackArch"]

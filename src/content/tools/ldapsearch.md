@@ -3,7 +3,7 @@ name: "ldapsearch"
 tagline: "Search for and display entries (ldap)"
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://wiki.debian.org/LDAP/LDAPUtils"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

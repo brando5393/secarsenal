@@ -3,7 +3,7 @@ name: "matroschka"
 tagline: "Python steganography tool to hide images or text in images."
 categories: ["stego"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/stego.html"
 downloadUrl: "https://github.com/fgrimme/Matroschka"
 commonlyOn: ["BlackArch"]

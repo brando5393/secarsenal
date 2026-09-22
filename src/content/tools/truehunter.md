@@ -3,7 +3,7 @@ name: "truehunter"
 tagline: "Detect TrueCrypt containers using a fast and memory efficient approach."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/adoreste/truehunter"
 commonlyOn: ["BlackArch"]

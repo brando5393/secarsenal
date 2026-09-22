@@ -3,7 +3,7 @@ name: "rbkb"
 tagline: "A miscellaneous collection of command-line tools related to pen-testing and reversing."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/emonti/rbkb"
 commonlyOn: ["BlackArch"]

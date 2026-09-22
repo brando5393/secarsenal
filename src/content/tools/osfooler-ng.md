@@ -3,7 +3,7 @@ name: "osfooler-ng"
 tagline: "Prevents remote active/passive OS fingerprinting by tools like nmap or p0f."
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://github.com/segofensiva/OSfooler-ng"
 commonlyOn: ["BlackArch"]

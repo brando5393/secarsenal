@@ -3,7 +3,7 @@ name: "python-fusepy"
 tagline: "Python module that provides a simple interface to FUSE and MacFUSE"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/python-fusepy"
 downloadUrl: "https://pypi.org/project/fusepy/"
 commonlyOn: ["ArchStrike"]

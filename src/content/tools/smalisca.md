@@ -3,7 +3,7 @@ name: "smalisca"
 tagline: "Static Code Analysis for Smali files."
 categories: ["mobile"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/mobile.html"
 downloadUrl: "https://github.com/dorneanu/smalisca"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "fierce-git"
 tagline: "A DNS scanner"
 categories: ["scanners"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/fierce-git"
 downloadUrl: "https://github.com/davidpepper/fierce-domain-scanner"
 commonlyOn: ["ArchStrike"]

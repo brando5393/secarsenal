@@ -3,7 +3,7 @@ name: "krbjack"
 tagline: "DNS dynamic update abuse in ADIDNS and MitM attack using Kerberos AP-REQ hijacking."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/almandin/krbjack"
 commonlyOn: ["BlackArch"]

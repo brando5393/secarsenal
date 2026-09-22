@@ -3,7 +3,7 @@ name: "exegol-history"
 tagline: "Credentials management for Exegol"
 categories: ["ad","light","osint","web"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/ThePorgs/Exegol-history"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "gcrypt"
 tagline: "Simple, secure and performance file encryption tool written in C"
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://gitlab.com/GasparVardanyan/gcrypt"
 commonlyOn: ["BlackArch"]

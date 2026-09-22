@@ -3,7 +3,7 @@ name: "Google's Certificate Transparency"
 tagline: "Directory of all known Certificate Transparency logs monitored by Chrome and other browsers. Browse CT log records to discover issued certificates,…"
 categories: ["domain-name"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://www.certificate-transparency.org/known-logs"
 commonlyOn: []
 gettingStarted: "Best for: Certificate discovery, unauthorized cert detection, domain monitoring. See the official site linked above for details."

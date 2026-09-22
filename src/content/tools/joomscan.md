@@ -3,7 +3,7 @@ name: "joomscan"
 tagline: "OWASP Joomla Vulnerability Scanner Project"
 categories: ["web-vulnerability-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/joomscan/"
 downloadUrl: "https://www.owasp.org/index.php/Category:OWASP_Joomla_Vulnerability_Scanner_Project"
 repoUrl: "https://gitlab.com/kalilinux/packages/joomscan"

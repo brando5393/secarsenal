@@ -3,7 +3,7 @@ name: "eresi"
 tagline: "The ERESI Reverse Engineering Software Interface."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/thorkill/eresi"
 commonlyOn: ["BlackArch"]

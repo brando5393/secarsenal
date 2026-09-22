@@ -4,7 +4,7 @@ tagline: "Compress and decompress files using a variety of algorithms."
 categories: ["general"]
 platforms: ["Linux"]
 license: "GNU Lesser General Public License (LGPL)"
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/general"
 downloadUrl: "https://www.7-zip.org"
 commonlyOn: ["REMnux"]

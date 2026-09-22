@@ -1,16 +1,15 @@
 ---
 name: "redeye"
-tagline: "Tool to help you manage your data during a pentest operation"
-categories: ["reporting-tools","system-services"]
+tagline: "Visual analytic tool supporting Red & Blue Team operations."
+categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
-docsUrl: "https://www.kali.org/tools/redeye/"
-downloadUrl: "https://github.com/redeye-framework/Redeye"
-repoUrl: "https://gitlab.com/kalilinux/packages/redeye"
-commonlyOn: ["Kali Linux"]
-gettingStarted: "Install on Kali Linux with `sudo apt install redeye`. See the official Kali tool page and upstream homepage linked above for full usage and configuration details."
+lastVerified: 2026-09-22
+docsUrl: "https://blackarch.org/misc.html"
+downloadUrl: "https://github.com/cisagov/RedEye"
+commonlyOn: ["BlackArch"]
+gettingStarted: "Install on BlackArch with `pacman -S redeye` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
 ---
 
-This package contains a tool intended to help you manage your data during a pentest operation in the most efficient and organized way.
+Visual analytic tool supporting Red & Blue Team operations.
 
 Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

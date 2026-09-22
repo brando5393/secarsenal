@@ -3,7 +3,7 @@ name: "ssdp-scanner"
 tagline: "SSDP amplification scanner written in Python. Makes use of Scapy."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://packetstormsecurity.com/files/127994/SSDP-Amplification-Scanner.html"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "catana"
 tagline: "Filter your wordlist according to the specified password policy."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/D3vil0p3r/catana"
 commonlyOn: ["BlackArch"]

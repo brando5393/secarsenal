@@ -3,7 +3,7 @@ name: "jaidam"
 tagline: "Penetration testing tool that would take as input a list of domain names, scan them, determine if wordpress or joomla pl"
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/stasinopoulos/jaidam"
 commonlyOn: ["BlackArch"]

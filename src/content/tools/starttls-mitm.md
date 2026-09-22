@@ -3,7 +3,7 @@ name: "starttls-mitm"
 tagline: "A mitm proxy that will transparently proxy and dump both plaintext and TLS traffic."
 categories: ["proxy"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/proxy.html"
 downloadUrl: "https://github.com/ipopov/starttls-mitm"
 commonlyOn: ["BlackArch"]

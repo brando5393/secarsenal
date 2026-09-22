@@ -3,7 +3,7 @@ name: "python-keyboard"
 tagline: "A small python library to parse and build HTTP requests"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/python-keyboard"
 downloadUrl: "https://pypi.org/project/http_request/"
 commonlyOn: ["ArchStrike"]

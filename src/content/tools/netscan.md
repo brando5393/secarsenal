@@ -3,7 +3,7 @@ name: "netscan"
 tagline: "Tcp/Udp/Tor port scanner with: synpacket, connect TCP/UDP and socks5 (tor connection)."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://packetstormsecurity.com/files/125569/Netscan-Port-Scanner.0.html"
 commonlyOn: ["BlackArch"]

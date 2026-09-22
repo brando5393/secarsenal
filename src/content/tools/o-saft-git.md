@@ -3,7 +3,7 @@ name: "o-saft-git"
 tagline: "An easy to use tool to show informations about SSL certificate and tests the SSL connection according given list of ciphers and various SSL configurat"
 categories: ["scanners"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/o-saft-git"
 downloadUrl: "https://github.com/OWASP/O-Saft"
 commonlyOn: ["ArchStrike"]

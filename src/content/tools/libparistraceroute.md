@@ -3,7 +3,7 @@ name: "libparistraceroute"
 tagline: "A library written in C dedicated to active network measurements with examples, such as paris-ping and paris-traceroute."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/libparistraceroute/libparistraceroute"
 commonlyOn: ["BlackArch"]

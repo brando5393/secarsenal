@@ -3,7 +3,7 @@ name: "cpp2il"
 tagline: "A tool to reverse unity's IL2PP toolchain"
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/SamboyCoding/Cpp2IL"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "malscan"
 tagline: "A Simple PE File Heuristics Scanner."
 categories: ["malware"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/malware.html"
 downloadUrl: "https://github.com/Ice3man543/MalScan"
 commonlyOn: ["BlackArch"]

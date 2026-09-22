@@ -3,7 +3,7 @@ name: "certipy-ad"
 tagline: "Tool for attacking AD Certificate Services"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/certipy-ad/"
 downloadUrl: "https://github.com/ly4k/Certipy"
 repoUrl: "https://gitlab.com/kalilinux/packages/certipy-ad"

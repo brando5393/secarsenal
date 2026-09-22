@@ -3,7 +3,7 @@ name: "ngrep"
 tagline: "Grep for network traffic"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/ngrep/"
 downloadUrl: "https://github.com/jpr5/ngrep"
 repoUrl: "https://salsa.debian.org/debian/ngrep"

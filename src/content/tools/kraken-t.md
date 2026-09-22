@@ -3,7 +3,7 @@ name: "Kraken (T)"
 tagline: "Open-source reconnaissance utility for domain and network intelligence gathering workflows."
 categories: ["domain-name"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/Sw4mpf0x/Kraken"
 commonlyOn: []
 gettingStarted: "Best for: CLI-driven reconnaissance against domain and host assets. See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "indx2csv"
 tagline: "An advanced parser for INDX records."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/jschicht/Indx2Csv"
 commonlyOn: ["BlackArch"]

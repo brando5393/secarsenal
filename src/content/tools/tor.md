@@ -4,7 +4,7 @@ tagline: "Obfuscate your origins by routing traffic through a network of anonymi
 categories: ["connecting"]
 platforms: ["Linux"]
 license: "3-Clause BSD license"
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://docs.remnux.org/discover-the-tools/explore+network+interactions/connecting"
 downloadUrl: "https://www.torproject.org"
 commonlyOn: ["REMnux"]

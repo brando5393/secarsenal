@@ -3,10 +3,11 @@ name: "hookanalyser"
 tagline: "A hook tool which can be potentially helpful in reversing applications and analyzing malware. It can hook to an API in a"
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/windows.html"
+downloadUrl: "http://hookanalyser.blogspot.de/"
 commonlyOn: ["BlackArch"]
-gettingStarted: "Install on BlackArch with `pacman -S hookanalyser` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."
+gettingStarted: "Install on BlackArch with `pacman -S hookanalyser` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
 ---
 
 A hook tool which can be potentially helpful in reversing applications and analyzing malware. It can hook to an API in a process and search for a pattern in memory or dump the buffer.

@@ -4,7 +4,7 @@ tagline: "Decode and encode date and timestamps."
 categories: ["gather-and-analyze-data"]
 platforms: ["Linux"]
 license: "MIT License"
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://docs.remnux.org/discover-the-tools/gather+and+analyze+data"
 downloadUrl: "https://github.com/digitalsleuth/time_decode"
 commonlyOn: ["REMnux"]

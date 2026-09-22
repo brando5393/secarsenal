@@ -3,7 +3,7 @@ name: "linkedin2username"
 tagline: "Generate username lists for companies on LinkedIn"
 categories: ["identity-information"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/linkedin2username/"
 downloadUrl: "https://github.com/initstring/linkedin2username"
 repoUrl: "https://gitlab.com/kalilinux/packages/linkedin2username"

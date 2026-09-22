@@ -3,7 +3,7 @@ name: "fatcat"
 tagline: "FAT filesystem explore, extract, repair, and forensic tool"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/fatcat/"
 downloadUrl: "https://github.com/Gregwar/fatcat"
 repoUrl: "https://salsa.debian.org/pkg-security-team/fatcat"

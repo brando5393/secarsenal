@@ -3,7 +3,7 @@ name: "winrelay"
 tagline: "A TCP/UDP forwarder/redirector that works with both IPv4 and IPv6."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://ntsecurity.nu/toolbox/winrelay/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "PDF My URL"
 tagline: "Converts web pages into downloadable PDF captures for documentation and evidence preservation."
 categories: ["archives"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://pdfmyurl.com/"
 commonlyOn: []
 gettingStarted: "Best for: Generating quick PDF evidence captures of web pages. See the official site linked above for details."

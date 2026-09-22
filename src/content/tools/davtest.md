@@ -3,7 +3,7 @@ name: "davtest"
 tagline: "Testing tool for WebDAV servers"
 categories: ["web-vulnerability-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/davtest/"
 downloadUrl: "https://github.com/cldrn/davtest"
 repoUrl: "https://gitlab.com/kalilinux/packages/davtest"

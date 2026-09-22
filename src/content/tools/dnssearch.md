@@ -3,7 +3,7 @@ name: "dnssearch"
 tagline: "A subdomain enumeration tool."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/evilsocket/dnssearch"
 commonlyOn: ["BlackArch"]

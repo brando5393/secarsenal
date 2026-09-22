@@ -3,7 +3,7 @@ name: "plcscan"
 tagline: "This is a tool written in Python that will scan for PLC devices over s7comm or modbus protocols."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://packetstormsecurity.com/files/119726/PLC-Device-Scanner.html"
 commonlyOn: ["BlackArch"]

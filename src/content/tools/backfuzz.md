@@ -3,7 +3,7 @@ name: "backfuzz"
 tagline: "A network protocol fuzzing toolkit."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://github.com/localh0t/backfuzz"
 commonlyOn: ["BlackArch"]

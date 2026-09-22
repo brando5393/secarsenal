@@ -3,7 +3,7 @@ name: "perl-modern-perl"
 tagline: "enable all of the features of Modern Perl with one command"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/perl-modern-perl"
 downloadUrl: "https://metacpan.org/pod/Modern::Perl"
 commonlyOn: ["ArchStrike"]

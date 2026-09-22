@@ -3,7 +3,7 @@ name: "VirusShare.com"
 tagline: "Repository of 111+ million live malware samples provided for security researchers, incident responders, forensic analysts, and researchers."
 categories: ["malicious-file-analysis"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://virusshare.com/"
 commonlyOn: []
 gettingStarted: "Best for: Bulk access to malware sample collections for research and analysis. See the official site linked above for details."

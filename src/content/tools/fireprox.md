@@ -3,7 +3,7 @@ name: "fireprox"
 tagline: "AWS API Gateway management tool for creating on the fly HTTP pass-through proxies for unique IP rotation."
 categories: ["proxy"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/proxy.html"
 downloadUrl: "https://github.com/ustayready/fireprox"
 commonlyOn: ["BlackArch"]

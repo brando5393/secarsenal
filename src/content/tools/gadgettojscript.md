@@ -3,7 +3,7 @@ name: "gadgettojscript"
 tagline: ".NET serialized gadgets that can trigger .NET assembly from JS/VBS/VBA based scripts."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/med0x2e/GadgetToJScript"
 commonlyOn: ["BlackArch"]

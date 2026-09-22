@@ -3,7 +3,7 @@ name: "Bielefeld Academic Search Engine"
 tagline: "Academic search engine indexing over 400 million documents from 12,000+ content providers including institutional repositories, open-access journals,…"
 categories: ["search-engines"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://www.base-search.net/Search/Advanced"
 commonlyOn: []
 gettingStarted: "Best for: Broad academic literature search across open-access and institutional repositories. See the official site linked above for details."

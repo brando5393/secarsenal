@@ -3,7 +3,7 @@ name: "httpry"
 tagline: "A specialized packet sniffer designed for displaying and logging HTTP traffic."
 categories: ["sniffer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/sniffer.html"
 downloadUrl: "http://dumpsterventures.com/jason/httpry/"
 commonlyOn: ["BlackArch"]

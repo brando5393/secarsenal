@@ -3,7 +3,7 @@ name: "afflib"
 tagline: "Advanced Forensics Format Library (utilities)"
 categories: ["forensic-imaging-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/afflib/"
 downloadUrl: "https://github.com/sshock/AFFLIBv3"
 repoUrl: "https://salsa.debian.org/pkg-security-team/afflib"

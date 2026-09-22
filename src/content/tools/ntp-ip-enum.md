@@ -3,11 +3,10 @@ name: "ntp-ip-enum"
 tagline: "Script to pull addresses from a NTP server using the monlist command. Can also output Maltego resultset."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
-downloadUrl: "http://www.securepla.net/"
 commonlyOn: ["BlackArch"]
-gettingStarted: "Install on BlackArch with `pacman -S ntp-ip-enum` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
+gettingStarted: "Install on BlackArch with `pacman -S ntp-ip-enum` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."
 ---
 
 Script to pull addresses from a NTP server using the monlist command. Can also output Maltego resultset.

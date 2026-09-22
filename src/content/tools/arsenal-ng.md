@@ -3,7 +3,7 @@ name: "arsenal-ng"
 tagline: "Go-based command library equipped with 200+ cybersecurity cheat-sheets"
 categories: ["services-and-other-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/arsenal-ng/"
 downloadUrl: "https://github.com/halilkirazkaya/arsenal-ng"
 repoUrl: "https://gitlab.com/kalilinux/packages/arsenal-ng"

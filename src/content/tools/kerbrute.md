@@ -3,7 +3,7 @@ name: "kerbrute"
 tagline: "A tool to perform Kerberos pre-auth bruteforcing."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/ropnop/kerbrute"
 commonlyOn: ["BlackArch"]

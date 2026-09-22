@@ -3,7 +3,7 @@ name: "sipbrute"
 tagline: "A utility to perform dictionary attacks against the VoIP SIP Register hash."
 categories: ["voip"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/voip.html"
 downloadUrl: "https://github.com/packetassailant/sipbrute"
 commonlyOn: ["BlackArch"]

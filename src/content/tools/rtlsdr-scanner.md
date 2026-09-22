@@ -3,7 +3,7 @@ name: "rtlsdr-scanner"
 tagline: "A cross platform Python frequency scanning GUI for the OsmoSDR rtl-sdr library."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/EarToEarOak/RTLSDR-Scanner"
 commonlyOn: ["BlackArch"]

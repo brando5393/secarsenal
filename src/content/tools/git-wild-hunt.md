@@ -3,7 +3,7 @@ name: "git-wild-hunt"
 tagline: "A tool to hunt for credentials in github wild AKA git*hunt."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/d1vious/git-wild-hunt"
 commonlyOn: ["BlackArch"]

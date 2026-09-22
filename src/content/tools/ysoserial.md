@@ -3,7 +3,7 @@ name: "ysoserial"
 tagline: "A proof-of-concept tool for generating payloads that exploit unsafe Java object deserialization."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/frohoff/ysoserial"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "anew"
 tagline: "A simple tool for filtering and manipulating text data / such as log files and other outputs."
 categories: ["ad","web"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/tomnomnom/anew"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

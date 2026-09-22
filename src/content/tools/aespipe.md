@@ -3,7 +3,7 @@ name: "aespipe"
 tagline: "Reads data from stdin and outputs encrypted or decrypted results to stdout."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "http://loop-aes.sourceforge.net/aespipe/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "crackpkcs12"
 tagline: "A multithreaded program to crack PKCS#12 files (p12 and pfx extensions)."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/crackpkcs12/crackpkcs12"
 commonlyOn: ["BlackArch"]

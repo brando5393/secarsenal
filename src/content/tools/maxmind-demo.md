@@ -3,7 +3,7 @@ name: "MaxMind Demo"
 tagline: "Web-based IP geolocation demo with location, ASN, and network data from MaxMind's GeoIP database."
 categories: ["ip-mac-address"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://www.maxmind.com/en/home"
 commonlyOn: []
 gettingStarted: "Best for: Quick IP geolocation. See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "hoaxshell"
 tagline: "Windows reverse shell payload generator and handler that abuses http(s)"
 categories: ["command-and-control"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/hoaxshell/"
 downloadUrl: "https://github.com/t3l3machus/hoaxshell/"
 repoUrl: "https://gitlab.com/kalilinux/packages//hoaxshell"

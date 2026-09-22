@@ -3,7 +3,7 @@ name: "zulucrypt"
 tagline: "Front end to cryptsetup and tcplay and it allows easy management of encrypted block devices."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/mhogomchungu/zuluCrypt"
 commonlyOn: ["BlackArch"]

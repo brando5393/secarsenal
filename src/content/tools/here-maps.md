@@ -3,7 +3,7 @@ name: "HERE Maps"
 tagline: "Enterprise-grade mapping platform with routing and global cartographic coverage."
 categories: ["geolocation-tools-maps"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://maps.here.com/"
 commonlyOn: []
 gettingStarted: "Best for: Commercial-grade map and route analysis. See the official site linked above for details."

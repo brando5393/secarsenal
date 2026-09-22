@@ -3,7 +3,7 @@ name: "katana"
 tagline: "Next-generation crawling and spidering framework."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/katana/"
 downloadUrl: "https://github.com/projectdiscovery/katana"
 repoUrl: "https://gitlab.com/kalilinux/packages/katana"

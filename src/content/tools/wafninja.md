@@ -3,7 +3,7 @@ name: "wafninja"
 tagline: "A tool which contains two functions to attack Web Application Firewalls."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/khalilbijjou/WAFNinja"
 commonlyOn: ["BlackArch"]

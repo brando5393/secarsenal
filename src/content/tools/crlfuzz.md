@@ -3,7 +3,7 @@ name: "crlfuzz"
 tagline: "Fast tool to scan CRLF vulnerability written in Go"
 categories: ["web-vulnerability-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/crlfuzz/"
 downloadUrl: "https://github.com/dwisiswant0/crlfuzz"
 repoUrl: "https://gitlab.com/kalilinux/packages/crlfuzz"

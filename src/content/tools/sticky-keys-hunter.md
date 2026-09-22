@@ -3,7 +3,7 @@ name: "sticky-keys-hunter"
 tagline: "Script to test an RDP host for sticky keys and utilman backdoor."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/ztgrace/sticky_keys_hunter"
 commonlyOn: ["BlackArch"]

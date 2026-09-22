@@ -3,7 +3,7 @@ name: "otori"
 tagline: "Toolbox intended to allow useful exploitation of XML external entity (\"XXE\") vulnerabilities."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "http://www.beneaththewaves.net/Software/On_The_Outside_Reaching_In.html"
 commonlyOn: ["BlackArch"]

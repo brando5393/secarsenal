@@ -3,7 +3,7 @@ name: "gron"
 tagline: "Make JSON greppable!"
 categories: ["osint","web"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/tomnomnom/gron"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

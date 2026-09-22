@@ -3,11 +3,10 @@ name: "python-cfscrape"
 tagline: "A Python module to bypass Cloudflare's anti-bot page"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/python-cfscrape"
-downloadUrl: "https://github.com/Anorov/cloudflare-scrape"
 commonlyOn: ["ArchStrike"]
-gettingStarted: "Install by adding the ArchStrike repository to an existing Arch Linux install, then `pacman -S python-cfscrape`. See the official ArchStrike package listing and upstream homepage linked above for details."
+gettingStarted: "Install by adding the ArchStrike repository to an existing Arch Linux install, then `pacman -S python-cfscrape`. See the official ArchStrike package listing linked above for details."
 ---
 
 A Python module to bypass Cloudflare's anti-bot page

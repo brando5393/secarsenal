@@ -3,7 +3,7 @@ name: "gdb-peda"
 tagline: "Python Exploit Development Assistance for GDB"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/gdb-peda/"
 downloadUrl: "https://github.com/longld/peda"
 repoUrl: "https://gitlab.com/kalilinux/packages/gdb-peda"

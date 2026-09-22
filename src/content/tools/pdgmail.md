@@ -3,7 +3,7 @@ name: "pdgmail"
 tagline: "A password dictionary attack tool that targets windows authentication via the SMB protocol."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://www.jeffbryner.com/code/pdgmail"
 commonlyOn: ["BlackArch"]
