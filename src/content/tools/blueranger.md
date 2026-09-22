@@ -3,7 +3,7 @@ name: "blueranger"
 tagline: "Simple Bash script to locate Bluetooth devices"
 categories: ["bluetooth"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/blueranger/"
 downloadUrl: "http://www.hackfromacave.com/projects/blueranger.html"
 repoUrl: "https://gitlab.com/kalilinux/packages/blueranger"

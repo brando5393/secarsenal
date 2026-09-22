@@ -3,7 +3,7 @@ name: "ptp"
 tagline: "Ranks the discoveries listed in security tool reports."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/ptp"
 downloadUrl: "http://owtf.github.io/ptp"
 commonlyOn: ["ArchStrike"]

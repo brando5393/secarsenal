@@ -3,7 +3,7 @@ name: "fakenetbios"
 tagline: "A family of tools designed to simulate Windows hosts (NetBIOS) on a LAN."
 categories: ["spoof"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/spoof.html"
 downloadUrl: "https://github.com/mubix/FakeNetBIOS"
 commonlyOn: ["BlackArch"]

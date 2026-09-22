@@ -3,7 +3,7 @@ name: "eHarmony"
 tagline: "Personality-based matchmaking platform focused on long-term relationships with curated compatibility-driven pairings."
 categories: ["dating"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://www.eharmony.com/"
 commonlyOn: []
 gettingStarted: "Best for: Compatibility-matched dating for long-term relationships. See the official site linked above for details."

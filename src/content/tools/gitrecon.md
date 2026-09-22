@@ -3,7 +3,7 @@ name: "gitrecon"
 tagline: "OSINT tool to get information from a Github and Gitlab profile and find user's email addresses leaked on commits."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/GONZOsint/gitrecon"
 commonlyOn: ["BlackArch"]

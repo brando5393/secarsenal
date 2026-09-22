@@ -3,7 +3,7 @@ name: "simple-ducky"
 tagline: "A payload generator."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://code.google.com/p/simple-ducky-payload-generator"
 commonlyOn: ["BlackArch"]

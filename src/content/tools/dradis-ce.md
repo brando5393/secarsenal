@@ -3,7 +3,7 @@ name: "dradis-ce"
 tagline: "An open source framework to enable effective information sharing."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://dradis.com/ce/"
 commonlyOn: ["BlackArch"]

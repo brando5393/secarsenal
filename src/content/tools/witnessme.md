@@ -3,7 +3,7 @@ name: "witnessme"
 tagline: "Web Inventory tool"
 categories: ["reporting-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/witnessme/"
 downloadUrl: "https://github.com/byt3bl33d3r/WitnessMe"
 repoUrl: "https://gitlab.com/kalilinux/packages/witnessme"

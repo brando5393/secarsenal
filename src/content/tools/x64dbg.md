@@ -3,7 +3,7 @@ name: "x64dbg"
 tagline: "An open-source x64/x32 debugger for windows."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/x64dbg/x64dbg/releases"
 commonlyOn: ["BlackArch"]

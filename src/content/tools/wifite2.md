@@ -3,7 +3,7 @@ name: "wifite2"
 tagline: "Script for auditing wireless networks."
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/derv82/wifite2"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

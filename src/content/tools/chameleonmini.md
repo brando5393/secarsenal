@@ -3,7 +3,7 @@ name: "chameleonmini"
 tagline: "Official repository of ChameleonMini, a freely programmable, portable tool for NFC security analysis that can emulate an"
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://github.com/emsec/ChameleonMini"
 commonlyOn: ["BlackArch"]

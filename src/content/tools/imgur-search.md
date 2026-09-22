@@ -3,7 +3,7 @@ name: "Imgur Search"
 tagline: "Search interface for Imgur-hosted public images, albums, and community media posts."
 categories: ["images-videos-docs"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://imgur.com/search"
 commonlyOn: []
 gettingStarted: "Best for: Locating reposted images and public gallery content on Imgur. See the official site linked above for details."

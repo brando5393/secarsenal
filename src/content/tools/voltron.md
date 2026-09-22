@@ -3,7 +3,7 @@ name: "voltron"
 tagline: "UI for GDB, LLDB and Vivisect's VDB."
 categories: ["debugger"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/debugger.html"
 downloadUrl: "https://github.com/snare/voltron"
 commonlyOn: ["BlackArch"]

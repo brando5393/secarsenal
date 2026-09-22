@@ -3,7 +3,7 @@ name: "CamFind App"
 tagline: "Mobile visual search app that identifies objects, landmarks, and products from photos."
 categories: ["images-videos-docs"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://camfindapp.com/"
 commonlyOn: []
 gettingStarted: "Best for: On-device object identification and quick visual lookups. See the official site linked above for details."

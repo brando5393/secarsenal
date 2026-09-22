@@ -3,7 +3,7 @@ name: "pwnloris"
 tagline: "An improved slowloris DOS tool which keeps attacking until the server starts getting exhausted."
 categories: ["dos"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/dos.html"
 downloadUrl: "https://github.com/h0ussni/pwnloris"
 commonlyOn: ["BlackArch"]

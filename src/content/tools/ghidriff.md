@@ -3,7 +3,7 @@ name: "ghidriff"
 tagline: "Python Command-Line Ghidra Binary Diffing Engine."
 categories: ["reversing"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/reversing.html"
 downloadUrl: "https://github.com/clearbluejar/ghidriff"
 commonlyOn: ["BlackArch"]

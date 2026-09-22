@@ -3,7 +3,7 @@ name: "gosint"
 tagline: "OSINT framework in Go."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/Nhoya/gOSINT"
 commonlyOn: ["BlackArch"]

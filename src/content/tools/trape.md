@@ -3,7 +3,7 @@ name: "trape"
 tagline: "People tracker on the Internet: OSINT analysis and research tool by Jose Pino."
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://github.com/jofpin/trape"
 commonlyOn: ["BlackArch"]

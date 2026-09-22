@@ -3,7 +3,7 @@ name: "bashfuscator"
 tagline: "Fully configurable and extendable Bash obfuscation framework."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/Bashfuscator/Bashfuscator"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "python-iptools"
 tagline: "Python utilites for manipulating IPv4 and IPv6 addresses"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/python-iptools"
 downloadUrl: "https://github.com/bd808/python-iptools"
 commonlyOn: ["ArchStrike"]

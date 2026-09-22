@@ -3,7 +3,7 @@ name: "tpcat"
 tagline: "Tool based upon pcapdiff by the EFF."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "http://sourceforge.net/projects/tpcat/"
 commonlyOn: ["BlackArch"]

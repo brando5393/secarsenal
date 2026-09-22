@@ -3,7 +3,7 @@ name: "osueta"
 tagline: "A simple Python script to exploit the OpenSSH User Enumeration Timing Attack."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/c0r3dump3d/osueta"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "netscout"
 tagline: "OSINT tool that finds domains, subdomains, directories, endpoints and files."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/caio-ishikawa/netscout"
 commonlyOn: ["BlackArch"]

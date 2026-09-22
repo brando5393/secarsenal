@@ -3,7 +3,7 @@ name: "ssh-user-enum"
 tagline: "SSH User Enumeration Script in Python Using The Timing Attack."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/nccgroup/ssh_user_enum"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "see-surf"
 tagline: "Security tool to find potential vulnerable Server Side Request Forgery (SSRF) parameters."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/In3tinct/See-SURF"
 commonlyOn: ["BlackArch"]

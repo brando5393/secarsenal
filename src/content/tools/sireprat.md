@@ -3,7 +3,7 @@ name: "sireprat"
 tagline: "Remote Command Execution as SYSTEM on Windows IoT Core."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/SafeBreach-Labs/SirepRAT"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "email2phonenumber"
 tagline: "OSINT tool to obtain a target’s phone number by having their email address"
 categories: ["identity-information"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/email2phonenumber/"
 downloadUrl: "https://github.com/martinvigo/email2phonenumber"
 repoUrl: "https://gitlab.com/kalilinux/packages/email2phonenumber"

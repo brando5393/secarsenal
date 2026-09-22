@@ -3,7 +3,7 @@ name: "ftp-fuzz"
 tagline: "The master of all master fuzzing scripts specifically targeted towards FTP server software."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "http://nullsecurity.net/tools/fuzzer.html"
 commonlyOn: ["BlackArch"]

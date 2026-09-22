@@ -3,7 +3,7 @@ name: "sandcastle"
 tagline: "A Python script for AWS S3 bucket enumeration."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/0xSearches/sandcastle"
 commonlyOn: ["BlackArch"]

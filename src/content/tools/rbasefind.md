@@ -3,7 +3,7 @@ name: "rbasefind"
 tagline: "A firmware base address search tool."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/sgayou/rbasefind"
 commonlyOn: ["BlackArch"]

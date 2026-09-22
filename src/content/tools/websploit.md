@@ -3,7 +3,7 @@ name: "websploit"
 tagline: "Web exploitation framework"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/websploit/"
 downloadUrl: "https://sourceforge.net/projects/websploit/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/websploit"

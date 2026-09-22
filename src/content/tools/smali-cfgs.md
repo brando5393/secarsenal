@@ -3,7 +3,7 @@ name: "smali-cfgs"
 tagline: "Smali Control Flow Graph's."
 categories: ["mobile"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/mobile.html"
 downloadUrl: "https://github.com/ch0psticks/Smali-CFGs"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "rdp-cipher-checker"
 tagline: "Enumerate the encryption protocols supported by the server and the cipher strengths supported using native RDP encryptio"
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://labs.f-secure.com/tools/rdp-cipher-checker/"
 commonlyOn: ["BlackArch"]

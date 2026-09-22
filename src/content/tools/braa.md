@@ -3,7 +3,7 @@ name: "braa"
 tagline: "Mass SNMP scanner"
 categories: ["snmp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/braa/"
 downloadUrl: "https://github.com/mteg/braa"
 repoUrl: "https://salsa.debian.org/pkg-security-team/braa"

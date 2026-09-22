@@ -3,7 +3,7 @@ name: "rlwrap"
 tagline: "rlwrap is a small utility that wraps input and output streams of executables / making it possible to edit and re-run input history"
 categories: ["ad","osint","web"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/hanslub42/rlwrap"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

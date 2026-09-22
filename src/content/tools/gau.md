@@ -3,7 +3,7 @@ name: "gau"
 tagline: "Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, and Common Crawl."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/lc/gau/"
 commonlyOn: ["BlackArch"]

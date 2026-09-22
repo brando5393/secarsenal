@@ -3,7 +3,7 @@ name: "python-witnessme"
 tagline: "Web Inventory tool, takes screenshots of webpages using Pyppeteer."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://pypi.org/project/witnessme/#files"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "dnsbrute"
 tagline: "Multi-theaded DNS bruteforcing, average speed 80 lookups/second with 40 threads."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/d4rkcat/dnsbrute"
 commonlyOn: ["BlackArch"]

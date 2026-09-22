@@ -3,7 +3,7 @@ name: "hollows-hunter"
 tagline: "Scans all running processes. Recognizes and dumps a variety of potentially malicious implants (replaced/injected PEs, sh"
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/hasherezade/hollows_hunter"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "python-nmap"
 tagline: "Python3 library which helps in using the nmap port scanner."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/python-nmap"
 downloadUrl: "http://xael.org/pages/python-nmap-en.html"
 commonlyOn: ["ArchStrike"]

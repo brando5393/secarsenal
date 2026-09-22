@@ -3,7 +3,7 @@ name: "python-selenium"
 tagline: "A browser automation framework and ecosystem"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/python-selenium"
 downloadUrl: "https://github.com/SeleniumHQ/Selenium"
 commonlyOn: ["ArchStrike"]

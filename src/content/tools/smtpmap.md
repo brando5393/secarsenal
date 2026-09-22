@@ -3,7 +3,7 @@ name: "smtpmap"
 tagline: "Tool to identify the running smtp software on a given host."
 categories: ["fingerprint"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/fingerprint.html"
 downloadUrl: "http://www.projectiwear.org/~plasmahh/software.html"
 commonlyOn: ["BlackArch"]

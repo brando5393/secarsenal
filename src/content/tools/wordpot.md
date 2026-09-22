@@ -3,7 +3,7 @@ name: "wordpot"
 tagline: "A Wordpress Honeypot."
 categories: ["honeypot"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/honeypot.html"
 downloadUrl: "https://github.com/gbrindisi/wordpot"
 commonlyOn: ["BlackArch"]

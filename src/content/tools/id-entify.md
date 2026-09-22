@@ -3,7 +3,7 @@ name: "id-entify"
 tagline: "Search for information related to a domain: Emails - IP addresses - Domains - Information on WEB technology - Type of Fi"
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/BillyV4/ID-entify"
 commonlyOn: ["BlackArch"]

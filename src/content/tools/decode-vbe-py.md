@@ -4,7 +4,7 @@ tagline: "Decode encoded VBS scripts (VBE)."
 categories: ["scripts"]
 platforms: ["Linux"]
 license: "Public Domain"
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://docs.remnux.org/discover-the-tools/statically+analyze+code/scripts"
 downloadUrl: "https://blog.didierstevens.com/2016/03/29/decoding-vbe/"
 commonlyOn: ["REMnux"]

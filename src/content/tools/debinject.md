@@ -3,7 +3,7 @@ name: "debinject"
 tagline: "Inject malicious code into *.debs."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://github.com/UndeadSec/Debinject"
 commonlyOn: ["BlackArch"]

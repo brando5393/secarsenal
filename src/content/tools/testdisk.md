@@ -1,12 +1,12 @@
 ---
 name: "testdisk"
-tagline: "Partition scanner and disk recovery tool, and PhotoRec file recovery tool"
+tagline: "Partition scanner and disk recovery tool"
 categories: ["forensic-carving-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/testdisk/"
 downloadUrl: "https://www.cgsecurity.org/"
-repoUrl: "https://salsa.debian.org/debian/testdisk"
+repoUrl: "https://salsa.debian.org/pkg-security-team/testdisk"
 commonlyOn: ["Kali Linux"]
 gettingStarted: "See the official Kali tool page and upstream homepage linked above for installation and usage details."
 ---

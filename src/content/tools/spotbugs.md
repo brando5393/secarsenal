@@ -3,7 +3,7 @@ name: "spotbugs"
 tagline: "A tool for static analysis to look for bugs in Java code."
 categories: ["code-audit"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/code-audit.html"
 downloadUrl: "https://github.com/spotbugs/spotbugs"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "linenum-git"
 tagline: "Scripted Local Linux Enumeration & Privilege Escalation Checks"
 categories: ["scanners"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/linenum-git"
 downloadUrl: "https://github.com/rebootuser/LinEnum"
 commonlyOn: ["ArchStrike"]

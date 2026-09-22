@@ -3,7 +3,7 @@ name: "avrdude"
 tagline: "AVRDUDE is a command-line program that allows you to download/upload/manipulate the ROM and EEPROM contents of AVR microcontrollers using the…"
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/avrdudes/avrdude"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

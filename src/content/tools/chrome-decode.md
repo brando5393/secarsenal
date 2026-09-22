@@ -3,7 +3,7 @@ name: "chrome-decode"
 tagline: "Chrome web browser decoder tool that demonstrates recovering passwords."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://packetstormsecurity.com/files/119153/Chrome-Web-Browser-Decoder.html"
 commonlyOn: ["BlackArch"]

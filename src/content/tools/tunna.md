@@ -3,7 +3,7 @@ name: "tunna"
 tagline: "a set of tools which will wrap and tunnel any TCP communication over HTTP. It can be used to bypass network restrictions"
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/SECFORCE/Tunna"
 commonlyOn: ["BlackArch"]

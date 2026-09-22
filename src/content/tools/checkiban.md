@@ -3,7 +3,7 @@ name: "checkiban"
 tagline: "Checks the validity of an International Bank Account Number (IBAN)."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "http://kernel.embedromix.ro/us/"
 commonlyOn: ["BlackArch"]

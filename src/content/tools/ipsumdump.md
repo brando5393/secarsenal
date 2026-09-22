@@ -3,7 +3,7 @@ name: "ipsumdump"
 tagline: "A tool that summarizes TCP/IP dump files into a self-describing ASCII format easily readable by humans and programs"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/ipsumdump"
 downloadUrl: "https://github.com/kohler/ipsumdump"
 commonlyOn: ["ArchStrike"]

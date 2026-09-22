@@ -3,7 +3,7 @@ name: "munin-hashchecker"
 tagline: "Online hash checker for Virustotal and other services"
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://github.com/Neo23x0/munin"
 commonlyOn: ["BlackArch"]

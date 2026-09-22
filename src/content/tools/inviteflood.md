@@ -3,7 +3,7 @@ name: "inviteflood"
 tagline: "SIP/SDP INVITE message flooding over UDP/IP"
 categories: ["impact"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/inviteflood/"
 downloadUrl: "http://www.hackingvoip.com/sec_tools.html"
 repoUrl: "https://gitlab.com/kalilinux/packages/inviteflood"

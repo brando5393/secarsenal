@@ -4,7 +4,7 @@ tagline: "Examine suspicious website using this low-interaction honeyclient."
 categories: ["connecting"]
 platforms: ["Linux"]
 license: "GNU General Public License (GPL) v2"
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://docs.remnux.org/discover-the-tools/explore+network+interactions/connecting"
 downloadUrl: "https://github.com/buffer/thug"
 commonlyOn: ["REMnux"]

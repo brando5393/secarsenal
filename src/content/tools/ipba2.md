@@ -3,7 +3,7 @@ name: "ipba2"
 tagline: "IOS Backup Analyzer."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/forensic.html"
 commonlyOn: ["BlackArch"]
 gettingStarted: "Install on BlackArch with `pacman -S ipba2` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."

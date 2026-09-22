@@ -4,7 +4,7 @@ tagline: "Decode QR codes and barcodes from image files."
 categories: ["connecting"]
 platforms: ["Linux"]
 license: "GNU Lesser General Public License (LGPL) v2.1"
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://docs.remnux.org/discover-the-tools/explore+network+interactions/connecting"
 downloadUrl: "https://github.com/mchehab/zbar"
 commonlyOn: ["REMnux"]

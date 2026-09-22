@@ -3,7 +3,7 @@ name: "dotdotpwn"
 tagline: "Directory Traversal Fuzzer."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/dotdotpwn/"
 downloadUrl: "https://dotdotpwn.blogspot.ca"
 repoUrl: "https://gitlab.com/kalilinux/packages/dotdotpwn"

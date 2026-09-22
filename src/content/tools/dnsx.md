@@ -3,7 +3,7 @@ name: "dnsx"
 tagline: "Perform multiple dns queries"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/dnsx/"
 downloadUrl: "https://github.com/projectdiscovery/dnsx"
 repoUrl: "https://gitlab.com/kalilinux/packages/dnsx"

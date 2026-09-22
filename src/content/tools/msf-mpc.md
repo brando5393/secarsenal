@@ -3,7 +3,7 @@ name: "msf-mpc"
 tagline: "Msfvenom payload creator."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/g0tmi1k/mpc"
 commonlyOn: ["BlackArch"]

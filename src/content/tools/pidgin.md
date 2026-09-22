@@ -3,7 +3,7 @@ name: "Pidgin"
 tagline: "preconfigured with OTR for Off-the-Record Messaging"
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://tails.net/doc/about/features/index.en.html"
 downloadUrl: "https://pidgin.im/"
 commonlyOn: ["Tails"]

@@ -3,7 +3,7 @@ name: "njsscan"
 tagline: "A static application testing (SAST) tool that can find insecure code patterns in your node.js applications."
 categories: ["code-audit"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/code-audit.html"
 downloadUrl: "https://pypi.org/project/njsscan/#files"
 commonlyOn: ["BlackArch"]

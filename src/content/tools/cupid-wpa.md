@@ -3,7 +3,7 @@ name: "cupid-wpa"
 tagline: "Fork of hostapd to exploit hertbleed vulnerability on wireless networks"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/cupid-wpa/"
 downloadUrl: "https://github.com/lgrangeia/cupid/"
 repoUrl: "https://gitlab.com/kalilinux/packages/cupid-wpa"

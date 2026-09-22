@@ -3,7 +3,7 @@ name: "volatility3"
 tagline: "Advanced memory forensics framework"
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/volatilityfoundation/volatility3"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

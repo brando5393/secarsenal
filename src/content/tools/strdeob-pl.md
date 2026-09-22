@@ -4,7 +4,7 @@ tagline: "Locate and decode stack strings in executable files."
 categories: ["deobfuscation"]
 platforms: ["Linux"]
 license: "Free, unknown license"
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/deobfuscation"
 downloadUrl: "https://github.com/REMnux/distro/blob/master/files/strdeob.pl"
 commonlyOn: ["REMnux"]

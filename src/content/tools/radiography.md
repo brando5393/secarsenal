@@ -3,7 +3,7 @@ name: "radiography"
 tagline: "A forensic tool which grabs as much information as possible from a Windows system."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://www.security-projects.com/?RadioGraPhy"
 commonlyOn: ["BlackArch"]

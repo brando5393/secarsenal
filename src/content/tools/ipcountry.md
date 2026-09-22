@@ -3,7 +3,7 @@ name: "ipcountry"
 tagline: "Fetches IPv4 ranges of given country in host and cidr format."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://nullsecurity.net/tools/misc.html"
 commonlyOn: ["BlackArch"]

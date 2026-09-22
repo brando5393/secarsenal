@@ -3,7 +3,7 @@ name: "spf"
 tagline: "A python tool designed to allow for quick recon and deployment of simple social engineering phishing exercises."
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://github.com/tatanus/SPF"
 commonlyOn: ["BlackArch"]

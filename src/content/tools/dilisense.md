@@ -3,7 +3,7 @@ name: "dilisense"
 tagline: "AML compliance platform that screens individuals and entities against sanctions, PEP, and watchlist data sources with fuzzy matching and confidence…"
 categories: ["compliance-risk-intelligence"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://dilisense.com/en"
 commonlyOn: []
 gettingStarted: "Best for: Commercial AML/KYC sanctions screening and PEP checks. See the official site linked above for details."

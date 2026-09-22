@@ -3,7 +3,7 @@ name: "visualize-logs"
 tagline: "A Python library and command line tools to provide interactive log visualization."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/keithjjones/visualize_logs"
 commonlyOn: ["BlackArch"]

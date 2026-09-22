@@ -3,7 +3,7 @@ name: "sqlmap"
 tagline: "Automatic SQL injection tool"
 categories: ["initial-access"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/sqlmap/"
 downloadUrl: "https://sqlmap.org/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/sqlmap"

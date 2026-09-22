@@ -3,7 +3,7 @@ name: "FB Lookup ID"
 tagline: "Web utility that resolves Facebook profile, page, or group URLs into numeric Facebook IDs for downstream investigation tools."
 categories: ["social-networks"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://lookup-id.com/"
 commonlyOn: []
 gettingStarted: "Best for: Converting Facebook profile URLs into numeric IDs for pivoting. See the official site linked above for details."

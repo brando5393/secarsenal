@@ -3,7 +3,7 @@ name: "Flickr Map"
 tagline: "Flickr map interface for browsing geotagged photos by area and time."
 categories: ["images-videos-docs"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://www.flickr.com/map/"
 commonlyOn: []
 gettingStarted: "Best for: Map-based discovery of geotagged Flickr images. See the official site linked above for details."

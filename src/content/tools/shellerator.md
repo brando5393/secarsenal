@@ -3,7 +3,7 @@ name: "shellerator"
 tagline: "Simple command-line tool aimed to help pentesters quickly generate one-liner reverse/bind shells in multiple languages."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/ShutdownRepo/shellerator"
 commonlyOn: ["BlackArch"]

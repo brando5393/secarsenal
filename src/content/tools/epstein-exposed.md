@@ -3,7 +3,7 @@ name: "Epstein Exposed"
 tagline: "Comprehensive searchable database of Epstein case documents including court records, flight logs, emails, and financial records."
 categories: ["public-records"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://epsteinexposed.com/"
 commonlyOn: []
 gettingStarted: "Best for: Epstein case document research. See the official site linked above for details."

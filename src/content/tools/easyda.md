@@ -3,7 +3,7 @@ name: "easyda"
 tagline: "Easy Windows Domain Access Script."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/nccgroup/easyda"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "wordlistctl"
 tagline: "Fetch, install and search wordlist archives from websites."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/BlackArch/wordlistctl"
 commonlyOn: ["BlackArch"]

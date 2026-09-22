@@ -3,7 +3,7 @@ name: "bluelog"
 tagline: "Bluetooth scanner and logger"
 categories: ["bluetooth"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/bluelog/"
 downloadUrl: "http://www.digifail.com/software/bluelog.shtml"
 repoUrl: "https://gitlab.com/kalilinux/packages/bluelog"

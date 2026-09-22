@@ -3,7 +3,7 @@ name: "windapsearch-go"
 tagline: "Active Directory enumeration tool."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/ropnop/go-windapsearch/"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

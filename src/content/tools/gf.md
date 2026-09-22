@@ -3,7 +3,7 @@ name: "gf"
 tagline: "A wrapper around grep, to help you grep for things."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/tomnomnom/gf"
 commonlyOn: ["BlackArch"]

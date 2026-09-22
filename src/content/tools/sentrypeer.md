@@ -3,7 +3,7 @@ name: "sentrypeer"
 tagline: "SIP peer to peer honeypot for VoIP"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/sentrypeer/"
 downloadUrl: "https://sentrypeer.org"
 repoUrl: "https://gitlab.com/kalilinux/packages/sentrypeer"

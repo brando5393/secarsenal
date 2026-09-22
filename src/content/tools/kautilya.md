@@ -3,7 +3,7 @@ name: "kautilya"
 tagline: "Pwnage with Human Interface Devices using Teensy++2.0 and Teensy 3.0 devices."
 categories: ["hardware"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/hardware.html"
 downloadUrl: "https://github.com/samratashok/Kautilya/releases"
 commonlyOn: ["BlackArch"]

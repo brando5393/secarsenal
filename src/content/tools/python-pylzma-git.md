@@ -3,7 +3,7 @@ name: "python-pylzma-git"
 tagline: "Python bindings for the LZMA library"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/python-pylzma-git"
 downloadUrl: "https://github.com/fancycode/pylzma"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "dislocker"
 tagline: "Read/write encrypted BitLocker volumes"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/dislocker/"
 downloadUrl: "https://github.com/Aorimn/dislocker"
 repoUrl: "https://salsa.debian.org/pkg-security-team/dislocker"

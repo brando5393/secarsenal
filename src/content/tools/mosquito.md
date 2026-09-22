@@ -3,7 +3,7 @@ name: "mosquito"
 tagline: "XSS exploitation tool - access victims through HTTP proxy."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/koto/mosquito"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "netmask"
 tagline: "Helps determine network masks"
 categories: ["system-network-configuration-discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/netmask/"
 downloadUrl: "https://github.com/tlby/netmask"
 repoUrl: "https://salsa.debian.org/debian/netmask"

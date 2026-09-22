@@ -3,7 +3,7 @@ name: "scrape-dns"
 tagline: "Searches for interesting cached DNS entries."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/304GEEK/Scrape-DNS"
 commonlyOn: ["BlackArch"]

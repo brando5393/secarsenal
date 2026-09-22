@@ -3,7 +3,7 @@ name: "git-dump"
 tagline: "Dump the contents of a remote git repository without directory listing enabled."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/bahamas10/node-git-dump"
 commonlyOn: ["BlackArch"]

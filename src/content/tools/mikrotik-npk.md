@@ -3,7 +3,7 @@ name: "mikrotik-npk"
 tagline: "Python tools for manipulating Mikrotik NPK format."
 categories: ["reversing"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/reversing.html"
 downloadUrl: "https://github.com/kost/mikrotik-npk"
 commonlyOn: ["BlackArch"]

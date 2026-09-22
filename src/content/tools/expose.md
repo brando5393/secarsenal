@@ -3,7 +3,7 @@ name: "expose"
 tagline: "A Dynamic Symbolic Execution (DSE) engine for JavaScript"
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/ExpoSEJS/ExpoSE"
 commonlyOn: ["BlackArch"]

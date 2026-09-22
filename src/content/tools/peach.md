@@ -3,7 +3,7 @@ name: "peach"
 tagline: "A SmartFuzzer that is capable of performing both generation and mutation based fuzzing."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "http://peachfuzzer.com/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "shelling"
 tagline: "An offensive approach to the anatomy of improperly written OS command injection sanitisers."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/ewilded/shelling"
 commonlyOn: ["BlackArch"]

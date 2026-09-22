@@ -3,7 +3,7 @@ name: "missionplanner"
 tagline: "A GroundControl Station for Ardupilot."
 categories: ["drone"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/drone.html"
 downloadUrl: "https://firmware.ardupilot.org/Tools/MissionPlanner/"
 commonlyOn: ["BlackArch"]

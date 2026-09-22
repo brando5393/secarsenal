@@ -3,7 +3,7 @@ name: "shellinabox"
 tagline: "Implements a web server that can export arbitrary command line tools to a web based terminal emulator."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://github.com/shellinabox/shellinabox"
 commonlyOn: ["BlackArch"]

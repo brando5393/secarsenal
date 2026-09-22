@@ -3,7 +3,7 @@ name: "viproy-voipkit"
 tagline: "VoIP Pen-Test Kit for Metasploit Framework."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "http://viproy.com/"
 commonlyOn: ["BlackArch"]

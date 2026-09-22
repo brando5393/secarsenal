@@ -3,7 +3,7 @@ name: "jdwp"
 tagline: "This exploitation script is meant to be used by pentesters against active JDWP service / in order to gain Remote Code Execution."
 categories: ["ad","web"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/IOActive/jdwp-shellifier"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

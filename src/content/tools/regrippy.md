@@ -3,7 +3,7 @@ name: "regrippy"
 tagline: "Framework for reading and extracting useful forensics data from Windows registry hives."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://pypi.org/project/regrippy/#files"
 commonlyOn: ["BlackArch"]

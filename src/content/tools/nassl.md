@@ -3,7 +3,7 @@ name: "nassl"
 tagline: "Experimental Python wrapper for OpenSSL"
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/nassl"
 downloadUrl: "https://github.com/nabla-c0d3/nassl"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "python-plotly"
 tagline: "An interactive, browser-based graphing library for Python"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/python-plotly"
 downloadUrl: "https://plotly.com/python/"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "polenum"
 tagline: "Extracts the password policy from a Windows system"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/polenum/"
 downloadUrl: "https://github.com/Wh1t3Fox/polenum/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/polenum"

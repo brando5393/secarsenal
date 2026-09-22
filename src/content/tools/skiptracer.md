@@ -3,7 +3,7 @@ name: "skiptracer"
 tagline: "OSINT python2 webscraping framework. Skipping the needs of API keys."
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://github.com/84KaliPleXon3/skiptracer"
 commonlyOn: ["BlackArch"]

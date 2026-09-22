@@ -3,7 +3,7 @@ name: "dracnmap"
 tagline: "Tool to exploit the network and gathering information with nmap help."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/screetsec/Dracnmap"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "sgn"
 tagline: "Shikata ga nai encoder ported into go with several improvements."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/EgeBalci/sgn"
 commonlyOn: ["BlackArch"]

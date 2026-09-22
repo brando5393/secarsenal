@@ -4,7 +4,7 @@ tagline: "Parse and analyze EML files."
 categories: ["email-messages"]
 platforms: ["Linux"]
 license: "Public Domain"
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://docs.remnux.org/discover-the-tools/analyze+documents/email+messages"
 downloadUrl: "https://blog.didierstevens.com/2020/11/29/update-emldump-py-version-0-0-11/"
 commonlyOn: ["REMnux"]

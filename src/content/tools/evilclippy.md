@@ -3,7 +3,7 @@ name: "evilclippy"
 tagline: "A cross-platform assistant for creating malicious MS Office documents."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/outflanknl/EvilClippy"
 commonlyOn: ["BlackArch"]

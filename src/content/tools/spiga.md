@@ -3,7 +3,7 @@ name: "spiga"
 tagline: "Configurable web resource scanner."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/getdual/scripts-n-tools/blob/master/spiga.py"
 commonlyOn: ["BlackArch"]

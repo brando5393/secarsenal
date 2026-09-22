@@ -3,7 +3,7 @@ name: "lte-cell-scanner"
 tagline: "An OpenCL accelerated TDD/FDD LTE Scanner."
 categories: ["radio"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/radio.html"
 downloadUrl: "https://github.com/JiaoXianjun/LTE-Cell-Scanner"
 commonlyOn: ["BlackArch"]

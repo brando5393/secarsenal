@@ -3,7 +3,7 @@ name: "pycdc"
 tagline: "pycdc is a Python decompiler."
 categories: ["python"]
 platforms: ["Windows"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/mandiant/VM-Packages/tree/main/packages/pycdc.vm"
 downloadUrl: "https://github.com/zrax/pycdc"
 commonlyOn: ["FLARE VM"]

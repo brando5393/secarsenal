@@ -3,7 +3,7 @@ name: "slither"
 tagline: "Solidity static analysis framework written in Python 3."
 categories: ["code-audit"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/code-audit.html"
 downloadUrl: "https://github.com/crytic/slither"
 commonlyOn: ["BlackArch"]

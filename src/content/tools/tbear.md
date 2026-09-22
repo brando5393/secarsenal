@@ -3,7 +3,7 @@ name: "tbear"
 tagline: "Transient Bluetooth Environment Auditor includes an ncurses-based Bluetooth scanner (a bit similar to kismet), a Bluetoo"
 categories: ["bluetooth"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/bluetooth.html"
 downloadUrl: "http://freshmeat.net/projects/t-bear"
 commonlyOn: ["BlackArch"]

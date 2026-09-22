@@ -3,7 +3,7 @@ name: "spike-fuzzer"
 tagline: "IMMUNITYsec's fuzzer creation kit in C."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "http://www.immunitysec.com/resources-freesoftware.shtml"
 commonlyOn: ["BlackArch"]

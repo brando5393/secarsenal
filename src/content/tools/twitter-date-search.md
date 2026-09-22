@@ -3,7 +3,7 @@ name: "Twitter Date Search"
 tagline: "Date-bounded X/Twitter search pattern using `since:` and `until:` operators to isolate tweets in a specific time window."
 categories: ["social-networks"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://twitter.com/search?q=SearchTerm%20since:2016-03-01%20until:2016-03-02"
 commonlyOn: []
 gettingStarted: "Best for: Timeline reconstruction and historical tweet collection. See the official site linked above for details."

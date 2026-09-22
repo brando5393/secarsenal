@@ -3,7 +3,7 @@ name: "ZeeMaps"
 tagline: "Interactive map creation and sharing tool with unlimited markers, 3-level access control, and support for crowdsourced data input."
 categories: ["documentation-evidence-capture"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://www.zeemaps.com/"
 commonlyOn: []
 gettingStarted: "Best for: Location mapping, investigation visualization, crowdsourced data collection. See the official site linked above for details."

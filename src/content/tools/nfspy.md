@@ -3,7 +3,7 @@ name: "nfspy"
 tagline: "A Python library for automating the falsification of NFS credentials when mounting an NFS share."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/bonsaiviking/NfSpy"
 commonlyOn: ["BlackArch"]

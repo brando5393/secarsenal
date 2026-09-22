@@ -4,7 +4,7 @@ tagline: "Determine types of files and examine file properties."
 categories: ["general"]
 platforms: ["Linux"]
 license: "MIT License"
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://docs.remnux.org/discover-the-tools/statically+analyze+code/general"
 downloadUrl: "https://github.com/horsicq/Detect-It-Easy"
 commonlyOn: ["REMnux"]

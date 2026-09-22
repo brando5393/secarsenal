@@ -3,7 +3,7 @@ name: "devaudit"
 tagline: "An open-source, cross-platform, multi-purpose security auditing tool targeted at developers and teams."
 categories: ["code-audit"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/code-audit.html"
 downloadUrl: "https://github.com/sonatype-nexus-community/DevAudit"
 commonlyOn: ["BlackArch"]

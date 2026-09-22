@@ -3,7 +3,7 @@ name: "masscan"
 tagline: "TCP port scanner"
 categories: ["network-service-discovery","discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/masscan/"
 downloadUrl: "https://github.com/robertdavidgraham/masscan"
 repoUrl: "https://salsa.debian.org/pkg-security-team/masscan"

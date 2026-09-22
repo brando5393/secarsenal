@@ -3,7 +3,7 @@ name: "TeamsPhisher"
 tagline: "TeamsPhisher is a Python3 program that facilitates the delivery of phishing messages and attachments to Microsoft Teams users whose organizations…"
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/Octoberfest7/TeamsPhisher"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

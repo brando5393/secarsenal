@@ -3,7 +3,7 @@ name: "pcileech"
 tagline: "Tool, which uses PCIe hardware devices to read and write from the target system memory."
 categories: ["hardware"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/hardware.html"
 downloadUrl: "https://github.com/ufrisk/pcileech/releases"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "bagbak"
 tagline: "Yet another frida based App decryptor."
 categories: ["mobile"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/mobile.html"
 downloadUrl: "https://github.com/ChiChou/bagbak"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "mariadb-client"
 tagline: "MariaDB is a community-developed fork of the MySQL relational database management system. The mariadb-client package includes command-line utilities…"
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/MariaDB/server"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

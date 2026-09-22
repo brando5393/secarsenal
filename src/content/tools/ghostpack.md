@@ -3,7 +3,7 @@ name: "ghostpack"
 tagline: "Compiled Binaries for Ghostpack (.NET v4.8.1)."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/r3motecontrol/Ghostpack-CompiledBinaries"
 commonlyOn: ["BlackArch"]

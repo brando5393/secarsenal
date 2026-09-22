@@ -3,7 +3,7 @@ name: "cookie-cadger"
 tagline: "An auditing tool for Wi-Fi or wired Ethernet connections."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://cookiecadger.com/"
 commonlyOn: ["BlackArch"]

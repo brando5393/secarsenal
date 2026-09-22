@@ -3,7 +3,7 @@ name: "sps"
 tagline: "A Linux packet crafting tool. Supports IPv4, IPv6 including extension headers, and tunneling IPv6 over IPv4."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://sites.google.com/site/simplepacketsender/"
 commonlyOn: ["BlackArch"]

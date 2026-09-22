@@ -3,7 +3,7 @@ name: "pe-bear"
 tagline: "A freeware reversing tool for PE files."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/hasherezade/pe-bear"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "pwndbg"
 tagline: "a GDB plugin that makes debugging with GDB suck less"
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/pwndbg/pwndbg"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

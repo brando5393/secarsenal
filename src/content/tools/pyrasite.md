@@ -3,7 +3,7 @@ name: "pyrasite"
 tagline: "Code injection and introspection of running Python processes."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://pypi.org/project/pyrasite/#files"
 commonlyOn: ["BlackArch"]

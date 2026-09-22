@@ -3,7 +3,7 @@ name: "navgix"
 tagline: "Multi-threaded golang tool that will check for nginx alias traversal vulnerabilities."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/hakaioffsec/navgix"
 commonlyOn: ["BlackArch"]

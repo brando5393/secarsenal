@@ -3,7 +3,7 @@ name: "Pantagrule rules"
 tagline: "large hashcat rulesets generated from real-world compromised passwords"
 categories: ["ad","web"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/rarecoil/pantagrule"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

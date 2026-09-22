@@ -3,7 +3,7 @@ name: "python-miasm-git"
 tagline: "A Reverse engineering framework in Python"
 categories: ["analysis"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/python-miasm-git"
 downloadUrl: "https://github.com/cea-sec/miasm"
 commonlyOn: ["ArchStrike"]

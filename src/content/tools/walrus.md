@@ -3,7 +3,7 @@ name: "Walrus"
 tagline: "Access control card cloning devices in the field"
 categories: ["rf"]
 platforms: ["Android"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://walrus.app/"
 commonlyOn: []
 gettingStarted: "Install from the Kali NetHunter App Store (store.nethunter.com) or NetHunter's own app repository on an Android device."

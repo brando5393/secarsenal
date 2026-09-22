@@ -3,7 +3,7 @@ name: "netspionage"
 tagline: "Network Forensics CLI utility that performs Network Scanning, OSINT, and Attack Detection."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/ANG13T/netspionage"
 commonlyOn: ["BlackArch"]

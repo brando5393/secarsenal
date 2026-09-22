@@ -3,7 +3,7 @@ name: "gowitness"
 tagline: "Web screenshot utility using Chrome Headless"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/gowitness/"
 downloadUrl: "https://github.com/sensepost/gowitness"
 repoUrl: "https://gitlab.com/kalilinux/packages/gowitness"

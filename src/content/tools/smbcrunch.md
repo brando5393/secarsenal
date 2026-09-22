@@ -3,7 +3,7 @@ name: "smbcrunch"
 tagline: "3 tools that work together to simplify reconnaissance of Windows File Shares."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/Raikia/SMBCrunch"
 commonlyOn: ["BlackArch"]

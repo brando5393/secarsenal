@@ -3,7 +3,7 @@ name: "hb-honeypot"
 tagline: "Heartbleed Honeypot Script"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/hb-honeypot/"
 downloadUrl: "https://packetstormsecurity.com/files/126068/Heartbleed-Honeypot-Script.html"
 repoUrl: "https://gitlab.com/kalilinux/packages/hb-honeypot"

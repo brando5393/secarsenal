@@ -3,7 +3,7 @@ name: "smbsr"
 tagline: "Lookup for interesting stuff in SMB shares."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/oldboy21/SMBSR"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "ipmipwn"
 tagline: "IPMI cipher 0 attack tool."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/AnarchyAngel/IPMIPWN"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "s3-fuzzer"
 tagline: "A concurrent, command-line AWS S3 Fuzzer."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://github.com/petermbenjamin/s3-fuzzer"
 commonlyOn: ["BlackArch"]

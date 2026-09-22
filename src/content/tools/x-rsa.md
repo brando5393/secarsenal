@@ -3,7 +3,7 @@ name: "x-rsa"
 tagline: "Contains a many of attack types in RSA such as Hasted, Common Modulus, Chinese Remainder Theorem."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/X-Vector/X-RSA"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "heaptrace"
 tagline: "Helps visualize heap operations for pwn and debugging."
 categories: ["debugger"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/debugger.html"
 downloadUrl: "https://github.com/Arinerron/heaptrace"
 commonlyOn: ["BlackArch"]

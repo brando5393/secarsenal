@@ -3,7 +3,7 @@ name: "kadimus"
 tagline: "LFI Scan & Exploit Tool."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/P0cL4bs/Kadimus"
 commonlyOn: ["BlackArch"]

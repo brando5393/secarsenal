@@ -3,7 +3,7 @@ name: "interlock-git"
 tagline: "File encryption front-end"
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/interlock-git"
 downloadUrl: "https://github.com/f-secure-foundry/interlock"
 commonlyOn: ["ArchStrike"]

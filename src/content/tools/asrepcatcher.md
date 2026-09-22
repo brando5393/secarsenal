@@ -3,7 +3,7 @@ name: "asrepcatcher"
 tagline: "Make your VLAN ASREProastable."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/Yaxxine7/ASRepCatcher"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

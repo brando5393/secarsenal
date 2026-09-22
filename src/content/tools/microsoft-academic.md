@@ -3,7 +3,7 @@ name: "Microsoft Academic"
 tagline: "Microsoft's academic search service indexing hundreds of millions of research papers; note that the original Microsoft Academic service was…"
 categories: ["search-engines"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://academic.microsoft.com/"
 commonlyOn: []
 gettingStarted: "Best for: Academic paper discovery with author disambiguation and citation graph analysis. See the official site linked above for details."

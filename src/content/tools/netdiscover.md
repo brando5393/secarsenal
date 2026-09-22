@@ -3,7 +3,7 @@ name: "netdiscover"
 tagline: "Active/passive network address scanner using ARP requests"
 categories: ["system-network-configuration-discovery","discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/netdiscover/"
 downloadUrl: "https://github.com/netdiscover-scanner/netdiscover"
 repoUrl: "https://salsa.debian.org/debian/netdiscover"

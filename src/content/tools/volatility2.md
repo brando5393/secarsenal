@@ -3,7 +3,7 @@ name: "volatility2"
 tagline: "Volatile memory extraction utility framework"
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/volatilityfoundation/volatility"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

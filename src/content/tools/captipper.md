@@ -3,7 +3,7 @@ name: "captipper"
 tagline: "Malicious HTTP traffic explorer tool."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "http://www.omriher.com/2015/01/captipper-malicious-http-traffic.html"
 commonlyOn: ["BlackArch"]

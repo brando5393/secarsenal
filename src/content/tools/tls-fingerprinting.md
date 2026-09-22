@@ -3,7 +3,7 @@ name: "tls-fingerprinting"
 tagline: "Tool and scripts to perform TLS Fingerprinting."
 categories: ["fingerprint"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/fingerprint.html"
 downloadUrl: "https://github.com/LeeBrotherston/tls-fingerprinting"
 commonlyOn: ["BlackArch"]

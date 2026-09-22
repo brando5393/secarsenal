@@ -3,7 +3,7 @@ name: "bulk-extractor"
 tagline: "Extracts information without parsing filesystem"
 categories: ["forensics"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/bulk-extractor/"
 downloadUrl: "https://github.com/simsong/bulk_extractor"
 repoUrl: "https://gitlab.com/kalilinux/packages/bulk-extractor"

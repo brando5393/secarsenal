@@ -3,7 +3,7 @@ name: "firefox-decrypt"
 tagline: "Extract passwords from Mozilla Firefox, Waterfox, Thunderbird, SeaMonkey profiles."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/unode/firefox_decrypt"
 commonlyOn: ["BlackArch"]

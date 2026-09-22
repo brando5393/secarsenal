@@ -3,7 +3,7 @@ name: "enteletaor"
 tagline: "Message Queue & Broker Injection tool that implements attacks to Redis, RabbitMQ and ZeroMQ."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/cr0hn/enteletaor"
 commonlyOn: ["BlackArch"]

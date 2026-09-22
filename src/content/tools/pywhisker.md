@@ -3,7 +3,7 @@ name: "pywhisker"
 tagline: "PyWhisker is a Python equivalent of the original Whisker made by Elad Shamir and written in C#. This tool allows users to manipulate the…"
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/ShutdownRepo/pywhisker"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

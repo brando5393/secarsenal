@@ -3,7 +3,7 @@ name: "ace"
 tagline: "A simple yet powerful VoIP Corporate Directory enumeration tool that mimics the behavior of an IP Phone in order to down"
 categories: ["voip"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/voip.html"
 downloadUrl: "https://ucsniff.sourceforge.net/ace.html"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "usb-canary"
 tagline: "A Linux or OSX tool that uses psutil to monitor devices while your computer is locked. In the case it detects someone pl"
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://github.com/errbufferoverfl/usb-canary"
 commonlyOn: ["BlackArch"]

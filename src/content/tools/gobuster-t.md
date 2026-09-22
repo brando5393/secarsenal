@@ -3,7 +3,7 @@ name: "Gobuster (T)"
 tagline: "Multi-mode brute-force tool for DNS subdomain, virtual host, and directory discovery."
 categories: ["domain-name"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/OJ/gobuster"
 commonlyOn: []
 gettingStarted: "Best for: Fast DNS and vhost brute-force enumeration. See the official site linked above for details."

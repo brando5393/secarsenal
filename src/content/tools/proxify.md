@@ -3,7 +3,7 @@ name: "proxify"
 tagline: "Swiss Army knife Proxy tool for HTTP/HTTPS traffic capture, manipulation"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/proxify/"
 downloadUrl: "https://github.com/projectdiscovery/proxify"
 repoUrl: "https://gitlab.com/kalilinux/packages/proxify"

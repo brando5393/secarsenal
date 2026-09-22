@@ -3,7 +3,7 @@ name: "OpenSignal"
 tagline: "Crowdsourced mobile coverage and signal quality map from user telemetry."
 categories: ["geolocation-tools-maps"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://www.opensignal.com/"
 commonlyOn: []
 gettingStarted: "Best for: Comparing cellular signal quality by carrier and location. See the official site linked above for details."

@@ -4,7 +4,7 @@ tagline: "Encrypt and decrypt OOXML Microsoft Office documents."
 categories: ["microsoft-office"]
 platforms: ["Linux"]
 license: "Free, custom license"
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://docs.remnux.org/discover-the-tools/analyze+documents/microsoft+office"
 downloadUrl: "https://github.com/herumi/msoffice"
 commonlyOn: ["REMnux"]

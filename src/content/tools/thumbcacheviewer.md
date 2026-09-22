@@ -3,7 +3,7 @@ name: "thumbcacheviewer"
 tagline: "Extract Windows thumbcache database files."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/thumbcacheviewer/thumbcacheviewer"
 commonlyOn: ["BlackArch"]

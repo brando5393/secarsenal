@@ -3,7 +3,7 @@ name: "tig"
 tagline: "Tig is an ncurses-based text-mode interface for git."
 categories: ["ad","osint","web"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/jonas/tig"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

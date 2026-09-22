@@ -3,7 +3,7 @@ name: "darm-git"
 tagline: "An ARMv7 disassembling library written in C."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/darm-git"
 downloadUrl: "https://github.com/jbremer/darm"
 commonlyOn: ["ArchStrike"]

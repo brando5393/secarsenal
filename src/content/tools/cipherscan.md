@@ -3,7 +3,7 @@ name: "cipherscan"
 tagline: "A very simple way to find out which SSL ciphersuites are supported by a target."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/jvehent/cipherscan"
 commonlyOn: ["BlackArch"]

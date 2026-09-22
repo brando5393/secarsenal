@@ -3,7 +3,7 @@ name: "python2-exrex"
 tagline: "Irregular methods on regular expressions."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/asciimoo/exrex"
 commonlyOn: ["BlackArch"]

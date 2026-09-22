@@ -3,7 +3,7 @@ name: "turner"
 tagline: "Tunnels HTTP over a permissive/open TURN server; supports HTTP and SOCKS5 proxy."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/staaldraad/turner"
 commonlyOn: ["BlackArch"]

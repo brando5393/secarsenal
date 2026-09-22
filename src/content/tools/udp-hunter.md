@@ -3,7 +3,7 @@ name: "udp-hunter"
 tagline: "Network assessment tool for various UDP Services covering both IPv4 and IPv6 protocols."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/NotSoSecure/udp-hunter"
 commonlyOn: ["BlackArch"]

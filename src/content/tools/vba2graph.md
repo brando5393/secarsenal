@@ -3,7 +3,7 @@ name: "vba2graph"
 tagline: "Generate call graphs from VBA code, for easier analysis of malicious documents."
 categories: ["malware"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/malware.html"
 downloadUrl: "https://github.com/MalwareCantFly/Vba2Graph"
 commonlyOn: ["BlackArch"]

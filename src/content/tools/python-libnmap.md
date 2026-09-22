@@ -3,7 +3,7 @@ name: "python-libnmap"
 tagline: "Python NMAP library enabling you to start async nmap tasks, parse and compare/diff scan results"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/python-libnmap"
 downloadUrl: "http://pypi.python.org/pypi/python-libnmap/"
 commonlyOn: ["ArchStrike"]

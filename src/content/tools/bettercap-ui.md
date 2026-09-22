@@ -3,7 +3,7 @@ name: "bettercap-ui"
 tagline: "Bettercap’s web UI"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/bettercap-ui/"
 downloadUrl: "https://github.com/bettercap/ui"
 repoUrl: "https://gitlab.com/kalilinux/packages/bettercap-ui"

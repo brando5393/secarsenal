@@ -3,7 +3,7 @@ name: "local-php-security-checker"
 tagline: "A command line tool that checks your PHP application packages with known security vulnerabilities."
 categories: ["code-audit"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/code-audit.html"
 downloadUrl: "https://github.com/fabpot/local-php-security-checker"
 commonlyOn: ["BlackArch"]

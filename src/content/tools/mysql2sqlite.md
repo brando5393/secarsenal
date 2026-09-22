@@ -3,7 +3,7 @@ name: "mysql2sqlite"
 tagline: "Converts a mysqldump file into a Sqlite 3 compatible file."
 categories: ["database"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/database.html"
 downloadUrl: "https://gist.github.com/esperlu/943776"
 commonlyOn: ["BlackArch"]

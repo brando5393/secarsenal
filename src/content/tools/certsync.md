@@ -3,7 +3,7 @@ name: "certsync"
 tagline: "Dump NTDS remotely without DRSUAPI: using golden certificate and UnPAC the hash."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/zblurx/certsync"
 commonlyOn: ["BlackArch"]

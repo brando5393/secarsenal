@@ -3,7 +3,7 @@ name: "ciphertest-git"
 tagline: "A better SSL cipher checker using gnutls"
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/ciphertest-git"
 downloadUrl: "https://github.com/OpenSecurityResearch/ciphertest"
 commonlyOn: ["ArchStrike"]

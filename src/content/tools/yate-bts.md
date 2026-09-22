@@ -3,7 +3,7 @@ name: "yate-bts"
 tagline: "An open source GSM Base Station software."
 categories: ["radio"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/radio.html"
 downloadUrl: "https://yatebts.com/"
 commonlyOn: ["BlackArch"]

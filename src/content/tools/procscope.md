@@ -3,7 +3,7 @@ name: "procscope"
 tagline: "Process-scoped runtime investigation tool using eBPF."
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://github.com/Mutasem-mk4/procscope"
 commonlyOn: ["BlackArch"]

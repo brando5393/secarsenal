@@ -3,7 +3,7 @@ name: "chaos"
 tagline: "A Go client to communicate with Chaos dataset API from ProjectDiscovery."
 categories: ["ad","web"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/projectdiscovery/alterx"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

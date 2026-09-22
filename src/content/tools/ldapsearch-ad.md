@@ -3,7 +3,7 @@ name: "ldapsearch-ad"
 tagline: "LDAP search utility with AD support"
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/yaap7/ldapsearch-ad"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

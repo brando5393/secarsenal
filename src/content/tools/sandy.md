@@ -3,7 +3,7 @@ name: "sandy"
 tagline: "An open-source Samsung phone encryption assessment framework"
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/donctl/sandy"
 commonlyOn: ["BlackArch"]

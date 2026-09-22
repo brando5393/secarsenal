@@ -3,7 +3,7 @@ name: "xsstracer"
 tagline: "Python script that checks remote web servers for Clickjacking, Cross-Frame Scripting, Cross-Site Tracing and Host Header"
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/1N3/XSSTracer"
 commonlyOn: ["BlackArch"]

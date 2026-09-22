@@ -3,7 +3,7 @@ name: "beef-xss"
 tagline: "Browser Exploitation Framework (BeEF)"
 categories: ["execution","system-services"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/beef-xss/"
 downloadUrl: "https://beefproject.com/"
 repoUrl: "https://gitlab.com/kalilinux/packages/beef-xss"

@@ -3,7 +3,7 @@ name: "ps1encode-git"
 tagline: "A tool to generate and encode a PowerShell based Metasploit payloads"
 categories: ["exploit"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/ps1encode-git"
 downloadUrl: "https://github.com/CroweCybersecurity/ps1encode"
 commonlyOn: ["ArchStrike"]

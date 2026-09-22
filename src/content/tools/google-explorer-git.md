@@ -3,7 +3,7 @@ name: "google-explorer-git"
 tagline: "Google mass exploit robot in python"
 categories: ["scanners"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/google-explorer-git"
 downloadUrl: "https://github.com/paralelo14/google_explorer"
 commonlyOn: ["ArchStrike"]

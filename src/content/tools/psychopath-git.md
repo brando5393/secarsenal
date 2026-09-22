@@ -3,7 +3,7 @@ name: "psychopath-git"
 tagline: "an advanced path traversal tool"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/psychopath-git"
 downloadUrl: "https://github.com/ewilded/psychoPATH"
 commonlyOn: ["ArchStrike"]

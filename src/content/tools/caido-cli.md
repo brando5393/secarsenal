@@ -3,7 +3,7 @@ name: "caido-cli"
 tagline: "Security auditing toolkit (CLI)"
 categories: ["web-vulnerability-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/caido-cli/"
 downloadUrl: "https://github.com/caido/caido"
 repoUrl: "https://gitlab.com/kalilinux/packages/caido-cli"

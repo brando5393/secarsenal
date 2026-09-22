@@ -3,7 +3,7 @@ name: "leviathan"
 tagline: "A mass audit toolkit which has wide range service discovery, brute force, SQL injection detection and running custom exp"
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/leviathan-framework/leviathan"
 commonlyOn: ["BlackArch"]

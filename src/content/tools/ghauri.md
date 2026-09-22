@@ -3,7 +3,7 @@ name: "ghauri"
 tagline: "An advanced cross-platform tool that automates the process of detecting and exploiting SQL injection security flaws."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/r0oth3x49/ghauri"
 commonlyOn: ["BlackArch"]

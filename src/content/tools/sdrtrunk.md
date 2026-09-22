@@ -3,7 +3,7 @@ name: "sdrtrunk"
 tagline: "A cross-platform java application for decoding, monitoring, recording and streaming trunked mobile and related radio pro"
 categories: ["radio"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/radio.html"
 downloadUrl: "https://github.com/DSheirer/sdrtrunk"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "naft"
 tagline: "Network Appliance Forensic Toolkit."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://blog.didierstevens.com/my-software/#NAFT"
 commonlyOn: ["BlackArch"]

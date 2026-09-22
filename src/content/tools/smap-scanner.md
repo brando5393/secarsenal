@@ -3,7 +3,7 @@ name: "smap-scanner"
 tagline: "Passive port scanner built with shodan free API."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/s0md3v/Smap"
 commonlyOn: ["BlackArch"]

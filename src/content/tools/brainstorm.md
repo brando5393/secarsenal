@@ -3,7 +3,7 @@ name: "brainstorm"
 tagline: "A smarter web fuzzing tool that combines local LLM models and ffuf to optimize directory and file discovery."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://github.com/s7x/brainstorm"
 commonlyOn: ["BlackArch"]

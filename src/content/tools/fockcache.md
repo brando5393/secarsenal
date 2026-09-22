@@ -3,7 +3,7 @@ name: "fockcache"
 tagline: "Tool to make cache poisoning by trying X-Forwarded-Host and X-Forwarded-Scheme headers on web pages."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/tismayil/fockcache"
 commonlyOn: ["BlackArch"]

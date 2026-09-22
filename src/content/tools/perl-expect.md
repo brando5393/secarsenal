@@ -3,7 +3,7 @@ name: "perl-expect"
 tagline: "Automate interactions with command line programs that expose a text terminal interface."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/perl-expect"
 downloadUrl: "https://metacpan.org/pod/Expect"
 commonlyOn: ["ArchStrike"]

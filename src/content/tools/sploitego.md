@@ -3,7 +3,7 @@ name: "sploitego"
 tagline: "Maltego Penetration Testing Transforms."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://github.com/allfro/sploitego"
 commonlyOn: ["BlackArch"]

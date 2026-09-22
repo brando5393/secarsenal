@@ -3,7 +3,7 @@ name: "zeek"
 tagline: "A powerful network analysis framework that is much different from the typical IDS you may know."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/zeek/zeek"
 commonlyOn: ["BlackArch"]

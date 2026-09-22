@@ -3,7 +3,7 @@ name: "marshalsec"
 tagline: "Java Unmarshaller Security - Turning your data into code execution."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/mbechler/marshalsec/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "goofuzz"
 tagline: "A Bash script that uses advanced Google search techniques to obtain sensitive information in files or directories withou"
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://github.com/m3n0sd0n4ld/GooFuzz"
 commonlyOn: ["BlackArch"]

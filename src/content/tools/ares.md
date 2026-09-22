@@ -3,7 +3,7 @@ name: "ares"
 tagline: "Automated decoding of encrypted text without knowing the key or ciphers used."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/bee-san/Ares"
 commonlyOn: ["BlackArch"]
