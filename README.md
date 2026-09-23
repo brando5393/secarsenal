@@ -359,4 +359,6 @@ Tools exposed: `search_tools`, `get_tool`, `search_os`, `get_os`,
 `list_categories` — all read-only, no auth. The route is rate-limited (a
 Cloudflare Rate Limiting rule, not app code) since it's open to the public
 internet. See `mcp-server/README.md` for the full data flow, deploy
-process, and its own `.github/workflows/deploy-mcp.yml`.
+process, and its own `.github/workflows/deploy-mcp.yml`. The live site has
+a human-facing [`/mcp`](./src/pages/mcp.astro) page (linked from the
+footer) with the client config snippet and tool list.
