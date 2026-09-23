@@ -3,7 +3,7 @@ name: "python-pager"
 tagline: "Terminal/console pager module for Python"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/python-pager"
 downloadUrl: "http://pypi.python.org/pypi/pager"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "RemoteMonologue"
 tagline: "A tool to coerce NTLM authentications via DCOM"
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/3lp4tr0n/RemoteMonologue"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

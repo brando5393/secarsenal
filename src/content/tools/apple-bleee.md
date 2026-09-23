@@ -3,7 +3,7 @@ name: "apple-bleee"
 tagline: "Scripts to show what an attacker get from Apple devices"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/apple-bleee/"
 downloadUrl: "https://github.com/hexway/apple_bleee"
 repoUrl: "https://gitlab.com/kalilinux/packages/apple-bleee"

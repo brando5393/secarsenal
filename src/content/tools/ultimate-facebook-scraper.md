@@ -3,7 +3,7 @@ name: "ultimate-facebook-scraper"
 tagline: "A bot which scrapes almost everything about a Facebook user's profile."
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://github.com/harismuneer/Ultimate-Facebook-Scraper"
 commonlyOn: ["BlackArch"]

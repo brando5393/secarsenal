@@ -3,7 +3,7 @@ name: "PixelKnot"
 tagline: "Hidden Messages"
 categories: ["privacy"]
 platforms: ["Android"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://guardianproject.info/apps/info.guardianproject.pixelknot/"
 commonlyOn: []
 gettingStarted: "Install from the Kali NetHunter App Store (store.nethunter.com) or NetHunter's own app repository on an Android device."

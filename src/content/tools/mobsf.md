@@ -3,7 +3,7 @@ name: "mobsf"
 tagline: "An intelligent, all-in-one open source mobile application (Android/iOS) automated pen-testing framework capable of perfo"
 categories: ["mobile"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/mobile.html"
 downloadUrl: "https://github.com/MobSF/Mobile-Security-Framework-MobSF"
 commonlyOn: ["BlackArch"]

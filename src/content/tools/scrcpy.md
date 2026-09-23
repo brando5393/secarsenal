@@ -3,7 +3,7 @@ name: "scrcpy"
 tagline: "Display and control your Android device."
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/Genymobile/scrcpy"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

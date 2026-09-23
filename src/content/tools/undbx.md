@@ -3,7 +3,7 @@ name: "undbx"
 tagline: "Tool to extract, recover and undelete e-mail messages from .dbx files"
 categories: ["digital-forensics"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/undbx/"
 downloadUrl: "https://github.com/ZungBang/undbx"
 repoUrl: "https://salsa.debian.org/pkg-security-team/undbx"

@@ -3,7 +3,7 @@ name: "PubPeer"
 tagline: "Post-publication peer review platform where researchers comment on and flag issues with published scientific papers; useful for identifying retracted…"
 categories: ["search-engines"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://pubpeer.com/"
 commonlyOn: []
 gettingStarted: "Best for: Verifying scientific publication credibility and finding post-publication corrections or retractions. See the official site linked above for details."

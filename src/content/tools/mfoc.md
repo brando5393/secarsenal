@@ -3,7 +3,7 @@ name: "mfoc"
 tagline: "Implementation of 'offline nested' attack by Nethemba"
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/nfc-tools/mfoc"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

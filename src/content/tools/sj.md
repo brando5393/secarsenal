@@ -3,7 +3,7 @@ name: "sj"
 tagline: "A tool for auditing endpoints defined in exposed (Swagger/OpenAPI) definition files."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/BishopFox/sj"
 commonlyOn: ["BlackArch"]

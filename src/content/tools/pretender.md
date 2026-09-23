@@ -3,7 +3,7 @@ name: "pretender"
 tagline: "an mitm tool for helping with relay attacks."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/RedTeamPentesting/pretender"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

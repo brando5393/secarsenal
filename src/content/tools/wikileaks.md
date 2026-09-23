@@ -3,7 +3,7 @@ name: "WikiLeaks"
 tagline: "Global document leak publication platform containing diplomatic, military, and corporate disclosures."
 categories: ["archives"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://wikileaks.org/"
 commonlyOn: []
 gettingStarted: "Best for: Searching high-impact leaked document collections for historical context. See the official site linked above for details."

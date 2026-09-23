@@ -3,7 +3,7 @@ name: "metacoretex"
 tagline: "MetaCoretex is an entirely JAVA vulnerability scanning framework for databases."
 categories: ["database"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/database.html"
 downloadUrl: "http://metacoretex.sourceforge.net/"
 commonlyOn: ["BlackArch"]

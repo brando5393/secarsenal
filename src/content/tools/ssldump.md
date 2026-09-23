@@ -3,7 +3,7 @@ name: "ssldump"
 tagline: "SSLv3/TLS network protocol analyzer"
 categories: ["collection"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/ssldump/"
 downloadUrl: "https://github.com/adulau/ssldump"
 repoUrl: "https://salsa.debian.org/pkg-security-team/ssldump"

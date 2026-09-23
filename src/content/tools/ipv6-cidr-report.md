@@ -3,7 +3,7 @@ name: "IPv6 CIDR Report"
 tagline: "CIDR block analysis tool for IPv6 address ranges and subnet enumeration."
 categories: ["ip-mac-address"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://www.cidr-report.org/v6/as2.0/"
 commonlyOn: []
 gettingStarted: "Best for: IPv6 CIDR block analysis. See the official site linked above for details."

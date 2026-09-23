@@ -3,7 +3,7 @@ name: "x64dbg.plugin.ollydumpex"
 tagline: "Ollydumpex is process memory dumper for OllyDbg and Immunity Debugger."
 categories: ["debuggers"]
 platforms: ["Windows"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/mandiant/VM-Packages/tree/main/packages/x64dbg.plugin.ollydumpex.vm"
 downloadUrl: "https://low-priority.appspot.com/ollydumpex/"
 commonlyOn: ["FLARE VM"]

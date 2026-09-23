@@ -3,7 +3,7 @@ name: "objdump2shellcode"
 tagline: "A tool I have found incredibly useful whenever creating custom shellcode."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/wetw0rk/objdump2shellcode"
 commonlyOn: ["BlackArch"]

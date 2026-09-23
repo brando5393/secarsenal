@@ -3,7 +3,7 @@ name: "sjet"
 tagline: "Siberas JMX exploitation toolkit."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/h0ng10/sjet"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "commix"
 tagline: "Automated All-in-One OS Command Injection and Exploitation Tool"
 categories: ["initial-access"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/commix/"
 downloadUrl: "https://commixproject.com"
 repoUrl: "https://gitlab.com/kalilinux/packages/commix"

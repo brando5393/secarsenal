@@ -3,7 +3,7 @@ name: "pacemaker-git"
 tagline: "A CVE-2014-0160 client exploit"
 categories: ["scanners"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/pacemaker-git"
 downloadUrl: "https://github.com/Lekensteyn/pacemaker"
 commonlyOn: ["ArchStrike"]

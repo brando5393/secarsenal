@@ -3,9 +3,9 @@ name: "dnsgoblin"
 tagline: "Nasty creature constantly searching for DNS servers. It uses standard dns querys and waits for the replies."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
-downloadUrl: "http://nullsecurity.net/tools/scanner.html"
+downloadUrl: "https://nullsecurity.net/tools/scanner.html"
 commonlyOn: ["BlackArch"]
 gettingStarted: "Install on BlackArch with `pacman -S dnsgoblin` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
 ---

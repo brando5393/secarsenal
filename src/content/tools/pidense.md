@@ -3,7 +3,7 @@ name: "pidense"
 tagline: "Monitor illegal wireless network activities. (Fake Access Points)"
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "https://github.com/WiPi-Hunter/PiDense"
 commonlyOn: ["BlackArch"]

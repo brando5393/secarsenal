@@ -3,7 +3,7 @@ name: "GPOddity"
 tagline: "Aiming at automating GPO attack vectors through NTLM relaying (and more)"
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/synacktiv/GPOddity"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

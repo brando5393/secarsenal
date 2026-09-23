@@ -3,7 +3,7 @@ name: "fuxploider"
 tagline: "Tool that automates the process of detecting and exploiting file upload forms flaws."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/almandin/fuxploider"
 commonlyOn: ["BlackArch"]

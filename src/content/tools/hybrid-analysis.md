@@ -3,7 +3,7 @@ name: "Hybrid Analysis"
 tagline: "Free automated malware analysis service powered by CrowdStrike Falcon Sandbox. Combines runtime data with memory dump analysis to extract execution…"
 categories: ["malicious-file-analysis"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://hybrid-analysis.com/"
 commonlyOn: []
 gettingStarted: "Best for: Advanced malware behavior analysis and evasion detection. See the official site linked above for details."

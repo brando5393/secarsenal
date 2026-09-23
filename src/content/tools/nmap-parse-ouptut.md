@@ -3,7 +3,7 @@ name: "nmap-parse-ouptut"
 tagline: "Converts/manipulates/extracts data from a Nmap scan output."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/ernw/nmap-parse-output"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

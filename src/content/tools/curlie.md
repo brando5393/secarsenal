@@ -3,7 +3,7 @@ name: "curlie"
 tagline: "Curlie is a frontend to curl that adds the ease of use of httpie without compromising on features and performance"
 categories: ["ad","web"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/rs/curlie"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

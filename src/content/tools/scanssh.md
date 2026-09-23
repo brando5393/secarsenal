@@ -3,7 +3,7 @@ name: "scanssh"
 tagline: "Fast SSH server and open proxy scanner."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://www.monkey.org/~provos/scanssh/"
 commonlyOn: ["BlackArch"]

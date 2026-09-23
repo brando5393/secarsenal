@@ -3,7 +3,7 @@ name: "gitleaks"
 tagline: "Protect and discover secrets using Gitleaks 🔑 (program)"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/gitleaks/"
 downloadUrl: "https://github.com/gitleaks/gitleaks"
 repoUrl: "https://salsa.debian.org/go-team/packages/gitleaks"

@@ -3,7 +3,7 @@ name: "secure2csv"
 tagline: "Decode security descriptors in $Secure on NTFS."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/jschicht/Secure2Csv"
 commonlyOn: ["BlackArch"]

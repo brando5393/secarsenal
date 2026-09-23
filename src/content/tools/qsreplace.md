@@ -1,13 +1,14 @@
 ---
 name: "qsreplace"
-tagline: "Accept URLs on stdin, replace all query string values with a user-supplied value, only output each combination of query "
-categories: ["misc"]
+tagline: "Accept URLs on stdin, replace all query string values with a user-supplied value"
+categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
-docsUrl: "https://blackarch.org/misc.html"
+lastVerified: 2026-09-22
+docsUrl: "https://www.kali.org/tools/qsreplace/"
 downloadUrl: "https://github.com/tomnomnom/qsreplace"
-commonlyOn: ["BlackArch"]
-gettingStarted: "Install on BlackArch with `pacman -S qsreplace` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
+repoUrl: "https://gitlab.com/kalilinux/packages/qsreplace"
+commonlyOn: ["Kali Linux"]
+gettingStarted: "Install on Kali Linux with `sudo apt install qsreplace`. See the official Kali tool page and upstream homepage linked above for full usage and configuration details."
 ---
 
 Accept URLs on stdin, replace all query string values with a user-supplied value, only output each combination of query string parameters once per host and path.

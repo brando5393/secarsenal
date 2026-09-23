@@ -3,7 +3,7 @@ name: "graffiti"
 tagline: "A tool to generate obfuscated one liners to aid in penetration testing."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/Ekultek/Graffiti"
 commonlyOn: ["BlackArch"]

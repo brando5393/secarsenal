@@ -3,7 +3,7 @@ name: "evilize"
 tagline: "Tool to create MD5 colliding binaries."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://www.mathstat.dal.ca/~selinger/md5collision/"
 commonlyOn: ["BlackArch"]

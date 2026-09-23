@@ -3,7 +3,7 @@ name: "Google Search Operators Guide"
 tagline: "Official Google documentation covering all supported search operators, syntax, and advanced search techniques."
 categories: ["search-engines"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://www.googleguide.com/advanced_operators_reference.html"
 commonlyOn: []
 gettingStarted: "Best for: Reference for Google search operator syntax and capabilities. See the official site linked above for details."

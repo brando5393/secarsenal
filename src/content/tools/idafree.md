@@ -3,7 +3,7 @@ name: "idafree"
 tagline: "IDA Free is the free version of IDA Pro, a powerful Interactive DisAssembler and debugger."
 categories: ["disassemblers"]
 platforms: ["Windows"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/mandiant/VM-Packages/tree/main/packages/idafree.vm"
 downloadUrl: "https://hex-rays.com/ida-free"
 commonlyOn: ["FLARE VM"]

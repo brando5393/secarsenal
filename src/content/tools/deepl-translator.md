@@ -3,7 +3,7 @@ name: "DeepL Translator"
 tagline: "AI-powered machine translation service focused on high-quality translation with document support."
 categories: ["language-translation"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://www.deepl.com/en/translator"
 commonlyOn: []
 gettingStarted: "Best for: High-accuracy translation of documents and technical text. See the official site linked above for details."

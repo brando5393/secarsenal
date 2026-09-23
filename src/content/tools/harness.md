@@ -3,7 +3,7 @@ name: "harness"
 tagline: "Interactive remote PowerShell Payload."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://github.com/Rich5/Harness"
 commonlyOn: ["BlackArch"]

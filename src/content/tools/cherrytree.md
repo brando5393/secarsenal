@@ -3,7 +3,7 @@ name: "cherrytree"
 tagline: "Hierarchical note taking application"
 categories: ["reporting-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/cherrytree/"
 downloadUrl: "https://www.giuspen.net/cherrytree/"
 repoUrl: "https://salsa.debian.org/debian/cherrytree"

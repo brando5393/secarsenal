@@ -3,7 +3,7 @@ name: "darkarmour"
 tagline: "Store and execute an encrypted windows binary from inside memory, without a single bit touching disk."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/bats3c/darkarmour"
 commonlyOn: ["BlackArch"]

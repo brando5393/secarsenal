@@ -3,7 +3,7 @@ name: "spiderpig-pdffuzzer"
 tagline: "A javascript pdf fuzzer."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://code.google.com/p/spiderpig-pdffuzzer/"
 commonlyOn: ["BlackArch"]

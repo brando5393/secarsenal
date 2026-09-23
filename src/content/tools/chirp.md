@@ -3,7 +3,7 @@ name: "chirp"
 tagline: "Configuration tool for amateur radios"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/chirp/"
 downloadUrl: "https://chirpmyradio.com/"
 repoUrl: "https://salsa.debian.org/debian-hamradio-team/chirp"

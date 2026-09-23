@@ -3,7 +3,7 @@ name: "hostbox-ssh"
 tagline: "A ssh password/account scanner."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://stridsmanit.wordpress.com/2012/12/02/brute-forcing-passwords-with-hostbox-ssh-1-1/"
 commonlyOn: ["BlackArch"]

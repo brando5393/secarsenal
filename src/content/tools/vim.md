@@ -3,7 +3,7 @@ name: "vim"
 tagline: "Vi IMproved - enhanced vi editor"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/vim/"
 downloadUrl: "https://www.vim.org/"
 repoUrl: "https://salsa.debian.org/vim-team/vim"

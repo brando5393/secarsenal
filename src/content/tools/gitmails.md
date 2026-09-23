@@ -3,7 +3,7 @@ name: "gitmails"
 tagline: "An information gathering tool to collect git commit emails in version control host services."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/giovanifss/gitmails"
 commonlyOn: ["BlackArch"]

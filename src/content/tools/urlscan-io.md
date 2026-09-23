@@ -3,7 +3,7 @@ name: "urlscan.io"
 tagline: "URL and domain analysis service that captures page loads, requests, and security-relevant artifacts."
 categories: ["domain-name","ip-mac-address"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://urlscan.io/search/#*"
 commonlyOn: []
 gettingStarted: "Best for: Investigating suspicious URLs with scan snapshots and indicators. See the official site linked above for details."

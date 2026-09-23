@@ -3,7 +3,7 @@ name: "MarkMonitor Whois Search"
 tagline: "ICANN-accredited registrar and brand protection company offering WHOIS lookup and domain management services. Exclusively serves corporate clients…"
 categories: ["domain-name"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://domains.markmonitor.com/whois/"
 commonlyOn: []
 gettingStarted: "Best for: Corporate domain portfolio management, brand protection, trademark monitoring. See the official site linked above for details."

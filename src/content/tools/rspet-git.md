@@ -3,7 +3,7 @@ name: "rspet-git"
 tagline: "Python based reverse shell equipped with functionalities that assist in a post exploitation scenario"
 categories: ["malware"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/rspet-git"
 downloadUrl: "https://github.com/panagiks/RSPET"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "homepwn"
 tagline: "Swiss Army Knife for Pentesting of IoT Devices."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/ElevenPaths/HomePWN"
 commonlyOn: ["BlackArch"]

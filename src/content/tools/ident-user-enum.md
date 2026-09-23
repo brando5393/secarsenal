@@ -3,7 +3,7 @@ name: "ident-user-enum"
 tagline: "Query ident to determine the owner of a TCP network process"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/ident-user-enum/"
 downloadUrl: "https://pentestmonkey.net/tools/user-enumeration/ident-user-enum"
 repoUrl: "https://gitlab.com/kalilinux/packages/ident-user-enum"

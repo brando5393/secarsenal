@@ -3,7 +3,7 @@ name: "phoneinfoga"
 tagline: "Information gathering & OSINT framework for phone numbers."
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://github.com/sundowndev/PhoneInfoga"
 commonlyOn: ["BlackArch"]

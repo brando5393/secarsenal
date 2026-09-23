@@ -3,7 +3,7 @@ name: "ruby-gtkhex"
 tagline: "A ruby GTK2 hexadecimal widget"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/ruby-gtkhex"
 downloadUrl: "https://rubygems.org/gems/ruby-gtkhex"
 commonlyOn: ["ArchStrike"]

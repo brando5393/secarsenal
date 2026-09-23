@@ -3,7 +3,7 @@ name: "ncat-w32"
 tagline: "Netcat for the 21st century"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/ncat-w32/"
 downloadUrl: "https://nmap.org/ncat/"
 repoUrl: "https://gitlab.com/kalilinux/packages/ncat-w32"

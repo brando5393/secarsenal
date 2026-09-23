@@ -3,7 +3,7 @@ name: "ubertooth-git"
 tagline: "A 2.4 GHz wireless development board suitable for Bluetooth experimentation. Open source hardware and software. Tools only"
 categories: ["bluetooth"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/ubertooth-git"
 downloadUrl: "https://greatscottgadgets.com/ubertoothone"
 commonlyOn: ["ArchStrike"]

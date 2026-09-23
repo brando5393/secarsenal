@@ -3,7 +3,7 @@ name: "social-analyzer"
 tagline: "Analyzing & finding a person's profile across social media websites."
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://pypi.org/project/social-analyzer/"
 commonlyOn: ["BlackArch"]

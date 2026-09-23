@@ -3,7 +3,7 @@ name: "gpredict"
 tagline: "A real-time satellite tracking and orbit prediction application."
 categories: ["radio"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/radio.html"
 downloadUrl: "http://gpredict.oz9aec.net/"
 commonlyOn: ["BlackArch"]

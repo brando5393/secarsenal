@@ -3,7 +3,7 @@ name: "keye"
 tagline: "Recon tool detecting changes of websites based on content-length differences."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/clirimemini/Keye"
 commonlyOn: ["BlackArch"]

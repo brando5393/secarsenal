@@ -3,7 +3,7 @@ name: "ntp-fingerprint"
 tagline: "An active fingerprinting utility specifically designed to identify the OS the NTP server is running on."
 categories: ["fingerprint"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/fingerprint.html"
 downloadUrl: "http://www.hackingciscoexposed.com/?link=tools"
 commonlyOn: ["BlackArch"]

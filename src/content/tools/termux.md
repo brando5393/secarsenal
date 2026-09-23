@@ -3,7 +3,7 @@ name: "Termux"
 tagline: "Terminal emulator application for Android OS extendible by variety of packages."
 categories: ["development","system"]
 platforms: ["Android"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://termux.com/"
 commonlyOn: []
 gettingStarted: "Install from the Kali NetHunter App Store (store.nethunter.com) or NetHunter's own app repository on an Android device."

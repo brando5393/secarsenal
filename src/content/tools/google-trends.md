@@ -3,7 +3,7 @@ name: "Google Trends"
 tagline: "Google's search trend analysis tool for tracking keyword popularity and comparing search interest over time."
 categories: ["domain-name","search-engines"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://trends.google.com/trends/"
 commonlyOn: []
 gettingStarted: "Best for: Search trend analysis and keyword research. See the official site linked above for details."

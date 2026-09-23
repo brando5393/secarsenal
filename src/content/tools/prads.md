@@ -3,7 +3,7 @@ name: "prads"
 tagline: "A \"Passive Real-time Asset Detection System\"."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://gamelinux.github.io/prads/"
 commonlyOn: ["BlackArch"]

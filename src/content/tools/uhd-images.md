@@ -3,7 +3,7 @@ name: "uhd-images"
 tagline: "Various UHD Images"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/uhd-images/"
 downloadUrl: "https://www.ettus.com"
 repoUrl: "https://gitlab.com/kalilinux/packages/uhd-images"

@@ -3,7 +3,7 @@ name: "openstego"
 tagline: "A tool implemented in Java for generic steganography, with support for password-based encryption of the data."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/syvaidya/openstego/releases"
 commonlyOn: ["BlackArch"]

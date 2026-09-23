@@ -3,7 +3,7 @@ name: "bloodhound-ce.py"
 tagline: "BloodHound-CE ingestor in Python."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/fox-it/BloodHound.py"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

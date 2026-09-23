@@ -3,7 +3,7 @@ name: "regcool"
 tagline: "RegCool is a flexible editor for the Windows registry database."
 categories: ["registry"]
 platforms: ["Windows"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/mandiant/VM-Packages/tree/main/packages/regcool.vm"
 downloadUrl: "https://kurtzimmermann.com"
 commonlyOn: ["FLARE VM"]

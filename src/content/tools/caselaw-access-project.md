@@ -3,7 +3,7 @@ name: "Caselaw Access Project"
 tagline: "Harvard-hosted comprehensive free legal database with 6M+ court opinions. Digitized legal decisions from centuries of US case law."
 categories: ["public-records"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://case.law/"
 commonlyOn: []
 gettingStarted: "Best for: Historical legal opinion research. See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "glue"
 tagline: "A framework for running a series of tools."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/OWASP/glue"
 commonlyOn: ["BlackArch"]

@@ -4,7 +4,7 @@ tagline: "Examine IRC activities with this IRC client."
 categories: ["connecting"]
 platforms: ["Linux"]
 license: "Free, custom license"
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://docs.remnux.org/discover-the-tools/explore+network+interactions/connecting"
 downloadUrl: "https://www.epicsol.org/"
 commonlyOn: ["REMnux"]

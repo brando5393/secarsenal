@@ -3,7 +3,7 @@ name: "Picarta"
 tagline: "AI geolocation tool that estimates likely photo capture locations from visual scene analysis."
 categories: ["images-videos-docs"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://picarta.ai/"
 commonlyOn: []
 gettingStarted: "Best for: Estimating geographic origin of photos without metadata. See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "python-mechanicalsoup"
 tagline: "A Python library for automating interaction with websites"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/python-mechanicalsoup"
 downloadUrl: "https://github.com/MechanicalSoup/MechanicalSoup"
 commonlyOn: ["ArchStrike"]

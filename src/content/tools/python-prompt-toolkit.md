@@ -3,7 +3,7 @@ name: "python-prompt-toolkit"
 tagline: "Library for building powerful interactive command lines in Python"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/python-prompt-toolkit"
 downloadUrl: "https://github.com/prompt-toolkit/python-prompt-toolkit"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "dnspredict"
 tagline: "DNS prediction."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 commonlyOn: ["BlackArch"]
 gettingStarted: "Install on BlackArch with `pacman -S dnspredict` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."

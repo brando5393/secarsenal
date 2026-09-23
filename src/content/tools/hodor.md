@@ -3,7 +3,7 @@ name: "hodor"
 tagline: "A general-use fuzzer that can be configured to use known-good input and delimiters in order to fuzz specific locations."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://github.com/nccgroup/hodor"
 commonlyOn: ["BlackArch"]

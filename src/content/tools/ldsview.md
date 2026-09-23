@@ -3,7 +3,7 @@ name: "ldsview"
 tagline: "Offline search tool for LDAP directory dumps in LDIF format."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/kgoins/ldsview"
 commonlyOn: ["BlackArch"]

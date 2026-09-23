@@ -3,7 +3,7 @@ name: "log-file-parser"
 tagline: "Parser for $LogFile on NTFS."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/jschicht/LogFileParser"
 commonlyOn: ["BlackArch"]

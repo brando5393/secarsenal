@@ -4,7 +4,7 @@ tagline: "Multi-language debugger."
 categories: ["elf-files"]
 platforms: ["Linux"]
 license: "GNU General Public License (GPL)"
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://docs.remnux.org/discover-the-tools/dynamically+reverse-engineer+code/elf+files"
 downloadUrl: "https://www.sourceware.org/gdb/"
 commonlyOn: ["REMnux"]

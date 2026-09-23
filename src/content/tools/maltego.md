@@ -3,7 +3,7 @@ name: "maltego"
 tagline: "Open source intelligence and forensics application"
 categories: ["reconnaissance","reporting-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/maltego/"
 downloadUrl: "https://www.maltego.com"
 repoUrl: "https://gitlab.com/kalilinux/packages/maltego"

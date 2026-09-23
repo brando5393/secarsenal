@@ -3,7 +3,7 @@ name: "teamsploit"
 tagline: "Tools for group based penetration testing"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/teamsploit/"
 downloadUrl: "http://www.teamsploit.com"
 repoUrl: "https://gitlab.com/kalilinux/packages/teamsploit"

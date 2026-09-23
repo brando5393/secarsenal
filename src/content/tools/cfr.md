@@ -4,7 +4,7 @@ tagline: "Java decompiler."
 categories: ["java"]
 platforms: ["Linux"]
 license: "MIT License"
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://docs.remnux.org/discover-the-tools/statically+analyze+code/java"
 downloadUrl: "https://www.benf.org/other/cfr/"
 commonlyOn: ["REMnux"]

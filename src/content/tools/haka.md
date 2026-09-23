@@ -3,7 +3,7 @@ name: "haka"
 tagline: "A collection of tool that allows capturing TCP/IP packets and filtering them based on Lua policy files."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/haka-security/haka"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "tor-router"
 tagline: "A tool that allow you to make TOR your default gateway and send all internet connections under TOR (as transparent proxy"
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://github.com/Edu4rdSHL/tor-router"
 commonlyOn: ["BlackArch"]

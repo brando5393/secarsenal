@@ -3,7 +3,7 @@ name: "Whoisology"
 tagline: "Searchable archive of billions of current and historical domain WHOIS records with cross-referencing capabilities. Designed for InfoSec, legal, and…"
 categories: ["domain-name"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://whoisology.com/#advanced"
 commonlyOn: []
 gettingStarted: "Best for: Historical domain ownership, reverse WHOIS lookups, domain connection tracking. See the official site linked above for details."

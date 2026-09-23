@@ -3,7 +3,7 @@ name: "constellation"
 tagline: "Find and exploit vulnerabilities in mobile applications."
 categories: ["osint","web"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/constellation-app/Constellation"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

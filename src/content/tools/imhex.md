@@ -3,7 +3,7 @@ name: "imhex"
 tagline: "Hex Editor for Reverse Engineers, Programmers"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/imhex/"
 downloadUrl: "https://github.com/WerWolv/ImHex"
 repoUrl: "https://gitlab.com/kalilinux/packages/imhex"

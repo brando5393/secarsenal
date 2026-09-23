@@ -3,11 +3,10 @@ name: "perl-net-nslookup"
 tagline: "Provide nslookup(1)-like capabilties."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/perl-net-nslookup"
-downloadUrl: "https://metacpan.org/pod/Net::Nslookup"
 commonlyOn: ["ArchStrike"]
-gettingStarted: "Install by adding the ArchStrike repository to an existing Arch Linux install, then `pacman -S perl-net-nslookup`. See the official ArchStrike package listing and upstream homepage linked above for details."
+gettingStarted: "Install by adding the ArchStrike repository to an existing Arch Linux install, then `pacman -S perl-net-nslookup`. See the official ArchStrike package listing linked above for details."
 ---
 
 Provide nslookup(1)-like capabilties.

@@ -3,7 +3,7 @@ name: "goodork"
 tagline: "A python script designed to allow you to leverage the power of google dorking straight from the comfort of your command "
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "http://goo-dork.blogspot.com/"
 commonlyOn: ["BlackArch"]

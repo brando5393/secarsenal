@@ -3,7 +3,7 @@ name: "instagramosint"
 tagline: "An Instagram Open Source Intelligence Tool."
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://github.com/sc1341/InstagramOSINT/"
 commonlyOn: ["BlackArch"]

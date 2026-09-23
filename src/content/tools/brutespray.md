@@ -3,7 +3,7 @@ name: "brutespray"
 tagline: "Bruteforcing from various scanner output"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/brutespray/"
 downloadUrl: "https://github.com/x90skysn3k/brutespray"
 repoUrl: "https://gitlab.com/kalilinux/packages/brutespray"

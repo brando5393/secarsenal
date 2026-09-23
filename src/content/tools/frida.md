@@ -4,7 +4,7 @@ tagline: "Trace the execution of a process to analyze its behavior."
 categories: ["general"]
 platforms: ["Linux"]
 license: "wxWindows Library License 3.1"
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://docs.remnux.org/discover-the-tools/dynamically+reverse-engineer+code/general"
 downloadUrl: "https://frida.re"
 commonlyOn: ["REMnux"]

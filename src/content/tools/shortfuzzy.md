@@ -3,7 +3,7 @@ name: "shortfuzzy"
 tagline: "A web fuzzing script written in perl."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "http://packetstormsecurity.com/files/104872/Short-Fuzzy-Rat-Scanner.html"
 commonlyOn: ["BlackArch"]

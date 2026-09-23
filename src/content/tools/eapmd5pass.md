@@ -3,7 +3,7 @@ name: "eapmd5pass"
 tagline: "Tool for extracting and cracking EAP-MD5"
 categories: ["wifi-credential-access"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/eapmd5pass/"
 downloadUrl: "https://www.willhackforsushi.com/?page_id=67"
 repoUrl: "https://gitlab.com/kalilinux/packages/eapmd5pass"

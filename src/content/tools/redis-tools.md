@@ -3,7 +3,7 @@ name: "redis-tools"
 tagline: "redis-tools is a collection of Redis client utilities including redis-cli and redis-benchmark."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/antirez/redis-tools"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

@@ -137,7 +137,7 @@ async function main() {
     written.push(slug);
   }
 
-  const removed = pruneStale(CONTENT_DIR, oldSlugs, written);
+  const removed = pruneStale(CONTENT_DIR, oldSlugs, written, claimedSlugs);
   writeManifest(MANIFEST_PATH, written);
   ensureAutoSyncedTag(join('src', 'content', 'os', 'security-onion.md'));
 

@@ -3,7 +3,7 @@ name: "limelighter"
 tagline: "A tool for generating fake code signing certificates or signing real ones."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/Tylous/Limelighter"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "sign"
 tagline: "Automatically signs an apk with the Android test certificate."
 categories: ["mobile"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/mobile.html"
 downloadUrl: "https://github.com/appium/sign"
 commonlyOn: ["BlackArch"]

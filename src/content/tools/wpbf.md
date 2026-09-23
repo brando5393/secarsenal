@@ -3,7 +3,7 @@ name: "wpbf"
 tagline: "Multithreaded WordPress brute forcer."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/dejanlevaja/wpbf"
 commonlyOn: ["BlackArch"]

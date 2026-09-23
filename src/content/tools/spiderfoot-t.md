@@ -3,7 +3,7 @@ name: "SpiderFoot (T)"
 tagline: "Automated OSINT collection tool with 200+ modules for reconnaissance and threat intelligence."
 categories: ["cloud-infrastructure"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/smicallef/spiderfoot"
 commonlyOn: []
 gettingStarted: "Best for: Automated recon, attack surface mapping, threat intelligence. See the official site linked above for details."

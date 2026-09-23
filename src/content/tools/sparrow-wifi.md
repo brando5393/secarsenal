@@ -3,7 +3,7 @@ name: "sparrow-wifi"
 tagline: "Graphical Wi-Fi Analyzer for Linux"
 categories: ["wifi"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/sparrow-wifi/"
 downloadUrl: "https://github.com/ghostop14/sparrow-wifi"
 repoUrl: "https://gitlab.com/kalilinux/packages/sparrow-wifi"

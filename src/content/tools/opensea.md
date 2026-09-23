@@ -3,7 +3,7 @@ name: "OpenSea"
 tagline: "Multi-chain NFT marketplace supporting 22+ blockchains (Ethereum, Solana, Arbitrum, Optimism, etc.) with transaction history, collection analytics,…"
 categories: ["blockchain-cryptocurrency"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://opensea.io/"
 commonlyOn: []
 gettingStarted: "Best for: Multi-chain NFT trading history and collection-level analysis. See the official site linked above for details."

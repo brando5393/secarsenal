@@ -3,7 +3,7 @@ name: "Bluto (T)"
 tagline: "Recon utility for domain intelligence including DNS records, email patterns, and infrastructure clues."
 categories: ["domain-name"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/darryllane/Bluto"
 commonlyOn: []
 gettingStarted: "Best for: Initial domain footprinting and asset discovery. See the official site linked above for details."

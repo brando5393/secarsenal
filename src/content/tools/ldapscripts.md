@@ -3,7 +3,7 @@ name: "ldapscripts"
 tagline: "Simple shell scripts to handle POSIX entries in an LDAP directory."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://sourceforge.net/projects/ldapscripts"
 commonlyOn: ["BlackArch"]

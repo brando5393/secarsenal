@@ -3,7 +3,7 @@ name: "hexorbase"
 tagline: "A database application designed for administering and auditing multiple database servers simultaneously from a centraliz"
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://code.google.com/p/hexorbase/"
 commonlyOn: ["BlackArch"]

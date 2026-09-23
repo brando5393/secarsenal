@@ -3,7 +3,7 @@ name: "imagemounter"
 tagline: "Command line utility and Python package to ease the (un)mounting of forensic disk images."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/ralphje/imagemounter"
 commonlyOn: ["BlackArch"]

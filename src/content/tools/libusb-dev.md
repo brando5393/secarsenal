@@ -3,7 +3,7 @@ name: "libusb-dev"
 tagline: "Library for USB device access"
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/libusb/libusb"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

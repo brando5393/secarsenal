@@ -3,7 +3,7 @@ name: "netmap"
 tagline: "Can be used to make a graphical representation of the surrounding network."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "http://netmap.sourceforge.net/"
 commonlyOn: ["BlackArch"]

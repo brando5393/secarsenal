@@ -3,7 +3,7 @@ name: "recomposer"
 tagline: "Randomly changes Win32/64 PE Files for 'safer' uploading to malware and sandbox sites."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/secretsquirrel/recomposer"
 commonlyOn: ["BlackArch"]

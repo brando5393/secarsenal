@@ -3,7 +3,7 @@ name: "grammarinator"
 tagline: "A random test generator / fuzzer that creates test cases according to an input ANTLR v4 grammar."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://github.com/renatahodovan/grammarinator"
 commonlyOn: ["BlackArch"]

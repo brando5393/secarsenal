@@ -3,7 +3,7 @@ name: "sccmsecrets"
 tagline: "SCCMSecrets.py aims at exploiting SCCM policies distribution for credentials harvesting and initial access and lateral movement."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/synacktiv/SCCMSecrets"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

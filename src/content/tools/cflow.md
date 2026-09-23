@@ -3,7 +3,7 @@ name: "cflow"
 tagline: "A C program flow analyzer."
 categories: ["code-audit"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/code-audit.html"
 downloadUrl: "http://www.gnu.org/software/cflow/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "bingoo"
 tagline: "A Linux bash based Bing and Google Dorking Tool."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/Hood3dRob1n/BinGoo"
 commonlyOn: ["BlackArch"]

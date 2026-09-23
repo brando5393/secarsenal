@@ -3,7 +3,7 @@ name: "netcon"
 tagline: "A network connection establishment and management script."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/BlackArch/netcon"
 commonlyOn: ["BlackArch"]

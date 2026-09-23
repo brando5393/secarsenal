@@ -3,7 +3,7 @@ name: "searchsploit"
 tagline: "A command line search tool for Exploit-DB"
 categories: ["ad","osint","web"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://gitlab.com/exploit-database/exploitdb"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

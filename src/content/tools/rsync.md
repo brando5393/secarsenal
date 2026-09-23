@@ -3,7 +3,7 @@ name: "rsync"
 tagline: "File synchronization tool for efficiently copying and updating data between local or remote locations"
 categories: ["ad","osint","web"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://packages.debian.org/sid/rsync"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

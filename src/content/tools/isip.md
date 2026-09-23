@@ -3,7 +3,7 @@ name: "isip"
 tagline: "Interactive sip toolkit for packet manipulations, sniffing, man in the middle attacks, fuzzing, simulating of dos attack"
 categories: ["voip"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/voip.html"
 downloadUrl: "https://github.com/halitalptekin/isip"
 commonlyOn: ["BlackArch"]

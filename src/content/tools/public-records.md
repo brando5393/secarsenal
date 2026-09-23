@@ -3,7 +3,7 @@ name: "Public Records?"
 tagline: "Ambiguous entry - likely refers to BRB Publications' public records portal or aggregator. See BRB Public Records below for clarification."
 categories: ["public-records"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://www.brbpublications.com/"
 commonlyOn: []
 gettingStarted: "Best for: Unclear - requires VP clarification. See the official site linked above for details."

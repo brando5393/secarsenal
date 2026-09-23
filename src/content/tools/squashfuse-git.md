@@ -3,7 +3,7 @@ name: "squashfuse-git"
 tagline: "FUSE filesystem to mount squashfs archives"
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/squashfuse-git"
 downloadUrl: "https://github.com/vasi/squashfuse"
 commonlyOn: ["ArchStrike"]

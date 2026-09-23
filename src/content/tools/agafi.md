@@ -3,7 +3,7 @@ name: "agafi"
 tagline: "A gadget finder and a ROP-Chainer tool for x86 platforms."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/CoreSecurity/Agafi"
 commonlyOn: ["BlackArch"]

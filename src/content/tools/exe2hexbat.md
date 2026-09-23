@@ -3,7 +3,7 @@ name: "exe2hexbat"
 tagline: "Convert EXE to bat"
 categories: ["defense-evasion"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/exe2hexbat/"
 downloadUrl: "https://github.com/g0tmi1k/exe2hex/"
 repoUrl: "https://gitlab.com/kalilinux/packages/exe2hexbat"

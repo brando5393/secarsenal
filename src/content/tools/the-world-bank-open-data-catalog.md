@@ -3,7 +3,7 @@ name: "The World Bank Open Data Catalog"
 tagline: "World Bank open development data portal with datasets on economics, demographics, and global development indicators."
 categories: ["public-records"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://datacatalog.worldbank.org/"
 commonlyOn: []
 gettingStarted: "Best for: Development data and statistics. See the official site linked above for details."

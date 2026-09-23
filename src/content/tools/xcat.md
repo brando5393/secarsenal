@@ -3,7 +3,7 @@ name: "xcat"
 tagline: "A command line tool to automate the exploitation of blind XPath injection vulnerabilities."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/orf/xcat"
 commonlyOn: ["BlackArch"]

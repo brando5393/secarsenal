@@ -3,7 +3,7 @@ name: "marc4dasm"
 tagline: "A disassembler for the Atmel MARC4 (a 4 bit Harvard micro)."
 categories: ["disassembler"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/disassembler.html"
 downloadUrl: "https://github.com/ApertureLabsLtd/marc4dasm"
 commonlyOn: ["BlackArch"]

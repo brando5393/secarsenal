@@ -3,7 +3,7 @@ name: "see-surf-git"
 tagline: "A Python based scanner to find potential SSRF parameters in a web application."
 categories: ["webapps"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/see-surf-git"
 downloadUrl: "https://github.com/In3tinct/See-SURF"
 commonlyOn: ["ArchStrike"]

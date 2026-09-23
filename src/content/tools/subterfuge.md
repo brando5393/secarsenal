@@ -3,7 +3,7 @@ name: "subterfuge"
 tagline: "Automated Man-in-the-Middle Attack Framework."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/Subterfuge-Framework/Subterfuge"
 commonlyOn: ["BlackArch"]

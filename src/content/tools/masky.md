@@ -3,7 +3,7 @@ name: "masky"
 tagline: "Masky is a python library providing an alternative way to remotely dump domain users' credentials thanks to an ADCS. A command line tool has been…"
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/Z4kSec/Masky"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

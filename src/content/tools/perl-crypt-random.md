@@ -3,7 +3,7 @@ name: "perl-crypt-random"
 tagline: "Cryptographically Secure, True Random Number Generator"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/perl-crypt-random"
 downloadUrl: "https://metacpan.org/pod/Crypt::Random"
 commonlyOn: ["ArchStrike"]

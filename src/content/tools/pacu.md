@@ -3,7 +3,7 @@ name: "pacu"
 tagline: "Open Source AWS Exploitation Framework"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/pacu/"
 downloadUrl: "https://rhinosecuritylabs.com/aws/pacu-open-source-aws-exploitation-framework/"
 repoUrl: "https://gitlab.com/kalilinux/packages/pacu"

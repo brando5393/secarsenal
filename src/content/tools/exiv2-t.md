@@ -3,7 +3,7 @@ name: "Exiv2 (T)"
 tagline: "Cross-platform library and CLI for reading and modifying EXIF, IPTC, XMP, and ICC metadata."
 categories: ["images-videos-docs"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://exiv2.org/"
 commonlyOn: []
 gettingStarted: "Best for: Programmatic metadata parsing and editing pipelines. See the official site linked above for details."

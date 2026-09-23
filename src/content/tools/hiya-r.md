@@ -3,7 +3,7 @@ name: "Hiya (R$)"
 tagline: "Caller-ID and spam-protection platform with reverse lookup capabilities and mobile integrations."
 categories: ["telephone-numbers"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://www.hiya.com/"
 commonlyOn: []
 gettingStarted: "Best for: Spam classification and caller-ID enrichment on mobile workflows. See the official site linked above for details."

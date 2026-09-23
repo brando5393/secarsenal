@@ -3,7 +3,7 @@ name: "apache-tika"
 tagline: "Toolkit for detecting and extracting metadata and structured text content"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/apache-tika"
 downloadUrl: "https://tika.apache.org"
 commonlyOn: ["ArchStrike"]

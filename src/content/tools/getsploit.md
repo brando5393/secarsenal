@@ -3,7 +3,7 @@ name: "getsploit"
 tagline: "Command line utility for searching and downloading exploits"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/getsploit/"
 downloadUrl: "https://github.com/vulnersCom/getsploit"
 repoUrl: "https://gitlab.com/kalilinux/packages/getsploit"

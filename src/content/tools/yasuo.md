@@ -3,7 +3,7 @@ name: "yasuo"
 tagline: "A ruby script that scans for vulnerable & exploitable 3rd-party web applications on a network."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/0xsauby/yasuo"
 commonlyOn: ["BlackArch"]

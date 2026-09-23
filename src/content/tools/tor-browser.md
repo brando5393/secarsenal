@@ -3,9 +3,9 @@ name: "tor-browser"
 tagline: "Tor Browser Bundle: anonymous browsing using Firefox and Tor."
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/defensive.html"
-downloadUrl: "https://www.torproject.org/projects/torbrowser.html"
+downloadUrl: "https://download.torproject.org/tor-browser-for-desktop/"
 commonlyOn: ["BlackArch"]
 gettingStarted: "Install on BlackArch with `pacman -S tor-browser` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
 ---

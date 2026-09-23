@@ -190,7 +190,7 @@ async function main() {
     written.push(candidate.slug);
   }
 
-  const removed = pruneStale(CONTENT_DIR, oldSlugs, written);
+  const removed = pruneStale(CONTENT_DIR, oldSlugs, written, claimedSlugs);
   writeManifest(MANIFEST_PATH, written);
   ensureAutoSyncedTag(join('src', 'content', 'os', 'flare-vm.md'));
 

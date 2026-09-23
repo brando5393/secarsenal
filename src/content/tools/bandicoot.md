@@ -3,7 +3,7 @@ name: "bandicoot"
 tagline: "A toolbox to analyze mobile phone metadata."
 categories: ["mobile"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/mobile.html"
 downloadUrl: "https://pypi.org/project/bandicoot/#files"
 commonlyOn: ["BlackArch"]

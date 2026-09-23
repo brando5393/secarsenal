@@ -3,7 +3,7 @@ name: "zeus"
 tagline: "AWS Auditing & Hardening Tool."
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://github.com/DenizParlak/Zeus"
 commonlyOn: ["BlackArch"]

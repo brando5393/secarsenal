@@ -3,7 +3,7 @@ name: "DocMind AI"
 tagline: "Open-source local LLM-powered document analysis tool for querying and summarizing documents using locally running language models via LangChain."
 categories: ["ai-tools"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/BjornMelin/docmind-ai-llm"
 commonlyOn: []
 gettingStarted: "Best for: Private document analysis, querying sensitive documents without cloud exposure. See the official site linked above for details."

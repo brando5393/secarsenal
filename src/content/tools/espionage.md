@@ -3,7 +3,7 @@ name: "espionage"
 tagline: "A Network Packet and Traffic Interceptor For Linux. Sniff All Data Sent Through a Network."
 categories: ["sniffer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/sniffer.html"
 downloadUrl: "https://github.com/josh0xA/Espionage"
 commonlyOn: ["BlackArch"]

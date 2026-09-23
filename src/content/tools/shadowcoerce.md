@@ -3,7 +3,7 @@ name: "shadowcoerce"
 tagline: "Utility for bypassing the Windows Defender antivirus by hiding a process within a legitimate process."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/ShutdownRepo/shadowcoerce"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

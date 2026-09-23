@@ -3,7 +3,7 @@ name: "pack"
 tagline: "Password analysis and cracking kit"
 categories: ["password-profiling-wordlists"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/pack/"
 downloadUrl: "https://github.com/Hydraze/pack"
 repoUrl: "https://gitlab.com/kalilinux/packages/pack"

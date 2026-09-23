@@ -3,7 +3,7 @@ name: "pipeline"
 tagline: "Designed to aid in targeted brute force password cracking attacks."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/hirnschallsebastian/Pipeline2"
 commonlyOn: ["BlackArch"]

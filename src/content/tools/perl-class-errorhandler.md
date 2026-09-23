@@ -3,7 +3,7 @@ name: "perl-class-errorhandler"
 tagline: "Base class for error handling"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/perl-class-errorhandler"
 downloadUrl: "https://metacpan.org/pod/Class::ErrorHandler"
 commonlyOn: ["ArchStrike"]

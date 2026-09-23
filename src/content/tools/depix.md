@@ -3,7 +3,7 @@ name: "depix"
 tagline: "A tool for recovering passwords from pixelized screenshots."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/beurtschipper/Depix"
 commonlyOn: ["BlackArch"]

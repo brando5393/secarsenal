@@ -3,7 +3,7 @@ name: "pwatch"
 tagline: "An ncurses tool that can be run by root to give information about processes"
 categories: ["analysis"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/pwatch"
 downloadUrl: "http://kernel.embedromix.ro/us/"
 commonlyOn: ["ArchStrike"]

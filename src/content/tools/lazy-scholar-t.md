@@ -3,7 +3,7 @@ name: "Lazy Scholar (T)"
 tagline: "Browser extension that automatically finds free legal full-text versions of academic papers when viewing paywalled content; checks open-access…"
 categories: ["search-engines"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://lazyscholar.org/"
 commonlyOn: []
 gettingStarted: "Best for: Finding free full-text access to paywalled academic papers without institutional subscription. See the official site linked above for details."

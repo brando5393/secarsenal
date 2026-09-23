@@ -3,7 +3,7 @@ name: "MediaInfo (T)"
 tagline: "Cross-platform utility for extracting technical metadata from video and audio media files."
 categories: ["images-videos-docs"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://mediaarea.net/en/MediaInfo"
 commonlyOn: []
 gettingStarted: "Best for: Media codec and container metadata profiling. See the official site linked above for details."

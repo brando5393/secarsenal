@@ -3,7 +3,7 @@ name: "kali-community-wallpapers"
 tagline: "Transitional package to install kali-wallpapers-community"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/kali-community-wallpapers/"
 repoUrl: "https://gitlab.com/kalilinux/packages/kali-community-wallpapers"
 commonlyOn: ["Kali Linux"]

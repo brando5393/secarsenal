@@ -3,7 +3,7 @@ name: "qsslcaudit"
 tagline: "Test SSL/TLS clients how secure they are"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/qsslcaudit/"
 downloadUrl: "https://github.com/gremwell/qsslcaudit"
 repoUrl: "https://gitlab.com/kalilinux/packages/qsslcaudit"

@@ -3,7 +3,7 @@ name: "checkip (T)"
 tagline: "Command-line utility for checking local machine IP address and network connectivity."
 categories: ["ip-mac-address"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/jreisinger/checkip"
 commonlyOn: []
 gettingStarted: "Best for: Display local IP and network info. See the official site linked above for details."

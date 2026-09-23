@@ -3,7 +3,7 @@ name: "melkor"
 tagline: "An ELF fuzzer that mutates the existing data in an ELF sample given to create orcs (malformed ELFs), however, it does no"
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "http://packetstormsecurity.com/files/127924/Melkor-ELF-Fuzzer.0.html"
 commonlyOn: ["BlackArch"]

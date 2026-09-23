@@ -3,7 +3,7 @@ name: "pythem"
 tagline: "Python2 penetration testing framework."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/m4n3dw0lf/PytheM"
 commonlyOn: ["BlackArch"]

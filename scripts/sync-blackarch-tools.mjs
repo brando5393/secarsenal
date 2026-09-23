@@ -170,7 +170,7 @@ async function main() {
   // sync in the meantime (Kali takes precedence) — never touches files
   // owned by another source.
   const stillBlackArchOnly = written;
-  const removed = pruneStale(CONTENT_DIR, oldSlugs, stillBlackArchOnly);
+  const removed = pruneStale(CONTENT_DIR, oldSlugs, stillBlackArchOnly, kaliSlugs);
   writeManifest(MANIFEST_PATH, stillBlackArchOnly);
   ensureAutoSyncedTag(join('src', 'content', 'os', 'blackarch.md'));
 

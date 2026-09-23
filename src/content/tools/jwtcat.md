@@ -3,7 +3,7 @@ name: "jwtcat"
 tagline: "Script performs offline brute-force attacks against JSON Web Token (JWT)"
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/aress31/jwtcat"
 commonlyOn: ["BlackArch"]

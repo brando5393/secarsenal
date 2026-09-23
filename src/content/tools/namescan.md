@@ -3,7 +3,7 @@ name: "NameScan"
 tagline: "Compliance screening platform providing sanctions checks, PEP screenings, and adverse media searches against global government databases with a free…"
 categories: ["compliance-risk-intelligence"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://namescan.io"
 commonlyOn: []
 gettingStarted: "Best for: Quick free sanctions and PEP screening with adverse media checks. See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "grabber"
 tagline: "A web application scanner. Basically it detects some kind of vulnerabilities in your website."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "http://rgaucher.info/beta/grabber/"
 commonlyOn: ["BlackArch"]

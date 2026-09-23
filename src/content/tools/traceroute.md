@@ -3,7 +3,7 @@ name: "traceroute"
 tagline: "Traces the route taken by packets over an IPv4/IPv6 network"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/traceroute/"
 downloadUrl: "https://traceroute.sourceforge.net/"
 repoUrl: "https://pkg.kali.org/pkg/traceroute"

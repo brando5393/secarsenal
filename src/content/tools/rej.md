@@ -3,7 +3,7 @@ name: "rej"
 tagline: "An API and a graphical tool for inspection and manipulation of classfiles for the Java platform."
 categories: ["decompiler"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/decompiler.html"
 downloadUrl: "https://sourceforge.net/projects/rejava/"
 commonlyOn: ["BlackArch"]

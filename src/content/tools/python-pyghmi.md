@@ -3,7 +3,7 @@ name: "python-pyghmi"
 tagline: "a pure Python (mostly IPMI) server management library"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/python-pyghmi"
 downloadUrl: "https://opendev.org/x/pyghmi"
 commonlyOn: ["ArchStrike"]

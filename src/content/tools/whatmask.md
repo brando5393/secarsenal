@@ -3,7 +3,7 @@ name: "whatmask"
 tagline: "Helper for network settings"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/whatmask/"
 downloadUrl: "http://www.laffeycomputer.com/whatmask.html"
 repoUrl: "https://gitlab.com/kalilinux/packages/whatmask"

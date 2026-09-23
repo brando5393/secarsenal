@@ -3,7 +3,7 @@ name: "perl-cisco-copyconfig"
 tagline: "Provides methods for manipulating Cisco devices"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/perl-cisco-copyconfig/"
 downloadUrl: "https://metacpan.org/pod/Cisco::CopyConfig"
 repoUrl: "https://gitlab.com/kalilinux/packages/perl-cisco-copyconfig"

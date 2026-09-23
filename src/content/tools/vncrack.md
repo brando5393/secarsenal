@@ -3,7 +3,7 @@ name: "vncrack"
 tagline: "What it looks like: crack VNC."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://194.150.168.69/vncrack/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "fuddly"
 tagline: "Fuzzing and Data Manipulation Framework (for GNU/Linux)."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://github.com/k0retux/fuddly"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "screen"
 tagline: "Terminal multiplexer with VT100/ANSI terminal emulation"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/screen/"
 downloadUrl: "https://savannah.gnu.org/projects/screen"
 repoUrl: "https://salsa.debian.org/debian/screen"

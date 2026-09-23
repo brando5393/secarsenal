@@ -4,7 +4,7 @@ tagline: "Reformat JavaScript scripts for easier analysis."
 categories: ["scripts"]
 platforms: ["Linux"]
 license: "MIT License"
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://docs.remnux.org/discover-the-tools/statically+analyze+code/scripts"
 downloadUrl: "https://beautifier.io/"
 commonlyOn: ["REMnux"]

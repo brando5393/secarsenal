@@ -3,7 +3,7 @@ name: "detectem"
 tagline: "Detect software and its version on websites."
 categories: ["fingerprint"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/fingerprint.html"
 downloadUrl: "https://github.com/spectresearch/detectem"
 commonlyOn: ["BlackArch"]

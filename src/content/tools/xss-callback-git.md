@@ -3,7 +3,7 @@ name: "xss-callback-git"
 tagline: "A lightweight HTTP Server that exploits XSS victim's session automatically"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/xss-callback-git"
 downloadUrl: "https://github.com/PaulSec/XSS-Callback"
 commonlyOn: ["ArchStrike"]

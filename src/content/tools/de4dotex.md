@@ -3,7 +3,7 @@ name: "de4dotex"
 tagline: ".NET deobfuscator and unpacker."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/GDATAAdvancedAnalytics/de4dotEx"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "sslscan2"
 tagline: "Tests SSL/TLS enabled services to discover supported cipher suites."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/rbsec/sslscan"
 commonlyOn: ["BlackArch"]

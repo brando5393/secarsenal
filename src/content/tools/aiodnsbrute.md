@@ -3,7 +3,7 @@ name: "aiodnsbrute"
 tagline: "Python 3 DNS asynchronous brute force utility."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/blark/aiodnsbrute"
 commonlyOn: ["BlackArch"]

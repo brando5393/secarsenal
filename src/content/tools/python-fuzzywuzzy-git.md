@@ -3,7 +3,7 @@ name: "python-fuzzywuzzy-git"
 tagline: "Fuzzy string matching in python"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/python-fuzzywuzzy-git"
 downloadUrl: "https://pypi.org/project/fuzzywuzzy/0.2/"
 commonlyOn: ["ArchStrike"]

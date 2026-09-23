@@ -3,7 +3,7 @@ name: "dwarf2json"
 tagline: "Utility to generat volatility 3 Intermediate Symbol File (ISF) JSON"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/dwarf2json/"
 downloadUrl: "https://github.com/volatilityfoundation/dwarf2json"
 repoUrl: "https://gitlab.com/kalilinux/packages/dwarf2json"

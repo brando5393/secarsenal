@@ -3,7 +3,7 @@ name: "wifi-autopwner"
 tagline: "Script to automate searching and auditing Wi-Fi networks with weak security."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/Mi-Al/WiFi-autopwner"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "dr0p1t-framework"
 tagline: "A framework that creates a dropper that bypass most AVs, some sandboxes and have some tricks."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://github.com/D4Vinci/Dr0p1t-Framework"
 commonlyOn: ["BlackArch"]

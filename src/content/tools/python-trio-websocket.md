@@ -3,7 +3,7 @@ name: "python-trio-websocket"
 tagline: "WebSocket client and server implementation for Python Trio"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/python-trio-websocket"
 downloadUrl: "https://pypi.org/project/trio-websocket/"
 commonlyOn: ["ArchStrike"]

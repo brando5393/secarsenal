@@ -4,7 +4,7 @@ tagline: "Help guess a file's 256-byte XOR by using frequency analysis."
 categories: ["deobfuscation"]
 platforms: ["Linux"]
 license: "Free, unknown license"
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/deobfuscation"
 downloadUrl: "https://github.com/digitalsleuth/NoMoreXOR"
 commonlyOn: ["REMnux"]

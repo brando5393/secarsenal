@@ -3,7 +3,7 @@ name: "dns2tcp"
 tagline: "TCP-over-DNS tunnel server and client"
 categories: ["protocol-tunneling"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/dns2tcp/"
 repoUrl: "https://salsa.debian.org/debian/dns2tcp"
 commonlyOn: ["Kali Linux"]

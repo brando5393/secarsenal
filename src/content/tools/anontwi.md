@@ -3,7 +3,7 @@ name: "anontwi"
 tagline: "A free software python client designed to navigate anonymously on social networks. It supports Identi.ca and Twitter.com"
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "http://anontwi.sourceforge.net/"
 commonlyOn: ["BlackArch"]

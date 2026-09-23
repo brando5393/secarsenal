@@ -3,7 +3,7 @@ name: "TriliumNext"
 tagline: "Personal knowledge management system (successor to Trilium)."
 categories: ["ad","osint","web"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/TriliumNext/Notes"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "raven"
 tagline: "Python tool that extends the capabilities of the http.server Python module"
 categories: ["exfiltration"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/raven/"
 downloadUrl: "https://github.com/gh0x0st/raven"
 repoUrl: "https://salsa.debian.org/pkg-security-team/raven"

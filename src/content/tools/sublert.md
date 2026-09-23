@@ -3,7 +3,7 @@ name: "sublert"
 tagline: "A security and reconnaissance tool which leverages certificate transparency to automatically monitor new subdomains depl"
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/yassineaboukir/sublert"
 commonlyOn: ["BlackArch"]

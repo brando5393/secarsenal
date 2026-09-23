@@ -3,7 +3,7 @@ name: "bypass-firewall-dns-history"
 tagline: "Firewall bypass script based on DNS history records."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/vincentcox/bypass-firewalls-by-DNS-history"
 commonlyOn: ["BlackArch"]

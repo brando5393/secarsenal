@@ -3,7 +3,7 @@ name: "xspear"
 tagline: "Powerful XSS Scanning and Parameter analysis tool&gem."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/hahwul/XSpear"
 commonlyOn: ["BlackArch"]

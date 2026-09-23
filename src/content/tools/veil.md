@@ -3,7 +3,7 @@ name: "veil"
 tagline: "Generates payloads to bypass anti-virus solutions"
 categories: ["defense-evasion"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/veil/"
 downloadUrl: "https://github.com/Veil-Framework/Veil"
 repoUrl: "https://gitlab.com/kalilinux/packages/veil"

@@ -3,7 +3,7 @@ name: "Arctic Shift"
 tagline: "Search and access layer for Reddit datasets with tools for historical content retrieval and analysis."
 categories: ["online-communities"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://arctic-shift.photon-reddit.com/"
 commonlyOn: []
 gettingStarted: "Best for: Historical Reddit dataset analysis and subreddit research. See the official site linked above for details."

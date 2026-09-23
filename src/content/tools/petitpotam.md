@@ -3,7 +3,7 @@ name: "petitpotam"
 tagline: "Windows machine account manipulation"
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/topotam/PetitPotam"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

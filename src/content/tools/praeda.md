@@ -3,7 +3,7 @@ name: "praeda"
 tagline: "An automated data/information harvesting tool designed to gather critical information from various embedded devices."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/percx/Praeda"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "Who.is"
 tagline: "Comprehensive WHOIS and RDAP lookup service with large database of domain registration, DNS records, and IP information. Provides both current and…"
 categories: ["domain-name"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://who.is/"
 commonlyOn: []
 gettingStarted: "Best for: Domain registration research, WHOIS lookups, RDAP queries, IP tracking. See the official site linked above for details."

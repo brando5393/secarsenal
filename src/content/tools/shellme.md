@@ -3,7 +3,7 @@ name: "shellme"
 tagline: "Because sometimes you just need shellcode and opcodes quickly. This essentially just wraps some nasm/objdump calls into "
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/hatRiot/shellme"
 commonlyOn: ["BlackArch"]

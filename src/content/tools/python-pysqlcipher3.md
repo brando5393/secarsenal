@@ -3,7 +3,7 @@ name: "python-pysqlcipher3"
 tagline: "Python interface to SQLCipher"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/python-pysqlcipher3"
 downloadUrl: "https://pypi.org/project/pysqlcipher3/"
 commonlyOn: ["ArchStrike"]

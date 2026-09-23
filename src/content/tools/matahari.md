@@ -3,7 +3,7 @@ name: "matahari"
 tagline: "A reverse HTTP shell to execute commands on remote machines behind firewalls."
 categories: ["tunnel"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/tunnel.html"
 downloadUrl: "http://matahari.sourceforge.net/"
 commonlyOn: ["BlackArch"]

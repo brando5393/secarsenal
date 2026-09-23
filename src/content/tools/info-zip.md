@@ -4,7 +4,7 @@ tagline: "Compress and decompress files using the zip algorithm."
 categories: ["general-utilities"]
 platforms: ["Linux"]
 license: "Free, custom license"
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://docs.remnux.org/discover-the-tools/general+utilities"
 downloadUrl: "http://infozip.sourceforge.net"
 commonlyOn: ["REMnux"]

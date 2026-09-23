@@ -3,7 +3,7 @@ name: "nbtenum"
 tagline: "A utility for Windows that can be used to enumerate NetBIOS information from one host or a range of hosts."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://reedarvin.thearvins.com/"
 commonlyOn: ["BlackArch"]

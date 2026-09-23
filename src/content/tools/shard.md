@@ -3,7 +3,7 @@ name: "shard"
 tagline: "A command line tool to detect shared passwords."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/philwantsfish/shard"
 commonlyOn: ["BlackArch"]

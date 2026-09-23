@@ -3,7 +3,7 @@ name: "reptor"
 tagline: "CLI tool to automate pentest reporting with SysReptor."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/Syslifters/reptor"
 commonlyOn: ["BlackArch"]

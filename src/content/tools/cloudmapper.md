@@ -3,7 +3,7 @@ name: "cloudmapper"
 tagline: "CloudMapper helps you analyze your Amazon Web Services (AWS) environments."
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/duo-labs/cloudmapper"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

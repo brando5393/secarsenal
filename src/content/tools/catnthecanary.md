@@ -3,7 +3,7 @@ name: "catnthecanary"
 tagline: "An application to query the canary.pw data set for leaked data."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/packetassailant/catnthecanary"
 commonlyOn: ["BlackArch"]

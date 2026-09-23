@@ -3,7 +3,7 @@ name: "mobiusft"
 tagline: "An open-source forensic framework written in Python/GTK that manages cases and case items, providing an abstract interfa"
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "http://savannah.nongnu.org/projects/mobiusft"
 commonlyOn: ["BlackArch"]

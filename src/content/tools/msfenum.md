@@ -3,7 +3,7 @@ name: "msfenum"
 tagline: "A Metasploit auto auxiliary script."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/wez3/msfenum"
 commonlyOn: ["BlackArch"]

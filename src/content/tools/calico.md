@@ -3,7 +3,7 @@ name: "calico"
 tagline: "Networking and network security solution for Kubernetes"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/calico/"
 downloadUrl: "https://github.com/projectcalico/calico"
 repoUrl: "https://gitlab.com/kalilinux/packages/calico"

@@ -3,7 +3,7 @@ name: "pipal-git"
 tagline: "THE password analyzer"
 categories: ["analysis"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/pipal-git"
 downloadUrl: "https://github.com/digininja/pipal"
 commonlyOn: ["ArchStrike"]

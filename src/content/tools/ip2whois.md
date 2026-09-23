@@ -3,7 +3,7 @@ name: "IP2WHOIS"
 tagline: "Free WHOIS lookup service for domain names and IP addresses, providing registration details, registrant information, location data, and API access."
 categories: ["domain-name"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://www.ip2whois.com"
 commonlyOn: []
 gettingStarted: "Best for: Domain and IP WHOIS lookups, registrant research. See the official site linked above for details."

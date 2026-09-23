@@ -3,7 +3,7 @@ name: "libnfc"
 tagline: "Library for Near Field Communication (NFC) devices"
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/grundid/nfctools"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

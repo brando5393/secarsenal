@@ -3,7 +3,7 @@ name: "azazel"
 tagline: "A userland rootkit based off of the original LD_PRELOAD technique from Jynx rootkit."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://github.com/chokepoint/azazel"
 commonlyOn: ["BlackArch"]

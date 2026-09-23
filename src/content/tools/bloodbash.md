@@ -3,7 +3,7 @@ name: "bloodbash"
 tagline: "BloodBash is a powerful standalone BloodHound / SharpHound + AzureHound JSON analyzer written in Python"
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/DotNetRussell/BloodBash"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

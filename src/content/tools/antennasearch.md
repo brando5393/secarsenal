@@ -3,7 +3,7 @@ name: "AntennaSearch"
 tagline: "FCC-backed lookup for antenna structure and tower records used in RF and telecom investigations."
 categories: ["geolocation-tools-maps"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://www.antennasearch.com/"
 commonlyOn: []
 gettingStarted: "Best for: Identifying nearby antenna structures and tower owners. See the official site linked above for details."
