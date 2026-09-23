@@ -25,6 +25,15 @@ const CATALOG_KV_KEY = 'catalog';
 // ever fails.
 const CATALOG_KV_TTL_SECONDS = 60 * 60 * 6;
 const MAX_RESULTS = 50;
+// Every real name/slug/category in the catalog is well under 100 chars.
+// 200 leaves headroom for anything legitimate while blocking a caller
+// from sending a multi-KB string purely to inflate what recordUsage
+// logs (Analytics Engine's blob size cap) or to do needless work in the
+// substring-match filters below -- this is a public, unauthenticated
+// endpoint, so input size is a real (if minor) lever an abusive caller
+// has, not just a theoretical one.
+const boundedString = (description: string) => z.string().max(200).optional().describe(description);
+const boundedSlug = (description: string) => z.string().max(200).describe(description);
 
 async function refreshCatalog(env: Env): Promise<CatalogEntry[]> {
   const res = await fetch(CATALOG_URL);
@@ -46,11 +55,23 @@ async function loadCatalog(env: Env): Promise<CatalogEntry[]> {
 // or any other caller identity -- matches the site's own minimal-data
 // posture (see SECURITY.md / privacy.astro). Feeds a future public
 // "trending tools/OS" page; not required for that page to exist yet.
+//
+// Analytics Engine caps a data point's total blob size at 16KB; without
+// the MAX_QUERY_LEN guard on tool inputs below, a caller could send an
+// oversized string specifically to blow that limit. writeDataPoint can
+// throw synchronously on an oversized/malformed payload, and since this
+// runs inline in every tool handler (not backgrounded), an uncaught
+// throw here would fail the actual tool call over a logging problem --
+// wrapped so a bad analytics write never breaks the real response.
 function recordUsage(env: Env, tool: string, params: Record<string, unknown>) {
-  env.ANALYTICS?.writeDataPoint({
-    blobs: [tool, JSON.stringify(params)],
-    indexes: [tool],
-  });
+  try {
+    env.ANALYTICS?.writeDataPoint({
+      blobs: [tool, JSON.stringify(params)],
+      indexes: [tool],
+    });
+  } catch {
+    // Logging is best-effort; the tool call itself must still succeed.
+  }
 }
 
 function matchesQuery(entry: CatalogEntry, query?: string): boolean {
@@ -66,9 +87,9 @@ export class SecArsenalMCP extends McpAgent<Env, unknown, {}> {
     this.server.tool(
       'search_tools',
       {
-        query: z.string().optional().describe('Free-text match against name/tagline'),
-        category: z.string().optional().describe('Exact category tag, e.g. "recon"'),
-        platform: z.string().optional().describe('Exact platform, e.g. "Linux"'),
+        query: boundedString('Free-text match against name/tagline'),
+        category: boundedString('Exact category tag, e.g. "recon"'),
+        platform: boundedString('Exact platform, e.g. "Linux"'),
       },
       async ({ query, category, platform }) => {
         recordUsage(this.env, 'search_tools', { query, category, platform });
@@ -85,7 +106,7 @@ export class SecArsenalMCP extends McpAgent<Env, unknown, {}> {
 
     this.server.tool(
       'get_tool',
-      { slug: z.string().describe('Tool slug, e.g. "nmap"') },
+      { slug: boundedSlug('Tool slug, e.g. "nmap"') },
       async ({ slug }) => {
         recordUsage(this.env, 'get_tool', { slug });
         const catalog = await loadCatalog(this.env);
@@ -99,9 +120,9 @@ export class SecArsenalMCP extends McpAgent<Env, unknown, {}> {
     this.server.tool(
       'search_os',
       {
-        query: z.string().optional().describe('Free-text match against name/tagline'),
-        category: z.string().optional().describe('One of: general-purpose, wireless, forensics, specialized'),
-        team: z.string().optional().describe('One of: red, blue'),
+        query: boundedString('Free-text match against name/tagline'),
+        category: boundedString('One of: general-purpose, wireless, forensics, specialized'),
+        team: boundedString('One of: red, blue'),
       },
       async ({ query, category, team }) => {
         recordUsage(this.env, 'search_os', { query, category, team });
@@ -118,7 +139,7 @@ export class SecArsenalMCP extends McpAgent<Env, unknown, {}> {
 
     this.server.tool(
       'get_os',
-      { slug: z.string().describe('OS slug, e.g. "kali-linux"') },
+      { slug: boundedSlug('OS slug, e.g. "kali-linux"') },
       async ({ slug }) => {
         recordUsage(this.env, 'get_os', { slug });
         const catalog = await loadCatalog(this.env);
