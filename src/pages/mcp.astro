@@ -1,0 +1,77 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+
+const configSnippet = `{
+  "mcpServers": {
+    "secarsenal": {
+      "url": "https://mcp.secarsenal.org/mcp"
+    }
+  }
+}`;
+---
+
+<BaseLayout
+  title="MCP Server"
+  description="A public, read-only MCP server for the SecArsenal catalog — query pentest OS and tool data directly from Claude or any MCP client."
+>
+  <div>
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'MCP Server' }]} />
+    <h1 class="text-3xl font-bold text-white">MCP Server</h1>
+
+    <section class="mt-6">
+      <h2 class="text-lg font-semibold text-white">What this is</h2>
+      <p class="mt-2 text-gray-300 leading-relaxed">
+        <a class="text-emerald-400 hover:text-emerald-300" href="https://modelcontextprotocol.io" rel="noopener noreferrer" target="_blank">MCP</a>
+        (Model Context Protocol) is how an AI assistant calls out to external
+        tools mid-conversation. SecArsenal runs a small, public MCP server so
+        Claude — or any MCP-compatible client — can look up real catalog data
+        (which distro bundles what, what a tool actually does, what platform
+        it targets) instead of relying on training-data guesses. It's
+        read-only: no tool here can add, edit, or delete anything.
+      </p>
+    </section>
+
+    <section class="mt-6">
+      <h2 class="text-lg font-semibold text-white">Connecting a client</h2>
+      <p class="mt-2 text-gray-300 leading-relaxed">
+        Add this to your MCP client's config (Claude Desktop, Claude Code, or
+        any other client that speaks Streamable HTTP):
+      </p>
+      <pre class="mt-3 overflow-x-auto rounded-md border border-gray-800 bg-gray-900 p-4 font-mono text-sm text-gray-200"><code>{configSnippet}</code></pre>
+    </section>
+
+    <section class="mt-6">
+      <h2 class="text-lg font-semibold text-white">Tools exposed</h2>
+      <p class="mt-2 text-gray-300 leading-relaxed">All read-only, no authentication required:</p>
+      <ul class="mt-2 space-y-1.5 text-gray-300">
+        <li><code class="font-mono text-sm text-gray-200">search_tools</code> — free-text/category/platform search over the tools collection</li>
+        <li><code class="font-mono text-sm text-gray-200">get_tool</code> — fetch one tool by slug</li>
+        <li><code class="font-mono text-sm text-gray-200">search_os</code> — free-text/category/team search over the OS collection</li>
+        <li><code class="font-mono text-sm text-gray-200">get_os</code> — fetch one OS entry by slug</li>
+        <li><code class="font-mono text-sm text-gray-200">list_categories</code> — every category currently in use, for both collections</li>
+      </ul>
+    </section>
+
+    <section class="mt-6">
+      <h2 class="text-lg font-semibold text-white">Prefer raw data?</h2>
+      <p class="mt-2 text-gray-300 leading-relaxed">
+        The same underlying data is available as plain JSON at
+        <a class="text-emerald-400 hover:text-emerald-300" href="/catalog.json"><code class="font-mono text-sm text-gray-200">/catalog.json</code></a>
+        — no MCP client needed, just an HTTP GET.
+      </p>
+    </section>
+
+    <section class="mt-6">
+      <h2 class="text-lg font-semibold text-white">Limits and source</h2>
+      <p class="mt-2 text-gray-300 leading-relaxed">
+        The endpoint is rate-limited since it's open to the public internet.
+        It's a separate Cloudflare Worker from the main site, polling
+        <code class="font-mono text-sm text-gray-200">/catalog.json</code>
+        hourly rather than querying on every call. Source, data flow, and
+        deploy process are documented in
+        <a class="text-emerald-400 hover:text-emerald-300" href="https://github.com/brando5393/secarsenal/blob/master/mcp-server/README.md" rel="noopener noreferrer" target="_blank">mcp-server/README.md ↗</a>.
+      </p>
+    </section>
+  </div>
+</BaseLayout>
