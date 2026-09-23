@@ -3,7 +3,7 @@ name: "Dual Maps"
 tagline: "Dual-pane map viewer for side-by-side comparison of basemaps and imagery."
 categories: ["geolocation-tools-maps"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://data.mashedworld.com/dualmaps/map.htm"
 commonlyOn: []
 gettingStarted: "Best for: Comparing two map layers or providers at the same location. See the official site linked above for details."

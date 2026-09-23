@@ -3,7 +3,7 @@ name: "crackhound"
 tagline: "A fast WPA/WPA2/WPA3 WiFi Handshake capture / password recovery and analysis tool"
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/trustedsec/crackhound"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

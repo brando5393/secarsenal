@@ -3,7 +3,7 @@ name: "ftester"
 tagline: "Tool for testing firewalls and Intrusion Detection System (IDS)"
 categories: ["defense-evasion"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/ftester/"
 downloadUrl: "https://dev.inversepath.com/ftester/"
 repoUrl: "https://gitlab.com/kalilinux/packages/ftester"

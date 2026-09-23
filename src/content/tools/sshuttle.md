@@ -3,7 +3,7 @@ name: "sshuttle"
 tagline: "Transparent proxy server for VPN over SSH"
 categories: ["protocol-tunneling"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/sshuttle/"
 downloadUrl: "https://github.com/sshuttle/sshuttle"
 repoUrl: "https://salsa.debian.org/debian/sshuttle"

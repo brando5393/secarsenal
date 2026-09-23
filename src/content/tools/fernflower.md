@@ -3,11 +3,10 @@ name: "fernflower"
 tagline: "An analytical decompiler for Java."
 categories: ["decompiler"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/decompiler.html"
-downloadUrl: "https://github.com/fesh0r/fernflower"
 commonlyOn: ["BlackArch"]
-gettingStarted: "Install on BlackArch with `pacman -S fernflower` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
+gettingStarted: "Install on BlackArch with `pacman -S fernflower` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."
 ---
 
 An analytical decompiler for Java.

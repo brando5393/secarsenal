@@ -3,7 +3,7 @@ name: "International Registries"
 tagline: "UK government page listing official overseas company registries for countries worldwide, linking to each nation's official registration authority."
 categories: ["business-records"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://www.gov.uk/government/publications/overseas-registries/overseas-registries"
 commonlyOn: []
 gettingStarted: "Best for: Finding official company registry links for foreign jurisdictions. See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "socketfuzz"
 tagline: "Simple socket fuzzer."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://github.com/landw1re/socketfuzz"
 commonlyOn: ["BlackArch"]

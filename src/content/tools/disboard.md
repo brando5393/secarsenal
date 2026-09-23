@@ -3,7 +3,7 @@ name: "Disboard"
 tagline: "Public Discord server discovery platform used to find communities by topic, language, and popularity."
 categories: ["instant-messaging"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://disboard.org/"
 commonlyOn: []
 gettingStarted: "Best for: Discovering public Discord communities and server metadata. See the official site linked above for details."

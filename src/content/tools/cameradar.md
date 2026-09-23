@@ -3,7 +3,7 @@ name: "cameradar"
 tagline: "Hacks its way into RTSP videosurveillance cameras."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/Ullaakut/cameradar"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "chkrootkit"
 tagline: "Rootkit detector"
 categories: ["forensics"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/chkrootkit/"
 downloadUrl: "https://www.chkrootkit.org/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/chkrootkit"

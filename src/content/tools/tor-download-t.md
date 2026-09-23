@@ -3,7 +3,7 @@ name: "Tor Download (T)"
 tagline: "Official Tor Project distribution page for Tor Browser and related anonymity tooling."
 categories: ["dark-web","opsec"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://www.torproject.org/download/"
 commonlyOn: []
 gettingStarted: "Best for: Obtaining trusted Tor Browser binaries. See the official site linked above for details."

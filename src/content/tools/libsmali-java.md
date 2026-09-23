@@ -3,7 +3,7 @@ name: "libsmali-java"
 tagline: "Assembler/disassembler for Android’s dex format"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/libsmali-java/"
 downloadUrl: "https://github.com/JesusFreke/smali"
 repoUrl: "https://salsa.debian.org/android-tools-team/libsmali-java"

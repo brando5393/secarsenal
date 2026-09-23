@@ -3,7 +3,7 @@ name: "mitmproxy"
 tagline: "SSL-capable man-in-the-middle HTTP proxy"
 categories: ["collection"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/mitmproxy/"
 downloadUrl: "https://mitmproxy.org"
 repoUrl: "https://gitlab.com/kalilinux/packages/mitmproxy"

@@ -3,7 +3,7 @@ name: "scrying"
 tagline: "Collect RDP, web, and VNC screenshots smartly."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/nccgroup/scrying"
 commonlyOn: ["BlackArch"]

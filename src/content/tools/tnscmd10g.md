@@ -3,7 +3,7 @@ name: "tnscmd10g"
 tagline: "Tool to prod the oracle tnslsnr process"
 categories: ["databases"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/tnscmd10g/"
 downloadUrl: "http://www.red-database-security.com/"
 repoUrl: "https://gitlab.com/kalilinux/packages/tnscmd10g"

@@ -3,7 +3,7 @@ name: "thezoo"
 tagline: "A project created to make the possibility of malware analysis open and available to the public."
 categories: ["malware"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/malware.html"
 downloadUrl: "https://github.com/ytisf/theZoo"
 commonlyOn: ["BlackArch"]

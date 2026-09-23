@@ -3,7 +3,7 @@ name: "katana-framework"
 tagline: "A framework that seekss to unite general auditing tools, which are general pentesting tools (Network,Web,Desktop and oth"
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/PowerScript/KatanaFramework"
 commonlyOn: ["BlackArch"]

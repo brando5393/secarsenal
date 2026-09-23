@@ -3,7 +3,7 @@ name: "bmc-tools"
 tagline: "RDP Bitmap Cache parser."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/ANSSI-FR/bmc-tools"
 commonlyOn: ["BlackArch"]

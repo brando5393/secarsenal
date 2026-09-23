@@ -3,7 +3,7 @@ name: "regipy"
 tagline: "Library for parsing offline registry hives."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/mkorman90/regipy"
 commonlyOn: ["BlackArch"]

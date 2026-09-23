@@ -3,7 +3,7 @@ name: "cleverhans"
 tagline: "Python library to benchmark machine learning systems vulnerability to adversarial examples."
 categories: ["ai"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/ai.html"
 downloadUrl: "https://github.com/cleverhans-lab/cleverhans"
 commonlyOn: ["BlackArch"]

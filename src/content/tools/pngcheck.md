@@ -3,7 +3,7 @@ name: "pngcheck"
 tagline: "Verifies the integrity of PNG, JNG and MNG files by checking the CRCs and decompressing the image data."
 categories: ["stego"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/stego.html"
 downloadUrl: "http://www.libpng.org/pub/png/apps/pngcheck.html"
 commonlyOn: ["BlackArch"]

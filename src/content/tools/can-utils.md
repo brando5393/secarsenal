@@ -3,7 +3,7 @@ name: "can-utils"
 tagline: "Linux-CAN / SocketCAN user space applications."
 categories: ["automobile"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/automobile.html"
 downloadUrl: "https://github.com/linux-can/can-utils"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "python-win-unicode-console"
 tagline: "PA Python package to enable Unicode support when running Python from Windows console"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/python-win-unicode-console"
 downloadUrl: "https://github.com/Drekin/win-unicode-console"
 commonlyOn: ["ArchStrike"]

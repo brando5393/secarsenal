@@ -3,7 +3,7 @@ name: "gsmevil2"
 tagline: "Python web-based tool which use for capturing imsi numbers and sms."
 categories: ["radio"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/radio.html"
 downloadUrl: "https://github.com/ninjhacks/gsmevil2"
 commonlyOn: ["BlackArch"]

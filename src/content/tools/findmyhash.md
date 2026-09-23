@@ -3,7 +3,7 @@ name: "findmyhash"
 tagline: "Crack different types of hashes using free online services."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://code.google.com/archive/p/findmyhash/"
 commonlyOn: ["BlackArch"]

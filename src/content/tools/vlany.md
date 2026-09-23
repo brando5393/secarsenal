@@ -3,7 +3,7 @@ name: "vlany"
 tagline: "Linux LD_PRELOAD rootkit (x86 and x86_64 architectures)."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://github.com/mempodippy/vlany"
 commonlyOn: ["BlackArch"]

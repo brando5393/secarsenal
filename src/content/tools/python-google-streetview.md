@@ -3,7 +3,7 @@ name: "python-google-streetview"
 tagline: "A command line tool and module for Google Street View Image API."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://pypi.org/project/google-streetview/#files"
 commonlyOn: ["BlackArch"]

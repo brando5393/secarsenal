@@ -3,7 +3,7 @@ name: "UK Data"
 tagline: "UK company information and credit data service providing business intelligence on UK-registered companies."
 categories: ["business-records"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://ukdata.com/"
 commonlyOn: []
 gettingStarted: "Best for: UK company credit checks and financial health assessment. See the official site linked above for details."

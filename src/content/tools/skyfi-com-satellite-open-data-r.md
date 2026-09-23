@@ -3,7 +3,7 @@ name: "SkyFi.com - Satellite Open Data (R)"
 tagline: "Satellite imagery marketplace and open-data discovery interface for earth observation assets."
 categories: ["geolocation-tools-maps"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://app.skyfi.com/explore/open"
 commonlyOn: []
 gettingStarted: "Best for: Finding open and commercial satellite scenes from one interface. See the official site linked above for details."

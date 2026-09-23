@@ -3,7 +3,7 @@ name: "chainsaw"
 tagline: "Rapidly search and hunt through Windows forensic artefacts"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/chainsaw/"
 downloadUrl: "https://github.com/WithSecureLabs/chainsaw"
 repoUrl: "https://gitlab.com/kalilinux/packages/chainsaw"

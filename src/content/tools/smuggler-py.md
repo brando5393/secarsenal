@@ -3,7 +3,7 @@ name: "smuggler-py"
 tagline: "Python tool used to test for HTTP Desync/Request Smuggling attacks."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/gwen001/pentest-tools/blob/master/smuggler.py"
 commonlyOn: ["BlackArch"]

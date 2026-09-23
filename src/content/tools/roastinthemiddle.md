@@ -3,7 +3,7 @@ name: "roastinthemiddle"
 tagline: "RoastInTheMiddle is a tool to intercept and relay NTLM authentication requests."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/Tw1sm/RITM"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

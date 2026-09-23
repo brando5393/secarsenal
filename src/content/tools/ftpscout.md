@@ -3,7 +3,7 @@ name: "ftpscout"
 tagline: "Scans ftps for anonymous access."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/RubenRocha/ftpscout"
 commonlyOn: ["BlackArch"]

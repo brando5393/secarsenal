@@ -3,7 +3,7 @@ name: "dnscobra"
 tagline: "DNS subdomain bruteforcing tool with Tor support through torsocks."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/dmitescu/dnscobra"
 commonlyOn: ["BlackArch"]

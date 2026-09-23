@@ -3,7 +3,7 @@ name: "ikecrack"
 tagline: "An IKE/IPSec crack tool designed to perform Pre-Shared-Key analysis of RFC compliant aggressive mode authentication"
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://sourceforge.net/projects/ikecrack/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "dftimewolf"
 tagline: "Framework for orchestrating forensic collection, processing and data export."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/log2timeline/dftimewolf"
 commonlyOn: ["BlackArch"]

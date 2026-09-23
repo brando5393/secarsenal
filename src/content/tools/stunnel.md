@@ -3,7 +3,7 @@ name: "stunnel"
 tagline: "Universal SSL tunnel for network daemons"
 categories: ["protocol-tunneling"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/stunnel/"
 downloadUrl: "https://www.stunnel.org/"
 repoUrl: "https://salsa.debian.org/debian/stunnel/"

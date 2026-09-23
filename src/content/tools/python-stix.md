@@ -3,7 +3,7 @@ name: "python-stix"
 tagline: "An API for parsing and generating STIX content."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/python-stix"
 downloadUrl: "http://stix.mitre.org"
 commonlyOn: ["ArchStrike"]

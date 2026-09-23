@@ -3,7 +3,7 @@ name: "batman-alfred"
 tagline: "Almighty Lightweight Fact Remote Exchange Daemon."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "http://www.open-mesh.org/"
 commonlyOn: ["BlackArch"]

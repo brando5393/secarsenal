@@ -3,7 +3,7 @@ name: "remote-method-guesser"
 tagline: "Java RMI vulnerability scanner."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/qtc-de/remote-method-guesser"
 commonlyOn: ["BlackArch"]

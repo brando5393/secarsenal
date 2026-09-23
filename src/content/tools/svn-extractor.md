@@ -3,7 +3,7 @@ name: "svn-extractor"
 tagline: "A simple script to extract all web resources by means of .SVN folder exposed over network."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/anantshri/svn-extractor"
 commonlyOn: ["BlackArch"]

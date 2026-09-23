@@ -3,7 +3,7 @@ name: "sharpshooter"
 tagline: "Payload Generation Framework"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/sharpshooter/"
 downloadUrl: "https://github.com/mdsecactivebreach/SharpShooter"
 repoUrl: "https://gitlab.com/kalilinux/packages/sharpshooter"

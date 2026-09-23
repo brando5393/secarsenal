@@ -3,7 +3,7 @@ name: "neighbor-cache-fingerprinter"
 tagline: "An ARP based Operating System version scanner."
 categories: ["fingerprint"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/fingerprint.html"
 downloadUrl: "https://github.com/PherricOxide/Neighbor-Cache-Fingerprinter"
 commonlyOn: ["BlackArch"]

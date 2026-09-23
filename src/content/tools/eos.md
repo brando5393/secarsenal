@@ -3,7 +3,7 @@ name: "eos"
 tagline: "Enemies Of Symfony - Debug mode Symfony looter."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/synacktiv/eos"
 commonlyOn: ["BlackArch"]

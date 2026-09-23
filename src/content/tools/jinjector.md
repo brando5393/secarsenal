@@ -3,7 +3,7 @@ name: "jinjector"
 tagline: "Joomla modules backdoor injector."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://github.com/giovanni-iannaccone/Jinjector"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "flashsploit"
 tagline: "Exploitation Framework for ATtiny85 Based HID Attacks."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/thewhiteh4t/flashsploit"
 commonlyOn: ["BlackArch"]

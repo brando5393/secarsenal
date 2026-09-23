@@ -3,7 +3,7 @@ name: "imagejs"
 tagline: "Small tool to package javascript into a valid image file."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/jklmnn/imagejs"
 commonlyOn: ["BlackArch"]

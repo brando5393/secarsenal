@@ -3,7 +3,7 @@ name: "scansploit-git"
 tagline: "An Exploit using barcodes, QRcodes, earn13, datamatrix"
 categories: ["scanners"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/scansploit-git"
 downloadUrl: "https://github.com/huntergregal/scansploit"
 commonlyOn: ["ArchStrike"]

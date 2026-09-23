@@ -4,7 +4,7 @@ tagline: "Run shellcode to trace and analyze its execution."
 categories: ["shellcode"]
 platforms: ["Linux"]
 license: "MIT License"
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://docs.remnux.org/discover-the-tools/dynamically+reverse-engineer+code/shellcode"
 downloadUrl: "https://github.com/edygert/runsc"
 commonlyOn: ["REMnux"]

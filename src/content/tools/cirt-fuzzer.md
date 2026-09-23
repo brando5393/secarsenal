@@ -3,7 +3,7 @@ name: "cirt-fuzzer"
 tagline: "A simple TCP/UDP protocol fuzzer."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "http://www.cirt.dk/"
 commonlyOn: ["BlackArch"]

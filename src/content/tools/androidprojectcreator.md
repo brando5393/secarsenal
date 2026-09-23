@@ -4,7 +4,7 @@ tagline: "Convert an Android APK application file into an Android Studio project
 categories: ["android"]
 platforms: ["Linux"]
 license: "GNU General Public License (GPL) v3"
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://docs.remnux.org/discover-the-tools/statically+analyze+code/android"
 downloadUrl: "https://maxkersten.nl/projects/androidprojectcreator"
 commonlyOn: ["REMnux"]

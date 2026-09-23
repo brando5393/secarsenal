@@ -3,7 +3,7 @@ name: "recon-ng"
 tagline: "Web Reconnaissance framework written in Python"
 categories: ["web-scanning","reconnaissance"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/recon-ng/"
 downloadUrl: "https://github.com/lanmaster53/recon-ng"
 repoUrl: "https://salsa.debian.org/pkg-security-team/recon-ng"

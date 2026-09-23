@@ -3,7 +3,7 @@ name: "bsdiff"
 tagline: "Tools for building and applying patches to binary files."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://www.daemonology.net/bsdiff/"
 commonlyOn: ["BlackArch"]

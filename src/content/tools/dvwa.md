@@ -3,7 +3,7 @@ name: "dvwa"
 tagline: "Damn Vulnerable Web Application"
 categories: ["laboratories","system-services"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/dvwa/"
 downloadUrl: "https://github.com/digininja/DVWA"
 repoUrl: "https://gitlab.com/kalilinux/packages/dvwa"

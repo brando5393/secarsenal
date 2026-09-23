@@ -3,7 +3,7 @@ name: "stegolsb"
 tagline: "Steganography tool to hide data in BMP images using least significant bit algorithm"
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/KyTn/STEGOLSB"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "wabt"
 tagline: "The WebAssembly Binary Toolkit (WABT) is a suite of tools for WebAssembly (Wasm) including assembler and disassembler / a syntax checker / and a…"
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/WebAssembly/wabt"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

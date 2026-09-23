@@ -3,7 +3,7 @@ name: "passdetective"
 tagline: "CLI tool that scans shell command history"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/passdetective/"
 downloadUrl: "https://github.com/aydinnyunus/PassDetective"
 repoUrl: "https://gitlab.com/kalilinux/packages/passdetective"

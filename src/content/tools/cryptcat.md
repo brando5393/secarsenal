@@ -3,7 +3,7 @@ name: "cryptcat"
 tagline: "Lightweight version netcat extended with twofish encryption"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/cryptcat/"
 downloadUrl: "http://farm9.com/content/Free_Tools/cryptcat_linux2.tar"
 repoUrl: "https://gitlab.com/kalilinux/packages/cryptcat"

@@ -3,7 +3,7 @@ name: "sitediff"
 tagline: "Fingerprint a web app using local files as the fingerprint sources."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/digininja/sitediff"
 commonlyOn: ["BlackArch"]

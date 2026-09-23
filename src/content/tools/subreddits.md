@@ -3,7 +3,7 @@ name: "subreddits"
 tagline: "Subreddit discovery index for identifying communities by topic and interest area."
 categories: ["social-networks"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://subreddits.org/"
 commonlyOn: []
 gettingStarted: "Best for: Topic-based subreddit discovery. See the official site linked above for details."

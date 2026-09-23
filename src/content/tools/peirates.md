@@ -3,7 +3,7 @@ name: "peirates"
 tagline: "Kubernetes Penetration Testing tool"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/peirates/"
 downloadUrl: "https://github.com/inguardians/peirates"
 repoUrl: "https://gitlab.com/kalilinux/packages/peirates"

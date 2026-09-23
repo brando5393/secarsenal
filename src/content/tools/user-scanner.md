@@ -3,7 +3,7 @@ name: "user-scanner"
 tagline: "OSINT tool that analyzes username and email presence across multiple platforms, intended for security research, investig"
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://github.com/kaifcodec/user-scanner"
 commonlyOn: ["BlackArch"]

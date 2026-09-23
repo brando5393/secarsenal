@@ -3,7 +3,7 @@ name: "DShield API"
 tagline: "API and database of security events and IPs involved in attacks monitored by SANS."
 categories: ["ip-mac-address"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://isc.sans.edu/api/"
 commonlyOn: []
 gettingStarted: "Best for: Query IPs involved in attacks. See the official site linked above for details."

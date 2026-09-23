@@ -3,7 +3,7 @@ name: "GeoPincer"
 tagline: "GeoPincer is a script that leverages OpenStreetMap's Overpass API in order to search for locations."
 categories: ["osint","web"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/tloja/GeoPincer"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

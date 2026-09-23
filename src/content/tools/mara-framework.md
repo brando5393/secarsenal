@@ -3,7 +3,7 @@ name: "mara-framework"
 tagline: "A Mobile Application Reverse engineering and Analysis Framework."
 categories: ["mobile"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/mobile.html"
 downloadUrl: "https://github.com/xtiankisutsa/MARA_Framework"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "rdp-sec-check"
 tagline: "Script to enumerate security settings of an RDP Service."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/portcullislabs/rdp-sec-check"
 commonlyOn: ["BlackArch"]

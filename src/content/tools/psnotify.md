@@ -3,7 +3,7 @@ name: "psnotify"
 tagline: "psnotify is a POC tool to fight .NET anti-dumping tricks."
 categories: ["dotnet"]
 platforms: ["Windows"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/mandiant/VM-Packages/tree/main/packages/psnotify.vm"
 downloadUrl: "https://github.com/WithSecureLabs/GarbageMan/tree/master/psnotify"
 commonlyOn: ["FLARE VM"]

@@ -3,7 +3,7 @@ name: "malheur"
 tagline: "A tool for the automatic analyze of malware behavior."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "http://www.mlsec.org/malheur/"
 commonlyOn: ["BlackArch"]

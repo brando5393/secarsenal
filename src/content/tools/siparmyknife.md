@@ -3,7 +3,7 @@ name: "siparmyknife"
 tagline: "SIP fuzzing tool"
 categories: ["voip"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/siparmyknife/"
 downloadUrl: "https://packetstormsecurity.com/files/107301/SIP-Army-Knife-Fuzzer-11232011.html"
 repoUrl: "https://gitlab.com/kalilinux/packages/siparmyknife"

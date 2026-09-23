@@ -3,7 +3,7 @@ name: "kickthemout"
 tagline: "Kick devices off your network by performing an ARP Spoof attack."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/k4m4/kickthemout"
 commonlyOn: ["BlackArch"]

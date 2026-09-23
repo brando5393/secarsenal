@@ -3,7 +3,7 @@ name: "udsim"
 tagline: "A graphical simulator that can emulate different modules in a vehicle and respond to UDS request."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/zombieCraig/UDSim/"
 commonlyOn: ["BlackArch"]

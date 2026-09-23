@@ -3,7 +3,7 @@ name: "python2-ropgadget"
 tagline: "Pythonic argument parser, that will make you smile."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://pypi.org/project/ropgadget/#files"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "joomlavs"
 tagline: "A black box, Ruby powered, Joomla vulnerability scanner."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/rastating/joomlavs"
 commonlyOn: ["BlackArch"]

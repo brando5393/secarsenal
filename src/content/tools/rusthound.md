@@ -1,14 +1,15 @@
 ---
 name: "rusthound"
-tagline: "BloodHound ingestor in Rust."
-categories: ["ad"]
+tagline: "Active Directory data collector for BloodHound written in Rust."
+categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
-docsUrl: "https://github.com/NH-RED-TEAM/RustHound"
-commonlyOn: []
-gettingStarted: "See the official site linked above for details."
+lastVerified: 2026-09-22
+docsUrl: "https://blackarch.org/recon.html"
+downloadUrl: "https://github.com/NH-RED-TEAM/RustHound"
+commonlyOn: ["BlackArch"]
+gettingStarted: "Install on BlackArch with `pacman -S rusthound` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
 ---
 
-BloodHound ingestor in Rust.
+Active Directory data collector for BloodHound written in Rust.
 
 Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

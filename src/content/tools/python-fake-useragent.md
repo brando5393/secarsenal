@@ -3,7 +3,7 @@ name: "python-fake-useragent"
 tagline: "Up to date simple useragent faker with real world database"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/python-fake-useragent"
 downloadUrl: "https://github.com/hellysmile/fake-useragent"
 commonlyOn: ["ArchStrike"]

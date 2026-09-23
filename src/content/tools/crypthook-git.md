@@ -3,7 +3,7 @@ name: "crypthook-git"
 tagline: "A TCP/UDP symmetric encryption tunnel wrapper"
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/crypthook-git"
 downloadUrl: "https://github.com/chokepoint/CryptHook"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "python-artifacts"
 tagline: "Digital Forensics Artifact Repository"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/python-artifacts"
 downloadUrl: "https://github.com/ForensicArtifacts/artifacts"
 commonlyOn: ["ArchStrike"]

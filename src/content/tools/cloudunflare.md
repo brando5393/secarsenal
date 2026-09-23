@@ -3,7 +3,7 @@ name: "cloudunflare"
 tagline: "Reconnaissance Real IP address for Cloudflare Bypass."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/greycatz/CloudUnflare"
 commonlyOn: ["BlackArch"]

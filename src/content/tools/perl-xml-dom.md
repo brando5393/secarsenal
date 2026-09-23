@@ -3,7 +3,7 @@ name: "perl-xml-dom"
 tagline: "Implements Level 1 of W3's DOM"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/perl-xml-dom"
 downloadUrl: "https://metacpan.org/pod/XML::DOM"
 commonlyOn: ["ArchStrike"]

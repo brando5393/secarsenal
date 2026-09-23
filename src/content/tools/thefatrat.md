@@ -3,7 +3,7 @@ name: "thefatrat"
 tagline: "TheFatRat a massive exploiting tool: easy tool to generate backdoor and easy tool to post exploitation attack."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/Screetsec/TheFatRat"
 commonlyOn: ["BlackArch"]

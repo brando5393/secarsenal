@@ -3,7 +3,7 @@ name: "pemcrack"
 tagline: "Cracks SSL PEM files that hold encrypted private keys. Brute forces or dictionary cracks."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/robertdavidgraham/pemcrack"
 commonlyOn: ["BlackArch"]

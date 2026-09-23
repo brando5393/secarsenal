@@ -3,7 +3,7 @@ name: "arachni"
 tagline: "A feature-full, modular, high-performance Ruby framework aimed towards helping penetration testers and administrators ev"
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://www.arachni-scanner.com"
 commonlyOn: ["BlackArch"]

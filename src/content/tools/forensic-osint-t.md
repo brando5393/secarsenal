@@ -3,7 +3,7 @@ name: "Forensic OSINT (T)"
 tagline: "Chrome extension for full-page web capture with evidence preservation; timestamps and disclosure-ready exports for legal investigations."
 categories: ["documentation-evidence-capture"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://www.forensicosint.com/"
 commonlyOn: []
 gettingStarted: "Best for: Evidence capture, legal documentation, case-level review. See the official site linked above for details."

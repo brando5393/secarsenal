@@ -3,7 +3,7 @@ name: "exif"
 tagline: "Utility to read / write and edit metadata in image / audio and video files"
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://exiftool.org/"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

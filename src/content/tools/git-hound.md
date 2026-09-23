@@ -3,7 +3,7 @@ name: "git-hound"
 tagline: "Pinpoints exposed API keys on GitHub. A batch-catching, pattern-matching, patch-attacking secret snatcher."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/tillson/git-hound"
 commonlyOn: ["BlackArch"]

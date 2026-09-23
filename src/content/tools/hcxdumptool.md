@@ -3,7 +3,7 @@ name: "hcxdumptool"
 tagline: "Small tool to capture packets from wlan devices."
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/ZerBea/hcxdumptool"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

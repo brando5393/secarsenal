@@ -3,7 +3,7 @@ name: "semgrep"
 tagline: "Lightweight static analysis for many languages."
 categories: ["code-audit"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/code-audit.html"
 downloadUrl: "https://pypi.org/project/semgrep/"
 commonlyOn: ["BlackArch"]

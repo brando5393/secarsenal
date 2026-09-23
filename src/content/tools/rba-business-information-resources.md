@@ -3,7 +3,7 @@ name: "RBA - Business Information Resources"
 tagline: "Curated directory maintained by Researching Business Activities, linking to free and paid business information sources organized by category."
 categories: ["business-records"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://www.rba.co.uk/sources/"
 commonlyOn: []
 gettingStarted: "Best for: Finding specialized business intelligence resources and databases by topic. See the official site linked above for details."

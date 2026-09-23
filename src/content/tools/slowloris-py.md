@@ -3,7 +3,7 @@ name: "slowloris-py"
 tagline: "Low bandwidth DoS tool."
 categories: ["dos"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/dos.html"
 downloadUrl: "https://github.com/gkbrk/slowloris"
 commonlyOn: ["BlackArch"]

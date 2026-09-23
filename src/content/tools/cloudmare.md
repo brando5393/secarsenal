@@ -3,7 +3,7 @@ name: "cloudmare"
 tagline: "A simple tool to find origin servers of websites protected by CloudFlare with a misconfiguration DNS."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/MrH0wl/Cloudmare"
 commonlyOn: ["BlackArch"]

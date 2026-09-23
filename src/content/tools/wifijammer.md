@@ -3,7 +3,7 @@ name: "wifijammer"
 tagline: "A python script to continuously jam all wifi clients within range."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "https://github.com/DanMcInerney/wifijammer"
 commonlyOn: ["BlackArch"]

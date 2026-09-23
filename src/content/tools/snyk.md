@@ -3,7 +3,7 @@ name: "snyk"
 tagline: "CLI and build-time tool to find and fix known vulnerabilities in open-source dependencies."
 categories: ["code-audit"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/code-audit.html"
 downloadUrl: "https://github.com/snyk/cli"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "libevent-static"
 tagline: "An event notification library static libs"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/libevent-static"
 downloadUrl: "http://libevent.org"
 commonlyOn: ["ArchStrike"]

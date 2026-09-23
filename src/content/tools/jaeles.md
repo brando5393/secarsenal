@@ -3,7 +3,7 @@ name: "jaeles"
 tagline: "The Swiss Army knife for automated Web Application Testing."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/jaeles-project/jaeles"
 commonlyOn: ["BlackArch"]

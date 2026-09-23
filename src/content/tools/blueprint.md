@@ -3,7 +3,7 @@ name: "blueprint"
 tagline: "A perl tool to identify Bluetooth devices."
 categories: ["bluetooth"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/bluetooth.html"
 downloadUrl: "https://trifinite.org/trifinite_stuff_blueprinting.html"
 commonlyOn: ["BlackArch"]

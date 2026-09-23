@@ -3,7 +3,7 @@ name: "lfi-sploiter"
 tagline: "This tool helps you exploit LFI (Local File Inclusion) vulnerabilities. Post discovery, simply pass the affected URL and"
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "http://packetstormsecurity.com/files/96056/Simple-Local-File-Inclusion-Exploiter.0.html"
 commonlyOn: ["BlackArch"]

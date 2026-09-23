@@ -3,7 +3,7 @@ name: "autobloody"
 tagline: "Automatically exploit Active Directory privilege escalation paths shown by BloodHound."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/CravateRouge/autobloody"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

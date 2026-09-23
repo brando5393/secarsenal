@@ -3,7 +3,7 @@ name: "perl-crypt-x"
 tagline: "Cryptographically secure random number generator"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/perl-crypt-x"
 downloadUrl: "https://metacpan.org/pod/CryptX"
 commonlyOn: ["ArchStrike"]

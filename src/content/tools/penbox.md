@@ -3,7 +3,7 @@ name: "penbox"
 tagline: "A Penetration Testing Framework - The Tool With All The Tools."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/x3omdax/PenBox"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "tinfoleak"
 tagline: "Get detailed information about a Twitter user activity."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/technoskald/tinfoleak/"
 commonlyOn: ["BlackArch"]

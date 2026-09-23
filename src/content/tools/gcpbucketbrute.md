@@ -3,7 +3,7 @@ name: "gcpbucketbrute"
 tagline: "A script to enumerate Google Storage buckets, determine what access you have to them, and determine if they can be privi"
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/RhinoSecurityLabs/GCPBucketBrute"
 commonlyOn: ["BlackArch"]

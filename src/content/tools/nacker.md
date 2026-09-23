@@ -3,7 +3,7 @@ name: "nacker"
 tagline: "A tool to circumvent 802.1x Network Access Control on a wired LAN."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/carmaa/nacker"
 commonlyOn: ["BlackArch"]

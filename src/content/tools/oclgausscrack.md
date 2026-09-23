@@ -3,7 +3,7 @@ name: "oclgausscrack"
 tagline: "Cracks verification hashes of the Gauss Virus"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/oclgausscrack/"
 downloadUrl: "https://github.com/jsteube/oclGaussCrack"
 repoUrl: "https://gitlab.com/kalilinux/packages/oclgausscrack"

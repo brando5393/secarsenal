@@ -3,7 +3,7 @@ name: "uhoh365"
 tagline: "Script to enumerate Office 365 users without performing login attempts"
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/Raikia/UhOh365"
 commonlyOn: ["BlackArch"]

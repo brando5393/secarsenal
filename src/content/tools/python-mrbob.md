@@ -3,7 +3,7 @@ name: "python-mrbob"
 tagline: "creates directory skeletons"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/python-mrbob"
 downloadUrl: "https://github.com/collective/mr.bob"
 commonlyOn: ["ArchStrike"]

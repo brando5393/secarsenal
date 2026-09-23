@@ -3,7 +3,7 @@ name: "yeti"
 tagline: "A platform meant to organize observables, indicators of compromise, TTPs, and knowledge on threats in a single, unified "
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://github.com/yeti-platform/yeti"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "twofi"
 tagline: "Twitter words of interest"
 categories: ["password-profiling-wordlists"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/twofi/"
 downloadUrl: "https://www.digininja.org/projects/twofi.php"
 repoUrl: "https://gitlab.com/kalilinux/packages/twofi"

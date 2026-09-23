@@ -3,7 +3,7 @@ name: "xsspy"
 tagline: "Web Application XSS Scanner."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/faizann24/XssPy"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "python-pyuv-git"
 tagline: "Python module which provides an interface to libuv"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/python-pyuv-git"
 downloadUrl: "https://github.com/saghul/pyuv"
 commonlyOn: ["ArchStrike"]

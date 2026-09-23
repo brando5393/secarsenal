@@ -3,7 +3,7 @@ name: "python-itanium_demangler"
 tagline: "Parser for the Itanium C++ ABI symbol mangling language"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/python-itanium_demangler"
 downloadUrl: "https://pypi.org/project/itanium_demangler/"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "stacs"
 tagline: "Static Token And Credential Scanner."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/stacscan/stacs"
 commonlyOn: ["BlackArch"]

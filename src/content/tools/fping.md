@@ -3,7 +3,7 @@ name: "fping"
 tagline: "Sends ICMP ECHO_REQUEST packets to network hosts"
 categories: ["remote-system-discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/fping/"
 downloadUrl: "https://www.fping.org/"
 repoUrl: "https://salsa.debian.org/debian/fping"

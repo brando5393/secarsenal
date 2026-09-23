@@ -3,7 +3,7 @@ name: "python-delegator.py"
 tagline: "Subprocesses for Humans 2.0."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/python-delegator.py"
 downloadUrl: "https://github.com/kennethreitz/delegator"
 commonlyOn: ["ArchStrike"]

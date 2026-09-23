@@ -3,7 +3,7 @@ name: "proxychains"
 tagline: "Proxy chains - redirect connections through proxy servers."
 categories: ["ad","light"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/rofl0r/proxychains"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

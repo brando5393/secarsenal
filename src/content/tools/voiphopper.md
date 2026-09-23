@@ -3,7 +3,7 @@ name: "voiphopper"
 tagline: "Runs a VLAN hop security test"
 categories: ["voip"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/voiphopper/"
 downloadUrl: "https://sourceforge.net/projects/voiphopper"
 repoUrl: "https://gitlab.com/kalilinux/packages/voiphopper"

@@ -3,7 +3,7 @@ name: "grype"
 tagline: "A vulnerability scanner for container images and filesystems."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/anchore/grype"
 commonlyOn: ["BlackArch"]

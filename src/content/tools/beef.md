@@ -3,7 +3,7 @@ name: "beef"
 tagline: "The Browser Exploitation Framework that focuses on the web browser."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/beefproject/beef"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "whatweb-git"
 tagline: "Next generation web scanner that identifies what websites are running."
 categories: ["webapps"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/whatweb-git"
 downloadUrl: "https://github.com/urbanadventurer/WhatWeb"
 commonlyOn: ["ArchStrike"]

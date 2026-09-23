@@ -3,7 +3,7 @@ name: "sagan-rules"
 tagline: "Rules package for Sagan"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/sagan-rules"
 downloadUrl: "https://quadrantsec.com/sagan_log_analysis_engine/"
 commonlyOn: ["ArchStrike"]

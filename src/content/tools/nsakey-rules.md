@@ -3,7 +3,7 @@ name: "NSAKEY rules"
 tagline: "Password cracking rules and masks for hashcat"
 categories: ["ad","web"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/NSAKEY/nsa-rules"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

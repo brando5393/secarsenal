@@ -3,7 +3,7 @@ name: "gtfoblookup"
 tagline: "Offline command line lookup utility for GTFOBins and LOLBAS."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/nccgroup/GTFOBLookup"
 commonlyOn: ["BlackArch"]

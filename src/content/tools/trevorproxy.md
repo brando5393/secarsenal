@@ -3,7 +3,7 @@ name: "trevorproxy"
 tagline: "A SOCKS proxy written in Python that randomizes your source IP address."
 categories: ["proxy"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/proxy.html"
 downloadUrl: "https://github.com/blacklanternsecurity/TREVORproxy"
 commonlyOn: ["BlackArch"]

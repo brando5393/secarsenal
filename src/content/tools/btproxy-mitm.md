@@ -3,7 +3,7 @@ name: "btproxy-mitm"
 tagline: "Man in the Middle analysis tool for Bluetooth."
 categories: ["bluetooth"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/bluetooth.html"
 downloadUrl: "https://github.com/conorpp/btproxy"
 commonlyOn: ["BlackArch"]

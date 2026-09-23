@@ -3,7 +3,7 @@ name: "ufonet"
 tagline: "A tool designed to launch DDoS attacks against a target, using 'Open Redirect' vectors on third party web applications, "
 categories: ["dos"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/dos.html"
 downloadUrl: "https://github.com/epsylon/ufonet"
 commonlyOn: ["BlackArch"]

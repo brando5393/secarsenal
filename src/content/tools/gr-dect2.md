@@ -3,7 +3,7 @@ name: "gr-dect2"
 tagline: "Real-time DECT voice channel decoding by Gnuradio."
 categories: ["radio"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/radio.html"
 downloadUrl: "https://github.com/pavelyazev/gr-dect2"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "Surfface Face & People Search Engine"
 tagline: "AI-based face and people search platform focused on open-source identity discovery and correlation."
 categories: ["images-videos-docs"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://surfface.com/"
 commonlyOn: []
 gettingStarted: "Best for: Identity correlation from face imagery. See the official site linked above for details."

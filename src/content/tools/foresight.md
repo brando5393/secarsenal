@@ -3,7 +3,7 @@ name: "foresight"
 tagline: "A tool for predicting the output of random number generators."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/ALSchwalm/foresight"
 commonlyOn: ["BlackArch"]

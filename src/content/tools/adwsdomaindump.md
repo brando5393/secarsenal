@@ -3,7 +3,7 @@ name: "adwsdomaindump"
 tagline: "A tool for dumping domain data via ADWS for evasion purposes."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/mverschu/adwsdomaindump"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "sc-make"
 tagline: "Tool for automating shellcode creation."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/t00sh/sc-make"
 commonlyOn: ["BlackArch"]

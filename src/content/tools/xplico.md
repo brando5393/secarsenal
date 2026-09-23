@@ -3,7 +3,7 @@ name: "xplico"
 tagline: "Network Forensic Analysis Tool (NFAT)"
 categories: ["forensics","system-services"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/xplico/"
 downloadUrl: "https://www.xplico.org"
 repoUrl: "https://gitlab.com/kalilinux/packages/xplico"

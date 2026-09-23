@@ -3,7 +3,7 @@ name: "havoc-c2"
 tagline: "Modern and malleable post-exploitation command and control framework."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://havocframework.com/"
 commonlyOn: ["BlackArch"]

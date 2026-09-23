@@ -3,7 +3,7 @@ name: "libnfc-crypto1-crack"
 tagline: "Implementation of cryptographic attack on Mifare Classic RFID cards"
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/droidnewbie2/acr122uNFC"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

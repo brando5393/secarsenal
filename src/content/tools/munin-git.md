@@ -3,7 +3,7 @@ name: "munin-git"
 tagline: "Online hash checker for Virustotal and other services"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/munin-git"
 downloadUrl: "https://github.com/Neo23x0/munin"
 commonlyOn: ["ArchStrike"]

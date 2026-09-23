@@ -3,7 +3,7 @@ name: "pompem-git"
 tagline: "A python exploit tool finder"
 categories: ["exploit"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/pompem-git"
 downloadUrl: "https://github.com/rfunix/Pompem"
 commonlyOn: ["ArchStrike"]

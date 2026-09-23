@@ -3,7 +3,7 @@ name: "pathzuzu"
 tagline: "Checks for PATH substitution vulnerabilities and logs the commands executed by the vulnerable executables."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/ShotokanZH/Pa-th-zuzu"
 commonlyOn: ["BlackArch"]

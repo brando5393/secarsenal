@@ -3,7 +3,7 @@ name: "mitm"
 tagline: "A simple yet effective python3 script to perform DNS spoofing via ARP poisoning."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/Th3Hurrican3/mitm"
 commonlyOn: ["BlackArch"]

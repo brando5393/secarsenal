@@ -3,7 +3,7 @@ name: "unicornscan"
 tagline: "Userland distributed TCP/IP stack"
 categories: ["network-information","network-service-discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/unicornscan/"
 downloadUrl: "http://www.unicornscan.org/"
 repoUrl: "https://gitlab.com/kalilinux/packages/unicornscan"

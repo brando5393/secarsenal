@@ -3,7 +3,7 @@ name: "scavenger"
 tagline: "Crawler (Bot) searching for credential leaks on different paste sites."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/rndinfosecguy/Scavenger"
 commonlyOn: ["BlackArch"]

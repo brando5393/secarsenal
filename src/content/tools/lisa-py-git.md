@@ -3,7 +3,7 @@ name: "lisa.py-git"
 tagline: "An Exploit Dev Swiss Army Knife."
 categories: ["exploit"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/lisa.py-git"
 downloadUrl: "https://github.com/ant4g0nist/lisa.py"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "issniff"
 tagline: "Internet Session Sniffer."
 categories: ["sniffer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/sniffer.html"
 downloadUrl: "https://github.com/juphoff/issniff"
 commonlyOn: ["BlackArch"]

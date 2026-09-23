@@ -3,7 +3,7 @@ name: "hdcp-genkey"
 tagline: "Generate HDCP source and sink keys from the leaked master key."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/rjw57/hdcp-genkey"
 commonlyOn: ["BlackArch"]

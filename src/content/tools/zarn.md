@@ -3,7 +3,7 @@ name: "zarn"
 tagline: "A lightweight static security analysis tool for modern Perl Apps."
 categories: ["code-audit"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/code-audit.html"
 downloadUrl: "https://github.com/htrgouvea/zarn"
 commonlyOn: ["BlackArch"]

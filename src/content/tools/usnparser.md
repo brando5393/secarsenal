@@ -3,7 +3,7 @@ name: "usnparser"
 tagline: "A Python script to parse the NTFS USN journal."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://pypi.org/project/usnparser/#files"
 commonlyOn: ["BlackArch"]

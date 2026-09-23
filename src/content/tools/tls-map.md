@@ -3,7 +3,7 @@ name: "tls-map"
 tagline: "CLI & library for TLS cipher suites manipulation."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://noraj.github.io/tls-map/"
 commonlyOn: ["BlackArch"]

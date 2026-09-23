@@ -3,7 +3,7 @@ name: "osert"
 tagline: "Markdown Templates for Offensive Security exam reports."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/noraj/OSCP-Exam-Report-Template-Markdown"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "gss-ntlmssp"
 tagline: "GSSAPI NTLMSSP Mechanism – MIT GSSAPI plugin"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/gss-ntlmssp/"
 downloadUrl: "https://github.com/gssapi/gss-ntlmssp/"
 repoUrl: "https://salsa.debian.org/freeipa-team/gss-ntlmssp"

@@ -3,7 +3,7 @@ name: "sergio-proxy"
 tagline: "A multi-threaded transparent HTTP proxy for manipulating web traffic."
 categories: ["proxy"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/proxy.html"
 downloadUrl: "https://github.com/supernothing/sergio-proxy"
 commonlyOn: ["BlackArch"]

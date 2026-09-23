@@ -3,7 +3,7 @@ name: "enyx"
 tagline: "Framework for building offensive security tools."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/trickster0/enyx"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

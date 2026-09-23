@@ -3,7 +3,7 @@ name: "rustbuster"
 tagline: "DirBuster for Rust."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/phra/rustbuster"
 commonlyOn: ["BlackArch"]

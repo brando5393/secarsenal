@@ -3,7 +3,7 @@ name: "lfle"
 tagline: "Recover event log entries from an image by heurisitically looking for record structures."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/williballenthin/LfLe"
 commonlyOn: ["BlackArch"]

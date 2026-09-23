@@ -3,7 +3,7 @@ name: "iptodomain"
 tagline: "This tool extract domains from IP address based in the information saved in virustotal."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/Hackplayers/iptodomain"
 commonlyOn: ["BlackArch"]

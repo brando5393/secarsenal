@@ -3,7 +3,7 @@ name: "webfixy"
 tagline: "On-the-fly decryption proxy for MikroTik RouterOS WebFig sessions."
 categories: ["proxy"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/proxy.html"
 downloadUrl: "https://github.com/takeshixx/webfixy"
 commonlyOn: ["BlackArch"]

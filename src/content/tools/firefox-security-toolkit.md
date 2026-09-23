@@ -3,7 +3,7 @@ name: "firefox-security-toolkit"
 tagline: "A tool that transforms Firefox browsers into a penetration testing suite."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/mazen160/Firefox-Security-Toolkit"
 commonlyOn: ["BlackArch"]

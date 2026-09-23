@@ -3,7 +3,7 @@ name: "interlace"
 tagline: "Easily turn single threaded command line applications into a fast, multi-threaded application with CIDR and glob support"
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/codingo/Interlace/releases"
 commonlyOn: ["BlackArch"]

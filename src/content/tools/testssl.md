@@ -3,7 +3,7 @@ name: "testssl"
 tagline: "a tool for testing SSL/TLS encryption on servers"
 categories: ["ad","light","web"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/drwetter/testssl.sh"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

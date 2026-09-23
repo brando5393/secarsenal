@@ -3,7 +3,7 @@ name: "ntlm-challenger"
 tagline: "Parse NTLM over HTTP challenge messages."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/b17zr/ntlm_challenger"
 commonlyOn: ["BlackArch"]

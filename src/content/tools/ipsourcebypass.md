@@ -3,7 +3,7 @@ name: "ipsourcebypass"
 tagline: "This Python script can be used to bypass IP source restrictions using HTTP headers."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/p0dalirius/ipsourcebypass"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "heartleech"
 tagline: "Scanner detecting systems vulnerable to the heartbleed OpenSSL bug"
 categories: ["vulnerability-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/heartleech/"
 downloadUrl: "https://github.com/robertdavidgraham/heartleech"
 repoUrl: "https://gitlab.com/kalilinux/packages/heartleech"

@@ -3,7 +3,7 @@ name: "cookiejar"
 tagline: "Cookiecutter templates discovery and management."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/cookiejar"
 downloadUrl: "https://github.com/fcurella/cookiejar"
 commonlyOn: ["ArchStrike"]

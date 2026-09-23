@@ -3,7 +3,7 @@ name: "FaceCheck Facial Recognition Search"
 tagline: "Facial recognition search engine that finds publicly indexed face matches across web and social sources."
 categories: ["images-videos-docs"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://facecheck.id/"
 commonlyOn: []
 gettingStarted: "Best for: Finding public social profiles by face image. See the official site linked above for details."

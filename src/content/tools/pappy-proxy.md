@@ -3,7 +3,7 @@ name: "pappy-proxy"
 tagline: "An intercepting proxy for web application testing."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/roglew/pappy-proxy"
 commonlyOn: ["BlackArch"]

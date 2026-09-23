@@ -3,7 +3,7 @@ name: "CertKit - Certificate Transparency Log Search"
 tagline: "Fast Certificate Transparency log search tool using Clickhouse for sub-second queries. Discover all certificates issued to a domain, including…"
 categories: ["domain-name"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://www.certkit.io/tools/ct-logs/"
 commonlyOn: []
 gettingStarted: "Best for: CT certificate search, subdomain enumeration, certificate misuse detection. See the official site linked above for details."

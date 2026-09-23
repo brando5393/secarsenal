@@ -3,7 +3,7 @@ name: "bluediving"
 tagline: "A Bluetooth penetration testing suite."
 categories: ["bluetooth"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/bluetooth.html"
 downloadUrl: "http://bluediving.sourceforge.net/"
 commonlyOn: ["BlackArch"]

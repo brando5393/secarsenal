@@ -3,7 +3,7 @@ name: "honeyd"
 tagline: "A small daemon that creates virtual hosts on a network."
 categories: ["honeypot"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/honeypot.html"
 downloadUrl: "https://github.com/DataSoft/Honeyd/"
 commonlyOn: ["BlackArch"]

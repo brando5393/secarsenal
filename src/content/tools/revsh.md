@@ -3,7 +3,7 @@ name: "revsh"
 tagline: "A reverse shell with terminal support, data tunneling, and advanced pivoting capabilities."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://github.com/emptymonkey/revsh/"
 commonlyOn: ["BlackArch"]

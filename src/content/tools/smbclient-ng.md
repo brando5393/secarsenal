@@ -3,7 +3,7 @@ name: "smbclient-ng"
 tagline: "Interact with SMB shares."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/p0dalirius/smbclient-ng"
 commonlyOn: ["BlackArch"]

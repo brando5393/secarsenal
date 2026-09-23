@@ -4,7 +4,7 @@ tagline: "Disassembler for the dex format used by Dalvik, Android's Java VM impl
 categories: ["android"]
 platforms: ["Linux"]
 license: "Free, unknown license"
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://docs.remnux.org/discover-the-tools/statically+analyze+code/android"
 downloadUrl: "https://bitbucket.org/JesusFreke/smali"
 commonlyOn: ["REMnux"]

@@ -3,7 +3,7 @@ name: "copy-router-config"
 tagline: "Copies Cisco configs via SNMP"
 categories: ["cisco-tools","collection"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/copy-router-config/"
 downloadUrl: "https://www.offsec.com"
 repoUrl: "https://gitlab.com/kalilinux/packages/copy-router-config"

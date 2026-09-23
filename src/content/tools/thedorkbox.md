@@ -3,7 +3,7 @@ name: "thedorkbox"
 tagline: "Comprehensive collection of Google Dorks & OSINT techniques to find Confidential Data."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/cybersafeblr/thedorkbox"
 commonlyOn: ["BlackArch"]

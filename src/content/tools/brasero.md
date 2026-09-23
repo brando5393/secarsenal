@@ -3,7 +3,7 @@ name: "Brasero"
 tagline: "to burn CD/DVDs"
 categories: ["desktop-edition"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://tails.net/doc/about/features/index.en.html"
 downloadUrl: "https://wiki.gnome.org/Apps/Brasero"
 commonlyOn: ["Tails"]

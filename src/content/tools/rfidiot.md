@@ -3,7 +3,7 @@ name: "rfidiot"
 tagline: "An open source python library for exploring RFID devices."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "http://rfidiot.org/"
 commonlyOn: ["BlackArch"]

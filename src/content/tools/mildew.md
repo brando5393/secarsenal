@@ -3,7 +3,7 @@ name: "mildew"
 tagline: "Dotmil subdomain discovery tool that scrapes domains from official DoD website directories and certificate transparency "
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/daehee/mildew"
 commonlyOn: ["BlackArch"]

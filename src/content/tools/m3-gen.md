@@ -3,7 +3,7 @@ name: "m3-gen"
 tagline: "Generates Malicious Macro and Execute Powershell or Shellcode via MSBuild Application Whitelisting Bypass, this tool int"
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/infosecn1nja/MaliciousMacroMSBuild"
 commonlyOn: ["BlackArch"]

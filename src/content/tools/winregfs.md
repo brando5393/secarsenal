@@ -3,7 +3,7 @@ name: "winregfs"
 tagline: "Windows registry FUSE filesystem"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/winregfs/"
 downloadUrl: "https://codeberg.org/jbruchon/winregfs"
 repoUrl: "https://salsa.debian.org/pkg-security-team/winregfs"

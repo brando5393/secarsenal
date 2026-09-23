@@ -3,7 +3,7 @@ name: "skul"
 tagline: "A PoC to bruteforce the Cryptsetup implementation of Linux Unified Key Setup (LUKS)."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/cryptcoffee/skul"
 commonlyOn: ["BlackArch"]

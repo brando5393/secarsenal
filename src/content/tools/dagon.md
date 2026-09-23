@@ -3,7 +3,7 @@ name: "dagon"
 tagline: "Advanced Hash Manipulation."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/Ekultek/Dagon"
 commonlyOn: ["BlackArch"]

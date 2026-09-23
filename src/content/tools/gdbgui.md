@@ -3,7 +3,7 @@ name: "gdbgui"
 tagline: "Browser-based gdb frontend using Flask and JavaScript to visually debug C, C++, Go, or Rust."
 categories: ["debugger"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/debugger.html"
 downloadUrl: "https://github.com/cs01/gdbgui"
 commonlyOn: ["BlackArch"]

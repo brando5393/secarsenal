@@ -3,7 +3,7 @@ name: "lhf"
 tagline: "A modular recon tool for pentesting."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/blindfuzzy/LHF"
 commonlyOn: ["BlackArch"]

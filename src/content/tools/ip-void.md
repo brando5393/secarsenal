@@ -3,7 +3,7 @@ name: "IP Void"
 tagline: "IP reputation and threat intelligence service analyzing blacklist status and security risks."
 categories: ["ip-mac-address"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://www.ipvoid.com/"
 commonlyOn: []
 gettingStarted: "Best for: Check IP reputation and blacklist status. See the official site linked above for details."

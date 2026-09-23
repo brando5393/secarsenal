@@ -3,7 +3,7 @@ name: "httpgrep"
 tagline: "Async HTTP(S) scanner that greps response bodies and headers for strings or regex across hosts, ports, CIDR/ranges and T"
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://nullsecurity.net/tools/scanner.html"
 commonlyOn: ["BlackArch"]

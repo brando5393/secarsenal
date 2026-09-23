@@ -3,7 +3,7 @@ name: "fatback"
 tagline: "A *nix tool for recovering files from FAT file systems."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/fatback"
 downloadUrl: "http://fatback.sourceforge.net/"
 commonlyOn: ["ArchStrike"]

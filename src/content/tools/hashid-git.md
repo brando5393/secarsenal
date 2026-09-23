@@ -3,7 +3,7 @@ name: "hashid-git"
 tagline: "dentify the different types of hashes used to encrypt data and especially passwords."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/hashid-git"
 downloadUrl: "https://github.com/psypanda/hashID"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "passing-the-hash"
 tagline: "Patched tools to use password hashes as authentication input"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/passing-the-hash/"
 downloadUrl: "http://passing-the-hash.blogspot.fr"
 repoUrl: "https://gitlab.com/kalilinux/packages/passing-the-hash"

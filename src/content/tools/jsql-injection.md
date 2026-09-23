@@ -3,7 +3,7 @@ name: "jsql-injection"
 tagline: "A Java application for automatic SQL database injection."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/ron190/jsql-injection"
 commonlyOn: ["BlackArch"]

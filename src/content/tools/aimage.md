@@ -3,7 +3,7 @@ name: "aimage"
 tagline: "A tool to create aff-images."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://pkgs.fedoraproject.org/repo/pkgs/aimage/"
 commonlyOn: ["BlackArch"]

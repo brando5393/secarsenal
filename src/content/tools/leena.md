@@ -3,7 +3,7 @@ name: "leena"
 tagline: "Symbolic execution engine for JavaScript"
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/mmicu/leena"
 commonlyOn: ["BlackArch"]

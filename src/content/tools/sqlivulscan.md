@@ -3,7 +3,7 @@ name: "sqlivulscan"
 tagline: "This will give you the SQLi Vulnerable Website Just by Adding the Dork."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/Hadesy2k/sqlivulscan"
 commonlyOn: ["BlackArch"]

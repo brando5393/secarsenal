@@ -3,7 +3,7 @@ name: "pwfuzz-rs"
 tagline: "Rust-based password mutator for brute force attacks."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/mttaggart/pwfuzz-rs"
 commonlyOn: ["BlackArch"]

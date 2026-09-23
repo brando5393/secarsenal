@@ -3,7 +3,7 @@ name: "photon"
 tagline: "Incredibly fast crawler designed for open source intelligence"
 categories: ["identity-information","reconnaissance"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/photon/"
 downloadUrl: "https://github.com/s0md3v/Photon"
 repoUrl: "https://gitlab.com/kalilinux/packages/photon"

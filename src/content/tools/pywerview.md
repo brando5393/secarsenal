@@ -3,7 +3,7 @@ name: "pywerview"
 tagline: "A (partial) Python rewriting of PowerSploit's PowerView."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://github.com/the-useless-one/pywerview"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

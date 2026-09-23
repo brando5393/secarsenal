@@ -3,7 +3,7 @@ name: "kiterunner"
 tagline: "Contextual Content Discovery Tool."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/assetnote/kiterunner"
 commonlyOn: ["BlackArch"]

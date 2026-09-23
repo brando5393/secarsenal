@@ -3,7 +3,7 @@ name: "Redfin"
 tagline: "Real estate marketplace with comprehensive property history, MLS data, and market analytics. Includes tax history and public records."
 categories: ["public-records"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://redfin.com"
 commonlyOn: []
 gettingStarted: "Best for: Property history and market data. See the official site linked above for details."

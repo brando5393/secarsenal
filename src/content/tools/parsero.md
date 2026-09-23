@@ -3,7 +3,7 @@ name: "parsero"
 tagline: "Robots.txt audit tool"
 categories: ["web-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/parsero/"
 downloadUrl: "https://github.com/behindthefirewalls/Parsero"
 repoUrl: "https://gitlab.com/kalilinux/packages/parsero"

@@ -3,7 +3,7 @@ name: "iptv"
 tagline: "Search and brute force illegal iptv server."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/Pinperepette/IPTV"
 commonlyOn: ["BlackArch"]

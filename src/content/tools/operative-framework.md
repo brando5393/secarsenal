@@ -3,7 +3,7 @@ name: "operative-framework"
 tagline: "OSINT investigation framework"
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://archstrike.org/packages/operative-framework"
 downloadUrl: "https://github.com/graniet/operative-framework"
 commonlyOn: ["ArchStrike"]

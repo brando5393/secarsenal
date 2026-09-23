@@ -3,7 +3,7 @@ name: "UCI Spambase Data Set"
 tagline: "Classic UCI machine-learning dataset for spam classification and email feature analysis."
 categories: ["archives"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://archive.ics.uci.edu/dataset/94/spambase"
 commonlyOn: []
 gettingStarted: "Best for: Email spam model benchmarking and feature-engineering practice. See the official site linked above for details."

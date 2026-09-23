@@ -3,7 +3,7 @@ name: "aesfix"
 tagline: "Tool for correcting bit errors in an AES key schedule"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/aesfix/"
 downloadUrl: "https://citp.princeton.edu/our-work/memory/code/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/aesfix"

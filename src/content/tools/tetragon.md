@@ -3,7 +3,7 @@ name: "tetragon"
 tagline: "EBPF-based Security Observability and Runtime Enforcement (tetra CLI)"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://www.kali.org/tools/tetragon/"
 downloadUrl: "https://github.com/cilium/tetragon"
 repoUrl: "https://gitlab.com/kalilinux/packages/tetragon"

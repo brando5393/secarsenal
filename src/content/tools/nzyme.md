@@ -3,7 +3,7 @@ name: "nzyme"
 tagline: "WiFi defense system."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "https://www.nzyme.org/download"
 commonlyOn: ["BlackArch"]

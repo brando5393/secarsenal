@@ -3,7 +3,7 @@ name: "waybackpack"
 tagline: "Download the entire Wayback Machine archive for a given URL."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/jsvine/waybackpack"
 commonlyOn: ["BlackArch"]

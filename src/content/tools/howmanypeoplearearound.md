@@ -3,7 +3,7 @@ name: "howmanypeoplearearound"
 tagline: "Count the number of people around you by monitoring wifi signals."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/schollz/howmanypeoplearearound"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "second-order"
 tagline: "Second-order subdomain takeover scanner."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/mhmdiaa/second-order"
 commonlyOn: ["BlackArch"]

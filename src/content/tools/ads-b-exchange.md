@@ -3,7 +3,7 @@ name: "ADS-B Exchange"
 tagline: "Large community-driven unfiltered ADS-B flight tracking network with broad global aircraft coverage."
 categories: ["transportation"]
 platforms: ["Web"]
-lastVerified: 2026-09-07
+lastVerified: 2026-09-22
 docsUrl: "https://www.adsbexchange.com/"
 commonlyOn: []
 gettingStarted: "Best for: Unfiltered aircraft tracking and historical flight pattern analysis. See the official site linked above for details."

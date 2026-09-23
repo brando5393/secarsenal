@@ -3,7 +3,7 @@ name: "kismon"
 tagline: "GUI client for kismet (wireless scanner/sniffer/monitor)."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-06
+lastVerified: 2026-09-22
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "https://www.salecker.org/software/kismon.html"
 commonlyOn: ["BlackArch"]
