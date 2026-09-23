@@ -146,7 +146,10 @@ export class SecArsenalMCP extends McpAgent<Env, unknown, {}> {
 
 export default {
   fetch(request: Request, env: Env, ctx: ExecutionContext) {
-    return SecArsenalMCP.serve('/mcp').fetch(request, env, ctx);
+    // .serve()'s default lookup is the literal binding name "MCP_OBJECT" --
+    // has to be told explicitly since wrangler.jsonc's binding is named
+    // after the class instead (see wrangler.jsonc's comment on why).
+    return SecArsenalMCP.serve('/mcp', { binding: 'SecArsenalMCP' }).fetch(request, env, ctx);
   },
   async scheduled(_event: ScheduledEvent, env: Env, ctx: ExecutionContext) {
     ctx.waitUntil(refreshCatalog(env));

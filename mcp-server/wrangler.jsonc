@@ -18,7 +18,7 @@
   "migrations": [{ "tag": "v1", "new_sqlite_classes": ["SecArsenalMCP"] }],
   // Create with `wrangler kv namespace create CATALOG_KV` and paste the
   // resulting id here before first deploy.
-  "kv_namespaces": [{ "binding": "CATALOG_KV", "id": "REPLACE_WITH_KV_NAMESPACE_ID" }],
+  "kv_namespaces": [{ "binding": "CATALOG_KV", "id": "b8548b07199b413d90fa6a217474a77e" }],
   // Aggregate tool-call counts only (tool name + params) -- never a caller
   // identity or IP. See src/index.ts's recordUsage().
   "analytics_engine_datasets": [{ "binding": "ANALYTICS", "dataset": "secarsenal_mcp_usage" }],
@@ -28,5 +28,5 @@
   // Requires the zone (secarsenal.org) to already be on Cloudflare, which
   // it is -- attaching this manages its own proxied DNS record, no manual
   // CNAME needed the way the Amplify domain setup required.
-  "routes": [{ "pattern": "mcp.secarsenal.org/*", "custom_domain": true }]
+  "routes": [{ "pattern": "mcp.secarsenal.org", "custom_domain": true }]
 }
