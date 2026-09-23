@@ -141,6 +141,24 @@ This project is a reference catalog, not a tutorial site. "Getting
 started" sections should point readers to the *official* documentation
 for depth, not attempt to replace it here.
 
+## README conventions
+
+`README.md` carries a hero image and a small badge row (CI status,
+both licenses, a link to the live site) at the top, per the standard
+GitHub README structure: image and badges first, one-line pitch, a
+link to the live product, then a quick-start block within the first
+screenful. Keep images small (the current hero is under 200KB) and
+skip decorative badges that don't answer a real question (build
+status, license, and "is this thing actually live" all qualify;
+download counts or social badges don't, for a project this size).
+
+If you're rewriting a large chunk of this file, run it past the
+`humanizer` skill afterward. It won't invent or drop any fact, only
+tighten phrasing (mainly cutting excess em dashes and staged
+transitions) so the doc reads like it was written by one person
+sitting down to explain the project, not generated section by
+section.
+
 ## Reporting issues
 
 Use GitHub Issues for broken links, stale entries, sync-script parsing
