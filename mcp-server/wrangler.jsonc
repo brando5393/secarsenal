@@ -1,0 +1,32 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  // Separate deployment from the main site's own root wrangler.jsonc
+  // (which is an unrelated, unused assets-only fallback config for a
+  // possible future Amplify -> Workers migration of secarsenal.org
+  // itself). This one is a real, active Worker.
+  "name": "secarsenal-mcp",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-09-08",
+  "compatibility_flags": ["nodejs_compat"],
+  // Binding name matches the McpAgent class name (SecArsenalMCP.serve()'s
+  // default lookup) rather than a generic "MCP_OBJECT" — keeps the class
+  // name as the single source of truth instead of a name that has to be
+  // kept in sync by hand between here and src/index.ts.
+  "durable_objects": {
+    "bindings": [{ "name": "SecArsenalMCP", "class_name": "SecArsenalMCP" }]
+  },
+  "migrations": [{ "tag": "v1", "new_sqlite_classes": ["SecArsenalMCP"] }],
+  // Create with `wrangler kv namespace create CATALOG_KV` and paste the
+  // resulting id here before first deploy.
+  "kv_namespaces": [{ "binding": "CATALOG_KV", "id": "REPLACE_WITH_KV_NAMESPACE_ID" }],
+  // Aggregate tool-call counts only (tool name + params) -- never a caller
+  // identity or IP. See src/index.ts's recordUsage().
+  "analytics_engine_datasets": [{ "binding": "ANALYTICS", "dataset": "secarsenal_mcp_usage" }],
+  // Refreshes the KV-cached catalog.json snapshot hourly, decoupling this
+  // Worker's uptime from secarsenal.org's own deploy/content-sync cadence.
+  "triggers": { "crons": ["0 * * * *"] },
+  // Requires the zone (secarsenal.org) to already be on Cloudflare, which
+  // it is -- attaching this manages its own proxied DNS record, no manual
+  // CNAME needed the way the Amplify domain setup required.
+  "routes": [{ "pattern": "mcp.secarsenal.org/*", "custom_domain": true }]
+}
