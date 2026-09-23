@@ -1,0 +1,49 @@
+name: Deploy MCP server
+
+# Deploys mcp-server/ (a separate Cloudflare Worker, unrelated to the main
+# Amplify-hosted site) whenever that directory changes on master. This is
+# the repo's first workflow that deploys to a third party rather than just
+# reading/building/opening a PR, so — like sync-tools.yml, the repo's other
+# workflow that reaches outside GitHub — actions are pinned to a commit SHA
+# rather than a floating tag.
+on:
+  push:
+    branches: [master]
+    paths: ["mcp-server/**", ".github/workflows/deploy-mcp.yml"]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: mcp-server
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+
+      - uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7
+        with:
+          node-version: "22"
+          cache: "npm"
+          cache-dependency-path: mcp-server/package-lock.json
+
+      - run: npm ci
+
+      - name: Type-check
+        run: npx tsc --noEmit
+
+      # --omit=dev: wrangler's own local-dev toolchain (miniflare -> sharp)
+      # carries a known high-severity advisory with no non-breaking fix
+      # upstream yet; it never ships in the deployed Worker bundle, only
+      # runtime (production) deps do. See mcp-server/README.md.
+      - name: Audit production dependencies
+        run: npm audit --omit=dev --audit-level=high
+
+      - name: Deploy to Cloudflare Workers
+        uses: cloudflare/wrangler-action@ebbaa1584979971c8614a24965b4405ff95890e0 # v4
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          workingDirectory: mcp-server
