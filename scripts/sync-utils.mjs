@@ -18,11 +18,22 @@ export function writeManifest(path, slugs) {
   writeFileSync(path, JSON.stringify([...slugs].sort(), null, 2) + '\n', 'utf8');
 }
 
-export function pruneStale(contentDir, oldSlugs, newSlugs) {
+export function pruneStale(contentDir, oldSlugs, newSlugs, protectedSlugs = []) {
   const newSet = new Set(newSlugs);
+  // `protectedSlugs` is the set of slugs an earlier-priority source's
+  // manifest now claims (already read by the caller to decide what to
+  // skip writing). Without this guard, a slug that migrates from this
+  // script's ownership to an earlier one *within the same pipeline run*
+  // gets correctly excluded from `newSlugs` here, then deleted anyway —
+  // wiping out the file the earlier script just wrote moments before,
+  // since this function has no way to know the slug is still valid
+  // content, just relocated. Confirmed happening in practice (BlackArch
+  // pruning a tool Kali had just started covering; Exegol pruning one
+  // BlackArch had just started covering) before this guard existed.
+  const protectedSet = new Set(protectedSlugs);
   let removed = 0;
   for (const slug of oldSlugs) {
-    if (!newSet.has(slug)) {
+    if (!newSet.has(slug) && !protectedSet.has(slug)) {
       rmSync(join(contentDir, `${slug}.md`), { force: true });
       removed++;
     }
