@@ -7,6 +7,7 @@
 // (bounded concurrency, URL reachability checks) they all need.
 import { existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
+import dns from 'node:dns/promises';
 
 export function readManifest(path) {
   if (!existsSync(path)) return [];
@@ -135,9 +136,65 @@ export function ensureAutoSyncedTag(osFilePath) {
 // (including cloud metadata endpoints at 169.254.169.254) by a
 // third-party data source this project doesn't control.
 const PRIVATE_HOST_RE =
-  /^(localhost|127\.|10\.|169\.254\.|192\.168\.|172\.(1[6-9]|2\d|3[01])\.|0\.0\.0\.0|\[?::1\]?|\[?fc[0-9a-f]{2}:|\[?fe80:)/i;
+  /^(localhost|127\.|10\.|169\.254\.|192\.168\.|172\.(1[6-9]|2\d|3[01])\.|100\.(6[4-9]|[7-9]\d|1[01]\d|12[0-7])\.|0\.0\.0\.0|\[?::1\]?|\[?fc[0-9a-f]{2}:|\[?fe80:)/i;
 
-function isSafeToFetch(url) {
+// The hostname-string check above only rejects a URL whose hostname is
+// *already written* as a private/loopback address. It does nothing
+// against DNS rebinding: an attacker-controlled hostname like
+// "totally-fine.example" that resolves to 169.254.169.254 or 127.0.0.1
+// sails through the string check, and fetch() would then happily
+// connect to whatever that name actually resolves to. Since
+// discover-os.mjs feeds this function a `website` field straight from
+// a community-PR-able GitHub file, hostname-string matching alone
+// isn't a real SSRF guard for that caller. This resolves the hostname
+// first and checks the *actual* IP(s) it points to.
+function isPrivateIPv4(ip) {
+  const parts = ip.split('.').map(Number);
+  if (parts.length !== 4 || parts.some((n) => Number.isNaN(n) || n < 0 || n > 255)) return true; // malformed -> treat as unsafe
+  const [a, b] = parts;
+  if (a === 127 || a === 10 || a === 0) return true;
+  if (a === 169 && b === 254) return true;
+  if (a === 192 && b === 168) return true;
+  if (a === 172 && b >= 16 && b <= 31) return true;
+  if (a === 100 && b >= 64 && b <= 127) return true; // CGNAT (RFC 6598)
+  if (a >= 224) return true; // multicast/reserved
+  return false;
+}
+
+function isPrivateIPv6(ip) {
+  const normalized = ip.toLowerCase();
+  if (normalized === '::1' || normalized === '::') return true;
+  if (normalized.startsWith('fe80:') || normalized.startsWith('fc') || normalized.startsWith('fd')) return true;
+  // IPv4-mapped (::ffff:a.b.c.d) or IPv4-compatible addresses embed a
+  // real v4 address that needs the same check applied to it.
+  const mapped = normalized.match(/^::ffff:(\d+\.\d+\.\d+\.\d+)$/);
+  if (mapped) return isPrivateIPv4(mapped[1]);
+  return false;
+}
+
+async function resolvesToPublicAddressOnly(hostname) {
+  let records;
+  try {
+    records = await dns.lookup(hostname, { all: true, verbatim: true });
+  } catch {
+    return false; // can't resolve -> can't safely fetch
+  }
+  if (records.length === 0) return false;
+  return records.every(({ address, family }) => (family === 4 ? !isPrivateIPv4(address) : !isPrivateIPv6(address)));
+}
+
+// Residual gap, documented rather than hidden: fetch() re-resolves the
+// hostname itself after this check passes, so a sub-second DNS rebind
+// between the two lookups could theoretically still slip through. A
+// fully airtight fix would resolve once and connect directly to the
+// pinned IP (bypassing fetch's own resolution entirely), which needs a
+// custom dispatcher/agent this project doesn't currently pull in. Not
+// worth that dependency for a script whose only output is a boolean
+// and which never surfaces the response body anywhere — this closes
+// the practical, low-effort attack (a static malicious DNS record),
+// which is what a community-editable data source would realistically
+// use.
+async function isSafeToFetch(url) {
   let parsed;
   try {
     parsed = new URL(url);
@@ -146,11 +203,11 @@ function isSafeToFetch(url) {
   }
   if (parsed.protocol !== 'http:' && parsed.protocol !== 'https:') return false;
   if (PRIVATE_HOST_RE.test(parsed.hostname)) return false;
-  return true;
+  return resolvesToPublicAddressOnly(parsed.hostname);
 }
 
 export async function isUrlReachable(url, timeoutMs = 8_000) {
-  if (!isSafeToFetch(url)) return false;
+  if (!(await isSafeToFetch(url))) return false;
   try {
     const result = await attempt(url, timeoutMs);
     if (result.ok) return true;

@@ -36,10 +36,16 @@ not yet built.
 
 ## Rate limiting
 
-Not configured in code. Apply a Cloudflare Rate Limiting rule to the
-`mcp.secarsenal.org/*` route from the dashboard (or via Terraform/the API)
-— start around 30 req/min per IP. A Durable-Object token-bucket is a
-fallback only if the dashboard rule turns out too coarse.
+Not configured in code — enforced by a zone-level Cloudflare Rate
+Limiting rule scoped to `http.host eq "mcp.secarsenal.org"`: 20
+requests per 10 seconds per client IP (`characteristics: ["cf.colo.id",
+"ip.src"]` — Cloudflare requires `cf.colo.id` in the characteristics
+list; counting is colo-scoped, not global), blocking for 10 seconds
+past that. 10s is the tightest counting/mitigation window the Free
+plan allows; a Durable-Object token-bucket is a documented fallback
+only if this turns out too coarse once there's real traffic to judge
+by. The `workers.dev` subdomain for this script is disabled, so this
+rule can't be bypassed by hitting that URL directly instead.
 
 ## Known accepted advisory
 

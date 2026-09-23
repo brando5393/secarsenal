@@ -163,10 +163,87 @@ machine-readable. `mcp-server/` (a separate Cloudflare Worker, own
 read-only MCP tools at `mcp.secarsenal.org`. Neither surface adds any
 data beyond what's already public on the site, collects no PII, and
 accepts no writes. The MCP route is rate-limited at the Cloudflare edge
-(a dashboard Rate Limiting rule, not application code) since it's
-reachable from the open internet. Aggregate tool-call analytics (tool
-name + params only, never an IP or caller identity) are logged to
-Workers Analytics Engine — see `mcp-server/README.md`.
+(a zone-level Rate Limiting rule scoped to `mcp.secarsenal.org`, 20
+requests per 10 seconds per client IP with a 10-second block — the
+tightest counting/mitigation window available on the Free plan) since
+it's reachable from the open internet with no auth; this bounds the
+Durable-Object/compute cost a single abusive caller could otherwise
+run up, not just abuse in the usual sense. Input strings on every tool
+are capped at 200 characters, and usage logging can never fail the
+underlying tool call (see `mcp-server/src/index.ts`). Aggregate
+tool-call analytics (tool name + params only, never an IP or caller
+identity) are logged to Workers Analytics Engine — see
+`mcp-server/README.md`.
+
+## Security audit log
+
+**2026-09-23** — full pass over the site, all sync scripts, the MCP
+server, CI workflows, and the Cloudflare zone's own settings (not just
+this repo's config). Real findings, each independently verified before
+fixing rather than assumed:
+
+- **YAML frontmatter injection** in `scripts/discover-os.mjs`: the one
+  spot where a candidate name (sourced from Rawsec's community-editable
+  inventory) was interpolated raw into a block-literal scalar instead
+  of through the existing `yamlString()`/`JSON.stringify` escaping used
+  everywhere else in that file. A name containing a newline could have
+  broken out of the intended field and injected sibling YAML keys into
+  the drafted file, before a human ever reviews it. Fixed by switching
+  that field to the same escaped-flow-scalar pattern as the rest.
+- **SSRF via DNS rebinding** in `scripts/sync-utils.mjs`'s
+  `isUrlReachable`: the SSRF guard only checked the hostname *string*
+  against a private-IP pattern, which a hostname that resolves to a
+  private/link-local address (rather than being one literally) sails
+  through untouched. Reachable with attacker-influenced input via
+  `discover-os.mjs`. Fixed by resolving the hostname and validating the
+  actual returned IP(s), not just the written form — verified against
+  both literal private IPs and a real public domain that resolves to
+  `127.0.0.1` (`localtest.me`) before and after the fix.
+- **No rate limiting actually existed** on `mcp.secarsenal.org` despite
+  being documented as a requirement — confirmed via the Cloudflare API
+  (`GET /zones/{id}/rulesets` returned no `http_ratelimit` phase at
+  all) before creating one, rather than trusting the docs. See above.
+- **MCP tool inputs had no length cap** and `recordUsage`'s Analytics
+  Engine write wasn't fault-tolerant — an oversized `query` string
+  could have both inflated logged data past Analytics Engine's blob
+  limit and thrown synchronously inside a tool handler, failing the
+  real response over a logging problem. Fixed with a 200-character cap
+  on every string input and a try/catch around the analytics write.
+- **Cloudflare zone TLS settings** (not this repo's code, but this
+  project's infrastructure): SSL mode was `Full` rather than
+  `Full (strict)` (doesn't validate the origin's certificate), "Always
+  Use HTTPS" was off (a first-ever visit to the bare `http://` URL,
+  before any HSTS header has been cached, wasn't redirected at the
+  edge), and minimum TLS was 1.0 (deprecated, no compatibility need in
+  2026). All three tightened; verified the live site and
+  `mcp.secarsenal.org` both still resolve correctly afterward and that
+  plain HTTP now redirects.
+- **`style-src 'self' 'unsafe-inline'`** in the CSP: grepped every
+  `.astro` file and the live HTML of five representative page types —
+  zero inline `style` attributes or `<style>` blocks exist anywhere on
+  the site. `'unsafe-inline'` for styles was dead weight, not a real
+  requirement. Removed; verified with a real browser against a
+  production build (console clear across page load, search, the
+  accessibility panel, and the new `/mcp` page) rather than trusting a
+  clean build alone — this project has been burned before by a CSP
+  issue that only shows up at runtime, not build time (see
+  `wasm-unsafe-eval` above).
+
+Reviewed and found already correct, not touched: path traversal in the
+tools-sync scripts (all eleven share one `kebab()`-style slugifier that
+strips anything but `[a-z0-9]`, independently confirmed identical
+across every file); no `pull_request_target` or unescaped
+`github.event.*` interpolation in any workflow; `contents`/
+`pull-requests` permissions scoped per-workflow to only what each
+actually does; the Worker's `workers.dev` subdomain is disabled
+(confirmed via the API, not assumed), so the zone-scoped rate limit
+can't be bypassed by hitting that URL directly.
+
+Not changed, and why: `scripts/check-links.mjs` has its own
+unguarded `fetch()` rather than reusing `isUrlReachable`'s SSRF
+protections — lower priority than `discover-os.mjs`'s case, since it
+only ever processes URLs already reviewed and merged into
+`src/content/os/`, not raw third-party input.
 
 ## Reporting a vulnerability
 

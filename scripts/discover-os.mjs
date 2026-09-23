@@ -134,9 +134,7 @@ lastVerified: ${today}
 docsUrl: ${yamlString(candidate.website)}
 toolListMaintenance: manual
 notableTools: []
-gettingStarted: |
-  TODO (needs a human): write a short getting-started summary based on
-  ${candidate.name}'s official documentation linked above.
+gettingStarted: ${yamlString(`TODO (needs a human): write a short getting-started summary based on ${candidate.name}'s official documentation linked above.`)}
 ---
 
 _Drafted automatically from [Rawsec's CyberSecurity Inventory](https://github.com/noraj/rawsec-cybersecurity-inventory) — needs a human-written description and a verified category before merging._
