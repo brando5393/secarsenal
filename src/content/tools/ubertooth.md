@@ -3,7 +3,7 @@ name: "ubertooth"
 tagline: "2.4 GHz wireless development platform for Bluetooth experimentation"
 categories: ["bluetooth"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/ubertooth/"
 downloadUrl: "http://ubertooth.sourceforge.net/"
 repoUrl: "https://salsa.debian.org/debian/ubertooth"

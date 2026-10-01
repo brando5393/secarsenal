@@ -3,7 +3,7 @@ name: "jast"
 tagline: "Just Another Screenshot Tool."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/mikehacksthings/jast"
 commonlyOn: ["BlackArch"]

@@ -3,10 +3,11 @@ name: "perl-time-interval"
 tagline: "Converts time intervals of days, hours, minutes, and seconds."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://archstrike.org/packages/perl-time-interval"
+downloadUrl: "https://metacpan.org/pod/Time::Interval"
 commonlyOn: ["ArchStrike"]
-gettingStarted: "Install by adding the ArchStrike repository to an existing Arch Linux install, then `pacman -S perl-time-interval`. See the official ArchStrike package listing linked above for details."
+gettingStarted: "Install by adding the ArchStrike repository to an existing Arch Linux install, then `pacman -S perl-time-interval`. See the official ArchStrike package listing and upstream homepage linked above for details."
 ---
 
 Converts time intervals of days, hours, minutes, and seconds.

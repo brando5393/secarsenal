@@ -3,7 +3,7 @@ name: "wpintel"
 tagline: "Chrome extension designed for WordPress Vulnerability Scanning and information gathering."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/Tuhinshubhra/WPintel"
 commonlyOn: ["BlackArch"]

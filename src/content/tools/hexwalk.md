@@ -3,7 +3,7 @@ name: "hexwalk"
 tagline: "Hex analyzer, editor and viewer"
 categories: ["digital-forensics"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/hexwalk/"
 downloadUrl: "https://www.hexwalk.com"
 repoUrl: "https://salsa.debian.org/gcarmix/hexwalk"

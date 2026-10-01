@@ -3,7 +3,7 @@ name: "quark-engine"
 tagline: "Android Malware (Analysis | Scoring System)"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/quark-engine/"
 downloadUrl: "https://github.com/ev-flow/quark-engine"
 repoUrl: "https://gitlab.com/kalilinux/packages/quark-engine"

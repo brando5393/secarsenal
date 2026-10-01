@@ -3,7 +3,7 @@ name: "tzdata"
 tagline: "Time zone and daylight-saving time data"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/tzdata/"
 downloadUrl: "https://www.iana.org/time-zones"
 repoUrl: "https://salsa.debian.org/glibc-team/tzdata"

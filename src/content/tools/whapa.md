@@ -3,7 +3,7 @@ name: "whapa"
 tagline: "WhatsApp Parser Tool."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/B16f00t/whapa"
 commonlyOn: ["BlackArch"]

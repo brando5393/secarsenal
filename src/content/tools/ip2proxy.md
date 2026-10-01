@@ -3,7 +3,7 @@ name: "IP2Proxy"
 tagline: "Database and lookup service that detects whether an IP address belongs to a proxy, VPN, Tor exit node, or hosting provider to assess anonymization…"
 categories: ["opsec"]
 platforms: ["Web"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.ip2proxy.com/"
 commonlyOn: []
 gettingStarted: "Best for: Checking if your VPN/proxy IP is flagged, verifying anonymization infrastructure quality. See the official site linked above for details."

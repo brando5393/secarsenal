@@ -3,7 +3,7 @@ name: "wificurse"
 tagline: "WiFi jamming tool."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "https://github.com/oblique/wificurse"
 commonlyOn: ["BlackArch"]

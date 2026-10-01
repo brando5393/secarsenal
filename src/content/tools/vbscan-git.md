@@ -3,7 +3,7 @@ name: "vbscan-git"
 tagline: "Black Box vBulletin Vulnerability Scanner"
 categories: ["scanners"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://archstrike.org/packages/vbscan-git"
 downloadUrl: "https://github.com/OWASP/vbscan"
 commonlyOn: ["ArchStrike"]

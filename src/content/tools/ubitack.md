@@ -3,7 +3,7 @@ name: "ubitack"
 tagline: "Tool, which automates some of the tasks you might need on a (wireless) penetration test or while you are on the go."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "https://code.google.com/archive/p/ubitack/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "cloud-audit"
 tagline: "Open-source, read-only AWS security scanner. 110 checks across 25 services, Terraform remediation on every finding."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/gebalamariusz/cloud-audit"
 commonlyOn: ["BlackArch"]

@@ -3,10 +3,11 @@ name: "perl-data-buffer"
 tagline: "Read/write buffer class"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://archstrike.org/packages/perl-data-buffer"
+downloadUrl: "https://metacpan.org/pod/Data::Buffer"
 commonlyOn: ["ArchStrike"]
-gettingStarted: "Install by adding the ArchStrike repository to an existing Arch Linux install, then `pacman -S perl-data-buffer`. See the official ArchStrike package listing linked above for details."
+gettingStarted: "Install by adding the ArchStrike repository to an existing Arch Linux install, then `pacman -S perl-data-buffer`. See the official ArchStrike package listing and upstream homepage linked above for details."
 ---
 
 Read/write buffer class

@@ -3,7 +3,7 @@ name: "bsqlbf"
 tagline: "Blind SQL Injection Brute Forcer."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "http://code.google.com/p/bsqlbf-v2/"
 commonlyOn: ["BlackArch"]

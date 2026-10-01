@@ -3,7 +3,7 @@ name: "bluto"
 tagline: "Recon, Subdomain Bruting, Zone Transfers."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/RandomStorm/Bluto"
 commonlyOn: ["BlackArch"]

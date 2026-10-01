@@ -3,7 +3,7 @@ name: "sickle"
 tagline: "A shellcode development tool, created to speed up the various steps needed to create functioning shellcode."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/wetw0rk/Sickle"
 commonlyOn: ["BlackArch"]

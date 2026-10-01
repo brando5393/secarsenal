@@ -3,7 +3,7 @@ name: "weirdaal"
 tagline: "AWS Attack Library."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/carnal0wnage/weirdAAL"
 commonlyOn: ["BlackArch"]

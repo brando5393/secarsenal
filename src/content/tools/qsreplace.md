@@ -3,7 +3,7 @@ name: "qsreplace"
 tagline: "Accept URLs on stdin, replace all query string values with a user-supplied value"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/qsreplace/"
 downloadUrl: "https://github.com/tomnomnom/qsreplace"
 repoUrl: "https://gitlab.com/kalilinux/packages/qsreplace"

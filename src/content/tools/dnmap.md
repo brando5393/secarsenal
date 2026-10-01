@@ -3,7 +3,7 @@ name: "dnmap"
 tagline: "The distributed nmap framework."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://sourceforge.net/projects/dnmap/"
 commonlyOn: ["BlackArch"]

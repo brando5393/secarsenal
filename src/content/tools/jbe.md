@@ -3,7 +3,7 @@ name: "jbe"
 tagline: "Java bytecode editor suitable for viewing and modifying java class files."
 categories: ["decompiler"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/decompiler.html"
 downloadUrl: "https://set.ee/jbe/"
 commonlyOn: ["BlackArch"]

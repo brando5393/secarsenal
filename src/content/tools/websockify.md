@@ -3,7 +3,7 @@ name: "websockify"
 tagline: "WebSocket to TCP proxy/bridge."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "http://github.com/kanaka/websockify"
 commonlyOn: ["BlackArch"]

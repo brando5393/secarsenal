@@ -3,7 +3,7 @@ name: "periscope"
 tagline: "A PE file inspection tool."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://vidstromlabs.com/freetools/periscope/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "elevate"
 tagline: "Horizontal domain discovery tool you can use to discover other domains owned by a given company."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/Healdb/Elevate"
 commonlyOn: ["BlackArch"]

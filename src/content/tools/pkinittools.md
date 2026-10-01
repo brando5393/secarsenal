@@ -3,7 +3,7 @@ name: "pkinittools"
 tagline: "Tools for Kerberos PKINIT and relaying to AD CS."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/dirkjanm/PKINITtools"
 commonlyOn: ["BlackArch"]

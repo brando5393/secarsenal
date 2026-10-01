@@ -3,7 +3,7 @@ name: "rtlizer"
 tagline: "Simple spectrum analyzer."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/csete/rtlizer"
 commonlyOn: ["BlackArch"]

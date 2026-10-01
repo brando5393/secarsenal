@@ -3,7 +3,7 @@ name: "ffuf"
 tagline: "Fast web fuzzer written in Go (program)"
 categories: ["web-scanning","reconnaissance"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/ffuf/"
 downloadUrl: "https://github.com/ffuf/ffuf"
 repoUrl: "https://salsa.debian.org/debian/ffuf/"

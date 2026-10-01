@@ -3,7 +3,7 @@ name: "pcsc"
 tagline: "Middleware for smart card readers"
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://pcsclite.apdu.fr/"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

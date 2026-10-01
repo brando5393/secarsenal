@@ -3,7 +3,7 @@ name: "brosec"
 tagline: "An interactive reference tool to help security professionals utilize useful payloads and commands."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/gabemarshall/Brosec"
 commonlyOn: ["BlackArch"]

@@ -4,7 +4,7 @@ tagline: "Examine IRC activity with this IRC server."
 categories: ["services"]
 platforms: ["Linux"]
 license: "GNU General Public License (GPL) v2"
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/explore+network+interactions/services"
 downloadUrl: "https://www.inspircd.org/"
 commonlyOn: ["REMnux"]

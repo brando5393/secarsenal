@@ -3,7 +3,7 @@ name: "sippts"
 tagline: "Set of tools to audit SIP based VoIP Systems"
 categories: ["voip"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/sippts/"
 downloadUrl: "https://github.com/Pepelux/sippts"
 repoUrl: "https://gitlab.com/kalilinux/packages/sippts"

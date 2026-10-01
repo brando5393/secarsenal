@@ -3,10 +3,10 @@ name: "sendemail"
 tagline: "Lightweight, command line SMTP email client"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/sendemail/"
-downloadUrl: "http://caspian.dotconf.net/menu/Software/SendEmail/"
-repoUrl: "https://github.com/mogaal/sendemail"
+downloadUrl: "https://github.com/zehm/sendEmail"
+repoUrl: "https://salsa.debian.org/debian/sendemail"
 commonlyOn: ["Kali Linux"]
 gettingStarted: "See the official Kali tool page and upstream homepage linked above for installation and usage details."
 ---

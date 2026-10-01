@@ -3,7 +3,7 @@ name: "proxytunnel"
 tagline: "Help SSH and other protocols through HTTP(S) proxies"
 categories: ["protocol-tunneling"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/proxytunnel/"
 downloadUrl: "https://proxytunnel.sourceforge.io/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/proxytunnel"

@@ -3,7 +3,7 @@ name: "interactsh-client"
 tagline: "Open-Source Solution for Out of band Data Extraction."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/projectdiscovery/interactsh"
 commonlyOn: ["BlackArch"]

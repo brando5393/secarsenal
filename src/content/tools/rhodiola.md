@@ -3,7 +3,7 @@ name: "rhodiola"
 tagline: "Personalized wordlist generator with NLP, by analyzing tweets (A.K.A crunch2049)."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/utkusen/rhodiola"
 commonlyOn: ["BlackArch"]

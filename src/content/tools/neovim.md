@@ -3,7 +3,7 @@ name: "neovim"
 tagline: "hyperextensible Vim-based text editor"
 categories: ["ad","light","osint","web"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://neovim.io/"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

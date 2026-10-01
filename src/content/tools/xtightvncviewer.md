@@ -3,7 +3,7 @@ name: "xtightvncviewer"
 tagline: "xtightvncviewer is an open source VNC client software."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.commandlinux.com/man-page/man1/xtightvncviewer.1.html"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

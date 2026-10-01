@@ -3,7 +3,7 @@ name: "jdwp-knife"
 tagline: "Advanced JDWP exploitation and data extraction tool with interactive shell."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/s0ld13rr/jdwp-knife"
 commonlyOn: ["BlackArch"]

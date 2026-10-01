@@ -3,7 +3,7 @@ name: "canalyzat0r"
 tagline: "Security analysis toolkit for proprietary car protocols."
 categories: ["automobile"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/automobile.html"
 downloadUrl: "https://github.com/schutzwerk/CANalyzat0r"
 commonlyOn: ["BlackArch"]

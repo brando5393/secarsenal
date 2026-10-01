@@ -3,7 +3,7 @@ name: "dhcdrop"
 tagline: "Remove illegal dhcp servers with IP-pool underflow."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "http://www.netpatch.ru/dhcdrop.html"
 commonlyOn: ["BlackArch"]

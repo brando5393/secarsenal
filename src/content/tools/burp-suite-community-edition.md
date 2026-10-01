@@ -4,7 +4,7 @@ tagline: "Investigate website interactions using this web proxy."
 categories: ["monitoring"]
 platforms: ["Linux"]
 license: "Free, custom license"
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/explore+network+interactions/monitoring"
 downloadUrl: "https://portswigger.net"
 commonlyOn: ["REMnux"]

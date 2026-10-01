@@ -3,7 +3,7 @@ name: "Instagram"
 tagline: "Main Instagram platform used for public profile, hashtag, and location OSINT collection."
 categories: ["images-videos-docs"]
 platforms: ["Web"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.instagram.com/"
 commonlyOn: []
 gettingStarted: "Best for: Social profiling and image discovery. See the official site linked above for details."

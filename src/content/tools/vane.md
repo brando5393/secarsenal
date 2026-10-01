@@ -3,7 +3,7 @@ name: "vane"
 tagline: "A vulnerability scanner which checks the security of WordPress installations using a black box approach."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/delvelabs/vane"
 commonlyOn: ["BlackArch"]

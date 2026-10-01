@@ -3,7 +3,7 @@ name: "ncrack"
 tagline: "High-speed network authentication cracking tool"
 categories: ["brute-force","credential-access"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/ncrack/"
 downloadUrl: "https://nmap.org/ncrack/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/ncrack"

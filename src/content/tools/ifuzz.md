@@ -3,7 +3,7 @@ name: "ifuzz"
 tagline: "A binary file fuzzer with several options."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "http://www.fuzzing.org/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "mongo-tools"
 tagline: "MongoDB tools (program)"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/mongo-tools/"
 downloadUrl: "https://github.com/mongodb/mongo-tools"
 repoUrl: "https://gitlab.com/kalilinux/packages/mongo-tools"

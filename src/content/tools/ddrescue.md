@@ -3,7 +3,7 @@ name: "ddrescue"
 tagline: "Data recovery and protection tool"
 categories: ["forensic-imaging-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/ddrescue/"
 downloadUrl: "http://www.garloff.de/kurt/linux/ddrescue/"
 repoUrl: "https://gitlab.com/kalilinux/packages/ddrescue"

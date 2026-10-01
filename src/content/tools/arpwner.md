@@ -3,7 +3,7 @@ name: "arpwner"
 tagline: "GUI-based python tool for arp poisoning and dns poisoning attacks."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/ntrippar/ARPwner"
 commonlyOn: ["BlackArch"]

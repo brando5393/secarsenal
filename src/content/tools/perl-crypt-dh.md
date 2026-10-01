@@ -3,7 +3,7 @@ name: "perl-crypt-dh"
 tagline: "Perl/CPAN Module Crypt::DH: Diffie-Hellman key exchange system"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://archstrike.org/packages/perl-crypt-dh"
 downloadUrl: "https://metacpan.org/pod/Crypt::DH"
 commonlyOn: ["ArchStrike"]

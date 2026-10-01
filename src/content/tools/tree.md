@@ -3,7 +3,7 @@ name: "tree"
 tagline: "Displays an indented directory tree, in color"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/tree/"
 downloadUrl: "http://oldmanprogrammer.net/source.php?dir=projects/tree"
 repoUrl: "https://salsa.debian.org/debian/tree-packaging"

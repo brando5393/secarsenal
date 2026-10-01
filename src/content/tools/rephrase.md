@@ -3,7 +3,7 @@ name: "rephrase"
 tagline: "Specialized passphrase recovery tool for GnuPG"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/rephrase/"
 downloadUrl: "https://www.roguedaemon.net/rephrase/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/rephrase"

@@ -3,7 +3,7 @@ name: "perl-tie-encryptedhash"
 tagline: "Hashes (and objects based on hashes) with encrypting fields"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://archstrike.org/packages/perl-tie-encryptedhash"
 downloadUrl: "https://metacpan.org/pod/Tie::EncryptedHash"
 commonlyOn: ["ArchStrike"]

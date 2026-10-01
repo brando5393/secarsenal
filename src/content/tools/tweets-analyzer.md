@@ -3,7 +3,7 @@ name: "tweets-analyzer"
 tagline: "Tweets metadata scraper & activity analyzer."
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://github.com/x0rz/tweets_analyzer"
 commonlyOn: ["BlackArch"]

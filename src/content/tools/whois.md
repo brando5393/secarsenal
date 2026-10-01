@@ -3,7 +3,7 @@ name: "whois"
 tagline: "Intelligent WHOIS client"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/whois/"
 repoUrl: "https://salsa.debian.org/md/whois"
 commonlyOn: ["Kali Linux"]

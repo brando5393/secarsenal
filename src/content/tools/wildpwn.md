@@ -3,7 +3,7 @@ name: "wildpwn"
 tagline: "Unix wildcard attacks."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/localh0t/wildpwn"
 commonlyOn: ["BlackArch"]

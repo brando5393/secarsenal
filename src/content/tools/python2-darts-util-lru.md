@@ -3,7 +3,7 @@ name: "python2-darts.util.lru"
 tagline: "Simple dictionary with LRU behaviour."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://pypi.python.org/pypi/darts.util.lru"
 commonlyOn: ["BlackArch"]

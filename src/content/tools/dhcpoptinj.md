@@ -3,7 +3,7 @@ name: "dhcpoptinj"
 tagline: "DHCP option injector."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/misje/dhcpoptinj"
 commonlyOn: ["BlackArch"]

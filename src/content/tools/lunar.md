@@ -3,7 +3,7 @@ name: "lunar"
 tagline: "A UNIX security auditing tool based on several security frameworks."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/lateralblast/lunar"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "garak"
 tagline: "The LLM vulnerability scanner."
 categories: ["ai"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/ai.html"
 downloadUrl: "https://github.com/NVIDIA/garak"
 commonlyOn: ["BlackArch"]

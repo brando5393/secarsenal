@@ -3,7 +3,7 @@ name: "punk"
 tagline: "A post-exploitation tool meant to help network pivoting from a compromised unix box."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/r3vn/punk.py"
 commonlyOn: ["BlackArch"]

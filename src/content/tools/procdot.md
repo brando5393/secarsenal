@@ -4,7 +4,7 @@ tagline: "Visualize and examine the output of Process Monitor."
 categories: ["investigate-system-interactions"]
 platforms: ["Linux"]
 license: "Free, custom license"
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/investigate+system+interactions"
 downloadUrl: "https://www.procdot.com"
 commonlyOn: ["REMnux"]

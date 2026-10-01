@@ -3,7 +3,7 @@ name: "didier-stevens-suite"
 tagline: "Didier Stevens Suite."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/.html"
 downloadUrl: "https://github.com/DidierStevens/DidierStevensSuite"
 commonlyOn: ["BlackArch"]

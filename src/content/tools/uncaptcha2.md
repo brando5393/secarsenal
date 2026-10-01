@@ -3,7 +3,7 @@ name: "uncaptcha2"
 tagline: "Defeating the latest version of ReCaptcha with 91% accuracy."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "http://uncaptcha.cs.umd.edu/"
 commonlyOn: ["BlackArch"]

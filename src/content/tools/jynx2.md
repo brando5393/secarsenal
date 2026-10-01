@@ -3,7 +3,7 @@ name: "jynx2"
 tagline: "An expansion of the original Jynx LD_PRELOAD rootkit."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://github.com/chokepoint/Jynx2"
 commonlyOn: ["BlackArch"]

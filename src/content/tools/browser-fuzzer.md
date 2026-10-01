@@ -3,7 +3,7 @@ name: "browser-fuzzer"
 tagline: "Browser Fuzzer 3"
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/fuzzer.html"
 commonlyOn: ["BlackArch"]
 gettingStarted: "Install on BlackArch with `pacman -S browser-fuzzer` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."

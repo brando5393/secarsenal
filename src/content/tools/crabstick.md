@@ -3,7 +3,7 @@ name: "crabstick"
 tagline: "Automatic remote/local file inclusion vulnerability analysis and exploit tool."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/Hack-Hut/CrabStick"
 commonlyOn: ["BlackArch"]

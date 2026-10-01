@@ -3,7 +3,7 @@ name: "perl-array-uniq"
 tagline: "Perl extension for managing list of values."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://archstrike.org/packages/perl-array-uniq"
 downloadUrl: "https://metacpan.org/pod/Array::Uniq"
 commonlyOn: ["ArchStrike"]

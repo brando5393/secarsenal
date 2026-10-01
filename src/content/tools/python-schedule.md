@@ -3,7 +3,7 @@ name: "python-schedule"
 tagline: "Python job scheduling for humans"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://archstrike.org/packages/python-schedule"
 downloadUrl: "https://github.com/dbader/schedule"
 commonlyOn: ["ArchStrike"]

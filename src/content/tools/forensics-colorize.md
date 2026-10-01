@@ -3,7 +3,7 @@ name: "forensics-colorize"
 tagline: "Show differences between files using color graphics"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/forensics-colorize/"
 downloadUrl: "https://github.com/jessek/colorize"
 repoUrl: "https://salsa.debian.org/pkg-security-team/forensics-colorize"

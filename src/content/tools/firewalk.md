@@ -3,7 +3,7 @@ name: "firewalk"
 tagline: "Active reconnaissance network security tool"
 categories: ["network-security-appliances"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/firewalk/"
 downloadUrl: "http://packetfactory.openwall.net/projects/firewalk/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/firewalk"

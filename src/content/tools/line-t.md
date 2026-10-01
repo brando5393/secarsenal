@@ -3,7 +3,7 @@ name: "LINE (T)"
 tagline: "Messaging app with 200M+ users, dominant in Asia. User search and public profile visibility."
 categories: ["mobile-osint"]
 platforms: ["Web"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://line.me/"
 commonlyOn: []
 gettingStarted: "Best for: Asian market user discovery, profile analysis, account verification. See the official site linked above for details."

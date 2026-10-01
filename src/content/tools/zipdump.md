@@ -3,7 +3,7 @@ name: "zipdump"
 tagline: "ZIP dump utility."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://blog.didierstevens.com/my-software/#zipdump"
 commonlyOn: ["BlackArch"]

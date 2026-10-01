@@ -3,7 +3,7 @@ name: "tcpjunk"
 tagline: "A general tcp protocols testing and hacking utility."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "http://code.google.com/p/tcpjunk"
 commonlyOn: ["BlackArch"]
