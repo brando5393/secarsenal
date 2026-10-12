@@ -13,6 +13,7 @@
     "astro": "astro",
     "check-links": "node scripts/check-links.mjs",
     "check-logos": "node --experimental-strip-types scripts/check-logos.mjs",
+    "audit-gate": "node scripts/audit-gate.mjs",
     "sync-tools": "node scripts/sync-kali-tools.mjs",
     "sync-tools:blackarch": "node scripts/sync-blackarch-tools.mjs",
     "sync-tools:remnux": "node scripts/sync-remnux-tools.mjs",
