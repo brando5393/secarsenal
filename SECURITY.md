@@ -94,7 +94,20 @@ blocking the page. Clearing browser data for the site resets both.
 
 - Lockfile (`package-lock.json`) is committed.
 - Run `npm audit` before every release; fix or accept-with-reason any
-  high/critical finding before merging.
+  high/critical finding before merging. CI enforces this with
+  `scripts/audit-gate.mjs` (`npm run audit-gate`) over the *full* tree,
+  dev dependencies included, since the scheduled sync/discover workflows
+  run `npm ci` and scripts under a write-scoped token. An advisory with
+  no available fix can be accepted only via an entry in
+  `scripts/audit-allowlist.json`, which requires a written reason and an
+  expiry date; the gate fails on an expired entry and flags a stale one
+  (advisory gone) for deletion. Currently accepted: `braces`
+  (GHSA-vfj7-8cjw-p6xm), a stack-exhaustion DoS with **no patched
+  release on npm** (the advisory covers every published version). It's
+  reachable only through `tailwindcss@3.4.19` and only with glob
+  patterns from the committed `content` array in `tailwind.config.cjs`,
+  and it never ships in the static site. Exit: moving to Tailwind 4,
+  which drops that dependency chain, or a patched `braces`.
 - Dependabot is configured (`.github/dependabot.yml`) for weekly
   dependency update PRs.
 

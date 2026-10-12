@@ -35,5 +35,10 @@ jobs:
       - name: Check every OS entry has a logo decision recorded
         run: npm run check-logos
 
+      # scripts/audit-gate.mjs, not a bare `npm audit`: same high/critical
+      # bar over the full tree, but advisories with no available fix can
+      # be accepted individually (reason + expiry) in
+      # scripts/audit-allowlist.json instead of leaving CI permanently red
+      # or ignoring every dev-dependency advisory with --omit=dev.
       - name: Audit dependencies
-        run: npm audit --audit-level=high
+        run: npm run audit-gate
