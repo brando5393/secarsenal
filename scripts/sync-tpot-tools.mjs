@@ -9,7 +9,7 @@
 // `npm run sync-tools:tpot`.
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { readManifest, writeManifest, pruneStale, isUrlReachable, ensureAutoSyncedTag } from './sync-utils.mjs';
+import { readManifest, writeManifest, pruneStale, checkUrl, ensureAutoSyncedTag } from './sync-utils.mjs';
 
 const README_URL = 'https://raw.githubusercontent.com/telekom-security/tpotce/master/README.md';
 const CONTENT_DIR = join('src', 'content', 'tools');
@@ -120,8 +120,8 @@ async function main() {
       skippedClaimed++;
       continue;
     }
-    const ok = await isUrlReachable(item.url);
-    if (!ok) continue;
+    // Only a definite death drops an entry; see checkUrl() in sync-utils.mjs.
+    if ((await checkUrl(item.url)) === 'dead') continue;
     writeFileSync(join(CONTENT_DIR, `${slug}.md`), toMarkdown(item), 'utf8');
     written.push(slug);
   }
