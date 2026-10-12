@@ -42,7 +42,7 @@ import {
   writeManifest,
   pruneStale,
   mapWithConcurrency,
-  isUrlReachable,
+  checkUrl,
 } from './sync-utils.mjs';
 
 const RELEASES_INDEX_URL =
@@ -183,9 +183,15 @@ async function main() {
   console.log(`Verifying ${candidates.length} links (this takes a while)...`);
   let checked = 0;
   let dead = 0;
+  let unverified = 0;
   await mapWithConcurrency(candidates, LINK_CHECK_CONCURRENCY, async (candidate) => {
-    candidate.reachable = await isUrlReachable(candidate.tool.url);
-    if (!candidate.reachable) dead++;
+    // Only a definite death (host gone, connection refused, 404/410)
+    // drops an entry. A 403/429/timeout from this runner says nothing
+    // about the site; see checkUrl() in sync-utils.mjs.
+    const state = await checkUrl(candidate.tool.url);
+    candidate.reachable = state !== 'dead';
+    if (state === 'dead') dead++;
+    else if (state === 'unknown') unverified++;
     checked++;
     if (checked % 200 === 0 || checked === candidates.length) {
       console.log(`  ${checked}/${candidates.length} links checked (${dead} dead so far)`);
@@ -205,7 +211,7 @@ async function main() {
   console.log(
     `\nWrote ${written.length} Exegol-exclusive tool entries to ${CONTENT_DIR}` +
       ` (${generalFallbackCount} fell back to "${GENERAL_CATEGORY}" with no variant match,` +
-      ` skipped ${skippedClaimed} already covered, ${dead} dead links${removed ? `, removed ${removed} stale entr${removed === 1 ? 'y' : 'ies'}` : ''}).`
+      ` skipped ${skippedClaimed} already covered, ${dead} dead links, kept ${unverified} unverifiable${removed ? `, removed ${removed} stale entr${removed === 1 ? 'y' : 'ies'}` : ''}).`
   );
 }
 

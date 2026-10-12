@@ -172,15 +172,21 @@ function isPrivateIPv6(ip) {
   return false;
 }
 
-async function resolvesToPublicAddressOnly(hostname) {
+// 'ok' = resolves, and only to public addresses. 'dead' = the name
+// definitively doesn't exist (NXDOMAIN/no records) or resolves to a
+// private/reserved address -- either way this URL can never be a valid
+// public link. 'unknown' = the lookup itself failed for a reason that
+// says nothing about the site (timeout, SERVFAIL, resolver hiccup).
+async function preflightHost(hostname) {
   let records;
   try {
     records = await dns.lookup(hostname, { all: true, verbatim: true });
-  } catch {
-    return false; // can't resolve -> can't safely fetch
+  } catch (err) {
+    return err?.code === 'ENOTFOUND' || err?.code === 'ENODATA' ? 'dead' : 'unknown';
   }
-  if (records.length === 0) return false;
-  return records.every(({ address, family }) => (family === 4 ? !isPrivateIPv4(address) : !isPrivateIPv6(address)));
+  if (records.length === 0) return 'unknown';
+  const allPublic = records.every(({ address, family }) => (family === 4 ? !isPrivateIPv4(address) : !isPrivateIPv6(address)));
+  return allPublic ? 'ok' : 'dead';
 }
 
 // Residual gap, documented rather than hidden: fetch() re-resolves the
@@ -194,30 +200,60 @@ async function resolvesToPublicAddressOnly(hostname) {
 // the practical, low-effort attack (a static malicious DNS record),
 // which is what a community-editable data source would realistically
 // use.
-async function isSafeToFetch(url) {
+async function preflight(url) {
   let parsed;
   try {
     parsed = new URL(url);
   } catch {
-    return false;
+    return 'dead';
   }
-  if (parsed.protocol !== 'http:' && parsed.protocol !== 'https:') return false;
-  if (PRIVATE_HOST_RE.test(parsed.hostname)) return false;
-  return resolvesToPublicAddressOnly(parsed.hostname);
+  if (parsed.protocol !== 'http:' && parsed.protocol !== 'https:') return 'dead';
+  if (PRIVATE_HOST_RE.test(parsed.hostname)) return 'dead';
+  return preflightHost(parsed.hostname);
 }
 
-export async function isUrlReachable(url, timeoutMs = 8_000) {
-  if (!(await isSafeToFetch(url))) return false;
+// A failed check is not the same thing as a dead site, and conflating
+// the two is what deleted 32 live catalog entries (shodan, etherscan,
+// google scholar, gnu.org/autoconf, crt.sh, ...) from the scheduled
+// sync: it runs on GitHub Actions' datacenter IPs, which many sites
+// refuse, rate-limit, or silently drop, so "this runner got a 403/429/
+// timeout" was being read as "this site is gone". Probing every one of
+// those deletions from an ordinary connection returned 200.
+//
+// So the verdict is three-way. Only things that are true no matter who
+// is asking count as dead: the host doesn't exist, the connection is
+// actively refused, or the server says 404/410. Everything else that
+// isn't a success -- 401/403/429/5xx, timeouts, resets, TLS-chain errors
+// (Node doesn't chase missing intermediates the way browsers do) --
+// depends on the vantage point and is 'unknown'.
+export function classifyStatus(status) {
+  return status === 404 || status === 410 ? 'dead' : 'unknown';
+}
+
+export function classifyError(err) {
+  const code = err?.cause?.code ?? err?.code;
+  return code === 'ENOTFOUND' || code === 'ECONNREFUSED' || code === 'ENODATA' ? 'dead' : 'unknown';
+}
+
+export async function checkUrl(url, timeoutMs = 8_000) {
+  const pre = await preflight(url);
+  if (pre !== 'ok') return pre;
   try {
-    const result = await attempt(url, timeoutMs);
-    if (result.ok) return true;
-    if (result.status === 429) {
+    let result = await attempt(url, timeoutMs);
+    if (!result.ok && result.status === 429) {
       await sleep(3_000 + Math.random() * 2_000);
-      const retry = await attempt(url, timeoutMs);
-      return retry.ok;
+      result = await attempt(url, timeoutMs);
     }
-    return false;
-  } catch {
-    return false;
+    return result.ok ? 'alive' : classifyStatus(result.status);
+  } catch (err) {
+    return classifyError(err);
   }
+}
+
+// Boolean form kept for callers where a failed check only means "don't
+// publish this URL" (the entry itself survives). Strict on purpose: only
+// a positively verified link counts. Callers that would otherwise DELETE
+// an entry on failure must use checkUrl() and act on 'dead' only.
+export async function isUrlReachable(url, timeoutMs = 8_000) {
+  return (await checkUrl(url, timeoutMs)) === 'alive';
 }

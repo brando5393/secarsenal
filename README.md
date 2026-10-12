@@ -171,7 +171,15 @@ The two collections are sourced very differently:
   [`sync-tools.yml`](.github/workflows/sync-tools.yml) runs all
   eleven, in priority order, monthly, and opens a PR with the diff.
   Never straight to `master`, so a parsing bug or a page-structure
-  change gets caught in review, not published.
+  change gets caught in review, not published. The scripts that would
+  otherwise delete a whole entry over an unreachable homepage (T-Pot,
+  OSINT Framework, Exegol, NetHunter Store) only do so when the link is
+  definitely dead: the host no longer exists, the connection is
+  refused, or the server says 404/410. A 403, 429, 5xx, timeout, or
+  reset is "unverifiable" and the entry is kept, because the sync runs
+  on GitHub's datacenter IPs and plenty of live sites (Shodan,
+  Etherscan, Google Scholar, ...) refuse those. The scheduled run that
+  prompted this rule proposed deleting 32 live entries.
 - **OS entries:** `npm run check-links` checks every URL for
   reachability and flags anything not verified in 180+ days.
   [`freshness-check.yml`](.github/workflows/freshness-check.yml) runs

@@ -38,7 +38,7 @@ import {
   writeManifest,
   pruneStale,
   mapWithConcurrency,
-  isUrlReachable,
+  checkUrl,
 } from './sync-utils.mjs';
 
 const INDEX_URL = 'https://store.nethunter.com/repo/index-v2.json';
@@ -208,9 +208,15 @@ async function main() {
 
   console.log(`Verifying ${candidates.length} links...`);
   let dead = 0;
+  let unverified = 0;
   await mapWithConcurrency(candidates, LINK_CHECK_CONCURRENCY, async (candidate) => {
-    candidate.reachable = await isUrlReachable(candidate.app.docsUrl);
-    if (!candidate.reachable) dead++;
+    // Only a definite death (host gone, connection refused, 404/410)
+    // drops an entry. A 403/429/timeout from this runner says nothing
+    // about the site; see checkUrl() in sync-utils.mjs.
+    const state = await checkUrl(candidate.app.docsUrl);
+    candidate.reachable = state !== 'dead';
+    if (state === 'dead') dead++;
+    else if (state === 'unknown') unverified++;
   });
 
   const written = [];
@@ -225,7 +231,7 @@ async function main() {
 
   console.log(
     `\nWrote ${written.length} NetHunter-App-Store-exclusive tool entries to ${CONTENT_DIR}` +
-      ` (skipped ${skippedClaimed} already covered, ${dead} dead links${removed ? `, removed ${removed} stale entr${removed === 1 ? 'y' : 'ies'}` : ''}).`
+      ` (skipped ${skippedClaimed} already covered, ${dead} dead links, kept ${unverified} unverifiable${removed ? `, removed ${removed} stale entr${removed === 1 ? 'y' : 'ies'}` : ''}).`
   );
 }
 
