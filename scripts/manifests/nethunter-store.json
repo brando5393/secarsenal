@@ -17,6 +17,7 @@
   "router-keygen",
   "rtl-sdr-driver",
   "rucky",
+  "shodan-io",
   "syslog",
   "termux",
   "termux-api",
