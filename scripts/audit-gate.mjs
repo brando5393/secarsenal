@@ -16,10 +16,30 @@
 // *depends on* a vulnerable package, and carries no advisory of its own.
 // Counting those propagated rows would make every allowlisted advisory
 // re-fail through each package above it in the tree.
+//
+// Usage (run from the directory that holds the package.json to audit):
+//   node scripts/audit-gate.mjs                       full tree, default allowlist
+//   node ../scripts/audit-gate.mjs --omit-dev --allowlist=./audit-allowlist.json
+// The second form is how mcp-server/ uses it: its deploy workflow audits
+// only runtime dependencies (the deployed Worker bundle) against its own
+// allowlist, so an exception for one project can never silently cover
+// the other. Unknown flags are an error rather than ignored, because a
+// typo'd flag quietly weakening a security gate is worse than a failure.
 import { readFileSync } from 'node:fs';
+import { resolve } from 'node:path';
 import { execFileSync } from 'node:child_process';
 
-const ALLOWLIST_PATH = new URL('./audit-allowlist.json', import.meta.url);
+const KNOWN_FLAGS = /^(--omit-dev|--allowlist=.+)$/;
+const args = process.argv.slice(2);
+const unknown = args.filter((a) => !KNOWN_FLAGS.test(a));
+if (unknown.length > 0) {
+  console.error(`FAIL: unknown argument(s): ${unknown.join(' ')}`);
+  process.exit(2);
+}
+const omitDev = args.includes('--omit-dev');
+const allowlistArg = args.find((a) => a.startsWith('--allowlist='))?.slice('--allowlist='.length);
+
+const ALLOWLIST_PATH = allowlistArg ? resolve(allowlistArg) : new URL('./audit-allowlist.json', import.meta.url);
 const GATED = new Set(['high', 'critical']);
 const GHSA_RE = /GHSA-[a-z0-9]{4}-[a-z0-9]{4}-[a-z0-9]{4}/i;
 
@@ -29,7 +49,7 @@ function runAudit() {
   // npm.cmd, which Node only spawns through a shell; the arguments are
   // fixed literals, so there is nothing to inject into.
   try {
-    return execFileSync('npm', ['audit', '--json'], {
+    return execFileSync('npm', ['audit', '--json', ...(omitDev ? ['--omit=dev'] : [])], {
       encoding: 'utf8',
       maxBuffer: 64 * 1024 * 1024,
       shell: process.platform === 'win32',

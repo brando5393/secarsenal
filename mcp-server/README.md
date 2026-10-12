@@ -49,12 +49,13 @@ rule can't be bypassed by hitting that URL directly instead.
 
 ## Known accepted advisory
 
-`npm audit` flags a high-severity `sharp`/libheif issue reachable only
-through `wrangler`'s local-dev simulator (`miniflare`) — a devDependency
-never bundled into the deployed Worker. CI runs
-`npm audit --omit=dev --audit-level=high`, which is clean; the full
-(including dev) audit will keep showing this until wrangler ships a fix
-upstream.
+The earlier dev-only `sharp`/`miniflare` advisory is resolved (wrangler
+4.149 pulls a patched sharp). What remains is GHSA-6qxp-vccf-f47h in the
+MCP SDK's OAuth *client*, which the advisory says does not affect
+SDK-built MCP servers like this one; patched releases exist but
+`agents` pins the SDK exactly, so it is carried in
+`audit-allowlist.json` with a reason and a short expiry. CI runs
+`node ../scripts/audit-gate.mjs --omit-dev --allowlist=./audit-allowlist.json`.
 
 ## First-time setup
 

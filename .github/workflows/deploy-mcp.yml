@@ -35,12 +35,14 @@ jobs:
       - name: Type-check
         run: npx tsc --noEmit
 
-      # --omit=dev: wrangler's own local-dev toolchain (miniflare -> sharp)
-      # carries a known high-severity advisory with no non-breaking fix
-      # upstream yet; it never ships in the deployed Worker bundle, only
-      # runtime (production) deps do. See mcp-server/README.md.
+      # Runtime (production) dependencies only: wrangler's own local-dev
+      # toolchain (miniflare -> sharp) carries an advisory that never
+      # ships in the deployed Worker bundle. Goes through the shared gate
+      # (not a bare `npm audit`) so an advisory with no clean fix can be
+      # accepted individually, with a reason and expiry, in
+      # mcp-server/audit-allowlist.json. See mcp-server/README.md.
       - name: Audit production dependencies
-        run: npm audit --omit=dev --audit-level=high
+        run: node ../scripts/audit-gate.mjs --omit-dev --allowlist=./audit-allowlist.json
 
       - name: Deploy to Cloudflare Workers
         uses: cloudflare/wrangler-action@953926a2e2182532811c01a25e53647d93bf07c0 # v4
