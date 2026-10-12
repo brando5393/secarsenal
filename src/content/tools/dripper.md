@@ -3,7 +3,7 @@ name: "dripper"
 tagline: "A fast, asynchronous DNS scanner; it can be used for enumerating subdomains and enumerating boxes via reverse DNS."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://www.blackhatlibrary.net/Dripper"
 commonlyOn: ["BlackArch"]

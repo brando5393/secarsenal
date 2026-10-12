@@ -3,7 +3,7 @@ name: "exabgp"
 tagline: "The BGP swiss army knife of networking."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/Exa-Networks/exabgp"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "arpoison"
 tagline: "The UNIX arp cache update utility."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "http://www.arpoison.net/"
 commonlyOn: ["BlackArch"]

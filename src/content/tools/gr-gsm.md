@@ -3,7 +3,7 @@ name: "gr-gsm"
 tagline: "Gnuradio blocks and tools for receiving GSM transmissions."
 categories: ["radio"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/radio.html"
 downloadUrl: "https://github.com/ptrkrysik/gr-gsm"
 commonlyOn: ["BlackArch"]

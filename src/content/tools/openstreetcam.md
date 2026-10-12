@@ -3,7 +3,7 @@ name: "OpenStreetCam"
 tagline: "KartaView crowdsourced street-level imagery platform for geospatial verification."
 categories: ["geolocation-tools-maps"]
 platforms: ["Web"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://kartaview.org/"
 commonlyOn: []
 gettingStarted: "Best for: Street-level image review outside mainstream Street View coverage. See the official site linked above for details."

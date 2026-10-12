@@ -3,7 +3,7 @@ name: "pret"
 tagline: "Printer Exploitation Toolkit - The tool that made dumpster diving obsolete."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/RUB-NDS/PRET"
 commonlyOn: ["BlackArch"]

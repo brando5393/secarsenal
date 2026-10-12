@@ -4,7 +4,7 @@ tagline: "Analyze Cobalt Strike beacons."
 categories: ["deobfuscation"]
 platforms: ["Linux"]
 license: "Apache License 2.0"
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/deobfuscation"
 downloadUrl: "https://github.com/strozfriedberg/cobaltstrike-config-extractor"
 commonlyOn: ["REMnux"]

@@ -3,7 +3,7 @@ name: "0trace"
 tagline: "Traceroute tool that can run within an existing TCP connection"
 categories: ["system-network-configuration-discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/0trace/"
 downloadUrl: "https://lcamtuf.coredump.cx"
 repoUrl: "https://gitlab.com/kalilinux/packages/0trace"

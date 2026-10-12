@@ -3,7 +3,7 @@ name: "bunny"
 tagline: "A closed loop, high-performance, general purpose protocol-blind fuzzer for C programs."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://code.google.com/p/bunny-the-fuzzer/"
 commonlyOn: ["BlackArch"]

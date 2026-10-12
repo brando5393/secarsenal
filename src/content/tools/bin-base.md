@@ -3,7 +3,7 @@ name: "BIN Base"
 tagline: "Business Identification Number database for company registration lookups. Provides business registration and compliance information."
 categories: ["public-records"]
 platforms: ["Web"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.buybindatabase.binbase.com/"
 commonlyOn: []
 gettingStarted: "Best for: Business registration verification. See the official site linked above for details."

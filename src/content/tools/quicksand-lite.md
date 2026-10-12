@@ -3,7 +3,7 @@ name: "quicksand-lite"
 tagline: "Command line tool for scanning streams within office documents plus xor db attack."
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://github.com/tylabs/quicksand_lite"
 commonlyOn: ["BlackArch"]

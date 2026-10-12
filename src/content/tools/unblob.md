@@ -3,7 +3,7 @@ name: "unblob"
 tagline: "Accurate, fast, and easy-to-use extraction suite (Python 3)"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/unblob/"
 downloadUrl: "https://unblob.org/"
 repoUrl: "https://gitlab.com/kalilinux/packages/unblob"

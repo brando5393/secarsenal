@@ -3,7 +3,7 @@ name: "cheat-sh"
 tagline: "The only cheat sheet you need."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://cheat.sh"
 commonlyOn: ["BlackArch"]

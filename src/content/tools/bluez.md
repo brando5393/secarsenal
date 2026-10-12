@@ -3,7 +3,7 @@ name: "bluez"
 tagline: "Bluetooth tools and daemons"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/bluez/"
 downloadUrl: "http://www.bluez.org"
 repoUrl: "https://salsa.debian.org/bluetooth-team/bluez"

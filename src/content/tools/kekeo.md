@@ -3,7 +3,7 @@ name: "kekeo"
 tagline: "A little toolbox to play with Microsoft Kerberos in C."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/gentilkiwi/kekeo"
 commonlyOn: ["BlackArch"]

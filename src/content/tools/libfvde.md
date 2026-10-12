@@ -3,7 +3,7 @@ name: "libfvde"
 tagline: "Library and tools to access FileVault Drive Encryption (FVDE) encrypted volumes."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/libyal/libfvde"
 commonlyOn: ["BlackArch"]

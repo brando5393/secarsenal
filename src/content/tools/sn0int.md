@@ -3,7 +3,7 @@ name: "sn0int"
 tagline: "Semi-automatic OSINT framework and package manager"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/sn0int/"
 downloadUrl: "https://github.com/kpcyrd/sn0int"
 repoUrl: "https://gitlab.com/kalilinux/packages/sn0int"

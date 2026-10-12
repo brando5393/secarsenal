@@ -3,7 +3,7 @@ name: "coercer"
 tagline: "Coerce a Windows server to authenticate on an arbitrary machine"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/coercer/"
 downloadUrl: "https://github.com/p0dalirius/Coercer"
 repoUrl: "https://gitlab.com/kalilinux/packages/coercer"

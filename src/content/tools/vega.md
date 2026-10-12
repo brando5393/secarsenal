@@ -3,7 +3,7 @@ name: "vega"
 tagline: "An open source platform to test the security of web applications"
 categories: ["webapps"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://archstrike.org/packages/vega"
 downloadUrl: "https://github.com/subgraph/Vega"
 commonlyOn: ["ArchStrike"]

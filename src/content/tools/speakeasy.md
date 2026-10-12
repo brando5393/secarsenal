@@ -4,7 +4,7 @@ tagline: "Emulate code execution, including shellcode, Windows drivers, and Wind
 categories: ["pe-files"]
 platforms: ["Linux"]
 license: "MIT License"
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/statically+analyze+code/pe-files"
 downloadUrl: "https://github.com/mandiant/speakeasy"
 commonlyOn: ["REMnux"]

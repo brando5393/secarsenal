@@ -3,7 +3,7 @@ name: "grr"
 tagline: "High-throughput fuzzer and emulator of DECREE binaries."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://github.com/trailofbits/grr"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "pev"
 tagline: "Command line based tool for PE32/PE32+ file analysis."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "http://pev.sourceforge.net/"
 commonlyOn: ["BlackArch"]

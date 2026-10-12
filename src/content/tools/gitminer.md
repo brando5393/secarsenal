@@ -3,7 +3,7 @@ name: "gitminer"
 tagline: "Tool for advanced mining of sensitive content on Github."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/UnkL4b/Gitminer3"
 commonlyOn: ["BlackArch"]

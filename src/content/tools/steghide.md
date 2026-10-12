@@ -3,7 +3,7 @@ name: "steghide"
 tagline: "Steganography hiding tool"
 categories: ["defense-evasion"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/steghide/"
 downloadUrl: "https://steghide.sourceforge.net/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/steghide"

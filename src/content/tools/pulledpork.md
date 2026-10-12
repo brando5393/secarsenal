@@ -3,7 +3,7 @@ name: "pulledpork"
 tagline: "Snort rule management."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/shirkdog/pulledpork"
 commonlyOn: ["BlackArch"]

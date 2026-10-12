@@ -3,7 +3,7 @@ name: "timegen"
 tagline: "This program generates a *.wav file to \"send\" an own time signal to DCF77 compatible devices."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "https://bastianborn.de/radio-clock-hack/"
 commonlyOn: ["BlackArch"]

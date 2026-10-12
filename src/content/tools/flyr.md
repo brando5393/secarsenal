@@ -3,7 +3,7 @@ name: "flyr"
 tagline: "Block-based software vulnerability fuzzing framework."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://github.com/zznop/flyr"
 commonlyOn: ["BlackArch"]

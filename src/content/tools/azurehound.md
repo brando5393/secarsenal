@@ -3,7 +3,7 @@ name: "azurehound"
 tagline: "BloodHound data collector for Microsoft Azure (program)"
 categories: ["active-directory"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/azurehound/"
 downloadUrl: "https://github.com/SpecterOps/AzureHound"
 repoUrl: "https://gitlab.com/kalilinux/packages/azurehound"

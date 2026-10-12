@@ -3,7 +3,7 @@ name: "roguehostapd"
 tagline: "Hostapd fork including Wi-Fi attacks and providing Python bindings with ctypes."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "https://github.com/wifiphisher/roguehostapd"
 commonlyOn: ["BlackArch"]

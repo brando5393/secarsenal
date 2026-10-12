@@ -3,7 +3,7 @@ name: "OpenInfrastructureMap"
 tagline: "OSM-derived map overlays for power, telecom, water, and industrial infrastructure."
 categories: ["geolocation-tools-maps"]
 platforms: ["Web"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://openinframap.org/"
 commonlyOn: []
 gettingStarted: "Best for: Infrastructure mapping across energy and utility networks. See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "fuzzdb"
 tagline: "Attack and Discovery Pattern Dictionary for Application Fault Injection Testing."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://github.com/fuzzdb-project/fuzzdb"
 commonlyOn: ["BlackArch"]

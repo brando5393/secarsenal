@@ -3,7 +3,7 @@ name: "distorm3"
 tagline: "Powerful disassembler library for x86/AMD64 binary streams (runtime)"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/distorm3/"
 downloadUrl: "https://github.com/gdabah/distorm"
 repoUrl: "https://salsa.debian.org/debian/distorm3"

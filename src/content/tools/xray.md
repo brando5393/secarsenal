@@ -3,7 +3,7 @@ name: "xray"
 tagline: "A tool for recon, mapping and OSINT gathering from public networks."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/evilsocket/xray"
 commonlyOn: ["BlackArch"]

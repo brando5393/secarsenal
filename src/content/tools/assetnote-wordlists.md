@@ -3,7 +3,7 @@ name: "assetnote-wordlists"
 tagline: "Assetnote generated wordlists."
 categories: ["wordlist"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/wordlist.html"
 downloadUrl: "https://github.com/assetnote/wordlists"
 commonlyOn: ["BlackArch"]

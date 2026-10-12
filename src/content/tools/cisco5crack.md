@@ -3,7 +3,7 @@ name: "cisco5crack"
 tagline: "Crypt and decrypt the cisco enable 5 passwords."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/madrisan/cisco5crack"
 commonlyOn: ["BlackArch"]

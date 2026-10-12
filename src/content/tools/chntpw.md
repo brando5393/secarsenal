@@ -3,7 +3,7 @@ name: "chntpw"
 tagline: "NT SAM password recovery utility"
 categories: ["os-credential-dumping"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/chntpw/"
 downloadUrl: "http://pogostick.net/~pnh/ntpasswd/"
 repoUrl: "https://salsa.debian.org/debian/chntpw"

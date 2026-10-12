@@ -3,7 +3,7 @@ name: "sshscan"
 tagline: "A horizontal SSH scanner that scans large swaths of IPv4 space for a single SSH user and pass."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/getdual/scripts-n-tools/blob/master/sshscan.py"
 commonlyOn: ["BlackArch"]

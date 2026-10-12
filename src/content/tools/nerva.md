@@ -3,7 +3,7 @@ name: "nerva"
 tagline: "Fast service fingerprinting CLI for 170+ protocols (TCP/UDP/SCTP)."
 categories: ["fingerprint"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/fingerprint.html"
 downloadUrl: "https://github.com/praetorian-inc/nerva"
 commonlyOn: ["BlackArch"]

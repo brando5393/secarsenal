@@ -3,7 +3,7 @@ name: "clamav"
 tagline: "Anti-virus utility for Unix - command-line interface"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/clamav/"
 downloadUrl: "https://www.clamav.net/"
 repoUrl: "https://salsa.debian.org/clamav-team/clamav"

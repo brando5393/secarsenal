@@ -3,7 +3,7 @@ name: "secscan"
 tagline: "Web Apps Scanner and Much more utilities."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://code.google.com/archive/p/secscan-py/"
 commonlyOn: ["BlackArch"]

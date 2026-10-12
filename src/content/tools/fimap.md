@@ -3,7 +3,7 @@ name: "fimap"
 tagline: "A little tool for local and remote file inclusion auditing and exploitation."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://gitlab.tha-imax.de/root/fimap"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "netscanner"
 tagline: "Network scanner & diagnostic tool with modern TUI"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/netscanner/"
 downloadUrl: "https://github.com/Chleba/netscanner"
 repoUrl: "https://gitlab.com/kalilinux/packages/netscanner"

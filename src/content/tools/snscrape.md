@@ -3,7 +3,7 @@ name: "snscrape"
 tagline: "A social networking service scraper in Python."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/JustAnotherArchivist/snscrape"
 commonlyOn: ["BlackArch"]

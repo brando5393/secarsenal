@@ -3,7 +3,7 @@ name: "eapeak"
 tagline: "Analysis Suite For EAP Enabled Wireless Networks."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "https://github.com/securestate/eapeak"
 commonlyOn: ["BlackArch"]

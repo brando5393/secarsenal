@@ -3,7 +3,7 @@ name: "delorean"
 tagline: "NTP Main-in-the-Middle tool."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/PentesterES/Delorean"
 commonlyOn: ["BlackArch"]

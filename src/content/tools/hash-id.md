@@ -4,7 +4,7 @@ tagline: "Identify different types of hashes."
 categories: ["general"]
 platforms: ["Linux"]
 license: "GNU General Public License (GPL) v3"
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/general"
 downloadUrl: "https://github.com/blackploit/hash-identifier"
 commonlyOn: ["REMnux"]

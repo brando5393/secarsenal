@@ -3,7 +3,7 @@ name: "hyperfox"
 tagline: "A security tool for proxying and recording HTTP and HTTPs traffic."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/xiam/hyperfox"
 commonlyOn: ["BlackArch"]

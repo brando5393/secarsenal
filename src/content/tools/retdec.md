@@ -3,7 +3,7 @@ name: "retdec"
 tagline: "Retargetable machine-code decompiler based on LLVM."
 categories: ["decompiler"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/decompiler.html"
 downloadUrl: "https://retdec.com/"
 commonlyOn: ["BlackArch"]

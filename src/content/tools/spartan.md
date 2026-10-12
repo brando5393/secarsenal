@@ -3,7 +3,7 @@ name: "spartan"
 tagline: "Frontpage and Sharepoint fingerprinting and attack tool."
 categories: ["fingerprint"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/fingerprint.html"
 downloadUrl: "https://github.com/sensepost/SPartan"
 commonlyOn: ["BlackArch"]

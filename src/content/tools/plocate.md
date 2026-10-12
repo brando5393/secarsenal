@@ -3,7 +3,7 @@ name: "plocate"
 tagline: "Much faster locate"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/plocate/"
 downloadUrl: "https://plocate.sesse.net/"
 repoUrl: "https://pkg.kali.org/pkg/plocate"

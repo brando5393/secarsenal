@@ -3,7 +3,7 @@ name: "cupp-git"
 tagline: "Common User Password Profiler"
 categories: ["crackers"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://archstrike.org/packages/cupp-git"
 downloadUrl: "https://github.com/Mebus/cupp"
 commonlyOn: ["ArchStrike"]

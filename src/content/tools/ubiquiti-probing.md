@@ -3,7 +3,7 @@ name: "ubiquiti-probing"
 tagline: "A Ubiquiti device discovery tool."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/headlesszeke/ubiquiti-probing"
 commonlyOn: ["BlackArch"]

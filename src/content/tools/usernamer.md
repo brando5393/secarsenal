@@ -3,7 +3,7 @@ name: "usernamer"
 tagline: "Pentest Tool to generate usernames/logins based on supplied names."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/jseidl/usernamer"
 commonlyOn: ["BlackArch"]

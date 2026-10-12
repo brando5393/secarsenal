@@ -3,7 +3,7 @@ name: "ssma-git"
 tagline: "Simple Static Malware Analyzer"
 categories: ["analysis"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://archstrike.org/packages/ssma-git"
 downloadUrl: "https://github.com/secrary/SSMA"
 commonlyOn: ["ArchStrike"]

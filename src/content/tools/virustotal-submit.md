@@ -4,7 +4,7 @@ tagline: "Submit files to VirusTotal."
 categories: ["gather-and-analyze-data"]
 platforms: ["Linux"]
 license: "Public Domain"
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/gather+and+analyze+data"
 downloadUrl: "https://blog.didierstevens.com/programs/virustotal-tools/"
 commonlyOn: ["REMnux"]

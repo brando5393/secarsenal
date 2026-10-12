@@ -4,7 +4,7 @@ tagline: "Supply a password to SSH non-interactively for automated logins."
 categories: ["general-utilities"]
 platforms: ["Linux"]
 license: "GPLv2"
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/general+utilities"
 downloadUrl: "https://sourceforge.net/projects/sshpass/"
 commonlyOn: ["REMnux"]

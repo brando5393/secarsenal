@@ -3,7 +3,7 @@ name: "jexboss"
 tagline: "Jboss verify and Exploitation Tool."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/joaomatosf/jexboss"
 commonlyOn: ["BlackArch"]

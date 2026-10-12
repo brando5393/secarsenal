@@ -3,7 +3,7 @@ name: "waybackurls"
 tagline: "Fetch all the URLs that the Wayback Machine knows about for a domain."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/tomnomnom/waybackurls"
 commonlyOn: ["BlackArch"]

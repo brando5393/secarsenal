@@ -4,7 +4,7 @@ tagline: "Examine elements of the PDF file."
 categories: ["pdf"]
 platforms: ["Linux"]
 license: "Public Domain"
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/analyze+documents/pdf"
 downloadUrl: "https://blog.didierstevens.com/programs/pdf-tools/"
 commonlyOn: ["REMnux"]

@@ -4,7 +4,7 @@ tagline: "Analyze I/O operations of a suspicious PE file by emulating its execut
 categories: ["pe-files"]
 platforms: ["Linux"]
 license: "GNU General Public License (GPL) v2"
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/statically+analyze+code/pe-files"
 downloadUrl: "https://github.com/carbonblack/binee"
 commonlyOn: ["REMnux"]

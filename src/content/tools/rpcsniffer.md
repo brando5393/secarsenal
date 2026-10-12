@@ -3,7 +3,7 @@ name: "rpcsniffer"
 tagline: "Sniffs WINDOWS RPC messages in a given RPC server process."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/AdiKo/RPCSniffer"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "spfmap"
 tagline: "A program to map out SPF and DKIM records for a large number of domains."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/BishopFox/spfmap"
 commonlyOn: ["BlackArch"]

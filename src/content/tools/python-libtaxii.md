@@ -3,7 +3,7 @@ name: "python-libtaxii"
 tagline: "TAXII Library."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://archstrike.org/packages/python-libtaxii"
 downloadUrl: "https://github.com/TAXIIProject/libtaxii"
 commonlyOn: ["ArchStrike"]

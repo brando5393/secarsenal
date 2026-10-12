@@ -3,9 +3,9 @@ name: "legba"
 tagline: "Multiprotocol credentials bruteforcer / password sprayer and enumerator"
 categories: ["brute-force"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/legba/"
-downloadUrl: "https://github.com/maaaaz/webscreenshot"
+downloadUrl: "https://github.com/evilsocket/legba"
 repoUrl: "https://gitlab.com/kalilinux/packages/legba"
 commonlyOn: ["Kali Linux"]
 gettingStarted: "Install on Kali Linux with `sudo apt install legba`. See the official Kali tool page and upstream homepage linked above for full usage and configuration details."

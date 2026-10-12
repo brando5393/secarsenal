@@ -3,7 +3,7 @@ name: "arpstraw"
 tagline: "Arp spoof detection tool."
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://github.com/he2ss/arpstraw"
 commonlyOn: ["BlackArch"]

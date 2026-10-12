@@ -3,7 +3,7 @@ name: "sucrack"
 tagline: "Multithreaded su bruteforcer"
 categories: ["password-cracking"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/sucrack/"
 downloadUrl: "https://labs.portcullis.co.uk/tools/sucrack/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/sucrack"

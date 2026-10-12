@@ -3,9 +3,9 @@ name: "expect"
 tagline: "Automates interactive applications"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-01
 docsUrl: "https://www.kali.org/tools/expect/"
-downloadUrl: "https://core.tcl.tk/expect/"
+downloadUrl: "https://core.tcl-lang.org/expect/home"
 repoUrl: "https://salsa.debian.org/tcltk-team/expect"
 commonlyOn: ["Kali Linux"]
 gettingStarted: "See the official Kali tool page and upstream homepage linked above for installation and usage details."
