@@ -179,7 +179,14 @@ The two collections are sourced very differently:
   reset is "unverifiable" and the entry is kept, because the sync runs
   on GitHub's datacenter IPs and plenty of live sites (Shodan,
   Etherscan, Google Scholar, ...) refuse those. The scheduled run that
-  prompted this rule proposed deleting 32 live entries.
+  prompted this rule proposed deleting 32 live entries. The scripts that
+  only decide whether to *show* a homepage link (BlackArch, ArchStrike,
+  REMnux, Tails, FLARE VM, Security Onion) use a different bar, because
+  the entry survives either way: the link is shown if it verified or if
+  the server answered but refused the bot (401/403/429/451, which a dead
+  site doesn't send), and hidden on a timeout, reset, or 5xx, which a
+  blocker and a dead server produce identically. Deleting needs proof of
+  death; showing a link needs evidence of life.
 - **OS entries:** `npm run check-links` checks every URL for
   reachability and flags anything not verified in 180+ days.
   [`freshness-check.yml`](.github/workflows/freshness-check.yml) runs

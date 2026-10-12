@@ -15,7 +15,7 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import * as cheerio from 'cheerio';
-import { readManifest, writeManifest, pruneStale, mapWithConcurrency, isUrlReachable, ensureAutoSyncedTag } from './sync-utils.mjs';
+import { readManifest, writeManifest, pruneStale, mapWithConcurrency, isUrlPlausiblyLive, ensureAutoSyncedTag } from './sync-utils.mjs';
 
 const INDEX_URL = 'https://docs.securityonion.net/en/2.4/tools.html';
 const BASE_URL = 'https://docs.securityonion.net/en/2.4/';
@@ -130,7 +130,7 @@ async function main() {
       continue;
     }
     if (tool.homepage) {
-      const ok = await isUrlReachable(tool.homepage);
+      const ok = await isUrlPlausiblyLive(tool.homepage);
       if (!ok) tool.homepage = undefined;
     }
     writeFileSync(join(CONTENT_DIR, `${slug}.md`), toMarkdown(tool), 'utf8');
