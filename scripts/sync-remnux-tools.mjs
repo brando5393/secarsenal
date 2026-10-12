@@ -13,7 +13,7 @@
 // one of them only ever deletes files it previously created itself.
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { readManifest, writeManifest, pruneStale, mapWithConcurrency, isUrlReachable, ensureAutoSyncedTag } from './sync-utils.mjs';
+import { readManifest, writeManifest, pruneStale, mapWithConcurrency, isUrlPlausiblyLive, ensureAutoSyncedTag } from './sync-utils.mjs';
 
 const DOCS_BASE = 'https://docs.remnux.org';
 const CONTENT_DIR = join('src', 'content', 'tools');
@@ -179,7 +179,7 @@ async function main() {
   let deadWebsites = 0;
   await mapWithConcurrency(candidates, HOMEPAGE_CHECK_CONCURRENCY, async (candidate) => {
     if (candidate.tool.website) {
-      const ok = await isUrlReachable(candidate.tool.website);
+      const ok = await isUrlPlausiblyLive(candidate.tool.website);
       if (!ok) {
         candidate.tool.website = undefined;
         deadWebsites++;
@@ -200,7 +200,7 @@ async function main() {
   console.log(
     `\nWrote ${written.length} REMnux-exclusive tool entries to ${CONTENT_DIR}` +
       ` (skipped ${skippedClaimed} already covered by Kali/BlackArch, ${skippedDuplicate} duplicate names, ` +
-      `omitted ${deadWebsites} dead website link${deadWebsites === 1 ? '' : 's'}` +
+      `omitted ${deadWebsites} unreachable website link${deadWebsites === 1 ? '' : 's'}` +
       `${removed ? `, removed ${removed} stale entr${removed === 1 ? 'y' : 'ies'}` : ''}).`
   );
 }

@@ -14,7 +14,7 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import * as cheerio from 'cheerio';
-import { readManifest, writeManifest, pruneStale, mapWithConcurrency, isUrlReachable, ensureAutoSyncedTag } from './sync-utils.mjs';
+import { readManifest, writeManifest, pruneStale, mapWithConcurrency, isUrlPlausiblyLive, ensureAutoSyncedTag } from './sync-utils.mjs';
 
 const TOOLS_PAGE = 'https://blackarch.org/tools.html';
 const CONTENT_DIR = join('src', 'content', 'tools');
@@ -138,7 +138,7 @@ async function main() {
   let deadHomepages = 0;
   await mapWithConcurrency(candidates, HOMEPAGE_CHECK_CONCURRENCY, async (candidate) => {
     if (candidate.row.homepage) {
-      const ok = await isUrlReachable(candidate.row.homepage);
+      const ok = await isUrlPlausiblyLive(candidate.row.homepage);
       if (!ok) {
         candidate.row.homepage = undefined;
         deadHomepages++;
@@ -177,7 +177,7 @@ async function main() {
   console.log(
     `\nWrote ${written.length} BlackArch-exclusive tool entries to ${CONTENT_DIR}` +
       ` (skipped ${skippedKaliOwned} already covered by Kali, ${skippedDuplicate} duplicate names, ` +
-      `omitted ${deadHomepages} dead homepage link${deadHomepages === 1 ? '' : 's'}` +
+      `omitted ${deadHomepages} unreachable homepage link${deadHomepages === 1 ? '' : 's'}` +
       `${removed ? `, removed ${removed} stale entr${removed === 1 ? 'y' : 'ies'}` : ''}).`
   );
 }

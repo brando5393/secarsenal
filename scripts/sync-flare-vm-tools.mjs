@@ -20,7 +20,7 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import * as cheerio from 'cheerio';
-import { readManifest, writeManifest, pruneStale, mapWithConcurrency, isUrlReachable, ensureAutoSyncedTag } from './sync-utils.mjs';
+import { readManifest, writeManifest, pruneStale, mapWithConcurrency, isUrlPlausiblyLive, ensureAutoSyncedTag } from './sync-utils.mjs';
 
 const CONFIG_URL = 'https://raw.githubusercontent.com/mandiant/flare-vm/main/config.xml';
 const NUSPEC_BASE = 'https://raw.githubusercontent.com/mandiant/VM-Packages/main/packages';
@@ -169,7 +169,7 @@ async function main() {
   let deadHomepages = 0;
   await mapWithConcurrency(candidates, FETCH_CONCURRENCY, async (candidate) => {
     if (candidate.skip || !candidate.homepage) return;
-    const ok = await isUrlReachable(candidate.homepage);
+    const ok = await isUrlPlausiblyLive(candidate.homepage);
     if (!ok) {
       candidate.homepage = undefined;
       deadHomepages++;
@@ -197,7 +197,7 @@ async function main() {
   console.log(
     `\nWrote ${written.length} FLARE VM-exclusive tool entries to ${CONTENT_DIR}` +
       ` (skipped ${skippedClaimed} already covered, ${missingNuspec} missing nuspec, ` +
-      `omitted ${deadHomepages} dead homepage link${deadHomepages === 1 ? '' : 's'}` +
+      `omitted ${deadHomepages} unreachable homepage link${deadHomepages === 1 ? '' : 's'}` +
       `${removed ? `, removed ${removed} stale entr${removed === 1 ? 'y' : 'ies'}` : ''}).`
   );
 }

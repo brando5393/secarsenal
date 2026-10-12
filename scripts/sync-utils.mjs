@@ -235,19 +235,45 @@ export function classifyError(err) {
   return code === 'ENOTFOUND' || code === 'ECONNREFUSED' || code === 'ENODATA' ? 'dead' : 'unknown';
 }
 
-export async function checkUrl(url, timeoutMs = 8_000) {
+async function probe(url, timeoutMs) {
   const pre = await preflight(url);
-  if (pre !== 'ok') return pre;
+  if (pre !== 'ok') return { state: pre };
   try {
     let result = await attempt(url, timeoutMs);
     if (!result.ok && result.status === 429) {
       await sleep(3_000 + Math.random() * 2_000);
       result = await attempt(url, timeoutMs);
     }
-    return result.ok ? 'alive' : classifyStatus(result.status);
+    return result.ok ? { state: 'alive' } : { state: classifyStatus(result.status), status: result.status };
   } catch (err) {
-    return classifyError(err);
+    return { state: classifyError(err) };
   }
+}
+
+export async function checkUrl(url, timeoutMs = 8_000) {
+  return (await probe(url, timeoutMs)).state;
+}
+
+// The server answered, it just won't serve *us*: auth required, forbidden,
+// rate-limited, or legally blocked. That is positive evidence the host is
+// alive (a dead site doesn't send a 403), unlike a timeout or reset, which
+// a blocker and a dead server produce identically.
+const RESTRICTED_STATUSES = new Set([401, 403, 429, 451]);
+export function isRestrictedStatus(status) {
+  return RESTRICTED_STATUSES.has(status);
+}
+
+// For callers where the question is "should this homepage link be shown?"
+// (the entry survives either way) rather than "should this entry exist?".
+// Shown if it verified, or if the host answered but refused us. Hidden for
+// anything that could just as well be a dead server (timeout, reset, 5xx,
+// TLS error) so the catalog doesn't start publishing links to sites that
+// are probably down. Contrast checkUrl(), whose 'dead' bar is what
+// entry-deleting callers use: deleting needs proof of death, showing a
+// link needs evidence of life.
+export async function isUrlPlausiblyLive(url, timeoutMs = 8_000) {
+  const r = await probe(url, timeoutMs);
+  return r.state === 'alive' || isRestrictedStatus(r.status);
 }
 
 // Boolean form kept for callers where a failed check only means "don't

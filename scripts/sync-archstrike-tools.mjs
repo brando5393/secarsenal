@@ -16,7 +16,7 @@
 import { mkdirSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import * as cheerio from 'cheerio';
-import { readManifest, writeManifest, pruneStale, mapWithConcurrency, isUrlReachable, ensureAutoSyncedTag } from './sync-utils.mjs';
+import { readManifest, writeManifest, pruneStale, mapWithConcurrency, isUrlPlausiblyLive, ensureAutoSyncedTag } from './sync-utils.mjs';
 
 const PACKAGES_BASE = 'https://archstrike.org/packages';
 const PKGBUILD_BASE = 'https://raw.githubusercontent.com/ArchStrike/ArchStrike/master/archstrike';
@@ -162,7 +162,7 @@ async function main() {
   let deadHomepages = 0;
   await mapWithConcurrency(candidates, FETCH_CONCURRENCY, async (candidate) => {
     if (candidate.homepage) {
-      const ok = await isUrlReachable(candidate.homepage);
+      const ok = await isUrlPlausiblyLive(candidate.homepage);
       if (!ok) {
         candidate.homepage = undefined;
         deadHomepages++;
@@ -190,7 +190,7 @@ async function main() {
   console.log(
     `\nWrote ${written.length} ArchStrike-exclusive tool entries to ${CONTENT_DIR}` +
       ` (skipped ${skippedClaimed} already covered, ${skippedDuplicate} duplicate names, ` +
-      `omitted ${deadHomepages} dead homepage link${deadHomepages === 1 ? '' : 's'}` +
+      `omitted ${deadHomepages} unreachable homepage link${deadHomepages === 1 ? '' : 's'}` +
       `${removed ? `, removed ${removed} stale entr${removed === 1 ? 'y' : 'ies'}` : ''}).`
   );
 }
