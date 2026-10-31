@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./public/og-image.png" alt="SecArsenal — penetration-testing operating systems and tools, cataloged from official sources" width="600">
+  <img src="./public/og-image.png" alt="SecArsenal â€” penetration-testing operating systems and tools, cataloged from official sources" width="600">
 </p>
 
 <p align="center">
@@ -30,7 +30,7 @@ npm run check-links   # verify every content entry's URLs are reachable
                        # and flag entries not verified in 180+ days
 ```
 
-Requires Node >= 22.12 (see `engines` in `package.json`).
+Requires Node >= 22.12 (see `engines` in `package.json`). Astro 7.4+ needs >= 22.23.4, so `amplify.yml` pins the hosted build to Node 22.23.4; use the same locally if the build complains.
 
 ## Stack
 
@@ -246,9 +246,9 @@ but isn't the active plan.
 
 Response headers (`SECURITY.md`) are set via `customHttp.yml`, which
 Amplify reads automatically on every build. Redirects (the
-`/<*> → /404.html` fallback) aren't git-managed. Amplify has no
+`/<*> â†’ /404.html` fallback) aren't git-managed. Amplify has no
 repo-file equivalent, so that rule lives only in the console (Hosting
-→ Rewrites and redirects) and would need re-adding if the app were
+â†’ Rewrites and redirects) and would need re-adding if the app were
 ever recreated.
 
 ## Public MCP server
