@@ -15,6 +15,8 @@ one line per month. See CONTRIBUTING.md.
 ## 2026-10-31
 
 ### Added
+- `amplify.yml` pins the Amplify build to Node 22.23.4 (the console default
+  is 22.18.0), a prerequisite for astro 7.4+ (#50).
 - This changelog, a PR-template checkbox, and a standing rule in
   CONTRIBUTING.md, AGENTS.md, and CLAUDE.md to update it with every change
   (#55).
