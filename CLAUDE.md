@@ -26,9 +26,3 @@ Consult these guides before working on related tasks:
 Before finishing any task that changes code, workflows, scripts, or docs
 policy, add an entry to `CHANGELOG.md` (see CONTRIBUTING.md, "Changelog").
 Do this in the same PR as the change, not afterward.
-
-## Changelog
-
-Before finishing any task that changes code, workflows, scripts, or docs
-policy, add an entry to `CHANGELOG.md` (see CONTRIBUTING.md, "Changelog").
-Do this in the same PR as the change, not afterward.
