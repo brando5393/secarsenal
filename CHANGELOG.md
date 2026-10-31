@@ -14,6 +14,11 @@ one line per month. See CONTRIBUTING.md.
 
 ## 2026-10-31
 
+### Added
+- This changelog, a PR-template checkbox, and a standing rule in
+  CONTRIBUTING.md, AGENTS.md, and CLAUDE.md to update it with every change
+  (#55).
+
 ### Fixed
 - Dependency advisories: patched undici and zod, and removed the `braces`
   audit exception because GitHub withdrew that advisory on 2026-10-23
