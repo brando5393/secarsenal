@@ -1,10 +1,1 @@
-[
-  {
-    "id": "GHSA-vfj7-8cjw-p6xm",
-    "package": "braces",
-    "severity": "high",
-    "reviewed": "2026-10-11",
-    "expires": "2026-12-31",
-    "reason": "Stack-exhaustion DoS via deeply nested brace patterns (CWE-674, CVSS 7.5). No patched version exists: the advisory covers every published braces release (<= 3.0.3, first_patched_version null). Reachable only through tailwindcss@3.4.19 -> chokidar/micromatch, and the glob patterns it processes come exclusively from the committed `content` array in tailwind.config.cjs, so no untrusted input can reach it; it is build-time tooling that never ships in the static site. The only upstream escape is leaving Tailwind 3 (Tailwind 4 drops this dependency chain), which is a deliberate migration, not a dependency bump. Expires so this gets re-reviewed rather than forgotten."
-  }
-]
+[]

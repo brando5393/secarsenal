@@ -101,13 +101,15 @@ blocking the page. Clearing browser data for the site resets both.
   no available fix can be accepted only via an entry in
   `scripts/audit-allowlist.json`, which requires a written reason and an
   expiry date; the gate fails on an expired entry and flags a stale one
-  (advisory gone) for deletion. Currently accepted: `braces`
-  (GHSA-vfj7-8cjw-p6xm), a stack-exhaustion DoS with **no patched
-  release on npm** (the advisory covers every published version). It's
-  reachable only through `tailwindcss@3.4.19` and only with glob
-  patterns from the committed `content` array in `tailwind.config.cjs`,
-  and it never ships in the static site. Exit: moving to Tailwind 4,
-  which drops that dependency chain, or a patched `braces`.
+  (advisory gone) for deletion. The main site's allowlist is currently
+  empty. Its one past entry, `braces` (GHSA-vfj7-8cjw-p6xm), was removed
+  2026-10-31 because GitHub **withdrew the advisory** on 2026-10-23, not
+  because anything was fixed: no patched `braces` was ever released and
+  3.0.3 is still what's installed. (Until then it was accepted as
+  build-time-only, reachable solely via `tailwindcss@3.4.19` with globs
+  from the committed `tailwind.config.cjs`.) `mcp-server/` keeps its own
+  allowlist, `mcp-server/audit-allowlist.json`, gated with
+  `--omit-dev` in its deploy workflow.
 - Dependabot is configured (`.github/dependabot.yml`) for weekly
   dependency update PRs.
 
