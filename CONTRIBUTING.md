@@ -164,3 +164,12 @@ section.
 Use GitHub Issues for broken links, stale entries, sync-script parsing
 bugs, or factual corrections. See `SECURITY.md` for how to report a
 security vulnerability instead of a content issue.
+
+## Changelog
+
+Every PR that changes code, workflows, scripts, or documented policy adds
+an entry to `CHANGELOG.md` in the same PR, under the merge date and a
+Added / Changed / Fixed / Security heading. Dependabot bumps and scheduled
+content syncs can share one line. Catalog content (which OS and tool
+entries exist) is not logged there; the build-time `/changelog` page
+derives it from git history. The PR template carries a checkbox for this.

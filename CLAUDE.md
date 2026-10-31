@@ -20,3 +20,15 @@ Consult these guides before working on related tasks:
 - [Adding or managing content](https://docs.astro.build/en/guides/content-collections/)
 - [Adding styles or using Tailwind](https://docs.astro.build/en/guides/styling/)
 - [Supporting multiple languages](https://docs.astro.build/en/guides/internationalization/)
+
+## Changelog
+
+Before finishing any task that changes code, workflows, scripts, or docs
+policy, add an entry to `CHANGELOG.md` (see CONTRIBUTING.md, "Changelog").
+Do this in the same PR as the change, not afterward.
+
+## Changelog
+
+Before finishing any task that changes code, workflows, scripts, or docs
+policy, add an entry to `CHANGELOG.md` (see CONTRIBUTING.md, "Changelog").
+Do this in the same PR as the change, not afterward.
