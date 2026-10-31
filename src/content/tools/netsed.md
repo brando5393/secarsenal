@@ -3,7 +3,7 @@ name: "netsed"
 tagline: "Network packet-altering stream editor"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/netsed/"
 downloadUrl: "http://silicone.homelinux.org/projects/netsed/"
 repoUrl: "https://salsa.debian.org/debian/netsed"

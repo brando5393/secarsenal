@@ -3,7 +3,7 @@ name: "rizin-cutter"
 tagline: "Reverse engineering platform powered by rizin"
 categories: ["resource-development"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/rizin-cutter/"
 downloadUrl: "https://cutter.re"
 repoUrl: "https://gitlab.com/kalilinux/packages/rizin-cutter"

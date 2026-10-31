@@ -3,7 +3,7 @@ name: "gcat"
 tagline: "A fully featured backdoor that uses Gmail as a C&C server."
 categories: ["malware"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/malware.html"
 downloadUrl: "https://github.com/byt3bl33d3r/gcat"
 commonlyOn: ["BlackArch"]

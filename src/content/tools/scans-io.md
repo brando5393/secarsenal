@@ -3,7 +3,7 @@ name: "Scans.io"
 tagline: "Archive of internet-wide scan data including censys scans and other reconnaissance data."
 categories: ["ip-mac-address"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://scans.io/"
 commonlyOn: []
 gettingStarted: "Best for: Historical internet scan data access. See the official site linked above for details."

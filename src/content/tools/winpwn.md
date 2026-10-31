@@ -3,7 +3,7 @@ name: "winpwn"
 tagline: "Automation for internal Windows Penetrationtest / AD-Security."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/S3cur3Th1sSh1t/WinPwn"
 commonlyOn: ["BlackArch"]

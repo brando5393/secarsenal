@@ -4,7 +4,7 @@ tagline: "Examine, convert, and manipulate PDF files, including extracting embed
 categories: ["pdf"]
 platforms: ["Linux"]
 license: "GNU Affero General Public License (AGPL) v3"
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://docs.remnux.org/discover-the-tools/analyze+documents/pdf"
 downloadUrl: "https://mupdf.com"
 commonlyOn: ["REMnux"]

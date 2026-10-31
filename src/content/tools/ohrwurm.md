@@ -3,7 +3,7 @@ name: "ohrwurm"
 tagline: "RTP fuzzer"
 categories: ["voip"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/ohrwurm/"
 downloadUrl: "http://mazzoo.de/blog/2006/08/25#ohrwurm"
 repoUrl: "https://gitlab.com/kalilinux/packages/ohrwurm"

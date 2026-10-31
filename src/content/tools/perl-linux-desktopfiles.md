@@ -3,7 +3,7 @@ name: "perl-linux-desktopfiles"
 tagline: "Perl module to get and parse the Linux .desktop files"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/perl-linux-desktopfiles"
 downloadUrl: "https://metacpan.org/pod/Linux::DesktopFiles"
 commonlyOn: ["ArchStrike"]

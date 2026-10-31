@@ -3,7 +3,7 @@ name: "spoofy"
 tagline: "Check if a list of domains can be spoofed based on SPF and DMARC records."
 categories: ["spoof"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/spoof.html"
 downloadUrl: "https://github.com/MattKeeley/Spoofy"
 commonlyOn: ["BlackArch"]

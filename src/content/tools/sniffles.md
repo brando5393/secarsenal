@@ -3,7 +3,7 @@ name: "sniffles"
 tagline: "A Packet Capture Generator for IDS and Regular Expression Evaluation."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/petabi/sniffles"
 commonlyOn: ["BlackArch"]

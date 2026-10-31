@@ -3,7 +3,7 @@ name: "jpexs-decompiler"
 tagline: "JPEXS Free Flash Decompiler."
 categories: ["decompiler"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/decompiler.html"
 downloadUrl: "https://github.com/jindrapetrik/jpexs-decompiler"
 commonlyOn: ["BlackArch"]

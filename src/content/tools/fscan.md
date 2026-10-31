@@ -3,7 +3,7 @@ name: "fscan"
 tagline: "A Security Auditing Tool."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/shadow1ng/fscan"
 commonlyOn: ["BlackArch"]

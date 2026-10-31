@@ -3,7 +3,7 @@ name: "LocaBrowser.com"
 tagline: "Browser geolocation testing tool that checks what location data your browser exposes via the HTML5 Geolocation API to websites."
 categories: ["opsec"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.locabrowser.com/"
 commonlyOn: []
 gettingStarted: "Best for: Testing browser geolocation exposure, verifying location permission settings. See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "extractbitlockerkeys"
 tagline: "Script to automatically extract the bitlocker recovery keys from a domain."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/p0dalirius/extractbitlockerkeys"
 commonlyOn: ["BlackArch"]

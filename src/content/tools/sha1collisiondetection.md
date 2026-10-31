@@ -3,7 +3,7 @@ name: "sha1collisiondetection"
 tagline: "Library and command line tool to detect SHA collision in a file"
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/cr-marcstevens/sha1collisiondetection"
 commonlyOn: ["BlackArch"]

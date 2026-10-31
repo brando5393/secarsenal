@@ -3,7 +3,7 @@ name: "unicorn-magic"
 tagline: "Tool for a PowerShell downgrade attack and inject shellcode"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/unicorn-magic/"
 downloadUrl: "https://github.com/trustedsec/unicorn"
 repoUrl: "https://gitlab.com/kalilinux/packages/unicorn-magic"

@@ -3,7 +3,7 @@ name: "pyftpdlib"
 tagline: "Extremely fast and scalable Python FTP server library"
 categories: ["ad","light","osint","web"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/giampaolo/pyftpdlib/"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "wifibroot"
 tagline: "A WiFi Pentest Cracking tool for WPA/WPA2 (Handshake, PMKID, Cracking, EAPOL, Deauthentication)."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "https://github.com/hash3liZer/WiFiBroot"
 commonlyOn: ["BlackArch"]

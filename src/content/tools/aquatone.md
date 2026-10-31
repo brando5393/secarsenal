@@ -3,7 +3,7 @@ name: "aquatone"
 tagline: "A Tool for Domain Flyovers."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/shelld3v/aquatone"
 commonlyOn: ["BlackArch"]

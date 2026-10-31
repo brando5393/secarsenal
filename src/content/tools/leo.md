@@ -3,7 +3,7 @@ name: "leo"
 tagline: "Literate programmer's editor, outliner, and project manager."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/leo-editor/leo-editor/"
 commonlyOn: ["BlackArch"]

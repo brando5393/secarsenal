@@ -3,7 +3,7 @@ name: "arping"
 tagline: "Sends IP and/or ARP pings (to the MAC address)"
 categories: ["remote-system-discovery","discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/arping/"
 downloadUrl: "https://www.habets.pp.se/synscan/programs.php?prog=arping"
 repoUrl: "https://salsa.debian.org/debian/arping"

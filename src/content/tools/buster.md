@@ -3,7 +3,7 @@ name: "buster"
 tagline: "Find emails of a person and return info associated with them."
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://github.com/sham00n/buster"
 commonlyOn: ["BlackArch"]

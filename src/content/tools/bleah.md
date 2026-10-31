@@ -3,7 +3,7 @@ name: "bleah"
 tagline: "A BLE scanner for \"smart\" devices hacking."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/evilsocket/bleah"
 commonlyOn: ["BlackArch"]

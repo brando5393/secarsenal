@@ -3,7 +3,7 @@ name: "dfir-ntfs"
 tagline: "An NTFS parser for digital forensics & incident response."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/msuhanov/dfir_ntfs"
 commonlyOn: ["BlackArch"]

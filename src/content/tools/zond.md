@@ -1,0 +1,15 @@
+---
+name: "zond"
+tagline: "Network scanner that finds hosts, ports and services and matches them against distribution security data."
+categories: ["scanner"]
+platforms: ["Linux"]
+lastVerified: 2026-10-31
+docsUrl: "https://blackarch.org/scanner.html"
+downloadUrl: "https://github.com/zond-rs/zond"
+commonlyOn: ["BlackArch"]
+gettingStarted: "Install on BlackArch with `pacman -S zond` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
+---
+
+Network scanner that finds hosts, ports and services and matches them against distribution security data.
+
+Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

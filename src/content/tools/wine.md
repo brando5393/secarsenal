@@ -4,10 +4,11 @@ tagline: "Run Windows applications."
 categories: ["general"]
 platforms: ["Linux"]
 license: "GNU Lesser General Public License (LGPL) v2.1 or later"
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://docs.remnux.org/discover-the-tools/dynamically+reverse-engineer+code/general"
+downloadUrl: "https://www.winehq.org"
 commonlyOn: ["REMnux"]
-gettingStarted: "Preinstalled on REMnux. See the official REMnux tool listing linked above for details."
+gettingStarted: "Preinstalled on REMnux. See the official REMnux tool listing and upstream website linked above for details."
 ---
 
 Run Windows applications.

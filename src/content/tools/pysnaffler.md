@@ -3,7 +3,7 @@ name: "pysnaffler"
 tagline: "Snaffler. But in python."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/skelsec/pysnaffler"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

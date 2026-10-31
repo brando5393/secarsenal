@@ -3,7 +3,7 @@ name: "ipscan"
 tagline: "A very fast IP address and port scanner."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/angryip/ipscan"
 commonlyOn: ["BlackArch"]

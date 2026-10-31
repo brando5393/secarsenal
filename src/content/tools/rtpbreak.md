@@ -3,7 +3,7 @@ name: "rtpbreak"
 tagline: "Detects, reconstructs, and analyzes RTP sessions"
 categories: ["voip"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/rtpbreak/"
 downloadUrl: "http://dallachiesa.com/code/rtpbreak/"
 repoUrl: "https://gitlab.com/kalilinux/packages/rtpbreak"

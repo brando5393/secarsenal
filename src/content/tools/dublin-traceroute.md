@@ -3,7 +3,7 @@ name: "dublin-traceroute"
 tagline: "NAT-aware multipath tracerouting tool."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/insomniacslk/dublin-traceroute"
 commonlyOn: ["BlackArch"]

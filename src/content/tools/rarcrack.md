@@ -3,7 +3,7 @@ name: "rarcrack"
 tagline: "Password cracker for rar archives"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/rarcrack/"
 downloadUrl: "http://rarcrack.sourceforge.net/"
 repoUrl: "https://salsa.debian.org/salvage-team/rarcrack"

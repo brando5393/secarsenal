@@ -3,7 +3,7 @@ name: "util-linux"
 tagline: "Miscellaneous system utilities"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/util-linux/"
 downloadUrl: "https://github.com/util-linux/util-linux"
 repoUrl: "https://salsa.debian.org/debian/util-linux"

@@ -3,7 +3,7 @@ name: "swaks"
 tagline: "SMTP command-line test tool"
 categories: ["smtp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/swaks/"
 downloadUrl: "https://www.jetmore.org/john/code/swaks/"
 repoUrl: "https://salsa.debian.org/debian/swaks"

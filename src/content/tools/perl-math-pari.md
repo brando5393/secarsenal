@@ -3,7 +3,7 @@ name: "perl-math-pari"
 tagline: "Perl interface to PARI"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/perl-math-pari"
 downloadUrl: "https://metacpan.org/pod/Math::Pari"
 commonlyOn: ["ArchStrike"]

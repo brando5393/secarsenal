@@ -3,7 +3,7 @@ name: "webspa"
 tagline: "A web knocking tool, sending a single HTTP/S to run O/S commands."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "http://sourceforge.net/projects/webspa/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "abuseACL"
 tagline: "A python script to automatically list vulnerable Windows ACEs/ACLs."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/AetherBlack/abuseACL"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

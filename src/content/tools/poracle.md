@@ -3,7 +3,7 @@ name: "poracle"
 tagline: "A tool for demonstrating padding oracle attacks."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/iagox86/poracle"
 commonlyOn: ["BlackArch"]

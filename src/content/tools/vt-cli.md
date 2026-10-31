@@ -3,7 +3,7 @@ name: "vt-cli"
 tagline: "VirusTotal Command Line Interface."
 categories: ["malware"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/malware.html"
 downloadUrl: "https://github.com/VirusTotal/vt-cli"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "wreckuests"
 tagline: "Yet another one hard-hitting tool to run DDoS attacks with HTTP-flood."
 categories: ["dos"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/dos.html"
 downloadUrl: "https://github.com/JamesJGoodwin/wreckuests"
 commonlyOn: ["BlackArch"]

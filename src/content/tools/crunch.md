@@ -3,7 +3,7 @@ name: "crunch"
 tagline: "Tool for creating wordlist"
 categories: ["password-profiling-wordlists","credential-access"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/crunch/"
 downloadUrl: "http://sourceforge.net/projects/crunch-wordlist/"
 repoUrl: "https://salsa.debian.org/debian/crunch"

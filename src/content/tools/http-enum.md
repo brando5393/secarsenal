@@ -3,7 +3,7 @@ name: "http-enum"
 tagline: "A tool to enumerate the enabled HTTP methods supported on a webserver."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://www.thexero.co.uk/tools/http-enum/"
 commonlyOn: ["BlackArch"]

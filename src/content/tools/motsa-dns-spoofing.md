@@ -3,7 +3,7 @@ name: "motsa-dns-spoofing"
 tagline: "ManOnTheSideAttack-DNS Spoofing."
 categories: ["spoof"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/spoof.html"
 downloadUrl: "https://github.com/waytoalpit/ManOnTheSideAttack-DNS-Spoofing"
 commonlyOn: ["BlackArch"]

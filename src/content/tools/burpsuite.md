@@ -3,7 +3,7 @@ name: "burpsuite"
 tagline: "Platform for security testing of web applications"
 categories: ["web-vulnerability-scanning","reconnaissance"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/burpsuite/"
 downloadUrl: "https://portswigger.net"
 repoUrl: "https://gitlab.com/kalilinux/packages/burpsuite"

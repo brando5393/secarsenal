@@ -4,11 +4,10 @@ tagline: "Compress and decompress files using the zip algorithm."
 categories: ["general-utilities"]
 platforms: ["Linux"]
 license: "Free, custom license"
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://docs.remnux.org/discover-the-tools/general+utilities"
-downloadUrl: "http://infozip.sourceforge.net"
 commonlyOn: ["REMnux"]
-gettingStarted: "Preinstalled on REMnux. See the official REMnux tool listing and upstream website linked above for details."
+gettingStarted: "Preinstalled on REMnux. See the official REMnux tool listing linked above for details."
 ---
 
 Compress and decompress files using the zip algorithm.

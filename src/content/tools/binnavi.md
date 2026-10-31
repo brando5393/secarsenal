@@ -3,7 +3,7 @@ name: "binnavi"
 tagline: "A binary analysis IDE that allows to inspect, navigate, edit and annotate control flow graphs and call graphs of disasse"
 categories: ["disassembler"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/disassembler.html"
 downloadUrl: "https://github.com/google/binnavi"
 commonlyOn: ["BlackArch"]

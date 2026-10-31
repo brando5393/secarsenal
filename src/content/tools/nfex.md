@@ -3,7 +3,7 @@ name: "nfex"
 tagline: "A tool for extracting files from the network in real-time or post-capture from an offline tcpdump pcap savefile."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://code.google.com/p/nfex/"
 commonlyOn: ["BlackArch"]

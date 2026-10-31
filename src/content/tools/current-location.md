@@ -3,7 +3,7 @@ name: "Current Location"
 tagline: "Location-based photo discovery tool that aggregates geotagged images from public platforms on an interactive map."
 categories: ["images-videos-docs"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://current-location.com/"
 commonlyOn: []
 gettingStarted: "Best for: Discovering geotagged photos near a location of interest. See the official site linked above for details."

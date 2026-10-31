@@ -3,7 +3,7 @@ name: "remmina"
 tagline: "Remote desktop client."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/FreeRDP/Remmina"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

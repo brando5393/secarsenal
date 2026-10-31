@@ -3,7 +3,7 @@ name: "perl-alien-gmp"
 tagline: "Alien package for the GNU Multiple Precision library"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/perl-alien-gmp"
 downloadUrl: "https://metacpan.org/pod/Alien::GMP"
 commonlyOn: ["ArchStrike"]

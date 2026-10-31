@@ -3,7 +3,7 @@ name: "dexpatcher"
 tagline: "Modify Android DEX/APK files at source-level using Java."
 categories: ["mobile"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/mobile.html"
 downloadUrl: "https://github.com/DexPatcher/dexpatcher-tool"
 commonlyOn: ["BlackArch"]

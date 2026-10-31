@@ -3,7 +3,7 @@ name: "vbsmin"
 tagline: "VBScript minifier."
 categories: ["packer"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/packer.html"
 downloadUrl: "https://noraj.github.io/vbsmin/"
 commonlyOn: ["BlackArch"]

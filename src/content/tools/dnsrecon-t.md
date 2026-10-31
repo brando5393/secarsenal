@@ -3,7 +3,7 @@ name: "dnsrecon (T)"
 tagline: "DNS enumeration script for recon workflows, supporting record discovery, zone transfer checks, brute-force, and reverse lookups."
 categories: ["cloud-infrastructure"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/darkoperator/dnsrecon"
 commonlyOn: []
 gettingStarted: "Best for: Detailed DNS reconnaissance and validation. See the official site linked above for details."

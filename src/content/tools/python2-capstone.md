@@ -3,7 +3,7 @@ name: "python2-capstone"
 tagline: "A disassembly framework with the target of becoming the ultimate disasm engine for binary analysis and reversing in the "
 categories: ["disassembler"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/disassembler.html"
 downloadUrl: "https://github.com/aquynh/capstone"
 commonlyOn: ["BlackArch"]

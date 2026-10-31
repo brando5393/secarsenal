@@ -3,7 +3,7 @@ name: "rpivot"
 tagline: "Socks4 reverse proxy for penetration testing."
 categories: ["proxy"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/proxy.html"
 downloadUrl: "https://github.com/artkond/rpivot"
 commonlyOn: ["BlackArch"]

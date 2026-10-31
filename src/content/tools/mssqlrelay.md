@@ -3,7 +3,7 @@ name: "mssqlrelay"
 tagline: "Microsoft SQL Relay is an offensive tool for auditing and abusing Microsoft SQL (MSSQL) services."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/CompassSecurity/mssqlrelay"
 commonlyOn: ["BlackArch"]

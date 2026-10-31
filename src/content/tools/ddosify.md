@@ -3,7 +3,7 @@ name: "ddosify"
 tagline: "High-performance load testing tool, written in Golang."
 categories: ["dos"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/dos.html"
 downloadUrl: "https://github.com/ddosify/ddosify"
 commonlyOn: ["BlackArch"]

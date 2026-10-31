@@ -3,7 +3,7 @@ name: "pcapfix"
 tagline: "Tries to repair your broken pcap and pcapng files."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "http://f00l.de/pcapfix/"
 commonlyOn: ["BlackArch"]

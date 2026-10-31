@@ -3,7 +3,7 @@ name: "snow"
 tagline: "Steganography program for concealing messages in text files."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://darkside.com.au/snow/index.html"
 commonlyOn: ["BlackArch"]

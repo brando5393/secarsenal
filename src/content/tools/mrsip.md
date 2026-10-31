@@ -3,7 +3,7 @@ name: "mrsip"
 tagline: "SIP-Based Audit and Attack Tool."
 categories: ["voip"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/voip.html"
 downloadUrl: "https://github.com/meliht/mr.sip"
 commonlyOn: ["BlackArch"]

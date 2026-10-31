@@ -3,7 +3,7 @@ name: "bonesi"
 tagline: "The DDoS Botnet Simulator."
 categories: ["dos"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/dos.html"
 downloadUrl: "https://github.com/Markus-Go/bonesi"
 commonlyOn: ["BlackArch"]

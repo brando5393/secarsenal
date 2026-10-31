@@ -3,7 +3,7 @@ name: "cminer"
 tagline: "A tool for enumerating the code caves in PE files."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/EgeBalci/Cminer/"
 commonlyOn: ["BlackArch"]

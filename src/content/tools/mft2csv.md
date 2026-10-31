@@ -3,7 +3,7 @@ name: "mft2csv"
 tagline: "Extract $MFT record info and log it to a csv file."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/jschicht/Mft2Csv"
 commonlyOn: ["BlackArch"]

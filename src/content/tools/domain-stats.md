@@ -3,7 +3,7 @@ name: "domain-stats"
 tagline: "A web API to deliver domain information from whois and alexa."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/MarkBaggett/domain_stats"
 commonlyOn: ["BlackArch"]

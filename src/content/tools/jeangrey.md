@@ -3,7 +3,7 @@ name: "jeangrey"
 tagline: "A tool to perform differential fault analysis attacks (DFA)."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/SideChannelMarvels/JeanGrey"
 commonlyOn: ["BlackArch"]

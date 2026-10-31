@@ -4,7 +4,7 @@ tagline: "Parse PE file contents."
 categories: ["pe-files"]
 platforms: ["Linux"]
 license: "BSD 2-Clause \"Simplified\" License"
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/pe+files"
 downloadUrl: "https://github.com/hasherezade/bearparser/wiki"
 commonlyOn: ["REMnux"]

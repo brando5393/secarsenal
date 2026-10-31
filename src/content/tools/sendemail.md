@@ -3,7 +3,7 @@ name: "sendemail"
 tagline: "Lightweight, command line SMTP email client"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/sendemail/"
 downloadUrl: "https://github.com/zehm/sendEmail"
 repoUrl: "https://salsa.debian.org/debian/sendemail"

@@ -3,7 +3,7 @@ name: "perl-net-whois-ip"
 tagline: "Perl extension for looking up the whois information for ip addresses"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/perl-net-whois-ip"
 commonlyOn: ["ArchStrike"]
 gettingStarted: "Install by adding the ArchStrike repository to an existing Arch Linux install, then `pacman -S perl-net-whois-ip`. See the official ArchStrike package listing linked above for details."

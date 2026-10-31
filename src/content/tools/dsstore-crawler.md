@@ -3,7 +3,7 @@ name: "dsstore-crawler"
 tagline: "A parser + crawler for .DS_Store files exposed publically."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/anantshri/DS_Store_crawler_parser"
 commonlyOn: ["BlackArch"]

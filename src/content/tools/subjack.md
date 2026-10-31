@@ -3,7 +3,7 @@ name: "subjack"
 tagline: "Subdomain Takeover tool"
 categories: ["web-vulnerability-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/subjack/"
 downloadUrl: "https://github.com/haccer/subjack"
 repoUrl: "https://gitlab.com/kalilinux/packages/subjack"

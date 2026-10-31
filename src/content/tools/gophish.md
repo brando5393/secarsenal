@@ -3,7 +3,7 @@ name: "gophish"
 tagline: "Open-Source Phishing Toolkit"
 categories: ["initial-access","system-services"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/gophish/"
 downloadUrl: "https://getgophish.com/"
 repoUrl: "https://gitlab.com/kalilinux/packages/gophish"

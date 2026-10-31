@@ -3,7 +3,7 @@ name: "git"
 tagline: "Fast, scalable, distributed revision control system"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/git/"
 downloadUrl: "https://git-scm.com/"
 repoUrl: "https://repo.or.cz/w/git/debian.git/"

@@ -3,7 +3,7 @@ name: "wechat-text-backup (T)"
 tagline: "WeChat database decryption and backup utility for exporting local message history into readable text formats."
 categories: ["instant-messaging"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/zhaofeng-shu33/wechat-text-backup"
 commonlyOn: []
 gettingStarted: "Best for: Decrypting and backing up local WeChat message archives. See the official site linked above for details."

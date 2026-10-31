@@ -3,7 +3,7 @@ name: "MistTrack"
 tagline: "Comprehensive AML and fund-tracing platform with 400M+ labeled wallet addresses, compliance database integration (OFAC, NBCTF, UK HMT), and real-time…"
 categories: ["blockchain-cryptocurrency"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://misttrack.io/"
 commonlyOn: []
 gettingStarted: "Best for: Institutional AML compliance and suspicious transaction flagging. See the official site linked above for details."

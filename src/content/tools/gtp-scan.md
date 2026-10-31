@@ -3,7 +3,7 @@ name: "gtp-scan"
 tagline: "A small python script that scans for GTP (GPRS tunneling protocol) speaking hosts."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://www.c0decafe.de/"
 commonlyOn: ["BlackArch"]

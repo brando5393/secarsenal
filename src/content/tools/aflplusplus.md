@@ -3,7 +3,7 @@ name: "aflplusplus"
 tagline: "Instrumentation-driven fuzzer for binary formats"
 categories: ["resource-development"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/aflplusplus/"
 downloadUrl: "https://github.com/AFLplusplus/AFLplusplus"
 repoUrl: "https://salsa.debian.org/pkg-security-team/aflplusplus"

@@ -3,7 +3,7 @@ name: "koadic"
 tagline: "Windows post-exploitation rootkit"
 categories: ["command-and-control"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/koadic/"
 downloadUrl: "https://github.com/zerosum0x0/koadic"
 repoUrl: "https://gitlab.com/kalilinux/packages/koadic"

@@ -3,7 +3,7 @@ name: "tsh-sctp"
 tagline: "An open-source UNIX backdoor."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://github.com/infodox/tsh-sctp"
 commonlyOn: ["BlackArch"]

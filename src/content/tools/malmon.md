@@ -3,7 +3,7 @@ name: "malmon"
 tagline: "Hosting exploit/backdoor detection daemon."
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "http://sourceforge.net/projects/malmon/"
 commonlyOn: ["BlackArch"]

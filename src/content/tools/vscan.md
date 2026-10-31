@@ -3,7 +3,7 @@ name: "vscan"
 tagline: "HTTPS / Vulnerability scanner."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/pasjtene/Vscan"
 commonlyOn: ["BlackArch"]

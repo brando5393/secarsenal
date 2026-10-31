@@ -3,7 +3,7 @@ name: "bed"
 tagline: "A network protocol fuzzer"
 categories: ["resource-development"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/bed/"
 downloadUrl: "http://www.snake-basket.de"
 repoUrl: "https://gitlab.com/kalilinux/packages/bed"

@@ -3,7 +3,7 @@ name: "pyjfuzz"
 tagline: "Python JSON Fuzzer."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://github.com/mseclab/PyJFuzz"
 commonlyOn: ["BlackArch"]

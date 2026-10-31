@@ -3,7 +3,7 @@ name: "perl-netpacket"
 tagline: "Assemble/disassemble network packets at the protocol level"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/perl-netpacket"
 downloadUrl: "https://metacpan.org/pod/NetPacket"
 commonlyOn: ["ArchStrike"]

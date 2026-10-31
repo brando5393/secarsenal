@@ -3,7 +3,7 @@ name: "Slang Dictionary & Translator"
 tagline: "NoSlang provides internet slang definitions and reverse translation for common texting shorthand."
 categories: ["language-translation"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.noslang.com/"
 commonlyOn: []
 gettingStarted: "Best for: Decoding internet slang and text abbreviations. See the official site linked above for details."

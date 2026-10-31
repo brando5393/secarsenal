@@ -3,7 +3,7 @@ name: "hash-identifier"
 tagline: "Tool to identify hash types"
 categories: ["hash-identification"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/hash-identifier/"
 downloadUrl: "https://github.com/blackploit/hash-identifier"
 repoUrl: "https://gitlab.com/kalilinux/packages/hash-identifier"

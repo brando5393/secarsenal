@@ -3,7 +3,7 @@ name: "UK Companies"
 tagline: "Official UK government service providing free access to information about companies registered in England, Wales, Scotland, and Northern Ireland."
 categories: ["business-records"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.gov.uk/get-information-about-a-company"
 commonlyOn: []
 gettingStarted: "Best for: Looking up UK-registered company details, officers, and filing history. See the official site linked above for details."

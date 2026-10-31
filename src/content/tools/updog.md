@@ -3,7 +3,7 @@ name: "updog"
 tagline: "Simple replacement for Python's SimpleHTTPServer."
 categories: ["ad","web"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/sc0tfree/updog"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

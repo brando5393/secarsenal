@@ -3,7 +3,7 @@ name: "reelphish"
 tagline: "A Real-Time Two-Factor Phishing Tool."
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://github.com/fireeye/ReelPhish"
 commonlyOn: ["BlackArch"]

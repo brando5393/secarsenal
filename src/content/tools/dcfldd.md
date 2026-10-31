@@ -3,7 +3,7 @@ name: "dcfldd"
 tagline: "Enhanced version of dd for forensics and security"
 categories: ["digital-forensics","forensic-imaging-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/dcfldd/"
 downloadUrl: "https://github.com/resurrecting-open-source-projects/dcfldd"
 repoUrl: "https://salsa.debian.org/debian/dcfldd"

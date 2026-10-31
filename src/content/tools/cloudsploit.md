@@ -3,7 +3,7 @@ name: "cloudsploit"
 tagline: "AWS security scanning checks."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/cloudsploit/scans"
 commonlyOn: ["BlackArch"]

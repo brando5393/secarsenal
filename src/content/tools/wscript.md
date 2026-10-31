@@ -3,7 +3,7 @@ name: "wscript"
 tagline: "Emulator/tracer of the Windows Script Host functionality."
 categories: ["code-audit"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/code-audit.html"
 downloadUrl: "https://github.com/mrpapercut/wscript"
 commonlyOn: ["BlackArch"]

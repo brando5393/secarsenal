@@ -3,7 +3,7 @@ name: "cottontail"
 tagline: "Capture all RabbitMQ messages being sent through a broker."
 categories: ["sniffer"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/sniffer.html"
 downloadUrl: "https://github.com/QKaiser/cottontail"
 commonlyOn: ["BlackArch"]

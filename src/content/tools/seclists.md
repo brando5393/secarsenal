@@ -3,7 +3,7 @@ name: "seclists"
 tagline: "Collection of multiple types of security lists"
 categories: ["persistence","password-profiling-wordlists"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/seclists/"
 downloadUrl: "https://github.com/danielmiessler/SecLists"
 repoUrl: "https://gitlab.com/kalilinux/packages/seclists"

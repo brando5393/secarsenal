@@ -3,7 +3,7 @@ name: "relay-scanner"
 tagline: "An SMTP relay scanner."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://www.cirt.dk"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "nfs-utils"
 tagline: "Header files and docs for libnfsidmap"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/nfs-utils/"
 downloadUrl: "https://linux-nfs.org/"
 repoUrl: "https://salsa.debian.org/kernel-team/nfs-utils"

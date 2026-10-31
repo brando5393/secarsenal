@@ -3,7 +3,7 @@ name: "phpstan"
 tagline: "PHP Static Analysis Tool - discover bugs in your code without running it."
 categories: ["code-audit"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/code-audit.html"
 downloadUrl: "https://github.com/phpstan/phpstan"
 commonlyOn: ["BlackArch"]

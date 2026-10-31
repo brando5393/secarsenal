@@ -3,7 +3,7 @@ name: "mana"
 tagline: "A toolkit for rogue access point (evilAP) attacks first presented at Defcon 22."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "https://github.com/sensepost/mana"
 commonlyOn: ["BlackArch"]

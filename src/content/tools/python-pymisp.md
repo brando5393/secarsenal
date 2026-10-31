@@ -3,7 +3,7 @@ name: "python-pymisp"
 tagline: "Python library using the MISP Rest API"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/python-pymisp"
 downloadUrl: "https://github.com/MISP/PyMISP/"
 commonlyOn: ["ArchStrike"]

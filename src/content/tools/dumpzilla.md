@@ -3,7 +3,7 @@ name: "dumpzilla"
 tagline: "Mozilla browser forensic tool"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/dumpzilla/"
 downloadUrl: "http://www.dumpzilla.org/"
 repoUrl: "https://gitlab.com/kalilinux/packages/dumpzilla"

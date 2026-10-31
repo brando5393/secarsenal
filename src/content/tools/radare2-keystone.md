@@ -3,7 +3,7 @@ name: "radare2-keystone"
 tagline: "Keystone assembler plugins for radare2."
 categories: ["reversing"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/reversing.html"
 downloadUrl: "https://github.com/radare/radare2-extras/tree/master/unicorn"
 commonlyOn: ["BlackArch"]

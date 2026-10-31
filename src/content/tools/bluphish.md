@@ -3,7 +3,7 @@ name: "bluphish"
 tagline: "Bluetooth device and service discovery tool that can be used for security assessment and penetration testing."
 categories: ["bluetooth"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/bluetooth.html"
 downloadUrl: "https://github.com/olivo/BluPhish"
 commonlyOn: ["BlackArch"]

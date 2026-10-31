@@ -3,7 +3,7 @@ name: "OpenSeaMap - The free nautical chart"
 tagline: "Open nautical chart map built on collaborative maritime data for ports, aids to navigation, and coastal context."
 categories: ["transportation"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.openseamap.org"
 commonlyOn: []
 gettingStarted: "Best for: Nautical geolocation and maritime infrastructure mapping. See the official site linked above for details."

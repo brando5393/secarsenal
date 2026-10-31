@@ -3,7 +3,7 @@ name: "hashrat"
 tagline: "Hashing tool supporting several hashes and recursivity"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/hashrat/"
 downloadUrl: "https://github.com/ColumPaget/Hashrat/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/hashrat"

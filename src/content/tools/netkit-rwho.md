@@ -3,7 +3,7 @@ name: "netkit-rwho"
 tagline: "Remote who client and server (with Debian patches)."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "http://packages.qa.debian.org/n/netkit-rwho.html"
 commonlyOn: ["BlackArch"]

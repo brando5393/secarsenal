@@ -3,7 +3,7 @@ name: "pulledpork-git"
 tagline: "Snort rule management"
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/pulledpork-git"
 downloadUrl: "https://github.com/shirkdog/pulledpork"
 commonlyOn: ["ArchStrike"]

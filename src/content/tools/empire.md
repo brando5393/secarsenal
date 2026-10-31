@@ -3,7 +3,7 @@ name: "empire"
 tagline: "A PowerShell and Python post-exploitation agent."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/BC-SECURITY/Empire"
 commonlyOn: ["BlackArch"]

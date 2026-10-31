@@ -3,7 +3,7 @@ name: "bad-pdf"
 tagline: "Steal NTLM Hashes with Bad-PDF."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/deepzec/Bad-Pdf"
 commonlyOn: ["BlackArch"]

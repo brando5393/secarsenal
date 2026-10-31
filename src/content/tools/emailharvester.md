@@ -3,7 +3,7 @@ name: "emailharvester"
 tagline: "Email addresses harvester"
 categories: ["identity-information"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/emailharvester/"
 downloadUrl: "https://github.com/maldevel/EmailHarvester"
 repoUrl: "https://gitlab.com/kalilinux/packages/emailharvester"

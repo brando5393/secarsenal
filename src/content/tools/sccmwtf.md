@@ -3,7 +3,7 @@ name: "sccmwtf"
 tagline: "This code is designed for exploring SCCM in a lab."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/xpn/sccmwtf"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

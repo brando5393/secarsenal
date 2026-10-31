@@ -4,7 +4,7 @@ tagline: "View, edit, and carve contents of various binary file types."
 categories: ["general"]
 platforms: ["Linux"]
 license: "GNU General Public License (GPL) v2"
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/general"
 downloadUrl: "https://github.com/vstinner/hachoir"
 commonlyOn: ["REMnux"]

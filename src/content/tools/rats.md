@@ -3,7 +3,7 @@ name: "rats"
 tagline: "A rough auditing tool for security in source code files."
 categories: ["code-audit"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/code-audit.html"
 downloadUrl: "https://github.com/andrew-d/rough-auditing-tool-for-security"
 commonlyOn: ["BlackArch"]

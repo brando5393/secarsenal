@@ -3,7 +3,7 @@ name: "cabextract"
 tagline: "Microsoft Cabinet file unpacker"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/cabextract/"
 repoUrl: "https://pkg.kali.org/pkg/cabextract"
 commonlyOn: ["Kali Linux"]

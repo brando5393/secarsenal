@@ -3,7 +3,7 @@ name: "lbd"
 tagline: "Load balancer detector"
 categories: ["web-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/lbd/"
 downloadUrl: "http://ge.mine.nu/code/"
 repoUrl: "https://gitlab.com/kalilinux/packages/lbd"

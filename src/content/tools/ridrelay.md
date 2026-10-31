@@ -3,7 +3,7 @@ name: "ridrelay"
 tagline: "Enumerate usernames on a domain where you have no creds by using SMB Relay with low priv."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/skorov/ridrelay"
 commonlyOn: ["BlackArch"]

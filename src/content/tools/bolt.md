@@ -1,14 +1,14 @@
 ---
 name: "bolt"
-tagline: "Bolt crawls the target website to the specified depth and stores all the HTML forms found in a database for further processing."
+tagline: "Scan websites for Cross-Site Request Forgery in HTML forms."
 categories: ["ad","web"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/s0md3v/bolt"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."
 ---
 
-Bolt crawls the target website to the specified depth and stores all the HTML forms found in a database for further processing.
+Scan websites for Cross-Site Request Forgery in HTML forms.
 
 Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

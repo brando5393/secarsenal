@@ -4,10 +4,11 @@ tagline: "Find BER-encoded RSA private keys in a memory image."
 categories: ["perform-memory-forensics"]
 platforms: ["Linux"]
 license: "Free, unknown license"
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://docs.remnux.org/discover-the-tools/perform+memory+forensics"
+downloadUrl: "https://citp.princeton.edu/our-work/memory/"
 commonlyOn: ["REMnux"]
-gettingStarted: "Preinstalled on REMnux. See the official REMnux tool listing linked above for details."
+gettingStarted: "Preinstalled on REMnux. See the official REMnux tool listing and upstream website linked above for details."
 ---
 
 Find BER-encoded RSA private keys in a memory image.

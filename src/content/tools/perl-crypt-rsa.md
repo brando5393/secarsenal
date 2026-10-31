@@ -3,7 +3,7 @@ name: "perl-crypt-rsa"
 tagline: "RSA public-key cryptographysystem."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/perl-crypt-rsa"
 downloadUrl: "https://metacpan.org/pod/Crypt::RSA"
 commonlyOn: ["ArchStrike"]

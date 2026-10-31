@@ -3,7 +3,7 @@ name: "bt_audit"
 tagline: "Bluetooth audit"
 categories: ["bluetooth"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/bluetooth.html"
 downloadUrl: "http://www.betaversion.net/btdsd/download/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "qrljacker"
 tagline: "QRLJacker is a highly customizable exploitation framework to demonstrate \"QRLJacking Attack Vector\"."
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://github.com/OWASP/QRLJacking/tree/master/QRLJacker"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "ophcrack"
 tagline: "Microsoft Windows password cracker using rainbow tables (gui)"
 categories: ["password-cracking","credential-access"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/ophcrack/"
 downloadUrl: "https://ophcrack.sourceforge.net/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/ophcrack"

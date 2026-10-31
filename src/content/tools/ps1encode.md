@@ -3,7 +3,7 @@ name: "ps1encode"
 tagline: "A tool to generate and encode a PowerShell based Metasploit payloads."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/CroweCybersecurity/ps1encode"
 commonlyOn: ["BlackArch"]

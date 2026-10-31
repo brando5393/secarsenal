@@ -3,7 +3,7 @@ name: "iodine"
 tagline: "Tool for tunneling IPv4 data through a DNS server"
 categories: ["protocol-tunneling"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/iodine/"
 downloadUrl: "https://code.kryo.se/iodine"
 repoUrl: "https://salsa.debian.org/debian/iodine"

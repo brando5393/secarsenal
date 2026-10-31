@@ -3,7 +3,7 @@ name: "Internet Archive: Wayback Machine"
 tagline: "Web archive providing historical snapshots of websites captured over time."
 categories: ["archives"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://web.archive.org/"
 commonlyOn: []
 gettingStarted: "Best for: Historical website analysis and deleted content recovery. See the official site linked above for details."

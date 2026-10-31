@@ -3,7 +3,7 @@ name: "striptls"
 tagline: "Proxy PoC implementation of STARTTLS stripping attacks."
 categories: ["proxy"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/proxy.html"
 downloadUrl: "https://github.com/tintinweb/striptls"
 commonlyOn: ["BlackArch"]

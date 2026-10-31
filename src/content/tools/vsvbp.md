@@ -3,7 +3,7 @@ name: "vsvbp"
 tagline: "Black box tool for Vulnerability detection in web applications."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/varunjammula/VSVBP"
 commonlyOn: ["BlackArch"]

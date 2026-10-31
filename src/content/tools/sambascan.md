@@ -3,7 +3,7 @@ name: "sambascan"
 tagline: "Allows you to search an entire network or a number of hosts for SMB shares. It will also list the contents of all public"
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://sourceforge.net/projects/sambascan2/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "pwndora"
 tagline: "Massive IPv4 scanner, find and analyze internet-connected devices in minutes, create your own IoT search engine at home."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/alechilczenko/pwndora"
 commonlyOn: ["BlackArch"]

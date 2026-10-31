@@ -3,7 +3,7 @@ name: "dsd"
 tagline: "Digital Speech Decoder."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/szechyjs/dsd"
 commonlyOn: ["BlackArch"]

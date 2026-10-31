@@ -3,7 +3,7 @@ name: "orjail"
 tagline: "A more secure way to force programs to exclusively use tor network."
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://github.com/orjail/orjail"
 commonlyOn: ["BlackArch"]

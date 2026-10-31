@@ -3,7 +3,7 @@ name: "eindeutig"
 tagline: "Examine the contents of Outlook Express DBX email repository files."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://www.jonesdykstra.com/"
 commonlyOn: ["BlackArch"]

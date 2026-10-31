@@ -3,7 +3,7 @@ name: "host-extract"
 tagline: "Ruby script tries to extract all IP/Host patterns in page response of a given URL and JavaScript/CSS files of that URL."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://code.google.com/p/host-extract/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "Farmers Only"
 tagline: "Niche dating service for rural communities including farmers and ranchers with lifestyle-focused matching."
 categories: ["dating"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.farmersonly.com/"
 commonlyOn: []
 gettingStarted: "Best for: Rural lifestyle dating and niche community matching. See the official site linked above for details."

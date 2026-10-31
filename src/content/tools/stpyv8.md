@@ -4,7 +4,7 @@ tagline: "Python3 and JavaScript interop engine, fork of the original PyV8 proje
 categories: ["scripts"]
 platforms: ["Linux"]
 license: "Apache License 2.0"
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://docs.remnux.org/discover-the-tools/dynamically+reverse-engineer+code/scripts"
 downloadUrl: "https://github.com/cloudflare/stpyv8"
 commonlyOn: ["REMnux"]

@@ -3,7 +3,7 @@ name: "python-tinyec-git"
 tagline: "A tiny library to perform arithmetic operations on elliptic curves in pure python"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/python-tinyec-git"
 downloadUrl: "https://github.com/alxchk/tinyec"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "angr"
 tagline: "The next-generation binary analysis platform from UC Santa Barbaras Seclab."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://pypi.org/project/angr/#files"
 commonlyOn: ["BlackArch"]

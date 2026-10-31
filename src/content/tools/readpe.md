@@ -3,7 +3,7 @@ name: "readpe"
 tagline: "Command-line tools to manipulate Windows PE files"
 categories: ["forensic-carving-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/readpe/"
 downloadUrl: "https://github.com/mentebinaria/readpe/wiki"
 repoUrl: "https://salsa.debian.org/pkg-security-team/readpe"

@@ -3,7 +3,7 @@ name: "linkfinder"
 tagline: "Discovers endpoint and their parameters in JavaScript files."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/GerbenJavado/LinkFinder"
 commonlyOn: ["BlackArch"]

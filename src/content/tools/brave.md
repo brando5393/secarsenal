@@ -3,7 +3,7 @@ name: "Brave"
 tagline: "Privacy-focused search engine with independent index. Offers Goggles for custom search result ranking. First search API with zero data retention…"
 categories: ["search-engines"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://search.brave.com/"
 commonlyOn: []
 gettingStarted: "Best for: Privacy-preserving searches, custom filtering via Goggles, enterprises needing zero data retention. See the official site linked above for details."

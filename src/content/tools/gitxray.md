@@ -3,7 +3,7 @@ name: "gitxray"
 tagline: "Scan GitHub repositories and contributors to collect data"
 categories: ["unsecured-credentials"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/gitxray/"
 downloadUrl: "https://kulkansecurity.github.io/gitxray/"
 repoUrl: "https://gitlab.com/kalilinux/packages/gitxray"

@@ -3,7 +3,7 @@ name: "alterx"
 tagline: "Fast and customizable subdomain wordlist generator using DSL."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/projectdiscovery/alterx"
 commonlyOn: ["BlackArch"]

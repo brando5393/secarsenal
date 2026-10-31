@@ -3,7 +3,7 @@ name: "lfimap"
 tagline: "Local file inclusion discovery and exploitation tool."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/hansmach1ne/lfimap"
 commonlyOn: ["BlackArch"]

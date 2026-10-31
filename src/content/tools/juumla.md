@@ -3,7 +3,7 @@ name: "juumla"
 tagline: "Python tool created to identify Joomla version, scan for vulnerabilities and search for config files."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/oppsec/juumla"
 commonlyOn: ["BlackArch"]

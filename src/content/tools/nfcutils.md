@@ -3,7 +3,7 @@ name: "nfcutils"
 tagline: "A simple command that lists tags which are in your NFC device field."
 categories: ["nfc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/nfc.html"
 downloadUrl: "https://github.com/nfc-tools/nfcutils"
 commonlyOn: ["BlackArch"]

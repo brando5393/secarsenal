@@ -3,7 +3,7 @@ name: "perl-net-cidr"
 tagline: "Manipulate IPv4/IPv6 netblocks in CIDR notation"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/perl-net-cidr"
 downloadUrl: "https://metacpan.org/pod/Net::CIDR"
 commonlyOn: ["ArchStrike"]

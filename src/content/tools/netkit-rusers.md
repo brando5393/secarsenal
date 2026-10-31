@@ -3,7 +3,7 @@ name: "netkit-rusers"
 tagline: "Logged in users; Displays who is logged in to machines on local network."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://packages.debian.org/source/sid/net/netkit-rusers"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "hexodus"
 tagline: "Python framework project designed to enumerate and help in Active Directory attacks through Windows protocols like SMB, "
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/0xdsm/hexodus"
 commonlyOn: ["BlackArch"]

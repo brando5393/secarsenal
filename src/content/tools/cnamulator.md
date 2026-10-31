@@ -3,7 +3,7 @@ name: "cnamulator"
 tagline: "A phone CNAM lookup utility using the OpenCNAM API."
 categories: ["mobile"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/mobile.html"
 downloadUrl: "https://github.com/packetassailant/cnamulator"
 commonlyOn: ["BlackArch"]

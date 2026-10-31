@@ -3,7 +3,7 @@ name: "packerid"
 tagline: "Script which uses a PEiD database to identify which packer (if any) is being used by a binary."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/sooshie/packerid"
 commonlyOn: ["BlackArch"]

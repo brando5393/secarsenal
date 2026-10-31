@@ -3,7 +3,7 @@ name: "metasploitavevasion-git"
 tagline: "Metasploit payload generator that avoids most Anti-Virus products."
 categories: ["exploit"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/metasploitavevasion-git"
 downloadUrl: "https://github.com/nccgroup/metasploitavevasion"
 commonlyOn: ["ArchStrike"]

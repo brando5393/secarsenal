@@ -3,7 +3,7 @@ name: "Email Reputation"
 tagline: "Tool that checks email reputation, risk scoring, and breach history to identify phishing emails, compromised accounts, and risky addresses."
 categories: ["email-address"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://emailrep.io/"
 commonlyOn: []
 gettingStarted: "Best for: Email reputation checking, risk assessment. See the official site linked above for details."

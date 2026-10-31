@@ -3,7 +3,7 @@ name: "metasploit"
 tagline: "A popular penetration testing framework that includes many exploits and payloads"
 categories: ["ad","light"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/rapid7/metasploit-framework"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

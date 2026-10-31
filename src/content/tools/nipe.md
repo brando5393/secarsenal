@@ -3,7 +3,7 @@ name: "nipe"
 tagline: "A script to make Tor Network your default gateway."
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://github.com/GouveaHeitor/nipe"
 commonlyOn: ["BlackArch"]

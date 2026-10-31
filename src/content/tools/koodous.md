@@ -3,7 +3,7 @@ name: "Koodous"
 tagline: "Collaborative platform for Android malware research and analysis with community-driven database of 70+ million Android applications with…"
 categories: ["malicious-file-analysis"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://koodous.com"
 commonlyOn: []
 gettingStarted: "Best for: Android malware analysis with community collaboration and threat intelligence. See the official site linked above for details."

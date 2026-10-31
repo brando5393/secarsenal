@@ -3,7 +3,7 @@ name: "atftp"
 tagline: "Advanced TFTP client"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/atftp/"
 downloadUrl: "https://sourceforge.net/projects/atftp"
 repoUrl: "https://salsa.debian.org/debian/atftp"

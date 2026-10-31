@@ -1,14 +1,14 @@
 ---
 name: "PassTheCert"
-tagline: "PassTheCert is a tool to extract Active Directory user password hashes from a domain controller's local certificate store."
+tagline: "Authenticate to LDAP and other Windows services with a client certificate."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/AlmondOffSec/PassTheCert"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."
 ---
 
-PassTheCert is a tool to extract Active Directory user password hashes from a domain controller's local certificate store.
+Authenticate to LDAP and other Windows services with a client certificate.
 
 Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

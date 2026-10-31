@@ -3,7 +3,7 @@ name: "narthex"
 tagline: "Modular personalized dictionary generator."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/MichaelDim02/Narthex"
 commonlyOn: ["BlackArch"]

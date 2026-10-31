@@ -3,7 +3,7 @@ name: "smbspider"
 tagline: "A lightweight python utility for searching SMB/CIFS/Samba file shares."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/T-S-A/smbspider"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "camscan"
 tagline: "A tool which will analyze the CAM table of Cisco switches to look for anamolies."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/securestate/camscan"
 commonlyOn: ["BlackArch"]

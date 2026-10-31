@@ -3,7 +3,7 @@ name: "LandsatLook Viewer"
 tagline: "USGS viewer for browsing Landsat scenes and multispectral imagery."
 categories: ["geolocation-tools-maps"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://landsatlook.usgs.gov/"
 commonlyOn: []
 gettingStarted: "Best for: Long-term environmental and infrastructure change detection. See the official site linked above for details."

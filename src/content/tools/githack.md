@@ -3,7 +3,7 @@ name: "githack"
 tagline: "A `.git` folder disclosure exploit."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/lijiejie/githack"
 commonlyOn: ["BlackArch"]

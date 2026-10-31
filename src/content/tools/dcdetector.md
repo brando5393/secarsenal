@@ -3,7 +3,7 @@ name: "dcdetector"
 tagline: "Spot all domain controllers in a Microsoft Active Directory environment. Find computer name, FQDN, and IP address(es) of"
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/noraj/DCDetector"
 commonlyOn: ["BlackArch"]

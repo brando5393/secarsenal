@@ -3,7 +3,7 @@ name: "trid-defs"
 tagline: "Definitions DB for trid that describes recurring patterns in supported file types"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/trid-defs"
 downloadUrl: "http://mark0.net/soft-trid-e.html"
 commonlyOn: ["ArchStrike"]

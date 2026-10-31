@@ -3,7 +3,7 @@ name: "exiv2"
 tagline: "EXIF/IPTC/XMP metadata manipulation tool"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/exiv2/"
 downloadUrl: "https://www.exiv2.org/"
 repoUrl: "https://salsa.debian.org/qt-kde-team/3rdparty/exiv2"

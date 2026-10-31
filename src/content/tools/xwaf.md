@@ -3,7 +3,7 @@ name: "xwaf"
 tagline: "Automatic WAF bypass tool."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/3xp10it/bypass_waf"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "unisec"
 tagline: "Unicode Security Toolkit."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://noraj.github.io/unisec"
 commonlyOn: ["BlackArch"]

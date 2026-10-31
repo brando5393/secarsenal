@@ -3,7 +3,7 @@ name: "aspisec"
 tagline: "Removes the traces left by offensive security tools."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://noraj.github.io/aspisec/"
 commonlyOn: ["BlackArch"]

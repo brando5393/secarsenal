@@ -3,7 +3,7 @@ name: "donpapi"
 tagline: "Dumping revelant information on compromised targets without AV detection with DPAPI."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/login-securite/DonPAPI"
 commonlyOn: ["BlackArch"]

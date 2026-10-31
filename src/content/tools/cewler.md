@@ -3,7 +3,7 @@ name: "cewler"
 tagline: "CeWL alternative in Python"
 categories: ["ad","web"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/roys/cewler"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

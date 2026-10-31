@@ -1,14 +1,14 @@
 ---
 name: "shadowcoerce"
-tagline: "Utility for bypassing the Windows Defender antivirus by hiding a process within a legitimate process."
+tagline: "Coerce a Windows host to authenticate via the MS-FSRVP protocol."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/ShutdownRepo/shadowcoerce"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."
 ---
 
-Utility for bypassing the Windows Defender antivirus by hiding a process within a legitimate process.
+Coerce a Windows host to authenticate via the MS-FSRVP protocol.
 
 Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

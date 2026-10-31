@@ -3,7 +3,7 @@ name: "gibberish-detector"
 tagline: "Train a model and detect gibberish strings with it."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/domanchi/gibberish-detector"
 commonlyOn: ["BlackArch"]

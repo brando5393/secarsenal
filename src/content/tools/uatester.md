@@ -3,7 +3,7 @@ name: "uatester"
 tagline: "User Agent String Tester."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://code.google.com/archive/p/ua-tester/"
 commonlyOn: ["BlackArch"]

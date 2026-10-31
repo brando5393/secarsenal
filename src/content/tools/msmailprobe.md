@@ -3,7 +3,7 @@ name: "msmailprobe"
 tagline: "Office 365 and Exchange Enumeration tool."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/busterb/msmailprobe"
 commonlyOn: ["BlackArch"]

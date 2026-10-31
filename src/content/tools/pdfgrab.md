@@ -3,7 +3,7 @@ name: "pdfgrab"
 tagline: "Tool for searching pdfs withthin google and extracting pdf metadata."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/c0decave/pdfgrab"
 commonlyOn: ["BlackArch"]

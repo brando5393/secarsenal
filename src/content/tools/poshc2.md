@@ -3,7 +3,7 @@ name: "poshc2"
 tagline: "Proxy aware C2 framework"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/poshc2/"
 downloadUrl: "https://github.com/nettitude/PoshC2"
 repoUrl: "https://gitlab.com/kalilinux/packages/poshc2"

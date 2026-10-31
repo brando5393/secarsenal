@@ -3,7 +3,7 @@ name: "SauceNAO"
 tagline: "Reverse image source finder widely used to trace artwork, anime frames, and reposted media to origin sites."
 categories: ["images-videos-docs"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://saucenao.com/"
 commonlyOn: []
 gettingStarted: "Best for: Tracing image origins and duplicate postings. See the official site linked above for details."

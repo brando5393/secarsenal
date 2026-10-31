@@ -3,7 +3,7 @@ name: "adassault"
 tagline: "An Active Directory environments pentest tool complementary to existing ones like NetExec."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://noraj.github.io/ADAssault/"
 commonlyOn: ["BlackArch"]
