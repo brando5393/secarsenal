@@ -4,7 +4,7 @@ tagline: "Pack and unpack PE files."
 categories: ["unpacking"]
 platforms: ["Linux"]
 license: "GNU General Public License (GPL)"
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://docs.remnux.org/discover-the-tools/statically+analyze+code/unpacking"
 downloadUrl: "https://upx.github.io"
 commonlyOn: ["REMnux"]

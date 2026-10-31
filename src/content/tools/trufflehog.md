@@ -3,7 +3,7 @@ name: "trufflehog"
 tagline: "Searches through git repositories for secrets"
 categories: ["unsecured-credentials"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/trufflehog/"
 downloadUrl: "https://github.com/trufflesecurity/truffleHog"
 repoUrl: "https://gitlab.com/kalilinux/packages/trufflehog"

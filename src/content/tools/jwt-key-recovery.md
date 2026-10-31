@@ -3,7 +3,7 @@ name: "jwt-key-recovery"
 tagline: "Recovers the public key used to sign JWT tokens."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/FlorianPicca/JWT-Key-Recovery"
 commonlyOn: ["BlackArch"]

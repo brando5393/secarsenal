@@ -3,7 +3,7 @@ name: "prowler"
 tagline: "Tool for AWS security assessment, auditing and hardening."
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://github.com/alfresco/prowler"
 commonlyOn: ["BlackArch"]

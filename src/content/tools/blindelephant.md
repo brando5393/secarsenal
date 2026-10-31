@@ -3,7 +3,7 @@ name: "blindelephant"
 tagline: "A web application fingerprinter. Attempts to discover the version of a (known) web application by comparing static files"
 categories: ["fingerprint"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/fingerprint.html"
 downloadUrl: "https://blindelephant.sourceforge.net/"
 commonlyOn: ["BlackArch"]

@@ -3,11 +3,10 @@ name: "perl-io-socket-socks"
 tagline: "Provides a way to create socks client or server both 4 and 5 version"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/perl-io-socket-socks"
-downloadUrl: "https://metacpan.org/pod/IO::Socket::Socks"
 commonlyOn: ["ArchStrike"]
-gettingStarted: "Install by adding the ArchStrike repository to an existing Arch Linux install, then `pacman -S perl-io-socket-socks`. See the official ArchStrike package listing and upstream homepage linked above for details."
+gettingStarted: "Install by adding the ArchStrike repository to an existing Arch Linux install, then `pacman -S perl-io-socket-socks`. See the official ArchStrike package listing linked above for details."
 ---
 
 Provides a way to create socks client or server both 4 and 5 version

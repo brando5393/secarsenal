@@ -3,7 +3,7 @@ name: "gr-paint"
 tagline: "An OFDM Spectrum Painter for GNU Radio."
 categories: ["radio"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/radio.html"
 downloadUrl: "https://github.com/drmpeg/gr-paint"
 commonlyOn: ["BlackArch"]

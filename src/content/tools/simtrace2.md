@@ -3,7 +3,7 @@ name: "simtrace2"
 tagline: "Host utilities to communicate with SIMtrace2 USB Devices."
 categories: ["radio"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/radio.html"
 downloadUrl: "https://osmocom.org/projects/simtrace2/wiki"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "sensepost-xrdp"
 tagline: "A rudimentary remote desktop tool for the X11 protocol exploiting unauthenticated x11 sessions."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/sensepost/xrdp"
 commonlyOn: ["BlackArch"]

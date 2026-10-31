@@ -3,7 +3,7 @@ name: "Grabify"
 tagline: "URL shortener service that logs IP addresses and device information of link clickers."
 categories: ["ip-mac-address"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://grabify.link"
 commonlyOn: []
 gettingStarted: "Best for: Shorten URLs and log visitor IPs. See the official site linked above for details."

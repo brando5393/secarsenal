@@ -3,7 +3,7 @@ name: "smali"
 tagline: "A tool to disassemble and assemble Android's dex files"
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/JesusFreke/smali"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

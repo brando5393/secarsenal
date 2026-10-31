@@ -3,7 +3,7 @@ name: "scratchabit"
 tagline: "Easily retargetable and hackable interactive disassembler with IDAPython-compatible plugin API."
 categories: ["disassembler"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/disassembler.html"
 downloadUrl: "https://github.com/pfalcon/ScratchABit"
 commonlyOn: ["BlackArch"]

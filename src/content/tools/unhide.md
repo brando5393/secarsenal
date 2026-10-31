@@ -3,7 +3,7 @@ name: "unhide"
 tagline: "Forensic tool to find hidden processes and ports"
 categories: ["forensics"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/unhide/"
 downloadUrl: "https://www.unhide-forensics.info"
 repoUrl: "https://salsa.debian.org/pkg-security-team/unhide"

@@ -3,7 +3,7 @@ name: "python2-jsbeautifier"
 tagline: "JavaScript unobfuscator and beautifier."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/beautify-web/js-beautify"
 commonlyOn: ["BlackArch"]

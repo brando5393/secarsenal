@@ -3,7 +3,7 @@ name: "maltego-teeth"
 tagline: "Set of offensive Maltego transforms"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/maltego-teeth/"
 downloadUrl: "https://www.maltego.com"
 repoUrl: "https://gitlab.com/kalilinux/packages/maltego-teeth"

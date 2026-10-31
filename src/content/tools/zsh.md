@@ -3,7 +3,7 @@ name: "zsh"
 tagline: "Shell with lots of features"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/zsh/"
 downloadUrl: "https://www.zsh.org/"
 repoUrl: "https://salsa.debian.org/debian/zsh"

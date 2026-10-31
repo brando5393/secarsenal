@@ -3,7 +3,7 @@ name: "ropeme"
 tagline: "A set of python scripts to generate ROP gadgets and payload."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "http://www.vnsecurity.net/2010/08/ropeme-rop-exploit-made-easy/"
 commonlyOn: ["BlackArch"]

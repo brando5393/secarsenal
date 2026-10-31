@@ -3,7 +3,7 @@ name: "GoExec"
 tagline: "GoExec is a new take on some of the methods used to gain remote execution on Windows devices. GoExec implements a number of largely unrealized…"
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/FalconOpsLLC/goexec"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

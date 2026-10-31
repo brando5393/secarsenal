@@ -3,7 +3,7 @@ name: "WHID Injector"
 tagline: "Android Mobile App for Controlling WHID Injector remotely."
 categories: ["usb-hid"]
 platforms: ["Android"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.whid.ninja/"
 commonlyOn: []
 gettingStarted: "Install from the Kali NetHunter App Store (store.nethunter.com) or NetHunter's own app repository on an Android device."

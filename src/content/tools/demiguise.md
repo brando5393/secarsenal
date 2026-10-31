@@ -3,7 +3,7 @@ name: "demiguise"
 tagline: "HTA encryption tool for RedTeams."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/nccgroup/demiguise"
 commonlyOn: ["BlackArch"]

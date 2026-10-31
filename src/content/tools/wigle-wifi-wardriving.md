@@ -3,7 +3,7 @@ name: "WiGLE WiFi Wardriving"
 tagline: "Nethugging client for Android"
 categories: ["wifi"]
 platforms: ["Android"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.wigle.net/"
 commonlyOn: []
 gettingStarted: "Install from the Kali NetHunter App Store (store.nethunter.com) or NetHunter's own app repository on an Android device."

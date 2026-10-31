@@ -3,7 +3,7 @@ name: "dnsbf"
 tagline: "Search for available domain names in an IP range."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://code.google.com/archive/p/dnsbf/"
 commonlyOn: ["BlackArch"]

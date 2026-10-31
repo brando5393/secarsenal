@@ -3,7 +3,7 @@ name: "magic-unicorn"
 tagline: "A simple tool for using a PowerShell downgrade attack and inject shellcode straight into memory"
 categories: ["exploit"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/magic-unicorn"
 downloadUrl: "https://github.com/trustedsec/unicorn"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "unifuzzer"
 tagline: "A fuzzing tool for closed-source binaries based on Unicorn and LibFuzzer."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://github.com/rk700/uniFuzzer"
 commonlyOn: ["BlackArch"]

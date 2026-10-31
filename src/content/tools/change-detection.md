@@ -3,7 +3,7 @@ name: "Change Detection"
 tagline: "Open-source change-monitoring system for tracking updates on websites over time."
 categories: ["domain-name"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://changedetection.io/"
 commonlyOn: []
 gettingStarted: "Best for: Self-hosted page change monitoring. See the official site linked above for details."

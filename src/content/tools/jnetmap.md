@@ -3,7 +3,7 @@ name: "jnetmap"
 tagline: "A network monitor of sorts."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://sourceforge.net/projects/jnetmap/files/jNetMap%200.5.5-RC2/"
 commonlyOn: ["BlackArch"]

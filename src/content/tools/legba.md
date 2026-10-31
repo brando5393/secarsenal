@@ -3,7 +3,7 @@ name: "legba"
 tagline: "Multiprotocol credentials bruteforcer / password sprayer and enumerator"
 categories: ["brute-force"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/legba/"
 downloadUrl: "https://github.com/evilsocket/legba"
 repoUrl: "https://gitlab.com/kalilinux/packages/legba"

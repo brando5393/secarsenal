@@ -3,7 +3,7 @@ name: "trivy"
 tagline: "Comprehensive and versatile security scanner"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/trivy/"
 downloadUrl: "https://github.com/aquasecurity/trivy"
 repoUrl: "https://gitlab.com/kalilinux/packages/trivy"

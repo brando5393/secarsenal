@@ -3,7 +3,7 @@ name: "pius-pi"
 tagline: "Organizational asset discovery tool with 20+ plugins covering certificate transparency, passive DNS, and all 5 Regional "
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/praetorian-inc/pius"
 commonlyOn: ["BlackArch"]

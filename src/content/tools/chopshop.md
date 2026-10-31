@@ -3,7 +3,7 @@ name: "chopshop"
 tagline: "Protocol Analysis/Decoder Framework."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/MITRECND/chopshop"
 commonlyOn: ["BlackArch"]

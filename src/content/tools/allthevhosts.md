@@ -3,7 +3,7 @@ name: "allthevhosts"
 tagline: "A vhost discovery tool that scrapes various web applications."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://labs.portcullis.co.uk/tools/finding-all-the-vhosts/"
 commonlyOn: ["BlackArch"]

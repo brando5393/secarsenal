@@ -3,7 +3,7 @@ name: "python-pipx"
 tagline: "Execute binaries from Python packages in isolated environments"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/python-pipx/"
 downloadUrl: "https://github.com/pypa/pipx"
 repoUrl: "https://salsa.debian.org/python-team/packages/python-pipx"

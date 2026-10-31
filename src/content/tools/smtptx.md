@@ -3,7 +3,7 @@ name: "smtptx"
 tagline: "A very simple tool used for sending simple email and do some basic email testing from a pentester perspective."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://www.0x90.se/"
 commonlyOn: ["BlackArch"]

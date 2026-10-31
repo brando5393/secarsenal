@@ -3,7 +3,7 @@ name: "ja3"
 tagline: "Standard for creating SSL client fingerprints in an easy to produce and shareable way."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/salesforce/ja3"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "graphinder"
 tagline: "GraphQL endpoints finder using subdomain enumeration, scripts analysis and bruteforce."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/Escape-Technologies/graphinder"
 commonlyOn: ["BlackArch"]

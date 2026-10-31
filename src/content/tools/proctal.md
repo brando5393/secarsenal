@@ -3,7 +3,7 @@ name: "proctal"
 tagline: "Provides a command line interface and a C library to manipulate the address space of a running program on Linux."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/daniel-araujo/proctal"
 commonlyOn: ["BlackArch"]

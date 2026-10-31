@@ -3,7 +3,7 @@ name: "hdmi-sniff"
 tagline: "HDMI DDC (I2C) inspection tool. It is designed to demonstrate just how easy it is to recover HDCP crypto keys from HDMI "
 categories: ["hardware"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/hardware.html"
 downloadUrl: "https://github.com/ApertureLabsLtd/hdmi-sniff"
 commonlyOn: ["BlackArch"]

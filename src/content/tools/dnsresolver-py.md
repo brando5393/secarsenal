@@ -4,7 +4,7 @@ tagline: "DNS resolver tool for dynamic analysis with wildcard and tracking supp
 categories: ["services"]
 platforms: ["Linux"]
 license: "Public Domain"
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://docs.remnux.org/discover-the-tools/explore+network+interactions/services"
 downloadUrl: "https://blog.didierstevens.com/2021/07/15/new-tool-dnsresolver-py/"
 commonlyOn: ["REMnux"]

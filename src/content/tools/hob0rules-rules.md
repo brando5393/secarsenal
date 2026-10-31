@@ -3,7 +3,7 @@ name: "Hob0Rules rules"
 tagline: "Password cracking rules for Hashcat based on statistics and industry patterns"
 categories: ["ad","web"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/praetorian-inc/Hob0Rules"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

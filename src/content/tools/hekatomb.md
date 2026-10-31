@@ -3,7 +3,7 @@ name: "hekatomb"
 tagline: "Extract and decrypt all credentials from all domain computers"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/hekatomb/"
 downloadUrl: "https://github.com/ProcessusT/HEKATOMB"
 repoUrl: "https://gitlab.com/kalilinux/packages/hekatomb"

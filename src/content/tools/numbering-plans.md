@@ -3,7 +3,7 @@ name: "Numbering Plans"
 tagline: "International numbering reference for E.164 plans, carrier codes, and dialing metadata."
 categories: ["telephone-numbers"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.numberingplans.com/?page=analysis&sub=phonenr"
 commonlyOn: []
 gettingStarted: "Best for: Telephony standards and numbering-plan validation. See the official site linked above for details."

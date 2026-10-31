@@ -3,7 +3,7 @@ name: "seth"
 tagline: "Perform a MitM attack and extract clear text credentials from RDP connections."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/SySS-Research/Seth"
 commonlyOn: ["BlackArch"]

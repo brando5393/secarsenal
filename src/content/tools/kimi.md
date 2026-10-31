@@ -3,7 +3,7 @@ name: "kimi"
 tagline: "Script to generate malicious debian packages (debain trojans)."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://github.com/ChaitanyaHaritash/kimi"
 commonlyOn: ["BlackArch"]

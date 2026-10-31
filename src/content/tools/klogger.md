@@ -3,7 +3,7 @@ name: "klogger"
 tagline: "A keystroke logger for the NT-series of Windows."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://ntsecurity.nu/toolbox/klogger/"
 commonlyOn: ["BlackArch"]

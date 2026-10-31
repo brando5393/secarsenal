@@ -3,7 +3,7 @@ name: "dragonrepo"
 tagline: "Automated penetration testing report generator with command tracking and evidence."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/12hrformat/dragonrepo"
 commonlyOn: ["BlackArch"]

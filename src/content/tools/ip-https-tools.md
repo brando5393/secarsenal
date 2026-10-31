@@ -3,7 +3,7 @@ name: "ip-https-tools"
 tagline: "Tools for the IP over HTTPS (IP-HTTPS) Tunneling Protocol."
 categories: ["tunnel"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/tunnel.html"
 downloadUrl: "https://github.com/takeshixx/ip-https-tools"
 commonlyOn: ["BlackArch"]

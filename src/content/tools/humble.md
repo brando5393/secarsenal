@@ -3,7 +3,7 @@ name: "humble"
 tagline: "HTTP Headers Analyzer"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/humble/"
 downloadUrl: "https://github.com/rfc-st/humble"
 repoUrl: "https://gitlab.com/kalilinux/packages/humble"

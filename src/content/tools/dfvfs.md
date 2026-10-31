@@ -3,7 +3,7 @@ name: "dfvfs"
 tagline: "Digital Forensics Virtual File System"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/dfvfs/"
 downloadUrl: "https://github.com/log2timeline/dfvfs"
 repoUrl: "https://salsa.debian.org/pkg-security-team/dfvfs"

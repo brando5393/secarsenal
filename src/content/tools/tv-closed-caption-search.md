@@ -3,7 +3,7 @@ name: "TV Closed Caption Search"
 tagline: "Internet Archive TV News collection for searching closed-caption text across broadcast recordings."
 categories: ["archives"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archive.org/details/tv"
 commonlyOn: []
 gettingStarted: "Best for: Finding broadcast mentions by keyword and time period. See the official site linked above for details."

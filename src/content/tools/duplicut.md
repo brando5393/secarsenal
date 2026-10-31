@@ -3,7 +3,7 @@ name: "duplicut"
 tagline: "Remove duplicates from massive wordlist, without sorting it (for dictionnary-based password cracking)."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/nil0x42/duplicut"
 commonlyOn: ["BlackArch"]

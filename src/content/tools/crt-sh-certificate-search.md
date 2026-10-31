@@ -3,7 +3,7 @@ name: "crt.sh - Certificate Search"
 tagline: "CT log viewer aggregating certificate data from multiple Certificate Transparency logs. Search for all certificates ever issued to a domain to…"
 categories: ["domain-name"]
 platforms: ["Web"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-31
 docsUrl: "https://crt.sh/?"
 commonlyOn: []
 gettingStarted: "Best for: Certificate search, subdomain discovery via CT logs, detecting unauthorized certificates. See the official site linked above for details."

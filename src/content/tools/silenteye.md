@@ -3,7 +3,7 @@ name: "silenteye"
 tagline: "A cross-platform application design for an easy use of steganography."
 categories: ["stego"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/stego.html"
 downloadUrl: "https://github.com/achorein/silenteye/"
 commonlyOn: ["BlackArch"]

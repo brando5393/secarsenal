@@ -3,7 +3,7 @@ name: "pwncat"
 tagline: "Netcat on steroids"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/pwncat/"
 downloadUrl: "https://github.com/cytopia/pwncat"
 repoUrl: "https://gitlab.com/kalilinux/packages/pwncat"

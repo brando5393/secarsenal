@@ -3,7 +3,7 @@ name: "Places2"
 tagline: "MIT CSAIL scene-recognition dataset containing millions of place-labeled images for visual analysis."
 categories: ["images-videos-docs"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "http://places2.csail.mit.edu/"
 commonlyOn: []
 gettingStarted: "Best for: Scene classification reference and location-context model training. See the official site linked above for details."

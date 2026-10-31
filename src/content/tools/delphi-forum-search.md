@@ -3,7 +3,7 @@ name: "Delphi Forum Search"
 tagline: "Forum platform with searchable user communities across niche interest categories."
 categories: ["online-communities"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.delphiforums.com/"
 commonlyOn: []
 gettingStarted: "Best for: Niche forum discovery and historical community thread review. See the official site linked above for details."

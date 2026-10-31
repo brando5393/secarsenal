@@ -3,7 +3,7 @@ name: "perl-http-dav"
 tagline: "A client module for the WebDAV protocol"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/perl-http-dav"
 downloadUrl: "https://metacpan.org/pod/HTTP::DAV"
 commonlyOn: ["ArchStrike"]

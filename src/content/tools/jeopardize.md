@@ -3,7 +3,7 @@ name: "jeopardize"
 tagline: "A low(zero) cost threat intelligence & response tool against phishing domains."
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://github.com/utkusen/jeopardize"
 commonlyOn: ["BlackArch"]

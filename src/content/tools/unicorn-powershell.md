@@ -3,7 +3,7 @@ name: "unicorn-powershell"
 tagline: "A simple tool for using a PowerShell downgrade attack and inject shellcode straight into memory."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://github.com/trustedsec/unicorn"
 commonlyOn: ["BlackArch"]

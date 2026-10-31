@@ -3,7 +3,7 @@ name: "caido"
 tagline: "Security auditing toolkit (desktop)"
 categories: ["web-vulnerability-scanning","reconnaissance"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/caido/"
 downloadUrl: "https://github.com/caido/caido"
 repoUrl: "https://gitlab.com/kalilinux/packages/caido"

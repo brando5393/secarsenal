@@ -3,7 +3,7 @@ name: "python2-oletools"
 tagline: "Tools to analyze Microsoft OLE2 files."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://pypi.org/project/oletools/"
 commonlyOn: ["BlackArch"]

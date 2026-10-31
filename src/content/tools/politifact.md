@@ -3,7 +3,7 @@ name: "PolitiFact"
 tagline: "Fact-checking publication that rates political claims and documents supporting evidence."
 categories: ["disinformation-media-verification"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.politifact.com/"
 commonlyOn: []
 gettingStarted: "Best for: Verifying political statements and tracing source-backed ratings. See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "nili"
 tagline: "Tool for Network Scan, Man in the Middle, Protocol Reverse Engineering and Fuzzing."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/niloofarkheirkhah/nili"
 commonlyOn: ["BlackArch"]

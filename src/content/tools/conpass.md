@@ -3,7 +3,7 @@ name: "conpass"
 tagline: "Password spraying in AD environment avoing account locking."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/login-securite/conpass"
 commonlyOn: ["BlackArch"]

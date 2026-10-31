@@ -4,7 +4,7 @@ tagline: "A wrapper around wget, ssh, sftp, ftp, and telnet to route these conne
 categories: ["connecting"]
 platforms: ["Linux"]
 license: "Free, unknown license"
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://docs.remnux.org/discover-the-tools/explore+network+interactions/connecting"
 downloadUrl: "https://github.com/izm1chael/Anomy"
 commonlyOn: ["REMnux"]

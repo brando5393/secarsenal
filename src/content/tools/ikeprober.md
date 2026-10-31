@@ -3,7 +3,7 @@ name: "ikeprober"
 tagline: "Tool crafting IKE initiator packets and allowing many options to be manually set. Useful to find overflows, error condit"
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "http://ikecrack.sourceforge.net/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "triad-decompiler"
 tagline: "Capstone based x86 decompiler for ELF binaries"
 categories: ["decompile"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/triad-decompiler"
 downloadUrl: "https://github.com/electrojustin/triad-decompiler"
 commonlyOn: ["ArchStrike"]

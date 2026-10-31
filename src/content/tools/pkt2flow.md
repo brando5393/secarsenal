@@ -3,7 +3,7 @@ name: "pkt2flow"
 tagline: "A simple utility to classify packets into flows."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/caesar0301/pkt2flow"
 commonlyOn: ["BlackArch"]

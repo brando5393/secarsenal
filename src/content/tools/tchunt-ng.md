@@ -3,7 +3,7 @@ name: "tchunt-ng"
 tagline: "Reveal encrypted files stored on a filesystem."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/antagon/TCHunt-ng"
 commonlyOn: ["BlackArch"]

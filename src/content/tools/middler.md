@@ -3,7 +3,7 @@ name: "middler"
 tagline: "A Man in the Middle tool to demonstrate protocol middling attacks."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://code.google.com/archive/p/middler/"
 commonlyOn: ["BlackArch"]

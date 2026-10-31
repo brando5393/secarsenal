@@ -3,7 +3,7 @@ name: "snmp-brute"
 tagline: "SNMP brute force, enumeration, CISCO config downloader and password cracking script."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/SECFORCE/SNMP-Brute"
 commonlyOn: ["BlackArch"]

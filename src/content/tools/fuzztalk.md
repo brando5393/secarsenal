@@ -3,7 +3,7 @@ name: "fuzztalk"
 tagline: "An XML driven fuzz testing framework that emphasizes easy extensibility and reusability."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://code.google.com/p/fuzztalk"
 commonlyOn: ["BlackArch"]

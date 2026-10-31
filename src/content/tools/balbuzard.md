@@ -3,7 +3,7 @@ name: "balbuzard"
 tagline: "A package of malware analysis tools in python to extract patterns of interest from suspicious files (IP addresses, domai"
 categories: ["malware"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/malware.html"
 downloadUrl: "https://github.com/decalage2/balbuzard/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "rp"
 tagline: "A full-cpp written tool that aims to find ROP sequences in PE/Elf/Mach-O x86/x64 binaries."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/0vercl0k/rp"
 commonlyOn: ["BlackArch"]

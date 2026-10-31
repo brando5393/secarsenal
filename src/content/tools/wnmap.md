@@ -3,7 +3,7 @@ name: "wnmap"
 tagline: "A shell script written with the purpose to automate and chain scans via nmap."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "http://nullsecurity.net/tools/automation.html"
 commonlyOn: ["BlackArch"]

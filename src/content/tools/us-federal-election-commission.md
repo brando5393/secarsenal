@@ -3,7 +3,7 @@ name: "US Federal Election Commission"
 tagline: "Official Federal Election Commission data portal. Searchable federal campaign finance disclosures and election data."
 categories: ["public-records"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://fec.gov/data"
 commonlyOn: []
 gettingStarted: "Best for: Federal campaign finance records. See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "jsonbee"
 tagline: "A ready to use JSONP endpoints/payloads to help bypass content security policy (CSP)."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/zigoo0/JSONBee"
 commonlyOn: ["BlackArch"]

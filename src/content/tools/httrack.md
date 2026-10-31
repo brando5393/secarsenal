@@ -3,7 +3,7 @@ name: "httrack"
 tagline: "Copy websites to your computer (Offline browser)"
 categories: ["collection"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/httrack/"
 downloadUrl: "https://www.httrack.com"
 repoUrl: "https://github.com/xroche/httrack"

@@ -3,7 +3,7 @@ name: "bluesnarfer"
 tagline: "Bluesnarfing utility"
 categories: ["bluetooth"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/bluesnarfer/"
 downloadUrl: "http://www.alighieri.org/"
 repoUrl: "https://gitlab.com/kalilinux/packages/bluesnarfer"

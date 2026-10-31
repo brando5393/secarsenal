@@ -3,7 +3,7 @@ name: "bittwist"
 tagline: "A simple yet powerful libpcap-based Ethernet packet generator. It is designed to complement tcpdump, which by itself has"
 categories: ["sniffer"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/sniffer.html"
 downloadUrl: "http://bittwist.sourceforge.net/"
 commonlyOn: ["BlackArch"]

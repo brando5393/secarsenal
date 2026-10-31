@@ -3,7 +3,7 @@ name: "EVENmonitor"
 tagline: "Monitor the Windows Event Log with grep-like features or filtering for specific Event IDs"
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/NeffIsBack/EVENmonitor"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "altdns"
 tagline: "Subdomain discovery through alterations and permutations"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/altdns/"
 downloadUrl: "https://github.com/infosec-au/altdns"
 repoUrl: "https://salsa.debian.org/pkg-security-team/altdns"

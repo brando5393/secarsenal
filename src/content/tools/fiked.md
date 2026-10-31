@@ -3,7 +3,7 @@ name: "fiked"
 tagline: "Cisco VPN attack tool"
 categories: ["collection"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/fiked/"
 downloadUrl: "https://www.roe.ch/FakeIKEd"
 repoUrl: "https://gitlab.com/kalilinux/packages/fiked"

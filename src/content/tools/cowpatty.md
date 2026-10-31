@@ -3,7 +3,7 @@ name: "cowpatty"
 tagline: "Brute-force WPA dictionary attack"
 categories: ["wifi-credential-access"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/cowpatty/"
 downloadUrl: "https://www.willhackforsushi.com/?page_id=50"
 repoUrl: "https://salsa.debian.org/pkg-security-team/cowpatty"

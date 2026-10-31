@@ -3,7 +3,7 @@ name: "metasploitmcp"
 tagline: "MCP Server for Metasploit"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/metasploitmcp/"
 downloadUrl: "https://github.com/GH05TCREW/MetasploitMCP"
 repoUrl: "https://gitlab.com/kalilinux/packages/metasploitmcp"

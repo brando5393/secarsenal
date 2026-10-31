@@ -3,7 +3,7 @@ name: "pintool2"
 tagline: "Improved version of pintool."
 categories: ["reversing"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/reversing.html"
 downloadUrl: "https://github.com/sebastiendamaye/pintool2"
 commonlyOn: ["BlackArch"]

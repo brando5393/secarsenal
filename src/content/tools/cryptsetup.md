@@ -3,7 +3,7 @@ name: "cryptsetup"
 tagline: "Disk encryption support - startup scripts"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/cryptsetup/"
 downloadUrl: "https://gitlab.com/cryptsetup/cryptsetup"
 repoUrl: "https://salsa.debian.org/cryptsetup-team/cryptsetup"

@@ -3,7 +3,7 @@ name: "kippo"
 tagline: "A medium interaction SSH honeypot designed to log brute force attacks and most importantly, the entire shell interaction"
 categories: ["honeypot"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/honeypot.html"
 downloadUrl: "https://github.com/desaster/kippo"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "snapception"
 tagline: "Intercept and decrypt all snapchats received over your network."
 categories: ["sniffer"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/sniffer.html"
 downloadUrl: "https://github.com/thebradbain/snapception"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "githubemail"
 tagline: "a command-line tool to retrieve a user's email from Github."
 categories: ["osint","web"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/paulirish/github-email"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

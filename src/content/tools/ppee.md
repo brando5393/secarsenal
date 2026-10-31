@@ -3,7 +3,7 @@ name: "ppee"
 tagline: "A Professional PE file Explorer for reversers, malware researchers and those who want to statically inspect PE files in "
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://www.mzrst.com/"
 commonlyOn: ["BlackArch"]

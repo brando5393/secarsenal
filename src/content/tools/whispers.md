@@ -3,7 +3,7 @@ name: "whispers"
 tagline: "Identify hardcoded secrets in static structured text."
 categories: ["code-audit"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/code-audit.html"
 downloadUrl: "https://github.com/adeptex/whispers/"
 commonlyOn: ["BlackArch"]

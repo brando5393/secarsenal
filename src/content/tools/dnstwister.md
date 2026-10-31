@@ -3,7 +3,7 @@ name: "dnstwister"
 tagline: "Web-based domain permutation tool with free lookup and paid monitoring plans for typosquatting detection."
 categories: ["domain-name"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://dnstwister.report/"
 commonlyOn: []
 gettingStarted: "Best for: Typosquatting monitoring. See the official site linked above for details."

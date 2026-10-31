@@ -3,7 +3,7 @@ name: "fakenetbios-git"
 tagline: "A Simulation of NetBIOS hosts (Windows-like)"
 categories: ["fuzzers"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/fakenetbios-git"
 downloadUrl: "https://github.com/mubix/FakeNetBIOS"
 commonlyOn: ["ArchStrike"]

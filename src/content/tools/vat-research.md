@@ -3,7 +3,7 @@ name: "VAT Research"
 tagline: "Netherlands tax authorities (Belastingdienst) database. Allows VAT number verification through VIES system."
 categories: ["public-records"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.belastingdienst.nl/"
 commonlyOn: []
 gettingStarted: "Best for: Dutch VAT number verification. See the official site linked above for details."

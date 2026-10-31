@@ -3,7 +3,7 @@ name: "needle"
 tagline: "The iOS Security Testing Framework."
 categories: ["mobile"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/mobile.html"
 downloadUrl: "https://github.com/mwrlabs/needle"
 commonlyOn: ["BlackArch"]

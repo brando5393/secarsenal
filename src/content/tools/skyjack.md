@@ -3,7 +3,7 @@ name: "skyjack"
 tagline: "Takes over Parrot drones, deauthenticating their true owner and taking over control, turning them into zombie drones und"
 categories: ["drone"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/drone.html"
 downloadUrl: "https://github.com/samyk/skyjack"
 commonlyOn: ["BlackArch"]

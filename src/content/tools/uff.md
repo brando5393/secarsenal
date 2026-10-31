@@ -3,7 +3,7 @@ name: "uff"
 tagline: "Unleashed ffuf. A fork of ffuf with more functions & a modified HTTP stack."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://github.com/sw33tLie/uff"
 commonlyOn: ["BlackArch"]

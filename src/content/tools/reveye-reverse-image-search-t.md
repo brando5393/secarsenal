@@ -3,7 +3,7 @@ name: "RevEye Reverse Image Search (T)"
 tagline: "Open-source browser extension that launches reverse image searches across multiple engines from one menu."
 categories: ["images-videos-docs"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/steven2358/reveye"
 commonlyOn: []
 gettingStarted: "Best for: Multi-engine reverse image pivoting from a single browser action. See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "maryam"
 tagline: "OWASP Maryam is a modular/optional open source framework bas"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/maryam/"
 downloadUrl: "https://github.com/saeeddhqan/Maryam"
 repoUrl: "https://gitlab.com/kalilinux/packages/maryam"

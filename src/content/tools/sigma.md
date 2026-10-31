@@ -3,7 +3,7 @@ name: "sigma"
 tagline: "Generic Signature Format for SIEM Systems"
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://github.com/SigmaHQ/sigma/releases"
 commonlyOn: ["BlackArch"]

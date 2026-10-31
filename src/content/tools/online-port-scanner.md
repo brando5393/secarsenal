@@ -3,7 +3,7 @@ name: "Online Port scanner"
 tagline: "Web-based port scanner checking open ports on target IP addresses without installation."
 categories: ["ip-mac-address"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://portscanner.online/"
 commonlyOn: []
 gettingStarted: "Best for: Quick port scanning without tools. See the official site linked above for details."

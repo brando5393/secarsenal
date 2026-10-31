@@ -3,7 +3,7 @@ name: "cloud-buster"
 tagline: "A tool that checks Cloudflare enabled sites for origin IP leaks."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/SageHack/cloud-buster"
 commonlyOn: ["BlackArch"]

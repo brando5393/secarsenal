@@ -3,7 +3,7 @@ name: "kernelpop"
 tagline: "Kernel privilege escalation enumeration and exploitation framework."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/spencerdodd/kernelpop"
 commonlyOn: ["BlackArch"]

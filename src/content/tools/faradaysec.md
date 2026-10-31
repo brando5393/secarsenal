@@ -3,7 +3,7 @@ name: "faradaysec"
 tagline: "Collaborative Penetration Test and Vulnerability Management Platform."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://www.faradaysec.com/"
 commonlyOn: ["BlackArch"]

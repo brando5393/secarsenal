@@ -3,10 +3,11 @@ name: "bios_memimage"
 tagline: "A tool to dump RAM contents to disk (aka cold boot attack)."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/cracker.html"
+downloadUrl: "http://citp.princeton.edu/memory/code/"
 commonlyOn: ["BlackArch"]
-gettingStarted: "Install on BlackArch with `pacman -S bios_memimage` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."
+gettingStarted: "Install on BlackArch with `pacman -S bios_memimage` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
 ---
 
 A tool to dump RAM contents to disk (aka cold boot attack).

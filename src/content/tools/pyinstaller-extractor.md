@@ -4,7 +4,7 @@ tagline: "Extract contents of a PyInstaller-generated PE files."
 categories: ["python"]
 platforms: ["Linux"]
 license: "GNU General Public License (GPL) v3"
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://docs.remnux.org/discover-the-tools/statically+analyze+code/python"
 downloadUrl: "https://github.com/extremecoders-re/pyinstxtractor"
 commonlyOn: ["REMnux"]

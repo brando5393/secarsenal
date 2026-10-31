@@ -3,7 +3,7 @@ name: "zeek-aux"
 tagline: "Handy auxiliary programs related to the use of the Zeek Network Security Monitor."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/zeek/zeek-aux"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "rustcat"
 tagline: "A modern port listener and reverse shell."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/robiot/rustcat"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "Reddit Darknet"
 tagline: "Community forum discussing darknet marketplaces, ecosystem events, and related threat activity."
 categories: ["dark-web"]
 platforms: ["Web"]
-lastVerified: 2026-09-22
+lastVerified: 2026-10-31
 docsUrl: "https://www.reddit.com/r/darknet/"
 commonlyOn: []
 gettingStarted: "Best for: Market ecosystem pulse and discussion-driven lead generation. See the official site linked above for details."

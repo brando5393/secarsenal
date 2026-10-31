@@ -3,7 +3,7 @@ name: "ssdeep"
 tagline: "Recursive piecewise hashing tool"
 categories: ["forensics"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/ssdeep/"
 downloadUrl: "https://github.com/ssdeep-project/ssdeep"
 repoUrl: "https://salsa.debian.org/pkg-security-team/ssdeep"

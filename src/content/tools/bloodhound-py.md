@@ -3,7 +3,7 @@ name: "bloodhound.py"
 tagline: "BloodHound ingestor in Python."
 categories: ["ad","light"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/fox-it/BloodHound.py"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

@@ -4,7 +4,7 @@ tagline: "Graphical file manager."
 categories: ["general-utilities"]
 platforms: ["Linux"]
 license: "GNU General Public License (GPL) v3"
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://docs.remnux.org/discover-the-tools/general+utilities"
 commonlyOn: ["REMnux"]
 gettingStarted: "Preinstalled on REMnux. See the official REMnux tool listing linked above for details."

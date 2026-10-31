@@ -3,7 +3,7 @@ name: "sasquatch-git"
 tagline: "Tools for squashfs, a highly compressed read-only filesystem for Linux."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/sasquatch-git"
 downloadUrl: "https://github.com/devttys0/sasquatch"
 commonlyOn: ["ArchStrike"]

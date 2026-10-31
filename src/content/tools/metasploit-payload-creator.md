@@ -3,7 +3,7 @@ name: "metasploit-payload-creator"
 tagline: "A wrapper to generate multiple types of payloads, based on users choice."
 categories: ["malware"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/metasploit-payload-creator"
 downloadUrl: "https://github.com/g0tmi1k/mpc"
 commonlyOn: ["ArchStrike"]

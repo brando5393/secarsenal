@@ -3,7 +3,7 @@ name: "passivedns"
 tagline: "A network sniffer that logs all DNS server replies for use in a passive DNS setup."
 categories: ["sniffer"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/sniffer.html"
 downloadUrl: "https://github.com/gamelinux/passivedns"
 commonlyOn: ["BlackArch"]

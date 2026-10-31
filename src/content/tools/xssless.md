@@ -3,7 +3,7 @@ name: "xssless"
 tagline: "An automated XSS payload generator written in python."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/mandatoryprogrammer/xssless"
 commonlyOn: ["BlackArch"]

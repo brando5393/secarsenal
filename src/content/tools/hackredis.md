@@ -3,7 +3,7 @@ name: "hackredis"
 tagline: "A simple tool to scan and exploit redis servers."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/Ridter/hackredis"
 commonlyOn: ["BlackArch"]

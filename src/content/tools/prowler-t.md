@@ -3,7 +3,7 @@ name: "Prowler (T)"
 tagline: "Cloud security posture and compliance assessment framework covering AWS, Azure, GCP, Kubernetes, and SaaS surfaces."
 categories: ["cloud-infrastructure"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/prowler-cloud/prowler"
 commonlyOn: []
 gettingStarted: "Best for: Broad cloud security and compliance baseline assessments. See the official site linked above for details."

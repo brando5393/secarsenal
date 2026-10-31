@@ -3,7 +3,7 @@ name: "python-stringcase"
 tagline: "String case converter"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/python-stringcase"
 downloadUrl: "https://github.com/okunishinishi/python-stringcase"
 commonlyOn: ["ArchStrike"]

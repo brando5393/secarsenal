@@ -3,7 +3,7 @@ name: "uptux"
 tagline: "Linux privilege escalation checks (systemd, dbus, socket fun, etc)."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/initstring/uptux"
 commonlyOn: ["BlackArch"]

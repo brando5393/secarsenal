@@ -3,7 +3,7 @@ name: "creds"
 tagline: "Harvest FTP/POP/IMAP/HTTP/IRC credentials along with interesting data from each of the protocols."
 categories: ["sniffer"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/sniffer.html"
 downloadUrl: "https://github.com/DanMcInerney/creds.py"
 commonlyOn: ["BlackArch"]

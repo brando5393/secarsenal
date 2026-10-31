@@ -3,7 +3,7 @@ name: "gmsadumper"
 tagline: "A tool that Reads any gMSA password blobs the user can access and parses the values."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/micahvandeusen/gMSADumper"
 commonlyOn: ["BlackArch"]

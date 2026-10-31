@@ -3,7 +3,7 @@ name: "Phonerator"
 tagline: "Phone number generation and testing utility for telephony research workflows."
 categories: ["telephone-numbers"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.martinvigo.com/phonerator/"
 commonlyOn: []
 gettingStarted: "Best for: Generating test-number patterns for scripting and analysis. See the official site linked above for details."

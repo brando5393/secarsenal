@@ -3,10 +3,11 @@ name: "veles"
 tagline: "New open source tool for binary data analysis."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/binary.html"
+downloadUrl: "https://codisec.com/veles/"
 commonlyOn: ["BlackArch"]
-gettingStarted: "Install on BlackArch with `pacman -S veles` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."
+gettingStarted: "Install on BlackArch with `pacman -S veles` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
 ---
 
 New open source tool for binary data analysis.

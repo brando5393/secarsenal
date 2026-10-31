@@ -3,7 +3,7 @@ name: "python2-minidump"
 tagline: "Python library to parse and read Microsoft minidump file format."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/skelsec/minidump"
 commonlyOn: ["BlackArch"]

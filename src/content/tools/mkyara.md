@@ -3,7 +3,7 @@ name: "mkyara"
 tagline: "Tool to generate YARA rules based on binary code."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/fox-it/mkYARA"
 commonlyOn: ["BlackArch"]

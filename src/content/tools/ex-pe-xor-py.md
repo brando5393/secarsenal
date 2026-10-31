@@ -4,7 +4,7 @@ tagline: "Search an XOR'ed file for indications of executable binaries."
 categories: ["deobfuscation"]
 platforms: ["Linux"]
 license: "Free, unknown license"
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/deobfuscation"
 downloadUrl: "https://hooked-on-mnemonics.blogspot.com/2014/04/expexorpy.html"
 commonlyOn: ["REMnux"]

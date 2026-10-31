@@ -3,7 +3,7 @@ name: "sparta"
 tagline: "Python GUI application which simplifies network infrastructure penetration testing by aiding the penetration tester in t"
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://sparta.secforce.com/"
 commonlyOn: ["BlackArch"]

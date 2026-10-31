@@ -3,7 +3,7 @@ name: "android-ndk"
 tagline: "Android C/C++ developer kit"
 categories: ["mobile"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/mobile.html"
 downloadUrl: "https://developer.android.com/ndk/downloads"
 commonlyOn: ["BlackArch"]

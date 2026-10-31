@@ -3,7 +3,7 @@ name: "brutex"
 tagline: "Automatically brute force all services running on a target."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/1N3/BruteX"
 commonlyOn: ["BlackArch"]

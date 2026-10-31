@@ -3,7 +3,7 @@ name: "targetedkerberoast"
 tagline: "Kerberoast with ACL abuse capabilities."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/ShutdownRepo/targetedkerberoast"
 commonlyOn: ["BlackArch"]

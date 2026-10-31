@@ -1,14 +1,14 @@
 ---
 name: "zipalign"
-tagline: "arguably the most important step to optimize your APK file"
+tagline: "Align uncompressed files in an APK so they can be read directly from the archive"
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://developer.android.com/studio/command-line/zipalign"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."
 ---
 
-arguably the most important step to optimize your APK file
+Align uncompressed files in an APK so they can be read directly from the archive
 
 Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

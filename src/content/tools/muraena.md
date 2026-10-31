@@ -3,7 +3,7 @@ name: "muraena"
 tagline: "Almost-transparent reverse proxy to automate phishing and post-phishing activities."
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://github.com/muraenateam/muraena"
 commonlyOn: ["BlackArch"]

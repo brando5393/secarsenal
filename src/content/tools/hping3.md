@@ -3,7 +3,7 @@ name: "hping3"
 tagline: "Active Network Smashing Tool"
 categories: ["remote-system-discovery","discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/hping3/"
 downloadUrl: "http://www.hping.org/"
 repoUrl: "https://salsa.debian.org/debian/hping3"

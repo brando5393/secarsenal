@@ -3,7 +3,7 @@ name: "weevely"
 tagline: "Stealth tiny web shell"
 categories: ["persistence"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/weevely/"
 downloadUrl: "https://github.com/epinna/weevely3/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/weevely"

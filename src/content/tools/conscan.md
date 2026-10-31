@@ -3,7 +3,7 @@ name: "conscan"
 tagline: "A blackbox vulnerability scanner for the Concre5 CMS."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "http://nullsecurity.net/tools/scanner.html"
 commonlyOn: ["BlackArch"]

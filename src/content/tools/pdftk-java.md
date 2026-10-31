@@ -4,7 +4,7 @@ tagline: "Edit, create, and examine PDF files."
 categories: ["pdf"]
 platforms: ["Linux"]
 license: "GNU General Public License (GPL) v2"
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://docs.remnux.org/discover-the-tools/analyze+documents/pdf"
 downloadUrl: "https://gitlab.com/pdftk-java/pdftk"
 commonlyOn: ["REMnux"]

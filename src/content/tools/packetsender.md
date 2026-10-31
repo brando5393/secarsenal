@@ -3,7 +3,7 @@ name: "packetsender"
 tagline: "An open source utility to allow sending and receiving TCP and UDP packets."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/dannagle/PacketSender"
 commonlyOn: ["BlackArch"]

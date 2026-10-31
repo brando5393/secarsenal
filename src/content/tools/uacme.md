@@ -3,7 +3,7 @@ name: "uacme"
 tagline: "Defeating Windows User Account Control."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/hfiref0x/UACME"
 commonlyOn: ["BlackArch"]

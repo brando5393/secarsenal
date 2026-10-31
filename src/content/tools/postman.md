@@ -3,7 +3,7 @@ name: "postman"
 tagline: "API platform for testing APIs"
 categories: ["ad","web"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.postman.com/"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

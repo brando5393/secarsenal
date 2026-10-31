@@ -3,7 +3,7 @@ name: "sqlitebrowser"
 tagline: "GUI editor for SQLite databases"
 categories: ["databases"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/sqlitebrowser/"
 downloadUrl: "https://sqlitebrowser.org/"
 repoUrl: "https://salsa.debian.org/sqlitebrowser-team/sqlitebrowser"

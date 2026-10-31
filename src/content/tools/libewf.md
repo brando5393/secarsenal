@@ -3,7 +3,7 @@ name: "libewf"
 tagline: "Collection of tools for reading and writing EWF files"
 categories: ["forensic-imaging-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/libewf/"
 downloadUrl: "https://github.com/libyal/libewf-legacy"
 repoUrl: "https://salsa.debian.org/pkg-security-team/libewf"

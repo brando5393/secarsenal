@@ -3,7 +3,7 @@ name: "tcpdstat"
 tagline: "Get protocol statistics from tcpdump pcap files."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/netik/tcpdstat"
 commonlyOn: ["BlackArch"]

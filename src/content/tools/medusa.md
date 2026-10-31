@@ -3,7 +3,7 @@ name: "medusa"
 tagline: "Fast, parallel, modular, login brute-forcer for network services"
 categories: ["brute-force","credential-access"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/medusa/"
 downloadUrl: "http://foofus.net/?page_id=51"
 repoUrl: "https://salsa.debian.org/pkg-security-team/medusa"

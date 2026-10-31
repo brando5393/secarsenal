@@ -3,7 +3,7 @@ name: "perl-crypt-primes"
 tagline: "Provable Prime Number Generator suitable for Cryptographic Applications"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/perl-crypt-primes"
 downloadUrl: "https://metacpan.org/pod/Crypt::Primes"
 commonlyOn: ["ArchStrike"]

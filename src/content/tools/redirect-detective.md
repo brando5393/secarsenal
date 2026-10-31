@@ -3,7 +3,7 @@ name: "Redirect Detective"
 tagline: "Web tool that traces URL redirect chains and final destinations across multi-hop redirects."
 categories: ["domain-name"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://redirectdetective.com/"
 commonlyOn: []
 gettingStarted: "Best for: Understanding redirect paths and affiliate or cloaking behavior. See the official site linked above for details."

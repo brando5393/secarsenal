@@ -3,7 +3,7 @@ name: "Vessel Tracker"
 tagline: "Commercial maritime tracking platform combining AIS and satellite feeds for global vessel movement intelligence."
 categories: ["transportation"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.vesseltracker.com/"
 commonlyOn: []
 gettingStarted: "Best for: Maritime routing, vessel monitoring, and compliance investigations. See the official site linked above for details."

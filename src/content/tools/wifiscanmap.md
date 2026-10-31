@@ -3,7 +3,7 @@ name: "wifiscanmap"
 tagline: "Another wifi mapping tool."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "https://github.com/mehdilauters/wifiScanMap"
 commonlyOn: ["BlackArch"]

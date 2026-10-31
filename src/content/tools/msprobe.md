@@ -1,14 +1,14 @@
 ---
 name: "msprobe"
-tagline: "msprobe is a tool to identify Microsoft Windows hosts and servers that are running certain services."
+tagline: "Find on-prem Microsoft services to target for password spraying and enumeration."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/puzzlepeaches/msprobe"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."
 ---
 
-msprobe is a tool to identify Microsoft Windows hosts and servers that are running certain services.
+Find on-prem Microsoft services to target for password spraying and enumeration.
 
 Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

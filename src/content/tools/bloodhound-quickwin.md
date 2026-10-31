@@ -1,14 +1,14 @@
 ---
 name: "bloodhound-quickwin"
-tagline: "A tool for BloodHounding on Windows machines without .NET or Powershell installed"
+tagline: "Print quick wins from a BloodHound Neo4j database"
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/kaluche/bloodhound-quickwin"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."
 ---
 
-A tool for BloodHounding on Windows machines without .NET or Powershell installed
+Print quick wins from a BloodHound Neo4j database
 
 Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

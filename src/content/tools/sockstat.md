@@ -3,7 +3,7 @@ name: "sockstat"
 tagline: "A tool to let you view information about open connections. It is similar to the tool of the same name that is included i"
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://packages.debian.org/unstable/main/sockstat"
 commonlyOn: ["BlackArch"]

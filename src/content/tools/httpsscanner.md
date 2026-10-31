@@ -3,7 +3,7 @@ name: "httpsscanner"
 tagline: "A tool to test the strength of a SSL web server."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://code.google.com/p/libre-tools/"
 commonlyOn: ["BlackArch"]

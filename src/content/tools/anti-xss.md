@@ -3,7 +3,7 @@ name: "anti-xss"
 tagline: "A XSS vulnerability scanner."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/lewangbtcc/anti-XSS"
 commonlyOn: ["BlackArch"]

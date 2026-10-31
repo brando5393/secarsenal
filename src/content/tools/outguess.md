@@ -3,7 +3,7 @@ name: "outguess"
 tagline: "A universal steganographic tool."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/resurrecting-open-source-projects/outguess"
 commonlyOn: ["BlackArch"]

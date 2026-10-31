@@ -3,7 +3,7 @@ name: "gobuster"
 tagline: "High-performance discovery tool for directories, DNS and cloud storage"
 categories: ["web-scanning","reconnaissance"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/gobuster/"
 downloadUrl: "https://github.com/OJ/gobuster"
 repoUrl: "https://salsa.debian.org/pkg-security-team/gobuster"

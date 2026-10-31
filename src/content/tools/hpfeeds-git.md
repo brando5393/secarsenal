@@ -3,7 +3,7 @@ name: "hpfeeds-git"
 tagline: "Honeynet Project generic authenticated datafeed protocol"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/hpfeeds-git"
 downloadUrl: "https://github.com/hpfeeds/hpfeeds"
 commonlyOn: ["ArchStrike"]

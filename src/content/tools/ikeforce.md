@@ -3,7 +3,7 @@ name: "ikeforce"
 tagline: "A command line IPSEC VPN brute forcing tool for Linux that allows group name/ID enumeration and XAUTH brute forcing capa"
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/SpiderLabs/ikeforce"
 commonlyOn: ["BlackArch"]

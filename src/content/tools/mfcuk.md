@@ -3,7 +3,7 @@ name: "mfcuk"
 tagline: "MIFARE Classic Universal toolKit."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "http://code.google.com/p/mfcuk/"
 commonlyOn: ["BlackArch"]

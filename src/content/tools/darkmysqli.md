@@ -3,7 +3,7 @@ name: "darkmysqli"
 tagline: "Multi-Purpose MySQL Injection Tool"
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/BlackArch/darkmysqli"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "Metadata Cleaner"
 tagline: "and mat2 to remove metadata from files"
 categories: ["encryption-and-privacy"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://tails.net/doc/about/features/index.en.html"
 downloadUrl: "https://gitlab.com/rmnvgr/metadata-cleaner"
 commonlyOn: ["Tails"]

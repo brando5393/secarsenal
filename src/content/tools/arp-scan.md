@@ -3,7 +3,7 @@ name: "arp-scan"
 tagline: "Arp scanning and fingerprinting tool"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/arp-scan/"
 downloadUrl: "https://github.com/royhills/arp-scan"
 repoUrl: "https://salsa.debian.org/pkg-security-team/arp-scan"

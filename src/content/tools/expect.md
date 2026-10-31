@@ -3,7 +3,7 @@ name: "expect"
 tagline: "Automates interactive applications"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/expect/"
 downloadUrl: "https://core.tcl-lang.org/expect/home"
 repoUrl: "https://salsa.debian.org/tcltk-team/expect"

@@ -3,7 +3,7 @@ name: "eksctl"
 tagline: "Official CLI for Amazon EKS (program)"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/eksctl/"
 downloadUrl: "https://github.com/weaveworks/eksctl"
 repoUrl: "https://gitlab.com/kalilinux/packages/eksctl"

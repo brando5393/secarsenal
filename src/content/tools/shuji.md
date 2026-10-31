@@ -3,7 +3,7 @@ name: "shuji"
 tagline: "Reverse engineering JavaScript and CSS sources from sourcemaps."
 categories: ["decompiler"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/decompiler.html"
 downloadUrl: "https://github.com/paazmaya/shuji"
 commonlyOn: ["BlackArch"]

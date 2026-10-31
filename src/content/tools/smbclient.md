@@ -3,7 +3,7 @@ name: "smbclient"
 tagline: "SMBclient is a command-line utility that allows you to access Windows shared resources"
 categories: ["ad","light"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/samba-team/samba"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

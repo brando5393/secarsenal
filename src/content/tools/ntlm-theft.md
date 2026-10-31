@@ -3,7 +3,7 @@ name: "ntlm-theft"
 tagline: "A tool for generating multiple types of NTLMv2 hash theft files."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/Greenwolf/ntlm_theft"
 commonlyOn: ["BlackArch"]

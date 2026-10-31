@@ -3,7 +3,7 @@ name: "hercules-payload"
 tagline: "A special payload generator that can bypass all antivirus software."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/EgeBalci/HERCULES"
 commonlyOn: ["BlackArch"]

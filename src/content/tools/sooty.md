@@ -3,7 +3,7 @@ name: "sooty"
 tagline: "The SOC Analysts all-in-one CLI tool to automate and speed up workflow."
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://github.com/TheresAFewConors/Sooty"
 commonlyOn: ["BlackArch"]

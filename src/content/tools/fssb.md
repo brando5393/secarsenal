@@ -3,7 +3,7 @@ name: "fssb"
 tagline: "A low-level filesystem sandbox for Linux using syscall intercepts."
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://github.com/adtac/fssb"
 commonlyOn: ["BlackArch"]

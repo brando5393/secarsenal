@@ -3,7 +3,7 @@ name: "wdict"
 tagline: "Create dictionaries by scraping webpages or crawling local files."
 categories: ["wordlist"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/wordlist.html"
 downloadUrl: "https://github.com/pyqlsa/wdict"
 commonlyOn: ["BlackArch"]

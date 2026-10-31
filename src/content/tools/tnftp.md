@@ -3,7 +3,7 @@ name: "tnftp"
 tagline: "Enhanced ftp client"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/tnftp/"
 downloadUrl: "https://en.wikipedia.org/wiki/Tnftp"
 repoUrl: "https://salsa.debian.org/debian/tnftp"

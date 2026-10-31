@@ -3,7 +3,7 @@ name: "theharvester"
 tagline: "Tool for gathering e-mail accounts and subdomain names from public sources"
 categories: ["network-information"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/theharvester/"
 downloadUrl: "https://github.com/laramies/theHarvester"
 repoUrl: "https://gitlab.com/kalilinux/packages/theharvester"

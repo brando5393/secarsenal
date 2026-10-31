@@ -3,7 +3,7 @@ name: "quickscope"
 tagline: "Statically analyze windows, linux, osx, executables and also APK files."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/CYB3RMX/Qu1cksc0pe"
 commonlyOn: ["BlackArch"]

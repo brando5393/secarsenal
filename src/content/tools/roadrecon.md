@@ -3,7 +3,7 @@ name: "roadrecon"
 tagline: "Azure AD and O365 exploration framework."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/dirkjanm/ROADtools"
 commonlyOn: ["BlackArch"]

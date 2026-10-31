@@ -3,7 +3,7 @@ name: "fuzzowski"
 tagline: "A Network Protocol Fuzzer made by NCCGroup based on Sulley and BooFuzz."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://github.com/nccgroup/fuzzowski"
 commonlyOn: ["BlackArch"]

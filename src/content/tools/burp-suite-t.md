@@ -3,7 +3,7 @@ name: "Burp Suite (T)"
 tagline: "Industry-standard web application security testing platform for manual and automated vulnerability assessment."
 categories: ["documentation-evidence-capture","domain-name"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://portswigger.net/burp"
 commonlyOn: []
 gettingStarted: "Best for: Web application penetration testing. See the official site linked above for details."

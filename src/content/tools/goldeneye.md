@@ -3,7 +3,7 @@ name: "goldeneye"
 tagline: "HTTP DoS test tool"
 categories: ["impact"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/goldeneye/"
 downloadUrl: "https://github.com/jseidl/GoldenEye"
 repoUrl: "https://salsa.debian.org/pkg-security-team/goldeneye"

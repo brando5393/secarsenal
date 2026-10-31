@@ -3,7 +3,7 @@ name: "sqlmc"
 tagline: "Check all urls of a domain for SQL injections"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/sqlmc/"
 downloadUrl: "https://github.com/malvads/sqlmc"
 repoUrl: "https://gitlab.com/kalilinux/packages/sqlmc"

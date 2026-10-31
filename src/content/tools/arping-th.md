@@ -3,7 +3,7 @@ name: "arping-th"
 tagline: "ARP Ping from Thomas Habets (aka Debian arping)."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/ThomasHabets/arping"
 commonlyOn: ["BlackArch"]

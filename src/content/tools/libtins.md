@@ -3,7 +3,7 @@ name: "libtins"
 tagline: "High-level, multiplatform C++ network packet sniffing and crafting library."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/mfontanini/libtins"
 commonlyOn: ["BlackArch"]

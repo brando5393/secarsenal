@@ -3,7 +3,7 @@ name: "batman-adv"
 tagline: "Batman kernel module, (included upstream since .38)"
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "http://www.open-mesh.net/"
 commonlyOn: ["BlackArch"]

@@ -3,11 +3,10 @@ name: "smtpmap"
 tagline: "Tool to identify the running smtp software on a given host."
 categories: ["fingerprint"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/fingerprint.html"
-downloadUrl: "http://www.projectiwear.org/~plasmahh/software.html"
 commonlyOn: ["BlackArch"]
-gettingStarted: "Install on BlackArch with `pacman -S smtpmap` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
+gettingStarted: "Install on BlackArch with `pacman -S smtpmap` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."
 ---
 
 Tool to identify the running smtp software on a given host.

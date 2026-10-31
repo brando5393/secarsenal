@@ -3,7 +3,7 @@ name: "watobo"
 tagline: "Semi-automated web application scanner"
 categories: ["web-vulnerability-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/watobo/"
 downloadUrl: "https://sourceforge.net/projects/watobo/"
 repoUrl: "https://gitlab.com/kalilinux/packages/watobo"

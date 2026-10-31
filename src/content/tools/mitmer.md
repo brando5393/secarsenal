@@ -3,7 +3,7 @@ name: "mitmer"
 tagline: "A man-in-the-middle and phishing attack tool that steals the victim's credentials of some web services like Facebook."
 categories: ["sniffer"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/sniffer.html"
 downloadUrl: "https://github.com/husam212/MITMer"
 commonlyOn: ["BlackArch"]

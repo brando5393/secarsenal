@@ -3,7 +3,7 @@ name: "domain-analyzer"
 tagline: "Finds all the security information for a given domain name."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "http://sourceforge.net/projects/domainanalyzer/"
 commonlyOn: ["BlackArch"]

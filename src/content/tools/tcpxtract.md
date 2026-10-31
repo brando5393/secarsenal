@@ -3,7 +3,7 @@ name: "tcpxtract"
 tagline: "A tool for extracting files from network traffic."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "http://tcpxtract.sourceforge.net"
 commonlyOn: ["BlackArch"]

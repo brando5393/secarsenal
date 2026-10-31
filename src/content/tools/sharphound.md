@@ -3,7 +3,7 @@ name: "sharphound"
 tagline: "C# Data Collector for BloodHound"
 categories: ["active-directory"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/sharphound/"
 downloadUrl: "https://github.com/SpecterOps/SharpHound"
 repoUrl: "https://gitlab.com/kalilinux/packages/sharphound"

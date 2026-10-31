@@ -3,7 +3,7 @@ name: "flowinspect"
 tagline: "A network traffic inspection tool."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/7h3rAm/flowinspect"
 commonlyOn: ["BlackArch"]

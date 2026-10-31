@@ -3,7 +3,7 @@ name: "gparted"
 tagline: "GNOME partition editor"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/gparted/"
 downloadUrl: "https://gparted.org"
 repoUrl: "https://salsa.debian.org/debian/gparted"
