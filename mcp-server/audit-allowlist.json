@@ -1,10 +1,1 @@
-[
-  {
-    "id": "GHSA-6qxp-vccf-f47h",
-    "package": "@modelcontextprotocol/sdk, @modelcontextprotocol/client",
-    "severity": "high",
-    "reviewed": "2026-10-11",
-    "expires": "2026-11-15",
-    "reason": "The SDK's OAuth *client* could send stored credentials to an authorization server chosen by a malicious MCP server (CWE-345/522, CVSS 7.5, published 2026-10-06). The advisory states it affects only applications using the SDK's OAuth client over HTTP (authProvider, withOAuth(), auth(), fetchToken()) while connecting to untrusted servers, and lists 'MCP servers built with the SDK' as NOT affected. This Worker is an SDK-built MCP server; src/index.ts imports only McpAgent and McpServer and touches no client or OAuth API (verified by grep). Patched releases exist (sdk 1.31.0, client 2.2.0) but cannot be installed cleanly: agents declares exact peer pins of sdk 1.30.0 / client 2.0.0, and even agents@0.28.0 (latest at review time) still pins sdk 1.30.0, so taking the patch means overriding the framework's own pins on a public service. Short expiry on purpose: re-check whether a newer agents release moves its pins, and if so upgrade rather than renew."
-  }
-]
+[]
