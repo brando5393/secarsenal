@@ -3,7 +3,7 @@ name: "IP2Location.com"
 tagline: "Commercial IP geolocation service with free demo and database. Provides location, proxy detection, and network data."
 categories: ["ip-mac-address"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.ip2location.com/demo"
 commonlyOn: []
 gettingStarted: "Best for: Accurate geolocation with proxy detection. See the official site linked above for details."

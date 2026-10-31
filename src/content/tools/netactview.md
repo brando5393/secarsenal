@@ -3,7 +3,7 @@ name: "netactview"
 tagline: "A graphical network connections viewer similar in functionality to netstat."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "http://netactview.sourceforge.net/index.html"
 commonlyOn: ["BlackArch"]

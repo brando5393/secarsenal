@@ -3,7 +3,7 @@ name: "apkstudio"
 tagline: "An IDE for decompiling/editing & then recompiling of android application binaries."
 categories: ["reversing"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/reversing.html"
 downloadUrl: "http://www.vaibhavpandey.com/apkstudio/"
 commonlyOn: ["BlackArch"]

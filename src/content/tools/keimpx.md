@@ -3,7 +3,7 @@ name: "keimpx"
 tagline: "Tool to verify the usefulness of credentials across a network over SMB."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://code.google.com/p/keimpx/"
 commonlyOn: ["BlackArch"]

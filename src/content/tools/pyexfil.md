@@ -3,7 +3,7 @@ name: "pyexfil"
 tagline: "A couple of beta stage tools for data exfiltration."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/ytisf/PyExfil"
 commonlyOn: ["BlackArch"]

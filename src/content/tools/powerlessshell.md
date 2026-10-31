@@ -3,7 +3,7 @@ name: "powerlessshell"
 tagline: "Run PowerShell command without invoking powershell.exe."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/Mr-Un1k0d3r/PowerLessShell"
 commonlyOn: ["BlackArch"]

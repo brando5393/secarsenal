@@ -3,7 +3,7 @@ name: "Finnik (NL)"
 tagline: "Dutch license plate intelligence service using official RDW-linked records for vehicle profile and APK history."
 categories: ["transportation"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://finnik.nl/en"
 commonlyOn: []
 gettingStarted: "Best for: Netherlands plate investigations and inspection history checks. See the official site linked above for details."

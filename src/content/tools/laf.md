@@ -3,7 +3,7 @@ name: "laf"
 tagline: "Login Area Finder: scans host/s for login panels."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/takeshixx/laf"
 commonlyOn: ["BlackArch"]

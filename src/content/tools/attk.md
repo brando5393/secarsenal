@@ -3,7 +3,7 @@ name: "attk"
 tagline: "Trend Micro Anti-Threat Toolkit."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://spnsupport.trendmicro.com/"
 commonlyOn: ["BlackArch"]

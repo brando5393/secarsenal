@@ -3,7 +3,7 @@ name: "wordbrutepress"
 tagline: "Python script that performs brute forcing against WordPress installs using a wordlist."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://www.homelab.it/index.php/2014/11/03/wordpress-brute-force-multithreading/"
 commonlyOn: ["BlackArch"]

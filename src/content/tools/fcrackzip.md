@@ -3,7 +3,7 @@ name: "fcrackzip"
 tagline: "Password cracker for zip archives"
 categories: ["password-cracking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/fcrackzip/"
 downloadUrl: "http://oldhome.schmorp.de/marc/fcrackzip.html"
 repoUrl: "https://salsa.debian.org/pkg-security-team/fcrackzip"

@@ -3,7 +3,7 @@ name: "skydive"
 tagline: "An open source real-time network topology and protocols analyzer."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/skydive-project/skydive"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "ligolo-ng"
 tagline: "Advanced, yet simple, tunneling/pivoting tool that uses a TUN interface"
 categories: ["protocol-tunneling"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/ligolo-ng/"
 downloadUrl: "https://github.com/nicocha30/ligolo-ng"
 repoUrl: "https://gitlab.com/kalilinux/packages/ligolo-ng"

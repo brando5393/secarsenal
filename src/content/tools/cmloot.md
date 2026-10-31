@@ -3,7 +3,7 @@ name: "cmloot"
 tagline: "cmloot.py is built to aid penetration testers to search and find sensitive files in Configuration Manager's complex file share structure."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/shelltrail/cmloot"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

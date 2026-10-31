@@ -3,7 +3,7 @@ name: "ciphey"
 tagline: "Automated decryption/decoding/cracking tool (Python 3)"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/ciphey/"
 downloadUrl: "https://github.com/Ciphey/Ciphey"
 repoUrl: "https://gitlab.com/kalilinux/packages/ciphey"

@@ -3,7 +3,7 @@ name: "tls-attacker"
 tagline: "A Java-based framework for analyzing TLS libraries."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/RUB-NDS/TLS-Attacker"
 commonlyOn: ["BlackArch"]

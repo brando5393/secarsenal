@@ -3,7 +3,7 @@ name: "myrescue"
 tagline: "Rescue data from damaged disks"
 categories: ["forensic-carving-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/myrescue/"
 downloadUrl: "https://myrescue.sf.net"
 repoUrl: "https://salsa.debian.org/pkg-security-team/myrescue"

@@ -3,7 +3,7 @@ name: "jefferson"
 tagline: "JFFS2 filesystem extraction tool."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/onekey-sec/jefferson"
 commonlyOn: ["BlackArch"]

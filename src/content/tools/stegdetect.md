@@ -3,7 +3,7 @@ name: "stegdetect"
 tagline: "An automated tool for detecting steganographic content in images."
 categories: ["stego"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/stego.html"
 downloadUrl: "https://github.com/redNixon/stegdetect"
 commonlyOn: ["BlackArch"]

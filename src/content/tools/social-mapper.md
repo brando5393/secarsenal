@@ -3,7 +3,7 @@ name: "social-mapper"
 tagline: "A social media enumeration and correlation tool."
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://github.com/SpiderLabs/social_mapper"
 commonlyOn: ["BlackArch"]

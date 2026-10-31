@@ -3,7 +3,7 @@ name: "mailcat"
 tagline: "The only cat who can find existing email addresses by nickname."
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://github.com/sharsil/mailcat/"
 commonlyOn: ["BlackArch"]

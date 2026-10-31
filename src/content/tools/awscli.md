@@ -3,7 +3,7 @@ name: "awscli"
 tagline: "Command-line interface for Amazon Web Services."
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://aws.amazon.com/cli/"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

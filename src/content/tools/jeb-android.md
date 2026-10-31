@@ -3,7 +3,7 @@ name: "jeb-android"
 tagline: "Android decompiler."
 categories: ["reversing"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/reversing.html"
 downloadUrl: "https://www.pnfsoftware.com/jeb/android"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "dnsvalidator"
 tagline: "Maintains a list of IPv4 DNS servers by verifying them against baseline servers, and ensuring accurate responses."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/vortexau/dnsvalidator"
 commonlyOn: ["BlackArch"]

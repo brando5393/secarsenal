@@ -3,7 +3,7 @@ name: "lfifreak"
 tagline: "A unique automated LFi Exploiter with Bind/Reverse Shells."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/OsandaMalith/LFiFreak/"
 commonlyOn: ["BlackArch"]

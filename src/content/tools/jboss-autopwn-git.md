@@ -3,7 +3,7 @@ name: "jboss-autopwn-git"
 tagline: "A JBoss script for obtaining remote shell access"
 categories: ["exploit"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/jboss-autopwn-git"
 downloadUrl: "https://github.com/SpiderLabs/jboss-autopwn"
 commonlyOn: ["ArchStrike"]

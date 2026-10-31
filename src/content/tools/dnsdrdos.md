@@ -3,7 +3,7 @@ name: "dnsdrdos"
 tagline: "Proof of concept code for distributed DNS reflection DoS."
 categories: ["dos"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/dos.html"
 downloadUrl: "http://nullsecurity.net/tools/dos.html"
 commonlyOn: ["BlackArch"]

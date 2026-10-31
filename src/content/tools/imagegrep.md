@@ -3,7 +3,7 @@ name: "imagegrep"
 tagline: "Grep word in pdf or image based on OCR."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/coderofsalvation/imagegrep-bash"
 commonlyOn: ["BlackArch"]

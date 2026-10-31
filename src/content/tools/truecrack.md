@@ -3,7 +3,7 @@ name: "truecrack"
 tagline: "Bruteforce password cracker for TrueCrypt volumes"
 categories: ["password-cracking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/truecrack/"
 downloadUrl: "https://github.com/lvaccaro/truecrack"
 repoUrl: "https://gitlab.com/kalilinux/packages/truecrack"

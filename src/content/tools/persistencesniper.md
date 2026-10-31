@@ -3,7 +3,7 @@ name: "persistencesniper"
 tagline: "Hunt persistences implanted in Windows machines."
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://github.com/last-byte/PersistenceSniper"
 commonlyOn: ["BlackArch"]

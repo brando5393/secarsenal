@@ -3,7 +3,7 @@ name: "nbtscan"
 tagline: "Scan networks searching for NetBIOS information"
 categories: ["network-share-discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/nbtscan/"
 downloadUrl: "https://github.com/resurrecting-open-source-projects/nbtscan"
 repoUrl: "https://salsa.debian.org/pkg-security-team/nbtscan"

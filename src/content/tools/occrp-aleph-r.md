@@ -3,7 +3,7 @@ name: "OCCRP Aleph (R)"
 tagline: "Global archive of research material for investigative reporting, aggregating public records, court filings, company registries, and leaks from 200+…"
 categories: ["compliance-risk-intelligence"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://aleph.occrp.org/"
 commonlyOn: []
 gettingStarted: "Best for: Cross-referencing persons and companies across public records, leaks, and investigative datasets. See the official site linked above for details."

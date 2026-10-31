@@ -3,7 +3,7 @@ name: "blacknurse"
 tagline: "A low bandwidth ICMP attack that is capable of doing denial of service to well known firewalls."
 categories: ["dos"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/dos.html"
 downloadUrl: "https://github.com/jedisct1/blacknurse"
 commonlyOn: ["BlackArch"]

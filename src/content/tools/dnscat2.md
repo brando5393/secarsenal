@@ -3,7 +3,7 @@ name: "dnscat2"
 tagline: "DNS tunnel (metapackage)"
 categories: ["protocol-tunneling"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/dnscat2/"
 downloadUrl: "https://github.com/iagox86/dnscat2"
 repoUrl: "https://gitlab.com/kalilinux/packages/dnscat2"

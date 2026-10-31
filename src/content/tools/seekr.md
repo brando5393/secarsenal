@@ -3,7 +3,7 @@ name: "seekr"
 tagline: "A multi-purpose OSINT toolkit with a neat web-interface."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/seekr-osint/seekr"
 commonlyOn: ["BlackArch"]

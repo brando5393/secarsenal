@@ -3,7 +3,7 @@ name: "samydeluxe"
 tagline: "Automatic samdump creation script."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://github.com/jensp/samydeluxe"
 commonlyOn: ["BlackArch"]

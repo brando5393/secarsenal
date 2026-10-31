@@ -3,7 +3,7 @@ name: "chromium"
 tagline: "Web browser"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/chromium/"
 downloadUrl: "http://www.chromium.org/Home"
 repoUrl: "https://salsa.debian.org/chromium-team/chromium"

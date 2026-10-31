@@ -3,7 +3,7 @@ name: "Hiking & Biking Map"
 tagline: "OSM-based map optimized for trails, cycling routes, and terrain context."
 categories: ["geolocation-tools-maps"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://hikebikemap.org/"
 commonlyOn: []
 gettingStarted: "Best for: Outdoor trail and route reconnaissance. See the official site linked above for details."

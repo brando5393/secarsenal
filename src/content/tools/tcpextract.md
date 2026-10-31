@@ -3,7 +3,7 @@ name: "tcpextract"
 tagline: "Extracts files from captured TCP sessions. Support live streams and pcap files."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://pypi.python.org/pypi/tcpextract/"
 commonlyOn: ["BlackArch"]

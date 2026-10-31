@@ -3,7 +3,7 @@ name: "panoptic"
 tagline: "A tool that automates the process of search and retrieval of content for common log and config files through LFI vulnera"
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/lightos/Panoptic"
 commonlyOn: ["BlackArch"]

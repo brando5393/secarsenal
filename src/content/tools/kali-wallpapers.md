@@ -3,7 +3,7 @@ name: "kali-wallpapers"
 tagline: "Transitional package to install kali-wallpapers-legacy"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/kali-wallpapers/"
 repoUrl: "https://gitlab.com/kalilinux/packages/kali-wallpapers"
 commonlyOn: ["Kali Linux"]

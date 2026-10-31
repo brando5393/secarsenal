@@ -3,7 +3,7 @@ name: "ntlmv1-multi"
 tagline: "NTLMv1 Multitool."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/evilmog/ntlmv1-multi"
 commonlyOn: ["BlackArch"]

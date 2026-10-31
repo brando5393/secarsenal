@@ -3,7 +3,7 @@ name: "perl-html-tagparser"
 tagline: "Yet another HTML document parser with DOM-like methods"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/perl-html-tagparser"
 commonlyOn: ["ArchStrike"]
 gettingStarted: "Install by adding the ArchStrike repository to an existing Arch Linux install, then `pacman -S perl-html-tagparser`. See the official ArchStrike package listing linked above for details."

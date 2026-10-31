@@ -3,7 +3,7 @@ name: "gef"
 tagline: "Modern experience for GDB with advanced debugging capabilities"
 categories: ["resource-development"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/gef/"
 downloadUrl: "https://github.com/hugsy/gef"
 repoUrl: "https://gitlab.com/kalilinux/packages/gef"

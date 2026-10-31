@@ -3,7 +3,7 @@ name: "kube-hunter"
 tagline: "Hunt for security weaknesses in Kubernetes clusters."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/aquasecurity/kube-hunter"
 commonlyOn: ["BlackArch"]

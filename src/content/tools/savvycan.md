@@ -3,7 +3,7 @@ name: "savvycan"
 tagline: "QT-based CAN bus analysis tool."
 categories: ["automobile"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/automobile.html"
 downloadUrl: "https://github.com/collin80/SavvyCAN"
 commonlyOn: ["BlackArch"]

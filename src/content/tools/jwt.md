@@ -3,7 +3,7 @@ name: "jwt"
 tagline: "a command-line tool for working with JSON Web Tokens (JWTs)"
 categories: ["ad","light","web"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/ticarpi/jwt_tool"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

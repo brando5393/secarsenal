@@ -3,7 +3,7 @@ name: "snuck"
 tagline: "Automatic XSS filter bypass."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/mauro-g/snuck"
 commonlyOn: ["BlackArch"]

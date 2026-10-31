@@ -3,7 +3,7 @@ name: "amap"
 tagline: "Next-generation scanning tool for pentesters"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/amap/"
 downloadUrl: "https://www.thc.org"
 repoUrl: "https://gitlab.com/kalilinux/packages/amap"

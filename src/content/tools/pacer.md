@@ -3,7 +3,7 @@ name: "PACER"
 tagline: "Public Access to Court Electronic Records. Official US federal court records system with fee-based access to documents."
 categories: ["public-records"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://pacer.uscourts.gov/"
 commonlyOn: []
 gettingStarted: "Best for: Official federal court documents. See the official site linked above for details."

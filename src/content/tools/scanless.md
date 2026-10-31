@@ -3,7 +3,7 @@ name: "scanless"
 tagline: "Utility for using websites that can perform port scans on your behalf."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/vesche/scanless"
 commonlyOn: ["BlackArch"]

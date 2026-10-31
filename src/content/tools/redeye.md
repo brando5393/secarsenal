@@ -3,7 +3,7 @@ name: "redeye"
 tagline: "Visual analytic tool supporting Red & Blue Team operations."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/cisagov/RedEye"
 commonlyOn: ["BlackArch"]

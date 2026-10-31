@@ -3,7 +3,7 @@ name: "ntds-decode"
 tagline: "This application dumps LM and NTLM hashes from active accounts stored in an Active Directory database."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://packetstormsecurity.com/files/121543/NTDS-Hash-Decoder.b.html"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "mfterm"
 tagline: "Terminal for working with Mifare Classic 1-4k tags"
 categories: ["hardware"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/mfterm"
 downloadUrl: "https://github.com/4ZM/mfterm"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "clair"
 tagline: "Vulnerability Static Analysis for Containers."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/quay/clair"
 commonlyOn: ["BlackArch"]

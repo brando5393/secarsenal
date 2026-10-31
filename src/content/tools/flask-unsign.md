@@ -3,7 +3,7 @@ name: "flask-unsign"
 tagline: "Command line tool to fetch, decode, brute-force and craft session cookies of a Flask application by guessing secret keys"
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/Paradoxis/Flask-Unsign"
 commonlyOn: ["BlackArch"]

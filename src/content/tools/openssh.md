@@ -3,7 +3,7 @@ name: "openssh"
 tagline: "Secure shell (SSH) client, for secure access to remote machines"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/openssh/"
 downloadUrl: "https://www.openssh.com/"
 repoUrl: "https://salsa.debian.org/ssh-team/openssh"

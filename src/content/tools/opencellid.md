@@ -3,7 +3,7 @@ name: "OpenCelliD"
 tagline: "Collaborative global cell-tower database used for telecom-based geolocation."
 categories: ["geolocation-tools-maps"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://opencellid.org/"
 commonlyOn: []
 gettingStarted: "Best for: Cell tower identification and approximate location triangulation. See the official site linked above for details."

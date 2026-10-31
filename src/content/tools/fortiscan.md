@@ -3,7 +3,7 @@ name: "fortiscan"
 tagline: "A high performance FortiGate SSL-VPN vulnerability scanning and exploitation tool."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/anasbousselham/fortiscan"
 commonlyOn: ["BlackArch"]

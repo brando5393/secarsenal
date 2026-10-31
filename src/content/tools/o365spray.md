@@ -3,7 +3,7 @@ name: "o365spray"
 tagline: "Username enumeration and password spraying tool aimed at Microsoft O365."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/0xZDH/o365spray"
 commonlyOn: ["BlackArch"]

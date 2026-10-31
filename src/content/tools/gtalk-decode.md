@@ -3,7 +3,7 @@ name: "gtalk-decode"
 tagline: "Google Talk decoder tool that demonstrates recovering passwords from accounts."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://packetstormsecurity.com/files/119154/Google-Talk-Decoder.html"
 commonlyOn: ["BlackArch"]

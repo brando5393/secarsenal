@@ -3,7 +3,7 @@ name: "bpf-linker"
 tagline: "Simplify building modern BPF programs"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/bpf-linker/"
 downloadUrl: "https://github.com/aya-rs/bpf-linker"
 repoUrl: "https://gitlab.com/kalilinux/packages/bpf-linker"

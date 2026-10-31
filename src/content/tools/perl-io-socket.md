@@ -3,7 +3,7 @@ name: "perl-io-socket"
 tagline: "IO::Socket - Object interface to socket communications for perl"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/perl-io-socket"
 downloadUrl: "https://metacpan.org/pod/IO::Socket"
 commonlyOn: ["ArchStrike"]

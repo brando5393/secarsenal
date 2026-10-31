@@ -3,7 +3,7 @@ name: "valhalla-api"
 tagline: "Valhalla API Client."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/NextronSystems/valhallaAPI"
 commonlyOn: ["BlackArch"]

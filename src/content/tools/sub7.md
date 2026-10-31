@@ -3,7 +3,7 @@ name: "sub7"
 tagline: "A remote administration tool. No further comments ;-)"
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://dl.packetstormsecurity.net/trojans/Subseven.2.2.zip"
 commonlyOn: ["BlackArch"]

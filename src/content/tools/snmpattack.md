@@ -3,7 +3,7 @@ name: "snmpattack"
 tagline: "SNMP scanner and attacking tool."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "http://www.c0decafe.de/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "dnsdiag"
 tagline: "DNS Diagnostics and Performance Measurement Tools."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://dnsdiag.org/"
 commonlyOn: ["BlackArch"]

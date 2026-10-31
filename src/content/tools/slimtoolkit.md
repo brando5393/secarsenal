@@ -3,7 +3,7 @@ name: "slimtoolkit"
 tagline: "Optimization of your containers"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/slimtoolkit/"
 downloadUrl: "https://github.com/slimtoolkit/slim"
 repoUrl: "https://gitlab.com/kalilinux/packages/slimtoolkit"

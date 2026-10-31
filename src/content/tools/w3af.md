@@ -3,7 +3,7 @@ name: "w3af"
 tagline: "Web Application Attack and Audit Framework."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://github.com/andresriancho/w3af/releases"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "dnscan"
 tagline: "A python wordlist-based DNS subdomain scanner."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/rbsec/dnscan"
 commonlyOn: ["BlackArch"]

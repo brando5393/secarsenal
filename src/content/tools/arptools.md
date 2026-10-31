@@ -3,7 +3,7 @@ name: "arptools"
 tagline: "A simple tool about ARP broadcast, ARP attack, and data transmission."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/Lab-Zjt/ARPTools"
 commonlyOn: ["BlackArch"]

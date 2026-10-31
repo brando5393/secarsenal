@@ -3,7 +3,7 @@ name: "openvpn"
 tagline: "Virtual private network daemon"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/openvpn/"
 downloadUrl: "https://openvpn.net/community/"
 repoUrl: "https://salsa.debian.org/debian/openvpn"

@@ -3,7 +3,7 @@ name: "MiGente (Latino)"
 tagline: "Legacy social network for Latino communities with archived profiles. May require login or have limited accessibility."
 categories: ["social-networks"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://migente.com/wp-login.php?redirect_to=https%3A%2F%2Fmigente.com%2Fuser_search%2Findex.html&bp-auth=1&action=bpnoaccess"
 commonlyOn: []
 gettingStarted: "Best for: Searching archived MiGente profiles. See the official site linked above for details."

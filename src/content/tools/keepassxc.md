@@ -3,7 +3,7 @@ name: "keepassxc"
 tagline: "Cross-platform password manager"
 categories: ["ad","osint","web"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/keepassxreboot/keepassxc"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "hash-buster"
 tagline: "A python script which scraps online hash crackers to find cleartext of a hash."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/UltimateHackers/Hash-Buster/"
 commonlyOn: ["BlackArch"]

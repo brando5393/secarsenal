@@ -3,7 +3,7 @@ name: "goop-dump"
 tagline: "Tool to dump a git repository from a website, focused on as-complete-as-possible dumps and handling weird edge-cases."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/nyancrimew/goop"
 commonlyOn: ["BlackArch"]

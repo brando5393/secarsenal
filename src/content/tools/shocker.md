@@ -3,7 +3,7 @@ name: "shocker"
 tagline: "A tool to find and exploit servers vulnerable to Shellshock."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/nccgroup/shocker"
 commonlyOn: ["BlackArch"]

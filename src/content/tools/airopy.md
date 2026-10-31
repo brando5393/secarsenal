@@ -3,7 +3,7 @@ name: "airopy"
 tagline: "Get (wireless) clients and access points."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "https://github.com/Josue87/Airopy"
 commonlyOn: ["BlackArch"]

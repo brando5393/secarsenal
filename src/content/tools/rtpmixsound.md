@@ -3,7 +3,7 @@ name: "rtpmixsound"
 tagline: "Mixes pre-recorded audio in real-time"
 categories: ["voip"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/rtpmixsound/"
 downloadUrl: "http://www.hackingvoip.com/sec_tools.html"
 repoUrl: "https://gitlab.com/kalilinux/packages/rtpmixsound"

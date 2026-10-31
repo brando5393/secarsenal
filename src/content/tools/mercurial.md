@@ -3,7 +3,7 @@ name: "mercurial"
 tagline: "Easy-to-use, scalable distributed version control system"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/mercurial/"
 downloadUrl: "https://www.mercurial-scm.org/"
 repoUrl: "https://salsa.debian.org/python-team/packages/mercurial"

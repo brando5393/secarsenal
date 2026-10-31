@@ -3,7 +3,7 @@ name: "tcpcontrol-fuzzer"
 tagline: "2^6 TCP control bit fuzzer (no ECN or CWR)."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/fuzzer.html"
 commonlyOn: ["BlackArch"]
 gettingStarted: "Install on BlackArch with `pacman -S tcpcontrol-fuzzer` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."

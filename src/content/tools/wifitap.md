@@ -3,7 +3,7 @@ name: "wifitap"
 tagline: "WiFi injection tool through tun/tap device."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "https://github.com/GDSSecurity/wifitap"
 commonlyOn: ["BlackArch"]

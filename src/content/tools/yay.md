@@ -3,7 +3,7 @@ name: "yay"
 tagline: "Yet another yogurt. Pacman wrapper and AUR helper written in go."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/Jguer/yay"
 commonlyOn: ["BlackArch"]

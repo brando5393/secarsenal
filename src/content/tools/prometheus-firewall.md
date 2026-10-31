@@ -3,7 +3,7 @@ name: "prometheus-firewall"
 tagline: "A Firewall analyzer written in ruby"
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/averagesecurityguy/prometheus"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "necromant"
 tagline: "Python Script that search unused Virtual Hosts in Web Servers."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/PentesterES/Necromant"
 commonlyOn: ["BlackArch"]

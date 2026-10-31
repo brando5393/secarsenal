@@ -3,7 +3,7 @@ name: "mailoney"
 tagline: "mailoney honeypot, bundled with T-Pot's multi-honeypot platform."
 categories: ["honeypot"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/phin3has/mailoney"
 commonlyOn: ["T-Pot"]
 gettingStarted: "Bundled with T-Pot. See T-Pot's official README (linked above, under \"Honeypots and Tools\") and this project's own homepage for details."

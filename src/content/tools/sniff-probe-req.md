@@ -3,7 +3,7 @@ name: "sniff-probe-req"
 tagline: "Wi-Fi Probe Requests Sniffer."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "https://github.com/SkypLabs/sniff-probe-req"
 commonlyOn: ["BlackArch"]

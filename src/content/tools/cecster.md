@@ -3,7 +3,7 @@ name: "cecster"
 tagline: "A tool to perform security testing against the HDMI CEC (Consumer Electronics Control) and HEC (HDMI Ethernet Channel) p"
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/nccgroup/CECster"
 commonlyOn: ["BlackArch"]

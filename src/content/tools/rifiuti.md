@@ -3,7 +3,7 @@ name: "rifiuti"
 tagline: "MS Windows recycle bin analysis tool"
 categories: ["forensic-carving-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/rifiuti/"
 downloadUrl: "https://sf.net/projects/odessa"
 repoUrl: "https://salsa.debian.org/pkg-security-team/rifiuti"

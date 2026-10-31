@@ -3,7 +3,7 @@ name: "fbht"
 tagline: "A Facebook Hacking Tool"
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/chinoogawa/fbht"
 commonlyOn: ["BlackArch"]

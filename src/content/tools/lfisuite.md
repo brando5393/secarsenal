@@ -3,7 +3,7 @@ name: "lfisuite"
 tagline: "Totally Automatic LFI Exploiter (+ Reverse Shell) and Scanner."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/D35m0nd142/LFISuite"
 commonlyOn: ["BlackArch"]

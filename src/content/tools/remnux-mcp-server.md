@@ -4,7 +4,7 @@ tagline: "MCP server for using the REMnux malware analysis toolkit via AI assist
 categories: ["use-artificial-intelligence"]
 platforms: ["Linux"]
 license: "GPL-3.0"
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://docs.remnux.org/discover-the-tools/use+artificial+intelligence"
 downloadUrl: "https://github.com/REMnux/remnux-mcp-server"
 commonlyOn: ["REMnux"]

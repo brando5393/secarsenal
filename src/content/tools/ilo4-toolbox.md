@@ -3,7 +3,7 @@ name: "ilo4-toolbox"
 tagline: "Toolbox for HPE iLO4 analysis."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/airbus-seclab/ilo4_toolbox"
 commonlyOn: ["BlackArch"]

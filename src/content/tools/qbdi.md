@@ -3,7 +3,7 @@ name: "qbdi"
 tagline: "A Dynamic Binary Instrumentation framework based on LLVM."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/QBDI/QBDI"
 commonlyOn: ["BlackArch"]

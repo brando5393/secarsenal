@@ -3,7 +3,7 @@ name: "nxcrypt"
 tagline: "Python backdoor framework."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://github.com/Hadi999/NXcrypt"
 commonlyOn: ["BlackArch"]

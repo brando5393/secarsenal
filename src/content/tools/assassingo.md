@@ -3,7 +3,7 @@ name: "assassingo"
 tagline: "Web pentest framework for information gathering and vulnerability scanning."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/AmyangXYZ/AssassinGo"
 commonlyOn: ["BlackArch"]

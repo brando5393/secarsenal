@@ -3,7 +3,7 @@ name: "swarm"
 tagline: "A distributed penetration testing tool."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/Arvin-X/swarm"
 commonlyOn: ["BlackArch"]

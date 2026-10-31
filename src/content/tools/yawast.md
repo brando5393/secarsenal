@@ -3,7 +3,7 @@ name: "yawast"
 tagline: "The YAWAST Antecedent Web Application Security Toolkit."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://pypi.org/project/yawast-ng/#files"
 commonlyOn: ["BlackArch"]

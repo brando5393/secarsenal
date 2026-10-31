@@ -3,7 +3,7 @@ name: "smbbf"
 tagline: "SMB password bruteforcer."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://packetstormsecurity.com/files/25381/smbbf.9.1.tar.gz.html"
 commonlyOn: ["BlackArch"]

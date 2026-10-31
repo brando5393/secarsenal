@@ -3,7 +3,7 @@ name: "aiengine"
 tagline: "A packet inspection engine with capabilities of learning without any human intervention."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://bitbucket.org/camp0/aiengine/downloads/"
 commonlyOn: ["BlackArch"]

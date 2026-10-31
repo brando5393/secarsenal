@@ -3,7 +3,7 @@ name: "subover"
 tagline: "A Powerful Subdomain Takeover Tool."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/Ice3man543/SubOver"
 commonlyOn: ["BlackArch"]

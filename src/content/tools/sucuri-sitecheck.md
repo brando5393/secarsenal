@@ -3,7 +3,7 @@ name: "Sucuri SiteCheck"
 tagline: "Free remote website scanner that checks for malware, security threats, blacklisting, and vulnerabilities. Detects outdated CMS versions, insecure…"
 categories: ["domain-name"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://sitecheck.sucuri.net/"
 commonlyOn: []
 gettingStarted: "Best for: Website malware scanning, vulnerability detection, security assessment. See the official site linked above for details."

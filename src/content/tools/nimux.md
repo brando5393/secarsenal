@@ -3,7 +3,7 @@ name: "nimux"
 tagline: "Pure-Nim network enumeration and remote execution toolkit."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/blue0x1/nimux"
 commonlyOn: ["BlackArch"]

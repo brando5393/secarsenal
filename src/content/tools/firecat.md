@@ -3,7 +3,7 @@ name: "firecat"
 tagline: "A penetration testing tool that allows you to punch reverse TCP tunnels out of a compromised network."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/BishopFox/firecat"
 commonlyOn: ["BlackArch"]

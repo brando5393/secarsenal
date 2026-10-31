@@ -3,7 +3,7 @@ name: "ecfs"
 tagline: "Extended core file snapshot format."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/elfmaster/ecfs"
 commonlyOn: ["BlackArch"]

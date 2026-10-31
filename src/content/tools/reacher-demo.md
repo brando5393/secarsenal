@@ -3,7 +3,7 @@ name: "Reacher Demo"
 tagline: "Hosted demo of the Reacher email verification API allowing free testing of email validation and deliverability checks online."
 categories: ["email-address"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://reacher.email"
 commonlyOn: []
 gettingStarted: "Best for: Email verification testing, demonstration. See the official site linked above for details."

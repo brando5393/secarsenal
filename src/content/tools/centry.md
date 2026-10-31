@@ -3,7 +3,7 @@ name: "centry"
 tagline: "Cold boot & DMA protection"
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/0xPoly/Centry"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "PimEyes Face Search Engine"
 tagline: "Commercial reverse face search engine for locating appearances of a face on publicly indexed websites."
 categories: ["images-videos-docs"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://pimeyes.com/en"
 commonlyOn: []
 gettingStarted: "Best for: High-coverage reverse face search investigations. See the official site linked above for details."

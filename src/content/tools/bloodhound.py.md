@@ -3,7 +3,7 @@ name: "bloodhound.py"
 tagline: "Ingestor for BloodHound, based on Impacket (Python 3)"
 categories: ["active-directory"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/bloodhound.py/"
 downloadUrl: "https://github.com/dirkjanm/bloodhound.py"
 repoUrl: "https://gitlab.com/kalilinux/packages/bloodhound.py"

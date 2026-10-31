@@ -3,7 +3,7 @@ name: "Regrid (US Only)"
 tagline: "Interactive property mapping and parcel data tool covering most US counties. Provides parcel boundaries, assessment data, and ownership information."
 categories: ["public-records"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://regrid.com"
 commonlyOn: []
 gettingStarted: "Best for: Parcel mapping and property boundaries. See the official site linked above for details."

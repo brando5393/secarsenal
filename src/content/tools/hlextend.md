@@ -3,7 +3,7 @@ name: "hlextend"
 tagline: "Pure Python hash length extension module."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/stephenbradshaw/hlextend"
 commonlyOn: ["BlackArch"]

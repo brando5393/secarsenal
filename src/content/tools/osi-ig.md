@@ -3,7 +3,7 @@ name: "osi.ig"
 tagline: "Instagram OSINT Tool gets a range of information from an Instagram account."
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://github.com/th3unkn0n/osi.ig"
 commonlyOn: ["BlackArch"]

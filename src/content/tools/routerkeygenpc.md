@@ -3,7 +3,7 @@ name: "routerkeygenpc"
 tagline: "Router Keygen generate default WPA/WEP keys"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/routerkeygenpc/"
 downloadUrl: "https://github.com/routerkeygen/routerkeygenPC"
 repoUrl: "https://gitlab.com/kalilinux/packages/routerkeygenpc"

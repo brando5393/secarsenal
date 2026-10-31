@@ -3,7 +3,7 @@ name: "raccoon"
 tagline: "A high performance offensive security tool for reconnaissance and vulnerability scanning."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/evyatarmeged/Raccoon"
 commonlyOn: ["BlackArch"]

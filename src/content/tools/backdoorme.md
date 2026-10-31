@@ -3,7 +3,7 @@ name: "backdoorme"
 tagline: "A powerful utility capable of backdooring Unix machines with a slew of backdoors."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://github.com/Kkevsterrr/backdoorme"
 commonlyOn: ["BlackArch"]

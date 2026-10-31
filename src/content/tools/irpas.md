@@ -3,7 +3,7 @@ name: "irpas"
 tagline: "Internetwork Routing Protocol Attack Suite"
 categories: ["system-network-configuration-discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/irpas/"
 downloadUrl: "https://web.archive.org/web/20200208113522fw_/http://phenoelit.org/fr/tools.html"
 repoUrl: "https://salsa.debian.org/pkg-security-team/irpas"

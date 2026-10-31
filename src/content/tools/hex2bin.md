@@ -3,7 +3,7 @@ name: "hex2bin"
 tagline: "Converts Motorola and Intel hex files to binary."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "http://hex2bin.sourceforge.net/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "mftref2name"
 tagline: "Resolve file index number to name or vice versa on NTFS."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/jschicht/MftRef2Name"
 commonlyOn: ["BlackArch"]

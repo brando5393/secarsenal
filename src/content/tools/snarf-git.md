@@ -3,7 +3,7 @@ name: "snarf-git"
 tagline: "man-in-the-middle / relay suite"
 categories: ["mitm"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/snarf-git"
 downloadUrl: "https://github.com/purpleteam/snarf"
 commonlyOn: ["ArchStrike"]

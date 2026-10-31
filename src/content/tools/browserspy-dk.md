@@ -3,7 +3,7 @@ name: "BrowserSpy.dk"
 tagline: "Danish browser information and fingerprinting test site that reveals detailed browser capabilities including plugins, fonts, screen properties, and…"
 categories: ["opsec"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://browserspy.dk/"
 commonlyOn: []
 gettingStarted: "Best for: Detailed browser fingerprint inventory, identifying what data is visible to websites. See the official site linked above for details."

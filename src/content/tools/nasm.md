@@ -3,7 +3,7 @@ name: "nasm"
 tagline: "General-purpose x86 assembler"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/nasm/"
 downloadUrl: "https://www.nasm.us/"
 repoUrl: "https://salsa.debian.org/debian/nasm"

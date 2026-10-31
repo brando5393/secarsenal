@@ -3,7 +3,7 @@ name: "aide"
 tagline: "A file integrity checker and intrusion detection program."
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://aide.github.io/"
 commonlyOn: ["BlackArch"]

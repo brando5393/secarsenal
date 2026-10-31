@@ -3,7 +3,7 @@ name: "LUKS"
 tagline: "Support for both LUKS and VeraCrypt encrypted volumes (like USB sticks)"
 categories: ["encryption-and-privacy"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://tails.net/doc/about/features/index.en.html"
 downloadUrl: "https://en.wikipedia.org/wiki/Linux%5FUnified%5FKey%5FSetup"
 commonlyOn: ["Tails"]

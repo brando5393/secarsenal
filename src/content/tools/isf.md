@@ -3,7 +3,7 @@ name: "isf"
 tagline: "An exploitation framework based on Python."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/dark-lbp/isf"
 commonlyOn: ["BlackArch"]

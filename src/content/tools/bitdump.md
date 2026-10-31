@@ -3,7 +3,7 @@ name: "bitdump"
 tagline: "A tool to extract database data from a blind SQL injection vulnerability."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/nbshelton/bitdump"
 commonlyOn: ["BlackArch"]

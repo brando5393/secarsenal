@@ -1,15 +1,15 @@
 ---
 name: "dnsa"
-tagline: "A dns security swiss army knife."
-categories: ["scanner"]
+tagline: "DNSA is a dns security swiss army knife"
+categories: ["scanners"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
-docsUrl: "https://blackarch.org/scanner.html"
+lastVerified: 2026-10-31
+docsUrl: "https://archstrike.org/packages/dnsa"
 downloadUrl: "http://packetfactory.openwall.net/projects/dnsa/index.html"
-commonlyOn: ["BlackArch"]
-gettingStarted: "Install on BlackArch with `pacman -S dnsa` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
+commonlyOn: ["ArchStrike"]
+gettingStarted: "Install by adding the ArchStrike repository to an existing Arch Linux install, then `pacman -S dnsa`. See the official ArchStrike package listing and upstream homepage linked above for details."
 ---
 
-A dns security swiss army knife.
+DNSA is a dns security swiss army knife
 
 Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

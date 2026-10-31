@@ -3,7 +3,7 @@ name: "cpptest"
 tagline: "A portable and powerful, yet simple, unit testing framework for handling automated tests in C++."
 categories: ["code-audit"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/code-audit.html"
 downloadUrl: "https://github.com/cpptest/cpptest/releases"
 commonlyOn: ["BlackArch"]

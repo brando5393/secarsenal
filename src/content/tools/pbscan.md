@@ -3,7 +3,7 @@ name: "pbscan"
 tagline: "Faster and more efficient stateless SYN scanner and banner grabber due to userland TCP/IP stack usage."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/gvb84/pbscan"
 commonlyOn: ["BlackArch"]

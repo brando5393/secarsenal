@@ -1,14 +1,14 @@
 ---
 name: "KeePwn"
-tagline: "KeePwn is a tool that extracts passwords from KeePass 1.x and 2.x databases."
+tagline: "Find KeePass installations and extract secrets from them."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/Orange-Cyberdefense/KeePwn"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."
 ---
 
-KeePwn is a tool that extracts passwords from KeePass 1.x and 2.x databases.
+Find KeePass installations and extract secrets from them.
 
 Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

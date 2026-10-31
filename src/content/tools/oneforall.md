@@ -3,7 +3,7 @@ name: "oneforall"
 tagline: "a powerful subdomain collection tool."
 categories: ["ad","web"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/shmilylty/OneForAll"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "themole"
 tagline: "Automatic SQL injection exploitation tool."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "http://sourceforge.net/projects/themole/"
 commonlyOn: ["BlackArch"]

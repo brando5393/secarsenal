@@ -3,7 +3,7 @@ name: "rsactftool"
 tagline: "RSA tool for ctf - retrieve private key from weak public key and/or uncipher data."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/Ganapati/RsaCtfTool"
 commonlyOn: ["BlackArch"]

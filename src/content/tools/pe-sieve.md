@@ -3,7 +3,7 @@ name: "pe-sieve"
 tagline: "Scans a given process. Recognizes and dumps a variety of potentially malicious implants (replaced/injected PEs, shellcod"
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/hasherezade/pe-sieve"
 commonlyOn: ["BlackArch"]

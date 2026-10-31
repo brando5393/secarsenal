@@ -3,7 +3,7 @@ name: "hydra"
 tagline: "Very fast network logon cracker"
 categories: ["brute-force","credential-access"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/hydra/"
 downloadUrl: "https://github.com/vanhauser-thc/thc-hydra"
 repoUrl: "https://salsa.debian.org/pkg-security-team/hydra"

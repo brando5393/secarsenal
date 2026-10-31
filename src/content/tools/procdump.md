@@ -3,7 +3,7 @@ name: "procdump"
 tagline: "Generate coredumps based off performance triggers."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/Microsoft/ProcDump-for-Linux"
 commonlyOn: ["BlackArch"]

@@ -4,7 +4,7 @@ tagline: "Analyze zip-compressed files."
 categories: ["microsoft-office"]
 platforms: ["Linux"]
 license: "Public Domain"
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://docs.remnux.org/discover-the-tools/analyze+documents/microsoft+office"
 downloadUrl: "https://blog.didierstevens.com/2020/07/27/update-zipdump-py-version-0-0-20/"
 commonlyOn: ["REMnux"]

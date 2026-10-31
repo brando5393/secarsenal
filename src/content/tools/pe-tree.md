@@ -4,7 +4,7 @@ tagline: "Examine contents and structure of PE files."
 categories: ["pe-files"]
 platforms: ["Linux"]
 license: "Apache License 2.0"
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/pe+files"
 downloadUrl: "https://github.com/blackberry/pe_tree"
 commonlyOn: ["REMnux"]

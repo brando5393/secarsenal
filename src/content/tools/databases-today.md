@@ -3,7 +3,7 @@ name: "Databases.Today"
 tagline: "Breach data discovery portal indexing exposed databases and leaked credential collections."
 categories: ["archives"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://databases.today/"
 commonlyOn: []
 gettingStarted: "Best for: Identifying whether target identifiers appear in known breach dumps. See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "cms-explorer"
 tagline: "Designed to reveal the specific modules, plugins, components and themes that various cms driven websites are running."
 categories: ["fingerprint"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/fingerprint.html"
 downloadUrl: "https://github.com/FlorianHeigl/cms-explorer"
 commonlyOn: ["BlackArch"]

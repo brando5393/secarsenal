@@ -3,7 +3,7 @@ name: "ibombshell"
 tagline: "Dynamic Remote Shell"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/ibombshell/"
 downloadUrl: "https://github.com/Telefonica/ibombshell"
 repoUrl: "https://gitlab.com/kalilinux/packages/ibombshell"

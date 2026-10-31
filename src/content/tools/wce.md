@@ -3,7 +3,7 @@ name: "wce"
 tagline: "Windows Credentials Editor"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/wce/"
 downloadUrl: "http://www.ampliasecurity.com/research.html"
 repoUrl: "https://gitlab.com/kalilinux/packages/wce"

@@ -4,7 +4,7 @@ tagline: "Search for XOR, ROL, ROT, and SHIFT encoded strings with YARA and rege
 categories: ["deobfuscation"]
 platforms: ["Linux"]
 license: "Public Domain"
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/deobfuscation"
 downloadUrl: "https://blog.didierstevens.com/2020/08/23/new-tool-xorsearch-py/"
 commonlyOn: ["REMnux"]

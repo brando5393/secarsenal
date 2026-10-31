@@ -3,7 +3,7 @@ name: "kwetza"
 tagline: "Python script to inject existing Android applications with a Meterpreter payload."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://github.com/sensepost/kwetza"
 commonlyOn: ["BlackArch"]

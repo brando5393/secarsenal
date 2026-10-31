@@ -3,7 +3,7 @@ name: "server-status-pwn"
 tagline: "A script that monitors and extracts requested URLs and clients connected to the service by exploiting publicly accessibl"
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/mazen160/server-status_PWN"
 commonlyOn: ["BlackArch"]

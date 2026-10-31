@@ -3,7 +3,7 @@ name: "instashell"
 tagline: "Multi-threaded Instagram Brute Forcer without password limit."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/maxrooted/instashell"
 commonlyOn: ["BlackArch"]

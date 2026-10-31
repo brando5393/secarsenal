@@ -4,7 +4,7 @@ tagline: "Find patterns of common encryption, compression, or encoding algorithm
 categories: ["general"]
 platforms: ["Linux"]
 license: "Free, unknown license"
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/general"
 downloadUrl: "http://aluigi.altervista.org/mytoolz.htm"
 commonlyOn: ["REMnux"]

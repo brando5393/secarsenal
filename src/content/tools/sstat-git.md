@@ -3,7 +3,7 @@ name: "sstat-git"
 tagline: "Check the status of a server while fuzzing or DDoSing"
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/sstat-git"
 downloadUrl: "https://bitbucket.org/R4v3N/sstat.sh"
 commonlyOn: ["ArchStrike"]

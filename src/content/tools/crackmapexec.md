@@ -3,7 +3,7 @@ name: "crackmapexec"
 tagline: "Swiss army knife for pentesting networks"
 categories: ["pass-the-hash","brute-force","network-share-discovery","lateral-movement","application-layer-protocol"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/crackmapexec/"
 downloadUrl: "https://github.com/mpgn/CrackMapExec"
 repoUrl: "https://gitlab.com/kalilinux/packages/crackmapexec"

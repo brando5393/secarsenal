@@ -3,7 +3,7 @@ name: "pwndbg-git"
 tagline: "A collection of python that makes debugging with gdb suck less"
 categories: ["decompile"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/pwndbg-git"
 downloadUrl: "https://github.com/pwndbg/pwndbg"
 commonlyOn: ["ArchStrike"]

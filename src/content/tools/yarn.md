@@ -3,7 +3,7 @@ name: "yarn"
 tagline: "Yarn is a package manager that doubles down as project manager."
 categories: ["ad","light","osint","web"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://yarnpkg.com/"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

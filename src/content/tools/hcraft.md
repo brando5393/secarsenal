@@ -3,7 +3,7 @@ name: "hcraft"
 tagline: "HTTP Vuln Request Crafter."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "http://sourceforge.net/projects/hcraft/"
 commonlyOn: ["BlackArch"]

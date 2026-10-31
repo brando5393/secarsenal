@@ -4,7 +4,7 @@ tagline: "Deobfuscate XOR'ed files."
 categories: ["deobfuscation"]
 platforms: ["Linux"]
 license: "Apache License 2.0"
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/deobfuscation"
 downloadUrl: "https://github.com/tomchop/unxor/"
 commonlyOn: ["REMnux"]

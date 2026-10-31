@@ -3,7 +3,7 @@ name: "sslh"
 tagline: "Applicative protocol multiplexer"
 categories: ["protocol-tunneling"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/sslh/"
 downloadUrl: "http://www.rutschle.net/tech/sslh/README.html"
 repoUrl: "https://salsa.debian.org/debian/sslh.git"

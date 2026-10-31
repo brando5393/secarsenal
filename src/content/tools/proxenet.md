@@ -3,7 +3,7 @@ name: "proxenet"
 tagline: "THE REAL hacker friendly proxy for web application pentests."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/hugsy/proxenet"
 commonlyOn: ["BlackArch"]

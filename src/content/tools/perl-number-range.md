@@ -3,7 +3,7 @@ name: "perl-number-range"
 tagline: "Perl extension defining ranges of numbers and testing if a"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/perl-number-range"
 downloadUrl: "https://metacpan.org/pod/Number::Range"
 commonlyOn: ["ArchStrike"]

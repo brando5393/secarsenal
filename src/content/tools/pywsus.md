@@ -1,14 +1,14 @@
 ---
 name: "pywsus"
-tagline: "Python implementation of a WSUS client"
+tagline: "Offensive WSUS server for pushing updates to Windows clients"
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://github.com/GoSecure/pywsus"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."
 ---
 
-Python implementation of a WSUS client
+Offensive WSUS server for pushing updates to Windows clients
 
 Only use this tool against systems you own or are explicitly authorized to test — see the [disclaimer](/disclaimer).

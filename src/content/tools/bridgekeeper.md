@@ -3,7 +3,7 @@ name: "bridgekeeper"
 tagline: "Scrape employee names from search engine LinkedIn profiles. Convert employee names to a specified username format."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/0xZDH/BridgeKeeper"
 commonlyOn: ["BlackArch"]

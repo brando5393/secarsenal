@@ -3,7 +3,7 @@ name: "requests"
 tagline: "Elegant and simple HTTP library for Python (Documentation)"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/requests/"
 downloadUrl: "https://github.com/psf/requests"
 repoUrl: "https://salsa.debian.org/python-team/packages/requests"

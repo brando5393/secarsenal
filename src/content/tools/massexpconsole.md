@@ -3,7 +3,7 @@ name: "massexpconsole"
 tagline: "A collection of tools and exploits with a cli ui for mass exploitation."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/jm33-m0/massExpConsole"
 commonlyOn: ["BlackArch"]

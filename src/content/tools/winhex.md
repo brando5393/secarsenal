@@ -3,7 +3,7 @@ name: "winhex"
 tagline: "Hex Editor and Disk Editor."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://www.x-ways.net/winhex/"
 commonlyOn: ["BlackArch"]

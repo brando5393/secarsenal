@@ -3,7 +3,7 @@ name: "defectdojo"
 tagline: "Security orchestration and vulnerability management platform"
 categories: ["system-services"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/defectdojo/"
 downloadUrl: "https://github.com/DefectDojo/django-DefectDojo"
 repoUrl: "https://gitlab.com/kalilinux/packages/defectdojo"

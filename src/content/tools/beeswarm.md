@@ -3,7 +3,7 @@ name: "beeswarm"
 tagline: "Honeypot deployment made easy."
 categories: ["honeypot"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/honeypot.html"
 downloadUrl: "https://github.com/honeynet/beeswarm/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "shareenum"
 tagline: "Tool to enumerate shares from Windows hosts."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/CroweCybersecurity/shareenum"
 commonlyOn: ["BlackArch"]

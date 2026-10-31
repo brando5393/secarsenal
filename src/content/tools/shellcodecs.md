@@ -3,7 +3,7 @@ name: "shellcodecs"
 tagline: "A collection of shellcode, loaders, sources, and generators provided with documentation designed to ease the exploitatio"
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "http://www.blackhatlibrary.net/Shellcodecs"
 commonlyOn: ["BlackArch"]

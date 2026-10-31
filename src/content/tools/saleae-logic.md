@@ -3,7 +3,7 @@ name: "saleae-logic"
 tagline: "Debug happy."
 categories: ["debugger"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/debugger.html"
 downloadUrl: "https://www.saleae.com/downloads"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "AIHIT"
 tagline: "B2B company intelligence platform providing data on millions of businesses including executives, contact information, and company profiles."
 categories: ["business-records"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.aihitdata.com/"
 commonlyOn: []
 gettingStarted: "Best for: Company executive discovery and B2B contact data enrichment. See the official site linked above for details."

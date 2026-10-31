@@ -3,7 +3,7 @@ name: "saruman"
 tagline: "ELF anti-forensics exec, for injecting full dynamic executables into process image (With thread injection)."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/elfmaster/saruman"
 commonlyOn: ["BlackArch"]

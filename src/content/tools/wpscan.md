@@ -3,7 +3,7 @@ name: "wpscan"
 tagline: "Black box WordPress vulnerability scanner"
 categories: ["web-vulnerability-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/wpscan/"
 downloadUrl: "https://wpscan.com/wordpress-security-scanner"
 repoUrl: "https://gitlab.com/kalilinux/packages/wpscan"

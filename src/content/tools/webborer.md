@@ -3,7 +3,7 @@ name: "webborer"
 tagline: "A directory-enumeration tool written in Go."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/Matir/webborer"
 commonlyOn: ["BlackArch"]

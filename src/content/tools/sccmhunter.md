@@ -3,7 +3,7 @@ name: "sccmhunter"
 tagline: "Identifying, profiling, and attacking SCCM related assets in an Active Directory domain."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/garrettfoster13/sccmhunter"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "slipit"
 tagline: "Utility for creating archives with path traversal elements for ZipSlip attacks."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/usdAG/slipit"
 commonlyOn: ["BlackArch"]

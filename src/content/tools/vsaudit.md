@@ -3,7 +3,7 @@ name: "vsaudit"
 tagline: "VOIP Security Audit Framework."
 categories: ["voip"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/voip.html"
 downloadUrl: "https://github.com/sanvil/vsaudit"
 commonlyOn: ["BlackArch"]

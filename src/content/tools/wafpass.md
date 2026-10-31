@@ -3,7 +3,7 @@ name: "wafpass"
 tagline: "Analysing parameters with all payloads' bypass methods, aiming at benchmarking security solutions like WAF."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/wafpassproject/wafpass"
 commonlyOn: ["BlackArch"]

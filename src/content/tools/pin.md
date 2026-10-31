@@ -3,7 +3,7 @@ name: "pin"
 tagline: "A dynamic binary instrumentation tool."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://software.intel.com/en-us/articles/pin-a-binary-instrumentation-tool-downloads"
 commonlyOn: ["BlackArch"]

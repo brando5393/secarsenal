@@ -3,7 +3,7 @@ name: "wifi-pumpkin"
 tagline: "Framework for Rogue Wi-Fi Access Point Attack."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "https://github.com/P0cL4bs/wifipumpkin3"
 commonlyOn: ["BlackArch"]

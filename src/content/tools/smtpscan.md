@@ -3,7 +3,7 @@ name: "smtpscan"
 tagline: "An SMTP scanner"
 categories: ["fingerprint"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/fingerprint.html"
 downloadUrl: "http://packetstormsecurity.com/files/31102/smtpscan.5.tar.gz.html"
 commonlyOn: ["BlackArch"]

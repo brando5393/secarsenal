@@ -3,7 +3,7 @@ name: "hexstrike-ai"
 tagline: "AI-Powered MCP Cybersecurity Automation Platform"
 categories: ["services-and-other-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/hexstrike-ai/"
 downloadUrl: "https://github.com/0x4m4/hexstrike-ai"
 repoUrl: "https://gitlab.com/kalilinux/packages/hexstrike-ai"

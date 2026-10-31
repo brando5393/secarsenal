@@ -3,7 +3,7 @@ name: "shosubgo"
 tagline: "Small tool to Grab subdomains using Shodan API."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/incogbyte/shosubgo"
 commonlyOn: ["BlackArch"]

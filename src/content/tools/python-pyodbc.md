@@ -3,7 +3,7 @@ name: "python-pyodbc"
 tagline: "Python ODBC bridge"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/python-pyodbc"
 downloadUrl: "https://github.com/mkleehammer/pyodbc"
 commonlyOn: ["ArchStrike"]

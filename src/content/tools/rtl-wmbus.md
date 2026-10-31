@@ -3,7 +3,7 @@ name: "rtl-wmbus"
 tagline: "Software defined receiver for wireless M-Bus with RTL-SDR."
 categories: ["radio"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/radio.html"
 downloadUrl: "https://github.com/xaelsouth/rtl-wmbus"
 commonlyOn: ["BlackArch"]

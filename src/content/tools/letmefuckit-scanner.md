@@ -3,7 +3,7 @@ name: "letmefuckit-scanner"
 tagline: "Scanner and Exploit Magento."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/onthefrontline/LetMeFuckIt-Scanner"
 commonlyOn: ["BlackArch"]

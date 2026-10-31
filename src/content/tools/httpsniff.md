@@ -3,7 +3,7 @@ name: "httpsniff"
 tagline: "Tool to sniff HTTP responses from TCP/IP based networks and save contained files locally for later review."
 categories: ["sniffer"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/sniffer.html"
 downloadUrl: "https://www.sump.org/projects/httpsniff/"
 commonlyOn: ["BlackArch"]

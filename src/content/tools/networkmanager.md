@@ -3,7 +3,7 @@ name: "NetworkManager"
 tagline: "for easy network configuration"
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://tails.net/doc/about/features/index.en.html"
 downloadUrl: "https://networkmanager.dev/"
 commonlyOn: ["Tails"]

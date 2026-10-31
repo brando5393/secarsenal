@@ -3,7 +3,7 @@ name: "aztarna"
 tagline: "A footprinting tool for ROS and SROS systems."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/aliasrobotics/aztarna"
 commonlyOn: ["BlackArch"]

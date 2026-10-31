@@ -3,7 +3,7 @@ name: "fpdns-git"
 tagline: "Program that remotely determines DNS server versions"
 categories: ["analysis"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://archstrike.org/packages/fpdns-git"
 downloadUrl: "https://github.com/kirei/fpdns"
 commonlyOn: ["ArchStrike"]

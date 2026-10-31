@@ -3,7 +3,7 @@ name: "cloudlist"
 tagline: "A tool for listing Assets from multiple Cloud Providers."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/projectdiscovery/cloudlist"
 commonlyOn: ["BlackArch"]

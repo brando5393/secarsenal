@@ -3,7 +3,7 @@ name: "maltrieve"
 tagline: "Originated as a fork of mwcrawler. It retrieves malware directly from the sources as listed at a number of sites."
 categories: ["malware"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://blackarch.org/malware.html"
 downloadUrl: "https://github.com/technoskald/maltrieve"
 commonlyOn: ["BlackArch"]

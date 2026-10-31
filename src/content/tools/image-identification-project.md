@@ -3,7 +3,7 @@ name: "Image Identification Project"
 tagline: "Online image recognition service that labels uploaded images with machine-generated tags and confidence scores."
 categories: ["images-videos-docs"]
 platforms: ["Web"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.imageidentify.com/"
 commonlyOn: []
 gettingStarted: "Best for: Quick machine-labeling of unknown image content. See the official site linked above for details."

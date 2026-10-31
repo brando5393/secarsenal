@@ -3,7 +3,7 @@ name: "starkiller"
 tagline: "Frontend for Powershell Empire"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-01
+lastVerified: 2026-10-31
 docsUrl: "https://www.kali.org/tools/starkiller/"
 downloadUrl: "https://github.com/BC-SECURITY/Starkiller"
 repoUrl: "https://gitlab.com/kalilinux/packages/starkiller"
