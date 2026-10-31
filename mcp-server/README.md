@@ -47,15 +47,23 @@ only if this turns out too coarse once there's real traffic to judge
 by. The `workers.dev` subdomain for this script is disabled, so this
 rule can't be bypassed by hitting that URL directly instead.
 
-## Known accepted advisory
+## Dependency audit
 
-The earlier dev-only `sharp`/`miniflare` advisory is resolved (wrangler
-4.149 pulls a patched sharp). What remains is GHSA-6qxp-vccf-f47h in the
-MCP SDK's OAuth *client*, which the advisory says does not affect
-SDK-built MCP servers like this one; patched releases exist but
-`agents` pins the SDK exactly, so it is carried in
-`audit-allowlist.json` with a reason and a short expiry. CI runs
-`node ../scripts/audit-gate.mjs --omit-dev --allowlist=./audit-allowlist.json`.
+No advisories are currently accepted: `audit-allowlist.json` is empty and
+CI runs `node ../scripts/audit-gate.mjs --omit-dev --allowlist=./audit-allowlist.json`
+before every deploy. `agents` exact-pins the MCP packages
+(`@modelcontextprotocol/sdk` 1.32.2, `/server` and `/client` 2.4.0), and
+`package.json` pins the same versions exactly, so a stray `npm update`
+can't drift outside the combination the framework was tested with. Move all
+of them together when `agents` moves its pins.
+
+History: until 2026-10-31 this carried one allowlisted advisory
+(GHSA-6qxp-vccf-f47h, the SDK's OAuth *client*, which does not affect
+SDK-built servers) because `agents` 0.22 pinned a vulnerable SDK. The
+upgrade to `agents` 0.32 cleared it, along with newer *server-side* SDK
+advisories (request-body/batch size limits, memory exhaustion, shared
+transports) that did matter for a public endpoint, so it was fixed rather
+than renewed.
 
 ## First-time setup
 
