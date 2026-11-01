@@ -3,7 +3,7 @@ name: "armitage"
 tagline: "Cyber attack management for Metasploit"
 categories: ["execution","command-and-control"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/armitage/"
 downloadUrl: "https://github.com/r00t0v3rr1d3/armitage"
 repoUrl: "https://gitlab.com/kalilinux/packages/armitage"

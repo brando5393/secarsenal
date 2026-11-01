@@ -3,7 +3,7 @@ name: "lnkup"
 tagline: "This tool will allow you to generate LNK payloads. Upon rendering or being run they will exfiltrate data."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/Plazmaz/lnkUp"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

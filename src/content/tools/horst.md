@@ -3,7 +3,7 @@ name: "horst"
 tagline: "Highly Optimized Radio Scanning Tool"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/horst/"
 downloadUrl: "https://github.com/br101/horst"
 repoUrl: "https://salsa.debian.org/debian/horst"

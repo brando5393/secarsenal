@@ -3,7 +3,7 @@ name: "payloadsallthethings"
 tagline: "Collection of useful payloads and bypasses"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/payloadsallthethings/"
 downloadUrl: "https://github.com/swisskyrepo/PayloadsAllTheThings"
 repoUrl: "https://gitlab.com/kalilinux/packages/payloadsallthethings"

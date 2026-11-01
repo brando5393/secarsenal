@@ -3,7 +3,7 @@ name: "dfdatetime"
 tagline: "Digital Forensics date and time library for Python 3"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/dfdatetime/"
 downloadUrl: "https://github.com/log2timeline/dfdatetime"
 repoUrl: "https://salsa.debian.org/pkg-security-team/dfdatetime"

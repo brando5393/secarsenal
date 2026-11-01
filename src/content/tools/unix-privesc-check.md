@@ -3,7 +3,7 @@ name: "unix-privesc-check"
 tagline: "Script to check for simple privilege escalation vectors"
 categories: ["privilege-escalation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/unix-privesc-check/"
 downloadUrl: "https://pentestmonkey.net/tools/audit/unix-privesc-check"
 repoUrl: "https://gitlab.com/kalilinux/packages/unix-privesc-check"

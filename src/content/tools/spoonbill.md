@@ -3,7 +3,7 @@ name: "Spoonbill"
 tagline: "Service that tracks Twitter/X profile changes such as bios, names, and avatars over time."
 categories: ["social-networks"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://spoonbill.io/"
 commonlyOn: []
 gettingStarted: "Best for: Monitoring profile change history. See the official site linked above for details."

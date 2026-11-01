@@ -3,7 +3,7 @@ name: "origami"
 tagline: "Aims at providing a scripting tool to generate and analyze malicious PDF files."
 categories: ["malware"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/malware.html"
 downloadUrl: "https://github.com/gdelugre/origami"
 commonlyOn: ["BlackArch"]

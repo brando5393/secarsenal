@@ -3,7 +3,7 @@ name: "radare2"
 tagline: "Free and advanced command line hexadecimal editor"
 categories: ["resource-development"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/radare2/"
 downloadUrl: "https://www.radare.org"
 repoUrl: "https://salsa.debian.org/pkg-security-team/radare2"

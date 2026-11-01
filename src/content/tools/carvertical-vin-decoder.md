@@ -3,7 +3,7 @@ name: "carVertical VIN Decoder"
 tagline: "International VIN and registration decoder with vehicle history reporting across accident, theft, and ownership datasets."
 categories: ["transportation"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.carvertical.com/vin-decoder"
 commonlyOn: []
 gettingStarted: "Best for: Cross-border vehicle history and ownership verification. See the official site linked above for details."

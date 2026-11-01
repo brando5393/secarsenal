@@ -3,7 +3,7 @@ name: "DNS leak test"
 tagline: "Tests whether DNS queries are leaking outside a VPN tunnel by checking which DNS servers resolve your lookups, potentially exposing your ISP."
 categories: ["opsec"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.dnsleaktest.com/"
 commonlyOn: []
 gettingStarted: "Best for: Verifying DNS query routing through VPN, detecting ISP DNS exposure. See the official site linked above for details."

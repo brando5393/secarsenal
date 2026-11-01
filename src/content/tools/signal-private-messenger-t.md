@@ -3,7 +3,7 @@ name: "Signal Private Messenger (T)"
 tagline: "End-to-end encrypted messaging app with 40M+ users. Limited OSINT value due to privacy-first design."
 categories: ["mobile-osint"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://signal.org/"
 commonlyOn: []
 gettingStarted: "Best for: Identity verification, account discovery via phone/email, community research. See the official site linked above for details."

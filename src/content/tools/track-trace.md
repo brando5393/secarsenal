@@ -3,7 +3,7 @@ name: "Track-Trace"
 tagline: "Multi-carrier shipment tracking aggregator for parcel and freight status across global postal and logistics providers."
 categories: ["transportation"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.track-trace.com/"
 commonlyOn: []
 gettingStarted: "Best for: Package tracking and supply-chain movement checks. See the official site linked above for details."

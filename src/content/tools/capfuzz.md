@@ -3,7 +3,7 @@ name: "capfuzz"
 tagline: "Capture, fuzz and intercept web traffic."
 categories: ["sniffer"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/sniffer.html"
 downloadUrl: "https://github.com/MobSF/CapFuzz"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "Most Wanted Criminal Pages"
 tagline: "FBI's official wanted fugitives database featuring the Ten Most Wanted list and expanded fugitive database with photos and details."
 categories: ["public-records"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.fbi.gov/wanted/fugitives"
 commonlyOn: []
 gettingStarted: "Best for: Wanted fugitive identification. See the official site linked above for details."

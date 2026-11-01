@@ -3,7 +3,7 @@ name: "jd-cli"
 tagline: "Command line Java Decompiler."
 categories: ["decompiler"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/decompiler.html"
 downloadUrl: "https://github.com/kwart/jd-cli"
 commonlyOn: ["BlackArch"]

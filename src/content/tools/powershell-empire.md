@@ -3,7 +3,7 @@ name: "powershell-empire"
 tagline: "PowerShell and Python post-exploitation agent"
 categories: ["command-and-control","system-services"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/powershell-empire/"
 downloadUrl: "https://github.com/BC-SECURITY/Empire"
 repoUrl: "https://gitlab.com/kalilinux/packages/powershell-empire"

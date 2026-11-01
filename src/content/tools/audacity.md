@@ -3,7 +3,7 @@ name: "Audacity"
 tagline: "for recording and editing sounds"
 categories: ["desktop-edition"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://tails.net/doc/about/features/index.en.html"
 downloadUrl: "https://www.audacityteam.org/"
 commonlyOn: ["Tails"]

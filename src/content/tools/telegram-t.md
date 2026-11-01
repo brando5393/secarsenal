@@ -3,7 +3,7 @@ name: "Telegram (T)"
 tagline: "Messaging platform with 700M+ users. Extensive public data through public channels, groups, and user searches."
 categories: ["mobile-osint"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://telegram.org/"
 commonlyOn: []
 gettingStarted: "Best for: User discovery, channel monitoring, group reconnaissance, bot creation for data collection. See the official site linked above for details."

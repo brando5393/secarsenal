@@ -3,7 +3,7 @@ name: "Ether"
 tagline: "Georgia Tech malware analysis framework using Intel VT hardware virtualization for transparent, stealthy malware analysis resistant to anti-analysis…"
 categories: ["malicious-file-analysis"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://ether.gtisc.gatech.edu/web_unpack/"
 commonlyOn: []
 gettingStarted: "Best for: Transparent malware analysis resistant to anti-analysis evasion. See the official site linked above for details."

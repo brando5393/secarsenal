@@ -3,7 +3,7 @@ name: "ctypes-sh"
 tagline: "Allows you to call routines in shared libraries from within bash."
 categories: ["reversing"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/reversing.html"
 downloadUrl: "https://github.com/taviso/ctypes.sh"
 commonlyOn: ["BlackArch"]

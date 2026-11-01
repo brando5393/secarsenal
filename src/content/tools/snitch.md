@@ -3,7 +3,7 @@ name: "snitch"
 tagline: "Turn back the asterisks in password fields to plaintext passwords."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://ntsecurity.nu/toolbox/snitch/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "LiveUaMap"
 tagline: "Conflict/event mapping platform that geolocates incidents from public reporting."
 categories: ["geolocation-tools-maps"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://liveuamap.com/"
 commonlyOn: []
 gettingStarted: "Best for: Conflict and crisis event geolocation tracking. See the official site linked above for details."

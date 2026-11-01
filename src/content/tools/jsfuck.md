@@ -3,7 +3,7 @@ name: "jsfuck"
 tagline: "Write any JavaScript with 6 Characters: []()!+."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/aemkei/jsfuck"
 commonlyOn: ["BlackArch"]

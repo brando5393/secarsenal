@@ -4,7 +4,7 @@ tagline: "Deobfuscate and unpack .NET programs protected with .NET Reactor, Conf
 categories: ["unpacking"]
 platforms: ["Linux"]
 license: "MIT License"
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/statically+analyze+code/unpacking"
 downloadUrl: "https://github.com/jgajek/cilantro"
 commonlyOn: ["REMnux"]

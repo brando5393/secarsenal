@@ -3,7 +3,7 @@ name: "mavlink-git"
 tagline: "MAVLink micro air vehicle marshalling / communication libraries"
 categories: ["drone"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/mavlink-git"
 downloadUrl: "http://mavlink.io/"
 commonlyOn: ["ArchStrike"]

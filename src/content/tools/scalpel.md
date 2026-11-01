@@ -3,7 +3,7 @@ name: "scalpel"
 tagline: "Fast filesystem-independent file recovery"
 categories: ["forensic-carving-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/scalpel/"
 downloadUrl: "https://github.com/nolaforensix/scalpel-1.60"
 repoUrl: "https://salsa.debian.org/pkg-security-team/scalpel"

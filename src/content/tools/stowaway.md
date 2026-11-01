@@ -3,7 +3,7 @@ name: "stowaway"
 tagline: "A Multi-hop proxy tool for security researchers and pentesters."
 categories: ["proxy"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/proxy.html"
 downloadUrl: "https://github.com/ph4ntonn/Stowaway"
 commonlyOn: ["BlackArch"]

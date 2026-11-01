@@ -3,7 +3,7 @@ name: "dotpeek"
 tagline: "Free .NET Decompiler and Assembly Browser."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://www.jetbrains.com/decompiler/"
 commonlyOn: ["BlackArch"]

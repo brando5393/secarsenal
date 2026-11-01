@@ -4,7 +4,7 @@ tagline: "Python package to parse, read and write MS OLE2 files."
 categories: ["microsoft-office"]
 platforms: ["Linux"]
 license: "All Rights Reserved"
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/analyze+documents/microsoft+office"
 downloadUrl: "https://github.com/decalage2/olefile"
 commonlyOn: ["REMnux"]

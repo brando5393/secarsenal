@@ -3,7 +3,7 @@ name: "cryptohazemultiforcer"
 tagline: "High performance multihash brute forcer with CUDA support."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://www.cryptohaze.com/multiforcer.php"
 commonlyOn: ["BlackArch"]

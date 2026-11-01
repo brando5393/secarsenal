@@ -3,7 +3,7 @@ name: "ikeprobe"
 tagline: "Determine vulnerabilities in the PSK implementation of the VPN server."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://www.ernw.de/download/ikeprobe.zip"
 commonlyOn: ["BlackArch"]

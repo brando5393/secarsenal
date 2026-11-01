@@ -3,7 +3,7 @@ name: "morxcrack"
 tagline: "A cracking tool written in Perl to perform a dictionary-based attack on various hashing algorithm and CMS salted-passwor"
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://www.morxploit.com/morxcrack/"
 commonlyOn: ["BlackArch"]

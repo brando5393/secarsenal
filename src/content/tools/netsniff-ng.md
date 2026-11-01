@@ -3,7 +3,7 @@ name: "netsniff-ng"
 tagline: "Linux network packet sniffer toolkit"
 categories: ["network-sniffing"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/netsniff-ng/"
 downloadUrl: "http://netsniff-ng.org/"
 repoUrl: "https://salsa.debian.org/debian/netsniff-ng"

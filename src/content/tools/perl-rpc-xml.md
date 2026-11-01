@@ -3,7 +3,7 @@ name: "perl-rpc-xml"
 tagline: "A set of classes for core data, message and XML handling"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/perl-rpc-xml"
 downloadUrl: "https://metacpan.org/pod/RPC::XML"
 commonlyOn: ["ArchStrike"]

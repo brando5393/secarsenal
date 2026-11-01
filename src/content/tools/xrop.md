@@ -3,7 +3,7 @@ name: "xrop"
 tagline: "Tool to generate ROP gadgets for ARM, AARCH64, x86, MIPS, PPC, RISCV, SH4 and SPARC."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/acama/xrop"
 commonlyOn: ["BlackArch"]

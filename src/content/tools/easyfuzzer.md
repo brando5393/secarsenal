@@ -3,7 +3,7 @@ name: "easyfuzzer"
 tagline: "A flexible fuzzer, not only for web, has a CSV output for efficient output analysis (platform independent)."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "http://www.mh-sec.de/downloads.html.en"
 commonlyOn: ["BlackArch"]

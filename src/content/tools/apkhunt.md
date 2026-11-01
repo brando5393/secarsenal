@@ -3,7 +3,7 @@ name: "apkhunt"
 tagline: "Static code analysis tool for Android apps that is based on the OWASP MASVS framework."
 categories: ["mobile"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/mobile.html"
 downloadUrl: "https://github.com/Cyber-Buddy/apkhunt"
 commonlyOn: ["BlackArch"]

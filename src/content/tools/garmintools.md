@@ -3,7 +3,7 @@ name: "garmintools"
 tagline: "This software provides Linux users with the ability to communicate with the Garmin Forerunner 305 via the USB interface."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/garmintools"
 downloadUrl: "http://code.google.com/p/garmintools/"
 commonlyOn: ["ArchStrike"]

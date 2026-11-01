@@ -3,7 +3,7 @@ name: "nimrm"
 tagline: "Native WinRM shell client with NTLM, Kerberos, file transfers, in-memory operations, and multi-session support."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/blue0x1/nimrm"
 commonlyOn: ["BlackArch"]

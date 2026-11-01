@@ -3,7 +3,7 @@ name: "Lynxio OSINT"
 tagline: "Mobile OSINT search tool for multi-identifier reconnaissance. Searches across phone numbers, email addresses, usernames, and social platforms."
 categories: ["mobile-osint"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://lynxio.io/"
 commonlyOn: []
 gettingStarted: "Best for: Multi-identifier search, quick reconnaissance, phone number lookup, email verification. See the official site linked above for details."

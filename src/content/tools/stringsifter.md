@@ -3,7 +3,7 @@ name: "stringsifter"
 tagline: "Machine learning tool that automatically ranks strings based on their relevance for malware analysis."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/fireeye/stringsifter"
 commonlyOn: ["BlackArch"]

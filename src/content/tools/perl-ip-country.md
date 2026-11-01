@@ -3,7 +3,7 @@ name: "perl-ip-country"
 tagline: "fast lookup of country codes from IP addresses"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/perl-ip-country"
 downloadUrl: "https://metacpan.org/pod/IP::Country"
 commonlyOn: ["ArchStrike"]

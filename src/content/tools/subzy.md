@@ -3,7 +3,7 @@ name: "subzy"
 tagline: "Subdomain takeover vulnerability checker."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/PentestPad/subzy"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "fuzzap"
 tagline: "A python script for obfuscating wireless networks."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "https://github.com/lostincynicism/FuzzAP"
 commonlyOn: ["BlackArch"]

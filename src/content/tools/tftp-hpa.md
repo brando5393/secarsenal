@@ -3,7 +3,7 @@ name: "tftp-hpa"
 tagline: "HPA’s tftp client"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/tftp-hpa/"
 downloadUrl: "https://git.kernel.org/pub/scm/network/tftp/tftp-hpa.git/"
 repoUrl: "https://salsa.debian.org/debian/tftp-hpa"

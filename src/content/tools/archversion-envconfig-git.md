@@ -3,7 +3,7 @@ name: "archversion-envconfig-git"
 tagline: "Archlinux Version Controller (Git version patched for runtime config using environment variables)"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/archversion-envconfig-git"
 downloadUrl: "https://github.com/seblu/archversion"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "PhoneInfoga (T)"
 tagline: "Go-based phone number reconnaissance framework validating numbers and aggregating metadata from phone directories, search engines, and reputation…"
 categories: ["tools"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/sundowndev/PhoneInfoga"
 commonlyOn: []
 gettingStarted: "Best for: Phone number validation and intelligence gathering. See the official site linked above for details."

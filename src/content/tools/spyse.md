@@ -3,7 +3,7 @@ name: "spyse"
 tagline: "Python API wrapper and command-line client for the tools hosted on spyse.com."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/zeropwn/spyse.py"
 commonlyOn: ["BlackArch"]

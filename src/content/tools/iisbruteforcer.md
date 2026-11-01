@@ -3,7 +3,7 @@ name: "iisbruteforcer"
 tagline: "HTTP authentication cracker. It's a tool that launchs an online dictionary attack to test for weak or simple passwords a"
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://www.open-labs.org/"
 commonlyOn: ["BlackArch"]

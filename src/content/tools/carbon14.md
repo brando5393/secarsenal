@@ -3,7 +3,7 @@ name: "carbon14"
 tagline: "OSINT tool for estimating when a web page was written."
 categories: ["osint","web"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/Lazza/carbon14"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

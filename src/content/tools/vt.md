@@ -3,7 +3,7 @@ name: "vt"
 tagline: "A command-line interface for VirusTotal."
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/VirusTotal/vt-cli"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

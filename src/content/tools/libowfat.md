@@ -3,7 +3,7 @@ name: "libowfat"
 tagline: "GPL reimplementation of libdjb"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/libowfat"
 commonlyOn: ["ArchStrike"]
 gettingStarted: "Install by adding the ArchStrike repository to an existing Arch Linux install, then `pacman -S libowfat`. See the official ArchStrike package listing linked above for details."

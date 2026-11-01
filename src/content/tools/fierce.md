@@ -3,7 +3,7 @@ name: "fierce"
 tagline: "Domain DNS scanner"
 categories: ["remote-system-discovery","discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/fierce/"
 downloadUrl: "https://github.com/mschwager/fierce"
 repoUrl: "https://salsa.debian.org/pkg-security-team/fierce"

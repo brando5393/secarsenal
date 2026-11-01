@@ -3,7 +3,7 @@ name: "perl-math-bigint-gmp"
 tagline: "Big integer calculations using the GNU Multiple Precision Arithmetic Library."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/perl-math-bigint-gmp"
 downloadUrl: "https://metacpan.org/pod/Math::BigInt::GMP"
 commonlyOn: ["ArchStrike"]

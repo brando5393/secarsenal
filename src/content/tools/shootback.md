@@ -3,7 +3,7 @@ name: "shootback"
 tagline: "A reverse TCP tunnel let you access target behind NAT or firewall."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://github.com/aploium/shootback"
 commonlyOn: ["BlackArch"]

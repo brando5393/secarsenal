@@ -3,7 +3,7 @@ name: "gtkhash"
 tagline: "GTK+ utility for computing checksums and more"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/gtkhash/"
 downloadUrl: "https://gtkhash.org"
 repoUrl: "https://salsa.debian.org/debian/gtkhash"

@@ -3,7 +3,7 @@ name: "ExifViewer"
 tagline: "Online EXIF inspection utility for camera, location, and embedded image metadata fields."
 categories: ["images-videos-docs"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.exifviewer.org/"
 commonlyOn: []
 gettingStarted: "Best for: Quick EXIF inspection without local CLI tools. See the official site linked above for details."

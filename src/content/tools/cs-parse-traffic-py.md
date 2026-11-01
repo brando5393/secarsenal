@@ -4,7 +4,7 @@ tagline: "Decrypt and parse Cobalt Strike beacon network traffic."
 categories: ["monitoring"]
 platforms: ["Linux"]
 license: "Public Domain"
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/explore+network+interactions/monitoring"
 downloadUrl: "https://blog.didierstevens.com/2021/11/29/new-tool-cs-parse-traffic-py/"
 commonlyOn: ["REMnux"]

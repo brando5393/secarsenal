@@ -3,7 +3,7 @@ name: "htshells"
 tagline: "Self contained htaccess shells and attacks"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/htshells/"
 downloadUrl: "https://github.com/wireghoul/htshells"
 repoUrl: "https://gitlab.com/kalilinux/packages/htshells"

@@ -3,7 +3,7 @@ name: "adaptixc2"
 tagline: "Extensible post-exploitation and adversarial emulation framework"
 categories: ["command-and-control"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/adaptixc2/"
 downloadUrl: "https://github.com/Adaptix-Framework/AdaptixC2"
 repoUrl: "https://gitlab.com/kalilinux/packages/adaptixc2"

@@ -4,7 +4,7 @@ tagline: "Analyze static properties of .NET files."
 categories: ["net"]
 platforms: ["Linux"]
 license: "MIT License"
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/.net"
 downloadUrl: "https://github.com/pan-unit42/dotnetfile"
 commonlyOn: ["REMnux"]

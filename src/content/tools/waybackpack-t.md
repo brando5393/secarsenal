@@ -3,7 +3,7 @@ name: "Waybackpack (T)"
 tagline: "Command-line tool for bulk downloading archived captures from the Internet Archive Wayback Machine."
 categories: ["archives"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/jsvine/waybackpack"
 commonlyOn: []
 gettingStarted: "Best for: Batch export of historical snapshots for offline analysis. See the official site linked above for details."

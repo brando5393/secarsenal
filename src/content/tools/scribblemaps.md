@@ -3,7 +3,7 @@ name: "ScribbleMaps"
 tagline: "Collaborative web map editor for annotations, overlays, and shared incident maps."
 categories: ["geolocation-tools-maps"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.scribblemaps.com/"
 commonlyOn: []
 gettingStarted: "Best for: Producing and sharing annotated investigative maps. See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "python-frida-tools"
 tagline: "Frida CLI tools."
 categories: ["mobile"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/mobile.html"
 downloadUrl: "https://pypi.org/project/frida-tools/#files"
 commonlyOn: ["BlackArch"]

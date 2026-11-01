@@ -3,7 +3,7 @@ name: "Criminal IP Search"
 tagline: "Cyber threat intelligence search engine for exposed assets, domains, vulnerabilities, and risk indicators."
 categories: ["domain-name","ip-mac-address"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.criminalip.io/"
 commonlyOn: []
 gettingStarted: "Best for: Threat-focused lookup of internet-facing assets and exposures. See the official site linked above for details."

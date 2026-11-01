@@ -3,7 +3,7 @@ name: "dynamorio"
 tagline: "A dynamic binary instrumentation framework."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/DynamoRIO/dynamorio"
 commonlyOn: ["BlackArch"]

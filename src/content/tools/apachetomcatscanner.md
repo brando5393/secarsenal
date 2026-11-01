@@ -3,7 +3,7 @@ name: "apachetomcatscanner"
 tagline: "Apache Tomcat vulnerability scanner."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/p0dalirius/ApacheTomcatScanner"
 commonlyOn: ["BlackArch"]

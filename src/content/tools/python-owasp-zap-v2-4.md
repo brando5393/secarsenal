@@ -3,7 +3,7 @@ name: "python-owasp-zap-v2.4"
 tagline: "OWASP ZAP API client"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/python-owasp-zap-v2.4"
 downloadUrl: "https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project"
 commonlyOn: ["ArchStrike"]

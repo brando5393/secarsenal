@@ -3,7 +3,7 @@ name: "drozer"
 tagline: "A security testing framework for Android - Precompiled binary from official repository."
 categories: ["mobile"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/mobile.html"
 downloadUrl: "https://github.com/mwrlabs/drozer"
 commonlyOn: ["BlackArch"]

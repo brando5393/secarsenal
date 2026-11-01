@@ -4,7 +4,7 @@ tagline: "View and manipulate image and related files."
 categories: ["view-or-edit-files"]
 platforms: ["Linux"]
 license: "Free, custom license"
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/view+or+edit+files"
 downloadUrl: "https://imagemagick.org/"
 commonlyOn: ["REMnux"]

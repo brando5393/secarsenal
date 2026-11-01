@@ -3,7 +3,7 @@ name: "impulse"
 tagline: "Modern Denial-of-service ToolKit."
 categories: ["dos"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/dos.html"
 downloadUrl: "https://github.com/LimerBoy/Impulse"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "stegolego"
 tagline: "Simple program for using stegonography to hide data within BMP images."
 categories: ["stego"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/stego.html"
 downloadUrl: "https://github.com/razc411/StegoLeggo"
 commonlyOn: ["BlackArch"]

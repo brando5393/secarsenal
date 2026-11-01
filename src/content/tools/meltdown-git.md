@@ -3,7 +3,7 @@ name: "meltdown-git"
 tagline: "Meltdown Proof-of-Concept"
 categories: ["exploit"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/meltdown-git"
 downloadUrl: "https://github.com/IAIK/meltdown"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "hashcat-utils"
 tagline: "Set of small utilities for advanced password cracking"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/hashcat-utils/"
 downloadUrl: "https://github.com/hashcat/hashcat-utils/"
 repoUrl: "https://gitlab.com/kalilinux/packages/hashcat-utils"

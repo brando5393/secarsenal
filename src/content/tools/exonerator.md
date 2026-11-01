@@ -3,7 +3,7 @@ name: "ExoneraTor"
 tagline: "Tool for checking if an IP address belonged to Tor at a specific date."
 categories: ["ip-mac-address"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://exonerator.torproject.org/"
 commonlyOn: []
 gettingStarted: "Best for: Verify Tor relay membership by date. See the official site linked above for details."

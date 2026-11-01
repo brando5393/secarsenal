@@ -3,7 +3,7 @@ name: "sleuthkit-java"
 tagline: "Java dependencies for The Sleuth Kit."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/sleuthkit-java"
 downloadUrl: "http://www.sleuthkit.org/sleuthkit"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "pyinstaller"
 tagline: "Utility to bundle a Python application into a single package"
 categories: ["resource-development"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/pyinstaller/"
 downloadUrl: "https://pyinstaller.org/en/stable/"
 repoUrl: "https://salsa.debian.org/python-team/packages/pyinstaller"

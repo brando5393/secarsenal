@@ -3,7 +3,7 @@ name: "sb0x"
 tagline: "A simple and Lightweight framework for Penetration testing."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/lostcitizen/sb0x-project"
 commonlyOn: ["BlackArch"]

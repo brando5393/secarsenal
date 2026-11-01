@@ -3,7 +3,7 @@ name: "libdisasm"
 tagline: "A disassembler library."
 categories: ["disassembler"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/disassembler.html"
 downloadUrl: "http://bastard.sourceforge.net/libdisasm.html"
 commonlyOn: ["BlackArch"]

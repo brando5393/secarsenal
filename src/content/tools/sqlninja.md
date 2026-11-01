@@ -3,7 +3,7 @@ name: "sqlninja"
 tagline: "SQL server injection and takeover tool"
 categories: ["initial-access"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/sqlninja/"
 downloadUrl: "https://sqlninja.sourceforge.net/"
 repoUrl: "https://gitlab.com/kalilinux/packages/sqlninja"

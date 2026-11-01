@@ -3,7 +3,7 @@ name: "virustotal"
 tagline: "Command-line utility to automatically lookup on VirusTotal all files recursively contained in a directory."
 categories: ["malware"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/malware.html"
 downloadUrl: "https://github.com/botherder/virustotal"
 commonlyOn: ["BlackArch"]

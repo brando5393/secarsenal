@@ -3,7 +3,7 @@ name: "trixd00r"
 tagline: "An advanced and invisible userland backdoor based on TCP/IP for UNIX systems."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "http://nullsecurity.net/tools/backdoor.html"
 commonlyOn: ["BlackArch"]

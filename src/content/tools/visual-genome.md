@@ -3,7 +3,7 @@ name: "Visual Genome"
 tagline: "Structured image dataset linking objects, attributes, and scene graph relationships for visual understanding research."
 categories: ["archives"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://visualgenome.org/"
 commonlyOn: []
 gettingStarted: "Best for: Image relationship analysis and multimodal data research. See the official site linked above for details."

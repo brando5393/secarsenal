@@ -3,7 +3,7 @@ name: "testdisk"
 tagline: "Partition scanner and disk recovery tool"
 categories: ["forensic-carving-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/testdisk/"
 downloadUrl: "https://www.cgsecurity.org/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/testdisk"

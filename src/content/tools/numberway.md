@@ -3,7 +3,7 @@ name: "Numberway"
 tagline: "Reverse phone lookup resource used to resolve ownership and location context from a phone number."
 categories: ["telephone-numbers"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.numberway.com/"
 commonlyOn: []
 gettingStarted: "Best for: Reverse phone owner and location enrichment. See the official site linked above for details."

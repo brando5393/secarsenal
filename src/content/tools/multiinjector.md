@@ -3,7 +3,7 @@ name: "multiinjector"
 tagline: "Automatic SQL injection utility using a lsit of URI addresses to test parameter manipulation."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "http://chaptersinwebsecurity.blogspot.de/2008/11/multiinjector-v03-released.html"
 commonlyOn: ["BlackArch"]

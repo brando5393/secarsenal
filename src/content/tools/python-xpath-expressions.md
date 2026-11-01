@@ -3,7 +3,7 @@ name: "python-xpath-expressions"
 tagline: "Treat XPath expressions as Python objects"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/python-xpath-expressions"
 downloadUrl: "https://pypi.org/project/xpath-expressions/"
 commonlyOn: ["ArchStrike"]

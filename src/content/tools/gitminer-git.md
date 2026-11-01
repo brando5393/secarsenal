@@ -3,7 +3,7 @@ name: "gitminer-git"
 tagline: "Tool for advanced mining for content on Github"
 categories: ["scanners"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/gitminer-git"
 downloadUrl: "https://github.com/UnkL4b/GitMiner"
 commonlyOn: ["ArchStrike"]

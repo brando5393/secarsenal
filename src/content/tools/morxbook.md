@@ -3,7 +3,7 @@ name: "morxbook"
 tagline: "A password cracking tool written in perl to perform a dictionary-based attack on a specific Facebook user through HTTPS."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://www.morxploit.com/"
 commonlyOn: ["BlackArch"]

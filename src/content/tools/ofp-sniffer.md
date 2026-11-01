@@ -3,7 +3,7 @@ name: "ofp-sniffer"
 tagline: "An OpenFlow sniffer to help network troubleshooting in production networks."
 categories: ["sniffer"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/sniffer.html"
 downloadUrl: "https://github.com/amlight/ofp_sniffer"
 commonlyOn: ["BlackArch"]

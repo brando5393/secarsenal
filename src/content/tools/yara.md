@@ -3,7 +3,7 @@ name: "yara"
 tagline: "Pattern matching swiss knife for malware researchers"
 categories: ["forensics"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/yara/"
 downloadUrl: "https://virustotal.github.io/yara/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/yara"

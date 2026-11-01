@@ -3,7 +3,7 @@ name: "pocsuite3"
 tagline: "Open-sourced remote vulnerability testing framework"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/pocsuite3/"
 downloadUrl: "https://pocsuite.org"
 repoUrl: "https://salsa.debian.org/pkg-security-team/pocsuite3"

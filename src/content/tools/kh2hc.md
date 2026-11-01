@@ -3,7 +3,7 @@ name: "kh2hc"
 tagline: "Convert OpenSSH known_hosts file hashed with HashKnownHosts to hashes crackable by Hashcat."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/noraj/kh2hc"
 commonlyOn: ["BlackArch"]

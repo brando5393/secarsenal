@@ -3,7 +3,7 @@ name: "xprobe2"
 tagline: "An active OS fingerprinting tool."
 categories: ["fingerprint"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/fingerprint.html"
 downloadUrl: "https://sourceforge.net/apps/mediawiki/xprobe/index.php?title=Main_Page"
 commonlyOn: ["BlackArch"]

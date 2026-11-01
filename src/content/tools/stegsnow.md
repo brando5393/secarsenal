@@ -3,7 +3,7 @@ name: "stegsnow"
 tagline: "Steganography using ASCII files"
 categories: ["defense-evasion"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/stegsnow/"
 downloadUrl: "https://www.darkside.com.au/snow"
 repoUrl: "https://salsa.debian.org/pkg-security-team/stegsnow"

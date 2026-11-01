@@ -3,7 +3,7 @@ name: "arpspoof-smikims"
 tagline: "Performs an ARP spoofing attack using the Linux kernel's raw sockets."
 categories: ["spoof"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/spoof.html"
 downloadUrl: "https://github.com/smikims/arpspoof"
 commonlyOn: ["BlackArch"]

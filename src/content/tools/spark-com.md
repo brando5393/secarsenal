@@ -3,7 +3,7 @@ name: "Spark.com"
 tagline: "Long-running relationship-focused dating service with profile filtering and compatibility-oriented matching tools."
 categories: ["dating"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://spark.com"
 commonlyOn: []
 gettingStarted: "Best for: Relationship-seeking users and compatibility-based matching. See the official site linked above for details."

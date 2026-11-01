@@ -3,7 +3,7 @@ name: "webacoo"
 tagline: "Web backdoor cookie script kit"
 categories: ["persistence"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/webacoo/"
 downloadUrl: "https://github.com/anestisb/WeBaCoo"
 repoUrl: "https://gitlab.com/kalilinux/packages/webacoo"

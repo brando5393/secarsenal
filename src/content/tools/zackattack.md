@@ -3,7 +3,7 @@ name: "zackattack"
 tagline: "A new tool set to do NTLM Authentication relaying unlike any other tool currently out there."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/urbanesec/ZackAttack/"
 commonlyOn: ["BlackArch"]

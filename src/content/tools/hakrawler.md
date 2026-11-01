@@ -3,7 +3,7 @@ name: "hakrawler"
 tagline: "Web crawler designed for easy, quick discovery of endpoints and assets"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/hakrawler/"
 downloadUrl: "https://github.com/hakluke/hakrawler"
 repoUrl: "https://gitlab.com/kalilinux/packages/hakrawler"

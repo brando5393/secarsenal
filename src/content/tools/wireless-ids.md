@@ -3,7 +3,7 @@ name: "wireless-ids"
 tagline: "Ability to detect suspicious activity such as (WEP/WPA/WPS) attack by sniffing the air for wireless packets."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "https://github.com/SYWorks/wireless-ids"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "PeekYou"
 tagline: "Free people search engine indexing over 300 million profiles. Aggregates social media accounts, public records, and web presence into unified…"
 categories: ["people-search-engines"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.peekyou.com/"
 commonlyOn: []
 gettingStarted: "Best for: Finding social media profiles and web presence by name. See the official site linked above for details."

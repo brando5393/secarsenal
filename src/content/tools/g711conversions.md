@@ -3,7 +3,7 @@ name: "g711conversions"
 tagline: "A library needed by rtpinsertsound and rtpmixsound."
 categories: ["voip"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/g711conversions"
 downloadUrl: "http://www.hackingvoip.com/sec_tools.html"
 commonlyOn: ["ArchStrike"]

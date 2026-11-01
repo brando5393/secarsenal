@@ -3,7 +3,7 @@ name: "mercury"
 tagline: "Network metadata capture and analysis."
 categories: ["fingerprint"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/fingerprint.html"
 downloadUrl: "https://github.com/cisco/mercury"
 commonlyOn: ["BlackArch"]

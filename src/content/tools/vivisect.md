@@ -3,7 +3,7 @@ name: "vivisect"
 tagline: "A Python based static analysis and reverse engineering framework."
 categories: ["debugger"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/debugger.html"
 downloadUrl: "https://github.com/vivisect/vivisect"
 commonlyOn: ["BlackArch"]

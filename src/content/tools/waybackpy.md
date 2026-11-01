@@ -3,7 +3,7 @@ name: "waybackpy"
 tagline: "Access Wayback Machine’s API using Python"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/waybackpy/"
 downloadUrl: "https://github.com/akamhy/waybackpy"
 repoUrl: "https://gitlab.com/kalilinux/packages/waybackpy"

@@ -3,7 +3,7 @@ name: "stunner"
 tagline: "Test and exploit STUN, TURN and TURN over TCP servers."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/firefart/stunner"
 commonlyOn: ["BlackArch"]

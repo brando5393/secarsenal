@@ -3,7 +3,7 @@ name: "powersploit-git"
 tagline: "A PowerShell Post-Exploitation Framework"
 categories: ["exploit"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/powersploit-git"
 downloadUrl: "https://github.com/PowerShellMafia/PowerSploit"
 commonlyOn: ["ArchStrike"]

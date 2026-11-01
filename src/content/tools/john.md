@@ -3,7 +3,7 @@ name: "john"
 tagline: "Active password cracking tool"
 categories: ["password-cracking","credential-access"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/john/"
 downloadUrl: "https://github.com/openwall/john"
 repoUrl: "https://gitlab.com/kalilinux/packages/john"

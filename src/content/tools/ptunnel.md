@@ -3,7 +3,7 @@ name: "ptunnel"
 tagline: "Tunnel TCP connections over ICMP packets"
 categories: ["protocol-tunneling"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/ptunnel/"
 downloadUrl: "http://www.mit.edu/afs.new/sipb/user/golem/tmp/ptunnel-0.61.orig/web/"
 repoUrl: "https://salsa.debian.org/alteholz/ptunnel"

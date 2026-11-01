@@ -3,7 +3,7 @@ name: "etherchange"
 tagline: "Can change the Ethernet address of the network adapters in Windows."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://vidstromlabs.com/freetools/etherchange/"
 commonlyOn: ["BlackArch"]

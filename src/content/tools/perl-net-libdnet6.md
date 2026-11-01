@@ -3,7 +3,7 @@ name: "perl-net-libdnet6"
 tagline: "Adds IPv6 support to Net::Libdnet."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/perl-net-libdnet6"
 downloadUrl: "https://metacpan.org/pod/Net::Libdnet6"
 commonlyOn: ["ArchStrike"]

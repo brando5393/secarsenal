@@ -3,7 +3,7 @@ name: "acccheck"
 tagline: "A password dictionary attack tool that targets windows authentication via the SMB protocol."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://labs.portcullis.co.uk/tools/acccheck/"
 commonlyOn: ["BlackArch"]

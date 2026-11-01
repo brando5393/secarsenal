@@ -3,7 +3,7 @@ name: "assetfinder"
 tagline: "Find domains and subdomains related to a given domain"
 categories: ["web-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/assetfinder/"
 downloadUrl: "https://github.com/tomnomnom/assetfinder"
 repoUrl: "https://salsa.debian.org/pkg-security-team/assetfinder"

@@ -3,7 +3,7 @@ name: "set-git"
 tagline: "Social-engineer toolkit. Aimed at penetration testing around Social-Engineering"
 categories: ["social-engineering"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/set-git"
 downloadUrl: "https://www.trustedsec.com/tools/the-social-engineer-toolkit-set/"
 commonlyOn: ["ArchStrike"]

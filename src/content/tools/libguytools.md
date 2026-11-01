@@ -3,7 +3,7 @@ name: "libguytools"
 tagline: "A small programming toolbox for Guymager"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/libguytools"
 downloadUrl: "https://sourceforge.net/projects/libguytools"
 commonlyOn: ["ArchStrike"]

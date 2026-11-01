@@ -3,7 +3,7 @@ name: "enyx"
 tagline: "Enumerate SNMP services over IPv6."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/trickster0/enyx"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

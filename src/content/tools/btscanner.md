@@ -3,7 +3,7 @@ name: "btscanner"
 tagline: "Ncurses-based scanner for Bluetooth devices"
 categories: ["bluetooth"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/btscanner/"
 downloadUrl: "https://salsa.debian.org/pkg-security-team/btscanner"
 repoUrl: "https://salsa.debian.org/pkg-security-team/btscanner"

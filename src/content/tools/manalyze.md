@@ -4,7 +4,7 @@ tagline: "Perform static analysis of suspicious PE files."
 categories: ["pe-files"]
 platforms: ["Linux"]
 license: "GNU General Public License (GPL) v3"
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/pe+files"
 downloadUrl: "https://github.com/JusticeRage/Manalyze"
 commonlyOn: ["REMnux"]

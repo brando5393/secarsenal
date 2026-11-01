@@ -3,7 +3,7 @@ name: "secretfinder"
 tagline: "A python script to find sensitive data (apikeys, accesstoken, jwt,..) in javascript files."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/m4ll0k/SecretFinder"
 commonlyOn: ["BlackArch"]

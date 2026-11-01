@@ -3,7 +3,7 @@ name: "smartbrute"
 tagline: "The smart password spraying and bruteforcing tool for Active Directory Domain Services."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/ShutdownRepo/SmartBrute"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "eyepwn"
 tagline: "Exploit for Eye-Fi Helper directory traversal vulnerability"
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "http://www.pentest.co.uk"
 commonlyOn: ["BlackArch"]

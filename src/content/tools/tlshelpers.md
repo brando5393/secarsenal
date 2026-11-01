@@ -3,7 +3,7 @@ name: "tlshelpers"
 tagline: "A collection of shell scripts that help handling X.509 certificate and TLS issues."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/hannob/tlshelpers"
 commonlyOn: ["BlackArch"]

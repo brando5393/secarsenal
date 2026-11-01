@@ -3,7 +3,7 @@ name: "nmapsi4"
 tagline: "Graphical interface to nmap, the network scanner"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/nmapsi4/"
 downloadUrl: "https://www.nmapsi4.org"
 repoUrl: "https://salsa.debian.org/pkg-security-team/nmapsi4"

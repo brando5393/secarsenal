@@ -3,7 +3,7 @@ name: "rulesfinder"
 tagline: "Machine-learn password mangling rules."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/synacktiv/rulesfinder"
 commonlyOn: ["BlackArch"]

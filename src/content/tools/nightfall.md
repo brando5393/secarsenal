@@ -3,7 +3,7 @@ name: "nightfall"
 tagline: "Cjdns inet auto-peering tracker"
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/nightfall"
 commonlyOn: ["ArchStrike"]
 gettingStarted: "Install by adding the ArchStrike repository to an existing Arch Linux install, then `pacman -S nightfall`. See the official ArchStrike package listing linked above for details."

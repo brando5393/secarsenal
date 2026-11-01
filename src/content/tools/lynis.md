@@ -3,7 +3,7 @@ name: "lynis"
 tagline: "Security auditing tool for Unix based systems"
 categories: ["privilege-escalation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/lynis/"
 downloadUrl: "https://cisofy.com/lynis/"
 repoUrl: "https://salsa.debian.org/debian/lynis"

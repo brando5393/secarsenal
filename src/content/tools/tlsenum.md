@@ -3,7 +3,7 @@ name: "tlsenum"
 tagline: "A command line tool to enumerate TLS cipher-suites supported by a server."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/Ayrx/tlsenum"
 commonlyOn: ["BlackArch"]

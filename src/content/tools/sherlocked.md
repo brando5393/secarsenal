@@ -3,7 +3,7 @@ name: "sherlocked"
 tagline: "Universal script packer-- transforms any type of script into a protected ELF executable, encrypted with anti-debugging."
 categories: ["packer"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/packer.html"
 downloadUrl: "https://github.com/elfmaster/sherlocked"
 commonlyOn: ["BlackArch"]

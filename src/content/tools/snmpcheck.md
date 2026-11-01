@@ -3,7 +3,7 @@ name: "snmpcheck"
 tagline: "SNMP service enumeration tool"
 categories: ["snmp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/snmpcheck/"
 downloadUrl: "http://www.nothink.org/codes/snmpcheck/index.php"
 repoUrl: "https://gitlab.com/kalilinux/packages/snmpcheck"

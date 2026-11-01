@@ -3,7 +3,7 @@ name: "rickshell"
 tagline: "Modular Python C2 framework — generate, encode, catch, and interact with reverse shells."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/Rickidevs/RickShell"
 commonlyOn: ["BlackArch"]

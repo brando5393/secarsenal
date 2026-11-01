@@ -3,7 +3,7 @@ name: "wifite"
 tagline: "Python script to automate wireless auditing using aircrack-ng tools"
 categories: ["wifi-credential-access"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/wifite/"
 downloadUrl: "https://github.com/kimocoder/wifite2"
 repoUrl: "https://salsa.debian.org/pkg-security-team/wifite"

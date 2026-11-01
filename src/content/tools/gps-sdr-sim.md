@@ -3,7 +3,7 @@ name: "gps-sdr-sim"
 tagline: "Software-Defined GPS Signal Simulator."
 categories: ["radio"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/radio.html"
 downloadUrl: "https://github.com/osqzss/gps-sdr-sim"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "laudanum"
 tagline: "Collection of injectable web files"
 categories: ["persistence"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/laudanum/"
 downloadUrl: "https://sourceforge.net/projects/laudanum/"
 repoUrl: "https://gitlab.com/kalilinux/packages/laudanum"

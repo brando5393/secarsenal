@@ -3,7 +3,7 @@ name: "jsparser"
 tagline: "Parse javascript using Tornado and JSBeautifier to discover interesting enpoints."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/nahamsec/JSParser"
 commonlyOn: ["BlackArch"]

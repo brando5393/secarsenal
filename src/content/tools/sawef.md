@@ -3,7 +3,7 @@ name: "sawef"
 tagline: "Send Attack Web Forms."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/danilovazb/sawef"
 commonlyOn: ["BlackArch"]

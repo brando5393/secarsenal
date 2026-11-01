@@ -3,7 +3,7 @@ name: "Visual Site Mapper"
 tagline: "Site-crawling mapper used to visualize website structure and page relationships."
 categories: ["domain-name"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/alentum/sitemapper-nodejs"
 commonlyOn: []
 gettingStarted: "Best for: Generating website structure maps. See the official site linked above for details."

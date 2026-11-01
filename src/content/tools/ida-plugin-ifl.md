@@ -3,7 +3,7 @@ name: "ida.plugin.ifl"
 tagline: "IFL (Interactive Functions List) is an IDAPython plugin for navigating function references and importing reports from tools like PE-sieve."
 categories: ["ida-plugins"]
 platforms: ["Windows"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/mandiant/VM-Packages/tree/main/packages/ida.plugin.ifl.vm"
 downloadUrl: "https://github.com/hasherezade/ida_ifl"
 commonlyOn: ["FLARE VM"]

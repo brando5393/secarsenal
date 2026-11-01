@@ -3,7 +3,7 @@ name: "yararules-git"
 tagline: "A Repository of yara rules"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/yararules-git"
 downloadUrl: "https://github.com/Yara-Rules/rules"
 commonlyOn: ["ArchStrike"]

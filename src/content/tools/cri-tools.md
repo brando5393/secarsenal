@@ -3,7 +3,7 @@ name: "cri-tools"
 tagline: "Command line tool used for creating OCI images"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/cri-tools/"
 downloadUrl: "https://github.com/kubernetes-sigs/cri-tools"
 repoUrl: "https://gitlab.com/kalilinux/packages/cri-tools"

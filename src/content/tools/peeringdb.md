@@ -3,7 +3,7 @@ name: "PeeringDB"
 tagline: "Database of internet exchange points, member networks, and AS relationships for network mapping."
 categories: ["ip-mac-address"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.peeringdb.com/advanced_search"
 commonlyOn: []
 gettingStarted: "Best for: Internet peering and AS relationship mapping. See the official site linked above for details."

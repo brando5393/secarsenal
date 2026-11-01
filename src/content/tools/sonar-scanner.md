@@ -3,7 +3,7 @@ name: "sonar-scanner"
 tagline: "Generic CLI tool to launch project analysis on SonarQube servers."
 categories: ["code-audit"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/code-audit.html"
 downloadUrl: "https://docs.sonarqube.org/latest/analysis/scan/sonarscanner/"
 commonlyOn: ["BlackArch"]

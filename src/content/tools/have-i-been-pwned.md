@@ -3,7 +3,7 @@ name: "Have I been pwned?"
 tagline: "Database of breached credentials and email addresses from known data breaches."
 categories: ["email-address"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://haveibeenpwned.com/"
 commonlyOn: []
 gettingStarted: "Best for: Breach detection, credential exposure checks. See the official site linked above for details."

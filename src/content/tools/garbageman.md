@@ -3,7 +3,7 @@ name: "garbageman"
 tagline: "GarbageMan is a set of tools designed for .NET heap analysis."
 categories: ["dotnet"]
 platforms: ["Windows"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/mandiant/VM-Packages/tree/main/packages/garbageman.vm"
 downloadUrl: "https://github.com/WithSecureLabs/GarbageMan"
 commonlyOn: ["FLARE VM"]

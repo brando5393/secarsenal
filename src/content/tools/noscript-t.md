@@ -3,7 +3,7 @@ name: "NoScript (T)"
 tagline: "Firefox/Chrome security extension that blocks JavaScript, Java, Flash, and other active content by default to prevent browser fingerprinting and code…"
 categories: ["opsec"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://noscript.net/"
 commonlyOn: []
 gettingStarted: "Best for: Browser hardening, preventing JavaScript-based fingerprinting and tracking during OSINT. See the official site linked above for details."

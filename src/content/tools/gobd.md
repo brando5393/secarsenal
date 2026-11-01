@@ -3,7 +3,7 @@ name: "gobd"
 tagline: "A Golang covert backdoor."
 categories: ["backdoor"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/backdoor.html"
 downloadUrl: "https://github.com/razc411/GoBD"
 commonlyOn: ["BlackArch"]

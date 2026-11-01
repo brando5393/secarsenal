@@ -3,7 +3,7 @@ name: "anubis-netsec"
 tagline: "Subdomain enumeration and information gathering tool."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/jonluca/anubis"
 commonlyOn: ["BlackArch"]

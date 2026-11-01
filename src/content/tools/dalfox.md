@@ -3,7 +3,7 @@ name: "dalfox"
 tagline: "Powerful open-source XSS scanner and utility focused on automation"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/dalfox/"
 downloadUrl: "https://github.com/hahwul/dalfox"
 repoUrl: "https://gitlab.com/kalilinux/packages/dalfox"

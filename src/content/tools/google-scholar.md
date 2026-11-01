@@ -3,7 +3,7 @@ name: "Google Scholar"
 tagline: "Multidisciplinary academic search engine indexing journal articles, theses, books, conference papers, and patents; includes citation counts and…"
 categories: ["search-engines"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://scholar.google.com/"
 commonlyOn: []
 gettingStarted: "Best for: Comprehensive academic literature discovery with citation tracking across all disciplines. See the official site linked above for details."

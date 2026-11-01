@@ -3,7 +3,7 @@ name: "ignorant"
 tagline: "holehe but for phone numbers."
 categories: ["osint","web"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/megadose/ignorant"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "github-subdomains"
 tagline: "Find subdomains on GitHub."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/gwen001/github-subdomains"
 commonlyOn: ["BlackArch"]

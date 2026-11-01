@@ -3,7 +3,7 @@ name: "Web Data Exposure Scanner (T)"
 tagline: "Open-source scanner for detecting exposed web application data and sensitive file disclosures on web servers."
 categories: ["domain-name"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/eduardoit/web-data-exposure-scanner"
 commonlyOn: []
 gettingStarted: "Best for: Detecting exposed sensitive data on web servers. See the official site linked above for details."

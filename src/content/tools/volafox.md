@@ -3,7 +3,7 @@ name: "volafox"
 tagline: "Mac OS X Memory Analysis Toolkit."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/n0fate/volafox"
 commonlyOn: ["BlackArch"]

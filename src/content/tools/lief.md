@@ -3,7 +3,7 @@ name: "lief"
 tagline: "Library to instrument executable formats."
 categories: ["disassembler"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/disassembler.html"
 downloadUrl: "https://github.com/lief-project/lief"
 commonlyOn: ["BlackArch"]

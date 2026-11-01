@@ -3,7 +3,7 @@ name: "perl-net-ssh-perl"
 tagline: "Perl client interface to SSH"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/perl-net-ssh-perl"
 downloadUrl: "https://metacpan.org/pod/Net::SSH::Perl"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "Tantan (R)"
 tagline: "Swipe-based Asian-focused dating app with geolocation and algorithmic profile recommendations."
 categories: ["dating"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://int.tantanapp.com"
 commonlyOn: []
 gettingStarted: "Best for: Asia-focused dating and geolocation-based matching. See the official site linked above for details."

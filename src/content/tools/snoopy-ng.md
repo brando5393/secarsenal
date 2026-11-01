@@ -3,7 +3,7 @@ name: "snoopy-ng"
 tagline: "A distributed, sensor, data collection, interception, analysis, and visualization framework."
 categories: ["drone"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/drone.html"
 downloadUrl: "https://github.com/sensepost/snoopy-ng"
 commonlyOn: ["BlackArch"]

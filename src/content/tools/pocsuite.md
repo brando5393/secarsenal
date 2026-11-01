@@ -3,7 +3,7 @@ name: "pocsuite"
 tagline: "An open-sourced remote vulnerability testing framework developed by the Knownsec Security Team."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/knownsec/Pocsuite"
 commonlyOn: ["BlackArch"]

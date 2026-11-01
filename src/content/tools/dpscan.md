@@ -3,7 +3,7 @@ name: "dpscan"
 tagline: "Drupal Vulnerability Scanner."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/insaneisnotfree/Blue-Sky-Information-Security"
 commonlyOn: ["BlackArch"]

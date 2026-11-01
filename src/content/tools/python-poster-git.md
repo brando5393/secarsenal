@@ -3,7 +3,7 @@ name: "python-poster-git"
 tagline: "Pprovides a set of classes and functions to faciliate making HTTP POST (or PUT) requests using the standard multipart/form-data encoding"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/python-poster-git"
 downloadUrl: "https://github.com/dmorrison42/python-poster"
 commonlyOn: ["ArchStrike"]

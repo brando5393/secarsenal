@@ -3,7 +3,7 @@ name: "awsbucketdump"
 tagline: "A tool to quickly enumerate AWS S3 buckets to look for loot."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/jordanpotti/AWSBucketDump"
 commonlyOn: ["BlackArch"]

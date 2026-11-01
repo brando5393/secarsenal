@@ -3,7 +3,7 @@ name: "deen"
 tagline: "Generic data encoding/decoding application built with PyQt5."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/takeshixx/deen"
 commonlyOn: ["BlackArch"]

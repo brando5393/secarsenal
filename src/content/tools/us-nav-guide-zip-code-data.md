@@ -3,7 +3,7 @@ name: "US Nav Guide Zip Code Data"
 tagline: "Zip-code lookup resource for correlating US postal areas with map context."
 categories: ["geolocation-tools-maps"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.usnaviguide.com/"
 commonlyOn: []
 gettingStarted: "Best for: Linking US zip codes to geographic lookup context. See the official site linked above for details."

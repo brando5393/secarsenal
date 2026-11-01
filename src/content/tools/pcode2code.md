@@ -3,7 +3,7 @@ name: "pcode2code"
 tagline: "VBA p-code decompiler."
 categories: ["decompiler"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/decompiler.html"
 downloadUrl: "https://github.com/Big5-sec/pcode2code"
 commonlyOn: ["BlackArch"]

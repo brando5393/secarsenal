@@ -3,7 +3,7 @@ name: "Google Maps Streetview Player"
 tagline: "Street View path playback utility for reviewing route-level imagery sequences."
 categories: ["geolocation-tools-maps"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://brianfolts.com/driver/"
 commonlyOn: []
 gettingStarted: "Best for: Walking through street-level imagery along a route. See the official site linked above for details."

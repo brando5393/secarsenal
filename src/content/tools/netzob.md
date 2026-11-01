@@ -3,7 +3,7 @@ name: "netzob"
 tagline: "An open source tool for reverse engineering, traffic generation and fuzzing of communication protocols."
 categories: ["reversing"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/reversing.html"
 downloadUrl: "https://github.com/netzob/netzob/"
 commonlyOn: ["BlackArch"]

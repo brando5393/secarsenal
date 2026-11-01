@@ -3,7 +3,7 @@ name: "odat"
 tagline: "Oracle Database Attacking Tool"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/odat/"
 downloadUrl: "https://github.com/quentinhardy/odat"
 repoUrl: "https://gitlab.com/kalilinux/packages/odat"

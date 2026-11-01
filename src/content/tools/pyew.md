@@ -3,7 +3,7 @@ name: "pyew"
 tagline: "A python tool to analyse malware."
 categories: ["malware"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/malware.html"
 downloadUrl: "https://code.google.com/p/pyew/"
 commonlyOn: ["BlackArch"]

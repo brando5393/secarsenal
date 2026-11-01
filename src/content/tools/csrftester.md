@@ -3,7 +3,7 @@ name: "csrftester"
 tagline: "The OWASP CSRFTester Project attempts to give developers the ability to test their applications for CSRF flaws."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "http://www.owasp.org/index.php/Category:OWASP_CSRFTester_Project"
 commonlyOn: ["BlackArch"]

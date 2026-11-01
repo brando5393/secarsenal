@@ -3,7 +3,7 @@ name: "brakeman"
 tagline: "A static analysis security vulnerability scanner for Ruby on Rails applications."
 categories: ["code-audit"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/code-audit.html"
 downloadUrl: "https://brakemanscanner.org/"
 commonlyOn: ["BlackArch"]

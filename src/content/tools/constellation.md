@@ -3,7 +3,7 @@ name: "constellation"
 tagline: "Graph tool for visualising and exploring OSINT data."
 categories: ["osint","web"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/constellation-app/Constellation"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

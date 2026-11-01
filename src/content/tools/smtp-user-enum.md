@@ -3,7 +3,7 @@ name: "smtp-user-enum"
 tagline: "Username guessing tool for the SMTP service"
 categories: ["account-discovery","smtp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/smtp-user-enum/"
 downloadUrl: "http://pentestmonkey.net/tools/user-enumeration/smtp-user-enum"
 repoUrl: "https://gitlab.com/kalilinux/packages/smtp-user-enum"

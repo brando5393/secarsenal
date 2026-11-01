@@ -3,7 +3,7 @@ name: "pwndrop"
 tagline: "Self-deployable file hosting service for red teamers, allowing to easily upload and share payloads over HTTP and WebDAV."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/kgretzky/pwndrop"
 commonlyOn: ["BlackArch"]

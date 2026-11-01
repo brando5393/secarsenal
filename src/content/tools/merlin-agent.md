@@ -3,7 +3,7 @@ name: "merlin-agent"
 tagline: "Cross-platform post-exploitation HTTP/2 Command & Control agent"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/merlin-agent/"
 downloadUrl: "https://github.com/Ne0nd0g/merlin-agent"
 repoUrl: "https://gitlab.com/kalilinux/packages/merlin-agent"

@@ -3,7 +3,7 @@ name: "hopper"
 tagline: "Reverse engineering tool that lets you disassemble, decompile and debug your applications."
 categories: ["reversing"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/reversing.html"
 downloadUrl: "https://www.hopperapp.com/download.html?"
 commonlyOn: ["BlackArch"]

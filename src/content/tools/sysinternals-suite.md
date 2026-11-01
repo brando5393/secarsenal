@@ -3,7 +3,7 @@ name: "sysinternals-suite"
 tagline: "Sysinternals tools suite."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://sysinternals.com/"
 commonlyOn: ["BlackArch"]

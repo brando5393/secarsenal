@@ -3,7 +3,7 @@ name: "xssless-git"
 tagline: "An automated XSS payload generator written in python."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/xssless-git"
 downloadUrl: "https://github.com/mandatoryprogrammer/xssless"
 commonlyOn: ["ArchStrike"]

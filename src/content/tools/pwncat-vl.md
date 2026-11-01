@@ -3,7 +3,7 @@ name: "pwncat-vl"
 tagline: "Maintained fork of pwncat-cs with recent fixes and enhancements."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/Chocapikk/pwncat-vl"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

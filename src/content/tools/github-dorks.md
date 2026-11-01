@@ -3,7 +3,7 @@ name: "github-dorks"
 tagline: "Collection of github dorks and helper tool to automate the process of checking dorks."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/techgaun/github-dorks"
 commonlyOn: ["BlackArch"]

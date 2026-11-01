@@ -3,7 +3,7 @@ name: "Blockonomics"
 tagline: "Bitcoin payment API and OSINT platform providing address monitoring, wallet balance tracking, and transaction alerts for developers and enterprises."
 categories: ["blockchain-cryptocurrency"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.blockonomics.co/"
 commonlyOn: []
 gettingStarted: "Best for: Bitcoin payment integration and address monitoring for developers. See the official site linked above for details."

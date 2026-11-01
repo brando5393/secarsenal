@@ -3,7 +3,7 @@ name: "dupdump"
 tagline: "Finds duplicat files and directories and outputs a parsable list that can be used to delete them"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/dupdump"
 downloadUrl: "http://kernel.embedromix.ro/us/"
 commonlyOn: ["ArchStrike"]

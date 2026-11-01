@@ -3,7 +3,7 @@ name: "World Aeronautical Database"
 tagline: "Reference database for airport, airline, and aircraft metadata to support aviation intelligence lookups."
 categories: ["transportation"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://worldaerodata.com/"
 commonlyOn: []
 gettingStarted: "Best for: Aviation reference checks for airports, airlines, and aircraft. See the official site linked above for details."

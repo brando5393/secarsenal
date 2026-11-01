@@ -3,7 +3,7 @@ name: "python-jinja2-time"
 tagline: "Jinja2 Extension for Dates and Times"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/python-jinja2-time"
 downloadUrl: "https://github.com/hackebrot/jinja2-time"
 commonlyOn: ["ArchStrike"]

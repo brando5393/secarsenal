@@ -3,7 +3,7 @@ name: "Cloud Custodian (T)"
 tagline: "Policy-as-code engine for cloud governance and security that can detect and remediate risky cloud configurations."
 categories: ["cloud-infrastructure"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/cloud-custodian/cloud-custodian"
 commonlyOn: []
 gettingStarted: "Best for: Automated cloud governance and continuous configuration enforcement. See the official site linked above for details."

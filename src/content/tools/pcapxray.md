@@ -3,7 +3,7 @@ name: "pcapxray"
 tagline: "A Network Forensics Tool - To visualize a Packet Capture offline as a Network Diagram including device identification, h"
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/Srinivas11789/PcapXray"
 commonlyOn: ["BlackArch"]

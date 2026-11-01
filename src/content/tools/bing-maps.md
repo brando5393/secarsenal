@@ -3,7 +3,7 @@ name: "Bing Maps"
 tagline: "Microsoft web mapping service with road, aerial, and route layers for location analysis."
 categories: ["geolocation-tools-maps"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.bing.com/maps"
 commonlyOn: []
 gettingStarted: "Best for: General geolocation and route context with Microsoft map data. See the official site linked above for details."

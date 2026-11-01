@@ -3,7 +3,7 @@ name: "packerid-git"
 tagline: "Script which uses a PEiD database to identify which packer (if any) is being used by a binary."
 categories: ["reverse"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/packerid-git"
 downloadUrl: "https://github.com/sooshie/packerid"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "sslyze"
 tagline: "Fast and full-featured SSL scanner"
 categories: ["ssl-tls"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/sslyze/"
 downloadUrl: "https://github.com/nabla-c0d3/sslyze"
 repoUrl: "https://gitlab.com/kalilinux/packages/sslyze"

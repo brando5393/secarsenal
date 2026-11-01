@@ -3,7 +3,7 @@ name: "subdomainer"
 tagline: "A tool designed for obtaining subdomain names from public sources."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "http://www.edge-security.com/subdomainer.php"
 commonlyOn: ["BlackArch"]

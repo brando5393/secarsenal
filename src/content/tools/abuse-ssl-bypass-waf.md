@@ -3,7 +3,7 @@ name: "abuse-ssl-bypass-waf"
 tagline: "Bypassing WAF by abusing SSL/TLS Ciphers."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/LandGrey/abuse-ssl-bypass-waf"
 commonlyOn: ["BlackArch"]

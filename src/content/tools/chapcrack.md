@@ -3,7 +3,7 @@ name: "chapcrack"
 tagline: "A tool for parsing and decrypting MS-CHAPv2 network handshakes."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/moxie0/chapcrack"
 commonlyOn: ["BlackArch"]

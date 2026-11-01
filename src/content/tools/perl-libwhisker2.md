@@ -3,7 +3,7 @@ name: "perl-libwhisker2"
 tagline: "A full-featured Perl library used for HTTP-related functions, including vulnerability scanning and exploit"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/perl-libwhisker2"
 downloadUrl: "http://sourceforge.net/projects/whisker/"
 commonlyOn: ["ArchStrike"]

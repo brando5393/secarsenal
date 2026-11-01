@@ -3,7 +3,7 @@ name: "tiger"
 tagline: "Security auditing and intrusion detection tools for Linux"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/tiger/"
 downloadUrl: "http://savannah.nongnu.org/projects/tiger/"
 repoUrl: "https://git.savannah.nongnu.org/cgit/tiger.git"

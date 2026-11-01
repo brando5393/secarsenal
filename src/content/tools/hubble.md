@@ -3,7 +3,7 @@ name: "hubble"
 tagline: "Network, Service & Security Observability for Kubernetes using eBPF (program)"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/hubble/"
 downloadUrl: "https://github.com/cilium/hubble"
 repoUrl: "https://gitlab.com/kalilinux/packages/hubble"

@@ -3,7 +3,7 @@ name: "netbios-share-scanner"
 tagline: "This tool could be used to check windows workstations and servers if they have accessible shared resources."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://www.secpoint.com/netbios-share-scanner.html"
 commonlyOn: ["BlackArch"]

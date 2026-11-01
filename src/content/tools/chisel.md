@@ -3,7 +3,7 @@ name: "chisel"
 tagline: "Fast TCP/UDP tunnel over HTTP (program)"
 categories: ["protocol-tunneling"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/chisel/"
 downloadUrl: "https://github.com/jpillora/chisel"
 repoUrl: "https://gitlab.com/kalilinux/packages/chisel"

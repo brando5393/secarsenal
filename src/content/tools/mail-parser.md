@@ -4,7 +4,7 @@ tagline: "Parse raw SMTP and .MSG email messages and generate a parsed object fr
 categories: ["email-messages"]
 platforms: ["Linux"]
 license: "Apache License 2.0"
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/analyze+documents/email+messages"
 downloadUrl: "https://github.com/SpamScope/mail-parser"
 commonlyOn: ["REMnux"]

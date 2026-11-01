@@ -3,7 +3,7 @@ name: "flask-session-cookie-manager3"
 tagline: "Decode and encode Flask session cookie."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://noraj.github.io/flask-session-cookie-manager/"
 commonlyOn: ["BlackArch"]

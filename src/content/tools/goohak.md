@@ -3,7 +3,7 @@ name: "goohak"
 tagline: "Automatically Launch Google Hacking Queries Against A Target Domain."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/1N3/Goohak"
 commonlyOn: ["BlackArch"]

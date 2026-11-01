@@ -3,7 +3,7 @@ name: "girsh"
 tagline: "Automatically spawn a reverse shell fully interactive for Linux or Windows victim."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/nodauf/Girsh"
 commonlyOn: ["BlackArch"]

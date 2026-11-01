@@ -3,7 +3,7 @@ name: "python-async_timeout"
 tagline: "Timeout context manager for asyncio programs"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/python-async_timeout"
 downloadUrl: "https://github.com/aio-libs/async_timeout/"
 commonlyOn: ["ArchStrike"]

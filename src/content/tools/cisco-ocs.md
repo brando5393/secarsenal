@@ -3,7 +3,7 @@ name: "cisco-ocs"
 tagline: "Mass Cisco scanner"
 categories: ["cisco-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/cisco-ocs/"
 downloadUrl: "http://hacklab.altervista.org/"
 repoUrl: "https://gitlab.com/kalilinux/packages/cisco-ocs"

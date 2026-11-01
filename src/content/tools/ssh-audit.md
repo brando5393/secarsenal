@@ -3,7 +3,7 @@ name: "ssh-audit"
 tagline: "ssh-audit is a tool to test SSH server configuration for best practices."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/jtesta/ssh-audit"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

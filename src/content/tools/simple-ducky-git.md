@@ -3,7 +3,7 @@ name: "simple-ducky-git"
 tagline: "A payload generator"
 categories: ["autonomous"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/simple-ducky-git"
 downloadUrl: "https://code.google.com/p/simple-ducky-payload-generator"
 commonlyOn: ["ArchStrike"]

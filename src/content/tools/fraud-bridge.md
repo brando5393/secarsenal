@@ -3,7 +3,7 @@ name: "fraud-bridge"
 tagline: "ICMP and DNS tunneling via IPv4 and IPv6."
 categories: ["tunnel"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/tunnel.html"
 downloadUrl: "https://github.com/stealth/fraud-bridge"
 commonlyOn: ["BlackArch"]

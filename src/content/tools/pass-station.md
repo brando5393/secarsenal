@@ -3,7 +3,7 @@ name: "pass-station"
 tagline: "CLI & library to search for default credentials among thousands of Products / Vendors."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://noraj.github.io/pass-station/"
 commonlyOn: ["BlackArch"]

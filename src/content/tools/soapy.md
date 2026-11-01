@@ -3,7 +3,7 @@ name: "soapy"
 tagline: "SOAPy is a Proof of Concept (PoC) utility for conducting offensive interaction with Active Directory Web Services (ADWS) through a SOCKS5 proxy."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/logangoins/SOAPy"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

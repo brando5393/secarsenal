@@ -3,7 +3,7 @@ name: "unstrip"
 tagline: "ELF Unstrip Tool."
 categories: ["disassembler"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/disassembler.html"
 downloadUrl: "https://github.com/pzread/unstrip"
 commonlyOn: ["BlackArch"]

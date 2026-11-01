@@ -3,7 +3,7 @@ name: "procps"
 tagline: "/proc file system utilities"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/procps/"
 downloadUrl: "https://gitlab.com/procps-ng/procps"
 repoUrl: "https://salsa.debian.org/debian/procps"

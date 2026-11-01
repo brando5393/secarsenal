@@ -3,7 +3,7 @@ name: "Cryptome"
 tagline: "Long-running disclosure archive hosting leaked or hard-to-find government, intelligence, and policy documents."
 categories: ["archives"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://cryptome.org/"
 commonlyOn: []
 gettingStarted: "Best for: Searching historical leaked documents and primary-source disclosures. See the official site linked above for details."

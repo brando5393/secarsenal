@@ -3,7 +3,7 @@ name: "xxeinjector"
 tagline: "Tool for automatic exploitation of XXE vulnerability using direct and different out of band methods."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/enjoiz/XXEinjector"
 commonlyOn: ["BlackArch"]

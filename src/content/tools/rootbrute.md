@@ -3,7 +3,7 @@ name: "rootbrute"
 tagline: "Local root account bruteforcer."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://www.packetstormsecurity.org/"
 commonlyOn: ["BlackArch"]

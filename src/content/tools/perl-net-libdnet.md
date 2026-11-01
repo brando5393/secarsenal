@@ -3,7 +3,7 @@ name: "perl-net-libdnet"
 tagline: "Binding for Dug Song's libdnet"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/perl-net-libdnet"
 downloadUrl: "https://metacpan.org/pod/Net::Libdnet"
 commonlyOn: ["ArchStrike"]

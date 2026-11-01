@@ -3,7 +3,7 @@ name: "ohrwurm-git"
 tagline: "A small and simple RTP fuzzer"
 categories: ["fuzzers"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/ohrwurm-git"
 downloadUrl: "http://mazzoo.de/"
 commonlyOn: ["ArchStrike"]

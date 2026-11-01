@@ -3,7 +3,7 @@ name: "Riot.im - Communicate, your way (T)"
 tagline: "Open-source Matrix client for decentralized messaging. Limited public data but useful for community monitoring."
 categories: ["mobile-osint"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://riot.im/"
 commonlyOn: []
 gettingStarted: "Best for: Open community monitoring, channel discovery, user verification. See the official site linked above for details."

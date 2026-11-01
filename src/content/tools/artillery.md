@@ -3,7 +3,7 @@ name: "artillery"
 tagline: "Blue team tool designed to protect Linux and Windows operating systems through multiple methods."
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://www.trustedsec.com/downloads/artillery/"
 commonlyOn: ["BlackArch"]

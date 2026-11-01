@@ -3,7 +3,7 @@ name: "Web Inspector Online Scan"
 tagline: "Free cloud-based website malware scanner with daily automated scanning and blacklist checking capabilities."
 categories: ["domain-name"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.webinspector.com/website-malware-scanner/"
 commonlyOn: []
 gettingStarted: "Best for: Website malware scanning. See the official site linked above for details."

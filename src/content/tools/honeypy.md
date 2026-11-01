@@ -3,7 +3,7 @@ name: "honeypy"
 tagline: "A low interaction Honeypot."
 categories: ["honeypot"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/honeypot.html"
 downloadUrl: "https://github.com/foospidy/HoneyPy"
 commonlyOn: ["BlackArch"]

@@ -4,7 +4,7 @@ tagline: "Look up MD5 file hashes in the NIST National Software Reference Librar
 categories: ["gather-and-analyze-data"]
 platforms: ["Linux"]
 license: "ISC License"
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/gather+and+analyze+data"
 downloadUrl: "https://github.com/rjhansen/nsrllookup"
 commonlyOn: ["REMnux"]

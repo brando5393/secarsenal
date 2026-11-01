@@ -3,7 +3,7 @@ name: "freeradius"
 tagline: "High-performance and highly configurable RADIUS server"
 categories: ["wifi-credential-access"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/freeradius/"
 downloadUrl: "http://www.freeradius.org/"
 repoUrl: "https://salsa.debian.org/debian/freeradius"

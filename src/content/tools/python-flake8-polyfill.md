@@ -3,7 +3,7 @@ name: "python-flake8-polyfill"
 tagline: "Provides the poly fill for Flake8 plugins"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/python-flake8-polyfill"
 downloadUrl: "https://gitlab.com/pycqa/flake8-polyfill"
 commonlyOn: ["ArchStrike"]

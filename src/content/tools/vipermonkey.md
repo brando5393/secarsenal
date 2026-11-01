@@ -3,7 +3,7 @@ name: "vipermonkey"
 tagline: "A VBA parser and emulation engine to analyze malicious macros."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/decalage2/ViperMonkey"
 commonlyOn: ["BlackArch"]

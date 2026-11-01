@@ -3,7 +3,7 @@ name: "xsser"
 tagline: "XSS testing framework"
 categories: ["execution"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/xsser/"
 downloadUrl: "https://xsser.03c8.net/"
 repoUrl: "https://gitlab.com/kalilinux/packages/xsser"

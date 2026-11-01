@@ -4,7 +4,7 @@ tagline: "Analyze OLE2 Structured Storage files."
 categories: ["microsoft-office"]
 platforms: ["Linux"]
 license: "Public Domain"
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/analyze+documents/microsoft+office"
 downloadUrl: "https://blog.didierstevens.com/programs/oledump-py/"
 commonlyOn: ["REMnux"]

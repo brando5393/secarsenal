@@ -3,7 +3,7 @@ name: "pblind"
 tagline: "Little utility to help exploiting blind sql injection vulnerabilities."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "http://www.edge-security.com/pblind.php"
 commonlyOn: ["BlackArch"]

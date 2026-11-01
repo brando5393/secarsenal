@@ -3,7 +3,7 @@ name: "pskracker"
 tagline: "Collection of WPA/WPA2/WPS default keys generators/pingens"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/pskracker/"
 downloadUrl: "https://github.com/soxrok2212/PSKracker"
 repoUrl: "https://gitlab.com/kalilinux/packages/pskracker"

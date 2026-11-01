@@ -3,7 +3,7 @@ name: "brute12"
 tagline: "A tool designed for auditing the cryptography container security in PKCS12 format."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://www.security-projects.com/?Brute12"
 commonlyOn: ["BlackArch"]

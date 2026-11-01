@@ -3,7 +3,7 @@ name: "guymager"
 tagline: "Forensic imaging tool based on Qt"
 categories: ["forensic-imaging-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/guymager/"
 downloadUrl: "https://guymager.sourceforge.net/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/guymager"

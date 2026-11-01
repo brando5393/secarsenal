@@ -3,7 +3,7 @@ name: "littleblackbox"
 tagline: "Penetration testing tool, search in a collection of thousands of private SSL keys extracted from various embedded device"
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://code.google.com/p/littleblackbox/wiki/FAQ"
 commonlyOn: ["BlackArch"]

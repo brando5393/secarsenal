@@ -3,7 +3,7 @@ name: "dirbuster-ng"
 tagline: "C CLI implementation of the Java dirbuster tool."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/digination/dirbuster-ng"
 commonlyOn: ["BlackArch"]

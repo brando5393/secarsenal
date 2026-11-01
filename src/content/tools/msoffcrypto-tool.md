@@ -4,7 +4,7 @@ tagline: "Decrypt a Microsoft Office file with password, intermediate key, or pr
 categories: ["microsoft-office"]
 platforms: ["Linux"]
 license: "MIT License"
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/analyze+documents/microsoft+office"
 downloadUrl: "https://github.com/nolze/msoffcrypto-tool"
 commonlyOn: ["REMnux"]

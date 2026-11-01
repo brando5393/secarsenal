@@ -3,7 +3,7 @@ name: "tcpdump"
 tagline: "Command-line network traffic analyzer"
 categories: ["network-sniffing","discovery"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/tcpdump/"
 downloadUrl: "https://www.tcpdump.org/"
 repoUrl: "https://salsa.debian.org/debian/tcpdump"

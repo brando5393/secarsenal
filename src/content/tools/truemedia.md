@@ -3,7 +3,7 @@ name: "TrueMedia"
 tagline: "AI deepfake detection platform focused on political content that analyzes videos and images for synthetic media manipulation indicators."
 categories: ["ai-tools"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.truemedia.org/"
 commonlyOn: []
 gettingStarted: "Best for: Deepfake detection in political and news media contexts. See the official site linked above for details."

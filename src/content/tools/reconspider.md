@@ -3,7 +3,7 @@ name: "reconspider"
 tagline: "OSINT Framework for scanning IP Address, Emails, Websites, Organizations"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/reconspider/"
 downloadUrl: "https://github.com/bhavsec/reconspider"
 repoUrl: "https://gitlab.com/kalilinux/packages/reconspider"

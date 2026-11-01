@@ -3,7 +3,7 @@ name: "hexedit"
 tagline: "View and edit binary files"
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/pixel/hexedit"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "scannerl"
 tagline: "The modular distributed fingerprinting engine."
 categories: ["fingerprint"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/fingerprint.html"
 downloadUrl: "https://github.com/kudelskisecurity/scannerl"
 commonlyOn: ["BlackArch"]

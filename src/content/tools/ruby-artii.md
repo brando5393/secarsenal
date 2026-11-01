@@ -3,7 +3,7 @@ name: "ruby-artii"
 tagline: "A little Figlet-based ASCII art generator."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/ruby-artii"
 downloadUrl: "http://github.com/miketierney/artii"
 commonlyOn: ["ArchStrike"]

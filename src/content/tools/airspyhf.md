@@ -3,7 +3,7 @@ name: "airspyhf"
 tagline: "Host code for AirspyHF+ SDR."
 categories: ["radio"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/radio.html"
 downloadUrl: "https://airspy.com"
 commonlyOn: ["BlackArch"]

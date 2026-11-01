@@ -3,7 +3,7 @@ name: "gr-iqbal"
 tagline: "GNU Radio Blind IQ imbalance estimator and correction"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/gr-iqbal/"
 downloadUrl: "https://git.osmocom.org/gr-iqbal"
 repoUrl: "https://salsa.debian.org/bottoms/pkg-gr-iqbal"

@@ -3,7 +3,7 @@ name: "brutemap"
 tagline: "Penetration testing tool that automates testing accounts to the site's login page."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/brutemap-dev/brutemap"
 commonlyOn: ["BlackArch"]

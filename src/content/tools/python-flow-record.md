@@ -3,7 +3,7 @@ name: "python-flow.record"
 tagline: "Recordization library."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/fox-it/flow.record"
 commonlyOn: ["BlackArch"]

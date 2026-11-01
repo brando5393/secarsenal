@@ -3,7 +3,7 @@ name: "perl-time-interval"
 tagline: "Converts time intervals of days, hours, minutes, and seconds."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/perl-time-interval"
 downloadUrl: "https://metacpan.org/pod/Time::Interval"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "kwprocessor"
 tagline: "Advanced keyboard-walk generator with configureable basechars, keymap and routes"
 categories: ["crackers"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/kwprocessor"
 downloadUrl: "https://github.com/hashcat/kwprocessor"
 commonlyOn: ["ArchStrike"]

@@ -3,11 +3,10 @@ name: "keimpx"
 tagline: "Tool to verify the usefulness of credentials across a network over SMB."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/cracker.html"
-downloadUrl: "http://code.google.com/p/keimpx/"
 commonlyOn: ["BlackArch"]
-gettingStarted: "Install on BlackArch with `pacman -S keimpx` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing and upstream homepage linked above for details."
+gettingStarted: "Install on BlackArch with `pacman -S keimpx` (or add the BlackArch repository to an existing Arch Linux install). See the official BlackArch tool listing linked above for details."
 ---
 
 Tool to verify the usefulness of credentials across a network over SMB.

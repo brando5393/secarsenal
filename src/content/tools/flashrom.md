@@ -3,7 +3,7 @@ name: "flashrom"
 tagline: "Identify, read, write, erase, and verify BIOS/ROM/flash chips"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/flashrom/"
 downloadUrl: "http://www.flashrom.org"
 repoUrl: "https://salsa.debian.org/debian/flashrom"

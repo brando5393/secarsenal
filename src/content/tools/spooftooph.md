@@ -3,7 +3,7 @@ name: "spooftooph"
 tagline: "Automates spoofing or cloning Bluetooth devices"
 categories: ["bluetooth"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/spooftooph/"
 downloadUrl: "http://www.hackfromacave.com/projects/spooftooph.html"
 repoUrl: "https://gitlab.com/kalilinux/packages/spooftooph"

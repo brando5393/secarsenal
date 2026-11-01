@@ -3,7 +3,7 @@ name: "mailsend-go"
 tagline: "A multi-platform command line tool to send mail via SMTP protocol."
 categories: ["spoof"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/spoof.html"
 downloadUrl: "https://github.com/muquit/mailsend-go"
 commonlyOn: ["BlackArch"]

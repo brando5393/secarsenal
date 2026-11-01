@@ -3,7 +3,7 @@ name: "itpp"
 tagline: "C++ library of mathematical, signal processing and communication routines"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/itpp"
 downloadUrl: "http://itpp.sourceforge.net/"
 commonlyOn: ["ArchStrike"]

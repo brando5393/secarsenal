@@ -3,7 +3,7 @@ name: "httprecon"
 tagline: "Tool for web server fingerprinting, also known as http fingerprinting."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://www.computec.ch/projekte/httprecon/?s=download"
 commonlyOn: ["BlackArch"]

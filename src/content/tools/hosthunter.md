@@ -3,7 +3,7 @@ name: "hosthunter"
 tagline: "Tool to discover and extract hostnames providing a set of target IP addresses"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/hosthunter/"
 downloadUrl: "https://github.com/SpiderLabs/HostHunter"
 repoUrl: "https://gitlab.com/kalilinux/packages/hosthunter"

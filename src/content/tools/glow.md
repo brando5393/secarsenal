@@ -3,7 +3,7 @@ name: "glow"
 tagline: "glow is a tool to render Markdown inside the terminal."
 categories: ["ad","osint","web"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/charmbracelet/glow"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

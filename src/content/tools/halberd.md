@@ -3,7 +3,7 @@ name: "halberd"
 tagline: "Halberd discovers HTTP load balancers. It is useful for web application security auditing and for load balancer configur"
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://halberd.superadditive.com/"
 commonlyOn: ["BlackArch"]

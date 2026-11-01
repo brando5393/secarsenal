@@ -3,7 +3,7 @@ name: "perl-algorithm-generatesequence"
 tagline: "A sequence generator."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/perl-algorithm-generatesequence"
 commonlyOn: ["ArchStrike"]
 gettingStarted: "Install by adding the ArchStrike repository to an existing Arch Linux install, then `pacman -S perl-algorithm-generatesequence`. See the official ArchStrike package listing linked above for details."

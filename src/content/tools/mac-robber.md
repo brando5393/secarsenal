@@ -3,7 +3,7 @@ name: "mac-robber"
 tagline: "Collects data about allocated files in mounted filesystems"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/mac-robber/"
 downloadUrl: "https://www.sleuthkit.org/mac-robber"
 repoUrl: "https://salsa.debian.org/pkg-security-team/mac-robber"

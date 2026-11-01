@@ -3,7 +3,7 @@ name: "stickykeyshunter-git"
 tagline: "Script to test an RDP host for sticky keys and utilman backdoor"
 categories: ["scanners"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/stickykeyshunter-git"
 downloadUrl: "https://github.com/ztgrace/sticky_keys_hunter"
 commonlyOn: ["ArchStrike"]

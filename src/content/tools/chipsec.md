@@ -3,7 +3,7 @@ name: "chipsec"
 tagline: "Platform Security Assessment Framework."
 categories: ["hardware"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/hardware.html"
 downloadUrl: "https://github.com/chipsec/chipsec"
 commonlyOn: ["BlackArch"]
