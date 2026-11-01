@@ -3,7 +3,7 @@ name: "samdump2"
 tagline: "Dump Windows 2k/NT/XP password hashes"
 categories: ["os-credential-dumping"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/samdump2/"
 downloadUrl: "https://ophcrack.sourceforge.net/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/samdump2"

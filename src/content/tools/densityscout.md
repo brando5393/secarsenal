@@ -3,7 +3,7 @@ name: "densityscout"
 tagline: "Calculates density for files of any file-system-path to finally output an accordingly descending ordered list."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://www.cert.at/en/downloads/software/software-densityscout"
 commonlyOn: ["BlackArch"]

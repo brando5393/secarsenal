@@ -3,7 +3,7 @@ name: "Kibana"
 tagline: "Kibana"
 categories: ["network-security-monitoring"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://docs.securityonion.net/en/2.4/kibana.html#kibana"
 commonlyOn: ["Security Onion"]
 gettingStarted: "Bundled with Security Onion. See Security Onion's official tool documentation linked above for details."

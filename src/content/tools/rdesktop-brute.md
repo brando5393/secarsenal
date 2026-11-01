@@ -3,7 +3,7 @@ name: "rdesktop-brute"
 tagline: "It connects to windows terminal servers - Bruteforce patch included."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://www.rdesktop.org/"
 commonlyOn: ["BlackArch"]

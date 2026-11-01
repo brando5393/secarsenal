@@ -3,7 +3,7 @@ name: "sloth-fuzzer"
 tagline: "A smart file fuzzer."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://github.com/mfontanini/sloth-fuzzer"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "uefi-firmware-parser"
 tagline: "Parse BIOS/Intel ME/UEFI firmware related structures: Volumes, FileSystems, Files, etc."
 categories: ["firmware"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/firmware.html"
 downloadUrl: "https://github.com/theopolis/uefi-firmware-parser"
 commonlyOn: ["BlackArch"]

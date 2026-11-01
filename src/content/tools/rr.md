@@ -3,7 +3,7 @@ name: "rr"
 tagline: "A Record and Replay Framework."
 categories: ["debugger"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/debugger.html"
 downloadUrl: "https://github.com/mozilla/rr"
 commonlyOn: ["BlackArch"]

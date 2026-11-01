@@ -3,7 +3,7 @@ name: "create_ap"
 tagline: "A shell script to create a NATed/Bridged Software Access Point."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "https://github.com/oblique/create_ap"
 commonlyOn: ["BlackArch"]

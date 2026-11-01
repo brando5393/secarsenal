@@ -3,7 +3,7 @@ name: "scumware.org"
 tagline: "Free malware and spyware tracking domain blacklist maintained by security community for 18+ years."
 categories: ["domain-name"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.scumware.org/"
 commonlyOn: []
 gettingStarted: "Best for: Malware and spyware domain research. See the official site linked above for details."

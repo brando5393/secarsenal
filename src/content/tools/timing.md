@@ -3,7 +3,7 @@ name: "timing"
 tagline: "Perform timing attacks against web applications."
 categories: ["ad","web"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/ffleming/timing_attack"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

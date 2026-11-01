@@ -3,7 +3,7 @@ name: "python-uncompyle6"
 tagline: "A Python cross-version decompiler."
 categories: ["decompiler"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/decompiler.html"
 downloadUrl: "https://pypi.org/project/uncompyle6/#files"
 commonlyOn: ["BlackArch"]

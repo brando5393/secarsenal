@@ -3,7 +3,7 @@ name: "killerbee"
 tagline: "Framework and tools for exploiting ZigBee and IEEE 802.15.4 networks."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/riverloopsec/killerbee"
 commonlyOn: ["BlackArch"]

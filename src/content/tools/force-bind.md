@@ -3,7 +3,7 @@ name: "force_bind"
 tagline: "Force binding on a specific IP and/or port, change TTL/TOS/KA/MSS/REUSEADDR/FWMARK/PRIORITY. Works with both IPv4 and IPv6. Also, you can enforce band"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/force_bind"
 downloadUrl: "http://kernel.embedromix.ro/us/"
 commonlyOn: ["ArchStrike"]

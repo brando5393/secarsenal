@@ -3,7 +3,7 @@ name: "airgeddon"
 tagline: "Multi-use bash script for Linux systems to audit wireless networks"
 categories: ["wifi-credential-access"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/airgeddon/"
 downloadUrl: "https://github.com/v1s1t0r1sh3r3/airgeddon"
 repoUrl: "https://gitlab.com/kalilinux/packages/airgeddon"

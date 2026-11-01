@@ -3,7 +3,7 @@ name: "domainhunter"
 tagline: "Checks expired domains for categorization/reputation and Archive.org history to determine good candidates for phishing a"
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/threatexpress/domainhunter"
 commonlyOn: ["BlackArch"]

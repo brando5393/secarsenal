@@ -3,7 +3,7 @@ name: "Firefox-debloat"
 tagline: "Collection of Firefox configuration tweaks and policies to disable telemetry, enhance privacy, and reduce browser fingerprinting surface."
 categories: ["opsec"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/amq/firefox-debloat"
 commonlyOn: []
 gettingStarted: "Best for: Hardening Firefox for OSINT operations, reducing browser telemetry and tracking. See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "android-tools-adb"
 tagline: "A collection of tools for debugging Android applications"
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://developer.android.com/studio/command-line/adb"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

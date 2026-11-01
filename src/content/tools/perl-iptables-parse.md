@@ -3,7 +3,7 @@ name: "perl-iptables-parse"
 tagline: "IPTables::Parse - Perl extension for parsing iptables and ip6tables firewall rulesets"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/perl-iptables-parse"
 downloadUrl: "https://metacpan.org/pod/IPTables::Parse"
 commonlyOn: ["ArchStrike"]

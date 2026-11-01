@@ -3,7 +3,7 @@ name: "ImgOps"
 tagline: "Meta-search utility that routes an image to multiple reverse search and forensic services."
 categories: ["disinformation-media-verification"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://imgops.com/"
 commonlyOn: []
 gettingStarted: "Best for: Fast multi-engine reverse image analysis from one entry point. See the official site linked above for details."

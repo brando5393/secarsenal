@@ -3,7 +3,7 @@ name: "jwscan"
 tagline: "Scanner for Jar to EXE wrapper like Launch4j, Exe4j, JSmooth, Jar2Exe."
 categories: ["reversing"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/reversing.html"
 downloadUrl: "https://github.com/katjahahn/JWScan"
 commonlyOn: ["BlackArch"]

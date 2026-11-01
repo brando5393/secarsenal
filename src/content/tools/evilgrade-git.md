@@ -3,7 +3,7 @@ name: "evilgrade-git"
 tagline: "Modular framework that takes advantage of poor upgrade implementations by injecting fake updates"
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/evilgrade-git"
 downloadUrl: "https://github.com/infobyte/evilgrade"
 commonlyOn: ["ArchStrike"]

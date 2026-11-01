@@ -3,7 +3,7 @@ name: "hikpwn"
 tagline: "A simple scanner for Hikvision devices with basic vulnerability scanning capabilities written in Python 3.8."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/4n4nk3/HikPwn"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "crackle-git"
 tagline: "Crack and decrypt BLE encryption"
 categories: ["crackers"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/crackle-git"
 downloadUrl: "https://github.com/mikeryan/crackle/"
 commonlyOn: ["ArchStrike"]

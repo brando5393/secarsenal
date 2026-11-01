@@ -3,7 +3,7 @@ name: "Registry Finder"
 tagline: "Gift registry search aggregator searching across partner retailers including Amazon, Target, and Zola for wedding, baby, birthday, and other…"
 categories: ["people-search-engines"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://registryfinder.com:443/"
 commonlyOn: []
 gettingStarted: "Best for: Cross-retailer gift registry search. See the official site linked above for details."

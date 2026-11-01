@@ -3,7 +3,7 @@ name: "bios_memimage"
 tagline: "A tool to dump RAM contents to disk (aka cold boot attack)."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://citp.princeton.edu/memory/code/"
 commonlyOn: ["BlackArch"]

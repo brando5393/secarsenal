@@ -3,7 +3,7 @@ name: "f-scrack"
 tagline: "A single file bruteforcer supports multi-protocol."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/ysrc/F-Scrack"
 commonlyOn: ["BlackArch"]

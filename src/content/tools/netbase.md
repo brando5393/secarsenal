@@ -3,7 +3,7 @@ name: "netbase"
 tagline: "Basic TCP/IP networking system"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/netbase/"
 repoUrl: "https://salsa.debian.org/md/netbase"
 commonlyOn: ["Kali Linux"]

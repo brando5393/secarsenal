@@ -3,7 +3,7 @@ name: "perl-devel-overloadinfo"
 tagline: "introspect overloaded operators"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/perl-devel-overloadinfo"
 downloadUrl: "https://metacpan.org/pod/Devel::OverloadInfo"
 commonlyOn: ["ArchStrike"]

@@ -4,7 +4,7 @@ tagline: "Run Windows applications."
 categories: ["general"]
 platforms: ["Linux"]
 license: "GNU Lesser General Public License (LGPL) v2.1 or later"
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/dynamically+reverse-engineer+code/general"
 downloadUrl: "https://www.winehq.org"
 commonlyOn: ["REMnux"]

@@ -3,7 +3,7 @@ name: "xpire-crossdomain-scanner"
 tagline: "Scans crossdomain.xml policies for expired domain names."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/mandatoryprogrammer/xpire-crossdomain-scanner"
 commonlyOn: ["BlackArch"]

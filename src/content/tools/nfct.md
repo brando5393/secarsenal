@@ -3,7 +3,7 @@ name: "nfct"
 tagline: "Command-line tool for the netfilter connection tracking system"
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://netfilter.org/projects/libnetfilter_conntrack/index.html"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

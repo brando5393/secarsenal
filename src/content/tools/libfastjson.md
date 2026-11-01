@@ -3,7 +3,7 @@ name: "libfastjson"
 tagline: "A small library with essential json handling functions"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/libfastjson"
 downloadUrl: "https://github.com/rsyslog/libfastjson"
 commonlyOn: ["ArchStrike"]

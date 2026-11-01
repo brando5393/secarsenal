@@ -3,7 +3,7 @@ name: "code-oss"
 tagline: "Open Source package of vscode"
 categories: ["resource-development","services-and-other-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/code-oss/"
 downloadUrl: "https://github.com/microsoft/vscode"
 repoUrl: "https://gitlab.com/kalilinux/packages/code-oss"

@@ -3,7 +3,7 @@ name: "neo-regeorg"
 tagline: "Improved version of reGeorg, HTTP tunneling pivot tool"
 categories: ["tunnel"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/tunnel.html"
 downloadUrl: "https://github.com/L-codes/Neo-reGeorg"
 commonlyOn: ["BlackArch"]

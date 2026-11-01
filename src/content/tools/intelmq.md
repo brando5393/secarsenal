@@ -3,7 +3,7 @@ name: "intelmq"
 tagline: "A tool for collecting and processing security feeds using a message queuing protocol."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/certtools/intelmq"
 commonlyOn: ["BlackArch"]

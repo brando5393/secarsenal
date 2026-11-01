@@ -3,7 +3,7 @@ name: "RsaCracker"
 tagline: "Powerful RSA cracker for CTFs. Supports RSA - X509 - OPENSSH in PEM and DER formats."
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/skyf0l/RsaCracker"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

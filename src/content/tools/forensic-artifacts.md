@@ -3,7 +3,7 @@ name: "forensic-artifacts"
 tagline: "Knowledge base of forensic artifacts (data files)"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/forensic-artifacts/"
 downloadUrl: "https://github.com/ForensicArtifacts/artifacts"
 repoUrl: "https://salsa.debian.org/pkg-security-team/forensic-artifacts"

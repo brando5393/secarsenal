@@ -3,7 +3,7 @@ name: "python-pyric"
 tagline: "Python Wireless Library"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/python-pyric"
 downloadUrl: "http://wraith-wireless.github.io/PyRIC/"
 commonlyOn: ["ArchStrike"]

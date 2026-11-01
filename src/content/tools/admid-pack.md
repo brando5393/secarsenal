@@ -3,7 +3,7 @@ name: "admid-pack"
 tagline: "ADM DNS spoofing tools - Uses a variety of active and passive methods to spoof DNS packets. Very powerful."
 categories: ["spoof"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/spoof.html"
 downloadUrl: "http://packetstormsecurity.com/files/10080/ADMid-pkg.tgz.html"
 commonlyOn: ["BlackArch"]

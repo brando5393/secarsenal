@@ -3,7 +3,7 @@ name: "Electrum"
 tagline: "an easy-to-use bitcoin client"
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://tails.net/doc/about/features/index.en.html"
 downloadUrl: "https://electrum.org/"
 commonlyOn: ["Tails"]

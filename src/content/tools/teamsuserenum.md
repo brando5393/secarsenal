@@ -3,7 +3,7 @@ name: "teamsuserenum"
 tagline: "User enumeration with Microsoft Teams API"
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/immunIT/TeamsUserEnum"
 commonlyOn: ["BlackArch"]

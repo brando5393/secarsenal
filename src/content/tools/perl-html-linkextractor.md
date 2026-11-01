@@ -3,7 +3,7 @@ name: "perl-html-linkextractor"
 tagline: "Extract links from an HTML document"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/perl-html-linkextractor"
 downloadUrl: "https://metacpan.org/pod/HTML::LinkExtractor"
 commonlyOn: ["ArchStrike"]

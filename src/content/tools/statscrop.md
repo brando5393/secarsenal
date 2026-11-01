@@ -3,7 +3,7 @@ name: "StatsCrop"
 tagline: "Website statistics portal with traffic rank snapshots and related metadata."
 categories: ["domain-name"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.statscrop.com/"
 commonlyOn: []
 gettingStarted: "Best for: Quick website popularity snapshots. See the official site linked above for details."

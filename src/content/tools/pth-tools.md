@@ -3,7 +3,7 @@ name: "pth-tools"
 tagline: "A toolkit to perform pass-the-hash attacks"
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/byt3bl33d3r/pth-toolkit"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

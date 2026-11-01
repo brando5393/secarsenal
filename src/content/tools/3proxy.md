@@ -3,7 +3,7 @@ name: "3proxy"
 tagline: "Tiny free proxy server."
 categories: ["proxy"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/proxy.html"
 downloadUrl: "https://github.com/3proxy/3proxy"
 commonlyOn: ["BlackArch"]

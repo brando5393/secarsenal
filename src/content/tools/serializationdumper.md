@@ -3,7 +3,7 @@ name: "serializationdumper"
 tagline: "A tool to dump Java serialization streams in a more human readable form."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/NickstaDB/SerializationDumper/"
 commonlyOn: ["BlackArch"]

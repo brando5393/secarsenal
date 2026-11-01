@@ -3,7 +3,7 @@ name: "genisys"
 tagline: "Powerful Telegram Members Scraping and Adding Toolkit."
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://github.com/ahayder/Genisys"
 commonlyOn: ["BlackArch"]

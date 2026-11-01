@@ -3,7 +3,7 @@ name: "zond"
 tagline: "Network scanner that finds hosts, ports and services and matches them against distribution security data."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/zond-rs/zond"
 commonlyOn: ["BlackArch"]

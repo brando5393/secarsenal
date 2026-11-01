@@ -3,7 +3,7 @@ name: "ruby-mime"
 tagline: "library for building RFC compliant Multipurpose Internet Mail Extensions (MIME) messages."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/ruby-mime"
 downloadUrl: "https://rubygems.org/gems/mime"
 commonlyOn: ["ArchStrike"]

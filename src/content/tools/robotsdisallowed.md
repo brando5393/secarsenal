@@ -3,7 +3,7 @@ name: "RobotsDisallowed"
 tagline: "Curated wordlist of top disallowed paths harvested from robots.txt files across high-traffic websites."
 categories: ["domain-name"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/danielmiessler/RobotsDisallowed"
 commonlyOn: []
 gettingStarted: "Best for: robots.txt enumeration and directory discovery. See the official site linked above for details."

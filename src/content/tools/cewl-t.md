@@ -3,7 +3,7 @@ name: "CeWL (T)"
 tagline: "Ruby-based web spider that generates custom wordlists by crawling target websites to specified depth and extracting unique words for password…"
 categories: ["tools"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/digininja/CeWL"
 commonlyOn: []
 gettingStarted: "Best for: Custom wordlist generation; password cracking preparation; web reconnaissance. See the official site linked above for details."

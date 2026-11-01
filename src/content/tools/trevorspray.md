@@ -3,7 +3,7 @@ name: "trevorspray"
 tagline: "A modular password sprayer with threading, clever proxying, loot modules, and more!"
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/blacklanternsecurity/TREVORspray"
 commonlyOn: ["BlackArch"]

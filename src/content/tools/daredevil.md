@@ -3,7 +3,7 @@ name: "daredevil"
 tagline: "A tool to perform (higher-order) correlation power analysis attacks (CPA)."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "https://github.com/SideChannelMarvels/Daredevil"
 commonlyOn: ["BlackArch"]

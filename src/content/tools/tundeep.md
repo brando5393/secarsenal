@@ -3,7 +3,7 @@ name: "tundeep"
 tagline: "Layer 2 VPN/injection tool"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/tundeep/"
 downloadUrl: "https://www.adampalmer.me/iodigitalsec/tundeep/"
 repoUrl: "https://gitlab.com/kalilinux/packages/tundeep"

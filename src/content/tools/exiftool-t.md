@@ -3,7 +3,7 @@ name: "ExifTool (T)"
 tagline: "Widely used command-line toolkit for reading and writing EXIF, IPTC, XMP, and other metadata formats."
 categories: ["images-videos-docs"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://exiftool.org/"
 commonlyOn: []
 gettingStarted: "Best for: Comprehensive multi-format metadata extraction. See the official site linked above for details."

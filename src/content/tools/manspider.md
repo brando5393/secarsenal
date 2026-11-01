@@ -3,7 +3,7 @@ name: "manspider"
 tagline: "Spider entire networks for juicy files sitting on SMB shares. Search filenames or file content - regex supported!"
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/blacklanternsecurity/MANSPIDER"
 commonlyOn: ["BlackArch"]

@@ -4,7 +4,7 @@ tagline: "Extract metadata and symbols from Go binaries, including stripped ones
 categories: ["go"]
 platforms: ["Linux"]
 license: "MIT License"
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/go"
 downloadUrl: "https://github.com/mandiant/GoReSym"
 commonlyOn: ["REMnux"]

@@ -3,7 +3,7 @@ name: "binex"
 tagline: "Format String exploit building tool."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "http://www.morxploit.com/morxtool"
 commonlyOn: ["BlackArch"]

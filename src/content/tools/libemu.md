@@ -4,7 +4,7 @@ tagline: "A library for x86 code emulation and shellcode detection."
 categories: ["shellcode"]
 platforms: ["Linux"]
 license: "Free, unknown license"
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/dynamically+reverse-engineer+code/shellcode"
 downloadUrl: "https://github.com/buffer/libemu"
 commonlyOn: ["REMnux"]

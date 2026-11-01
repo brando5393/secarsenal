@@ -3,7 +3,7 @@ name: "blindy"
 tagline: "Simple script to automate brutforcing blind sql injection vulnerabilities."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/missDronio/blindy"
 commonlyOn: ["BlackArch"]

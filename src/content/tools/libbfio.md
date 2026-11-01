@@ -3,7 +3,7 @@ name: "libbfio"
 tagline: "Library to provide basic file input/output abstraction"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/libbfio"
 downloadUrl: "https://github.com/libyal/libbfio"
 commonlyOn: ["ArchStrike"]

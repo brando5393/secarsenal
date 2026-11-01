@@ -3,7 +3,7 @@ name: "sbd"
 tagline: "Secure backdoor for Linux and Windows"
 categories: ["non-application-layer-protocol"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/sbd/"
 downloadUrl: "https://mirrors.kernel.org/gentoo/distfiles/sbd-1.37.tar.gz"
 repoUrl: "https://gitlab.com/kalilinux/packages/sbd"

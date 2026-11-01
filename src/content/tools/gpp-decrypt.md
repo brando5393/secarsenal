@@ -3,7 +3,7 @@ name: "gpp-decrypt"
 tagline: "Group Policy Preferences decrypter"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/gpp-decrypt/"
 downloadUrl: "http://carnal0wnage.attackresearch.com/2012/10/group-policy-preferences-and-getting.html"
 repoUrl: "https://gitlab.com/kalilinux/packages/gpp-decrypt"

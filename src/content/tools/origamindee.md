@@ -4,7 +4,7 @@ tagline: "Parse, modify, generate PDF files."
 categories: ["pdf"]
 platforms: ["Linux"]
 license: "GNU Lesser General Public License (LGPL) v3"
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/analyze+documents/pdf"
 downloadUrl: "https://github.com/mindee/origamindee"
 commonlyOn: ["REMnux"]

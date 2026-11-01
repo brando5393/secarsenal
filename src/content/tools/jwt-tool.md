@@ -3,7 +3,7 @@ name: "jwt-tool"
 tagline: "Toolkit for validating, forging and cracking JWTs (JSON Web Tokens)."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/ticarpi/jwt_tool"
 commonlyOn: ["BlackArch"]

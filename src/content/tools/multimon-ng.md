@@ -3,7 +3,7 @@ name: "multimon-ng"
 tagline: "Digital radio transmission decoder"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/multimon-ng/"
 downloadUrl: "https://github.com/EliasOenal/multimon-ng/"
 repoUrl: "https://salsa.debian.org/debian-hamradio-team/multimon-ng"

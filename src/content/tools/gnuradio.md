@@ -3,7 +3,7 @@ name: "gnuradio"
 tagline: "GNU Radio Software Radio Toolkit"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/gnuradio/"
 downloadUrl: "https://www.gnuradio.org/"
 repoUrl: "https://salsa.debian.org/bottoms/pkg-gnuradio"

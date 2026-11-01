@@ -3,7 +3,7 @@ name: "barf"
 tagline: "A multiplatform open source Binary Analysis and Reverse engineering Framework."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "https://github.com/programa-stic/barf-project"
 commonlyOn: ["BlackArch"]

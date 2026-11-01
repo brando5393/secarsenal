@@ -3,7 +3,7 @@ name: "lethalhta"
 tagline: "Lateral Movement technique using DCOM and HTA."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/codewhitesec/LethalHTA"
 commonlyOn: ["BlackArch"]

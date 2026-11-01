@@ -3,7 +3,7 @@ name: "udork"
 tagline: "Bash script that uses advanced Google search techniques to obtain sensitive information in files or directories, find Io"
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/m3n0sd0n4ld/uDork"
 commonlyOn: ["BlackArch"]

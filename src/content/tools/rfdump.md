@@ -3,7 +3,7 @@ name: "rfdump"
 tagline: "Tool to decode RFID tag data"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/rfdump/"
 downloadUrl: "http://www.rfdump.org/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/rfdump"

@@ -3,7 +3,7 @@ name: "peass-ng"
 tagline: "Privilege Escalation Awesome Scripts SUITE"
 categories: ["privilege-escalation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/peass-ng/"
 downloadUrl: "https://github.com/carlospolop/PEASS-ng"
 repoUrl: "https://gitlab.com/kalilinux/packages/peass-ng"

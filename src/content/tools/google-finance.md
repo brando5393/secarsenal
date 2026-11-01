@@ -3,7 +3,7 @@ name: "Google Finance"
 tagline: "Google's financial data platform providing stock quotes, financial statements, news, and company overviews for publicly traded companies."
 categories: ["business-records"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.google.com/finance/"
 commonlyOn: []
 gettingStarted: "Best for: Quick financial overview, stock data, and news for public companies. See the official site linked above for details."

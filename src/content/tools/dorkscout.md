@@ -3,7 +3,7 @@ name: "dorkscout"
 tagline: "Golang tool to automate google dork scan against the entire internet or specific targets."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/R4yGM/dorkscout"
 commonlyOn: ["BlackArch"]

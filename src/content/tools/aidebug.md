@@ -4,7 +4,7 @@ tagline: "AI-assisted malware reverse-engineering debugger with ATT\\&CK, YARA, 
 categories: ["general"]
 platforms: ["Linux"]
 license: "MIT"
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/statically+analyze+code/general"
 downloadUrl: "https://github.com/anpa1200/AIDebug"
 commonlyOn: ["REMnux"]

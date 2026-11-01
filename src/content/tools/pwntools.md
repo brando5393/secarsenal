@@ -3,7 +3,7 @@ name: "pwntools"
 tagline: "The CTF framework used by #Gallopsled in every CTF"
 categories: ["exploit"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/pwntools"
 downloadUrl: "https://github.com/Gallopsled/pwntools"
 commonlyOn: ["ArchStrike"]

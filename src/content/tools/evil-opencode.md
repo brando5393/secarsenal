@@ -3,7 +3,7 @@ name: "evil-opencode"
 tagline: "OpenCode coding-agent fork with LLM prompt guardrails removed and outbound telemetry disabled."
 categories: ["ai"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/ai.html"
 downloadUrl: "https://github.com/winmin/evil-opencode"
 commonlyOn: ["BlackArch"]

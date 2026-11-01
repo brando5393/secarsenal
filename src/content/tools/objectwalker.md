@@ -3,7 +3,7 @@ name: "objectwalker"
 tagline: "A python module to explore the object tree to extract paths to interesting objects in memory."
 categories: ["ad","osint","web"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/p0dalirius/objectwalker"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

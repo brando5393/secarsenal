@@ -3,7 +3,7 @@ name: "perl-crypt-dsa"
 tagline: "DSA Signatures and Key Generation"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/perl-crypt-dsa"
 commonlyOn: ["ArchStrike"]
 gettingStarted: "Install by adding the ArchStrike repository to an existing Arch Linux install, then `pacman -S perl-crypt-dsa`. See the official ArchStrike package listing linked above for details."

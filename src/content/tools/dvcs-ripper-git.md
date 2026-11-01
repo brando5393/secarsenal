@@ -3,7 +3,7 @@ name: "dvcs-ripper-git"
 tagline: "Rip web accessible (distributed) version control systems: SVN/GIT/..."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/dvcs-ripper-git"
 downloadUrl: "https://github.com/kost/dvcs-ripper"
 commonlyOn: ["ArchStrike"]

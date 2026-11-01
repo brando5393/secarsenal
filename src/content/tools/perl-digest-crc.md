@@ -3,7 +3,7 @@ name: "perl-digest-crc"
 tagline: "Generic interface to CRC algorithms"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/perl-digest-crc"
 downloadUrl: "https://metacpan.org/pod/Digest::CRC"
 commonlyOn: ["ArchStrike"]

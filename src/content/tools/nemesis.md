@@ -3,7 +3,7 @@ name: "nemesis"
 tagline: "A command-line network packet crafting and injection utility."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/troglobit/nemesis"
 commonlyOn: ["BlackArch"]

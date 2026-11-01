@@ -3,7 +3,7 @@ name: "gopherus"
 tagline: "Tool generates gopher link for exploiting SSRF and gaining RCE in various servers."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/tarunkant/Gopherus"
 commonlyOn: ["BlackArch"]

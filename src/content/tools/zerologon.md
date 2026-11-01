@@ -3,7 +3,7 @@ name: "zerologon"
 tagline: "Exploit for the Zerologon vulnerability (CVE-2020-1472)."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/SecuraBV/CVE-2020-1472"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

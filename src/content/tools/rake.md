@@ -3,7 +3,7 @@ name: "rake"
 tagline: "Ruby make-like utility"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/rake/"
 downloadUrl: "https://github.com/ruby/rake"
 repoUrl: "https://salsa.debian.org/ruby-team/rake"

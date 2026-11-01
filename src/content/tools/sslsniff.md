@@ -3,7 +3,7 @@ name: "sslsniff"
 tagline: "SSL/TLS man-in-the-middle attack tool"
 categories: ["collection"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/sslsniff/"
 downloadUrl: "https://github.com/moxie0/sslsniff"
 repoUrl: "https://salsa.debian.org/pkg-security-team/sslsniff"

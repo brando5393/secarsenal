@@ -4,7 +4,7 @@ tagline: "Read the official x64dbg documentation offline, including the command 
 categories: ["general"]
 platforms: ["Linux"]
 license: "MIT License"
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/dynamically+reverse-engineer+code/general"
 downloadUrl: "https://github.com/x64dbg/docs"
 commonlyOn: ["REMnux"]

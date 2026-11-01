@@ -3,7 +3,7 @@ name: "Website Informer"
 tagline: "Free domain and website information aggregator providing visitor statistics, safety status, Alexa rankings, ownership data, and technical details…"
 categories: ["domain-name"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://website.informer.com/"
 commonlyOn: []
 gettingStarted: "Best for: Website profiling, ownership verification, traffic estimation, technical stack discovery. See the official site linked above for details."

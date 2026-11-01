@@ -3,7 +3,7 @@ name: "tuxcut"
 tagline: "Netcut-like program for Linux written in PyQt"
 categories: ["sniffers"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/tuxcut"
 downloadUrl: "https://github.com/a-atalla/tuxcut/"
 commonlyOn: ["ArchStrike"]

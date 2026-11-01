@@ -3,7 +3,7 @@ name: "Grey Noise"
 tagline: "Platform for analyzing internet background noise and identifying benign scanning activity."
 categories: ["ip-mac-address"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://viz.greynoise.io/"
 commonlyOn: []
 gettingStarted: "Best for: Distinguish malicious from benign internet activity. See the official site linked above for details."

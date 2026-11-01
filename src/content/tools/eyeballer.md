@@ -3,7 +3,7 @@ name: "eyeballer"
 tagline: "Convolutional neural network for analyzing pentest screenshots."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/BishopFox/eyeballer"
 commonlyOn: ["BlackArch"]

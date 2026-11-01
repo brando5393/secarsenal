@@ -3,7 +3,7 @@ name: "dhcpf"
 tagline: "Passive DHCP fingerprinting implementation."
 categories: ["fingerprint"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/fingerprint.html"
 downloadUrl: "https://github.com/elceef/dhcpf"
 commonlyOn: ["BlackArch"]

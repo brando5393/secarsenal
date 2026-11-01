@@ -3,7 +3,7 @@ name: "XMRChain.net (Monero)"
 tagline: "Minimal Monero blockchain explorer with no JavaScript, cookies, or tracking; available via Tor with focus on privacy and open-source design."
 categories: ["blockchain-cryptocurrency"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://xmrchain.net/"
 commonlyOn: []
 gettingStarted: "Best for: Monero transaction lookup with privacy-first design (Tor-accessible). See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "cisco-auditing-tool"
 tagline: "Scans Cisco routers for vulnerabilities"
 categories: ["vulnerability-scanning","brute-force"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/cisco-auditing-tool/"
 downloadUrl: "http://www.scrypt.net/"
 repoUrl: "https://gitlab.com/kalilinux/packages/cisco-auditing-tool"

@@ -3,7 +3,7 @@ name: "h2buster"
 tagline: "A threaded, recursive, web directory brute-force scanner over HTTP/2."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/00xc/h2buster"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "notepadpp.plugin.jstool"
 tagline: "JSTool is a Notepad++ plugin to format JavaScript and JSON."
 categories: ["productivity-tools"]
 platforms: ["Windows"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/mandiant/VM-Packages/tree/main/packages/notepadpp.plugin.jstool.vm"
 downloadUrl: "https://github.com/sunjw/jstoolnpp"
 commonlyOn: ["FLARE VM"]

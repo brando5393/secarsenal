@@ -3,7 +3,7 @@ name: "wapiti"
 tagline: "Web application vulnerability scanner"
 categories: ["web-vulnerability-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/wapiti/"
 downloadUrl: "https://wapiti.sourceforge.net/"
 repoUrl: "https://salsa.debian.org/pkg-security-team/wapiti"

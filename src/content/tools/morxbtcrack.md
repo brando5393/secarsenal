@@ -3,7 +3,7 @@ name: "morxbtcrack"
 tagline: "Single Bitcoin private key cracking tool released."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://www.morxploit.com/tools/"
 commonlyOn: ["BlackArch"]

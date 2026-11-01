@@ -3,7 +3,7 @@ name: "peframe"
 tagline: "Tool to perform static analysis on (portable executable) malware."
 categories: ["malware"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/malware.html"
 downloadUrl: "https://github.com/guelfoweb/peframe"
 commonlyOn: ["BlackArch"]

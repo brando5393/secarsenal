@@ -3,7 +3,7 @@ name: "perl-data-buffer"
 tagline: "Read/write buffer class"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/perl-data-buffer"
 downloadUrl: "https://metacpan.org/pod/Data::Buffer"
 commonlyOn: ["ArchStrike"]

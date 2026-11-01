@@ -3,7 +3,7 @@ name: "hack_library"
 tagline: "A library needed by rtpmixsound and rtpinsertsound"
 categories: ["voip"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/hack_library"
 downloadUrl: "http://www.hackingvoip.com/sec_tools.html"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "ClearWebStats.com"
 tagline: "Public site-statistics index showing traffic and rank snapshots for domains."
 categories: ["domain-name"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.clearwebstats.com/"
 commonlyOn: []
 gettingStarted: "Best for: Lightweight web popularity lookups. See the official site linked above for details."

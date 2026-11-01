@@ -3,7 +3,7 @@ name: "wsuspect-proxy"
 tagline: "A tool for MITM'ing insecure WSUS connections."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/ctxis/wsuspect-proxy"
 commonlyOn: ["BlackArch"]

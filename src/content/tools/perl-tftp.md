@@ -3,7 +3,7 @@ name: "perl-tftp"
 tagline: "TFTP - TFTP Client class for perl"
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/perl-tftp"
 downloadUrl: "https://metacpan.org/pod/TFTP"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "social-vuln-scanner"
 tagline: "Gathers public information on companies to highlight social engineering risk."
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://github.com/Betawolf/social-vuln-scanner"
 commonlyOn: ["BlackArch"]

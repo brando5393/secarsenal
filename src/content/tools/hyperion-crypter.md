@@ -3,7 +3,7 @@ name: "hyperion-crypter"
 tagline: "A runtime encrypter for 32-bit and 64-bit portable executables."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://nullsecurity.net/tools/binary.html"
 commonlyOn: ["BlackArch"]

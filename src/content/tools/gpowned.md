@@ -3,7 +3,7 @@ name: "gpowned"
 tagline: "GPOs manipulation tool."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/X-C3LL/gpowned"
 commonlyOn: ["BlackArch"]

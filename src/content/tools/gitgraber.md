@@ -3,7 +3,7 @@ name: "gitgraber"
 tagline: "Monitor GitHub to search and find sensitive data in real time for different online services."
 categories: ["recon"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/recon.html"
 downloadUrl: "https://github.com/hisxo/gitGraber"
 commonlyOn: ["BlackArch"]

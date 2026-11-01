@@ -3,7 +3,7 @@ name: "python-rq"
 tagline: "Simple job queues for Python"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/python-rq"
 downloadUrl: "https://github.com/rq/rq"
 commonlyOn: ["ArchStrike"]

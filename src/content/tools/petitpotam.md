@@ -3,7 +3,7 @@ name: "petitpotam"
 tagline: "Coerce Windows hosts to authenticate via the MS-EFSRPC protocol"
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/topotam/PetitPotam"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

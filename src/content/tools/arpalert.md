@@ -3,7 +3,7 @@ name: "arpalert"
 tagline: "Monitor ARP changes in ethernet networks."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "http://www.arpalert.org/"
 commonlyOn: ["BlackArch"]

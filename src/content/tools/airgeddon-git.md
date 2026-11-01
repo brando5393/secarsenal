@@ -3,7 +3,7 @@ name: "airgeddon-git"
 tagline: "Multi-use bash script for Linux systems to audit wireless networks."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/airgeddon-git"
 downloadUrl: "https://github.com/v1s1t0r1sh3r3/airgeddon"
 commonlyOn: ["ArchStrike"]

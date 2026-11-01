@@ -3,7 +3,7 @@ name: "box-js"
 tagline: "A tool for studying JavaScript malware."
 categories: ["malware"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/malware.html"
 downloadUrl: "https://github.com/CapacitorSet/box-js"
 commonlyOn: ["BlackArch"]

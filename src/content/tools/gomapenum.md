@@ -3,7 +3,7 @@ name: "gomapenum"
 tagline: "User enumeration and password bruteforce on Azure, ADFS, OWA, O365, Teams and gather emails on Linkedin."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "https://github.com/nodauf/GoMapEnum"
 commonlyOn: ["BlackArch"]

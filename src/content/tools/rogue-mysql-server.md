@@ -3,7 +3,7 @@ name: "rogue-mysql-server"
 tagline: "A rogue MySQL server written in Python."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/Gifts/Rogue-MySql-Server"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "KeePwn"
 tagline: "Find KeePass installations and extract secrets from them."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/Orange-Cyberdefense/KeePwn"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

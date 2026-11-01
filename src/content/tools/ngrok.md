@@ -3,7 +3,7 @@ name: "ngrok"
 tagline: "A tunneling, reverse proxy for developing and understanding networked, HTTP services."
 categories: ["tunnel"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/tunnel.html"
 downloadUrl: "https://ngrok.com/"
 commonlyOn: ["BlackArch"]

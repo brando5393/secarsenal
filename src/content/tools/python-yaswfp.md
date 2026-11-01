@@ -3,7 +3,7 @@ name: "python-yaswfp"
 tagline: "Yet Another SWF Parser"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/python-yaswfp"
 downloadUrl: "https://github.com/facundobatista/yaswfp"
 commonlyOn: ["ArchStrike"]

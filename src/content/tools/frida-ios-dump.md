@@ -3,7 +3,7 @@ name: "frida-ios-dump"
 tagline: "Pull decrypted ipa from jailbreak device."
 categories: ["mobile"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/mobile.html"
 downloadUrl: "https://github.com/AloneMonkey/frida-ios-dump"
 commonlyOn: ["BlackArch"]

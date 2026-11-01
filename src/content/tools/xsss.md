@@ -3,7 +3,7 @@ name: "xsss"
 tagline: "A brute force cross site scripting scanner."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "http://www.sven.de/xsss/"
 commonlyOn: ["BlackArch"]

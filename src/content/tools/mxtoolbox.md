@@ -3,7 +3,7 @@ name: "MxToolbox"
 tagline: "Email deliverability diagnostics tool that checks MX records, SPF, DKIM, DMARC configuration, and server health to prevent email delivery issues."
 categories: ["email-address"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://mxtoolbox.com/"
 commonlyOn: []
 gettingStarted: "Best for: Email server diagnostics, deliverability testing, DNS validation. See the official site linked above for details."

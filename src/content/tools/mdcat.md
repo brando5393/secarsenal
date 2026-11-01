@@ -3,7 +3,7 @@ name: "mdcat"
 tagline: "Fancy cat for Markdown"
 categories: ["ad","light","osint","web"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/swsnr/mdcat"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

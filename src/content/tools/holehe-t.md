@@ -3,7 +3,7 @@ name: "Holehe (T)"
 tagline: "Python-based email enumeration tool that checks if an email is registered across 120+ websites and services using password-reset mechanisms."
 categories: ["email-address"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/megadose/holehe"
 commonlyOn: []
 gettingStarted: "Best for: Email account enumeration, service detection. See the official site linked above for details."

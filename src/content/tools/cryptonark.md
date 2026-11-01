@@ -3,7 +3,7 @@ name: "cryptonark"
 tagline: "SSL security checker."
 categories: ["crypto"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/crypto.html"
 downloadUrl: "http://blog.techstacks.com/cryptonark.html"
 commonlyOn: ["BlackArch"]

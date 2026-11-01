@@ -3,7 +3,7 @@ name: "llvm-defaults"
 tagline: "C, C++ and Objective-C compiler (LLVM based), clang binary"
 categories: ["resource-development"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/llvm-defaults/"
 repoUrl: "https://salsa.debian.org/pkg-llvm-team/llvm-defaults/"
 commonlyOn: ["Kali Linux"]

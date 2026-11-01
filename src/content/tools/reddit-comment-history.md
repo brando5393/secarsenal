@@ -3,7 +3,7 @@ name: "Reddit Comment History"
 tagline: "Visualization utility for reviewing Reddit account comment history and timing patterns."
 categories: ["social-networks"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://roadtolarissa.com/javascript/reddit-comment-visualizer/"
 commonlyOn: []
 gettingStarted: "Best for: Comment activity timeline analysis. See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "shellsploit-framework"
 tagline: "New Generation Exploit Development Kit."
 categories: ["exploitation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/exploitation.html"
 downloadUrl: "https://github.com/b3mb4m/shellsploit-framework"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "7Photos.net"
 tagline: "Unclear image-related web service with an active domain but limited publicly verifiable functionality."
 categories: ["images-videos-docs"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://7photos.net/"
 commonlyOn: []
 gettingStarted: "Best for: Unknown; requires additional validation before operational use. See the official site linked above for details."

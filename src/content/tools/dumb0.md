@@ -3,7 +3,7 @@ name: "dumb0"
 tagline: "A simple tool to dump users in popular forums and CMS."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/0verl0ad/Dumb0"
 commonlyOn: ["BlackArch"]

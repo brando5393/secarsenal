@@ -3,7 +3,7 @@ name: "patator"
 tagline: "Multi-purpose brute-forcer"
 categories: ["brute-force"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/patator/"
 downloadUrl: "https://github.com/lanjelot/patator"
 repoUrl: "https://salsa.debian.org/pkg-security-team/patator"

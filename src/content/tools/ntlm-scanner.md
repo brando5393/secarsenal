@@ -3,7 +3,7 @@ name: "ntlm-scanner"
 tagline: "A simple python tool based on Impacket that tests servers for various known NTLM vulnerabilities."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/preempt/ntlm-scanner"
 commonlyOn: ["BlackArch"]

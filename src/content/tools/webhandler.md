@@ -3,7 +3,7 @@ name: "webhandler"
 tagline: "A handler for PHP system functions & also an alternative 'netcat' handler."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/lnxg33k/webhandler"
 commonlyOn: ["BlackArch"]

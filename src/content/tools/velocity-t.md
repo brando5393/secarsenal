@@ -3,7 +3,7 @@ name: "Velocity (T)"
 tagline: "Self-hosted, open-source (AGPL) flight and ship tracker that fuses public ADS-B and AIS feeds without API keys and records every position it sees, so…"
 categories: ["transportation"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/AndrewCTF/velocity"
 commonlyOn: []
 gettingStarted: "Best for: Keeping your own searchable history of aircraft and vessel movements for an area. See the official site linked above for details."

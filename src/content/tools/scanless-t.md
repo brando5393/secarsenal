@@ -3,7 +3,7 @@ name: "Scanless (T)"
 tagline: "Command-line tool for port scanning without leaving traces on target using third-party services."
 categories: ["ip-mac-address"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/vesche/scanless"
 commonlyOn: []
 gettingStarted: "Best for: Stealthy port scanning via proxies. See the official site linked above for details."

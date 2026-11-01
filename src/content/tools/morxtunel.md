@@ -3,7 +3,7 @@ name: "morxtunel"
 tagline: "Network Tunneling using TUN/TAP interfaces over TCP tool."
 categories: ["tunnel"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/tunnel.html"
 downloadUrl: "http://www.morxploit.com/tools/"
 commonlyOn: ["BlackArch"]

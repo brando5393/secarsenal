@@ -3,7 +3,7 @@ name: "skipfish"
 tagline: "Fully automated, active web application security reconnaissance tool"
 categories: ["web-vulnerability-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/skipfish/"
 repoUrl: "https://gitlab.com/kalilinux/packages/skipfish"
 commonlyOn: ["Kali Linux"]

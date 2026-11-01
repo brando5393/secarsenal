@@ -3,7 +3,7 @@ name: "Blockchair"
 tagline: "Multi-chain blockchain explorer supporting 48+ blockchains (Bitcoin, Ethereum, Litecoin, Solana, etc.) with advanced search, SQL-like queries, and…"
 categories: ["blockchain-cryptocurrency"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blockchair.com/"
 commonlyOn: []
 gettingStarted: "Best for: Cross-chain address and transaction search with privacy-friendly interface. See the official site linked above for details."

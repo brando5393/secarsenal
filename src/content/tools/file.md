@@ -4,7 +4,7 @@ tagline: "Identify file type using \"magic\" numbers."
 categories: ["general"]
 platforms: ["Linux"]
 license: "BSD 2-Clause Simplified License"
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/general"
 downloadUrl: "https://github.com/file/file"
 commonlyOn: ["REMnux"]

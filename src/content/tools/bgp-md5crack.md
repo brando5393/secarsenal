@@ -3,7 +3,7 @@ name: "bgp-md5crack"
 tagline: "RFC2385 password cracker"
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://www.c0decafe.de/"
 commonlyOn: ["BlackArch"]

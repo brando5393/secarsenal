@@ -3,7 +3,7 @@ name: "sulley"
 tagline: "A pure-python fully automated and unattended fuzzing framework."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "https://github.com/OpenRCE/sulley/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "giskard"
 tagline: "Evaluation, testing and vulnerability scanning framework for AI agents."
 categories: ["ai"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/ai.html"
 downloadUrl: "https://github.com/Giskard-AI/giskard-oss"
 commonlyOn: ["BlackArch"]

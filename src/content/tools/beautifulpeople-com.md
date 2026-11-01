@@ -3,7 +3,7 @@ name: "BeautifulPeople.com"
 tagline: "Dating community with verification-oriented onboarding and profile access tied to membership standards."
 categories: ["dating"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.beautifulpeople.com/en-US"
 commonlyOn: []
 gettingStarted: "Best for: Identity-verified social discovery and premium dating communities. See the official site linked above for details."

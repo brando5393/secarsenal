@@ -3,7 +3,7 @@ name: "replayproxy"
 tagline: "Forensic tool to replay web-based attacks (and also general HTTP traffic) that were captured in a pcap file."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://code.google.com/archive/p/replayproxy/"
 commonlyOn: ["BlackArch"]

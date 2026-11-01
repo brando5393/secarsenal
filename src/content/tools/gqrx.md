@@ -3,7 +3,7 @@ name: "gqrx"
 tagline: "Software defined radio receiver powered by GNU Radio and Qt"
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/csete/gqrx"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

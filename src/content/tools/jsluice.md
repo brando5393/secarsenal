@@ -3,7 +3,7 @@ name: "jsluice"
 tagline: "Extract URLs / paths / secrets and other interesting data from JavaScript source code."
 categories: ["ad","web"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/BishopFox/jsluice"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

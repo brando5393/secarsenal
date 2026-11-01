@@ -3,7 +3,7 @@ name: "meanalyzer"
 tagline: "Intel Engine Firmware Analysis Tool."
 categories: ["firmware"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/firmware.html"
 downloadUrl: "https://github.com/platomav/MEAnalyzer"
 commonlyOn: ["BlackArch"]

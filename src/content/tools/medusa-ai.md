@@ -3,7 +3,7 @@ name: "medusa-ai"
 tagline: "AI-first security scanner for code, AI/ML, LLM agents, MCP and RAG applications."
 categories: ["ai"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/ai.html"
 downloadUrl: "https://github.com/Pantheon-Security/medusa"
 commonlyOn: ["BlackArch"]

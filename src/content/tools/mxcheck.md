@@ -3,7 +3,7 @@ name: "mxcheck"
 tagline: "Info and security scanner for e-mail servers"
 categories: ["smtp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/mxcheck/"
 downloadUrl: "https://github.com/steffenfritz/mxcheck"
 repoUrl: "https://gitlab.com/kalilinux/packages/mxcheck"

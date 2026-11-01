@@ -3,7 +3,7 @@ name: "perl-net-frame-device"
 tagline: "Get network device information and gateway."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/perl-net-frame-device"
 downloadUrl: "https://metacpan.org/pod/Net::Frame::Device"
 commonlyOn: ["ArchStrike"]

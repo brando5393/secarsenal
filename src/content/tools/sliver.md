@@ -3,7 +3,7 @@ name: "sliver"
 tagline: "Implant framework"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/sliver/"
 downloadUrl: "https://github.com/BishopFox/sliver"
 repoUrl: "https://gitlab.com/kalilinux/packages/sliver"

@@ -3,7 +3,7 @@ name: "ssh-honeypot"
 tagline: "Fake sshd that logs ip addresses, usernames, and passwords."
 categories: ["honeypot"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/honeypot.html"
 downloadUrl: "https://github.com/droberson/ssh-honeypot"
 commonlyOn: ["BlackArch"]

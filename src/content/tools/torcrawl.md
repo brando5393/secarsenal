@@ -3,7 +3,7 @@ name: "torcrawl"
 tagline: "Crawl and extract (regular or onion) webpages through TOR network."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/MikeMeliz/TorCrawl.py"
 commonlyOn: ["BlackArch"]

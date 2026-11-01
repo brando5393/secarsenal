@@ -3,7 +3,7 @@ name: "mfsniffer"
 tagline: "A python script for capturing unencrypted TSO login credentials."
 categories: ["sniffer"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/sniffer.html"
 downloadUrl: "http://packetstormsecurity.com/files/120802/MF-Sniffer-TN3270-Password-Grabber.html"
 commonlyOn: ["BlackArch"]

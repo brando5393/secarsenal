@@ -3,7 +3,7 @@ name: "de4dot"
 tagline: ".NET deobfuscator and unpacker."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/de4dot/de4dot"
 commonlyOn: ["BlackArch"]

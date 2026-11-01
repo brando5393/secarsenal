@@ -3,7 +3,7 @@ name: "morxbrute"
 tagline: "A customizable HTTP dictionary-based password cracking tool written in Perl."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://www.morxploit.com/morxbrute/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "scamper"
 tagline: "A tool that actively probes the Internet in order to analyze topology and performance."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://www.caida.org/tools/measurement/scamper/"
 commonlyOn: ["BlackArch"]

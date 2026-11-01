@@ -3,7 +3,7 @@ name: "Followerwonk (R)"
 tagline: "Follower analytics platform (now under Fedica) for examining X/Twitter audience demographics, account overlaps, and engagement trends."
 categories: ["social-networks"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://followerwonk.com/"
 commonlyOn: []
 gettingStarted: "Best for: Audience demographic analysis and account overlap discovery. See the official site linked above for details."

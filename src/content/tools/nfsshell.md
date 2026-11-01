@@ -3,7 +3,7 @@ name: "nfsshell"
 tagline: "Userland NFS command tool."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "http://www.paramecium.org/~leendert/"
 commonlyOn: ["BlackArch"]

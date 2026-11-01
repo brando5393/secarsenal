@@ -3,7 +3,7 @@ name: "ctf-party"
 tagline: "A CLI tool & library to enhance and speed up script/exploit writing for CTF players."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://noraj.github.io/ctf-party/"
 commonlyOn: ["BlackArch"]

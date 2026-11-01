@@ -3,7 +3,7 @@ name: "infip"
 tagline: "A python script that checks output from netstat against RBLs from Spamhaus."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "http://packetstormsecurity.com/files/104927/infIP.1-Blacklist-Checker.html"
 commonlyOn: ["BlackArch"]

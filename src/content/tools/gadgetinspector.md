@@ -3,7 +3,7 @@ name: "gadgetinspector"
 tagline: "A byte code analyzer for finding deserialization gadget chains in Java applications."
 categories: ["decompiler"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/decompiler.html"
 downloadUrl: "https://github.com/JackOfMostTrades/gadgetinspector"
 commonlyOn: ["BlackArch"]

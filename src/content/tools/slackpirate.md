@@ -3,7 +3,7 @@ name: "slackpirate"
 tagline: "Slack Enumeration and Extraction Tool - extract sensitive information from a Slack Workspace."
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://github.com/emtunc/SlackPirate"
 commonlyOn: ["BlackArch"]

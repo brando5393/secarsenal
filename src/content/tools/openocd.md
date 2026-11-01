@@ -3,7 +3,7 @@ name: "openocd"
 tagline: "Open on-chip JTAG/SWD debug solution for embedded target devices"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/openocd/"
 downloadUrl: "http://openocd.sourceforge.net/"
 repoUrl: "https://salsa.debian.org/electronics-team/openocd"

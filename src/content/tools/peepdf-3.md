@@ -4,7 +4,7 @@ tagline: "Examine elements of the PDF file."
 categories: ["pdf"]
 platforms: ["Linux"]
 license: "GNU General Public License (GPL) v3"
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/analyze+documents/pdf"
 downloadUrl: "https://github.com/digitalsleuth/peepdf-3"
 commonlyOn: ["REMnux"]

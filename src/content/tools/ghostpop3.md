@@ -3,7 +3,7 @@ name: "ghostpop3"
 tagline: "A program that simulates an 'always no messages' POP3 server"
 categories: ["honeypots"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/ghostpop3"
 downloadUrl: "http://kernel.embedromix.ro/us/"
 commonlyOn: ["ArchStrike"]

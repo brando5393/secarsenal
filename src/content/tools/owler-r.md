@@ -3,7 +3,7 @@ name: "Owler (R)"
 tagline: "Competitive intelligence platform providing company profiles, revenue estimates, employee counts, news alerts, and competitor tracking. Requires…"
 categories: ["business-records"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.owler.com/corp"
 commonlyOn: []
 gettingStarted: "Best for: Competitive intelligence and company profile research. See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "libc-database"
 tagline: "Database of libc offsets to simplify exploitation."
 categories: ["reversing"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/reversing.html"
 downloadUrl: "https://github.com/niklasb/libc-database"
 commonlyOn: ["BlackArch"]

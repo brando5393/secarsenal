@@ -3,7 +3,7 @@ name: "python-bandicoot"
 tagline: "A toolbox to analyze mobile phone metadata."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/python-bandicoot"
 downloadUrl: "https://github.com/yvesalexandre/bandicoot"
 commonlyOn: ["ArchStrike"]

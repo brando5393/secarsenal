@@ -3,7 +3,7 @@ name: "Siteliner"
 tagline: "Website crawler that highlights duplicate content, broken links, and SEO quality issues."
 categories: ["domain-name"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.siteliner.com/"
 commonlyOn: []
 gettingStarted: "Best for: Duplicate-content and link-health audits. See the official site linked above for details."

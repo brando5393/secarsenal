@@ -3,7 +3,7 @@ name: "python-puttykeys"
 tagline: "A module to convert SSH keys from the Putty format to the OpenSSH format"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/python-puttykeys"
 downloadUrl: "https://pypi.org/project/${_pkgname}"
 commonlyOn: ["ArchStrike"]

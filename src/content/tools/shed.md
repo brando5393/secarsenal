@@ -3,7 +3,7 @@ name: "shed"
 tagline: "Simple hex editor with a pico-style interface"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/shed/"
 downloadUrl: "http://shed.sf.net"
 repoUrl: "https://salsa.debian.org/pkg-security-team/shed"

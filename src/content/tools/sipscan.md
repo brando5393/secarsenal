@@ -3,7 +3,7 @@ name: "sipscan"
 tagline: "A sip scanner."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "http://www.hackingvoip.com/sec_tools.html"
 commonlyOn: ["BlackArch"]

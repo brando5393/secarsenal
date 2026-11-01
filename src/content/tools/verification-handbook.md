@@ -3,7 +3,7 @@ name: "Verification Handbook"
 tagline: "Reference handbook for journalists covering verification methodologies for digital investigations."
 categories: ["disinformation-media-verification"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://verificationhandbook.com/"
 commonlyOn: []
 gettingStarted: "Best for: Learning repeatable verification workflows for UGC and breaking news. See the official site linked above for details."

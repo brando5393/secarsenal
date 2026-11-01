@@ -3,7 +3,7 @@ name: "set"
 tagline: "Social-Engineer Toolkit"
 categories: ["initial-access"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/set/"
 downloadUrl: "https://www.trustedsec.com/downloads/social-engineer-toolkit/"
 repoUrl: "https://gitlab.com/kalilinux/packages/set"

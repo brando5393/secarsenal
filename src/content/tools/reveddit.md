@@ -3,7 +3,7 @@ name: "Reveddit"
 tagline: "Interface for viewing Reddit content removals using archived and moderation-related visibility signals."
 categories: ["online-communities"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.reveddit.com/"
 commonlyOn: []
 gettingStarted: "Best for: Investigating deleted or removed Reddit discussions. See the official site linked above for details."

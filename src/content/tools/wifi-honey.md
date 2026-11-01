@@ -3,7 +3,7 @@ name: "wifi-honey"
 tagline: "Wi-Fi honeypot"
 categories: ["wifi-credential-access"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/wifi-honey/"
 downloadUrl: "https://www.digininja.org/projects/wifi_honey.php"
 repoUrl: "https://gitlab.com/kalilinux/packages/wifi-honey"

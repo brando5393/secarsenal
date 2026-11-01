@@ -3,7 +3,7 @@ name: "csdr"
 tagline: "A simple DSP library and command-line tool for Software Defined Radio."
 categories: ["radio"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/radio.html"
 downloadUrl: "https://github.com/jketterl/csdr"
 commonlyOn: ["BlackArch"]

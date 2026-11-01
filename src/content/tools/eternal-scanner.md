@@ -3,7 +3,7 @@ name: "eternal-scanner"
 tagline: "An internet scanner for exploit CVE-0144 (Eternal Blue)."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/peterpt/eternal_scanner"
 commonlyOn: ["BlackArch"]

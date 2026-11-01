@@ -3,7 +3,7 @@ name: "vinetto"
 tagline: "Forensics tool to examine Thumbs.db files"
 categories: ["digital-forensics"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/vinetto/"
 downloadUrl: "https://github.com/AtesComp/Vinetto"
 repoUrl: "https://salsa.debian.org/pkg-security-team/vinetto"

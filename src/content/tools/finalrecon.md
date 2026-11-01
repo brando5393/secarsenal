@@ -3,7 +3,7 @@ name: "finalrecon"
 tagline: "Fast and simple Python script for web reconnaissance"
 categories: ["web-scanning"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/finalrecon/"
 downloadUrl: "https://github.com/thewhiteh4t/FinalRecon"
 repoUrl: "https://gitlab.com/kalilinux/packages/finalrecon"

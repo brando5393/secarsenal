@@ -3,7 +3,7 @@ name: "Arkham Intelligence"
 tagline: "AI-powered blockchain intelligence platform mapping 300+ million address labels and 150K+ entity pages using proprietary Ultra system for entity…"
 categories: ["blockchain-cryptocurrency"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://intel.arkm.com/"
 commonlyOn: []
 gettingStarted: "Best for: Institutional-grade cryptocurrency entity mapping and fund-flow analysis. See the official site linked above for details."

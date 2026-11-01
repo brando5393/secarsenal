@@ -4,7 +4,7 @@ tagline: "Identify file type using signatures."
 categories: ["general"]
 platforms: ["Linux"]
 license: "Apache License 2.0"
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/general"
 downloadUrl: "https://google.github.io/magika"
 commonlyOn: ["REMnux"]

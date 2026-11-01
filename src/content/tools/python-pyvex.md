@@ -3,7 +3,7 @@ name: "python-pyvex"
 tagline: "A Python interface to libVEX and VEX IR."
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/python-pyvex"
 downloadUrl: "https://pypi.org/project/pyvex/"
 commonlyOn: ["ArchStrike"]

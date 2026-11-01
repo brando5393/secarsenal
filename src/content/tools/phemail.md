@@ -3,7 +3,7 @@ name: "phemail"
 tagline: "A python open source phishing email tool that automates the process of sending phishing emails as part of a social engin"
 categories: ["social"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/social.html"
 downloadUrl: "https://github.com/Dionach/PhEmail"
 commonlyOn: ["BlackArch"]

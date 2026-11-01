@@ -3,7 +3,7 @@ name: "snmpenum"
 tagline: "SNMP tabledump"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/snmpenum/"
 downloadUrl: "https://packetstormsecurity.com/files/download/31079/snmpenum.zip"
 repoUrl: "https://gitlab.com/kalilinux/packages/snmpenum"

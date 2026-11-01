@@ -3,7 +3,7 @@ name: "wordlistraider"
 tagline: "Tool to prepare existing wordlists"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/wordlistraider/"
 downloadUrl: "https://github.com/GregorBiswanger/WordlistRaider"
 repoUrl: "https://gitlab.com/kalilinux/packages/wordlistraider"

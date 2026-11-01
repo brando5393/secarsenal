@@ -3,7 +3,7 @@ name: "ratproxy"
 tagline: "A passive web application security assessment tool"
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "http://code.google.com/p/ratproxy/"
 commonlyOn: ["BlackArch"]

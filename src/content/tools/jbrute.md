@@ -3,7 +3,7 @@ name: "jbrute"
 tagline: "Open Source Security tool to audit hashed passwords."
 categories: ["cracker"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/cracker.html"
 downloadUrl: "http://sourceforge.net/projects/jbrute/"
 commonlyOn: ["BlackArch"]

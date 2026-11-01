@@ -3,7 +3,7 @@ name: "Batch Geocoding"
 tagline: "Bulk geocoding workflow that converts large address lists into latitude/longitude pairs."
 categories: ["geolocation-tools-maps"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.doogal.co.uk/BatchGeocoding"
 commonlyOn: []
 gettingStarted: "Best for: Converting large address datasets to coordinates. See the official site linked above for details."

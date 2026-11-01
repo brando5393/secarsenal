@@ -3,7 +3,7 @@ name: "peda"
 tagline: "Python Exploit Development Assistance for GDB."
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/longld/peda"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

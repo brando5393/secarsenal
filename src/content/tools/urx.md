@@ -3,7 +3,7 @@ name: "urx"
 tagline: "Extracts URLs from OSINT Archives for Security Insights."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/hahwul/urx"
 commonlyOn: ["BlackArch"]

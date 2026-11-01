@@ -3,7 +3,7 @@ name: "Hivemapper"
 tagline: "Decentralized, crowdsourced street imagery map network with expanding coverage."
 categories: ["geolocation-tools-maps"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://hivemapper.com/"
 commonlyOn: []
 gettingStarted: "Best for: Street-level imagery in areas with limited mainstream coverage. See the official site linked above for details."

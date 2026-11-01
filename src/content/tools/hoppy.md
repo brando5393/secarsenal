@@ -3,7 +3,7 @@ name: "hoppy"
 tagline: "A python script which tests http methods for configuration issues leaking information or just to see if they are enabled"
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://labs.portcullis.co.uk/downloads/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "wcvs"
 tagline: "Web Cache Vulnerability Scanner is a Go-based CLI tool for testing for web cache poisoning."
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/Hackmanit/Web-Cache-Vulnerability-Scanner"
 commonlyOn: ["BlackArch"]

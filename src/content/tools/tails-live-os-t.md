@@ -3,7 +3,7 @@ name: "Tails Live OS (T)"
 tagline: "Portable Debian-based operating system designed for anonymous communication and privacy protection, running entirely from USB with no traces left…"
 categories: ["tools"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://tails.net/"
 commonlyOn: []
 gettingStarted: "Best for: High-anonymity OSINT; Tor-based anonymous communication for journalists and activists. See the official site linked above for details."

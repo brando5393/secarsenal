@@ -3,7 +3,7 @@ name: "sherlock"
 tagline: "Find usernames across social networks"
 categories: ["identity-information"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/sherlock/"
 downloadUrl: "https://github.com/sherlock-project/sherlock"
 repoUrl: "https://salsa.debian.org/pkg-security-team/sherlock"

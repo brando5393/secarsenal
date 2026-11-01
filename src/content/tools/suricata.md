@@ -3,7 +3,7 @@ name: "suricata"
 tagline: "An Open Source Next Generation Intrusion Detection and Prevention Engine."
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://suricata.io/download/"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "adape-script"
 tagline: "Active Directory Assessment and Privilege Escalation Script."
 categories: ["windows"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/windows.html"
 downloadUrl: "https://github.com/hausec/ADAPE-Script"
 commonlyOn: ["BlackArch"]

@@ -4,7 +4,7 @@ tagline: "Java decompiler with GUI."
 categories: ["java"]
 platforms: ["Linux"]
 license: "GNU General Public License (GPL) v3"
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/statically+analyze+code/java"
 downloadUrl: "https://java-decompiler.github.io/"
 commonlyOn: ["REMnux"]

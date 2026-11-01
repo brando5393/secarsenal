@@ -3,7 +3,7 @@ name: "msprobe"
 tagline: "Find on-prem Microsoft services to target for password spraying and enumeration."
 categories: ["ad"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/puzzlepeaches/msprobe"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

@@ -3,7 +3,7 @@ name: "jeb-mips"
 tagline: "Mips decompiler."
 categories: ["reversing"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/reversing.html"
 downloadUrl: "https://www.pnfsoftware.com/jeb/mips"
 commonlyOn: ["BlackArch"]

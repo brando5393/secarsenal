@@ -3,7 +3,7 @@ name: "nfdump"
 tagline: "A set of tools to collect and process netflow data."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/phaag/nfdump"
 commonlyOn: ["BlackArch"]

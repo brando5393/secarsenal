@@ -3,7 +3,7 @@ name: "python-bumpversion"
 tagline: "Version-bump your software with a single command"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/python-bumpversion"
 downloadUrl: "https://github.com/c4urself/bump2version"
 commonlyOn: ["ArchStrike"]

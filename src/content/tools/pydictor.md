@@ -3,7 +3,7 @@ name: "pydictor"
 tagline: "A useful hacker dictionary builder for a brute-force attack."
 categories: ["misc"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/misc.html"
 downloadUrl: "https://github.com/LandGrey/pydictor"
 commonlyOn: ["BlackArch"]

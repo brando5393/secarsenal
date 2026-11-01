@@ -3,7 +3,7 @@ name: "kismet-earth"
 tagline: "Various scripts to convert kismet logs to kml file to be used in Google Earth."
 categories: ["wireless"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/wireless.html"
 downloadUrl: "https://www.blackarch.org/"
 commonlyOn: ["BlackArch"]

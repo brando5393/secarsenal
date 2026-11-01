@@ -3,7 +3,7 @@ name: "msfpc"
 tagline: "MSFvenom Payload Creator (MSFPC)"
 categories: ["resource-development"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/msfpc/"
 downloadUrl: "https://github.com/g0tmi1k/msfpc"
 repoUrl: "https://gitlab.com/kalilinux/packages/msfpc"

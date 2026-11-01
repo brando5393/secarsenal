@@ -3,7 +3,7 @@ name: "inetsim"
 tagline: "Software suite for simulating common internet services"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/inetsim/"
 downloadUrl: "https://www.inetsim.org/index.html"
 repoUrl: "https://salsa.debian.org/pkg-security-team/inetsim"

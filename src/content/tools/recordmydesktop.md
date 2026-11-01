@@ -3,7 +3,7 @@ name: "recordmydesktop"
 tagline: "Captures audio-video data of a Linux desktop session"
 categories: ["reporting-tools"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/recordmydesktop/"
 downloadUrl: "https://enselic.github.io/recordmydesktop/"
 repoUrl: "https://salsa.debian.org/debian/recordmydesktop"

@@ -3,7 +3,7 @@ name: "detect-sniffer"
 tagline: "Tool that detects sniffers in the network."
 categories: ["defensive"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/defensive.html"
 downloadUrl: "https://github.com/galkan/tools/tree/master/detect_sniffer"
 commonlyOn: ["BlackArch"]

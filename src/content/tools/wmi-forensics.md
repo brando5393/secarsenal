@@ -3,7 +3,7 @@ name: "wmi-forensics"
 tagline: "Scripts used to find evidence in WMI repositories."
 categories: ["forensic"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/forensic.html"
 downloadUrl: "https://github.com/davidpany/WMI_Forensics"
 commonlyOn: ["BlackArch"]

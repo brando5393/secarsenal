@@ -3,7 +3,7 @@ name: "The Bump"
 tagline: "Baby registry finder from The Bump parenting platform. Search for baby registries by name to find gift lists."
 categories: ["people-search-engines"]
 platforms: ["Web"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://registry.thebump.com/babyregistrysearch"
 commonlyOn: []
 gettingStarted: "Best for: Finding baby registries by parent name. See the official site linked above for details."

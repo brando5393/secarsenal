@@ -3,7 +3,7 @@ name: "perl-crypt-des_ede3"
 tagline: "Perl module for triple-DES EDE encryption/decryption"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/perl-crypt-des_ede3"
 downloadUrl: "https://metacpan.org/pod/Crypt::DES_EDE3"
 commonlyOn: ["ArchStrike"]

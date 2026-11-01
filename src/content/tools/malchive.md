@@ -4,7 +4,7 @@ tagline: "Perform static analysis of various aspects of malicious code."
 categories: ["deobfuscation"]
 platforms: ["Linux"]
 license: "Apache License 2.0"
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/examine+static+properties/deobfuscation"
 downloadUrl: "https://github.com/MITRECND/malchive"
 commonlyOn: ["REMnux"]

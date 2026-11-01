@@ -3,7 +3,7 @@ name: "leaklooker"
 tagline: "Find open databases with Shodan."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://github.com/woj-ciech/LeakLooker"
 commonlyOn: ["BlackArch"]

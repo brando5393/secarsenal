@@ -3,7 +3,7 @@ name: "crawlic"
 tagline: "Web recon tool (find temporary files, parse robots.txt, search folders, google dorks and search domains hosted on same s"
 categories: ["webapp"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/webapp.html"
 downloadUrl: "https://github.com/Ganapati/Crawlic"
 commonlyOn: ["BlackArch"]

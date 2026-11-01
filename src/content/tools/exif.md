@@ -3,7 +3,7 @@ name: "exif"
 tagline: "Show and edit EXIF metadata in JPEG files"
 categories: ["general"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://github.com/libexif/exif"
 commonlyOn: []
 gettingStarted: "See the official site linked above for details."

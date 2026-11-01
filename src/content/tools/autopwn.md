@@ -3,7 +3,7 @@ name: "autopwn"
 tagline: "Specify targets and run sets of tools against them."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/nccgroup/autopwn"
 commonlyOn: ["BlackArch"]

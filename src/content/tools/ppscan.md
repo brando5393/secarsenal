@@ -3,7 +3,7 @@ name: "ppscan"
 tagline: "Yet another port scanner with HTTP and FTP tunneling support."
 categories: ["scanner"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/scanner.html"
 downloadUrl: "https://packetstormsecurity.com/files/82897/PPScan-Portscanner.3.html"
 commonlyOn: ["BlackArch"]

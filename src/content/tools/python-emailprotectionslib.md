@@ -3,7 +3,7 @@ name: "python-emailprotectionslib"
 tagline: "Python library to interact with SPF and DMARC"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/python-emailprotectionslib"
 downloadUrl: "https://github.com/lunarca/pyemailprotectionslib"
 commonlyOn: ["ArchStrike"]

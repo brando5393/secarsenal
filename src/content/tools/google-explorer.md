@@ -3,7 +3,7 @@ name: "google-explorer"
 tagline: "Google mass exploit robot - Make a google search, and parse the results for a especific exploit you define."
 categories: ["automation"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/automation.html"
 downloadUrl: "https://github.com/anarcoder/google_explorer"
 commonlyOn: ["BlackArch"]

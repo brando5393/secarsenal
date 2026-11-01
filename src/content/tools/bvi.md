@@ -3,7 +3,7 @@ name: "bvi"
 tagline: "A display-oriented editor for binary files operate like \"vi\" editor."
 categories: ["binary"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/binary.html"
 downloadUrl: "http://bvi.sourceforge.net/"
 commonlyOn: ["BlackArch"]

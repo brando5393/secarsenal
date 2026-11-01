@@ -3,7 +3,7 @@ name: "perl-test-checkdeps"
 tagline: "Check for presence of dependencies"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/perl-test-checkdeps"
 downloadUrl: "https://metacpan.org/pod/Test::CheckDeps"
 commonlyOn: ["ArchStrike"]

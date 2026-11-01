@@ -3,7 +3,7 @@ name: "bully"
 tagline: "Implementation of the WPS brute force attack, written in C"
 categories: ["wifi-credential-access"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/bully/"
 downloadUrl: "https://github.com/kimocoder/bully"
 repoUrl: "https://salsa.debian.org/pkg-security-team/bully"

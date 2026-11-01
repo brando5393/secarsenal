@@ -3,7 +3,7 @@ name: "udpastcp"
 tagline: "This program hides UDP traffic as TCP traffic in order to bypass certain firewalls."
 categories: ["networking"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/networking.html"
 downloadUrl: "https://github.com/Hello71/udpastcp"
 commonlyOn: ["BlackArch"]

@@ -3,7 +3,7 @@ name: "s3scanner"
 tagline: "Tool to find open S3 buckets and dump their contents"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/s3scanner/"
 downloadUrl: "https://github.com/sa7mon/s3scanner"
 repoUrl: "https://gitlab.com/kalilinux/packages/s3scanner"

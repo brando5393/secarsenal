@@ -3,7 +3,7 @@ name: "ldapwordlistharvester"
 tagline: "Tool to generate wordlist from information present in LDAP, in order to crack passwords of domain accounts."
 categories: ["wordlist"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/wordlist.html"
 downloadUrl: "https://github.com/p0dalirius/pyLDAPWordlistHarvester"
 commonlyOn: ["BlackArch"]

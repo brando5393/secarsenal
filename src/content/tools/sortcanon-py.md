@@ -4,7 +4,7 @@ tagline: "Sort text files using canonicalization functions built into this tool.
 categories: ["general-utilities"]
 platforms: ["Linux"]
 license: "Public Domain"
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/general+utilities"
 downloadUrl: "https://blog.didierstevens.com/2022/06/18/new-tool-sortcanon-py/"
 commonlyOn: ["REMnux"]

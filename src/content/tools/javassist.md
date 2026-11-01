@@ -4,7 +4,7 @@ tagline: "Java bytecode engineering toolkit/library."
 categories: ["java"]
 platforms: ["Linux"]
 license: "Mozilla Public License, GNU Lesser General Public License (LGPL) v2.1 or later, Apache License 2.0"
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://docs.remnux.org/discover-the-tools/statically+analyze+code/java"
 downloadUrl: "https://www.javassist.org/"
 commonlyOn: ["REMnux"]

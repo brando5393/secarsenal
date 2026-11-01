@@ -3,7 +3,7 @@ name: "python-faraday"
 tagline: "Collaborative Penetration Test IDE"
 categories: ["reporting-tools","system-services"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/python-faraday/"
 downloadUrl: "https://faradaysec.com"
 repoUrl: "https://gitlab.com/kalilinux/packages/python-faraday"

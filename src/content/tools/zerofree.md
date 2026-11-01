@@ -3,7 +3,7 @@ name: "zerofree"
 tagline: "Zero free blocks from ext2, ext3 and ext4 file-systems"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://www.kali.org/tools/zerofree/"
 downloadUrl: "https://frippery.org/uml/"
 repoUrl: "https://salsa.debian.org/debian/zerofree"

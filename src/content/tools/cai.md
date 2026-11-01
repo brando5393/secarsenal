@@ -3,7 +3,7 @@ name: "cai"
 tagline: "The framework for AI Security."
 categories: ["ai"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/ai.html"
 downloadUrl: "https://github.com/aliasrobotics/cai"
 commonlyOn: ["BlackArch"]

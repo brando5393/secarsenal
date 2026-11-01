@@ -3,7 +3,7 @@ name: "webshag"
 tagline: "A multi-threaded, multi-platform web server audit tool."
 categories: ["fuzzer"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/fuzzer.html"
 downloadUrl: "http://www.scrt.ch/en/attack/downloads/webshag"
 commonlyOn: ["BlackArch"]

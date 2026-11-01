@@ -3,7 +3,7 @@ name: "tilt-git"
 tagline: "Terminal Ip Lookup Tool"
 categories: ["uncategorized"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://archstrike.org/packages/tilt-git"
 downloadUrl: "https://github.com/AeonDave/tilt"
 commonlyOn: ["ArchStrike"]

@@ -3,7 +3,7 @@ name: "obexstress"
 tagline: "Script for testing remote OBEX service for some potential vulnerabilities."
 categories: ["bluetooth"]
 platforms: ["Linux"]
-lastVerified: 2026-10-31
+lastVerified: 2026-11-01
 docsUrl: "https://blackarch.org/bluetooth.html"
 downloadUrl: "http://bluetooth-pentest.narod.ru/"
 commonlyOn: ["BlackArch"]
