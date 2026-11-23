@@ -344,3 +344,30 @@ equivalent for redirects the way `customHttp.yml` covers headers, so
 that rule lives only in the Amplify console (Hosting → Rewrites and
 redirects) and would need to be re-added if the app were ever
 recreated.
+
+## Public MCP server
+
+`https://secarsenal.org/catalog.json` (`src/pages/catalog.json.ts`) is a
+public JSON export of both collections — anyone can consume it directly.
+
+`mcp-server/` is a separate [MCP](https://modelcontextprotocol.io) server,
+deployed as its own Cloudflare Worker at `https://mcp.secarsenal.org/mcp`,
+so Claude or any other MCP client can query the catalog without scraping
+rendered pages. It polls `catalog.json` on an hourly cron and caches the
+result in Workers KV; tool calls never touch this site's origin directly.
+Tools exposed: `search_tools`, `get_tool`, `search_os`, `get_os`,
+`list_categories` — all read-only, no auth. The route is rate-limited (a
+Cloudflare Rate Limiting rule, not app code) since it's open to the public
+internet. See `mcp-server/README.md` for the full data flow, deploy
+process, and its own `.github/workflows/deploy-mcp.yml`.
+
+## Support / funding
+
+SecArsenal has no ads, no paywalled content, and no sponsor placements. If
+you'd like to support hosting/maintenance costs, see
+[`/support`](./src/pages/support.astro) on the live site (also linked from
+the footer) — it explains the reasoning and links to the
+[Open Collective](https://opencollective.com/secarsenal), chosen
+specifically over something like Patreon because Open Collective publishes
+every dollar in and out on a public ledger, keeping the project's funding
+transparent rather than opaque.

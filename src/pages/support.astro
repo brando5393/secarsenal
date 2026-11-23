@@ -1,0 +1,64 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+---
+
+<BaseLayout
+  title="Support SecArsenal"
+  description="SecArsenal carries no ads and no sponsor placements. Optional, transparent, recurring support goes through Open Collective, where every dollar in and out is public."
+>
+  <div>
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Support' }]} />
+    <h1 class="text-3xl font-bold text-white">Support SecArsenal</h1>
+
+    <section class="mt-6">
+      <h2 class="text-lg font-semibold text-white">No ads, no sponsors</h2>
+      <p class="mt-2 text-gray-300 leading-relaxed">
+        SecArsenal doesn't run ads, sponsor placements, or paid listings —
+        no tool or distro on this site got here, or got ranked, because
+        someone paid for it. That's a deliberate choice: this is a
+        reference catalog, and a reference is only useful if its
+        selection can't be bought. Real costs still exist, though —
+        hosting, the domain, and the public MCP server (see
+        <a class="text-emerald-400 hover:text-emerald-300" href="https://github.com/brando5393/secarsenal/blob/master/mcp-server/README.md" rel="noopener noreferrer" target="_blank">mcp-server ↗</a>) —
+        and covering those with visible, optional community support beats
+        quietly adding the kind of monetization this page just ruled out.
+      </p>
+    </section>
+
+    <section class="mt-6">
+      <h2 class="text-lg font-semibold text-white">Why Open Collective</h2>
+      <p class="mt-2 text-gray-300 leading-relaxed">
+        Recurring support runs through
+        <a class="text-emerald-400 hover:text-emerald-300" href="https://opencollective.com/secarsenal" rel="noopener noreferrer" target="_blank">Open Collective ↗</a>,
+        not Patreon or a similar platform. Open Collective's whole model is
+        a public ledger — every contribution in and every expense out is
+        visible on the collective's page, not just a total. For a project
+        that indexes penetration-testing tools, that transparency matters
+        more than convenience: "publicly funded, dollar-for-dollar
+        visible" is a stronger, more legitimate footing than an opaque
+        tip jar.
+      </p>
+      <p class="mt-4">
+        <a
+          class="inline-block rounded-md bg-emerald-500 px-4 py-2 text-sm font-semibold text-gray-950 no-underline transition-colors hover:bg-emerald-400"
+          href="https://opencollective.com/secarsenal"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Open the collective ↗
+        </a>
+      </p>
+    </section>
+
+    <section class="mt-6">
+      <h2 class="text-lg font-semibold text-white">Other ways to help</h2>
+      <p class="mt-2 text-gray-300 leading-relaxed">
+        Money isn't the only useful contribution. Fixing a stale link,
+        adding a missing logo, or writing up a new OS/tool entry is worth
+        at least as much — see
+        <a class="text-emerald-400 hover:text-emerald-300" href="https://github.com/brando5393/secarsenal/blob/master/CONTRIBUTING.md" rel="noopener noreferrer" target="_blank">CONTRIBUTING.md ↗</a>.
+      </p>
+    </section>
+  </div>
+</BaseLayout>

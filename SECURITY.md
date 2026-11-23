@@ -154,6 +154,20 @@ blocking the page. Clearing browser data for the site resets both.
   closing-`</script>`-tag breakout while staying valid inside any JSON
   string.
 
+## Public JSON export and MCP server
+
+`src/pages/catalog.json.ts` publishes both collections as public JSON —
+no different in sensitivity from the rendered HTML pages, just
+machine-readable. `mcp-server/` (a separate Cloudflare Worker, own
+`package.json`/`wrangler.jsonc`/CI job) exposes the same data as
+read-only MCP tools at `mcp.secarsenal.org`. Neither surface adds any
+data beyond what's already public on the site, collects no PII, and
+accepts no writes. The MCP route is rate-limited at the Cloudflare edge
+(a dashboard Rate Limiting rule, not application code) since it's
+reachable from the open internet. Aggregate tool-call analytics (tool
+name + params only, never an IP or caller identity) are logged to
+Workers Analytics Engine — see `mcp-server/README.md`.
+
 ## Reporting a vulnerability
 
 Please open a [private security advisory](https://github.com/brando5393/secarsenal/security/advisories/new)

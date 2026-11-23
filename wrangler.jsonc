@@ -1,0 +1,17 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  // Assets-only deployment: the site is a fully static Astro build
+  // (output: 'static'), so there's no "main" Worker script/binding —
+  // Cloudflare just serves the built dist/ directory directly.
+  "name": "secarsenal",
+  "compatibility_date": "2026-09-07",
+  "assets": {
+    "directory": "./dist",
+    // Real 404.astro page already exists in the build (see
+    // src/pages/404.astro) — "404-page" serves it for unmatched
+    // routes with a genuine 404 status, as opposed to
+    // "single-page-application" mode (200 + index.html), which is for
+    // client-side-routed SPAs and doesn't apply to this multi-page site.
+    "not_found_handling": "404-page"
+  }
+}
